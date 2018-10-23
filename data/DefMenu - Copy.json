@@ -1,0 +1,54 @@
+[
+  {
+    "Navigation Menu": "TRUE",
+    "menuId": "bbcwbx.bbcode",
+    "argument": "",
+    "menuTitle": "bbCode",
+    "icons": {
+           "16": "icons/wbx-16.svg"
+             },
+    "parentId": ""
+  },
+  {
+    "Navigation Menu": "TRUE",
+    "menuId": "bbcwbx.bbcode.clp",
+    "argument": "",
+    "menuTitle": "Clipboard",
+    "icons": "",
+    "parentId": "bbcwbx.bbcode"
+  },
+  {
+    "Navigation Menu": "FALSE",
+    "menuId": "bbcwbx.bbcode.clp.quote",
+    "argument": "[quote{{popup,\"Please insert author name or leave empty:\"}}]{{clipboard}}[/quote]",
+    "menuTitle": "Quote",
+    "icons": "",
+    "parentId": "bbcwbx.bbcode.clp"
+  },
+  {
+    "Navigation Menu": "FALSE",
+    "menuId": "bbcwbx.bbcode.clp.code",
+    "argument": "[code]{{clipboard}}[/quote]",
+    "menuTitle": "Code",
+    "icons": "",
+    "parentId": "bbcwbx.bbcode.clp"
+  },
+  {
+    "Navigation Menu": "FALSE",
+    "menuId": "bbcwbx.bbcode.clp.list",
+    "argument": "{{createList,{{clipboard}},\"bbcode\"}}",
+    "menuTitle": "List",
+    "icons": "",
+    "parentId": "bbcwbx.bbcode.clp"
+  },
+  {
+    "Navigation Menu": "TRUE",
+    "menuId": "bbcwbx.htmlcode",
+    "argument": "",
+    "menuTitle": "HTMLCode",
+    "icons": {
+           "16": "icons/wbx-16.svg"
+             },
+    "parentId": ""
+  }
+]

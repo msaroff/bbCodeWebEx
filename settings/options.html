@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="options.css" rel="stylesheet" type="text/css" />
+    </head>
+<style>
+div.a {
+    line-height: normal;
+}
+
+div.b {
+    line-height: 1.6;
+}
+
+div.c {
+    line-height: 80%;
+}
+
+div.d {
+    line-height: 200%;
+}
+</style>
+    <body>
+        <h2>Settings</h2>
+        <form>
+                <table><td><label><input type="checkbox" id="bbCode" />Enable bbCode menu</label></td><td style="padding-left: 5em;"><label><input type="checkbox" id="HTML" />Enable HTML menu</label></td><tr>
+<td style="padding-left: 2em;"><label><input type="checkbox" id="VBulletin" />Enable Vbulletin submenu</label></td><td style="padding-left: 5em;"><label><input type="checkbox" id="XHTML" />Enable XHTML menu</label></td><tr>
+<td><label><input type="checkbox" id="Markdown" />Enable Markdown menu</label></td><td style="padding-left: 5em;"><label><input type="checkbox" id="Custom" />Enable Custom Tags menu</label></td><tr><td><label><input type="checkbox" id="Symbol" disabled="disabled" />Enable Symbol menu</label> (not yet implimented)</table>
+            <h3>Custom Tags</h3>
+            <textarea rows="10" cols="80" id="custom">
+            </textarea>
+            <button type="submit">Save</button>
+        </form>
+
+        <script src="options.js"></script>
+<br><h3>To backup custom tags, just copy the text in the dialogue box and save as a text file</h3><br>
+<hr>
+<h1>Instructions for customization</h1>
+<h2>Basics</h2>
+
+This program works by evaluating tokens.<br>
+<br>
+The basic tokens are:<br>
+<br>
+
+<table style="width: 800px;" border="1" cellspacing="3" cellpadding="3">
+<tbody>
+<tr style="height: 18px;">
+<td style="vertical-align: top; height: 18px;"><strong>Tag</strong></td>
+<td style="vertical-align: top; height: 18px;"><strong>Syntax</strong> (Case significant)</td>
+<td style="vertical-align: top; height: 18px;"><strong>Example</strong> (using bbCode, just because)</td>
+</tr>
+<tr style="height: 18px;">
+<td style="vertical-align: top; height: 18px;">&nbsp;Selection</td>
+<td style="vertical-align: top; height: 18px;">&nbsp;{{select}}</td>
+<td style="vertical-align: top; height: 18px;">&nbsp;<em>[b]{{select}}[/b]</em> Bolds selected text</td>
+</tr>
+<tr style="height: 18px;">
+<td style="vertical-align: top; height: 18px;">&nbsp;Clipboard</td>
+<td style="vertical-align: top; height: 18px;">&nbsp;{{clipboard}}</td>
+<td style="vertical-align: top; height: 18px;">&nbsp;<em>[b]{{clipboard}}[/b]</em> Pastes clipboard text as bold</td>
+</tr>
+<tr>
+<td style="vertical-align: top;">&nbsp;List</td>
+<td style="vertical-align: top;">&nbsp;{{list,text,type}}</td>
+<td style="vertical-align: top;"><em>{{list,{{clipboard}},bbcode}}</em> <br />Paste text as a bbCode unordered list. See below for current list types.</td>
+</tr>
+<tr style="height: 36px;">
+<td style="vertical-align: top; height: 36px;">Popup</td>
+<td style="vertical-align: top; height: 36px;">{{popup,title,start text, end text}}</td>
+<td style="vertical-align: top; height: 36px;"><em>[quote{{popup,"Enter Author","=\"","\""]{{clipboard}}[/quote]<br /></em>Pasts the clipboard as a quote, and prompt for author name.&nbsp; If left blank, then it is a simple "[quote]" tag.</td>
+</tr>
+</tbody>
+</table>
+<h2>Advanced</h2>
+
+<h3>List types:</h3>
+<b>bbCode</b><ul><li>bbCode Unordered (dots): <i>bbcode</i></li>
+<li>bbCode Ordered (numbers): <i>bbcodeord</i></li>
+<li>bbCode Alpha (alpha): <i>bbcodeordalf</i></li></ul>
+
+<b>HTML</b><ul><li>HTML Unordered (dots): <i>html</i></li>
+<li>HTML Ordered (number): <i>htmlord</i></li>
+<li>HTML Ordered (alpha): <i>htmlordalf</i><br></li></ul>
+<b>Markdown</b><ul><li>Markdown Unordered (dots): <i>markdown</i></li>
+<li>Markdown Ordered (number): <i>markdownord</i></li></ul>
+
+Quote marks: in thise circumstances where you need to put in a quote mark as an argument, you can escape the quote 
+mark by prepending a backslash "&lt;a href=\"", or you can use a single quote, '&lt;a href="'.
+
+    </body>
+
+</html>

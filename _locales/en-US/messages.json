@@ -1,0 +1,245 @@
+﻿{
+"bbcodewebex.menu_bbcodewebex": { 
+"message":  "bbCodeWebEx"
+},
+"bbcodewebex.menu_accelbbcodewebex": { 
+"message":  "b"
+},
+"bbcodewebex.menu_vbulletin": { 
+"message":  "VBulletin3"
+},
+"bbcodewebex.menu_accelvbulletin": { 
+"message":  "V"
+},
+"bbcodewebex.menu_htmlWebEx": { 
+"message":  "htmlWebEx"
+},
+"bbcodewebex.menu_accelhtmlWebEx": { 
+"message":  "h"
+},
+"bbcodewebex.menu_xhtmlWebEx": { 
+"message":  "xhtmlWebEx"
+},
+"bbcodewebex.menu_accelxhtmlWebEx": { 
+"message":  "x"
+},
+"bbcodewebex.menu_markdown": { 
+"message":  "Markdown"
+},
+"bbcodewebex.menu_accelmarkdown": { 
+"message":  "w"
+},
+"bbcodewebex.menu_customtags": { 
+"message":  "Custom Tags"
+},
+"bbcodewebex.menu_accelcustomtags": { 
+"message":  "u"
+},
+
+
+"bbcodewebex.clipboard": { 
+"message":  "Clipboard"
+},
+"bbcodewebex.accelClipboard": { 
+"message":  "C"
+},
+"bbcodewebex.accelColor": { 
+"message":  "l"
+},
+"bbcodewebex.options": { 
+"message":  "eWebEx"
+},
+"bbcodewebex.accelOptions": { 
+"message":  "X"
+},
+"bbcodewebex.quote": { 
+"message":  "Quote"
+},
+"bbcodewebex.code": { 
+"message":  "Code"
+},
+"bbcodewebex.list": { 
+"message":  "List"
+},
+"bbcodewebex.listord": { 
+"message":  "Ordered list"
+},
+"bbcodewebex.listalf": { 
+"message":  "Alphabetic list"
+},
+"bbcodewebex.spoiler": { 
+"message":  "Spoiler"
+},
+"bbcodewebex.img": { 
+"message":  "Image"
+},
+"bbcodewebex.imgselection": { 
+"message":  "Make image from selection"
+},
+"bbcodewebex.urlselection": { 
+"message":  "Make URL from selection"
+},
+"bbcodewebex.url": { 
+"message":  "URL"
+},
+"bbcodewebex.urlwithname": { 
+"message":  "URL with name"
+},
+"bbcodewebex.pickcolor": { 
+"message":  "Font Color"
+},
+"bbcodewebex.fontdim": { 
+"message":  "Font Size"
+},
+"bbcodewebex.urlwizard": { 
+"message":  "URL Wizard"
+},
+"bbcodewebex.bold": { 
+"message":  "Bold"
+},
+"bbcodewebex.italic": { 
+"message":  "Italic"
+},
+"bbcodewebex.underline": { 
+"message":  "Underlined"
+},
+"bbcodewebex.strike": { 
+"message":  "Striked"
+},
+"bbcodewebex.vbulthread": { 
+"message":  "Thread"
+},
+"bbcodewebex.vbulpost": { 
+"message":  "Post"
+},
+"bbcodewebex.vbulright": { 
+"message":  "Align right"
+},
+"bbcodewebex.vbulleft": { 
+"message":  "Align left"
+},
+"bbcodewebex.vbulcenter": { 
+"message":  "Center"
+},
+"bbcodewebex.vbulindent": { 
+"message":  "Indent"
+},
+"bbcodewebex.vbulhighlight": { 
+"message":  "Highlight"
+},
+"bbcodewebex.settingsmenu": { 
+"message":  "bbCodeWebEx settingsâ€¦"
+},
+"bbcodewebex.disablemenu": { 
+"message":  "Disable this menu"
+},
+
+
+"bbcodewebex.pickcolor.title": { 
+"message":  "Pick a color"
+},
+"bbcodewebex.pickcolor.description": { 
+"message":  "Select the font color from the list"
+},
+"bbcodewebex.pickcolor.lastcolor": { 
+"message":  "Last used color :"
+},
+
+
+"bbcodewebex.settings.title": { 
+"message":  "bbCodeWebEx Settings"
+},
+"bbcodewebex.settings.width": { 
+"message":  "38em;"
+},
+
+
+"bbcodewebex.settings.menu": { 
+"message":  "Menus"
+},
+"bbcodewebex.settings.customtags": { 
+"message":  "Custom Tags"
+},
+
+
+"bbcodewebex.settings.menu.description": { 
+"message":  "Select items to display in the context menu"
+},
+"bbcodewebex.settings.menu.enablebbcode": { 
+"message":  "Enable bbcode menu"
+},
+"bbcodewebex.settings.menu.enablebbcode.vbulletin": { 
+"message":  "enable VBulletin submenu"
+},
+"bbcodewebex.settings.menu.enablehtml": { 
+"message":  "Enable HTML menu"
+},
+"bbcodewebex.settings.menu.enablexhtml": { 
+"message":  "Enable XHTML menu"
+},
+"bbcodewebex.settings.menu.enablemarkdown": { 
+"message":  "Enable Markdown menu"
+},
+"bbcodewebex.settings.menu.enablecustom": { 
+"message":  "Enable Custom Tags menu"
+},
+"bbcodewebex.settings.managesettings": { 
+"message":  "Manage settings"
+},
+"bbcodewebex.settings.backupdescription": { 
+"message":  "WARNING: importing settings will overwrite all existing settings."
+},
+"bbcodewebex.settings.btnimport": { 
+"message":  "Import settingsâ€¦"
+},
+"bbcodewebex.settings.btnexport": { 
+"message":  "Export settingsâ€¦"
+},
+
+
+"bbcodewebex.settings.customtags.totaltags": { 
+"message":  "Available Custom Tags:"
+},
+"bbcodewebex.settings.customtags.btnadd": { 
+"message":  "Addâ€¦"
+},
+"bbcodewebex.settings.customtags.btnedit": { 
+"message":  "Editâ€¦"
+},
+"bbcodewebex.settings.customtags.btndelete": { 
+"message":  "Deleteâ€¦"
+},
+"bbcodewebex.settings.customtags.moveUp": { 
+"message":  "Move Up"
+},
+"bbcodewebex.settings.customtags.moveDown": { 
+"message":  "Move Down"
+},
+"bbcodewebex.settings.customtags.sortAlpha": { 
+"message":  "Sort alphabetically"
+},
+"bbcodewebex.settings.customtags.moreinfo": { 
+"message":  "More info and examples"
+},
+
+"bbcodewebex.settings.customtags.moreinfolink": { 
+"message":  "http://www.yetanothertechblog.com/bbcodextra"
+},
+
+
+"bbcodewebex.settings.customtags.variables": { 
+"message":  "Available variables"
+},
+"bbcodewebex.settings.customtags.varclipboard": { 
+"message":  "clipboard content"
+},
+"bbcodewebex.settings.customtags.varselection": { 
+"message":  "selected text"
+},
+"bbcodewebex.settings.customtags.label": { 
+"message":  "Item name:"
+},
+"bbcodewebex.settings.customtags.action": { 
+"message":  "Code:"
+}
+}
