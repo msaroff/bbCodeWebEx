@@ -22,14 +22,12 @@ Wrote the code used to access the contents of the clipboard, available at https:
 ## Health Warning
 This is profoundly ugly code, and the author assumes no responsibility for any of the following conditions that might develop as a result:
 
-```
-Blindness
-Post traumatic stress disorder
-Hairy palms
-Cancer
-Intestional distress.
 
-```
+* Blindness
+* Post traumatic stress disorder
+* Hairy palms
+* Cancer
+* Intestional distress.
 
 
 Seriously, this is Vogon code Javascript.
