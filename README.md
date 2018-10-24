@@ -5,7 +5,7 @@ This uses the context menu to automate the insertion of various codes (bbCode, H
 
 Currently in pre alpha development.
 
-##Firefox Versions
+## Firefox Versions
 This extension supports Firefox 57 and above.
 
 ## Customization
