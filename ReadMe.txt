@@ -1,39 +1,38 @@
-Begin Acknowledgements:
+bbCodeWebEx
 
+A Webextensions Version of the Firefox extension bbCodeXtra, which is legacy (pre Quantum) extension.
+
+This uses the context menu to automate the insertion of various codes (bbCode, HTML, XHTML, Vbulletin, Markdown) using a context menu.
+
+Currently in pre alpha development.
+Firefox Versions
+
+This extension supports Firefox 57 and above.
+Customization
+
+Users will be able to create their own custom tags and symbols as well as turning on and off code menus. (Not yet implemented)
+Acknowledgements
 Francesco Lodolo [:flod]
 
-Who wrote the program bbCodeXtra (https://addons.mozilla.org/en-US/firefox/addon/bbcodextra/),
-which this program hews to as closely as possible.
+Wrote the program bbCodeXtra (https://addons.mozilla.org/en-US/firefox/addon/bbcodextra/), which (with his permission) this program hews to as closely as possible.
 
-I have with his permission.
+Additionally, I am using the internatinal language codes he maintained for bbCodeXtra, as well as an almost direct copy of the code he used to generate lists.
+Niklas Gollenstede [NilkasG]
 
-The code dealing with lists is a marginally modified copy of what is in his bbCodeXtra.
+Wrote the code used to access the contents of the clipboard, available at https://github.com/NiklasGollenstede/es6lib/, specifically the dom.js file.
+License
 
-I have attempted duplicate the basic menu structure to the maximum degree, but the 
-custom tags use a different syntax.
+This code is licensed under the Church of the Flying Spaghetti Monster, which is identical to the TBD free and open source license, except that an addendum is added as performance art requiring users to go outside and play pirate, or make pasta, every so often.
 
-To read the contents of the clipboard, I have used slightly modified the code from
-Skim the clipboard (https://addons.mozilla.org/en-US/firefox/addon/skim-the-clipboard/)
-developed by François Rappaz (rappazf).
+This addendum has no force of law, nor any effect on the rest of the document and is actually a form of performance art, and as such this addendum is licensed under the Creative Commons Attribution 4.0 International Public License.
+Health Warning
 
-End Acknowledgements:
+This is profoundly ugly code, and the author assumes no responsibility for any of the following conditions that might develop as a result of reading said code:
 
-Quick instructions:  (there are more on the settings page)
+    Blindness
+    Post traumatic stress disorder
+    Hairy palms
+    Cancer
+    Intestional distress.
 
-To back up the custom tags, just copy to a text file from the dialogue box on the settings page, and save it.
-
-
-*/
-
-Warning:  This is profoundly ugly code.  A detailed inspection while sober may result in:
-    * Insanity
-    * Sterility
-    * Impotence
-    * Hair in the palm of the hands
-    * Listening to Nickelback
-    * The wrath of the Flying Spaghetti monster.
-    * Your large intestine leaping up and throttling your brain in an attempt to save
-      life itself.  (Apologies to Douglas Adams)
-
-More seriously, I know that my coding is complete junk, and my only virtue is sheer bloody 
-mindedness, which makes this the equivalent of Vogon JavaScript.
+Seriously, this is Vogon code Javascript, and I keep expecting a bodily organ to leap up and throttle my brain.
