@@ -19,6 +19,11 @@ which (with his permission) this program hews to as closely as possible.
 #### Niklas Gollenstede \[NilkasG]
 Wrote the code used to access the contents of the clipboard, available at https://github.com/NiklasGollenstede/es6lib/, specifically the dom.js file.
 
+## License
+This code is licensed under the Church of the Flying Spaghetti Monster, which is identical to the TBD free and open source license, except that an addendum is added as performance art requiring users to go outside and play pirate, or make pasta, every so often.
+
+This addendum has no force of law, nor any effect on the rest of the document and is actually a form of performance art, and as such this addendum is licensed under the Creative Commons Attribution 4.0 International Public License.
+
 ## Health Warning
 This is profoundly ugly code, and the author assumes no responsibility for any of the following conditions that might develop as a result of reading said code:
 * Blindness
@@ -26,9 +31,6 @@ This is profoundly ugly code, and the author assumes no responsibility for any o
 * Hairy palms
 * Cancer
 * Intestional distress.
+
 Seriously, this is Vogon code Javascript.
 
-## License
-This code is licensed under the Church of the Flying Spaghetti Monster, which is identical to the TBD free and open source license, except that an addendum is added as performance art requiring users to go outside and play pirate, or make pasta, every so often.
-
-This addendum has no force of law, nor any effect on the rest of the document and is actually a form of performance art, and as such this addendum is licensed under the Creative Commons Attribution 4.0 International Public License.
