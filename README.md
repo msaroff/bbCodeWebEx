@@ -16,6 +16,8 @@ Users will be able to create their own custom tags and symbols as well as turnin
 Wrote the program bbCodeXtra (https://addons.mozilla.org/en-US/firefox/addon/bbcodextra/),
 which (with his permission) this program hews to as closely as possible.
 
+Additionally, I am using the internatinal language codes he maintained for bbCodeXtra, as well as an almost direct copy of the code he used to generate lists.
+
 #### Niklas Gollenstede \[NilkasG]
 Wrote the code used to access the contents of the clipboard, available at https://github.com/NiklasGollenstede/es6lib/, specifically the dom.js file.
 
@@ -32,5 +34,5 @@ This is profoundly ugly code, and the author assumes no responsibility for any o
 * Cancer
 * Intestional distress.
 
-Seriously, this is Vogon code Javascript.
+Seriously, this is Vogon code Javascript, and I keep expecting a bodily organ to leap up and throttle my brain.
 
