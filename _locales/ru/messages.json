@@ -1,0 +1,320 @@
+﻿{
+    "bbcwbx.bbcode": {
+        "message": "bbCode"
+    },
+    "bbcwbx.bbcode.clp": {
+        "message": "Буфер обмена"
+    },
+    "bbcwbx.bbcode.clp.quote": {
+        "message": "Цитата"
+    },
+    "bbcwbx.bbcode.clp.code": {
+        "message": "Код"
+    },
+    "bbcwbx.bbcode.clp.list": {
+        "message": "Список"
+    },
+    "bbcwbx.bbcode.clp.ordlist": {
+        "message": "Отсортированный список"
+    },
+    "bbcwbx.bbcode.clp.alphalist": {
+        "message": "Список по алфавиту"
+    },
+    "bbcwbx.bbcode.clp.spoiler": {
+        "message": "Spoiler"
+    },
+    "bbcwbx.bbcode.clp.image": {
+        "message": "Изображение"
+    },
+    "bbcwbx.bbcode.clp.mkurlsel": {
+        "message": "Сделайте выбор ссылки"
+    },
+    "bbcwbx.bbcode.clp.url": {
+        "message": "Ссылка"
+    },
+    "bbcwbx.bbcode.clp.urlname": {
+        "message": "Ссылка с именем"
+    },
+    "bbcwbx.bbcode.wbx": {
+        "message": "WebEx"
+    },
+    "bbcwbx.bbcode.wbx.quote": {
+        "message": "Цитата"
+    },
+    "bbcwbx.bbcode.wbx.code": {
+        "message": "Код"
+    },
+    "bbcwbx.bbcode.wbx.list": {
+        "message": "Список"
+    },
+    "bbcwbx.bbcode.wbx.ordlist": {
+        "message": "Отсортированный список"
+    },
+    "bbcwbx.bbcode.wbx.alphalist": {
+        "message": "Список по алфавиту"
+    },
+    "bbcwbx.bbcode.wbx.spoiler": {
+        "message": "Spoiler"
+    },
+    "bbcwbx.bbcode.wbx.fntcol": {
+        "message": "Цвет шрифта"
+    },
+    "bbcwbx.bbcode.wbx.fntsz": {
+        "message": "Кегль шрифта"
+    },
+    "bbcwbx.bbcode.wbx.urlname": {
+        "message": "Ссылка с именем"
+    },
+    "bbcwbx.bbcode.wbx.urlwiz": {
+        "message": "Ссылка с помощником"
+    },
+    "bbcwbx.bbcode.vbl": {
+        "message": "VBulletin3"
+    },
+    "bbcwbx.bbcode.vbl.thd": {
+        "message": "Тема"
+    },
+    "bbcwbx.bbcode.vbl.pst": {
+        "message": "Сообщение"
+    },
+    "bbcwbx.bbcode.vbl.alnlf": {
+        "message": "По правому краю"
+    },
+    "bbcwbx.bbcode.vbl.alnrt": {
+        "message": "По левому краю"
+    },
+    "bbcwbx.bbcode.vbl.ctr": {
+        "message": "По центру"
+    },
+    "bbcwbx.bbcode.vbl.indnt": {
+        "message": "Индент"
+    },
+    "bbcwbx.bbcode.vbl.hilt": {
+        "message": "Подсветить"
+    },
+    "bbcwbx.bbcode.bold": {
+        "message": "Полужирный"
+    },
+    "bbcwbx.bbcode.ital": {
+        "message": "Наклонный"
+    },
+    "bbcwbx.bbcode.undrln": {
+        "message": "Подчёркнутый"
+    },
+    "bbcwbx.bbcode.img": {
+        "message": "Изображение"
+    },
+    "bbcwbx.bbcode.url": {
+        "message": "Ссылка"
+    },
+    "bbcwbx.html": {
+        "message": "HTML"
+    },
+    "bbcwbx.html.clp": {
+        "message": "Буфер обмена"
+    },
+    "bbcwbx.html.clp.quote": {
+        "message": "Цитата"
+    },
+    "bbcwbx.html.clp.code": {
+        "message": "Код"
+    },
+    "bbcwbx.html.clp.list": {
+        "message": "Список"
+    },
+    "bbcwbx.html.clp.ordlist": {
+        "message": "Отсортированный список"
+    },
+    "bbcwbx.html.clp.alphalist": {
+        "message": "Список по алфавиту"
+    },
+    "bbcwbx.html.clp.image": {
+        "message": "Изображение"
+    },
+    "bbcwbx.html.clp.mkurlsel": {
+        "message": "Сделайте выбор ссылки"
+    },
+    "bbcwbx.html.clp.url": {
+        "message": "Ссылка"
+    },
+    "bbcwbx.html.clp.urlname": {
+        "message": "Ссылка с именем"
+    },
+    "bbcwbx.html.wbx": {
+        "message": "WebEx"
+    },
+    "bbcwbx.html.wbx.quote": {
+        "message": "Цитата"
+    },
+    "bbcwbx.html.wbx.code": {
+        "message": "Код"
+    },
+    "bbcwbx.html.wbx.list": {
+        "message": "Список"
+    },
+    "bbcwbx.html.wbx.ordlist": {
+        "message": "Отсортированный список"
+    },
+    "bbcwbx.html.wbx.alphalist": {
+        "message": "Список по алфавиту"
+    },
+    "bbcwbx.html.wbx.urlname": {
+        "message": "Ссылка с именем"
+    },
+    "bbcwbx.html.wbx.urlwiz": {
+        "message": "Ссылка с помощником"
+    },
+    "bbcwbx.html.bold": {
+        "message": "Полужирный"
+    },
+    "bbcwbx.html.ital": {
+        "message": "Наклонный"
+    },
+    "bbcwbx.html.undrln": {
+        "message": "Подчёркнутый"
+    },
+    "bbcwbx.html.strk": {
+        "message": "Зачёркнутый"
+    },
+    "bbcwbx.html.img": {
+        "message": "Изображение"
+    },
+    "bbcwbx.html.url": {
+        "message": "Ссылка"
+    },
+    "bbcwbx.xhtml": {
+        "message": "XHTML"
+    },
+    "bbcwbx.xhtml.clp": {
+        "message": "Буфер обмена"
+    },
+    "bbcwbx.xhtml.clp.quote": {
+        "message": "Цитата"
+    },
+    "bbcwbx.xhtml.clp.code": {
+        "message": "Код"
+    },
+    "bbcwbx.xhtml.clp.list": {
+        "message": "Список"
+    },
+    "bbcwbx.xhtml.clp.ordlist": {
+        "message": "Отсортированный список"
+    },
+    "bbcwbx.xhtml.clp.alphalist": {
+        "message": "Список по алфавиту"
+    },
+    "bbcwbx.xhtml.img": {
+        "message": "Изображение"
+    },
+    "bbcwbx.xhtml.clp.mkurlsel": {
+        "message": "Сделайте выбор ссылки"
+    },
+    "bbcwbx.xhtml.clp.url": {
+        "message": "Ссылка"
+    },
+    "bbcwbx.xhtml.clp.urlname": {
+        "message": "Ссылка с именем"
+    },
+    "bbcwbx.xhtml.wbx": {
+        "message": "WebEx"
+    },
+    "bbcwbx.xhtml.wbx.quote": {
+        "message": "Цитата"
+    },
+    "bbcwbx.xhtml.wbx.code": {
+        "message": "Код"
+    },
+    "bbcwbx.xhtml.wbx.list": {
+        "message": "Список"
+    },
+    "bbcwbx.xhtml.wbx.ordlist": {
+        "message": "Отсортированный список"
+    },
+    "bbcwbx.xhtml.wbx.alphalist": {
+        "message": "Список по алфавиту"
+    },
+    "bbcwbx.xhtml.wbx.urlname": {
+        "message": "Ссылка с именем"
+    },
+    "bbcwbx.xhtml.wbx.urlwiz": {
+        "message": "Ссылка с помощником"
+    },
+    "bbcwbx.xhtml.bold": {
+        "message": "Полужирный"
+    },
+    "bbcwbx.xhtml.ital": {
+        "message": "Наклонный"
+    },
+    "bbcwbx.xhtml.undrln": {
+        "message": "Подчёркнутый"
+    },
+    "bbcwbx.xhtml.strk": {
+        "message": "Зачёркнутый"
+    },
+    "bbcwbx.xhtml.image": {
+        "message": "Изображение"
+    },
+    "bbcwbx.xhtml.url": {
+        "message": "Ссылка"
+    },
+    "bbcwbx.custom": {
+        "message": "Пользовательские теги"
+    },
+    "bbcwbx.mkdn": {
+        "message": "Markdown"
+    },
+    "bbcwbx.mkdn.clp": {
+        "message": "Буфер обмена"
+    },
+    "bbcwbx.mkdn.clp.quote": {
+        "message": "Цитата"
+    },
+    "bbcwbx.mkdn.clp.code": {
+        "message": "Код"
+    },
+    "bbcwbx.mkdn.clp.list": {
+        "message": "Список"
+    },
+    "bbcwbx.mkdn.clp.ordlist": {
+        "message": "Отсортированный список"
+    },
+    "bbcwbx.mkdn.clp.mkurlsel": {
+        "message": "Сделайте выбор ссылки"
+    },
+    "bbcwbx.mkdn.clp.mkimgsel": {
+        "message": "Make image from selection"
+    },
+    "bbcwbx.mkdn.clp.urlname": {
+        "message": "Ссылка с именем"
+    },
+    "bbcwbx.mkdn.wbx": {
+        "message": "WebEx"
+    },
+    "bbcwbx.mkdn.wbx.quote": {
+        "message": "Цитата"
+    },
+    "bbcwbx.mkdn.wbx.code": {
+        "message": "Код"
+    },
+    "bbcwbx.mkdn.wbx.list": {
+        "message": "Список"
+    },
+    "bbcwbx.mkdn.wbx.ordlist": {
+        "message": "Отсортированный список"
+    },
+    "bbcwbx.mkdn.wbx.urlname": {
+        "message": "Ссылка с именем"
+    },
+    "bbcwbx.mkdn.wbx.urlwiz": {
+        "message": "Ссылка с помощником"
+    },
+    "bbcwbx.mkdn.bold": {
+        "message": "Полужирный"
+    },
+    "bbcwbx.mkdn.ital": {
+        "message": "Наклонный"
+    },
+    "bbcwbx.mkdn.strk": {
+        "message": "Зачёркнутый"
+    }
+}

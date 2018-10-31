@@ -17,40 +17,71 @@
         CommandParse(commandString);
     });
 
+
+async function getColor(mkColor) {
+    let fontColor = await pickColor();
+    console.log("font color " + fontColor);
+    console.log("mkColor " + mkColor);
+    mkColor = mkColor.replace(/{{fontcol}}/g, fontColor);
+    console.log("mkColor " + mkColor);
+    return mkColor;
+}
+
+// check out code from NilkasGNiklas Gollenstede
+
+function clickElement(element) {
+	const evt = document.createEvent('MouseEvents');
+	evt.initEvent('click', true, true);
+	element.dispatchEvent(evt);
+	return element;
+}
+
+function pickColor() { return new Promise(resolve => {
+	const input = document.createElement('input'); input.type = 'color';
+	input.addEventListener('change', () => resolve(input.value));
+	clickElement.call(window, input);
+}); }
+
+someElement.onclick = async () => {
+	const color = (await pickColor());
+	console.log(color);
+};
+
+//endcode from NilkasGNiklas Gollenstede
+
+
+
     /*
-    Popup has the format of {{ppopup,title,text before, text after}}
+    Popup has the format of {{zzppopup,title,text before, text after}}
     */
     function popThisUp(popArg) {
-        popStartIdx = popArg.indexOf("{{popup"); // start of popup argument in commend string
+        popStartIdx = popArg.indexOf("{{zzpopup"); // start of popup argument in commend string
         popEndIdx = popArg.indexOf("}}", popStartIdx) + 2; // end of popup argument in command string
-        popWork = popArg.substring(popStartIdx, popEndIdx);; // extract the portion of the argument that has to do with making the popup
-        console.log("popwork: " + popWork);
-        popWork = popWork.substring(8, popWork.length - 2); //remove the "{{popup," from the beginning of  argument, and "}}" from the end.
-        console.log("popwork: " + popWork);
-        popTitle = popWork.substring(0, popWork.indexOf(",")); //Title for popup
+        popWork = popArg.substring(popStartIdx, popEndIdx); // extract the portion of the argument that has to do with making the popup
+console.log(popWork);
+        popWork = popWork.substring(10, popWork.length - 2); //remove the "{{zzpopup," from the beginning of  argument, and "}}" from the end.
+        popTitle = popWork.substring(0, popWork.indexOf(",")); // popup title, possibly including i18n localization tag
+console.log(popTitle);
+            if (popTitle.includes("i18n")) { //if there is a localization tag
+                popTitle = browser.i18n.getMessage(popTitle.substring(5));  // replace with i18n value
+console.log(popTitle);
+            }
         popWork = popWork.substring(popWork.indexOf(",") + 1) //drop title from popwork
-        console.log("popwork:z " + popWork);
         popupBefore = popWork.substring(0, popWork.indexOf(",")) //text to be added before entered text
-        console.log("popupBefore: " + popupBefore);
         popupAfter = popWork.substring(popWork.lastIndexOf(",")) //text to be added before entered text
-        console.log("popupAfter: " + popupAfter);
         let popupResp = prompt(popTitle);
         if (popupResp === null || popupResp === "") { // if the prompt is left blank, produce empty response
             popupResp = "";
             popupBefore = "";
             popupAfter = "";
         }
-        console.log("popupBefore:x " + popupBefore);
-        console.log("popupAfter:x " + popupAfter);
-        console.log("popArgFin: " + popArg);
         popArg = popArg.substring(0, popStartIdx) + popupBefore + popupResp + popupAfter + popArg.substring(popEndIdx); 
 //add in whatever you got from         the dialog box
-        console.log("popArgFin: " + popArg);
         return popArg;
     }
 
     /*
-    List has the format of {{makeList,test to make list,type of list}}
+    List has the format of {{makeList,thing to make into list,type of list}}
     */
     function makeList(listArg) {
         let listStartIdx = listArg.indexOf("{{list"); // start of list argument in commend string
@@ -64,22 +95,17 @@
     }
 
 
-
     async function CommandParse(argString) {
         //       Get Info About Textbox
         // check out document.activeElement
         var selectedTextArea = document.activeElement;
-        console.log("document.activeElement: " + selectedTextArea);
         let TextBoxName = clickedElement.getAttribute('name');
-        console.log("Text Box Name: " + clickedElement.getAttribute('name'));
         // some text boxes do not have an id assigned, but they do have a name assigned, if so, use the name
         if (clickedElement.getAttribute('id') == null || clickedElement.getAttribute('id') == "") {
             TextBoxID = TextBoxName;
         } else {
             TextBoxID = clickedElement.getAttribute('id');
         }
-        console.log("Text Box Id: " + clickedElement.getAttribute('id'));
-        console.log("Text Box Id1: " + TextBoxID);
         let FocusInfo = document.activeElement;
         let txtcont = document.getElementById(TextBoxID).value; //contents of edit box
         let selstart = clickedElement.selectionStart; // index of selectin start
@@ -87,23 +113,22 @@
         let selcont = txtcont.substring(selstart, selend); // selected text content
         let firsttext = txtcont.substring(0, selstart); //stuff before the selection
         let lasttext = txtcont.substring(selend); // stuff after the selection
-        //    console.log("Argument:", argString);
-        if (argString.indexOf("{{clipboard}}") >= 0) { // Replace clipboard tag with clipboard contents
+        if (argString.includes("{{clipboard}}")) { // Replace clipboard tag with clipboard contents
             const clipcont = await readFromClipboard('text/plain');
-            //        console.log('Clipboard Content is:', clipcont);
             argString = argString.replace(/{{clipboard}}/g, clipcont);
-            //        console.log('New Argument is', argString);
         }
-        if (argString.indexOf("{{selection}}") >= 0) { // Replace selection tag with selection value 
-            //        console.log('Selected Content is:', selcont);
+        if (argString.includes("{{selection}}")) { // Replace selection tag with selection value 
             argString = argString.replace(/{{selection}}/g, selcont);
-            //        console.log('New Argument is', argString);
         }
-        if (argString.indexOf("{{popup") >= 0) { // Invoke popup query function
+        if (argString.includes("{{zzpopup")) { // Invoke popup query function
             argString = popThisUp(argString);
         }
-        if (argString.indexOf("{{makeList") >= 0) { // Invoke list creation function
+        if (argString.includes("{{makeList")) { // Invoke list creation function
             argString = makeList(argString);
+        }
+        if (argString.includes("fontcol")) { // Invoke font color wheel
+            argString = await getColor(argString);
+              
         }
 
 

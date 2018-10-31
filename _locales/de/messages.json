@@ -1,0 +1,320 @@
+﻿{
+    "bbcwbx.bbcode": {
+        "message": "bbCode"
+    },
+    "bbcwbx.bbcode.clp": {
+        "message": "Zwischenablage"
+    },
+    "bbcwbx.bbcode.clp.quote": {
+        "message": "Zitieren"
+    },
+    "bbcwbx.bbcode.clp.code": {
+        "message": "Code"
+    },
+    "bbcwbx.bbcode.clp.list": {
+        "message": "Liste"
+    },
+    "bbcwbx.bbcode.clp.ordlist": {
+        "message": "Geordnete Liste"
+    },
+    "bbcwbx.bbcode.clp.alphalist": {
+        "message": "Alphabetische Liste"
+    },
+    "bbcwbx.bbcode.clp.spoiler": {
+        "message": "Spoiler"
+    },
+    "bbcwbx.bbcode.clp.image": {
+        "message": "Grafik"
+    },
+    "bbcwbx.bbcode.clp.mkurlsel": {
+        "message": "URL aus Markierung erzeugen"
+    },
+    "bbcwbx.bbcode.clp.url": {
+        "message": "URL"
+    },
+    "bbcwbx.bbcode.clp.urlname": {
+        "message": "Benannte URL"
+    },
+    "bbcwbx.bbcode.wbx": {
+        "message": "WebEx"
+    },
+    "bbcwbx.bbcode.wbx.quote": {
+        "message": "Zitieren"
+    },
+    "bbcwbx.bbcode.wbx.code": {
+        "message": "Code"
+    },
+    "bbcwbx.bbcode.wbx.list": {
+        "message": "Liste"
+    },
+    "bbcwbx.bbcode.wbx.ordlist": {
+        "message": "Geordnete Liste"
+    },
+    "bbcwbx.bbcode.wbx.alphalist": {
+        "message": "Alphabetische Liste"
+    },
+    "bbcwbx.bbcode.wbx.spoiler": {
+        "message": "Spoiler"
+    },
+    "bbcwbx.bbcode.wbx.fntcol": {
+        "message": "Schriftfarbe"
+    },
+    "bbcwbx.bbcode.wbx.fntsz": {
+        "message": "Schriftgröße"
+    },
+    "bbcwbx.bbcode.wbx.urlname": {
+        "message": "Benannte URL"
+    },
+    "bbcwbx.bbcode.wbx.urlwiz": {
+        "message": "URL-Wizard"
+    },
+    "bbcwbx.bbcode.vbl": {
+        "message": "VBulletin3"
+    },
+    "bbcwbx.bbcode.vbl.thd": {
+        "message": "Thread"
+    },
+    "bbcwbx.bbcode.vbl.pst": {
+        "message": "Post"
+    },
+    "bbcwbx.bbcode.vbl.alnlf": {
+        "message": "Rechtsbündig"
+    },
+    "bbcwbx.bbcode.vbl.alnrt": {
+        "message": "Linksbündig"
+    },
+    "bbcwbx.bbcode.vbl.ctr": {
+        "message": "Zentrieren"
+    },
+    "bbcwbx.bbcode.vbl.indnt": {
+        "message": "Einrücken"
+    },
+    "bbcwbx.bbcode.vbl.hilt": {
+        "message": "Markieren"
+    },
+    "bbcwbx.bbcode.bold": {
+        "message": "Fett"
+    },
+    "bbcwbx.bbcode.ital": {
+        "message": "Kursiv"
+    },
+    "bbcwbx.bbcode.undrln": {
+        "message": "Unterstrichen"
+    },
+    "bbcwbx.bbcode.img": {
+        "message": "Grafik"
+    },
+    "bbcwbx.bbcode.url": {
+        "message": "URL"
+    },
+    "bbcwbx.html": {
+        "message": "HTML"
+    },
+    "bbcwbx.html.clp": {
+        "message": "Zwischenablage"
+    },
+    "bbcwbx.html.clp.quote": {
+        "message": "Zitieren"
+    },
+    "bbcwbx.html.clp.code": {
+        "message": "Code"
+    },
+    "bbcwbx.html.clp.list": {
+        "message": "Liste"
+    },
+    "bbcwbx.html.clp.ordlist": {
+        "message": "Geordnete Liste"
+    },
+    "bbcwbx.html.clp.alphalist": {
+        "message": "Alphabetische Liste"
+    },
+    "bbcwbx.html.clp.image": {
+        "message": "Grafik"
+    },
+    "bbcwbx.html.clp.mkurlsel": {
+        "message": "URL aus Markierung erzeugen"
+    },
+    "bbcwbx.html.clp.url": {
+        "message": "URL"
+    },
+    "bbcwbx.html.clp.urlname": {
+        "message": "Benannte URL"
+    },
+    "bbcwbx.html.wbx": {
+        "message": "WebEx"
+    },
+    "bbcwbx.html.wbx.quote": {
+        "message": "Zitieren"
+    },
+    "bbcwbx.html.wbx.code": {
+        "message": "Code"
+    },
+    "bbcwbx.html.wbx.list": {
+        "message": "Liste"
+    },
+    "bbcwbx.html.wbx.ordlist": {
+        "message": "Geordnete Liste"
+    },
+    "bbcwbx.html.wbx.alphalist": {
+        "message": "Alphabetische Liste"
+    },
+    "bbcwbx.html.wbx.urlname": {
+        "message": "Benannte URL"
+    },
+    "bbcwbx.html.wbx.urlwiz": {
+        "message": "URL-Wizard"
+    },
+    "bbcwbx.html.bold": {
+        "message": "Fett"
+    },
+    "bbcwbx.html.ital": {
+        "message": "Kursiv"
+    },
+    "bbcwbx.html.undrln": {
+        "message": "Unterstrichen"
+    },
+    "bbcwbx.html.strk": {
+        "message": "Durchgestrichen"
+    },
+    "bbcwbx.html.img": {
+        "message": "Grafik"
+    },
+    "bbcwbx.html.url": {
+        "message": "URL"
+    },
+    "bbcwbx.xhtml": {
+        "message": "XHTML"
+    },
+    "bbcwbx.xhtml.clp": {
+        "message": "Zwischenablage"
+    },
+    "bbcwbx.xhtml.clp.quote": {
+        "message": "Zitieren"
+    },
+    "bbcwbx.xhtml.clp.code": {
+        "message": "Code"
+    },
+    "bbcwbx.xhtml.clp.list": {
+        "message": "Liste"
+    },
+    "bbcwbx.xhtml.clp.ordlist": {
+        "message": "Geordnete Liste"
+    },
+    "bbcwbx.xhtml.clp.alphalist": {
+        "message": "Alphabetische Liste"
+    },
+    "bbcwbx.xhtml.img": {
+        "message": "Grafik"
+    },
+    "bbcwbx.xhtml.clp.mkurlsel": {
+        "message": "URL aus Markierung erzeugen"
+    },
+    "bbcwbx.xhtml.clp.url": {
+        "message": "URL"
+    },
+    "bbcwbx.xhtml.clp.urlname": {
+        "message": "Benannte URL"
+    },
+    "bbcwbx.xhtml.wbx": {
+        "message": "WebEx"
+    },
+    "bbcwbx.xhtml.wbx.quote": {
+        "message": "Zitieren"
+    },
+    "bbcwbx.xhtml.wbx.code": {
+        "message": "Code"
+    },
+    "bbcwbx.xhtml.wbx.list": {
+        "message": "Liste"
+    },
+    "bbcwbx.xhtml.wbx.ordlist": {
+        "message": "Geordnete Liste"
+    },
+    "bbcwbx.xhtml.wbx.alphalist": {
+        "message": "Alphabetische Liste"
+    },
+    "bbcwbx.xhtml.wbx.urlname": {
+        "message": "Benannte URL"
+    },
+    "bbcwbx.xhtml.wbx.urlwiz": {
+        "message": "URL-Wizard"
+    },
+    "bbcwbx.xhtml.bold": {
+        "message": "Fett"
+    },
+    "bbcwbx.xhtml.ital": {
+        "message": "Kursiv"
+    },
+    "bbcwbx.xhtml.undrln": {
+        "message": "Unterstrichen"
+    },
+    "bbcwbx.xhtml.strk": {
+        "message": "Durchgestrichen"
+    },
+    "bbcwbx.xhtml.image": {
+        "message": "Grafik"
+    },
+    "bbcwbx.xhtml.url": {
+        "message": "URL"
+    },
+    "bbcwbx.custom": {
+        "message": "Eigene Tags"
+    },
+    "bbcwbx.mkdn": {
+        "message": "Markdown"
+    },
+    "bbcwbx.mkdn.clp": {
+        "message": "Zwischenablage"
+    },
+    "bbcwbx.mkdn.clp.quote": {
+        "message": "Zitieren"
+    },
+    "bbcwbx.mkdn.clp.code": {
+        "message": "Code"
+    },
+    "bbcwbx.mkdn.clp.list": {
+        "message": "Liste"
+    },
+    "bbcwbx.mkdn.clp.ordlist": {
+        "message": "Geordnete Liste"
+    },
+    "bbcwbx.mkdn.clp.mkurlsel": {
+        "message": "URL aus Markierung erzeugen"
+    },
+    "bbcwbx.mkdn.clp.mkimgsel": {
+        "message": "Make image from selection"
+    },
+    "bbcwbx.mkdn.clp.urlname": {
+        "message": "Benannte URL"
+    },
+    "bbcwbx.mkdn.wbx": {
+        "message": "WebEx"
+    },
+    "bbcwbx.mkdn.wbx.quote": {
+        "message": "Zitieren"
+    },
+    "bbcwbx.mkdn.wbx.code": {
+        "message": "Code"
+    },
+    "bbcwbx.mkdn.wbx.list": {
+        "message": "Liste"
+    },
+    "bbcwbx.mkdn.wbx.ordlist": {
+        "message": "Geordnete Liste"
+    },
+    "bbcwbx.mkdn.wbx.urlname": {
+        "message": "Benannte URL"
+    },
+    "bbcwbx.mkdn.wbx.urlwiz": {
+        "message": "URL-Wizard"
+    },
+    "bbcwbx.mkdn.bold": {
+        "message": "Fett"
+    },
+    "bbcwbx.mkdn.ital": {
+        "message": "Kursiv"
+    },
+    "bbcwbx.mkdn.strk": {
+        "message": "Durchgestrichen"
+    }
+}

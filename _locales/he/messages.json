@@ -1,0 +1,320 @@
+﻿{
+    "bbcwbx.bbcode": {
+        "message": "bbCode"
+    },
+    "bbcwbx.bbcode.clp": {
+        "message": "לוח העריכה"
+    },
+    "bbcwbx.bbcode.clp.quote": {
+        "message": "ציטוט"
+    },
+    "bbcwbx.bbcode.clp.code": {
+        "message": "קוד"
+    },
+    "bbcwbx.bbcode.clp.list": {
+        "message": "רשימה"
+    },
+    "bbcwbx.bbcode.clp.ordlist": {
+        "message": "רשימה מסודרת"
+    },
+    "bbcwbx.bbcode.clp.alphalist": {
+        "message": "רשימה אלפביתית"
+    },
+    "bbcwbx.bbcode.clp.spoiler": {
+        "message": "Spoiler"
+    },
+    "bbcwbx.bbcode.clp.image": {
+        "message": "תמונה"
+    },
+    "bbcwbx.bbcode.clp.mkurlsel": {
+        "message": "בחירת כתובת אינטרנט"
+    },
+    "bbcwbx.bbcode.clp.url": {
+        "message": "כתובת אינטרנט"
+    },
+    "bbcwbx.bbcode.clp.urlname": {
+        "message": "כתובת אינטרנט עם שם"
+    },
+    "bbcwbx.bbcode.wbx": {
+        "message": "WebEx"
+    },
+    "bbcwbx.bbcode.wbx.quote": {
+        "message": "ציטוט"
+    },
+    "bbcwbx.bbcode.wbx.code": {
+        "message": "קוד"
+    },
+    "bbcwbx.bbcode.wbx.list": {
+        "message": "רשימה"
+    },
+    "bbcwbx.bbcode.wbx.ordlist": {
+        "message": "רשימה מסודרת"
+    },
+    "bbcwbx.bbcode.wbx.alphalist": {
+        "message": "רשימה אלפביתית"
+    },
+    "bbcwbx.bbcode.wbx.spoiler": {
+        "message": "Spoiler"
+    },
+    "bbcwbx.bbcode.wbx.fntcol": {
+        "message": "צבע גופן"
+    },
+    "bbcwbx.bbcode.wbx.fntsz": {
+        "message": "גודל גופן"
+    },
+    "bbcwbx.bbcode.wbx.urlname": {
+        "message": "כתובת אינטרנט עם שם"
+    },
+    "bbcwbx.bbcode.wbx.urlwiz": {
+        "message": "אשף כתובת אינטרנט"
+    },
+    "bbcwbx.bbcode.vbl": {
+        "message": "VBulletin3"
+    },
+    "bbcwbx.bbcode.vbl.thd": {
+        "message": "שרשור"
+    },
+    "bbcwbx.bbcode.vbl.pst": {
+        "message": "פרסום"
+    },
+    "bbcwbx.bbcode.vbl.alnlf": {
+        "message": "יישור לימין"
+    },
+    "bbcwbx.bbcode.vbl.alnrt": {
+        "message": "יישור לשמאל"
+    },
+    "bbcwbx.bbcode.vbl.ctr": {
+        "message": "אמצע"
+    },
+    "bbcwbx.bbcode.vbl.indnt": {
+        "message": "מרווח מפריד"
+    },
+    "bbcwbx.bbcode.vbl.hilt": {
+        "message": "מודגש"
+    },
+    "bbcwbx.bbcode.bold": {
+        "message": "בולט"
+    },
+    "bbcwbx.bbcode.ital": {
+        "message": "נטוי"
+    },
+    "bbcwbx.bbcode.undrln": {
+        "message": "הדגשה (קו תחתון)"
+    },
+    "bbcwbx.bbcode.img": {
+        "message": "תמונה"
+    },
+    "bbcwbx.bbcode.url": {
+        "message": "כתובת אינטרנט"
+    },
+    "bbcwbx.html": {
+        "message": "HTML"
+    },
+    "bbcwbx.html.clp": {
+        "message": "לוח העריכה"
+    },
+    "bbcwbx.html.clp.quote": {
+        "message": "ציטוט"
+    },
+    "bbcwbx.html.clp.code": {
+        "message": "קוד"
+    },
+    "bbcwbx.html.clp.list": {
+        "message": "רשימה"
+    },
+    "bbcwbx.html.clp.ordlist": {
+        "message": "רשימה מסודרת"
+    },
+    "bbcwbx.html.clp.alphalist": {
+        "message": "רשימה אלפביתית"
+    },
+    "bbcwbx.html.clp.image": {
+        "message": "תמונה"
+    },
+    "bbcwbx.html.clp.mkurlsel": {
+        "message": "בחירת כתובת אינטרנט"
+    },
+    "bbcwbx.html.clp.url": {
+        "message": "כתובת אינטרנט"
+    },
+    "bbcwbx.html.clp.urlname": {
+        "message": "כתובת אינטרנט עם שם"
+    },
+    "bbcwbx.html.wbx": {
+        "message": "WebEx"
+    },
+    "bbcwbx.html.wbx.quote": {
+        "message": "ציטוט"
+    },
+    "bbcwbx.html.wbx.code": {
+        "message": "קוד"
+    },
+    "bbcwbx.html.wbx.list": {
+        "message": "רשימה"
+    },
+    "bbcwbx.html.wbx.ordlist": {
+        "message": "רשימה מסודרת"
+    },
+    "bbcwbx.html.wbx.alphalist": {
+        "message": "רשימה אלפביתית"
+    },
+    "bbcwbx.html.wbx.urlname": {
+        "message": "כתובת אינטרנט עם שם"
+    },
+    "bbcwbx.html.wbx.urlwiz": {
+        "message": "אשף כתובת אינטרנט"
+    },
+    "bbcwbx.html.bold": {
+        "message": "בולט"
+    },
+    "bbcwbx.html.ital": {
+        "message": "נטוי"
+    },
+    "bbcwbx.html.undrln": {
+        "message": "הדגשה (קו תחתון)"
+    },
+    "bbcwbx.html.strk": {
+        "message": "פס - מוסיף קו על גבי הטקסט"
+    },
+    "bbcwbx.html.img": {
+        "message": "תמונה"
+    },
+    "bbcwbx.html.url": {
+        "message": "כתובת אינטרנט"
+    },
+    "bbcwbx.xhtml": {
+        "message": "XHTML"
+    },
+    "bbcwbx.xhtml.clp": {
+        "message": "לוח העריכה"
+    },
+    "bbcwbx.xhtml.clp.quote": {
+        "message": "ציטוט"
+    },
+    "bbcwbx.xhtml.clp.code": {
+        "message": "קוד"
+    },
+    "bbcwbx.xhtml.clp.list": {
+        "message": "רשימה"
+    },
+    "bbcwbx.xhtml.clp.ordlist": {
+        "message": "רשימה מסודרת"
+    },
+    "bbcwbx.xhtml.clp.alphalist": {
+        "message": "רשימה אלפביתית"
+    },
+    "bbcwbx.xhtml.img": {
+        "message": "תמונה"
+    },
+    "bbcwbx.xhtml.clp.mkurlsel": {
+        "message": "בחירת כתובת אינטרנט"
+    },
+    "bbcwbx.xhtml.clp.url": {
+        "message": "כתובת אינטרנט"
+    },
+    "bbcwbx.xhtml.clp.urlname": {
+        "message": "כתובת אינטרנט עם שם"
+    },
+    "bbcwbx.xhtml.wbx": {
+        "message": "WebEx"
+    },
+    "bbcwbx.xhtml.wbx.quote": {
+        "message": "ציטוט"
+    },
+    "bbcwbx.xhtml.wbx.code": {
+        "message": "קוד"
+    },
+    "bbcwbx.xhtml.wbx.list": {
+        "message": "רשימה"
+    },
+    "bbcwbx.xhtml.wbx.ordlist": {
+        "message": "רשימה מסודרת"
+    },
+    "bbcwbx.xhtml.wbx.alphalist": {
+        "message": "רשימה אלפביתית"
+    },
+    "bbcwbx.xhtml.wbx.urlname": {
+        "message": "כתובת אינטרנט עם שם"
+    },
+    "bbcwbx.xhtml.wbx.urlwiz": {
+        "message": "אשף כתובת אינטרנט"
+    },
+    "bbcwbx.xhtml.bold": {
+        "message": "בולט"
+    },
+    "bbcwbx.xhtml.ital": {
+        "message": "נטוי"
+    },
+    "bbcwbx.xhtml.undrln": {
+        "message": "הדגשה (קו תחתון)"
+    },
+    "bbcwbx.xhtml.strk": {
+        "message": "פס - מוסיף קו על גבי הטקסט"
+    },
+    "bbcwbx.xhtml.image": {
+        "message": "תמונה"
+    },
+    "bbcwbx.xhtml.url": {
+        "message": "כתובת אינטרנט"
+    },
+    "bbcwbx.custom": {
+        "message": "תוויות מותאמות"
+    },
+    "bbcwbx.mkdn": {
+        "message": "Markdown"
+    },
+    "bbcwbx.mkdn.clp": {
+        "message": "לוח העריכה"
+    },
+    "bbcwbx.mkdn.clp.quote": {
+        "message": "ציטוט"
+    },
+    "bbcwbx.mkdn.clp.code": {
+        "message": "קוד"
+    },
+    "bbcwbx.mkdn.clp.list": {
+        "message": "רשימה"
+    },
+    "bbcwbx.mkdn.clp.ordlist": {
+        "message": "רשימה מסודרת"
+    },
+    "bbcwbx.mkdn.clp.mkurlsel": {
+        "message": "בחירת כתובת אינטרנט"
+    },
+    "bbcwbx.mkdn.clp.mkimgsel": {
+        "message": "Make image from selection"
+    },
+    "bbcwbx.mkdn.clp.urlname": {
+        "message": "כתובת אינטרנט עם שם"
+    },
+    "bbcwbx.mkdn.wbx": {
+        "message": "WebEx"
+    },
+    "bbcwbx.mkdn.wbx.quote": {
+        "message": "ציטוט"
+    },
+    "bbcwbx.mkdn.wbx.code": {
+        "message": "קוד"
+    },
+    "bbcwbx.mkdn.wbx.list": {
+        "message": "רשימה"
+    },
+    "bbcwbx.mkdn.wbx.ordlist": {
+        "message": "רשימה מסודרת"
+    },
+    "bbcwbx.mkdn.wbx.urlname": {
+        "message": "כתובת אינטרנט עם שם"
+    },
+    "bbcwbx.mkdn.wbx.urlwiz": {
+        "message": "אשף כתובת אינטרנט"
+    },
+    "bbcwbx.mkdn.bold": {
+        "message": "בולט"
+    },
+    "bbcwbx.mkdn.ital": {
+        "message": "נטוי"
+    },
+    "bbcwbx.mkdn.strk": {
+        "message": "פס - מוסיף קו על גבי הטקסט"
+    }
+}

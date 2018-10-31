@@ -1,0 +1,320 @@
+﻿{
+    "bbcwbx.bbcode": {
+        "message": "bbCode"
+    },
+    "bbcwbx.bbcode.clp": {
+        "message": "Clipboard"
+    },
+    "bbcwbx.bbcode.clp.quote": {
+        "message": "Наводници"
+    },
+    "bbcwbx.bbcode.clp.code": {
+        "message": "Кôд"
+    },
+    "bbcwbx.bbcode.clp.list": {
+        "message": "Списак"
+    },
+    "bbcwbx.bbcode.clp.ordlist": {
+        "message": "Уређен списак"
+    },
+    "bbcwbx.bbcode.clp.alphalist": {
+        "message": "Азбучни списак"
+    },
+    "bbcwbx.bbcode.clp.spoiler": {
+        "message": "Spoiler"
+    },
+    "bbcwbx.bbcode.clp.image": {
+        "message": "Слика"
+    },
+    "bbcwbx.bbcode.clp.mkurlsel": {
+        "message": "Нека одабрано постане URL"
+    },
+    "bbcwbx.bbcode.clp.url": {
+        "message": "URL"
+    },
+    "bbcwbx.bbcode.clp.urlname": {
+        "message": "URL са називом"
+    },
+    "bbcwbx.bbcode.wbx": {
+        "message": "WebEx"
+    },
+    "bbcwbx.bbcode.wbx.quote": {
+        "message": "Наводници"
+    },
+    "bbcwbx.bbcode.wbx.code": {
+        "message": "Кôд"
+    },
+    "bbcwbx.bbcode.wbx.list": {
+        "message": "Списак"
+    },
+    "bbcwbx.bbcode.wbx.ordlist": {
+        "message": "Уређен списак"
+    },
+    "bbcwbx.bbcode.wbx.alphalist": {
+        "message": "Азбучни списак"
+    },
+    "bbcwbx.bbcode.wbx.spoiler": {
+        "message": "Spoiler"
+    },
+    "bbcwbx.bbcode.wbx.fntcol": {
+        "message": "Боја фонта"
+    },
+    "bbcwbx.bbcode.wbx.fntsz": {
+        "message": "Величина фонта"
+    },
+    "bbcwbx.bbcode.wbx.urlname": {
+        "message": "URL са називом"
+    },
+    "bbcwbx.bbcode.wbx.urlwiz": {
+        "message": "URL чаробњак"
+    },
+    "bbcwbx.bbcode.vbl": {
+        "message": "VBulletin3"
+    },
+    "bbcwbx.bbcode.vbl.thd": {
+        "message": "Тема"
+    },
+    "bbcwbx.bbcode.vbl.pst": {
+        "message": "Одговор"
+    },
+    "bbcwbx.bbcode.vbl.alnlf": {
+        "message": "Лево поравнање"
+    },
+    "bbcwbx.bbcode.vbl.alnrt": {
+        "message": "Десно поравнање"
+    },
+    "bbcwbx.bbcode.vbl.ctr": {
+        "message": "Центрирано"
+    },
+    "bbcwbx.bbcode.vbl.indnt": {
+        "message": "Увлачење"
+    },
+    "bbcwbx.bbcode.vbl.hilt": {
+        "message": "Истицање"
+    },
+    "bbcwbx.bbcode.bold": {
+        "message": "Подебљано"
+    },
+    "bbcwbx.bbcode.ital": {
+        "message": "Искошено"
+    },
+    "bbcwbx.bbcode.undrln": {
+        "message": "Подвучено"
+    },
+    "bbcwbx.bbcode.img": {
+        "message": "Слика"
+    },
+    "bbcwbx.bbcode.url": {
+        "message": "URL"
+    },
+    "bbcwbx.html": {
+        "message": "HTML"
+    },
+    "bbcwbx.html.clp": {
+        "message": "Clipboard"
+    },
+    "bbcwbx.html.clp.quote": {
+        "message": "Наводници"
+    },
+    "bbcwbx.html.clp.code": {
+        "message": "Кôд"
+    },
+    "bbcwbx.html.clp.list": {
+        "message": "Списак"
+    },
+    "bbcwbx.html.clp.ordlist": {
+        "message": "Уређен списак"
+    },
+    "bbcwbx.html.clp.alphalist": {
+        "message": "Азбучни списак"
+    },
+    "bbcwbx.html.clp.image": {
+        "message": "Слика"
+    },
+    "bbcwbx.html.clp.mkurlsel": {
+        "message": "Нека одабрано постане URL"
+    },
+    "bbcwbx.html.clp.url": {
+        "message": "URL"
+    },
+    "bbcwbx.html.clp.urlname": {
+        "message": "URL са називом"
+    },
+    "bbcwbx.html.wbx": {
+        "message": "WebEx"
+    },
+    "bbcwbx.html.wbx.quote": {
+        "message": "Наводници"
+    },
+    "bbcwbx.html.wbx.code": {
+        "message": "Кôд"
+    },
+    "bbcwbx.html.wbx.list": {
+        "message": "Списак"
+    },
+    "bbcwbx.html.wbx.ordlist": {
+        "message": "Уређен списак"
+    },
+    "bbcwbx.html.wbx.alphalist": {
+        "message": "Азбучни списак"
+    },
+    "bbcwbx.html.wbx.urlname": {
+        "message": "URL са називом"
+    },
+    "bbcwbx.html.wbx.urlwiz": {
+        "message": "URL чаробњак"
+    },
+    "bbcwbx.html.bold": {
+        "message": "Подебљано"
+    },
+    "bbcwbx.html.ital": {
+        "message": "Искошено"
+    },
+    "bbcwbx.html.undrln": {
+        "message": "Подвучено"
+    },
+    "bbcwbx.html.strk": {
+        "message": "Прецртано"
+    },
+    "bbcwbx.html.img": {
+        "message": "Слика"
+    },
+    "bbcwbx.html.url": {
+        "message": "URL"
+    },
+    "bbcwbx.xhtml": {
+        "message": "XHTML"
+    },
+    "bbcwbx.xhtml.clp": {
+        "message": "Clipboard"
+    },
+    "bbcwbx.xhtml.clp.quote": {
+        "message": "Наводници"
+    },
+    "bbcwbx.xhtml.clp.code": {
+        "message": "Кôд"
+    },
+    "bbcwbx.xhtml.clp.list": {
+        "message": "Списак"
+    },
+    "bbcwbx.xhtml.clp.ordlist": {
+        "message": "Уређен списак"
+    },
+    "bbcwbx.xhtml.clp.alphalist": {
+        "message": "Азбучни списак"
+    },
+    "bbcwbx.xhtml.img": {
+        "message": "Слика"
+    },
+    "bbcwbx.xhtml.clp.mkurlsel": {
+        "message": "Нека одабрано постане URL"
+    },
+    "bbcwbx.xhtml.clp.url": {
+        "message": "URL"
+    },
+    "bbcwbx.xhtml.clp.urlname": {
+        "message": "URL са називом"
+    },
+    "bbcwbx.xhtml.wbx": {
+        "message": "WebEx"
+    },
+    "bbcwbx.xhtml.wbx.quote": {
+        "message": "Наводници"
+    },
+    "bbcwbx.xhtml.wbx.code": {
+        "message": "Кôд"
+    },
+    "bbcwbx.xhtml.wbx.list": {
+        "message": "Списак"
+    },
+    "bbcwbx.xhtml.wbx.ordlist": {
+        "message": "Уређен списак"
+    },
+    "bbcwbx.xhtml.wbx.alphalist": {
+        "message": "Азбучни списак"
+    },
+    "bbcwbx.xhtml.wbx.urlname": {
+        "message": "URL са називом"
+    },
+    "bbcwbx.xhtml.wbx.urlwiz": {
+        "message": "URL чаробњак"
+    },
+    "bbcwbx.xhtml.bold": {
+        "message": "Подебљано"
+    },
+    "bbcwbx.xhtml.ital": {
+        "message": "Искошено"
+    },
+    "bbcwbx.xhtml.undrln": {
+        "message": "Подвучено"
+    },
+    "bbcwbx.xhtml.strk": {
+        "message": "Прецртано"
+    },
+    "bbcwbx.xhtml.image": {
+        "message": "Слика"
+    },
+    "bbcwbx.xhtml.url": {
+        "message": "URL"
+    },
+    "bbcwbx.custom": {
+        "message": "Прилагођене ознаке"
+    },
+    "bbcwbx.mkdn": {
+        "message": "Markdown"
+    },
+    "bbcwbx.mkdn.clp": {
+        "message": "Clipboard"
+    },
+    "bbcwbx.mkdn.clp.quote": {
+        "message": "Наводници"
+    },
+    "bbcwbx.mkdn.clp.code": {
+        "message": "Кôд"
+    },
+    "bbcwbx.mkdn.clp.list": {
+        "message": "Списак"
+    },
+    "bbcwbx.mkdn.clp.ordlist": {
+        "message": "Уређен списак"
+    },
+    "bbcwbx.mkdn.clp.mkurlsel": {
+        "message": "Нека одабрано постане URL"
+    },
+    "bbcwbx.mkdn.clp.mkimgsel": {
+        "message": "Нека одабрано постане слика"
+    },
+    "bbcwbx.mkdn.clp.urlname": {
+        "message": "URL са називом"
+    },
+    "bbcwbx.mkdn.wbx": {
+        "message": "WebEx"
+    },
+    "bbcwbx.mkdn.wbx.quote": {
+        "message": "Наводници"
+    },
+    "bbcwbx.mkdn.wbx.code": {
+        "message": "Кôд"
+    },
+    "bbcwbx.mkdn.wbx.list": {
+        "message": "Списак"
+    },
+    "bbcwbx.mkdn.wbx.ordlist": {
+        "message": "Уређен списак"
+    },
+    "bbcwbx.mkdn.wbx.urlname": {
+        "message": "URL са називом"
+    },
+    "bbcwbx.mkdn.wbx.urlwiz": {
+        "message": "URL чаробњак"
+    },
+    "bbcwbx.mkdn.bold": {
+        "message": "Подебљано"
+    },
+    "bbcwbx.mkdn.ital": {
+        "message": "Искошено"
+    },
+    "bbcwbx.mkdn.strk": {
+        "message": "Прецртано"
+    }
+}

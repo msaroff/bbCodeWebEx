@@ -1,0 +1,320 @@
+﻿{
+    "bbcwbx.bbcode": {
+        "message": "bbCode"
+    },
+    "bbcwbx.bbcode.clp": {
+        "message": "Zawartość schowka wstaw jako:"
+    },
+    "bbcwbx.bbcode.clp.quote": {
+        "message": "Cytat"
+    },
+    "bbcwbx.bbcode.clp.code": {
+        "message": "Kod"
+    },
+    "bbcwbx.bbcode.clp.list": {
+        "message": "Lista"
+    },
+    "bbcwbx.bbcode.clp.ordlist": {
+        "message": "Lista numerowana"
+    },
+    "bbcwbx.bbcode.clp.alphalist": {
+        "message": "Lista alfabetyczna"
+    },
+    "bbcwbx.bbcode.clp.spoiler": {
+        "message": "Spoiler"
+    },
+    "bbcwbx.bbcode.clp.image": {
+        "message": "Obrazek"
+    },
+    "bbcwbx.bbcode.clp.mkurlsel": {
+        "message": "Odnośnik z nazwą zaznaczenia"
+    },
+    "bbcwbx.bbcode.clp.url": {
+        "message": "Odnośnik"
+    },
+    "bbcwbx.bbcode.clp.urlname": {
+        "message": "Odnośnik z nazwą"
+    },
+    "bbcwbx.bbcode.wbx": {
+        "message": "WebEx"
+    },
+    "bbcwbx.bbcode.wbx.quote": {
+        "message": "Cytat"
+    },
+    "bbcwbx.bbcode.wbx.code": {
+        "message": "Kod"
+    },
+    "bbcwbx.bbcode.wbx.list": {
+        "message": "Lista"
+    },
+    "bbcwbx.bbcode.wbx.ordlist": {
+        "message": "Lista numerowana"
+    },
+    "bbcwbx.bbcode.wbx.alphalist": {
+        "message": "Lista alfabetyczna"
+    },
+    "bbcwbx.bbcode.wbx.spoiler": {
+        "message": "Spoiler"
+    },
+    "bbcwbx.bbcode.wbx.fntcol": {
+        "message": "Kolor czcionki"
+    },
+    "bbcwbx.bbcode.wbx.fntsz": {
+        "message": "Rozmiar czcionki"
+    },
+    "bbcwbx.bbcode.wbx.urlname": {
+        "message": "Odnośnik z nazwą"
+    },
+    "bbcwbx.bbcode.wbx.urlwiz": {
+        "message": "Kreator odnośników"
+    },
+    "bbcwbx.bbcode.vbl": {
+        "message": "VBulletin3"
+    },
+    "bbcwbx.bbcode.vbl.thd": {
+        "message": "Wątek"
+    },
+    "bbcwbx.bbcode.vbl.pst": {
+        "message": "Post"
+    },
+    "bbcwbx.bbcode.vbl.alnlf": {
+        "message": "Wyrównanie do prawej"
+    },
+    "bbcwbx.bbcode.vbl.alnrt": {
+        "message": "Wyrównanie do lewej"
+    },
+    "bbcwbx.bbcode.vbl.ctr": {
+        "message": "Wyśrodkowanie"
+    },
+    "bbcwbx.bbcode.vbl.indnt": {
+        "message": "Wcięcie"
+    },
+    "bbcwbx.bbcode.vbl.hilt": {
+        "message": "Zaznacz"
+    },
+    "bbcwbx.bbcode.bold": {
+        "message": "Pogrubienie"
+    },
+    "bbcwbx.bbcode.ital": {
+        "message": "Kursywa"
+    },
+    "bbcwbx.bbcode.undrln": {
+        "message": "Podkreślenie"
+    },
+    "bbcwbx.bbcode.img": {
+        "message": "Obrazek"
+    },
+    "bbcwbx.bbcode.url": {
+        "message": "Odnośnik"
+    },
+    "bbcwbx.html": {
+        "message": "HTML"
+    },
+    "bbcwbx.html.clp": {
+        "message": "Zawartość schowka wstaw jako:"
+    },
+    "bbcwbx.html.clp.quote": {
+        "message": "Cytat"
+    },
+    "bbcwbx.html.clp.code": {
+        "message": "Kod"
+    },
+    "bbcwbx.html.clp.list": {
+        "message": "Lista"
+    },
+    "bbcwbx.html.clp.ordlist": {
+        "message": "Lista numerowana"
+    },
+    "bbcwbx.html.clp.alphalist": {
+        "message": "Lista alfabetyczna"
+    },
+    "bbcwbx.html.clp.image": {
+        "message": "Obrazek"
+    },
+    "bbcwbx.html.clp.mkurlsel": {
+        "message": "Odnośnik z nazwą zaznaczenia"
+    },
+    "bbcwbx.html.clp.url": {
+        "message": "Odnośnik"
+    },
+    "bbcwbx.html.clp.urlname": {
+        "message": "Odnośnik z nazwą"
+    },
+    "bbcwbx.html.wbx": {
+        "message": "WebEx"
+    },
+    "bbcwbx.html.wbx.quote": {
+        "message": "Cytat"
+    },
+    "bbcwbx.html.wbx.code": {
+        "message": "Kod"
+    },
+    "bbcwbx.html.wbx.list": {
+        "message": "Lista"
+    },
+    "bbcwbx.html.wbx.ordlist": {
+        "message": "Lista numerowana"
+    },
+    "bbcwbx.html.wbx.alphalist": {
+        "message": "Lista alfabetyczna"
+    },
+    "bbcwbx.html.wbx.urlname": {
+        "message": "Odnośnik z nazwą"
+    },
+    "bbcwbx.html.wbx.urlwiz": {
+        "message": "Kreator odnośników"
+    },
+    "bbcwbx.html.bold": {
+        "message": "Pogrubienie"
+    },
+    "bbcwbx.html.ital": {
+        "message": "Kursywa"
+    },
+    "bbcwbx.html.undrln": {
+        "message": "Podkreślenie"
+    },
+    "bbcwbx.html.strk": {
+        "message": "Przekreślenie"
+    },
+    "bbcwbx.html.img": {
+        "message": "Obrazek"
+    },
+    "bbcwbx.html.url": {
+        "message": "Odnośnik"
+    },
+    "bbcwbx.xhtml": {
+        "message": "XHTML"
+    },
+    "bbcwbx.xhtml.clp": {
+        "message": "Zawartość schowka wstaw jako:"
+    },
+    "bbcwbx.xhtml.clp.quote": {
+        "message": "Cytat"
+    },
+    "bbcwbx.xhtml.clp.code": {
+        "message": "Kod"
+    },
+    "bbcwbx.xhtml.clp.list": {
+        "message": "Lista"
+    },
+    "bbcwbx.xhtml.clp.ordlist": {
+        "message": "Lista numerowana"
+    },
+    "bbcwbx.xhtml.clp.alphalist": {
+        "message": "Lista alfabetyczna"
+    },
+    "bbcwbx.xhtml.img": {
+        "message": "Obrazek"
+    },
+    "bbcwbx.xhtml.clp.mkurlsel": {
+        "message": "Odnośnik z nazwą zaznaczenia"
+    },
+    "bbcwbx.xhtml.clp.url": {
+        "message": "Odnośnik"
+    },
+    "bbcwbx.xhtml.clp.urlname": {
+        "message": "Odnośnik z nazwą"
+    },
+    "bbcwbx.xhtml.wbx": {
+        "message": "WebEx"
+    },
+    "bbcwbx.xhtml.wbx.quote": {
+        "message": "Cytat"
+    },
+    "bbcwbx.xhtml.wbx.code": {
+        "message": "Kod"
+    },
+    "bbcwbx.xhtml.wbx.list": {
+        "message": "Lista"
+    },
+    "bbcwbx.xhtml.wbx.ordlist": {
+        "message": "Lista numerowana"
+    },
+    "bbcwbx.xhtml.wbx.alphalist": {
+        "message": "Lista alfabetyczna"
+    },
+    "bbcwbx.xhtml.wbx.urlname": {
+        "message": "Odnośnik z nazwą"
+    },
+    "bbcwbx.xhtml.wbx.urlwiz": {
+        "message": "Kreator odnośników"
+    },
+    "bbcwbx.xhtml.bold": {
+        "message": "Pogrubienie"
+    },
+    "bbcwbx.xhtml.ital": {
+        "message": "Kursywa"
+    },
+    "bbcwbx.xhtml.undrln": {
+        "message": "Podkreślenie"
+    },
+    "bbcwbx.xhtml.strk": {
+        "message": "Przekreślenie"
+    },
+    "bbcwbx.xhtml.image": {
+        "message": "Obrazek"
+    },
+    "bbcwbx.xhtml.url": {
+        "message": "Odnośnik"
+    },
+    "bbcwbx.custom": {
+        "message": "Własne znaczniki"
+    },
+    "bbcwbx.mkdn": {
+        "message": "Markdown"
+    },
+    "bbcwbx.mkdn.clp": {
+        "message": "Zawartość schowka wstaw jako:"
+    },
+    "bbcwbx.mkdn.clp.quote": {
+        "message": "Cytat"
+    },
+    "bbcwbx.mkdn.clp.code": {
+        "message": "Kod"
+    },
+    "bbcwbx.mkdn.clp.list": {
+        "message": "Lista"
+    },
+    "bbcwbx.mkdn.clp.ordlist": {
+        "message": "Lista numerowana"
+    },
+    "bbcwbx.mkdn.clp.mkurlsel": {
+        "message": "Odnośnik z nazwą zaznaczenia"
+    },
+    "bbcwbx.mkdn.clp.mkimgsel": {
+        "message": "Make image from selection"
+    },
+    "bbcwbx.mkdn.clp.urlname": {
+        "message": "Odnośnik z nazwą"
+    },
+    "bbcwbx.mkdn.wbx": {
+        "message": "WebEx"
+    },
+    "bbcwbx.mkdn.wbx.quote": {
+        "message": "Cytat"
+    },
+    "bbcwbx.mkdn.wbx.code": {
+        "message": "Kod"
+    },
+    "bbcwbx.mkdn.wbx.list": {
+        "message": "Lista"
+    },
+    "bbcwbx.mkdn.wbx.ordlist": {
+        "message": "Lista numerowana"
+    },
+    "bbcwbx.mkdn.wbx.urlname": {
+        "message": "Odnośnik z nazwą"
+    },
+    "bbcwbx.mkdn.wbx.urlwiz": {
+        "message": "Kreator odnośników"
+    },
+    "bbcwbx.mkdn.bold": {
+        "message": "Pogrubienie"
+    },
+    "bbcwbx.mkdn.ital": {
+        "message": "Kursywa"
+    },
+    "bbcwbx.mkdn.strk": {
+        "message": "Przekreślenie"
+    }
+}

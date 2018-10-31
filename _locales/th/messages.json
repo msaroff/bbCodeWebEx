@@ -1,0 +1,320 @@
+﻿{
+    "bbcwbx.bbcode": {
+        "message": "bbCode"
+    },
+    "bbcwbx.bbcode.clp": {
+        "message": "คลิปบอร์ด"
+    },
+    "bbcwbx.bbcode.clp.quote": {
+        "message": "อ้างอิง"
+    },
+    "bbcwbx.bbcode.clp.code": {
+        "message": "รหัส"
+    },
+    "bbcwbx.bbcode.clp.list": {
+        "message": "รายชื่อ"
+    },
+    "bbcwbx.bbcode.clp.ordlist": {
+        "message": "รายชื่อตามลำัดับ"
+    },
+    "bbcwbx.bbcode.clp.alphalist": {
+        "message": "รายชื่อตามตัวอักษร"
+    },
+    "bbcwbx.bbcode.clp.spoiler": {
+        "message": "Spoiler"
+    },
+    "bbcwbx.bbcode.clp.image": {
+        "message": "รูปภาพ"
+    },
+    "bbcwbx.bbcode.clp.mkurlsel": {
+        "message": "ทำยูอาร์แอลกดได้"
+    },
+    "bbcwbx.bbcode.clp.url": {
+        "message": "ยูอาร์แอล"
+    },
+    "bbcwbx.bbcode.clp.urlname": {
+        "message": "ยูอาร์แอลกับชื่อ"
+    },
+    "bbcwbx.bbcode.wbx": {
+        "message": "WebEx"
+    },
+    "bbcwbx.bbcode.wbx.quote": {
+        "message": "อ้างอิง"
+    },
+    "bbcwbx.bbcode.wbx.code": {
+        "message": "รหัส"
+    },
+    "bbcwbx.bbcode.wbx.list": {
+        "message": "รายชื่อ"
+    },
+    "bbcwbx.bbcode.wbx.ordlist": {
+        "message": "รายชื่อตามลำัดับ"
+    },
+    "bbcwbx.bbcode.wbx.alphalist": {
+        "message": "รายชื่อตามตัวอักษร"
+    },
+    "bbcwbx.bbcode.wbx.spoiler": {
+        "message": "Spoiler"
+    },
+    "bbcwbx.bbcode.wbx.fntcol": {
+        "message": "สีแบบอักษร"
+    },
+    "bbcwbx.bbcode.wbx.fntsz": {
+        "message": "ขนาดแบบอักษร"
+    },
+    "bbcwbx.bbcode.wbx.urlname": {
+        "message": "ยูอาร์แอลกับชื่อ"
+    },
+    "bbcwbx.bbcode.wbx.urlwiz": {
+        "message": "ตัวช่วยสร้างยูอาร์แอล"
+    },
+    "bbcwbx.bbcode.vbl": {
+        "message": "VBulletin3"
+    },
+    "bbcwbx.bbcode.vbl.thd": {
+        "message": "หัวข้อ"
+    },
+    "bbcwbx.bbcode.vbl.pst": {
+        "message": "โพสต์"
+    },
+    "bbcwbx.bbcode.vbl.alnlf": {
+        "message": "ชิดขวา"
+    },
+    "bbcwbx.bbcode.vbl.alnrt": {
+        "message": "ชิดซ้าย"
+    },
+    "bbcwbx.bbcode.vbl.ctr": {
+        "message": "ตรงกลาง"
+    },
+    "bbcwbx.bbcode.vbl.indnt": {
+        "message": "ย่อหน้า"
+    },
+    "bbcwbx.bbcode.vbl.hilt": {
+        "message": "เน้น"
+    },
+    "bbcwbx.bbcode.bold": {
+        "message": "ตัวหนา"
+    },
+    "bbcwbx.bbcode.ital": {
+        "message": "ตัวเอน"
+    },
+    "bbcwbx.bbcode.undrln": {
+        "message": "ขีดเส้นใต้"
+    },
+    "bbcwbx.bbcode.img": {
+        "message": "รูปภาพ"
+    },
+    "bbcwbx.bbcode.url": {
+        "message": "ยูอาร์แอล"
+    },
+    "bbcwbx.html": {
+        "message": "HTML"
+    },
+    "bbcwbx.html.clp": {
+        "message": "คลิปบอร์ด"
+    },
+    "bbcwbx.html.clp.quote": {
+        "message": "อ้างอิง"
+    },
+    "bbcwbx.html.clp.code": {
+        "message": "รหัส"
+    },
+    "bbcwbx.html.clp.list": {
+        "message": "รายชื่อ"
+    },
+    "bbcwbx.html.clp.ordlist": {
+        "message": "รายชื่อตามลำัดับ"
+    },
+    "bbcwbx.html.clp.alphalist": {
+        "message": "รายชื่อตามตัวอักษร"
+    },
+    "bbcwbx.html.clp.image": {
+        "message": "รูปภาพ"
+    },
+    "bbcwbx.html.clp.mkurlsel": {
+        "message": "ทำยูอาร์แอลกดได้"
+    },
+    "bbcwbx.html.clp.url": {
+        "message": "ยูอาร์แอล"
+    },
+    "bbcwbx.html.clp.urlname": {
+        "message": "ยูอาร์แอลกับชื่อ"
+    },
+    "bbcwbx.html.wbx": {
+        "message": "WebEx"
+    },
+    "bbcwbx.html.wbx.quote": {
+        "message": "อ้างอิง"
+    },
+    "bbcwbx.html.wbx.code": {
+        "message": "รหัส"
+    },
+    "bbcwbx.html.wbx.list": {
+        "message": "รายชื่อ"
+    },
+    "bbcwbx.html.wbx.ordlist": {
+        "message": "รายชื่อตามลำัดับ"
+    },
+    "bbcwbx.html.wbx.alphalist": {
+        "message": "รายชื่อตามตัวอักษร"
+    },
+    "bbcwbx.html.wbx.urlname": {
+        "message": "ยูอาร์แอลกับชื่อ"
+    },
+    "bbcwbx.html.wbx.urlwiz": {
+        "message": "ตัวช่วยสร้างยูอาร์แอล"
+    },
+    "bbcwbx.html.bold": {
+        "message": "ตัวหนา"
+    },
+    "bbcwbx.html.ital": {
+        "message": "ตัวเอน"
+    },
+    "bbcwbx.html.undrln": {
+        "message": "ขีดเส้นใต้"
+    },
+    "bbcwbx.html.strk": {
+        "message": "ขีดเส้นทับ"
+    },
+    "bbcwbx.html.img": {
+        "message": "รูปภาพ"
+    },
+    "bbcwbx.html.url": {
+        "message": "ยูอาร์แอล"
+    },
+    "bbcwbx.xhtml": {
+        "message": "XHTML"
+    },
+    "bbcwbx.xhtml.clp": {
+        "message": "คลิปบอร์ด"
+    },
+    "bbcwbx.xhtml.clp.quote": {
+        "message": "อ้างอิง"
+    },
+    "bbcwbx.xhtml.clp.code": {
+        "message": "รหัส"
+    },
+    "bbcwbx.xhtml.clp.list": {
+        "message": "รายชื่อ"
+    },
+    "bbcwbx.xhtml.clp.ordlist": {
+        "message": "รายชื่อตามลำัดับ"
+    },
+    "bbcwbx.xhtml.clp.alphalist": {
+        "message": "รายชื่อตามตัวอักษร"
+    },
+    "bbcwbx.xhtml.img": {
+        "message": "รูปภาพ"
+    },
+    "bbcwbx.xhtml.clp.mkurlsel": {
+        "message": "ทำยูอาร์แอลกดได้"
+    },
+    "bbcwbx.xhtml.clp.url": {
+        "message": "ยูอาร์แอล"
+    },
+    "bbcwbx.xhtml.clp.urlname": {
+        "message": "ยูอาร์แอลกับชื่อ"
+    },
+    "bbcwbx.xhtml.wbx": {
+        "message": "WebEx"
+    },
+    "bbcwbx.xhtml.wbx.quote": {
+        "message": "อ้างอิง"
+    },
+    "bbcwbx.xhtml.wbx.code": {
+        "message": "รหัส"
+    },
+    "bbcwbx.xhtml.wbx.list": {
+        "message": "รายชื่อ"
+    },
+    "bbcwbx.xhtml.wbx.ordlist": {
+        "message": "รายชื่อตามลำัดับ"
+    },
+    "bbcwbx.xhtml.wbx.alphalist": {
+        "message": "รายชื่อตามตัวอักษร"
+    },
+    "bbcwbx.xhtml.wbx.urlname": {
+        "message": "ยูอาร์แอลกับชื่อ"
+    },
+    "bbcwbx.xhtml.wbx.urlwiz": {
+        "message": "ตัวช่วยสร้างยูอาร์แอล"
+    },
+    "bbcwbx.xhtml.bold": {
+        "message": "ตัวหนา"
+    },
+    "bbcwbx.xhtml.ital": {
+        "message": "ตัวเอน"
+    },
+    "bbcwbx.xhtml.undrln": {
+        "message": "ขีดเส้นใต้"
+    },
+    "bbcwbx.xhtml.strk": {
+        "message": "ขีดเส้นทับ"
+    },
+    "bbcwbx.xhtml.image": {
+        "message": "รูปภาพ"
+    },
+    "bbcwbx.xhtml.url": {
+        "message": "ยูอาร์แอล"
+    },
+    "bbcwbx.custom": {
+        "message": "ป้ายชื่อทำเอง"
+    },
+    "bbcwbx.mkdn": {
+        "message": "Markdown"
+    },
+    "bbcwbx.mkdn.clp": {
+        "message": "คลิปบอร์ด"
+    },
+    "bbcwbx.mkdn.clp.quote": {
+        "message": "อ้างอิง"
+    },
+    "bbcwbx.mkdn.clp.code": {
+        "message": "รหัส"
+    },
+    "bbcwbx.mkdn.clp.list": {
+        "message": "รายชื่อ"
+    },
+    "bbcwbx.mkdn.clp.ordlist": {
+        "message": "รายชื่อตามลำัดับ"
+    },
+    "bbcwbx.mkdn.clp.mkurlsel": {
+        "message": "ทำยูอาร์แอลกดได้"
+    },
+    "bbcwbx.mkdn.clp.mkimgsel": {
+        "message": "Make image from selection"
+    },
+    "bbcwbx.mkdn.clp.urlname": {
+        "message": "ยูอาร์แอลกับชื่อ"
+    },
+    "bbcwbx.mkdn.wbx": {
+        "message": "WebEx"
+    },
+    "bbcwbx.mkdn.wbx.quote": {
+        "message": "อ้างอิง"
+    },
+    "bbcwbx.mkdn.wbx.code": {
+        "message": "รหัส"
+    },
+    "bbcwbx.mkdn.wbx.list": {
+        "message": "รายชื่อ"
+    },
+    "bbcwbx.mkdn.wbx.ordlist": {
+        "message": "รายชื่อตามลำัดับ"
+    },
+    "bbcwbx.mkdn.wbx.urlname": {
+        "message": "ยูอาร์แอลกับชื่อ"
+    },
+    "bbcwbx.mkdn.wbx.urlwiz": {
+        "message": "ตัวช่วยสร้างยูอาร์แอล"
+    },
+    "bbcwbx.mkdn.bold": {
+        "message": "ตัวหนา"
+    },
+    "bbcwbx.mkdn.ital": {
+        "message": "ตัวเอน"
+    },
+    "bbcwbx.mkdn.strk": {
+        "message": "ขีดเส้นทับ"
+    }
+}

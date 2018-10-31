@@ -59,66 +59,6 @@
     "bbcwbx.bbcode.wbx.fntcol": {
         "message": "Font Color"
     },
-    "bbcwbx.bbcode.wbx.fntcol.white": {
-        "message": "White"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.black": {
-        "message": "Black"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.dk_gray": {
-        "message": "Dark gray"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.gray": {
-        "message": "Gray"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.lt_gray": {
-        "message": "Light gray"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.olive": {
-        "message": "Olive"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.yellow": {
-        "message": "Yellow"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.canary": {
-        "message": "Canary"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.maroon": {
-        "message": "Maroon"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.red": {
-        "message": "Red"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.pink": {
-        "message": "Pink"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.navy": {
-        "message": "Navy"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.blue": {
-        "message": "Blue"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.lt_blue": {
-        "message": "Light Blue"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.green": {
-        "message": "Green"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.lime_green": {
-        "message": "Lime Green"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.mint_green": {
-        "message": "Mint Green"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.indigo": {
-        "message": "Indigo"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.purple": {
-        "message": "Purple"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.fuchsia": {
-        "message": "Fuchsia"
-    },
     "bbcwbx.bbcode.wbx.fntsz": {
         "message": "Font Size"
     },
@@ -441,3 +381,4 @@
         "message": "Operation completed."
     }
 }
+

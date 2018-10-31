@@ -1,0 +1,320 @@
+﻿{
+    "bbcwbx.bbcode": {
+        "message": "bbCode"
+    },
+    "bbcwbx.bbcode.clp": {
+        "message": "Schránka"
+    },
+    "bbcwbx.bbcode.clp.quote": {
+        "message": "Citovať"
+    },
+    "bbcwbx.bbcode.clp.code": {
+        "message": "Kód"
+    },
+    "bbcwbx.bbcode.clp.list": {
+        "message": "Zoznam"
+    },
+    "bbcwbx.bbcode.clp.ordlist": {
+        "message": "Usporiadaný zoznam"
+    },
+    "bbcwbx.bbcode.clp.alphalist": {
+        "message": "Abecedný zoznam"
+    },
+    "bbcwbx.bbcode.clp.spoiler": {
+        "message": "Spoiler"
+    },
+    "bbcwbx.bbcode.clp.image": {
+        "message": "Obrázok"
+    },
+    "bbcwbx.bbcode.clp.mkurlsel": {
+        "message": "Vytvoriť výberové URL"
+    },
+    "bbcwbx.bbcode.clp.url": {
+        "message": "URL"
+    },
+    "bbcwbx.bbcode.clp.urlname": {
+        "message": "URL s názvom"
+    },
+    "bbcwbx.bbcode.wbx": {
+        "message": "WebEx"
+    },
+    "bbcwbx.bbcode.wbx.quote": {
+        "message": "Citovať"
+    },
+    "bbcwbx.bbcode.wbx.code": {
+        "message": "Kód"
+    },
+    "bbcwbx.bbcode.wbx.list": {
+        "message": "Zoznam"
+    },
+    "bbcwbx.bbcode.wbx.ordlist": {
+        "message": "Usporiadaný zoznam"
+    },
+    "bbcwbx.bbcode.wbx.alphalist": {
+        "message": "Abecedný zoznam"
+    },
+    "bbcwbx.bbcode.wbx.spoiler": {
+        "message": "Spoiler"
+    },
+    "bbcwbx.bbcode.wbx.fntcol": {
+        "message": "Farba písma"
+    },
+    "bbcwbx.bbcode.wbx.fntsz": {
+        "message": "Veľkosť písma"
+    },
+    "bbcwbx.bbcode.wbx.urlname": {
+        "message": "URL s názvom"
+    },
+    "bbcwbx.bbcode.wbx.urlwiz": {
+        "message": "Sprievodca URL"
+    },
+    "bbcwbx.bbcode.vbl": {
+        "message": "VBulletin3"
+    },
+    "bbcwbx.bbcode.vbl.thd": {
+        "message": "Vlákno"
+    },
+    "bbcwbx.bbcode.vbl.pst": {
+        "message": "Príspevok"
+    },
+    "bbcwbx.bbcode.vbl.alnlf": {
+        "message": "Zarovnať doprava"
+    },
+    "bbcwbx.bbcode.vbl.alnrt": {
+        "message": "Zarovnať doľava"
+    },
+    "bbcwbx.bbcode.vbl.ctr": {
+        "message": "Centrovať"
+    },
+    "bbcwbx.bbcode.vbl.indnt": {
+        "message": "Odrážka"
+    },
+    "bbcwbx.bbcode.vbl.hilt": {
+        "message": "Zvýraznenie"
+    },
+    "bbcwbx.bbcode.bold": {
+        "message": "Tučné"
+    },
+    "bbcwbx.bbcode.ital": {
+        "message": "Kurzíva"
+    },
+    "bbcwbx.bbcode.undrln": {
+        "message": "Podčiarknuté"
+    },
+    "bbcwbx.bbcode.img": {
+        "message": "Obrázok"
+    },
+    "bbcwbx.bbcode.url": {
+        "message": "URL"
+    },
+    "bbcwbx.html": {
+        "message": "HTML"
+    },
+    "bbcwbx.html.clp": {
+        "message": "Schránka"
+    },
+    "bbcwbx.html.clp.quote": {
+        "message": "Citovať"
+    },
+    "bbcwbx.html.clp.code": {
+        "message": "Kód"
+    },
+    "bbcwbx.html.clp.list": {
+        "message": "Zoznam"
+    },
+    "bbcwbx.html.clp.ordlist": {
+        "message": "Usporiadaný zoznam"
+    },
+    "bbcwbx.html.clp.alphalist": {
+        "message": "Abecedný zoznam"
+    },
+    "bbcwbx.html.clp.image": {
+        "message": "Obrázok"
+    },
+    "bbcwbx.html.clp.mkurlsel": {
+        "message": "Vytvoriť výberové URL"
+    },
+    "bbcwbx.html.clp.url": {
+        "message": "URL"
+    },
+    "bbcwbx.html.clp.urlname": {
+        "message": "URL s názvom"
+    },
+    "bbcwbx.html.wbx": {
+        "message": "WebEx"
+    },
+    "bbcwbx.html.wbx.quote": {
+        "message": "Citovať"
+    },
+    "bbcwbx.html.wbx.code": {
+        "message": "Kód"
+    },
+    "bbcwbx.html.wbx.list": {
+        "message": "Zoznam"
+    },
+    "bbcwbx.html.wbx.ordlist": {
+        "message": "Usporiadaný zoznam"
+    },
+    "bbcwbx.html.wbx.alphalist": {
+        "message": "Abecedný zoznam"
+    },
+    "bbcwbx.html.wbx.urlname": {
+        "message": "URL s názvom"
+    },
+    "bbcwbx.html.wbx.urlwiz": {
+        "message": "Sprievodca URL"
+    },
+    "bbcwbx.html.bold": {
+        "message": "Tučné"
+    },
+    "bbcwbx.html.ital": {
+        "message": "Kurzíva"
+    },
+    "bbcwbx.html.undrln": {
+        "message": "Podčiarknuté"
+    },
+    "bbcwbx.html.strk": {
+        "message": "Prečiarknuté"
+    },
+    "bbcwbx.html.img": {
+        "message": "Obrázok"
+    },
+    "bbcwbx.html.url": {
+        "message": "URL"
+    },
+    "bbcwbx.xhtml": {
+        "message": "XHTML"
+    },
+    "bbcwbx.xhtml.clp": {
+        "message": "Schránka"
+    },
+    "bbcwbx.xhtml.clp.quote": {
+        "message": "Citovať"
+    },
+    "bbcwbx.xhtml.clp.code": {
+        "message": "Kód"
+    },
+    "bbcwbx.xhtml.clp.list": {
+        "message": "Zoznam"
+    },
+    "bbcwbx.xhtml.clp.ordlist": {
+        "message": "Usporiadaný zoznam"
+    },
+    "bbcwbx.xhtml.clp.alphalist": {
+        "message": "Abecedný zoznam"
+    },
+    "bbcwbx.xhtml.img": {
+        "message": "Obrázok"
+    },
+    "bbcwbx.xhtml.clp.mkurlsel": {
+        "message": "Vytvoriť výberové URL"
+    },
+    "bbcwbx.xhtml.clp.url": {
+        "message": "URL"
+    },
+    "bbcwbx.xhtml.clp.urlname": {
+        "message": "URL s názvom"
+    },
+    "bbcwbx.xhtml.wbx": {
+        "message": "WebEx"
+    },
+    "bbcwbx.xhtml.wbx.quote": {
+        "message": "Citovať"
+    },
+    "bbcwbx.xhtml.wbx.code": {
+        "message": "Kód"
+    },
+    "bbcwbx.xhtml.wbx.list": {
+        "message": "Zoznam"
+    },
+    "bbcwbx.xhtml.wbx.ordlist": {
+        "message": "Usporiadaný zoznam"
+    },
+    "bbcwbx.xhtml.wbx.alphalist": {
+        "message": "Abecedný zoznam"
+    },
+    "bbcwbx.xhtml.wbx.urlname": {
+        "message": "URL s názvom"
+    },
+    "bbcwbx.xhtml.wbx.urlwiz": {
+        "message": "Sprievodca URL"
+    },
+    "bbcwbx.xhtml.bold": {
+        "message": "Tučné"
+    },
+    "bbcwbx.xhtml.ital": {
+        "message": "Kurzíva"
+    },
+    "bbcwbx.xhtml.undrln": {
+        "message": "Podčiarknuté"
+    },
+    "bbcwbx.xhtml.strk": {
+        "message": "Prečiarknuté"
+    },
+    "bbcwbx.xhtml.image": {
+        "message": "Obrázok"
+    },
+    "bbcwbx.xhtml.url": {
+        "message": "URL"
+    },
+    "bbcwbx.custom": {
+        "message": "Vlastné značky"
+    },
+    "bbcwbx.mkdn": {
+        "message": "Markdown"
+    },
+    "bbcwbx.mkdn.clp": {
+        "message": "Schránka"
+    },
+    "bbcwbx.mkdn.clp.quote": {
+        "message": "Citovať"
+    },
+    "bbcwbx.mkdn.clp.code": {
+        "message": "Kód"
+    },
+    "bbcwbx.mkdn.clp.list": {
+        "message": "Zoznam"
+    },
+    "bbcwbx.mkdn.clp.ordlist": {
+        "message": "Usporiadaný zoznam"
+    },
+    "bbcwbx.mkdn.clp.mkurlsel": {
+        "message": "Vytvoriť výberové URL"
+    },
+    "bbcwbx.mkdn.clp.mkimgsel": {
+        "message": "Make image from selection"
+    },
+    "bbcwbx.mkdn.clp.urlname": {
+        "message": "URL s názvom"
+    },
+    "bbcwbx.mkdn.wbx": {
+        "message": "WebEx"
+    },
+    "bbcwbx.mkdn.wbx.quote": {
+        "message": "Citovať"
+    },
+    "bbcwbx.mkdn.wbx.code": {
+        "message": "Kód"
+    },
+    "bbcwbx.mkdn.wbx.list": {
+        "message": "Zoznam"
+    },
+    "bbcwbx.mkdn.wbx.ordlist": {
+        "message": "Usporiadaný zoznam"
+    },
+    "bbcwbx.mkdn.wbx.urlname": {
+        "message": "URL s názvom"
+    },
+    "bbcwbx.mkdn.wbx.urlwiz": {
+        "message": "Sprievodca URL"
+    },
+    "bbcwbx.mkdn.bold": {
+        "message": "Tučné"
+    },
+    "bbcwbx.mkdn.ital": {
+        "message": "Kurzíva"
+    },
+    "bbcwbx.mkdn.strk": {
+        "message": "Prečiarknuté"
+    }
+}

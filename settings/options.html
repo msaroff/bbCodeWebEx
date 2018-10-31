@@ -4,25 +4,41 @@
     <head>
         <meta charset="utf-8">
         <link href="options.css" rel="stylesheet" type="text/css" />
+
+
+
+
     </head>
-<style>
-div.a {
-    line-height: normal;
+<body>
+
+<script>
+var _el;
+
+function dragOver(e) {
+  if (isBefore(_el, e.target))
+    e.target.parentNode.insertBefore(_el, e.target);
+  else
+    e.target.parentNode.insertBefore(_el, e.target.nextSibling);
 }
 
-div.b {
-    line-height: 1.6;
+function dragStart(e) {
+  e.dataTransfer.effectAllowed = "move";
+  e.dataTransfer.setData("text/plain", null); // Thanks to bqlou for their comment.
+  _el = e.target;
 }
 
-div.c {
-    line-height: 80%;
+function isBefore(el1, el2) {
+  if (el2.parentNode === el1.parentNode)
+    for (var cur = el1.previousSibling; cur && cur.nodeType !== 9; cur = cur.previousSibling)
+      if (cur === el2)
+        return true;
+  return false;
 }
+</script>
 
-div.d {
-    line-height: 200%;
-}
-</style>
-    <body>
+
+
+
         <h2>Settings</h2>
         <form>
                 <table><td><label><input type="checkbox" id="bbCode" />Enable bbCode menu</label></td><td style="padding-left: 5em;"><label><input type="checkbox" id="HTML" />Enable HTML menu</label></td><tr>
@@ -36,9 +52,29 @@ div.d {
 
         <script src="options.js"></script>
 <br><h3>To backup custom tags, just copy the text in the dialogue box and save as a text file</h3><br>
+<h3>Add or Edit a Tag</h3>
+<label for="customMenuTitle">Label for your custom menu item: (Required)</label>
+<input id="customMenuTitle" class="custom" size="70"><br /><br />
+<label for="customMenuArg">Argument for your custom menu item: (Optional)</label>
+<input id="customMenuArg" class="custom" size="70"> Required unless this has submenus. <br /><br />
+<label for="customMenuId">Menu ID for your custom menu item: (Optional)</label>
+<input id="customMenuId" class="custom" size="70"> Only needed if you want to create custom submenus. <br /><br />
+<label for="customMenuParentId">Parent Menu for your custom menu item: (Optional)</label>
+<input id="customMenuParentId" class="custom" size="70"> Only needed if you want to create custom submenus. <br /><br />
 <hr>
 <h1>Instructions for customization</h1>
 <h2>Basics</h2>
+
+Drag and drop list test:<br>
+
+<ul>
+  <li draggable="true" ondragover="dragOver(event)" ondragstart="dragStart(event)">Apples</li>
+  <li draggable="true" ondragover="dragOver(event)" ondragstart="dragStart(event)">Oranges</li>
+  <li draggable="true" ondragover="dragOver(event)" ondragstart="dragStart(event)">Bananas</li>
+  <li draggable="true" ondragover="dragOver(event)" ondragstart="dragStart(event)">Strawberries</li>
+</ul>
+
+<br>
 
 This program works by evaluating tokens.<br>
 <br>
@@ -81,7 +117,7 @@ The basic tokens are:<br>
 <li>bbCode Ordered (numbers): <i>bbcodeord</i></li>
 <li>bbCode Alpha (alpha): <i>bbcodeordalf</i></li></ul>
 
-<b>HTML</b><ul><li>HTML Unordered (dots): <i>html</i></li>
+<b>HTML</b> (XHTML has identical syntax for lists)<ul><li>HTML Unordered (dots): <i>html</i></li>
 <li>HTML Ordered (number): <i>htmlord</i></li>
 <li>HTML Ordered (alpha): <i>htmlordalf</i><br></li></ul>
 <b>Markdown</b><ul><li>Markdown Unordered (dots): <i>markdown</i></li>

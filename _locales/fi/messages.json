@@ -1,0 +1,320 @@
+﻿{
+    "bbcwbx.bbcode": {
+        "message": "bbCode"
+    },
+    "bbcwbx.bbcode.clp": {
+        "message": "Leikepöytä"
+    },
+    "bbcwbx.bbcode.clp.quote": {
+        "message": "Lainaus"
+    },
+    "bbcwbx.bbcode.clp.code": {
+        "message": "Koodi"
+    },
+    "bbcwbx.bbcode.clp.list": {
+        "message": "Lista"
+    },
+    "bbcwbx.bbcode.clp.ordlist": {
+        "message": "Numerojärjestyksellinen lista"
+    },
+    "bbcwbx.bbcode.clp.alphalist": {
+        "message": "Aakkosjärjestyksellinen lista"
+    },
+    "bbcwbx.bbcode.clp.spoiler": {
+        "message": "Spoiler"
+    },
+    "bbcwbx.bbcode.clp.image": {
+        "message": "Kuva"
+    },
+    "bbcwbx.bbcode.clp.mkurlsel": {
+        "message": "Tee valinnasta linkki"
+    },
+    "bbcwbx.bbcode.clp.url": {
+        "message": "Linkki"
+    },
+    "bbcwbx.bbcode.clp.urlname": {
+        "message": "Linkki nimellä"
+    },
+    "bbcwbx.bbcode.wbx": {
+        "message": "WebEx"
+    },
+    "bbcwbx.bbcode.wbx.quote": {
+        "message": "Lainaus"
+    },
+    "bbcwbx.bbcode.wbx.code": {
+        "message": "Koodi"
+    },
+    "bbcwbx.bbcode.wbx.list": {
+        "message": "Lista"
+    },
+    "bbcwbx.bbcode.wbx.ordlist": {
+        "message": "Numerojärjestyksellinen lista"
+    },
+    "bbcwbx.bbcode.wbx.alphalist": {
+        "message": "Aakkosjärjestyksellinen lista"
+    },
+    "bbcwbx.bbcode.wbx.spoiler": {
+        "message": "Spoiler"
+    },
+    "bbcwbx.bbcode.wbx.fntcol": {
+        "message": "Kirjaisimen väri"
+    },
+    "bbcwbx.bbcode.wbx.fntsz": {
+        "message": "Kirjaisimen koko"
+    },
+    "bbcwbx.bbcode.wbx.urlname": {
+        "message": "Linkki nimellä"
+    },
+    "bbcwbx.bbcode.wbx.urlwiz": {
+        "message": "Linkinluoja"
+    },
+    "bbcwbx.bbcode.vbl": {
+        "message": "VBulletin3"
+    },
+    "bbcwbx.bbcode.vbl.thd": {
+        "message": "Keskusteluketju"
+    },
+    "bbcwbx.bbcode.vbl.pst": {
+        "message": "Posti"
+    },
+    "bbcwbx.bbcode.vbl.alnlf": {
+        "message": "Tasaa oikealle"
+    },
+    "bbcwbx.bbcode.vbl.alnrt": {
+        "message": "Tasaa vasemmalle"
+    },
+    "bbcwbx.bbcode.vbl.ctr": {
+        "message": "Keskelle"
+    },
+    "bbcwbx.bbcode.vbl.indnt": {
+        "message": "Sisennä"
+    },
+    "bbcwbx.bbcode.vbl.hilt": {
+        "message": "Korosta"
+    },
+    "bbcwbx.bbcode.bold": {
+        "message": "Lihavoi"
+    },
+    "bbcwbx.bbcode.ital": {
+        "message": "Kursivoi"
+    },
+    "bbcwbx.bbcode.undrln": {
+        "message": "Alleviivaa"
+    },
+    "bbcwbx.bbcode.img": {
+        "message": "Kuva"
+    },
+    "bbcwbx.bbcode.url": {
+        "message": "Linkki"
+    },
+    "bbcwbx.html": {
+        "message": "HTML"
+    },
+    "bbcwbx.html.clp": {
+        "message": "Leikepöytä"
+    },
+    "bbcwbx.html.clp.quote": {
+        "message": "Lainaus"
+    },
+    "bbcwbx.html.clp.code": {
+        "message": "Koodi"
+    },
+    "bbcwbx.html.clp.list": {
+        "message": "Lista"
+    },
+    "bbcwbx.html.clp.ordlist": {
+        "message": "Numerojärjestyksellinen lista"
+    },
+    "bbcwbx.html.clp.alphalist": {
+        "message": "Aakkosjärjestyksellinen lista"
+    },
+    "bbcwbx.html.clp.image": {
+        "message": "Kuva"
+    },
+    "bbcwbx.html.clp.mkurlsel": {
+        "message": "Tee valinnasta linkki"
+    },
+    "bbcwbx.html.clp.url": {
+        "message": "Linkki"
+    },
+    "bbcwbx.html.clp.urlname": {
+        "message": "Linkki nimellä"
+    },
+    "bbcwbx.html.wbx": {
+        "message": "WebEx"
+    },
+    "bbcwbx.html.wbx.quote": {
+        "message": "Lainaus"
+    },
+    "bbcwbx.html.wbx.code": {
+        "message": "Koodi"
+    },
+    "bbcwbx.html.wbx.list": {
+        "message": "Lista"
+    },
+    "bbcwbx.html.wbx.ordlist": {
+        "message": "Numerojärjestyksellinen lista"
+    },
+    "bbcwbx.html.wbx.alphalist": {
+        "message": "Aakkosjärjestyksellinen lista"
+    },
+    "bbcwbx.html.wbx.urlname": {
+        "message": "Linkki nimellä"
+    },
+    "bbcwbx.html.wbx.urlwiz": {
+        "message": "Linkinluoja"
+    },
+    "bbcwbx.html.bold": {
+        "message": "Lihavoi"
+    },
+    "bbcwbx.html.ital": {
+        "message": "Kursivoi"
+    },
+    "bbcwbx.html.undrln": {
+        "message": "Alleviivaa"
+    },
+    "bbcwbx.html.strk": {
+        "message": "Yliviivaa"
+    },
+    "bbcwbx.html.img": {
+        "message": "Kuva"
+    },
+    "bbcwbx.html.url": {
+        "message": "Linkki"
+    },
+    "bbcwbx.xhtml": {
+        "message": "XHTML"
+    },
+    "bbcwbx.xhtml.clp": {
+        "message": "Leikepöytä"
+    },
+    "bbcwbx.xhtml.clp.quote": {
+        "message": "Lainaus"
+    },
+    "bbcwbx.xhtml.clp.code": {
+        "message": "Koodi"
+    },
+    "bbcwbx.xhtml.clp.list": {
+        "message": "Lista"
+    },
+    "bbcwbx.xhtml.clp.ordlist": {
+        "message": "Numerojärjestyksellinen lista"
+    },
+    "bbcwbx.xhtml.clp.alphalist": {
+        "message": "Aakkosjärjestyksellinen lista"
+    },
+    "bbcwbx.xhtml.img": {
+        "message": "Kuva"
+    },
+    "bbcwbx.xhtml.clp.mkurlsel": {
+        "message": "Tee valinnasta linkki"
+    },
+    "bbcwbx.xhtml.clp.url": {
+        "message": "Linkki"
+    },
+    "bbcwbx.xhtml.clp.urlname": {
+        "message": "Linkki nimellä"
+    },
+    "bbcwbx.xhtml.wbx": {
+        "message": "WebEx"
+    },
+    "bbcwbx.xhtml.wbx.quote": {
+        "message": "Lainaus"
+    },
+    "bbcwbx.xhtml.wbx.code": {
+        "message": "Koodi"
+    },
+    "bbcwbx.xhtml.wbx.list": {
+        "message": "Lista"
+    },
+    "bbcwbx.xhtml.wbx.ordlist": {
+        "message": "Numerojärjestyksellinen lista"
+    },
+    "bbcwbx.xhtml.wbx.alphalist": {
+        "message": "Aakkosjärjestyksellinen lista"
+    },
+    "bbcwbx.xhtml.wbx.urlname": {
+        "message": "Linkki nimellä"
+    },
+    "bbcwbx.xhtml.wbx.urlwiz": {
+        "message": "Linkinluoja"
+    },
+    "bbcwbx.xhtml.bold": {
+        "message": "Lihavoi"
+    },
+    "bbcwbx.xhtml.ital": {
+        "message": "Kursivoi"
+    },
+    "bbcwbx.xhtml.undrln": {
+        "message": "Alleviivaa"
+    },
+    "bbcwbx.xhtml.strk": {
+        "message": "Yliviivaa"
+    },
+    "bbcwbx.xhtml.image": {
+        "message": "Kuva"
+    },
+    "bbcwbx.xhtml.url": {
+        "message": "Linkki"
+    },
+    "bbcwbx.custom": {
+        "message": "Omat tagit"
+    },
+    "bbcwbx.mkdn": {
+        "message": "Markdown"
+    },
+    "bbcwbx.mkdn.clp": {
+        "message": "Leikepöytä"
+    },
+    "bbcwbx.mkdn.clp.quote": {
+        "message": "Lainaus"
+    },
+    "bbcwbx.mkdn.clp.code": {
+        "message": "Koodi"
+    },
+    "bbcwbx.mkdn.clp.list": {
+        "message": "Lista"
+    },
+    "bbcwbx.mkdn.clp.ordlist": {
+        "message": "Numerojärjestyksellinen lista"
+    },
+    "bbcwbx.mkdn.clp.mkurlsel": {
+        "message": "Tee valinnasta linkki"
+    },
+    "bbcwbx.mkdn.clp.mkimgsel": {
+        "message": "Make image from selection"
+    },
+    "bbcwbx.mkdn.clp.urlname": {
+        "message": "Linkki nimellä"
+    },
+    "bbcwbx.mkdn.wbx": {
+        "message": "WebEx"
+    },
+    "bbcwbx.mkdn.wbx.quote": {
+        "message": "Lainaus"
+    },
+    "bbcwbx.mkdn.wbx.code": {
+        "message": "Koodi"
+    },
+    "bbcwbx.mkdn.wbx.list": {
+        "message": "Lista"
+    },
+    "bbcwbx.mkdn.wbx.ordlist": {
+        "message": "Numerojärjestyksellinen lista"
+    },
+    "bbcwbx.mkdn.wbx.urlname": {
+        "message": "Linkki nimellä"
+    },
+    "bbcwbx.mkdn.wbx.urlwiz": {
+        "message": "Linkinluoja"
+    },
+    "bbcwbx.mkdn.bold": {
+        "message": "Lihavoi"
+    },
+    "bbcwbx.mkdn.ital": {
+        "message": "Kursivoi"
+    },
+    "bbcwbx.mkdn.strk": {
+        "message": "Yliviivaa"
+    }
+}

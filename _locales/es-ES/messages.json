@@ -1,0 +1,320 @@
+﻿{
+    "bbcwbx.bbcode": {
+        "message": "bbCode"
+    },
+    "bbcwbx.bbcode.clp": {
+        "message": "Portapapeles"
+    },
+    "bbcwbx.bbcode.clp.quote": {
+        "message": "Citar"
+    },
+    "bbcwbx.bbcode.clp.code": {
+        "message": "Código"
+    },
+    "bbcwbx.bbcode.clp.list": {
+        "message": "Lista"
+    },
+    "bbcwbx.bbcode.clp.ordlist": {
+        "message": "Lista ordenada"
+    },
+    "bbcwbx.bbcode.clp.alphalist": {
+        "message": "Lista ordenada alfabéticamente"
+    },
+    "bbcwbx.bbcode.clp.spoiler": {
+        "message": "Spoiler"
+    },
+    "bbcwbx.bbcode.clp.image": {
+        "message": "Imagen"
+    },
+    "bbcwbx.bbcode.clp.mkurlsel": {
+        "message": "URL de selección"
+    },
+    "bbcwbx.bbcode.clp.url": {
+        "message": "URL"
+    },
+    "bbcwbx.bbcode.clp.urlname": {
+        "message": "URL con nombre"
+    },
+    "bbcwbx.bbcode.wbx": {
+        "message": "WebEx"
+    },
+    "bbcwbx.bbcode.wbx.quote": {
+        "message": "Citar"
+    },
+    "bbcwbx.bbcode.wbx.code": {
+        "message": "Código"
+    },
+    "bbcwbx.bbcode.wbx.list": {
+        "message": "Lista"
+    },
+    "bbcwbx.bbcode.wbx.ordlist": {
+        "message": "Lista ordenada"
+    },
+    "bbcwbx.bbcode.wbx.alphalist": {
+        "message": "Lista ordenada alfabéticamente"
+    },
+    "bbcwbx.bbcode.wbx.spoiler": {
+        "message": "Spoiler"
+    },
+    "bbcwbx.bbcode.wbx.fntcol": {
+        "message": "Color"
+    },
+    "bbcwbx.bbcode.wbx.fntsz": {
+        "message": "Tamaño"
+    },
+    "bbcwbx.bbcode.wbx.urlname": {
+        "message": "URL con nombre"
+    },
+    "bbcwbx.bbcode.wbx.urlwiz": {
+        "message": "Asistente para URL"
+    },
+    "bbcwbx.bbcode.vbl": {
+        "message": "VBulletin3"
+    },
+    "bbcwbx.bbcode.vbl.thd": {
+        "message": "Cadena"
+    },
+    "bbcwbx.bbcode.vbl.pst": {
+        "message": "Mensaje"
+    },
+    "bbcwbx.bbcode.vbl.alnlf": {
+        "message": "Alinear a la derecha"
+    },
+    "bbcwbx.bbcode.vbl.alnrt": {
+        "message": "Alinear a la izquierda"
+    },
+    "bbcwbx.bbcode.vbl.ctr": {
+        "message": "Centrado"
+    },
+    "bbcwbx.bbcode.vbl.indnt": {
+        "message": "Sangrado"
+    },
+    "bbcwbx.bbcode.vbl.hilt": {
+        "message": "Resaltado"
+    },
+    "bbcwbx.bbcode.bold": {
+        "message": "Negrita"
+    },
+    "bbcwbx.bbcode.ital": {
+        "message": "Cursiva"
+    },
+    "bbcwbx.bbcode.undrln": {
+        "message": "Subrayado"
+    },
+    "bbcwbx.bbcode.img": {
+        "message": "Imagen"
+    },
+    "bbcwbx.bbcode.url": {
+        "message": "URL"
+    },
+    "bbcwbx.html": {
+        "message": "HTML"
+    },
+    "bbcwbx.html.clp": {
+        "message": "Portapapeles"
+    },
+    "bbcwbx.html.clp.quote": {
+        "message": "Citar"
+    },
+    "bbcwbx.html.clp.code": {
+        "message": "Código"
+    },
+    "bbcwbx.html.clp.list": {
+        "message": "Lista"
+    },
+    "bbcwbx.html.clp.ordlist": {
+        "message": "Lista ordenada"
+    },
+    "bbcwbx.html.clp.alphalist": {
+        "message": "Lista ordenada alfabéticamente"
+    },
+    "bbcwbx.html.clp.image": {
+        "message": "Imagen"
+    },
+    "bbcwbx.html.clp.mkurlsel": {
+        "message": "URL de selección"
+    },
+    "bbcwbx.html.clp.url": {
+        "message": "URL"
+    },
+    "bbcwbx.html.clp.urlname": {
+        "message": "URL con nombre"
+    },
+    "bbcwbx.html.wbx": {
+        "message": "WebEx"
+    },
+    "bbcwbx.html.wbx.quote": {
+        "message": "Citar"
+    },
+    "bbcwbx.html.wbx.code": {
+        "message": "Código"
+    },
+    "bbcwbx.html.wbx.list": {
+        "message": "Lista"
+    },
+    "bbcwbx.html.wbx.ordlist": {
+        "message": "Lista ordenada"
+    },
+    "bbcwbx.html.wbx.alphalist": {
+        "message": "Lista ordenada alfabéticamente"
+    },
+    "bbcwbx.html.wbx.urlname": {
+        "message": "URL con nombre"
+    },
+    "bbcwbx.html.wbx.urlwiz": {
+        "message": "Asistente para URL"
+    },
+    "bbcwbx.html.bold": {
+        "message": "Negrita"
+    },
+    "bbcwbx.html.ital": {
+        "message": "Cursiva"
+    },
+    "bbcwbx.html.undrln": {
+        "message": "Subrayado"
+    },
+    "bbcwbx.html.strk": {
+        "message": "Tachado"
+    },
+    "bbcwbx.html.img": {
+        "message": "Imagen"
+    },
+    "bbcwbx.html.url": {
+        "message": "URL"
+    },
+    "bbcwbx.xhtml": {
+        "message": "XHTML"
+    },
+    "bbcwbx.xhtml.clp": {
+        "message": "Portapapeles"
+    },
+    "bbcwbx.xhtml.clp.quote": {
+        "message": "Citar"
+    },
+    "bbcwbx.xhtml.clp.code": {
+        "message": "Código"
+    },
+    "bbcwbx.xhtml.clp.list": {
+        "message": "Lista"
+    },
+    "bbcwbx.xhtml.clp.ordlist": {
+        "message": "Lista ordenada"
+    },
+    "bbcwbx.xhtml.clp.alphalist": {
+        "message": "Lista ordenada alfabéticamente"
+    },
+    "bbcwbx.xhtml.img": {
+        "message": "Imagen"
+    },
+    "bbcwbx.xhtml.clp.mkurlsel": {
+        "message": "URL de selección"
+    },
+    "bbcwbx.xhtml.clp.url": {
+        "message": "URL"
+    },
+    "bbcwbx.xhtml.clp.urlname": {
+        "message": "URL con nombre"
+    },
+    "bbcwbx.xhtml.wbx": {
+        "message": "WebEx"
+    },
+    "bbcwbx.xhtml.wbx.quote": {
+        "message": "Citar"
+    },
+    "bbcwbx.xhtml.wbx.code": {
+        "message": "Código"
+    },
+    "bbcwbx.xhtml.wbx.list": {
+        "message": "Lista"
+    },
+    "bbcwbx.xhtml.wbx.ordlist": {
+        "message": "Lista ordenada"
+    },
+    "bbcwbx.xhtml.wbx.alphalist": {
+        "message": "Lista ordenada alfabéticamente"
+    },
+    "bbcwbx.xhtml.wbx.urlname": {
+        "message": "URL con nombre"
+    },
+    "bbcwbx.xhtml.wbx.urlwiz": {
+        "message": "Asistente para URL"
+    },
+    "bbcwbx.xhtml.bold": {
+        "message": "Negrita"
+    },
+    "bbcwbx.xhtml.ital": {
+        "message": "Cursiva"
+    },
+    "bbcwbx.xhtml.undrln": {
+        "message": "Subrayado"
+    },
+    "bbcwbx.xhtml.strk": {
+        "message": "Tachado"
+    },
+    "bbcwbx.xhtml.image": {
+        "message": "Imagen"
+    },
+    "bbcwbx.xhtml.url": {
+        "message": "URL"
+    },
+    "bbcwbx.custom": {
+        "message": "Etiquetas"
+    },
+    "bbcwbx.mkdn": {
+        "message": "Markdown"
+    },
+    "bbcwbx.mkdn.clp": {
+        "message": "Portapapeles"
+    },
+    "bbcwbx.mkdn.clp.quote": {
+        "message": "Citar"
+    },
+    "bbcwbx.mkdn.clp.code": {
+        "message": "Código"
+    },
+    "bbcwbx.mkdn.clp.list": {
+        "message": "Lista"
+    },
+    "bbcwbx.mkdn.clp.ordlist": {
+        "message": "Lista ordenada"
+    },
+    "bbcwbx.mkdn.clp.mkurlsel": {
+        "message": "URL de selección"
+    },
+    "bbcwbx.mkdn.clp.mkimgsel": {
+        "message": "Crear imagen a partir de selección"
+    },
+    "bbcwbx.mkdn.clp.urlname": {
+        "message": "URL con nombre"
+    },
+    "bbcwbx.mkdn.wbx": {
+        "message": "WebEx"
+    },
+    "bbcwbx.mkdn.wbx.quote": {
+        "message": "Citar"
+    },
+    "bbcwbx.mkdn.wbx.code": {
+        "message": "Código"
+    },
+    "bbcwbx.mkdn.wbx.list": {
+        "message": "Lista"
+    },
+    "bbcwbx.mkdn.wbx.ordlist": {
+        "message": "Lista ordenada"
+    },
+    "bbcwbx.mkdn.wbx.urlname": {
+        "message": "URL con nombre"
+    },
+    "bbcwbx.mkdn.wbx.urlwiz": {
+        "message": "Asistente para URL"
+    },
+    "bbcwbx.mkdn.bold": {
+        "message": "Negrita"
+    },
+    "bbcwbx.mkdn.ital": {
+        "message": "Cursiva"
+    },
+    "bbcwbx.mkdn.strk": {
+        "message": "Tachado"
+    }
+}
