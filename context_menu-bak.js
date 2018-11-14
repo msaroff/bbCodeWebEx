@@ -7,8 +7,8 @@ function onCreated() {
 }
 
 
-activeMenus = invokeDefaultMenus();
-// console.log("enablebbCode: "+ activeMenus.enablebbCode+"\n"+"enableHTML: "+ activeMenus.enableHTML+"\n"+"enableVbulletin: "+ activeMenus.enableVbulletin+"\n"+"enableXHTML: "+ activeMenus.enableXHTML+"\n"+"enableMarkDown: "+ activeMenus.enableMarkDown+"\n"+"enableCustom: "+ activeMenus.enableCustom+"\n"+"enableSymbol: "+ activeMenus.enableSymbol);
+activeMenus = invokeDefaultMenus()
+console.log("Active Menus Set to: "+ activeMenus);
 
 function invokeDefaultMenus() {
 let defaultMenus = {
@@ -20,11 +20,16 @@ let defaultMenus = {
         enableCustom: true,
         enableSymbol: false
 };
-    if (localStorage.getItem("activeMenus") === null) { //if menu settings not stored, 
-        localStorage.setItem('activeMenus',JSON.stringify(defaultMenus)); //store default in local menu
+    if (browser.localStorage.getitem(activeMenus) == null) { //if menu settings not stored, use to default & save to local storage
+        console.log('No stored menu')
+        console.log("Active Menus: "+activeMenus);
+        broswer.localstorage.setitem(activMenus,JSON.Stringify(defaultMenus));
+    return (defaultMenus);
+} else { //if local storage for menu, get values
+    console.log("loaded existing values");
+    return(JSON.Parse(browser.localStorage.getitem(activeMenus)));
 }
-        return JSON.parse(localStorage.getItem('activeMenus'));
-}
+
 
 const defMenuURL = chrome.runtime.getURL('data/DefMenu.json');
 

@@ -15,37 +15,10 @@
 
     browser.runtime.onMessage.addListener(function(commandString, sendResponse) {
         CommandParse(commandString);
-        getColor();
     });
 
-
-function removeElement(id) { //generic remove element by ID function
-    var elem = document.getElementById(id);
-    return elem.parentNode.removeChild(elem);
-}
-/*
-function getColor(mkColor) {
- alert("Hello! I am an alert box!");
-var input = document.createElement("input");  //create element
-input.setAttribute('type', 'color'); //is a color input button
-input.setAttribute('id','zzzcolor'); //it's ID is zzzcolor
-document.body.appendChild(input);  // append to body
-document.getElementById("zzzcolor").click(); // click on element
-}
-*/
-
-// asynchronous version
- async function getColor(mkColor) {
-    let fontColor = await pickColor();
-    console.log("font color " + fontColor);
-    console.log("mkColor " + mkColor);
-    mkColor = mkColor.replace(/{{fontcol}}/g, fontColor);
-    console.log("mkColor " + mkColor);
-    return mkColor;
-} 
-
 // check out code from NilkasGNiklas Gollenstede
-
+/*
 function clickElement(element) {
 	const evt = document.createEvent('MouseEvents');
 	evt.initEvent('click', true, true);
@@ -55,7 +28,6 @@ function clickElement(element) {
 
 function pickColor() { return new Promise(resolve => {
 	const input = document.createElement('input'); input.type = 'color';
-console.log("input "+input);
 	input.addEventListener('change', () => resolve(input.value));
 	clickElement.call(window, input);
 }); }
@@ -64,9 +36,24 @@ someElement.onclick = async () => {
 	const color = (await pickColor());
 	console.log(color);
 };
+*/
+//endcode from NilkasGNiklas Gollenstede
 
-//end of code from NilkasGNiklas Gollenstede
+function getColor(argString) {
+console.log("fontColor");
+// let fontColor = pickColor();
+//consol.log(fontColor);
+return argString;
+}
 
+/*
+function fontColor(colArg) {
+console.log("font color");
+console.log("color argument: "+colArg);
+browser.browserAction.setPopup({popup: "/popup/getColor.html"})
+return colArg;
+}
+*/
 
     /*
     Popup has the format of {{zzppopup,title,text before, text after}}
@@ -98,7 +85,7 @@ console.log(popTitle);
     }
 
     /*
-    List has the format of {{makeList,thing to make into list,type of list}}
+    List has the format of {{makeList,test to make list,type of list}}
     */
     function makeList(listArg) {
         let listStartIdx = listArg.indexOf("{{list"); // start of list argument in commend string
@@ -130,6 +117,7 @@ console.log(popTitle);
         let selcont = txtcont.substring(selstart, selend); // selected text content
         let firsttext = txtcont.substring(0, selstart); //stuff before the selection
         let lasttext = txtcont.substring(selend); // stuff after the selection
+        //    console.log("Argument:", argString);
         if (argString.includes("{{clipboard}}")) { // Replace clipboard tag with clipboard contents
             const clipcont = await readFromClipboard('text/plain');
             argString = argString.replace(/{{clipboard}}/g, clipcont);
@@ -143,10 +131,8 @@ console.log(popTitle);
         if (argString.includes("{{makeList")) { // Invoke list creation function
             argString = makeList(argString);
         }
-        if (argString.includes("fontzcol")) { // Invoke font color wheel
-//            argString = await getColor(argString);
+        if (argString.includes("fontcol")) { // Invoke font color wheel
             argString = getColor(argString);
-              
         }
 
 
