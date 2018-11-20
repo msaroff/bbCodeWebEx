@@ -4,19 +4,47 @@
 
 <head>
     <meta charset="utf-8">
-</head>
+<style>
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th {
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 3px;
+    padding-left: 15px;
+}
+td {
+    padding-top: 7px;
+    padding-right: 15px;
+    padding-bottom: 2px;
+    padding-left: 15px;
+}
+tr:hover {background-color:#f5f5f5;
 
-<body>
-YOU ARE IN A MAZE OF TWISTY LITTLE PASSAGES, ALL DIFFERENT.<br>
-YOU ARE IN A LITTLE MAZE OF TWISTING PASSAGES, ALL DIFFERENT.<br>
-YOU ARE IN A MAZE OF TWISTING LITTLE PASSAGES, ALL DIFFERENT.<br>
-YOU ARE IN A LITTLE MAZE OF TWISTY PASSAGES, ALL DIFFERENT.<br>
-YOU ARE IN A TWISTING MAZE OF LITTLE PASSAGES, ALL DIFFERENT.<br>
-YOU ARE IN A TWISTING LITTLE MAZE OF PASSAGES, ALL DIFFERENT.<br>
-YOU ARE IN A TWISTY LITTLE MAZE OF PASSAGES, ALL DIFFERENT.<br>
-YOU ARE IN A TWISTY MAZE OF LITTLE PASSAGES, ALL DIFFERENT.<br>
-YOU ARE IN A LITTLE TWISTY MAZE OF PASSAGES, ALL DIFFERENT.<br>
-YOU ARE IN A MAZE OF LITTLE TWISTING PASSAGES, ALL DIFFERENT.<br>
-YOU ARE IN A MAZE OF LITTLE TWISTY PASSAGES, ALL DIFFERENT.<br>
+}
+
+</style>
+</head>
+<h1>Current Custom Tags</h1>
+
+<body><table id="customTagTable" border=2>
+    <thead id="customTableHead"><tr>
+<th>Menu ID</th><th>Menu Title</th><th>Parent ID</th><th>Menu Argument</th>
+</tr></thead><tbody id="customTagList"></tbody>
+</table><br><br><br>
+<BR><BR>
+
+<h2>Edit/Create Tag</h2>
+<form>
+  Menu ID: <input type="text" id="menuId" value="XYZZY" disabled> For reference only.  Do Not Change.<br><br>
+Menu Title: <input type="text" id="menuTitle" > <br><br>
+Menu Argument: <input type="text" id="menuArg"> <br><br>
+Parent Menu <input type="text" id="parentId" value="bbcwbx.custom"> Leave as is unless you understand menu hierarchies.<br><br><br>
+<input type="submit" name="New" value="New">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="submit" name="Clear" value="Clear">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="submit" name="Save" value="Save"> 
+</form>
+<script src ="custom_tags.js" ></script>
 </body>
 </html>

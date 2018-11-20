@@ -1,0 +1,38 @@
+[
+    {
+        "menuId": "bbcwbx.custom.001",
+        "menuTitle": "First custom menu",
+        "parentId": "bbcwbx.custom",
+        "menuSerial": "001",
+        "menuArg": ""
+    },
+    {
+        "menuId": "bbcwbx.custom.002",
+        "menuTitle": "Second custom menu",
+        "parentId": "bbcwbx.custom",
+        "menuSerial": "002",
+        "menuArg": ""
+    },
+    {
+        "menuId": "bbcwbx.custom.003",
+        "menuTitle": "Third custom menu",
+        "parentId": "bbcwbx.custom",
+        "menuSerial": "003",
+        "menuArg": ""
+    },
+    {
+        "menuId": "bbcwbx.custom.004",
+        "menuTitle": "Forth custom menu",
+        "parentId": "bbcwbx.custom",
+        "menuSerial": "004",
+        "menuArg": ""
+    },
+    {
+        "menuId": "bbcwbx.custom.005",
+        "menuTitle": "Fifth custom menu",
+        "parentId": "bbcwbx.custom",
+        "menuSerial": "005",
+        "menuArg": ""
+    }
+
+]

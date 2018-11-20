@@ -31,7 +31,7 @@
            "data/*.json"
      ],
      "background": {
-          "scripts": ["context_menu.js", "includes/require.js"]
+          "scripts": ["context_menu.js"]
      },
          "content_scripts": [
               {

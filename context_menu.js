@@ -8,7 +8,11 @@ function onCreated() {
 
 
 activeMenus = invokeDefaultMenus();
-// console.log("enablebbCode: "+ activeMenus.enablebbCode+"\n"+"enableHTML: "+ activeMenus.enableHTML+"\n"+"enableVbulletin: "+ activeMenus.enableVbulletin+"\n"+"enableXHTML: "+ activeMenus.enableXHTML+"\n"+"enableMarkDown: "+ activeMenus.enableMarkDown+"\n"+"enableCustom: "+ activeMenus.enableCustom+"\n"+"enableSymbol: "+ activeMenus.enableSymbol);
+/* console.log("enablebbCode: "+ activeMenus.enablebbCode+"\n"+"enableHTML: "+ activeMenus.enableHTML+
+"\n"+"enableVbulletin: "+ activeMenus.enableVbulletin+"\n"+"enableXHTML: "+ 
+activeMenus.enableXHTML+"\n"+"enableMarkDown: "+ activeMenus.enableMarkDown+"\n"+
+"enableCustom: "+ activeMenus.enableCustom+"\n"+"enableSymbol: "+ activeMenus.enableSymbol);
+*/
 
 function invokeDefaultMenus() {
 let defaultMenus = {
@@ -26,7 +30,30 @@ let defaultMenus = {
         return JSON.parse(localStorage.getItem('activeMenus'));
 }
 
-const defMenuURL = chrome.runtime.getURL('data/DefMenu.json');
+customMenusTestURL = browser.runtime.getURL('data/customMenuTest.json');
+console.log("customMenusTestURL = ",customMenusTestURL);
+
+fetch(customMenusTestURL)
+    .then(function(response) {
+    return response.json();
+  })
+  .then(function(myJson) {
+    console.log(JSON.stringify(myJson));
+localStorage.setItem('customMenus', JSON.stringify(myJson));
+    console.log("custom menu saved");
+  });
+
+/*
+function invokeCustomMenus() {
+};
+    if (localStorage.getItem("customMenus") === null) { //if menu settings not stored, 
+        localStorage.setItem('customMenus',JSON.stringify(customMenusTest)); //store test case in custom menu
+} // eventually, it will store an empty object
+        return JSON.parse(localStorage.getItem('customMenus'));
+}
+*/
+
+const defMenuURL = browser.runtime.getURL('data/DefMenu.json');
 
 var defaultMenu = [];
 

@@ -68,9 +68,21 @@ someElement.onclick = async () => {
 //end of code from NilkasGNiklas Gollenstede
 
 
-    /*
-    Popup has the format of {{zzppopup,title,text before, text after}}
-    */
+/*
+Popup has the format of {{zzppopup,title,unique text string to change,text before, text after}}
+text before and text after omitted if empty answer given. (use double quotes"" if not used)
+Use unique text so that we can set order of dialogue boxes independent of the order of 
+Argument.
+
+So, quote paste is: {{zzpopup,i18n.INS_AUTHOR,zzzquote,=","}}][quote]zzquote{{clipboard}}][/quote]
+This will give [quote]CLIPBOARD[/QUOTE] if no author given and [quote="AUTHOR"] CLIPBOARD[/QUOTE]
+if author given.
+and url wizard is 
+{{zzpopup,i18n.URLCOMPOSTO_STEP1,zzTitle,"",""}}{{zzpopup,i18n.URLCOMPOSTO_STEP2,zzURL,"",""}}[url=zzURL]zzTitle[/url]
+It will prompt for title, and then for url, and the result will be
+[url=URL]TITLE[/url]
+This will generate as many popup dialogues as you would want.
+*/
     function popThisUp(popArg) {
         popStartIdx = popArg.indexOf("{{zzpopup"); // start of popup argument in commend string
         popEndIdx = popArg.indexOf("}}", popStartIdx) + 2; // end of popup argument in command string
