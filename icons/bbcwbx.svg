@@ -1,0 +1,15 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="202" width="202" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <rect fill="none" height="660" width="1380" id="svgEditorBackground"/>
+  <text transform="matrix(5.91598, 0, 0, 4.94794, -406.843, -182.389)" fill="blue" font-weight="bolder" id="e1_texte" y="53.021042" x="62.830966">
+   <tspan id="svg_1" text-anchor="middle" x="85.238966">bbC</tspan>
+   <tspan id="svg_2" text-anchor="middle" dy="1.25em" x="85.030966">WBX</tspan>
+  </text>
+ </g>
+</svg>

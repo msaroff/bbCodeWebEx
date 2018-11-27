@@ -5,46 +5,286 @@
 <head>
     <meta charset="utf-8">
 <style>
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-}
-th {
-    padding-top: 10px;
-    padding-right: 15px;
-    padding-bottom: 3px;
-    padding-left: 15px;
-}
-td {
-    padding-top: 7px;
-    padding-right: 15px;
-    padding-bottom: 2px;
-    padding-left: 15px;
-}
-tr:hover {background-color:#f5f5f5;
+/* This is the formatting to simulate the appearance of a table for the 
+draggable list. */
+.grid-container {
+  display: table;
+  width: 100%;
+  margin-bottom: -3;
+  border: none;
 
 }
+
+.grid-item-menuId {
+  background-color: #fff;
+  border: 1px solid black;
+  border-left: 3px solid #000;
+  border-top: 0px none blue;
+  padding: 0px 3px 0px 5px;
+  text-align: left;
+  width: 17%;
+  display: table-cell;
+  margin-bottom: -4px;
+  margin-top: -5px;
+  margin-right: 6px; 
+  word-wrap: break-all; 
+  word-break: break-all;
+  hyphens: auto;
+}
+
+.grid-item-menuTitle {
+  background-color: #fff;
+  border: 1px solid black;
+  border-top: 0px none blue;
+  padding: 0px 3px 0px 5px;
+  text-align: left;
+  width: 17%;
+  max-width: 17%;
+  display: table-cell;
+  border-collapse: collapse;
+/*  margin-left: 5px; 
+  margin-bottom: -4px;
+  margin-top: -5px;*/
+  word-break: break-all;
+  hyphens: auto;
+}
+
+.grid-item-parentId {
+  background-color: #fff;
+  border: 1px solid black;
+  border-top: 0px none blue;
+  padding: 0px 3px 0px 5px;
+  text-align: left;
+  width: 17%;
+  max-width: 17%;
+  display: table-cell;
+  border-collapse: collapse;
+  margin-left: -5px;
+  margin-bottom: -4px;
+  margin-top: -5px;
+  word-break: break-all;
+  hyphens: auto;
+}
+
+.grid-item-menuArg {
+  background-color: #fff;
+  border: 1px solid black;
+  border-top: 0px none blue;
+  padding: 0px 3px 0px 5px;
+  text-align: left;
+  width: 47%;
+  max-width: 47%;
+  display: table-cell;
+  border-collapse: collapse;
+  margin-left: -5px;
+  margin-bottom: -14px;
+  margin-top: -5px;
+  border-right: 3px solid #000;
+  word-break: break-all;
+  hyphens: auto;
+}
+
+/* This is the formatting for the immobile header row */
+.grid-container-hdr {
+  display: table;
+  width: 100%;
+  margin-bottom: -16px;
+word-wrap: break-word;
+}
+
+.grid-item-menuId-hdr {
+  background-color: #fff;
+  font-weight: bold;
+  border: 1px solid black;
+  border-left: 3px solid #000;
+  border-top: 3px solid #000;
+  border-bottom: 2px solid black;
+  padding: 0px 3px 0px 5px;
+  text-align: left;
+  width: 17%;
+  display: table-cell;
+  margin-bottom: -3px;
+  word-break: break-all;
+  hyphens: auto;
+}
+
+.grid-item-menuTitle-hdr {
+  background-color: #fff;
+  font-weight: bold;
+  border: 1px solid black;
+  border-top: 3px solid #000;
+  border-bottom: 2px solid #000;
+  padding: 0px 3px 0px 5px;
+  text-align: left;
+  width: 17%;
+  display: table-cell;
+  border-collapse: collapse;
+  margin-left: -5px;
+  margin-bottom: -3px;
+  word-break: break-all;
+  hyphens: auto;
+}
+
+.grid-item-parentId-hdr {
+  background-color: #fff;
+  font-weight: bold;
+  border: 1px solid black;
+  border-top: 3px solid #000;
+  border-bottom: 2px solid #000;
+  padding: 0px 3px 0px 5px;
+  text-align: left;
+  width: 17%;
+  display: table-cell;
+  border-collapse: collapse;
+  margin-left: -5px;
+  margin-bottom: -3px;
+  word-break: break-all;
+  hyphens: auto;
+}
+
+.grid-item-menuArg-hdr {
+  background-color: #fff;
+  font-weight: bold;
+  border: 1px solid black;
+  border-right: 3px solid #000;
+  border-top: 3px solid #000;
+  border-bottom: 2px solid #000;
+  padding: 0px 3px 0px 5px;
+  text-align: left;
+  width: 47%;
+  display: table-cell;
+  border-collapse: collapse;
+  margin-left: -5px;
+  margin-bottom: -3px;
+  word-break: break-all;
+  hyphens: auto;
+}
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+ul.order {  /* Set up a list with no indent and no first character to make sortable table appearance */ 
+    list-style-type: none;
+    margin-left: 0; padding-left: 0;
+}
+
+
+table {
+     text-align: left;
+    border-collapse: collapse;
+    border-left: 3px solid black; 
+    border-right: 3px solid black;
+    border-bottom: 3px solid black; 
+    table-layout: fixed;
+    overflow-wrap: break-word;
+}
+
+table.sortable 
+{
+    text-align: left;
+    border-collapse: collapse;
+    border-left: 3px solid black; 
+    border-right: 3px solid black; 
+    border-top: none;
+    border-bottom: none;
+    table-layout: fixed;
+    overflow-wrap: break-word;
+}
+/**/
+
+ th {
+    border-bottom: 2px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-top: 3px solid black;
+    border-collapse: collapse;
+}
+
+ td {
+    border-collapse: collapse;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black; 
+    border-right: 1px solid black;
+    overflow-wrap: break-word;
+
+}
+
+tr: hover {background-color: #f0f0f0;
+
+}
+
+#alertBox {
+	position: relative;
+	width: 1000px;
+	min-height: 100px;
+	margin-top: 50px;
+	border: 1px solid #666;
+	background-color: #fff;
+	background-repeat: no-repeat;
+	background-position: 20px 30px;
+}
+
 
 </style>
 </head>
 <h1>Current Custom Tags</h1>
 
-<body><table id="customTagTable" border=2>
+<body><table id="customTagTable" class ="tableHed" >
     <thead id="customTableHead"><tr>
 <th>Menu ID</th><th>Menu Title</th><th>Parent ID</th><th>Menu Argument</th>
 </tr></thead><tbody id="customTagList"></tbody>
-</table><br><br><br>
-<BR><BR>
+</table><br><input type="submit" id="saveTagOrder" value="Save Tag Order"><br>Drag and Drop to Reorder Tables<br>
+<BR>
+<BR><h2>List Version</h2>
+<!–– 
+End of table, beginning of list.
+this is the immobile header row
+ ––>
+<div class="grid-container-hdr">
+<div class="grid-item-menuId-hdr">Menu ID</div>
+<div class="grid-item-menuTitle-hdr">Menu Title</div>
+<div class="grid-item-parentId-hdr">Parent ID</div>  
+<div class="grid-item-menuArg-hdr">Menu Argument</div>
+</div>
+
+<ul class="order" id="listOrder">
+<!--
+<li><div class="grid-container">
+<div class="grid-item-menuId">bbcwbx.custom.001</div>
+<div class="grid-item-menuTitle">aaa aaa aaa aaa aaa aaa aaa aaa </div>
+<div class="grid-item-parentId">3</div>  
+<div class="grid-item-menuArg">4</div>
+</div></li>
+<li><div class="grid-container">
+<div class="grid-item-menuId">aaaaaaaaaaaaaaaaa 5</div>
+<div class="grid-item-menuTitle">6</div>
+<div class="grid-item-parentId">7</div>
+<div class="grid-item-menuArg">8</div>
+</div></li> 
+<li><div class="grid-container">
+<div class="grid-item-menuId">9</div>
+<div class="grid-item-menuTitle">10</div>
+<div class="grid-item-parentId">11</div>  
+<div class="grid-item-menuArg">12</div>
+</div></li> -->
+
+</ul><br><br><br>
 
 <h2>Edit/Create Tag</h2>
 <form>
   Menu ID: <input type="text" id="menuId" value="XYZZY" disabled> For reference only.  Do Not Change.<br><br>
 Menu Title: <input type="text" id="menuTitle" > <br><br>
 Menu Argument: <input type="text" id="menuArg"> <br><br>
-Parent Menu <input type="text" id="parentId" value="bbcwbx.custom"> Leave as is unless you understand menu hierarchies.<br><br><br>
-<input type="submit" name="New" value="New">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="submit" name="Clear" value="Clear">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="submit" name="Save" value="Save"> 
+Parent Menu <input type="text" id="parentId" value="bbcwbx.custom" disabled> Reserved for later feature expansion.<br><br><br>
+<input type="submit" id="New" value="New Custom Tag">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="submit" id="Clear" value="Clear Custom Tag">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="submit" id="Save" value="Save Custom Tag">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="submit" id="Delete" value="Delete This Custom Tag">
 </form>
 <script src ="custom_tags.js" ></script>
+<!–– start comment and end comment ––>
 </body>
 </html>

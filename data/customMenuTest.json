@@ -13,7 +13,7 @@
     },
     {
         "menuId": "bbcwbx.custom.003",
-        "menuTitle": "Thire custom menu",
+        "menuTitle": "Third custom menu",
         "parentId": "bbcwbx.custom",
         "menuArg": "Arg 3"
     },
@@ -24,7 +24,7 @@
         "menuArg": "Arg 4"
     },
     {
-        "menuId": "bbcwbx.custom.005",
+        "menuId": "bbcwbx.custom.006",
         "menuTitle": "Fifth custom menu",
         "parentId": "bbcwbx.custom",
         "menuArg": "XYZZY"
