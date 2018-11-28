@@ -12,152 +12,69 @@ draggable list. */
   width: 100%;
   margin-bottom: -3;
   border: none;
-
 }
 
-.grid-item-menuId {
-  background-color: #fff;
-  border: 1px solid black;
-  border-left: 3px solid #000;
-  border-top: 0px none blue;
-  padding: 0px 3px 0px 5px;
+.baseSort {
+  padding: 0px 3px 0px 5px; 
   text-align: left;
+  background-color: #fff;
+  word-break: break-all;
+  hyphens: auto;
+  display: table-cell;
+}
+
+.menuIdBody {
   width: 17%;
-  display: table-cell;
-  margin-bottom: -4px;
-  margin-top: -5px;
-  margin-right: 6px; 
-  word-wrap: break-all; 
-  word-break: break-all;
-  hyphens: auto;
+  border-left: 3px solid black;
+  border-bottom: 1px solid black;
 }
 
-.grid-item-menuTitle {
-  background-color: #fff;
-  border: 1px solid black;
-  border-top: 0px none blue;
-  padding: 0px 3px 0px 5px;
-  text-align: left;
-  width: 17%;
-  max-width: 17%;
-  display: table-cell;
-  border-collapse: collapse;
-/*  margin-left: 5px; 
-  margin-bottom: -4px;
-  margin-top: -5px;*/
-  word-break: break-all;
-  hyphens: auto;
-}
-
-.grid-item-parentId {
-  background-color: #fff;
-  border: 1px solid black;
-  border-top: 0px none blue;
-  padding: 0px 3px 0px 5px;
-  text-align: left;
-  width: 17%;
-  max-width: 17%;
-  display: table-cell;
-  border-collapse: collapse;
-  margin-left: -5px;
-  margin-bottom: -4px;
-  margin-top: -5px;
-  word-break: break-all;
-  hyphens: auto;
-}
-
-.grid-item-menuArg {
-  background-color: #fff;
-  border: 1px solid black;
-  border-top: 0px none blue;
-  padding: 0px 3px 0px 5px;
-  text-align: left;
-  width: 47%;
-  max-width: 47%;
-  display: table-cell;
-  border-collapse: collapse;
-  margin-left: -5px;
-  margin-bottom: -14px;
-  margin-top: -5px;
-  border-right: 3px solid #000;
-  word-break: break-all;
-  hyphens: auto;
-}
-
-/* This is the formatting for the immobile header row */
-.grid-container-hdr {
-  display: table;
-  width: 100%;
-  margin-bottom: -16px;
-word-wrap: break-word;
-}
-
-.grid-item-menuId-hdr {
-  background-color: #fff;
+.menuIdHdr {
   font-weight: bold;
-  border: 1px solid black;
-  border-left: 3px solid #000;
-  border-top: 3px solid #000;
+  border-left: 3px solid black;
+  border-top: 3px solid black;
   border-bottom: 2px solid black;
-  padding: 0px 3px 0px 5px;
-  text-align: left;
-  width: 17%;
-  display: table-cell;
-  margin-bottom: -3px;
-  word-break: break-all;
-  hyphens: auto;
 }
 
-.grid-item-menuTitle-hdr {
-  background-color: #fff;
-  font-weight: bold;
-  border: 1px solid black;
-  border-top: 3px solid #000;
-  border-bottom: 2px solid #000;
-  padding: 0px 3px 0px 5px;
-  text-align: left;
+.menuTitleBody {
   width: 17%;
-  display: table-cell;
-  border-collapse: collapse;
-  margin-left: -5px;
-  margin-bottom: -3px;
-  word-break: break-all;
-  hyphens: auto;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
-.grid-item-parentId-hdr {
-  background-color: #fff;
+.menuTitleHdr {
   font-weight: bold;
-  border: 1px solid black;
-  border-top: 3px solid #000;
-  border-bottom: 2px solid #000;
-  padding: 0px 3px 0px 5px;
-  text-align: left;
-  width: 17%;
-  display: table-cell;
-  border-collapse: collapse;
-  margin-left: -5px;
-  margin-bottom: -3px;
-  word-break: break-all;
-  hyphens: auto;
+  border-top: 3px solid black;
+  border-bottom: 2px solid black;
 }
 
-.grid-item-menuArg-hdr {
-  background-color: #fff;
+.menuParentIdBody {
+  width: 17%;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.menuParentIdHdr {
   font-weight: bold;
-  border: 1px solid black;
-  border-right: 3px solid #000;
-  border-top: 3px solid #000;
-  border-bottom: 2px solid #000;
-  padding: 0px 3px 0px 5px;
-  text-align: left;
+  border-top: 3px solid black;
+  border-bottom: 2px solid black;
+}
+
+
+.menuArgBody {
   width: 47%;
-  display: table-cell;
-  border-collapse: collapse;
-  margin-left: -5px;
-  margin-bottom: -3px;
-  word-break: break-all;
-  hyphens: auto;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  border-right: 3px solid black;
+}
+
+
+.menuArgHdr {
+  font-weight: bold; 
+  border-left: 1px solid black;
+  border-top: 3px solid black;
+  border-right: 3px solid black;
+  border-bottom: 2px solid black;
 }
 
 
@@ -230,49 +147,16 @@ tr: hover {background-color: #f0f0f0;
 
 
 </style>
-</head>
+</head><body>
 <h1>Current Custom Tags</h1>
 
-<body><table id="customTagTable" class ="tableHed" >
-    <thead id="customTableHead"><tr>
-<th>Menu ID</th><th>Menu Title</th><th>Parent ID</th><th>Menu Argument</th>
-</tr></thead><tbody id="customTagList"></tbody>
-</table><br><input type="submit" id="saveTagOrder" value="Save Tag Order"><br>Drag and Drop to Reorder Tables<br>
-<BR>
-<BR><h2>List Version</h2>
-<!–– 
-End of table, beginning of list.
-this is the immobile header row
- ––>
-<div class="grid-container-hdr">
-<div class="grid-item-menuId-hdr">Menu ID</div>
-<div class="grid-item-menuTitle-hdr">Menu Title</div>
-<div class="grid-item-parentId-hdr">Parent ID</div>  
-<div class="grid-item-menuArg-hdr">Menu Argument</div>
-</div>
-
 <ul class="order" id="listOrder">
-<!--
-<li><div class="grid-container">
-<div class="grid-item-menuId">bbcwbx.custom.001</div>
-<div class="grid-item-menuTitle">aaa aaa aaa aaa aaa aaa aaa aaa </div>
-<div class="grid-item-parentId">3</div>  
-<div class="grid-item-menuArg">4</div>
-</div></li>
-<li><div class="grid-container">
-<div class="grid-item-menuId">aaaaaaaaaaaaaaaaa 5</div>
-<div class="grid-item-menuTitle">6</div>
-<div class="grid-item-parentId">7</div>
-<div class="grid-item-menuArg">8</div>
-</div></li> 
-<li><div class="grid-container">
-<div class="grid-item-menuId">9</div>
-<div class="grid-item-menuTitle">10</div>
-<div class="grid-item-parentId">11</div>  
-<div class="grid-item-menuArg">12</div>
-</div></li> -->
-
-</ul><br><br><br>
+<li><span class="grid-container">
+<span class="baseSort menuIdBody menuIdHdr">Menu ID</span>
+<span class="baseSort menuTitleBody menuTitleHdr">Menu Title</span>
+<span class="baseSort menuParentIdBody menuParentIdHdr">Parent ID</span>  
+<span class="baseSort menuArgBody menuArgHdr">Menu Argument</span></span></li> 
+</ul>Drag and Drop to Reorder Tables<br><br><input type="submit" id="saveTagOrder" value="Save Tag Order">
 
 <h2>Edit/Create Tag</h2>
 <form>
@@ -285,6 +169,6 @@ Parent Menu <input type="text" id="parentId" value="bbcwbx.custom" disabled> Res
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="submit" id="Delete" value="Delete This Custom Tag">
 </form>
 <script src ="custom_tags.js" ></script>
-<!–– start comment and end comment ––>
+<!-- start comment and end comment -->
 </body>
 </html>
