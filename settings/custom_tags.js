@@ -1,23 +1,8 @@
 customMenus = JSON.parse(localStorage.getItem('customMenus'));
 
-/*
-// id="saveTagOrder"  Save tag order button
-document.getElementById('saveTagOrder').addEventListener("click",saveTagOrd);
-
-function saveTagOrd (){
-menuOrdTest = "";
-for (i = 0; i < customMenus.length; i++) {
-menuOrdTest += '\n'+customMenus[i].menuId+"\t"
-menuOrdTest += customMenus[i].menuTitle+"\t"
-menuOrdTest += customMenus[i].parentId+"\t"
-menuOrdTest += customMenus[i].menuArg;
-}
-alert("Menu Order \nMenu ID \t\t\t\Menu Title\t\t\tParent ID\t\tMenu Argument"+menuOrdTest);
-}
-
-*/
-
 var ulSort = document.getElementById("listOrder");
+var listRef = document.getElementById("listOrder").li;
+
 //console.log(ulSort);
     for (i = 0; i < Object.keys(customMenus).length; i++) {
 
@@ -43,8 +28,39 @@ const menuArgSpan = document.createElement('span');
     containerSpan.appendChild(menuTitleSpan);
     containerSpan.appendChild(parentIdSpan);
     containerSpan.appendChild(menuArgSpan);
-    createLi.appendChild(containerSpan);
+createLi.appendChild(containerSpan);
   ulSort.appendChild(createLi);
+}
+
+for (i = 0; i < customMenus.length; i++) {
+let singleRow = customMenus[i];
+let singleRowId = customMenus[i].menuId;
+console.log(singleRowId)
+document.getElementById(singleRowId).addEventListener('click', () => {getMenuClicked(singleRowId);});
+}
+
+
+/*
+// id="saveTagOrder"  Save tag order button
+document.getElementById('saveTagOrder').addEventListener("click",saveTagOrd);
+
+function saveTagOrd (){
+menuOrdTest = "";
+for (i = 0; i < customMenus.length; i++) {
+menuOrdTest += '\n'+customMenus[i].menuId+"\t"
+menuOrdTest += customMenus[i].menuTitle+"\t"
+menuOrdTest += customMenus[i].parentId+"\t"
+menuOrdTest += customMenus[i].menuArg;
+}
+alert("Menu Order \nMenu ID \t\t\t\Menu Title\t\t\tParent ID\t\tMenu Argument"+menuOrdTest);
+}
+
+*/
+
+
+
+function customTagClicked (wotClicked){
+alert(wotClicked);
 }
 
 /*
@@ -70,12 +86,13 @@ singleRow.addEventListener('click', () => {getMenuClicked(singleRowId);});
 */
  
 
-//count number of rows
-var result = ulSort.evaluate("li", ulSort, null, XPathResult.ORDERED_NODE_ITERATOR_TYPE, null);
-var nextLi;
-i=0;
-while (nextLi = result.iterateNext()) {
-i++;
-//console.log(nextLi.length,i);
+function getMenuClicked (menuId) {
+console.log("Menu ID: ", menuId);
+for (i = 0; i < customMenus.length; i++) {
+if (menuId == customMenus[i].menuId) {
+document.getElementById("menuId").value = customMenus[i].menuId;
+document.getElementById("menuTitle").value = customMenus[i].menuTitle;
+document.getElementById("menuArg").value = customMenus[i].menuArg;
+document.getElementById("parentId").value = customMenus[i].parentId;
+}}
 }
-console.log(i);

@@ -10,7 +10,13 @@ draggable list. */
 .grid-container {
   display: table;
   width: 100%;
-  margin-bottom: -3;
+  border: none;
+}
+
+.grid-containerHdr {
+  display: table;
+  width: 100%;
+  margin-bottom: -16px;
   border: none;
 }
 
@@ -66,6 +72,7 @@ draggable list. */
   border-left: 1px solid black;
   border-bottom: 1px solid black;
   border-right: 3px solid black;
+
 }
 
 
@@ -77,7 +84,11 @@ draggable list. */
   border-bottom: 2px solid black;
 }
 
-
+/* for list, no need to show underline for javascript hyperlinks */
+.noShowLinks {
+  text-decoration: none;
+  color: black;
+} 
 
 * {
     box-sizing: border-box;
@@ -149,14 +160,17 @@ tr: hover {background-color: #f0f0f0;
 </style>
 </head><body>
 <h1>Current Custom Tags</h1>
-
-<ul class="order" id="listOrder">
-<li><span class="grid-container">
+<span class="grid-containerHdr">
 <span class="baseSort menuIdBody menuIdHdr">Menu ID</span>
 <span class="baseSort menuTitleBody menuTitleHdr">Menu Title</span>
 <span class="baseSort menuParentIdBody menuParentIdHdr">Parent ID</span>  
-<span class="baseSort menuArgBody menuArgHdr">Menu Argument</span></span></li> 
+<span class="baseSort menuArgBody menuArgHdr">Menu Argument</span></span>
+<ul class="order" id="listOrder">
+
 </ul>Drag and Drop to Reorder Tables<br><br><input type="submit" id="saveTagOrder" value="Save Tag Order">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" id="exportTags" value="Export Tags">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" id="importTags" value="Import Tags">
+
 
 <h2>Edit/Create Tag</h2>
 <form>
@@ -170,5 +184,18 @@ Parent Menu <input type="text" id="parentId" value="bbcwbx.custom" disabled> Res
 </form>
 <script src ="custom_tags.js" ></script>
 <!-- start comment and end comment -->
+
+<!-- how to call javascript from a link
+<head>
+<script language="JavaScript">
+<!--
+  function myFunction() {
+    alert("Hello World!");
+  }
+
+</script>
+</head>
+<body>
+<a href="javascript:myFunction()">Click me</a>
 </body>
-</html>
+-->
