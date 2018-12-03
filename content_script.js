@@ -59,11 +59,11 @@ console.log("input "+input);
 	input.addEventListener('change', () => resolve(input.value));
 	clickElement.call(window, input);
 }); }
-
+/*
 someElement.onclick = async () => {
 	const color = (await pickColor());
 	console.log(color);
-};
+}; */
 
 //end of code from NilkasGNiklas Gollenstede
 

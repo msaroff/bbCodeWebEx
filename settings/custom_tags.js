@@ -41,11 +41,7 @@ document.getElementById(singleRowId).addEventListener('click', () => {getMenuCli
 }
 
 
-/*
-// id="saveTagOrder"  Save tag order button
-document.getElementById('saveTagOrder').addEventListener("click",saveTagOrd);
 
-*/
 
 
 
@@ -94,14 +90,26 @@ const saveButton = document.getElementById("saveTagOrder");
 saveButton.addEventListener("click", saveTagOrd);
 
 function saveTagOrd () {
-let tempSaveSort = {};
+let tempSaveSort = [];
 let lis = "";
 for (i = 0; i < document.getElementById("listOrder").getElementsByTagName("li").length; i++) {
 let listMenuId = document.getElementById("listOrder").getElementsByTagName("li")[i].id;
 let menuIdx = customMenus.findIndex(p => p.menuId == listMenuId);
 lis = lis + menuIdx +" " + listMenuId +"\n";
+//tempSaveSort = Object.assign({menuId: customMenus[menuIdx].menuId }, tempSaveSort);
+let keyToAdd = {"menuId": customMenus[menuIdx].menuId,
+menuTitle: customMenus[menuIdx].menuTitle,
+parentId: customMenus[menuIdx].parentId,
+menuArg: customMenus[menuIdx].menuArg
+};
+//console.log(keyToAdd);
+tempSaveSort.push(keyToAdd);
+//Object.assign(tempSaveSort, keyToAdd);
 }
 alert(lis);
+console.log(JSON.stringify(customMenus));
+console.log(JSON.stringify(tempSaveSort));
+localStorage.setItem('customMenus',JSON.stringify(tempSaveSort)); //store order of custom tags locally
 }
 
 // code by Friso NL - frisog at gmail .com

@@ -5,6 +5,7 @@ activeMenus = JSON.parse(localStorage.getItem('activeMenus'));
 menuLoaded = loadMenus();
 console.log(menuLoaded);
 
+console.log(activeMenus);
 
 
 // above and below listen for the custom tags button and open up custom tags window

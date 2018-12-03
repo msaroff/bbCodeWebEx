@@ -8,13 +8,9 @@ function onCreated() {
 
 
 activeMenus = invokeDefaultMenus();
-/* console.log("enablebbCode: "+ activeMenus.enablebbCode+"\n"+"enableHTML: "+ activeMenus.enableHTML+
-"\n"+"enableVbulletin: "+ activeMenus.enableVbulletin+"\n"+"enableXHTML: "+ 
-activeMenus.enableXHTML+"\n"+"enableMarkDown: "+ activeMenus.enableMarkDown+"\n"+
-"enableCustom: "+ activeMenus.enableCustom+"\n"+"enableSymbol: "+ activeMenus.enableSymbol);
-*/
 
-function invokeDefaultMenus() {
+function invokeDefaultMenus() { 
+// set the falue to the defaults, or the saved value if it exists
 let defaultMenus = {
         enablebbCode: true,
         enableHTML: true,
@@ -27,7 +23,7 @@ let defaultMenus = {
     if (localStorage.getItem("activeMenus") === null) { //if menu settings not stored, 
         localStorage.setItem('activeMenus',JSON.stringify(defaultMenus)); //store default in local menu
 }
-        return JSON.parse(localStorage.getItem('activeMenus'));
+        return JSON.parse(localStorage.getItem('activeMenus')); // load stored values if necessary
 }
 
 customMenusTestURL = browser.runtime.getURL('data/customMenuTest.json');
@@ -56,6 +52,7 @@ function invokeCustomMenus() {
 const defMenuURL = browser.runtime.getURL('data/DefMenu.json');
 
 var defaultMenu = [];
+console.log(activeMenus);
 
 fetch(defMenuURL)
     .then(function(response) {
@@ -64,27 +61,55 @@ fetch(defMenuURL)
     .then(function(defaultMenu) {
         window.defMenu = defaultMenu; //create variable with global scope
         for (i = 0; i < defaultMenu.length; i++) {
-            info = {
-                id: defaultMenu[i].menuId,
-                title: defaultMenu[i].menuTitle, //eventually this becomes an i18n call
-                contexts: ["all"]
-            };
-            if (defaultMenu[i].menuTitle.includes("i18n")) {
-                info.title = browser.i18n.getMessage(defaultMenu[i].menuId);  // lookup i18n
-            } else {
-                info.title = defaultMenu[i].menuTitle;  // no i18n, probably custom tag
-            }
-            if (defaultMenu[i].icons != "") {
-                info.icons = defaultMenu[i].icons;
-            };
-            if (defaultMenu[i].parentId != "") {
-                info.parentId = defaultMenu[i].parentId;
-            }
-            browser.menus.create(
-                info
-            );
+            let currentId = defaultMenu[i].menuId;
+            let nobbCode = (currentId.substring(0,13) == 'bbcwbx.bbcode') && !activeMenus.enablebbCode;
+            let noHTML = (currentId.substring(0,11) == 'bbcwbx.html') && !activeMenus.enableHTML;
+            let noVbl = (currentId.substring(0,17) == 'bbcwbx.bbcode.vbl') && !activeMenus.enableVbulletin;
+            let noXHTML = (currentId.substring(0,12) == 'bbcwbx.xhtml') && !activeMenus.enableXHTML;
+            let noMKDN = (currentId.substring(0,11) == 'bbcwbx.mkdn') && !activeMenus.enableMarkDown; 
+            let noCstm = (currentId.substring(0,13) == 'bbcwbx.custom') && !activeMenus.enableCustom;
+            let noSym = (currentId.substring(0,19) == 'bbcwbx.sym') && !activeMenus.enableSymbol;
+    if (nobbCode) {
+            console.log('No bbCode');
+        } else if (noHTML) {
+            console.log('No HTML');
+        } else if (noHTML) {
+            console.log('No HTML');
+        } else if (noVbl) {
+            console.log('No vBulletin');
+        } else if (noXHTML) {
+            console.log('No XHTML');
+        } else if (noMKDN) {
+            console.log('No Mark Down');
+        } else if (noMKDN) {
+            console.log('No Mark Down');
+    } else if (noCstm) {
+        console.log('No Custom Tags');
+    } else if (noSym) {
+        console.log('No Symbols');
+    } else {
+        info = {
+            id: defaultMenu[i].menuId,
+            title: defaultMenu[i].menuTitle, //eventually this becomes an i18n call
+            contexts: ["all"]
+        };
+        if (defaultMenu[i].menuTitle.includes("i18n")) {
+            info.title = browser.i18n.getMessage(defaultMenu[i].menuId); // lookup i18n
+        } else {
+            info.title = defaultMenu[i].menuTitle; // no i18n, probably custom tag
         }
-    })
+        if (defaultMenu[i].icons != "") {
+            info.icons = defaultMenu[i].icons;
+        };
+        if (defaultMenu[i].parentId != "") {
+            info.parentId = defaultMenu[i].parentId;
+        }
+        browser.menus.create(
+            info
+        );
+    }
+    }
+})
 
 browser.menus.onClicked.addListener((info, tab, defaultMenu) => {
     if (info.menuItemId.substring(0, 6) == "bbcwbx") {
