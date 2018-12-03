@@ -12,13 +12,16 @@ draggable list. */
   width: 100%;
   border: none;
   cursor: move;
+  font-size: 18px;
 }
+
 
 .grid-containerHdr {
   display: table;
   width: 100%;
   margin-bottom: -16px;
   border: none;
+ font-size: 18px;
 }
 
 .baseSort {
@@ -85,11 +88,10 @@ draggable list. */
   border-bottom: 2px solid black;
 }
 
-/* for list, no need to show underline for javascript hyperlinks */
-.noShowLinks {
-  text-decoration: none;
-  color: black;
-} 
+.listItem {
+ 
+}
+
 
 * {
     box-sizing: border-box;
@@ -101,50 +103,6 @@ ul.order {  /* Set up a list with no indent and no first character to make sorta
     margin-left: 0; padding-left: 0;
 }
 
-
-table {
-     text-align: left;
-    border-collapse: collapse;
-    border-left: 3px solid black; 
-    border-right: 3px solid black;
-    border-bottom: 3px solid black; 
-    table-layout: fixed;
-    overflow-wrap: break-word;
-}
-
-table.sortable 
-{
-    text-align: left;
-    border-collapse: collapse;
-    border-left: 3px solid black; 
-    border-right: 3px solid black; 
-    border-top: none;
-    border-bottom: none;
-    table-layout: fixed;
-    overflow-wrap: break-word;
-}
-/**/
-
- th {
-    border-bottom: 2px solid black;
-    border-right: 1px solid black;
-    border-left: 1px solid black;
-    border-top: 3px solid black;
-    border-collapse: collapse;
-}
-
- td {
-    border-collapse: collapse;
-    border-bottom: 1px solid black;
-    border-left: 1px solid black; 
-    border-right: 1px solid black;
-    overflow-wrap: break-word;
-
-}
-
-tr: hover {background-color: #f0f0f0;
-
-}
 
 #alertBox {
 	position: relative;
@@ -168,8 +126,9 @@ tr: hover {background-color: #f0f0f0;
 <span class="baseSort menuArgBody menuArgHdr">Menu Argument</span></span>
 <ul class="order" id="listOrder">
 
-</ul>Drag and drop to reorder tags<br>
-Double click to edit in dialogue boxes below<br><br><input type="submit" id="saveTagOrder" value="Save Tag Order">
+</ul>Drag and drop to reorder tags <br>
+(You cannot drag down to the bottom row, but you can drag the bottom row up)<br><br> 
+Click to edit in dialogue boxes below<br><br><input type="submit" id="saveTagOrder" value="Save Tag Order">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" id="exportTags" value="Export Tags">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" id="importTags" value="Import Tags">
 

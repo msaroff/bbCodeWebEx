@@ -45,17 +45,6 @@ document.getElementById(singleRowId).addEventListener('click', () => {getMenuCli
 // id="saveTagOrder"  Save tag order button
 document.getElementById('saveTagOrder').addEventListener("click",saveTagOrd);
 
-function saveTagOrd (){
-menuOrdTest = "";
-for (i = 0; i < customMenus.length; i++) {
-menuOrdTest += '\n'+customMenus[i].menuId+"\t"
-menuOrdTest += customMenus[i].menuTitle+"\t"
-menuOrdTest += customMenus[i].parentId+"\t"
-menuOrdTest += customMenus[i].menuArg;
-}
-alert("Menu Order \nMenu ID \t\t\t\Menu Title\t\t\tParent ID\t\tMenu Argument"+menuOrdTest);
-}
-
 */
 
 
@@ -105,9 +94,12 @@ const saveButton = document.getElementById("saveTagOrder");
 saveButton.addEventListener("click", saveTagOrd);
 
 function saveTagOrd () {
-lis = "";
+let tempSaveSort = {};
+let lis = "";
 for (i = 0; i < document.getElementById("listOrder").getElementsByTagName("li").length; i++) {
-lis = lis + document.getElementById("listOrder").getElementsByTagName("li")[i].id +"\n";
+let listMenuId = document.getElementById("listOrder").getElementsByTagName("li")[i].id;
+let menuIdx = customMenus.findIndex(p => p.menuId == listMenuId);
+lis = lis + menuIdx +" " + listMenuId +"\n";
 }
 alert(lis);
 }
@@ -143,6 +135,8 @@ function handleDragStart(e) {
   e.dataTransfer.effectAllowed = 'move';
   e.dataTransfer.setData('text/html', this.innerHTML);
   e.dataTransfer.setDragClass("dataTransferClass");
+//just added
+  e.target.style.border = "5px solid #ffffff";
 
 }
 
@@ -230,6 +224,7 @@ function handleDragEnd(e) {
     listItem.classList.remove('over');
   }
   dragSrcEl.classList.remove("dragStartClass");
+  e.target.style.border = "none";
 
 
 }
