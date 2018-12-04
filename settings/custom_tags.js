@@ -9,13 +9,13 @@ var listRef = document.getElementById("listOrder").li;
 const containerSpan = document.createElement('span');
       containerSpan.classList.add("grid-container");
 const menuIdSpan = document.createElement('span');
-      menuIdSpan.classList.add("baseSort", "menuIdBody");
+      menuIdSpan.classList.add("baseSort", "menuIdBody", "hover");
 const menuTitleSpan = document.createElement('span');
-      menuTitleSpan.classList.add("baseSort", "menuTitleBody");
+      menuTitleSpan.classList.add("baseSort", "menuTitleBody", "hover");
 const parentIdSpan = document.createElement('span');
-      parentIdSpan.classList.add("baseSort", "menuParentIdBody");
+      parentIdSpan.classList.add("baseSort", "menuParentIdBody", "hover");
 const menuArgSpan = document.createElement('span');
-      menuArgSpan.classList.add("baseSort", "menuArgBody");
+      menuArgSpan.classList.add("baseSort", "menuArgBody", "hover");
     var createLi = document.createElement("li"); 
     createLi.setAttribute('id', customMenus[i].menuId);
     createLi.setAttribute('draggable', true);
@@ -32,6 +32,9 @@ const menuArgSpan = document.createElement('span');
 createLi.appendChild(containerSpan);
   ulSort.appendChild(createLi);
 }
+
+
+
 
 for (i = 0; i < customMenus.length; i++) {
 let singleRow = customMenus[i];
@@ -107,10 +110,26 @@ tempSaveSort.push(keyToAdd);
 //Object.assign(tempSaveSort, keyToAdd);
 }
 alert(lis);
-console.log(JSON.stringify(customMenus));
+//console.log(JSON.stringify(customMenus));
 console.log(JSON.stringify(tempSaveSort));
 localStorage.setItem('customMenus',JSON.stringify(tempSaveSort)); //store order of custom tags locally
 }
+
+// listen for export tags button
+const exportButton = document.getElementById("exportTags");
+
+exportButton.addEventListener("click", expTag);
+
+function expTag () {
+  expProceed = window.confirm("Have You Already Saved Your Data to the Addon?\n If not, click cancel and save.\nThis saves your currently saved tags.");
+console.log(expProceed);
+if (expProceed) {
+let stuffToExport = new Blob([JSON.stringify(customMenus, null, 2)], { type: 'application/javascript;charset=utf-8' });
+console.log(stuffToExport);
+saveAs(stuffToExport, 'bbCodeWebEx,json');
+}
+}
+
 
 // code by Friso NL - frisog at gmail .com
 

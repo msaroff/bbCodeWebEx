@@ -89,7 +89,13 @@ draggable list. */
 }
 
 .listItem {
+  transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
  
+}
+
+a:hover{
+  background-color: #c0c0c0;
 }
 
 
@@ -100,8 +106,11 @@ draggable list. */
 
 ul.order {  /* Set up a list with no indent and no first character to make sortable table appearance */ 
     list-style-type: none;
-    margin-left: 0; padding-left: 0;
+    margin-left: 0; 
+    padding-left: 0;
+    margin-bottom: 15px;
 }
+
 
 
 #alertBox {
@@ -124,10 +133,10 @@ ul.order {  /* Set up a list with no indent and no first character to make sorta
 <span class="baseSort menuTitleBody menuTitleHdr">Menu Title</span>
 <span class="baseSort menuParentIdBody menuParentIdHdr">Parent ID</span>  
 <span class="baseSort menuArgBody menuArgHdr">Menu Argument</span></span>
-<ul class="order" id="listOrder">
+<ul class="order" id="listOrder" >
 
 </ul>Drag and drop to reorder tags <br>
-(You cannot drag down to the bottom row, but you can drag the bottom row up)<br><br> 
+(You cannot drag down to the bottom row, but you can drag the bottom row all the way up)<br><br> 
 Click to edit in dialogue boxes below<br><br><input type="submit" id="saveTagOrder" value="Save Tag Order">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" id="exportTags" value="Export Tags">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" id="importTags" value="Import Tags">
@@ -135,7 +144,7 @@ Click to edit in dialogue boxes below<br><br><input type="submit" id="saveTagOrd
 
 <h2>Edit/Create Tag</h2>
 <form>
-  Menu ID: <input type="text" id="menuId" value="XYZZY" disabled> For reference only.  Do Not Change.<br><br>
+  Menu ID: <input type="text" id="menuId"  disabled> For reference only.  Do Not Change.<br><br>
 Menu Title: <input type="text" id="menuTitle" > <br><br>
 Menu Argument: <input type="text" id="menuArg"> <br><br>
 Parent Menu <input type="text" id="parentId" value="bbcwbx.custom" disabled> Reserved for later feature expansion.<br><br><br>
