@@ -32,8 +32,26 @@ const menuArgSpan = document.createElement('span');
 createLi.appendChild(containerSpan);
   ulSort.appendChild(createLi);
 }
-
-
+/*
+// create link to examine
+let stuffToExportJSON = JSON.stringify(customMenus, null, 2);
+let stuffToExportBLOB  = new Blob([stuffToExportJSON], { type: 'text.json;charset=utf-8' });
+let stuffToExportURL = URL.createObjectURL(stuffToExportBLOB);
+//console.log(stuffToExportJSON);
+//console.log(stuffToExportBLOB);
+console.log(stuffToExportURL);
+ // Construct the <a> element
+  let link = document.createElement('a');
+//  link.download = 'custom_tag_backup.json';
+   link.setAttribute("href", stuffToExportURL);
+   link.setAttribute("download", 'custom_tag_backup');
+  // Construct the uri
+//  let uri = stuffToExportURL;
+//  link.href = uri;
+link.textContent  = 'Download this shit';
+  document.body.appendChild(link);
+//browser.downloads.download(link);
+*/
 
 
 for (i = 0; i < customMenus.length; i++) {
@@ -85,6 +103,35 @@ document.getElementById("menuArg").value = customMenus[i].menuArg;
 document.getElementById("parentId").value = customMenus[i].parentId;
 }}
 }
+const toVar = window.addEventListener("load", JSONtoVar);
+
+const importButton = document.getElementById("importTagsClick");
+
+importTagsClick.addEventListener("click", tagImport);
+
+function tagImport () {
+/* click on the file input button this is a hack using the submit button 
+to click on the file button while maintaining the same appearance as 
+the other submit buttons. */
+importTags.click();
+}
+
+function JSONtoVar (){
+
+window.addEventListener("load", function() {
+  document.getElementById("file-upload").onchange = function(event) {
+    var reader = new FileReader();
+    reader.readAsDataURL(event.srcElement.files[0]);
+    var me = this;
+    reader.onload = function () {
+      var fileContent = reader.result;
+	  console.log(fileContent);
+    }
+}});
+
+console.log('adfasds');
+}
+
 
 
 // listen for save tag order button
@@ -113,6 +160,8 @@ alert(lis);
 //console.log(JSON.stringify(customMenus));
 console.log(JSON.stringify(tempSaveSort));
 localStorage.setItem('customMenus',JSON.stringify(tempSaveSort)); //store order of custom tags locally
+//customMenus = JSON.parse(localStorage.getItem('customMenus')); //reread custom tags from local storage
+location.reload(); // reload page, which reloads custom tags from storage
 }
 
 // listen for export tags button
@@ -121,12 +170,21 @@ const exportButton = document.getElementById("exportTags");
 exportButton.addEventListener("click", expTag);
 
 function expTag () {
-  expProceed = window.confirm("Have You Already Saved Your Data to the Addon?\n If not, click cancel and save.\nThis saves your currently saved tags.");
+let  expProceed = window.confirm("Save any edits first?\n Any unsaved edits will be lost");
 console.log(expProceed);
 if (expProceed) {
-let stuffToExport = new Blob([JSON.stringify(customMenus, null, 2)], { type: 'application/javascript;charset=utf-8' });
-console.log(stuffToExport);
-saveAs(stuffToExport, 'bbCodeWebEx,json');
+let stuffToExportJSON = JSON.stringify(customMenus, null, 2);
+let stuffToExportBLOB  = new Blob([stuffToExportJSON], { type: 'application/javascript;charset=utf-8' });
+let stuffToExportURL = URL.createObjectURL(stuffToExportBLOB);
+let dt = new Date();
+let dtlab = dt.toISOString().substring(0,10);
+let exportFile = 'bbCode_WebEx_'+dtlab+'.json';
+browser.downloads.download({
+        url: stuffToExportURL,
+        filename: exportFile,
+        saveAs: true,
+        conflictAction: 'uniquify'
+    });
 }
 }
 

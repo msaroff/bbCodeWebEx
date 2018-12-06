@@ -94,6 +94,15 @@ draggable list. */
  
 }
 
+.inputFile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
 a:hover{
   background-color: #c0c0c0;
 }
@@ -139,7 +148,10 @@ ul.order {  /* Set up a list with no indent and no first character to make sorta
 (You cannot drag down to the bottom row, but you can drag the bottom row all the way up)<br><br> 
 Click to edit in dialogue boxes below<br><br><input type="submit" id="saveTagOrder" value="Save Tag Order">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" id="exportTags" value="Export Tags">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" id="importTags" value="Import Tags">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<!-- // file input is hidden through css -->
+<input type="file" class="inputFile" id="importTags"/>
+<input type="submit" id="importTagsClick" value="Import Tags">
 
 
 <h2>Edit/Create Tag</h2>
@@ -154,18 +166,8 @@ Parent Menu <input type="text" id="parentId" value="bbcwbx.custom" disabled> Res
 </form>
 <script src ="custom_tags.js" ></script>
 <!-- start comment and end comment -->
-
-<!-- how to call javascript from a link
-<head>
-<script language="JavaScript">
-<!--
-  function myFunction() {
-    alert("Hello World!");
-  }
-
-</script>
-</head>
-<body>
-<a href="javascript:myFunction()">Click me</a>
+<!--    <input type="color" id="head" name="head"
+           value="#e66465">
+    <label for="head">Head</label> -->
 </body>
--->
+</html>
