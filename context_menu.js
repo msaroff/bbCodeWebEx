@@ -6,6 +6,8 @@ function onCreated() {
     }
 }
 
+//read the custom menus from local storage:
+customMenus = JSON.parse(localStorage.getItem('customMenus'));
 
 activeMenus = invokeDefaultMenus();
 

@@ -23,26 +23,6 @@ function removeElement(id) { //generic remove element by ID function
     var elem = document.getElementById(id);
     return elem.parentNode.removeChild(elem);
 }
-/*
-function getColor(mkColor) {
- alert("Hello! I am an alert box!");
-var input = document.createElement("input");  //create element
-input.setAttribute('type', 'color'); //is a color input button
-input.setAttribute('id','zzzcolor'); //it's ID is zzzcolor
-document.body.appendChild(input);  // append to body
-document.getElementById("zzzcolor").click(); // click on element
-}
-*/
-
-// asynchronous version
- async function getColor(mkColor) {
-    let fontColor = await pickColor();
-    console.log("font color " + fontColor);
-    console.log("mkColor " + mkColor);
-    mkColor = mkColor.replace(/{{fontcol}}/g, fontColor);
-    console.log("mkColor " + mkColor);
-    return mkColor;
-} 
 
 // check out code from NilkasGNiklas Gollenstede
 

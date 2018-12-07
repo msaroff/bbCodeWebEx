@@ -5,11 +5,8 @@
      "description": "Context Menu for bbCode, HTML, Etc.",
      "default_locale": "en-US",
      "icons": {
-          "16": "icons/wbx-16.png",
-          "32": "icons/wbx-32.png",
-          "48": "icons/wbx-48.png",
-          "96": "icons/wbx-96.png",
-          "128": "icons/wbx-128.png"
+          "16": "icons/bbcwbx.svg"
+          
      },
      "author": "Matthew G. Saroff",
      "homepage_url": "https://github.com/msaroff/bbCodeWebEx",

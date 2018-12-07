@@ -1,7 +1,26 @@
 customMenus = JSON.parse(localStorage.getItem('customMenus'));
 
+/* space for all the listeners begin */
+
 var ulSort = document.getElementById("listOrder");
+
 var listRef = document.getElementById("listOrder").li;
+
+const saveTag = Save.addEventListener("click", writeTag);
+
+const newMenu = New.addEventListener("click", newJSON);
+
+const toVar = importTags.addEventListener("load", JSONtoVar );
+
+const importButton = document.getElementById("importTagsClick");
+
+const fileButton = document.getElementById('importTags')
+
+importButton.addEventListener("click", tagImport);
+
+fileButton.addEventListener("click", JSONtoVar);
+
+/* Space for all the listeners end */
 
 //console.log(ulSort);
     for (i = 0; i < Object.keys(customMenus).length; i++) {
@@ -57,30 +76,13 @@ document.getElementById("parentId").value = customMenus[i].parentId;
 }}
 }
 
-const saveTag = Save.addEventListener("click", writeTag);
-
-const newMenu = New.addEventListener("click", newJSON);
-
-const toVar = importTags.addEventListener("load", JSONtoVar );
-
-const importButton = document.getElementById("importTagsClick");
-
-const fileButton = document.getElementById('importTags')
-
-importButton.addEventListener("click", tagImport);
-
-fileButton.addEventListener("click", JSONtoVar);
 
 function newJSON() {
-// Extract all menu IDs and put into a string matrix titleList
-titleList = "";
-for (i = 0; i < Object.keys(customMenus).length; i++) {
-titleList = titleList + customMenus[i].menuId+"\n";
-}
+// step through numbers until you find an open id
 for (i = 1; i < 1000; i++) {// Allows up to 1000 custom tags
-var textNum = i+"";
-var textNum = textNum.padStart(3,"0");
-if (!titleList.includes(textNum)) { break;}
+var textNum = i+""; //declare as text
+var textNum = textNum.padStart(3,"0"); //prepend with zeros to make 3 digit number
+if (customMenus.findIndex(p => p.menuId == "bbcwbx.custom."+textNum) == -1) { break;} // if the menu id is not found break, and use this number
 }
 console.log(textNum);
 document.getElementById("menuId").value = "bbcwbx.custom." + textNum;
@@ -172,30 +174,46 @@ currentMenuId = document.getElementById("menuId").value;
 currentMenuTitle = document.getElementById("menuTitle").value;
 currentMenuArg = document.getElementById("menuArg").value;
 currentMenuParentId = document.getElementById("parentId").value;
-
-let newMenu = {
+if (currentMenuId == "") {
+alert('Hit the "New" button to create a new tag first.');
+} else {
+if (currentMenuArg == "" || currentMenuTitle == "") {
+alert ("You must enter an argument and title");
+} else {
+var newMenu = {
     menuId: currentMenuId,
     menuTitle: currentMenuTitle,
     parentId: currentMenuParentId,
     menuArg: currentMenuArg
   }
-console.log(newMenu);
-let stuff2Add = customMenus.concat(newMenu);
-localStorage.setItem('customMenus',JSON.stringify(stuff2Add)); //store updated tags in local storage
-location.reload(); // reload page, which reloads custom tags from storage
-
+//get the index of the value of currentMenuId in the input box
+locationOfRecord = customMenus.findIndex(p => p.menuId == currentMenuId);
+console.log(locationOfRecord);
+if (locationOfRecord !== -1){ //if a an existing tag replace
+customMenus[locationOfRecord] = newMenu;
+} else { // if new tag, add to end
+customMenus = customMenus.concat(newMenu);
 }
+localStorage.setItem('customMenus',JSON.stringify(customMenus)); //store updated tags in local storage
+// clear the input boxes after value is saved
+document.getElementById("menuId").value = "";
+document.getElementById("menuTitle").value = "";
+document.getElementById("menuArg").value = "";
+document.getElementById("parentId").value = "";
+location.reload(); // reload page, which reloads custom tags from storage
+}}}
 
-// =======================================================================================================================
-// =======================================================================================================================
-// =======================================================================================================================
-// =======================================================================================================================
-// =======================================================================================================================
-// =======================================================================================================================
-// =======================================================================================================================
-// =======================================================================================================================
-// =======================================================================================================================
-// =======================================================================================================================
+// =========================================================================================
+// =========================================================================================
+// =========================================================================================
+// =========================================================================================
+// =====  What is below is almost entirely cut and paste  I am not sure how it works  ======
+// =========================================================================================
+// =========================================================================================
+// =========================================================================================
+// =========================================================================================
+// =========================================================================================
+// =========================================================================================
 
 // code by Friso NL - frisog at gmail .com
 
