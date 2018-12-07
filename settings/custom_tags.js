@@ -32,26 +32,8 @@ const menuArgSpan = document.createElement('span');
 createLi.appendChild(containerSpan);
   ulSort.appendChild(createLi);
 }
-/*
-// create link to examine
-let stuffToExportJSON = JSON.stringify(customMenus, null, 2);
-let stuffToExportBLOB  = new Blob([stuffToExportJSON], { type: 'text.json;charset=utf-8' });
-let stuffToExportURL = URL.createObjectURL(stuffToExportBLOB);
-//console.log(stuffToExportJSON);
-//console.log(stuffToExportBLOB);
-console.log(stuffToExportURL);
- // Construct the <a> element
-  let link = document.createElement('a');
-//  link.download = 'custom_tag_backup.json';
-   link.setAttribute("href", stuffToExportURL);
-   link.setAttribute("download", 'custom_tag_backup');
-  // Construct the uri
-//  let uri = stuffToExportURL;
-//  link.href = uri;
-link.textContent  = 'Download this shit';
-  document.body.appendChild(link);
-//browser.downloads.download(link);
-*/
+
+
 
 
 for (i = 0; i < customMenus.length; i++) {
@@ -62,35 +44,6 @@ document.getElementById(singleRowId).addEventListener('click', () => {getMenuCli
 }
 
 
-
-
-
-
-function customTagClicked (wotClicked){
-alert(wotClicked);
-}
-
-/*
-function getMenuClicked (menuId) {
-console.log("Menu ID: ", menuId);
-for (i = 0; i < customMenus.length; i++) {
-if (menuId == customMenus[i].menuId) {
-document.getElementById("menuId").value = customMenus[i].menuId;
-document.getElementById("menuTitle").value = customMenus[i].menuTitle;
-document.getElementById("menuArg").value = customMenus[i].menuArg;
-document.getElementById("parentId").value = customMenus[i].parentId;
-}}
-}
-
-   
-var tableRef = document.getElementById("customTagList").rows;
-//console.log(tableRef[1]);
-for (i = 0; i < tableRef.length; i++) {
-let singleRow = tableRef[i];
-let singleRowId = tableRef[i].id;
-singleRow.addEventListener('click', () => {getMenuClicked(singleRowId);});
-}
-*/
  
 
 function getMenuClicked (menuId) {
@@ -103,35 +56,61 @@ document.getElementById("menuArg").value = customMenus[i].menuArg;
 document.getElementById("parentId").value = customMenus[i].parentId;
 }}
 }
-const toVar = window.addEventListener("load", JSONtoVar);
+
+const saveTag = Save.addEventListener("click", writeTag);
+
+const newMenu = New.addEventListener("click", newJSON);
+
+const toVar = importTags.addEventListener("load", JSONtoVar );
 
 const importButton = document.getElementById("importTagsClick");
 
-importTagsClick.addEventListener("click", tagImport);
+const fileButton = document.getElementById('importTags')
+
+importButton.addEventListener("click", tagImport);
+
+fileButton.addEventListener("click", JSONtoVar);
+
+function newJSON() {
+// Extract all menu IDs and put into a string matrix titleList
+titleList = "";
+for (i = 0; i < Object.keys(customMenus).length; i++) {
+titleList = titleList + customMenus[i].menuId+"\n";
+}
+for (i = 1; i < 1000; i++) {// Allows up to 1000 custom tags
+var textNum = i+"";
+var textNum = textNum.padStart(3,"0");
+if (!titleList.includes(textNum)) { break;}
+}
+console.log(textNum);
+document.getElementById("menuId").value = "bbcwbx.custom." + textNum;
+document.getElementById("menuTitle").value = "";
+document.getElementById("menuArg").value = "";
+document.getElementById("parentId").value = "bbcwbx.custom";
+}
+
 
 function tagImport () {
 /* click on the file input button this is a hack using the submit button 
 to click on the file button while maintaining the same appearance as 
 the other submit buttons. */
+alert("\t\t\t\tWarning:\nThis will overwrite existing custom tags and tag order.");
+confirm("\tAre you sure you want to proceed?\n     Click OK to proceed, or cancel and then\nbackup your current setup before proceeding.");
 importTags.click();
 }
 
-function JSONtoVar (){
-
-window.addEventListener("load", function() {
-  document.getElementById("file-upload").onchange = function(event) {
-    var reader = new FileReader();
-    reader.readAsDataURL(event.srcElement.files[0]);
-    var me = this;
-    reader.onload = function () {
-      var fileContent = reader.result;
-	  console.log(fileContent);
-    }
-}});
-
-console.log('adfasds');
+function JSONtoVar (event) {
+  var file = event.target.files[0];
+  var reader = new FileReader();
+  reader.onload = function(event) {
+    // The file's text will be printed here
+    let readValue = event.target.result;
+//    console.log(readValue);
+localStorage.setItem('customMenus',readValue); //store order of custom tags locally
+location.reload(); // reload page, which reloads custom tags from storage
+  };
+  reader.readAsText(file);
 }
-
 
 
 // listen for save tag order button
@@ -188,6 +167,35 @@ browser.downloads.download({
 }
 }
 
+function writeTag () {// writes new or updated tag to disk
+currentMenuId = document.getElementById("menuId").value;
+currentMenuTitle = document.getElementById("menuTitle").value;
+currentMenuArg = document.getElementById("menuArg").value;
+currentMenuParentId = document.getElementById("parentId").value;
+
+let newMenu = {
+    menuId: currentMenuId,
+    menuTitle: currentMenuTitle,
+    parentId: currentMenuParentId,
+    menuArg: currentMenuArg
+  }
+console.log(newMenu);
+let stuff2Add = customMenus.concat(newMenu);
+localStorage.setItem('customMenus',JSON.stringify(stuff2Add)); //store updated tags in local storage
+location.reload(); // reload page, which reloads custom tags from storage
+
+}
+
+// =======================================================================================================================
+// =======================================================================================================================
+// =======================================================================================================================
+// =======================================================================================================================
+// =======================================================================================================================
+// =======================================================================================================================
+// =======================================================================================================================
+// =======================================================================================================================
+// =======================================================================================================================
+// =======================================================================================================================
 
 // code by Friso NL - frisog at gmail .com
 
@@ -351,3 +359,4 @@ function reOrder(listItems) {
     parent.appendChild(tempListItems[i]);
   }
 };
+
