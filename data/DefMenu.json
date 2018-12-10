@@ -21,7 +21,7 @@
     "menuId": "bbcwbx.bbcode.clp.quote",
     "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.clp.quote)",
     "parentId": "bbcwbx.bbcode.clp",
-    "menuArg": "[quote{{qtpopup,i18n.INS_AUTHOR,=\",\"}}]{{clipboard}}[/quote]",
+    "menuArg": "[quote{{zzpopup,i18n.INS_AUTHOR,=\",\"}}]{{clipboard}}[/quote]",
     "icons": "",
     "": ""
   },
@@ -37,7 +37,7 @@
     "menuId": "bbcwbx.bbcode.clp.list",
     "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.clp.list)",
     "parentId": "bbcwbx.bbcode.clp",
-    "menuArg": "{{mkList{{clipboard}},\"bbcode\"}}",
+    "menuArg": "{{makeList{{clipboard}},\"bbcode\"}}",
     "icons": "",
     "": ""
   },
@@ -45,7 +45,7 @@
     "menuId": "bbcwbx.bbcode.clp.ordlist",
     "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.clp.ordlist)",
     "parentId": "bbcwbx.bbcode.clp",
-    "menuArg": "{{mkList{{clipboard}},\"bbcodeord\"}}",
+    "menuArg": "{{makeList{{clipboard}},\"bbcodeord\"}}",
     "icons": "",
     "": ""
   },
@@ -53,7 +53,7 @@
     "menuId": "bbcwbx.bbcode.clp.alphalist",
     "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.clp.alphalist)",
     "parentId": "bbcwbx.bbcode.clp",
-    "menuArg": "{{mkList{{clipboard}},\"bbcodeordalf\"}}",
+    "menuArg": "{{makeList{{clipboard}},\"bbcodeordalf\"}}",
     "icons": "",
     "": ""
   },
@@ -109,7 +109,7 @@
     "menuId": "bbcwbx.bbcode.wbx.quote",
     "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.wbx.quote)",
     "parentId": "bbcwbx.bbcode.wbx",
-    "menuArg": "[quote{{qtpopup,i18n.INS_AUTHOR,=\",\"}}]{{selection}}[/quote]",
+    "menuArg": "[quote{{zzpopup,i18n.INS_AUTHOR,=\",\"}}]{{selection}}[/quote]",
     "icons": "",
     "": ""
   },
@@ -125,7 +125,7 @@
     "menuId": "bbcwbx.bbcode.wbx.list",
     "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.wbx.list)",
     "parentId": "bbcwbx.bbcode.wbx",
-    "menuArg": "{{mkList{{selection}},\"bbcode\"}}",
+    "menuArg": "{{makeList{{selection}},\"bbcode\"}}",
     "icons": "",
     "": ""
   },
@@ -133,7 +133,7 @@
     "menuId": "bbcwbx.bbcode.wbx.ordlist",
     "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.wbx.ordlist)",
     "parentId": "bbcwbx.bbcode.wbx",
-    "menuArg": "{{mkList{{selection}},\"bbcodeord\"}}",
+    "menuArg": "{{makeList{{selection}},\"bbcodeord\"}}",
     "icons": "",
     "": ""
   },
@@ -141,7 +141,7 @@
     "menuId": "bbcwbx.bbcode.wbx.alphalist",
     "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.wbx.alphalist)",
     "parentId": "bbcwbx.bbcode.wbx",
-    "menuArg": "{{mkList{{selection}},\"bbcodeordalf\"}}",
+    "menuArg": "{{makeList{{selection}},\"bbcodeordalf\"}}",
     "icons": "",
     "": ""
   },
@@ -539,7 +539,7 @@
     "menuId": "bbcwbx.html.clp.list",
     "menuTitle": "browser.i18n.getMessage(bbcwbx.html.clp.list)",
     "parentId": "bbcwbx.html.clp",
-    "menuArg": "{{mkList{{clipboard}},\"html\"}}",
+    "menuArg": "{{makeList{{clipboard}},\"html\"}}",
     "icons": "",
     "": ""
   },
@@ -547,7 +547,7 @@
     "menuId": "bbcwbx.html.clp.ordlist",
     "menuTitle": "browser.i18n.getMessage(bbcwbx.html.clp.ordlist)",
     "parentId": "bbcwbx.html.clp",
-    "menuArg": "{{mkList{{clipboard}},\"htmlord\"}}",
+    "menuArg": "{{makeList{{clipboard}},\"htmlord\"}}",
     "icons": "",
     "": ""
   },
@@ -555,7 +555,7 @@
     "menuId": "bbcwbx.html.clp.alphalist",
     "menuTitle": "browser.i18n.getMessage(bbcwbx.html.clp.alphalist)",
     "parentId": "bbcwbx.html.clp",
-    "menuArg": "{{mkList{{clipboard}},\"htmlordalf\"}}",
+    "menuArg": "{{makeList{{clipboard}},\"htmlordalf\"}}",
     "icons": "",
     "": ""
   },
@@ -619,7 +619,7 @@
     "menuId": "bbcwbx.html.wbx.list",
     "menuTitle": "browser.i18n.getMessage(bbcwbx.html.wbx.list)",
     "parentId": "bbcwbx.html.wbx",
-    "menuArg": "{{mkList{{selection}},\"html\"}}",
+    "menuArg": "{{makeList{{selection}},\"html\"}}",
     "icons": "",
     "": ""
   },
@@ -627,7 +627,7 @@
     "menuId": "bbcwbx.html.wbx.ordlist",
     "menuTitle": "browser.i18n.getMessage(bbcwbx.html.wbx.ordlist)",
     "parentId": "bbcwbx.html.wbx",
-    "menuArg": "{{mkList{{selection}},\"htmlord\"}}",
+    "menuArg": "{{makeList{{selection}},\"htmlord\"}}",
     "icons": "",
     "": ""
   },
@@ -635,7 +635,7 @@
     "menuId": "bbcwbx.html.wbx.alphalist",
     "menuTitle": "browser.i18n.getMessage(bbcwbx.html.wbx.alphalist)",
     "parentId": "bbcwbx.html.wbx",
-    "menuArg": "{{mkList{{selection}},\"htmlordalf\"}}",
+    "menuArg": "{{makeList{{selection}},\"htmlordalf\"}}",
     "icons": "",
     "": ""
   },
@@ -741,7 +741,7 @@
     "menuId": "bbcwbx.xhtml.clp.list",
     "menuTitle": "browser.i18n.getMessage(bbcwbx.xhtml.clp.list)",
     "parentId": "bbcwbx.xhtml.clp",
-    "menuArg": "{{mkList{{clipboard}},\"html\"}}",
+    "menuArg": "{{makeList{{clipboard}},\"html\"}}",
     "icons": "",
     "": ""
   },
@@ -749,7 +749,7 @@
     "menuId": "bbcwbx.xhtml.clp.ordlist",
     "menuTitle": "browser.i18n.getMessage(bbcwbx.xhtml.clp.ordlist)",
     "parentId": "bbcwbx.xhtml.clp",
-    "menuArg": "{{mkList{{clipboard}},\"htmlord\"}}",
+    "menuArg": "{{makeList{{clipboard}},\"htmlord\"}}",
     "icons": "",
     "": ""
   },
@@ -757,7 +757,7 @@
     "menuId": "bbcwbx.xhtml.clp.alphalist",
     "menuTitle": "browser.i18n.getMessage(bbcwbx.xhtml.clp.alphalist)",
     "parentId": "bbcwbx.xhtml.clp",
-    "menuArg": "{{mkList{{clipboard}},\"htmlordalf\"}}",
+    "menuArg": "{{makeList{{clipboard}},\"htmlordalf\"}}",
     "icons": "",
     "": ""
   },
@@ -821,7 +821,7 @@
     "menuId": "bbcwbx.xhtml.wbx.list",
     "menuTitle": "browser.i18n.getMessage(bbcwbx.xhtml.wbx.list)",
     "parentId": "bbcwbx.xhtml.wbx",
-    "menuArg": "{{mkList{{selection}},\"html\"}}",
+    "menuArg": "{{makeList{{selection}},\"html\"}}",
     "icons": "",
     "": ""
   },
@@ -829,7 +829,7 @@
     "menuId": "bbcwbx.xhtml.wbx.ordlist",
     "menuTitle": "browser.i18n.getMessage(bbcwbx.xhtml.wbx.ordlist)",
     "parentId": "bbcwbx.xhtml.wbx",
-    "menuArg": "{{mkList{{selection}},\"htmlord\"}}",
+    "menuArg": "{{makeList{{selection}},\"htmlord\"}}",
     "icons": "",
     "": ""
   },
@@ -837,7 +837,7 @@
     "menuId": "bbcwbx.xhtml.wbx.alphalist",
     "menuTitle": "browser.i18n.getMessage(bbcwbx.xhtml.wbx.alphalist)",
     "parentId": "bbcwbx.xhtml.wbx",
-    "menuArg": "{{mkList{{selection}},\"htmlordalf\"}}",
+    "menuArg": "{{makeList{{selection}},\"htmlordalf\"}}",
     "icons": "",
     "": ""
   },
@@ -953,7 +953,7 @@
     "menuId": "bbcwbx.mkdn.clp.list",
     "menuTitle": "browser.i18n.getMessage(bbcwbx.mkdn.clp.list)",
     "parentId": "bbcwbx.mkdn.clp",
-    "menuArg": "{{mkList{{clipboard}},\"markdown\"}}",
+    "menuArg": "{{makeList{{clipboard}},\"markdown\"}}",
     "icons": "",
     "": ""
   },
@@ -961,7 +961,7 @@
     "menuId": "bbcwbx.mkdn.clp.ordlist",
     "menuTitle": "browser.i18n.getMessage(bbcwbx.mkdn.clp.ordlist)",
     "parentId": "bbcwbx.mkdn.clp",
-    "menuArg": "{{mkList{{clipboard}},\"markdownord\"}}",
+    "menuArg": "{{makeList{{clipboard}},\"markdownord\"}}",
     "icons": "",
     "": ""
   },
@@ -1017,7 +1017,7 @@
     "menuId": "bbcwbx.mkdn.wbx.list",
     "menuTitle": "browser.i18n.getMessage(bbcwbx.mkdn.wbx.list)",
     "parentId": "bbcwbx.mkdn.wbx",
-    "menuArg": "{{mkList{{selection}},\"markdown\"}}",
+    "menuArg": "{{makeList{{selection}},\"markdown\"}}",
     "icons": "",
     "": ""
   },
@@ -1025,7 +1025,7 @@
     "menuId": "bbcwbx.mkdn.wbx.ordlist",
     "menuTitle": "browser.i18n.getMessage(bbcwbx.mkdn.wbx.ordlist)",
     "parentId": "bbcwbx.mkdn.wbx",
-    "menuArg": "{{mkList{{selection}},\"markdownord\"}}",
+    "menuArg": "{{makeList{{selection}},\"markdownord\"}}",
     "icons": "",
     "": ""
   },

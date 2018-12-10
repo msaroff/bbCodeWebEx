@@ -92,15 +92,15 @@ console.log(popTitle);
     /*
     List has the format of {{makeList,thing to make into list,type of list}}
     */
-    function makeList(listArg) {
-        let listStartIdx = listArg.indexOf("{{mkList"); // start of list argument in commend string
+    function listMake (listArg) {
+        let listStartIdx = listArg.indexOf("{{makeList"); // start of list argument in commend string
         let listEndIdx = listArg.indexOf("}}", listStartIdx); // end of list argument in command string
         let listWork = listArg.substring(listStartIdx, listEndIdx);; // extract the portion of the argument that has to do with making the list
-        listWork = listWork.substring(6, listWork.length - 2); //remove the "{{mkList," from the beginning of the argument, and the "}}" from the end.
-        let listType = listWork.substring(listWork.lastIndexOf(","), listWork.length) // the type of list is after the last comma
+        listWork = listWork.substring(10, listWork.length -1 ); //remove the "{{makeList," from the beginning of the argument, and the "}}" from the end.
+        let listType = listWork.substring(listWork.lastIndexOf(",") +2, (listWork.length)) // the type of list is after the last comma
         let listWhat = listWork.substring(0, listWork.lastIndexOf(",")) // the text to which the list would be attached
         let listResult = createList(listWhat, listType); //return the properly formatted list to put into the list argument
-        return listArg.substring(0, listStartIdx) + listResult + listArg.substring(listEndIdx); //send the parsed list in the back
+        return listArg.substring(0, listStartIdx) + listResult + listArg.substring(listEndIdx +2); //send the parsed list in the back
     }
 
 
@@ -125,7 +125,7 @@ console.log(popTitle);
         if (argString.includes("{{clipboard}}")) { // Replace clipboard tag with clipboard contents
             const clipcont = await readFromClipboard('text/plain');
             argString = argString.replace(/{{clipboard}}/g, clipcont);
-console.log(argstring);
+//console.log(argString);
         }
         if (argString.includes("{{selection}}")) { // Replace selection tag with selection value 
             argString = argString.replace(/{{selection}}/g, selcont);
@@ -134,7 +134,8 @@ console.log(argstring);
             argString = popThisUp(argString);
         }
         if (argString.includes("{{makeList")) { // Invoke list creation function
-            argString = makeList(argString);
+console.log(argString);
+            argString = listMake(argString);
         }
         if (argString.includes("fontzcol")) { // Invoke font color wheel
 //            argString = await getColor(argString);
@@ -155,6 +156,7 @@ which is under an MIT free and open-source software (FOSS) license.
 */
 
 function createList(originalText, listType) {
+console.log("createList running");
     var startBlock, endBlock, startItem, endItem, formattedText;
 
     // Make sure only \n is used as line ending
@@ -165,9 +167,10 @@ function createList(originalText, listType) {
     lines = lines.filter(function(n) {
         return n !== '';
     });
-
+console.log(listType);
     switch (listType) {
         case 'bbcode':
+console.log("bbcode tripped");
             startBlock = '[list]\n';
             startItem = '[*]';
             endItem = '\n';
@@ -231,7 +234,6 @@ function createList(originalText, listType) {
         }
     }
     formattedText += endBlock;
-
     return formattedText;
 }
 

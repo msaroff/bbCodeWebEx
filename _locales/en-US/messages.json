@@ -437,6 +437,9 @@
     "ALERT_IMPORT_TEXT": {
         "message": "This will overwrite all existing settings. Are you sure?"
     },
+    "BTNEXPORT": {
+        "message": "Export Custom Tags"
+    },
     "ALERT_IMPORT_COMPLETED": {
         "message": "Operation completed."
     }

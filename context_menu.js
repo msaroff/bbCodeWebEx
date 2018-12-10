@@ -36,7 +36,7 @@ fetch(customMenusTestURL)
     return response.json();
   })
   .then(function(myJson) {
-    console.log(JSON.stringify(myJson));
+//    console.log(JSON.stringify(myJson));
 localStorage.setItem('customMenus', JSON.stringify(myJson));
     console.log("custom menu saved");
   });
