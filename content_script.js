@@ -15,7 +15,7 @@
 
     browser.runtime.onMessage.addListener(function(commandString, sendResponse) {
         CommandParse(commandString);
-        getColor();
+//        getColor();
     });
 
 
@@ -93,10 +93,10 @@ console.log(popTitle);
     List has the format of {{makeList,thing to make into list,type of list}}
     */
     function makeList(listArg) {
-        let listStartIdx = listArg.indexOf("{{list"); // start of list argument in commend string
+        let listStartIdx = listArg.indexOf("{{mkList"); // start of list argument in commend string
         let listEndIdx = listArg.indexOf("}}", listStartIdx); // end of list argument in command string
         let listWork = listArg.substring(listStartIdx, listEndIdx);; // extract the portion of the argument that has to do with making the list
-        listWork = listWork.substring(6, listWork.length - 2); //remove the "{{list," from the beginning of the argument, and the "}}" from the end.
+        listWork = listWork.substring(6, listWork.length - 2); //remove the "{{mkList," from the beginning of the argument, and the "}}" from the end.
         let listType = listWork.substring(listWork.lastIndexOf(","), listWork.length) // the type of list is after the last comma
         let listWhat = listWork.substring(0, listWork.lastIndexOf(",")) // the text to which the list would be attached
         let listResult = createList(listWhat, listType); //return the properly formatted list to put into the list argument
@@ -125,6 +125,7 @@ console.log(popTitle);
         if (argString.includes("{{clipboard}}")) { // Replace clipboard tag with clipboard contents
             const clipcont = await readFromClipboard('text/plain');
             argString = argString.replace(/{{clipboard}}/g, clipcont);
+console.log(argstring);
         }
         if (argString.includes("{{selection}}")) { // Replace selection tag with selection value 
             argString = argString.replace(/{{selection}}/g, selcont);
