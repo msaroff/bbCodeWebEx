@@ -64,27 +64,34 @@ It will prompt for title, and then for url, and the result will be
 This will generate as many popup dialogues as you would want.
 */
     function popThisUp(popArg) {
-        popStartIdx = popArg.indexOf("{{zzpopup"); // start of popup argument in commend string
-        popEndIdx = popArg.indexOf("}}", popStartIdx) + 2; // end of popup argument in command string
-        popWork = popArg.substring(popStartIdx, popEndIdx); // extract the portion of the argument that has to do with making the popup
-console.log(popWork);
+//	while (popArg.includes("zzpopup")) { // cycle through multiple popups until done
+        let popStartIdx = popArg.indexOf("{{"); // start of popup argument in commend string
+        let popEndIdx = popArg.indexOf("}}", popStartIdx) + 2; // end of popup argument in command string
+        let popWork = popArg.substring(popStartIdx, popEndIdx); // extract the portion of the argument that has to do with making the popup
         popWork = popWork.substring(10, popWork.length - 2); //remove the "{{zzpopup," from the beginning of  argument, and "}}" from the end.
-        popTitle = popWork.substring(0, popWork.indexOf(",")); // popup title, possibly including i18n localization tag
-console.log(popTitle);
+        let popTitle = popWork.substring(0, popWork.indexOf(",")); // popup title, possibly including i18n localization tag
+        let popToReplaceStart = popWork.indexOf("##"); //start index of string to replace
+        let popToReplaceEnd = popWork.indexOf("##",popToReplaceStart + 1); //end index of string to replace.
+        var textToReplace = popWork.substring(popToReplaceStart,popToReplaceEnd +2);
             if (popTitle.includes("i18n")) { //if there is a localization tag
                 popTitle = browser.i18n.getMessage(popTitle.substring(5));  // replace with i18n value
-console.log(popTitle);
             }
-        popWork = popWork.substring(popWork.indexOf(",") + 1) //drop title from popwork
+        popWork = popWork.substring(popWork.indexOf(",") + 1) //drop title from popWork
+        popWork = popWork.substring(popWork.indexOf(",") + 1) //drop string to be replaced from popWork
         popupBefore = popWork.substring(0, popWork.indexOf(",")) //text to be added before entered text
-        popupAfter = popWork.substring(popWork.lastIndexOf(",")) //text to be added before entered text
+        popupAfter = popWork.substring(popWork.lastIndexOf(",")+1) //text to be added before entered text
+console.log(popupBefore,popupAfter);
         let popupResp = prompt(popTitle);
         if (popupResp === null || popupResp === "") { // if the prompt is left blank, produce empty response
             popupResp = "";
             popupBefore = "";
             popupAfter = "";
         }
-        popArg = popArg.substring(0, popStartIdx) + popupBefore + popupResp + popupAfter + popArg.substring(popEndIdx); 
+
+        popArg = popArg.substring(popEndIdx);
+        let authorHere = popupBefore + popupResp + popupAfter;
+        popArg = popArg.substring(0, popArg.indexOf(textToReplace)) + authorHere + popArg.substring(popArg.indexOf(textToReplace) + textToReplace.length); 
+//}
 //add in whatever you got from         the dialog box
         return popArg;
     }
@@ -137,11 +144,11 @@ console.log(popTitle);
 console.log(argString);
             argString = listMake(argString);
         }
-        if (argString.includes("fontzcol")) { // Invoke font color wheel
+//        if (argString.includes("fontzcol")) { // Invoke font color wheel
 //            argString = await getColor(argString);
-            argString = getColor(argString);
-              
-        }
+//            argString = getColor(argString);
+//  ** not yet implemented.            
+//        }
 
 
 
