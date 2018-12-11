@@ -391,7 +391,7 @@
     "menuId": "bbcwbx.bbcode.wbx.urlwiz",
     "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.wbx.urlwiz)",
     "parentId": "bbcwbx.bbcode.wbx",
-    "menuArg": "[url={{zzpopup,URL?,\"\",\"\"}}]{{zzpopup,Link name?,\"\",\"\"}}[/url]",
+    "menuArg": "{{zzpopup,i18n.URLCOMPOSTO_STEP1,##linkName##,,}}{{zzpopup,i18n.URLCOMPOSTO_STEP2,##URL##,,}}[url=##URL##]##linkName##[/url]",
     "icons": "",
     "": ""
   },

@@ -64,7 +64,7 @@ It will prompt for title, and then for url, and the result will be
 This will generate as many popup dialogues as you would want.
 */
     function popThisUp(popArg) {
-//	while (popArg.includes("zzpopup")) { // cycle through multiple popups until done
+	while (popArg.includes("zzpopup")) { // cycle through multiple popups until done
         let popStartIdx = popArg.indexOf("{{"); // start of popup argument in commend string
         let popEndIdx = popArg.indexOf("}}", popStartIdx) + 2; // end of popup argument in command string
         let popWork = popArg.substring(popStartIdx, popEndIdx); // extract the portion of the argument that has to do with making the popup
@@ -80,7 +80,6 @@ This will generate as many popup dialogues as you would want.
         popWork = popWork.substring(popWork.indexOf(",") + 1) //drop string to be replaced from popWork
         popupBefore = popWork.substring(0, popWork.indexOf(",")) //text to be added before entered text
         popupAfter = popWork.substring(popWork.lastIndexOf(",")+1) //text to be added before entered text
-console.log(popupBefore,popupAfter);
         let popupResp = prompt(popTitle);
         if (popupResp === null || popupResp === "") { // if the prompt is left blank, produce empty response
             popupResp = "";
@@ -91,7 +90,7 @@ console.log(popupBefore,popupAfter);
         popArg = popArg.substring(popEndIdx);
         let authorHere = popupBefore + popupResp + popupAfter;
         popArg = popArg.substring(0, popArg.indexOf(textToReplace)) + authorHere + popArg.substring(popArg.indexOf(textToReplace) + textToReplace.length); 
-//}
+}
 //add in whatever you got from         the dialog box
         return popArg;
     }
