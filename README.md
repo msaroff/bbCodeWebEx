@@ -33,8 +33,8 @@ This is profoundly ugly code, and the author assumes no responsibility for any o
 * Hairy palms
 * Cancer
 * Intestional distress.
-* Bad hair.  Seriously awful bad hair.
-<a href="http://www.panix.com/~msaroff/badhair/badhair.jpg"><img src="http://www.panix.com/~msaroff/badhair/badhair.jpg" style="cursor: pointer; float: right; margin: 0px 0px 10px 10px;" width="50" /></a>
+* <img src="http://www.panix.com/~msaroff/badhair/badhair.jpg" style="float: right;" width="150" />Bad hair.  Seriously awful bad hair.  See:
+
 
 Seriously, this is Vogon code Javascript, and I keep expecting a bodily organ to leap up and throttle my brain.
 
