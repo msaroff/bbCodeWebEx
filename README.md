@@ -28,12 +28,12 @@ This addendum has no force of law, nor any effect on the rest of the document an
 
 ## Health Warning
 This is profoundly ugly code, and the author assumes no responsibility for any of the following conditions that might develop as a result of reading said code:
-* Blindness
+* <img align="right" src="icons/badhair.jpg" width="150">Blindness
 * Post traumatic stress disorder
 * Hairy palms
 * Cancer
 * Intestional distress.
-* <img align="right" align ="top" src="icons/badhair.jpg" width="150">Bad hair.  Seriously awful bad hair.  See:
+* Bad hair.  Seriously awful bad hair.  See:
 
 
 Seriously, this is Vogon code Javascript, and I keep expecting a bodily organ to leap up and throttle my brain.
