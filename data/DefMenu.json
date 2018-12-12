@@ -21,7 +21,7 @@
     "menuId": "bbcwbx.bbcode.clp.quote",
     "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.clp.quote)",
     "parentId": "bbcwbx.bbcode.clp",
-    "menuArg": "{{zzpopup,i18n.INS_AUTHOR,##authorQuote##,=\",\"}}[quote##authorQuote##]{{clipboard}}[/quote]",
+    "menuArg": "xyzzy{{zzpopup,i18n.INS_AUTHOR,##authorQuote##,=\",\"}}[quote##authorQuote##]{{clipboard}}[/quote]",
     "icons": "",
     "": ""
   },

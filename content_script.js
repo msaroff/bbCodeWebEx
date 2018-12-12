@@ -65,17 +65,18 @@ This will generate as many popup dialogues as you would want.
 */
     function popThisUp(popArg) {
 	while (popArg.includes("zzpopup")) { // cycle through multiple popups until done
-        let popStartIdx = popArg.indexOf("{{"); // start of popup argument in commend string
+        let popStartIdx = popArg.indexOf("{{zzpopup"); // start of popup argument in commend string
+
         let popEndIdx = popArg.indexOf("}}", popStartIdx) + 2; // end of popup argument in command string
         let popWork = popArg.substring(popStartIdx, popEndIdx); // extract the portion of the argument that has to do with making the popup
         popWork = popWork.substring(10, popWork.length - 2); //remove the "{{zzpopup," from the beginning of  argument, and "}}" from the end.
         let popTitle = popWork.substring(0, popWork.indexOf(",")); // popup title, possibly including i18n localization tag
-        let popToReplaceStart = popWork.indexOf("##"); //start index of string to replace
-        let popToReplaceEnd = popWork.indexOf("##",popToReplaceStart + 1); //end index of string to replace.
-        var textToReplace = popWork.substring(popToReplaceStart,popToReplaceEnd +2);
             if (popTitle.includes("i18n")) { //if there is a localization tag
                 popTitle = browser.i18n.getMessage(popTitle.substring(5));  // replace with i18n value
             }
+        let popToReplaceStart = popWork.indexOf("##"); //start index of string to replace
+        let popToReplaceEnd = popWork.indexOf("##",popToReplaceStart + 1); //end index of string to replace.
+        var textToReplace = popWork.substring(popToReplaceStart,popToReplaceEnd +2);
         popWork = popWork.substring(popWork.indexOf(",") + 1) //drop title from popWork
         popWork = popWork.substring(popWork.indexOf(",") + 1) //drop string to be replaced from popWork
         popupBefore = popWork.substring(0, popWork.indexOf(",")) //text to be added before entered text
@@ -87,11 +88,11 @@ This will generate as many popup dialogues as you would want.
             popupAfter = "";
         }
 
-        popArg = popArg.substring(popEndIdx);
-        let authorHere = popupBefore + popupResp + popupAfter;
-        popArg = popArg.substring(0, popArg.indexOf(textToReplace)) + authorHere + popArg.substring(popArg.indexOf(textToReplace) + textToReplace.length); 
+        let popUpHere = popupBefore + popupResp + popupAfter;
+        popArg = popArg.substring(0, popStartIdx) + popArg.substring(popEndIdx); //string it together with popup removed
+        popArg = popArg.replace(new RegExp(textToReplace,"g"),popUpHere); //replace hashtag with word prompt results
 }
-//add in whatever you got from         the dialog box
+//add in whatever you got from  the dialog box
         return popArg;
     }
 
