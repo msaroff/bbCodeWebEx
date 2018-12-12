@@ -28,7 +28,7 @@ This addendum has no force of law, nor any effect on the rest of the document an
 
 ## Health Warning
 This is profoundly ugly code, and the author assumes no responsibility for any of the following conditions that might develop as a result of reading said code:
-* <img align="right" src="icons/badhair.jpg" width="150">Blindness
+* <img align="right" src="icons/badhair.jpg" width="140">Blindness
 * Post traumatic stress disorder
 * Hairy palms
 * Cancer
@@ -36,6 +36,6 @@ This is profoundly ugly code, and the author assumes no responsibility for any o
 * Bad hair.  Seriously awful bad hair.  See:
 
 
-Seriously, this is Vogon code Javascript, and I keep expecting a bodily organ to leap up and throttle my brain.
+Seriously, this is Vogon poetry level Javascript, and I keep expecting a bodily organ to leap up and throttle my brain.
 
 
