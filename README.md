@@ -33,9 +33,9 @@ This is profoundly ugly code, and the author assumes no responsibility for any o
 * Hairy palms
 * Cancer
 * Intestional distress.
-* ![aaa](icons/badhair.jpg)Bad hair.  Seriously awful bad hair.  See:
+* <img align="right" src="icons/badhair.jpg">Bad hair.  Seriously awful bad hair.  See:
 
 
 Seriously, this is Vogon code Javascript, and I keep expecting a bodily organ to leap up and throttle my brain.
 
-<img align="right" src="icons/badhair.jpg">
+
