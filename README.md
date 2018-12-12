@@ -21,6 +21,9 @@ Additionally, I am using the internatinal language codes he maintained for bbCod
 #### Niklas Gollenstede \[NilkasG]
 Wrote the code used to access the contents of the clipboard, available at https://github.com/NiklasGollenstede/es6lib/, specifically the dom.js file.
 
+#### Erosman
+Used his code snipped to do internationalization on my options pages.  https://github.com/erosman/HTML-Internationalization
+
 ## License
 This code is licensed under the Church of the Flying Spaghetti Monster, which is identical to the TBD free and open source license, except that an addendum is added as performance art requiring users to go outside and play pirate, or make pasta, every so often.
 
