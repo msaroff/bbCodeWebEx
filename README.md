@@ -38,3 +38,4 @@ This is profoundly ugly code, and the author assumes no responsibility for any o
 
 Seriously, this is Vogon code Javascript, and I keep expecting a bodily organ to leap up and throttle my brain.
 
+<img align="right" src="icons/badhair.jpg">
