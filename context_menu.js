@@ -28,33 +28,10 @@ let defaultMenus = {
         return JSON.parse(localStorage.getItem('activeMenus')); // load stored values if necessary
 }
 
-customMenusTestURL = browser.runtime.getURL('data/customMenuTest.json');
-console.log("customMenusTestURL = ",customMenusTestURL);
-
-fetch(customMenusTestURL)
-    .then(function(response) {
-    return response.json();
-  })
-  .then(function(myJson) {
-//    console.log(JSON.stringify(myJson));
-localStorage.setItem('customMenus', JSON.stringify(myJson));
-    console.log("custom menu saved");
-  });
-
-/*
-function invokeCustomMenus() {
-};
-    if (localStorage.getItem("customMenus") === null) { //if menu settings not stored, 
-        localStorage.setItem('customMenus',JSON.stringify(customMenusTest)); //store test case in custom menu
-} // eventually, it will store an empty object
-        return JSON.parse(localStorage.getItem('customMenus'));
-}
-*/
-
-const defMenuURL = browser.runtime.getURL('data/DefMenu.json');
+const defMenuURL = browser.runtime.getURL('data/DefMenu.json'); // location of default menu storage
+const custMenuUrl = browser.runtime.getURL('data/customMenuTest.json'); //location of initial tutorial custom menu
 
 var defaultMenu = [];
-console.log(activeMenus);
 
 fetch(defMenuURL)
     .then(function(response) {
@@ -62,6 +39,7 @@ fetch(defMenuURL)
     })
     .then(function(defaultMenu) {
         window.defMenu = defaultMenu; //create variable with global scope
+console.log("def",defMenu);
         for (i = 0; i < defaultMenu.length; i++) {
             let currentId = defaultMenu[i].menuId;
             let nobbCode = (currentId.substring(0,13) == 'bbcwbx.bbcode') && !activeMenus.enablebbCode;
@@ -106,12 +84,49 @@ fetch(defMenuURL)
         if (defaultMenu[i].parentId != "") {
             info.parentId = defaultMenu[i].parentId;
         }
-        browser.menus.create(
-            info
-        );
+        browser.menus.create(info);
     }
     }
-})
+});
+
+// load custom menus
+fetch(custMenuUrl)
+    .then(function(response) {
+        return response.json();
+    })
+    .then(function(customMenu) {
+    customMenus = JSON.parse(localStorage.getItem('customMenus'));// get stored custom menus, if any
+    if (customMenus == null){ // if there are no stored custom menus
+    customMenus = customMenu; // take the results of the file loaded from disk
+    localStorage.setItem('customMenus',JSON.stringify(customMenus)); //and write to local storage
+    }
+    if (activeMenus.enableCustom) { // process custom tags if custom tags are enabled.
+    for (i = 0; i < customMenus.length; i++) {
+        custInfo = {
+            id: customMenus[i].menuId,
+            title: customMenus[i].menuTitle, //eventually this becomes an i18n call
+            contexts: ["all"]
+        };
+        if (customMenus[i].menuTitle.includes("i18n")) {
+            custInfo.title = browser.i18n.getMessage(customMenus[i].menuId); // lookup i18n
+        } else {
+            custInfo.title = customMenus[i].menuTitle; // no i18n, probably custom tag
+        }
+        if (customMenus[i].icons != "") {
+            custInfo.icons = customMenus[i].icons;
+        };
+        if (customMenus[i].parentId != "") {
+            custInfo.parentId = customMenus[i].parentId;
+        }
+        browser.menus.create(custInfo);
+    }
+    defMenu = defMenu.concat(customMenus); // add to defMenu for Parsing by listener
+
+}
+});
+
+// customMenus = JSON.parse(localStorage.getItem('customMenus')); 
+//get stored value of custom menus
 
 browser.menus.onClicked.addListener((info, tab, defaultMenu) => {
     if (info.menuItemId.substring(0, 6) == "bbcwbx") {

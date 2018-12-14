@@ -21,9 +21,6 @@ Additionally, I am using the internatinal language codes he maintained for bbCod
 #### Niklas Gollenstede \[NilkasG]
 Wrote the code used to access the contents of the clipboard, available at https://github.com/NiklasGollenstede/es6lib/, specifically the dom.js file.
 
-#### Erosman
-Used his code snipped to do internationalization on my options pages.  https://github.com/erosman/HTML-Internationalization
-
 ## License
 This code is licensed under the Church of the Flying Spaghetti Monster, which is identical to the TBD free and open source license, except that an addendum is added as performance art requiring users to go outside and play pirate, or make pasta, every so often.
 
@@ -31,14 +28,13 @@ This addendum has no force of law, nor any effect on the rest of the document an
 
 ## Health Warning
 This is profoundly ugly code, and the author assumes no responsibility for any of the following conditions that might develop as a result of reading said code:
-* <img align="right" src="icons/badhair.jpg" width="140">Blindness
+* Blindness
 * Post traumatic stress disorder
 * Hairy palms
 * Cancer
 * Intestional distress.
-* Bad hair.  Seriously awful bad hair.  See:
+* Bad hair.  Seriously awful bad hair.
+<a href="http://www.panix.com/~msaroff/badhair/badhair.jpg"><img src="http://www.panix.com/~msaroff/badhair/badhair.jpg" style="cursor: pointer; float: right; margin: 0px 0px 10px 10px;" width="50" /></a>
 
-
-Seriously, this is Vogon poetry level Javascript, and I keep expecting a bodily organ to leap up and throttle my brain.
-
+Seriously, this is Vogon code Javascript, and I keep expecting a bodily organ to leap up and throttle my brain.
 
