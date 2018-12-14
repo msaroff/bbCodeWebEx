@@ -147,12 +147,12 @@ ul.order {  /* Set up a list with no indent and no first character to make sorta
 
 </ul>Drag and drop to reorder tags <br>
 (You cannot drag down to the bottom row, but you can drag the bottom row all the way up)<br><br> 
-Click to edit in dialogue boxes below<br><br><input type="button" id="saveTagOrder" value="Save Tag Order">
+Click to edit in dialogue boxes below<br><br><input type="button" id="saveTagOrder" data-i18n="SAVE_TAG_ORDER|value" value="">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" id="exportTags" data-i18n="BTNEXPORT|value" value="">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <!-- // file input is hidden through css, and caled through a submit input to preserve button appearance -->
 <input type="file" class="inputFile" id="importTags"/>
-<input type="button" id="importTagsClick" value="Import Tags">
+<input type="button" id="importTagsClick" data-i18n="ALERT_IMPORT_TITLE|value" value="">
 
 
 <h2>Edit/Create Tag</h2>
@@ -161,7 +161,8 @@ Click to edit in dialogue boxes below<br><br><input type="button" id="saveTagOrd
 Menu Title: <input type="text" id="menuTitle" >  (Required) <br><br>
 Menu Argument: <input type="text" id="menuArg" size="100%"> (Required) <br><br>
 Parent Menu <input type="text" id="parentId"  disabled> Reserved for later feature expansion.<br><br><br>
-<input type="button" id="New" value="New Custom Tag">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="submit" id="Clear" value="Clear Custom Tag">
+<input type="button" id="New" data-i18n="WINDOWTITLE_NEWCUSTOMTAG|value" value="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <input type="submit" id="Clear" value="Clear Tag">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="button" id="Save" value="Save Custom Tag">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="button" id="Delete" value="Delete This Custom Tag">
 </form>

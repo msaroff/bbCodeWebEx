@@ -440,6 +440,9 @@
     "BTNEXPORT": {
         "message": "Export Custom Tags"
     },
+    "SAVE_TAG_ORDER": {
+        "message": "Save Tag Order"
+    },
     "ALERT_IMPORT_COMPLETED": {
         "message": "Operation completed."
     }
