@@ -19,7 +19,10 @@ which (with his permission) this program hews to as closely as possible.
 Additionally, I am using the internatinal language codes he maintained for bbCodeXtra, as well as an almost direct copy of the code he used to generate lists.
 
 #### Niklas Gollenstede \[NilkasG]
-Wrote the code used to access the contents of the clipboard, available at https://github.com/NiklasGollenstede/es6lib/, specifically the dom.js file.
+Wrote the code used to access the contents of the clipboard, (https://github.com/NiklasGollenstede/es6lib/) specifically the dom.js file.
+
+#### erosman
+Wrote the code used to put internationalization text into the settings pages. (https://github.com/erosman/HTML-Internationalization)
 
 ## License
 This code is licensed under the Church of the Flying Spaghetti Monster, which is identical to the TBD free and open source license, except that an addendum is added as performance art requiring users to go outside and play pirate, or make pasta, every so often.
