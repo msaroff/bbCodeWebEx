@@ -5,8 +5,15 @@
     "bbcwbx.bbcode.clp": {
         "message": "Clipboard"
     },
+    "description": {
+        "description": "Note: this cannot be longer than 132 characters",
+        "message": "Adds BBCode/HTML/XHTML and custom tags commands to the context menu"
+},
     "bbcwbx.bbcode.clp.quote": {
         "message": "Quote"
+    },
+    "name": {
+        "message": "bbCode Webex"
     },
     "bbcwbx.bbcode.clp.code": {
         "message": "Code"
