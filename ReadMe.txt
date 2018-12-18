@@ -32,11 +32,11 @@ Health Warning
 
 This is profoundly ugly code, and the author assumes no responsibility for any of the following conditions that might develop as a result of reading said code:
 
-    Blindness
-    Post traumatic stress disorder
-    Hairy palms
-    Cancer
-    Intestional distress.
-    Bad hair. Seriously awful bad hair. See:
+*    Blindness
+*    Post traumatic stress disorder
+*    Hairy palms
+*    Cancer
+*    Intestional distress.
+*    Bad hair. Seriously awful bad hair.
 
 Seriously, this is Vogon poetry level Javascript, and I keep expecting a bodily organ to leap up and throttle my brain.
