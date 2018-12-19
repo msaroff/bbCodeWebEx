@@ -37,6 +37,6 @@ This is profoundly ugly code, and the author assumes no responsibility for any o
 *    Hairy palms
 *    Cancer
 *    Intestional distress.
-*    Bad hair. Seriously awful bad hair.
+*    Bad hair. Seriously awful bad hair days.
 
 Seriously, this is Vogon poetry level Javascript, and I keep expecting a bodily organ to leap up and throttle my brain.
