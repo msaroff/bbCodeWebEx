@@ -1,320 +1,556 @@
-Ôªø{
+[
+  {
     "bbcwbx.bbcode": {
-        "message": "bbCode"
+      "message": "bbCode"
     },
     "bbcwbx.bbcode.clp": {
-        "message": "Schr√°nka"
+      "message": "Schr·nka"
     },
     "bbcwbx.bbcode.clp.quote": {
-        "message": "Citova≈•"
+      "message": "Citova%u0165"
     },
     "bbcwbx.bbcode.clp.code": {
-        "message": "K√≥d"
+      "message": "KÛd"
     },
     "bbcwbx.bbcode.clp.list": {
-        "message": "Zoznam"
+      "message": "Zoznam"
     },
     "bbcwbx.bbcode.clp.ordlist": {
-        "message": "Usporiadan√Ω zoznam"
+      "message": "Usporiadan˝ zoznam"
     },
     "bbcwbx.bbcode.clp.alphalist": {
-        "message": "Abecedn√Ω zoznam"
+      "message": "Abecedn˝ zoznam"
     },
     "bbcwbx.bbcode.clp.spoiler": {
-        "message": "Spoiler"
+      "message": "Spoiler"
     },
     "bbcwbx.bbcode.clp.image": {
-        "message": "Obr√°zok"
+      "message": "Obr·zok"
     },
     "bbcwbx.bbcode.clp.mkurlsel": {
-        "message": "Vytvori≈• v√Ωberov√© URL"
+      "message": "Vytvori%u0165 v˝berovÈ URL"
     },
     "bbcwbx.bbcode.clp.url": {
-        "message": "URL"
+      "message": "URL"
     },
     "bbcwbx.bbcode.clp.urlname": {
-        "message": "URL s n√°zvom"
+      "message": "URL s n·zvom"
     },
     "bbcwbx.bbcode.wbx": {
-        "message": "WebEx"
+      "message": "WebEx"
     },
     "bbcwbx.bbcode.wbx.quote": {
-        "message": "Citova≈•"
+      "message": "Citova%u0165"
     },
     "bbcwbx.bbcode.wbx.code": {
-        "message": "K√≥d"
+      "message": "KÛd"
     },
     "bbcwbx.bbcode.wbx.list": {
-        "message": "Zoznam"
+      "message": "Zoznam"
     },
     "bbcwbx.bbcode.wbx.ordlist": {
-        "message": "Usporiadan√Ω zoznam"
+      "message": "Usporiadan˝ zoznam"
     },
     "bbcwbx.bbcode.wbx.alphalist": {
-        "message": "Abecedn√Ω zoznam"
+      "message": "Abecedn˝ zoznam"
     },
     "bbcwbx.bbcode.wbx.spoiler": {
-        "message": "Spoiler"
+      "message": "Spoiler"
     },
     "bbcwbx.bbcode.wbx.fntcol": {
-        "message": "Farba p√≠sma"
+      "message": "Farba pÌsma"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.white": {
+      "message": "White"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.black": {
+      "message": "Black"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.dk_gray": {
+      "message": "Dark gray"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.gray": {
+      "message": "Gray"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.lt_gray": {
+      "message": "Light gray"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.olive": {
+      "message": "Olive"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.yellow": {
+      "message": "Yellow"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.canary": {
+      "message": "Canary"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.maroon": {
+      "message": "Maroon"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.red": {
+      "message": "Red"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.pink": {
+      "message": "Pink"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.navy": {
+      "message": "Navy"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.blue": {
+      "message": "Blue"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.lt_blue": {
+      "message": "Light Blue"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.green": {
+      "message": "Green"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.lime_green": {
+      "message": "Lime Green"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.mint_green": {
+      "message": "Mint Green"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.indigo": {
+      "message": "Indigo"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.purple": {
+      "message": "Purple"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.fuchsia": {
+      "message": "Fuchsia"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.usrEnt": {
+      "message": "Enter Code in Hex"
     },
     "bbcwbx.bbcode.wbx.fntsz": {
-        "message": "Veƒækos≈• p√≠sma"
+      "message": "Ve%u013Ekos%u0165 pÌsma"
     },
     "bbcwbx.bbcode.wbx.urlname": {
-        "message": "URL s n√°zvom"
+      "message": "URL s n·zvom"
     },
     "bbcwbx.bbcode.wbx.urlwiz": {
-        "message": "Sprievodca URL"
+      "message": "Sprievodca URL"
     },
     "bbcwbx.bbcode.vbl": {
-        "message": "VBulletin3"
+      "message": "VBulletin3"
     },
     "bbcwbx.bbcode.vbl.thd": {
-        "message": "Vl√°kno"
+      "message": "Vl·kno"
     },
     "bbcwbx.bbcode.vbl.pst": {
-        "message": "Pr√≠spevok"
+      "message": "PrÌspevok"
     },
     "bbcwbx.bbcode.vbl.alnlf": {
-        "message": "Zarovna≈• doprava"
+      "message": "Zarovna%u0165 doprava"
     },
     "bbcwbx.bbcode.vbl.alnrt": {
-        "message": "Zarovna≈• doƒæava"
+      "message": "Zarovna%u0165 do%u013Eava"
     },
     "bbcwbx.bbcode.vbl.ctr": {
-        "message": "Centrova≈•"
+      "message": "Centrova%u0165"
     },
     "bbcwbx.bbcode.vbl.indnt": {
-        "message": "Odr√°≈æka"
+      "message": "Odr·%u017Eka"
     },
     "bbcwbx.bbcode.vbl.hilt": {
-        "message": "Zv√Ωraznenie"
+      "message": "Zv˝raznenie"
     },
     "bbcwbx.bbcode.bold": {
-        "message": "Tuƒçn√©"
+      "message": "Tu%u010DnÈ"
     },
     "bbcwbx.bbcode.ital": {
-        "message": "Kurz√≠va"
+      "message": "KurzÌva"
     },
     "bbcwbx.bbcode.undrln": {
-        "message": "Podƒçiarknut√©"
+      "message": "Pod%u010DiarknutÈ"
     },
     "bbcwbx.bbcode.img": {
-        "message": "Obr√°zok"
+      "message": "Obr·zok"
     },
     "bbcwbx.bbcode.url": {
-        "message": "URL"
+      "message": "URL"
     },
     "bbcwbx.html": {
-        "message": "HTML"
+      "message": "HTML"
     },
     "bbcwbx.html.clp": {
-        "message": "Schr√°nka"
+      "message": "Schr·nka"
     },
     "bbcwbx.html.clp.quote": {
-        "message": "Citova≈•"
+      "message": "Citova%u0165"
     },
     "bbcwbx.html.clp.code": {
-        "message": "K√≥d"
+      "message": "KÛd"
     },
     "bbcwbx.html.clp.list": {
-        "message": "Zoznam"
+      "message": "Zoznam"
     },
     "bbcwbx.html.clp.ordlist": {
-        "message": "Usporiadan√Ω zoznam"
+      "message": "Usporiadan˝ zoznam"
     },
     "bbcwbx.html.clp.alphalist": {
-        "message": "Abecedn√Ω zoznam"
+      "message": "Abecedn˝ zoznam"
     },
     "bbcwbx.html.clp.image": {
-        "message": "Obr√°zok"
+      "message": "Obr·zok"
     },
     "bbcwbx.html.clp.mkurlsel": {
-        "message": "Vytvori≈• v√Ωberov√© URL"
+      "message": "Vytvori%u0165 v˝berovÈ URL"
     },
     "bbcwbx.html.clp.url": {
-        "message": "URL"
+      "message": "URL"
     },
     "bbcwbx.html.clp.urlname": {
-        "message": "URL s n√°zvom"
+      "message": "URL s n·zvom"
     },
     "bbcwbx.html.wbx": {
-        "message": "WebEx"
+      "message": "WebEx"
     },
     "bbcwbx.html.wbx.quote": {
-        "message": "Citova≈•"
+      "message": "Citova%u0165"
     },
     "bbcwbx.html.wbx.code": {
-        "message": "K√≥d"
+      "message": "KÛd"
     },
     "bbcwbx.html.wbx.list": {
-        "message": "Zoznam"
+      "message": "Zoznam"
     },
     "bbcwbx.html.wbx.ordlist": {
-        "message": "Usporiadan√Ω zoznam"
+      "message": "Usporiadan˝ zoznam"
     },
     "bbcwbx.html.wbx.alphalist": {
-        "message": "Abecedn√Ω zoznam"
+      "message": "Abecedn˝ zoznam"
     },
     "bbcwbx.html.wbx.urlname": {
-        "message": "URL s n√°zvom"
+      "message": "URL s n·zvom"
     },
     "bbcwbx.html.wbx.urlwiz": {
-        "message": "Sprievodca URL"
+      "message": "Sprievodca URL"
     },
     "bbcwbx.html.bold": {
-        "message": "Tuƒçn√©"
+      "message": "Tu%u010DnÈ"
     },
     "bbcwbx.html.ital": {
-        "message": "Kurz√≠va"
+      "message": "KurzÌva"
     },
     "bbcwbx.html.undrln": {
-        "message": "Podƒçiarknut√©"
+      "message": "Pod%u010DiarknutÈ"
     },
     "bbcwbx.html.strk": {
-        "message": "Preƒçiarknut√©"
+      "message": "Pre%u010DiarknutÈ"
     },
     "bbcwbx.html.img": {
-        "message": "Obr√°zok"
+      "message": "Obr·zok"
     },
     "bbcwbx.html.url": {
-        "message": "URL"
+      "message": "URL"
     },
     "bbcwbx.xhtml": {
-        "message": "XHTML"
+      "message": "XHTML"
     },
     "bbcwbx.xhtml.clp": {
-        "message": "Schr√°nka"
+      "message": "Schr·nka"
     },
     "bbcwbx.xhtml.clp.quote": {
-        "message": "Citova≈•"
+      "message": "Citova%u0165"
     },
     "bbcwbx.xhtml.clp.code": {
-        "message": "K√≥d"
+      "message": "KÛd"
     },
     "bbcwbx.xhtml.clp.list": {
-        "message": "Zoznam"
+      "message": "Zoznam"
     },
     "bbcwbx.xhtml.clp.ordlist": {
-        "message": "Usporiadan√Ω zoznam"
+      "message": "Usporiadan˝ zoznam"
     },
     "bbcwbx.xhtml.clp.alphalist": {
-        "message": "Abecedn√Ω zoznam"
+      "message": "Abecedn˝ zoznam"
     },
     "bbcwbx.xhtml.img": {
-        "message": "Obr√°zok"
+      "message": "Obr·zok"
     },
     "bbcwbx.xhtml.clp.mkurlsel": {
-        "message": "Vytvori≈• v√Ωberov√© URL"
+      "message": "Vytvori%u0165 v˝berovÈ URL"
     },
     "bbcwbx.xhtml.clp.url": {
-        "message": "URL"
+      "message": "URL"
     },
     "bbcwbx.xhtml.clp.urlname": {
-        "message": "URL s n√°zvom"
+      "message": "URL s n·zvom"
     },
     "bbcwbx.xhtml.wbx": {
-        "message": "WebEx"
+      "message": "WebEx"
     },
     "bbcwbx.xhtml.wbx.quote": {
-        "message": "Citova≈•"
+      "message": "Citova%u0165"
     },
     "bbcwbx.xhtml.wbx.code": {
-        "message": "K√≥d"
+      "message": "KÛd"
     },
     "bbcwbx.xhtml.wbx.list": {
-        "message": "Zoznam"
+      "message": "Zoznam"
     },
     "bbcwbx.xhtml.wbx.ordlist": {
-        "message": "Usporiadan√Ω zoznam"
+      "message": "Usporiadan˝ zoznam"
     },
     "bbcwbx.xhtml.wbx.alphalist": {
-        "message": "Abecedn√Ω zoznam"
+      "message": "Abecedn˝ zoznam"
     },
     "bbcwbx.xhtml.wbx.urlname": {
-        "message": "URL s n√°zvom"
+      "message": "URL s n·zvom"
     },
     "bbcwbx.xhtml.wbx.urlwiz": {
-        "message": "Sprievodca URL"
+      "message": "Sprievodca URL"
     },
     "bbcwbx.xhtml.bold": {
-        "message": "Tuƒçn√©"
+      "message": "Tu%u010DnÈ"
     },
     "bbcwbx.xhtml.ital": {
-        "message": "Kurz√≠va"
+      "message": "KurzÌva"
     },
     "bbcwbx.xhtml.undrln": {
-        "message": "Podƒçiarknut√©"
+      "message": "Pod%u010DiarknutÈ"
     },
     "bbcwbx.xhtml.strk": {
-        "message": "Preƒçiarknut√©"
+      "message": "Pre%u010DiarknutÈ"
     },
     "bbcwbx.xhtml.image": {
-        "message": "Obr√°zok"
+      "message": "Obr·zok"
     },
     "bbcwbx.xhtml.url": {
-        "message": "URL"
+      "message": "URL"
     },
     "bbcwbx.custom": {
-        "message": "Vlastn√© znaƒçky"
+      "message": "VlastnÈ zna%u010Dky"
     },
     "bbcwbx.mkdn": {
-        "message": "Markdown"
+      "message": "Markdown"
     },
     "bbcwbx.mkdn.clp": {
-        "message": "Schr√°nka"
+      "message": "Schr·nka"
     },
     "bbcwbx.mkdn.clp.quote": {
-        "message": "Citova≈•"
+      "message": "Citova%u0165"
     },
     "bbcwbx.mkdn.clp.code": {
-        "message": "K√≥d"
+      "message": "KÛd"
     },
     "bbcwbx.mkdn.clp.list": {
-        "message": "Zoznam"
+      "message": "Zoznam"
     },
     "bbcwbx.mkdn.clp.ordlist": {
-        "message": "Usporiadan√Ω zoznam"
+      "message": "Usporiadan˝ zoznam"
     },
     "bbcwbx.mkdn.clp.mkurlsel": {
-        "message": "Vytvori≈• v√Ωberov√© URL"
+      "message": "Vytvori%u0165 v˝berovÈ URL"
     },
     "bbcwbx.mkdn.clp.mkimgsel": {
-        "message": "Make image from selection"
+      "message": "Make image from selection"
     },
     "bbcwbx.mkdn.clp.urlname": {
-        "message": "URL s n√°zvom"
+      "message": "URL s n·zvom"
     },
     "bbcwbx.mkdn.wbx": {
-        "message": "WebEx"
+      "message": "WebEx"
     },
     "bbcwbx.mkdn.wbx.quote": {
-        "message": "Citova≈•"
+      "message": "Citova%u0165"
     },
     "bbcwbx.mkdn.wbx.code": {
-        "message": "K√≥d"
+      "message": "KÛd"
     },
     "bbcwbx.mkdn.wbx.list": {
-        "message": "Zoznam"
+      "message": "Zoznam"
     },
     "bbcwbx.mkdn.wbx.ordlist": {
-        "message": "Usporiadan√Ω zoznam"
+      "message": "Usporiadan˝ zoznam"
     },
     "bbcwbx.mkdn.wbx.urlname": {
-        "message": "URL s n√°zvom"
+      "message": "URL s n·zvom"
     },
     "bbcwbx.mkdn.wbx.urlwiz": {
-        "message": "Sprievodca URL"
+      "message": "Sprievodca URL"
     },
     "bbcwbx.mkdn.bold": {
-        "message": "Tuƒçn√©"
+      "message": "Tu%u010DnÈ"
     },
     "bbcwbx.mkdn.ital": {
-        "message": "Kurz√≠va"
+      "message": "KurzÌva"
     },
     "bbcwbx.mkdn.strk": {
-        "message": "Preƒçiarknut√©"
+      "message": "Pre%u010DiarknutÈ"
+    },
+    "INS_AUTHOR": {
+      "message": "ProsÌm, zadajte meno autora alebo nechajte pr·zdne:"
+    },
+    "INS_LINKNAME": {
+      "message": "ProsÌm, zadajte n·zov odkazu:"
+    },
+    "INS_FONTSIZE": {
+      "message": "ProsÌm, zadajte ve%u013Ekos%u0165 textu:"
+    },
+    "INS_FONTCOLOR": {
+      "message": "ProsÌm, zadajte farbu textu:"
+    },
+    "URLCOMPOSTO_STEP1": {
+      "message": "N·zov odkazu?"
+    },
+    "URLCOMPOSTO_STEP2": {
+      "message": "Odkaz?"
+    },
+    "INS_THREADNUM": {
+      "message": "ProsÌm, zadajte %u010DÌslo vl·kna:"
+    },
+    "INS_POSTNUM": {
+      "message": "ProsÌm, zadajte %u010DÌslo prÌspevku:"
+    },
+    "MENU_NO_CUSTOM_TAGS": {
+      "message": "Zna%u010Dky nie s˙ nadefinovanÈ"
+    },
+    "MENU_DISABLE": {
+      "message": "Vypn˙%u0165 t˙to ponuku"
+    },
+    "MENU_SETTINGS": {
+      "message": "Nastavenia bbCodeWebex..."
+    },
+    "DELETE_CUSTOMTAG": {
+      "message": "Prajete si odstr·ni%u0165 t˙to polo%u017Eku?"
+    },
+    "WINDOWTITLE_EDITCUSTOMTAG": {
+      "message": "Upravi%u0165 vlastn˙ zna%u010Dku"
+    },
+    "WINDOWTITLE_NEWCUSTOMTAG": {
+      "message": "Prida%u0165 nov˙ vlastn˙ zna%u010Dku"
+    },
+    "ALERT_REORDER_TITLE": {
+      "message": "Reorder Custom Tags"
+    },
+    "ALERT_REORDER_TEXT": {
+      "message": "Custom tags will be arranged in alphabetical order. This action cannot be undone, unless you restore an existing backup. Do you want to continue?"
+    },
+    "WINDOWTITLE_EXPORT": {
+      "message": "Choose export file"
+    },
+    "WINDOWTITLE_IMPORT": {
+      "message": "Choose import file"
+    },
+    "ALERT_IMPORT_TITLE": {
+      "message": "Import Settings"
+    },
+    "ALERT_IMPORT_TEXT": {
+      "message": "This will overwrite all existing settings. Are you sure?"
+    },
+    "ALERT_IMPORT_COMPLETED": {
+      "message": "Operation completed."
+    },
+    "description": {
+      "message": "Prid·va BBCode/HTML/XHTML prÌkazy do kontextovej ponuky"
+    },
+    "name": {
+      "message": "bbCodeWebex"
+    },
+    "SETTINGSMENU": {
+      "message": "Nastavenia bbCodeWebex..."
+    },
+    "DISABLEMENU": {
+      "message": "Vypn˙%u0165 t˙to ponuku"
+    },
+    "PICKCOLOR_TITLE": {
+      "message": "Vybra%u0165 farbu"
+    },
+    "PICKCOLOR_DESCRIPTION": {
+      "message": "Vybra%u0165 farbu pÌsma zo zoznamu"
+    },
+    "PICKCOLOR_LASTCOLOR": {
+      "message": "Naposledy pou%u017Eit· farba :"
+    },
+    "SETTINGS_TITLE": {
+      "message": "Nastavenia bbCodeWebex"
+    },
+    "SETTINGS_MENU": {
+      "message": "Ponuky"
+    },
+    "SETTINGS_CUSTOMTAGS": {
+      "message": "VlastnÈ zna%u010Dky"
+    },
+    "SETTINGS_MENU_DESCRIPTION": {
+      "message": "Vybra%u0165 polo%u017Eky na zobrazenie v kontextovej ponuke"
+    },
+    "SETTINGS_MENU_ENABLEBBCODE": {
+      "message": "Zapn˙%u0165 ponuku bbcode"
+    },
+    "SETTINGS_MENU_ENABLEBBCODE_VBULLETIN": {
+      "message": "zapn˙%u0165 podponuku VBulletin"
+    },
+    "SETTINGS_MENU_ENABLEHTML": {
+      "message": "Zapn˙%u0165 ponuku HTML"
+    },
+    "SETTINGS_MENU_ENABLEXHTML": {
+      "message": "Zapn˙%u0165 ponuku XHTML"
+    },
+    "SETTINGS_MENU_ENABLEMARKDOWN": {
+      "message": "Zapn˙%u0165 ponuku Markdown"
+    },
+    "SETTINGS_MENU_ENABLECUSTOM": {
+      "message": "Zapn˙%u0165 ponuku VlastnÈ zna%u010Dky"
+    },
+    "SETTINGS_MANAGESETTINGS": {
+      "message": "Manage settings"
+    },
+    "SETTINGS_BACKUPDESCRIPTION": {
+      "message": "WARNING: importing settings will overwrite all existing settings."
+    },
+    "SETTINGS_BTNIMPORT": {
+      "message": "Import settings%u2026"
+    },
+    "SETTINGS_BTNEXPORT": {
+      "message": "Export settings%u2026"
+    },
+    "SETTINGS_CUSTOMTAGS_TOTALTAGS": {
+      "message": "DostupnÈ vlastnÈ zna%u010Dky:"
+    },
+    "SETTINGS_CUSTOMTAGS_BTNADD": {
+      "message": "Prida%u0165..."
+    },
+    "SETTINGS_CUSTOMTAGS_BTNEDIT": {
+      "message": "Upravi%u0165..."
+    },
+    "SETTINGS_CUSTOMTAGS_BTNDELETE": {
+      "message": "Zmaza%u0165..."
+    },
+    "SETTINGS_CUSTOMTAGS_MOVEUP": {
+      "message": "Posun˙%u0165 hore"
+    },
+    "SETTINGS_CUSTOMTAGS_MOVEDOWN": {
+      "message": "Posun˙%u0165 dole"
+    },
+    "SETTINGS_CUSTOMTAGS_SORTALPHA": {
+      "message": "Sort alphabetically"
+    },
+    "SETTINGS_CUSTOMTAGS_MOREINFO": {
+      "message": "Viac info a prÌkladov"
+    },
+    "SETTINGS_CUSTOMTAGS_VARIABLES": {
+      "message": "DostupnÈ premennÈ"
+    },
+    "SETTINGS_CUSTOMTAGS_VARCLIPBOARD": {
+      "message": "obsah schr·nky"
+    },
+    "SETTINGS_CUSTOMTAGS_VARSELECTION": {
+      "message": "vybrat˝ text"
+    },
+    "SETTINGS_CUSTOMTAGS_LABEL": {
+      "message": "N·zov polo%u017Eky:"
+    },
+    "SETTINGS_CUSTOMTAGS_ACTION": {
+      "message": "KÛd:"
+    },
+    "SAVE_TAG_ORDER": {
+      "message": "Save Tag Order"
+    },
+    "ENTER_COLOR_HEX": {
+      "message": "ENTER FONT COLOR IN HEX"
     }
-}
+  }
+]

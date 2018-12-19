@@ -1,320 +1,556 @@
-﻿{
+[
+  {
     "bbcwbx.bbcode": {
-        "message": "bbCode"
+      "message": "bbCode"
     },
     "bbcwbx.bbcode.clp": {
-        "message": "クリップボード"
+      "message": "%u30AF%u30EA%u30C3%u30D7%u30DC%u30FC%u30C9"
     },
     "bbcwbx.bbcode.clp.quote": {
-        "message": "引用"
+      "message": "%u5F15%u7528"
     },
     "bbcwbx.bbcode.clp.code": {
-        "message": "整形済みテキスト"
+      "message": "%u6574%u5F62%u6E08%u307F%u30C6%u30AD%u30B9%u30C8"
     },
     "bbcwbx.bbcode.clp.list": {
-        "message": "リスト"
+      "message": "%u30EA%u30B9%u30C8"
     },
     "bbcwbx.bbcode.clp.ordlist": {
-        "message": "リスト(番号付き)"
+      "message": "%u30EA%u30B9%u30C8(%u756A%u53F7%u4ED8%u304D)"
     },
     "bbcwbx.bbcode.clp.alphalist": {
-        "message": "リスト(アルファベット付き)"
+      "message": "%u30EA%u30B9%u30C8(%u30A2%u30EB%u30D5%u30A1%u30D9%u30C3%u30C8%u4ED8%u304D)"
     },
     "bbcwbx.bbcode.clp.spoiler": {
-        "message": "Spoiler"
+      "message": "Spoiler"
     },
     "bbcwbx.bbcode.clp.image": {
-        "message": "画像"
+      "message": "%u753B%u50CF"
     },
     "bbcwbx.bbcode.clp.mkurlsel": {
-        "message": "選択した部分のリンクの作成"
+      "message": "%u9078%u629E%u3057%u305F%u90E8%u5206%u306E%u30EA%u30F3%u30AF%u306E%u4F5C%u6210"
     },
     "bbcwbx.bbcode.clp.url": {
-        "message": "リンクの作成"
+      "message": "%u30EA%u30F3%u30AF%u306E%u4F5C%u6210"
     },
     "bbcwbx.bbcode.clp.urlname": {
-        "message": "リンクの作成(名前付き)"
+      "message": "%u30EA%u30F3%u30AF%u306E%u4F5C%u6210(%u540D%u524D%u4ED8%u304D)"
     },
     "bbcwbx.bbcode.wbx": {
-        "message": "WebEx"
+      "message": "WebEx"
     },
     "bbcwbx.bbcode.wbx.quote": {
-        "message": "引用"
+      "message": "%u5F15%u7528"
     },
     "bbcwbx.bbcode.wbx.code": {
-        "message": "整形済みテキスト"
+      "message": "%u6574%u5F62%u6E08%u307F%u30C6%u30AD%u30B9%u30C8"
     },
     "bbcwbx.bbcode.wbx.list": {
-        "message": "リスト"
+      "message": "%u30EA%u30B9%u30C8"
     },
     "bbcwbx.bbcode.wbx.ordlist": {
-        "message": "リスト(番号付き)"
+      "message": "%u30EA%u30B9%u30C8(%u756A%u53F7%u4ED8%u304D)"
     },
     "bbcwbx.bbcode.wbx.alphalist": {
-        "message": "リスト(アルファベット付き)"
+      "message": "%u30EA%u30B9%u30C8(%u30A2%u30EB%u30D5%u30A1%u30D9%u30C3%u30C8%u4ED8%u304D)"
     },
     "bbcwbx.bbcode.wbx.spoiler": {
-        "message": "Spoiler"
+      "message": "Spoiler"
     },
     "bbcwbx.bbcode.wbx.fntcol": {
-        "message": "文字の色"
+      "message": "%u6587%u5B57%u306E%u8272"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.white": {
+      "message": "White"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.black": {
+      "message": "Black"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.dk_gray": {
+      "message": "Dark gray"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.gray": {
+      "message": "Gray"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.lt_gray": {
+      "message": "Light gray"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.olive": {
+      "message": "Olive"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.yellow": {
+      "message": "Yellow"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.canary": {
+      "message": "Canary"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.maroon": {
+      "message": "Maroon"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.red": {
+      "message": "Red"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.pink": {
+      "message": "Pink"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.navy": {
+      "message": "Navy"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.blue": {
+      "message": "Blue"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.lt_blue": {
+      "message": "Light Blue"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.green": {
+      "message": "Green"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.lime_green": {
+      "message": "Lime Green"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.mint_green": {
+      "message": "Mint Green"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.indigo": {
+      "message": "Indigo"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.purple": {
+      "message": "Purple"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.fuchsia": {
+      "message": "Fuchsia"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.usrEnt": {
+      "message": "Enter Code in Hex"
     },
     "bbcwbx.bbcode.wbx.fntsz": {
-        "message": "文字の大きさ"
+      "message": "%u6587%u5B57%u306E%u5927%u304D%u3055"
     },
     "bbcwbx.bbcode.wbx.urlname": {
-        "message": "リンクの作成(名前付き)"
+      "message": "%u30EA%u30F3%u30AF%u306E%u4F5C%u6210(%u540D%u524D%u4ED8%u304D)"
     },
     "bbcwbx.bbcode.wbx.urlwiz": {
-        "message": "URL ウィザード"
+      "message": "URL %u30A6%u30A3%u30B6%u30FC%u30C9"
     },
     "bbcwbx.bbcode.vbl": {
-        "message": "VBulletin3"
+      "message": "VBulletin3"
     },
     "bbcwbx.bbcode.vbl.thd": {
-        "message": "スレッド"
+      "message": "%u30B9%u30EC%u30C3%u30C9"
     },
     "bbcwbx.bbcode.vbl.pst": {
-        "message": "ポスト"
+      "message": "%u30DD%u30B9%u30C8"
     },
     "bbcwbx.bbcode.vbl.alnlf": {
-        "message": "右揃え"
+      "message": "%u53F3%u63C3%u3048"
     },
     "bbcwbx.bbcode.vbl.alnrt": {
-        "message": "左揃え"
+      "message": "%u5DE6%u63C3%u3048"
     },
     "bbcwbx.bbcode.vbl.ctr": {
-        "message": "中央揃え"
+      "message": "%u4E2D%u592E%u63C3%u3048"
     },
     "bbcwbx.bbcode.vbl.indnt": {
-        "message": "インデント"
+      "message": "%u30A4%u30F3%u30C7%u30F3%u30C8"
     },
     "bbcwbx.bbcode.vbl.hilt": {
-        "message": "強調表示"
+      "message": "%u5F37%u8ABF%u8868%u793A"
     },
     "bbcwbx.bbcode.bold": {
-        "message": "太字"
+      "message": "%u592A%u5B57"
     },
     "bbcwbx.bbcode.ital": {
-        "message": "斜体"
+      "message": "%u659C%u4F53"
     },
     "bbcwbx.bbcode.undrln": {
-        "message": "下線"
+      "message": "%u4E0B%u7DDA"
     },
     "bbcwbx.bbcode.img": {
-        "message": "画像"
+      "message": "%u753B%u50CF"
     },
     "bbcwbx.bbcode.url": {
-        "message": "リンクの作成"
+      "message": "%u30EA%u30F3%u30AF%u306E%u4F5C%u6210"
     },
     "bbcwbx.html": {
-        "message": "HTML"
+      "message": "HTML"
     },
     "bbcwbx.html.clp": {
-        "message": "クリップボード"
+      "message": "%u30AF%u30EA%u30C3%u30D7%u30DC%u30FC%u30C9"
     },
     "bbcwbx.html.clp.quote": {
-        "message": "引用"
+      "message": "%u5F15%u7528"
     },
     "bbcwbx.html.clp.code": {
-        "message": "整形済みテキスト"
+      "message": "%u6574%u5F62%u6E08%u307F%u30C6%u30AD%u30B9%u30C8"
     },
     "bbcwbx.html.clp.list": {
-        "message": "リスト"
+      "message": "%u30EA%u30B9%u30C8"
     },
     "bbcwbx.html.clp.ordlist": {
-        "message": "リスト(番号付き)"
+      "message": "%u30EA%u30B9%u30C8(%u756A%u53F7%u4ED8%u304D)"
     },
     "bbcwbx.html.clp.alphalist": {
-        "message": "リスト(アルファベット付き)"
+      "message": "%u30EA%u30B9%u30C8(%u30A2%u30EB%u30D5%u30A1%u30D9%u30C3%u30C8%u4ED8%u304D)"
     },
     "bbcwbx.html.clp.image": {
-        "message": "画像"
+      "message": "%u753B%u50CF"
     },
     "bbcwbx.html.clp.mkurlsel": {
-        "message": "選択した部分のリンクの作成"
+      "message": "%u9078%u629E%u3057%u305F%u90E8%u5206%u306E%u30EA%u30F3%u30AF%u306E%u4F5C%u6210"
     },
     "bbcwbx.html.clp.url": {
-        "message": "リンクの作成"
+      "message": "%u30EA%u30F3%u30AF%u306E%u4F5C%u6210"
     },
     "bbcwbx.html.clp.urlname": {
-        "message": "リンクの作成(名前付き)"
+      "message": "%u30EA%u30F3%u30AF%u306E%u4F5C%u6210(%u540D%u524D%u4ED8%u304D)"
     },
     "bbcwbx.html.wbx": {
-        "message": "WebEx"
+      "message": "WebEx"
     },
     "bbcwbx.html.wbx.quote": {
-        "message": "引用"
+      "message": "%u5F15%u7528"
     },
     "bbcwbx.html.wbx.code": {
-        "message": "整形済みテキスト"
+      "message": "%u6574%u5F62%u6E08%u307F%u30C6%u30AD%u30B9%u30C8"
     },
     "bbcwbx.html.wbx.list": {
-        "message": "リスト"
+      "message": "%u30EA%u30B9%u30C8"
     },
     "bbcwbx.html.wbx.ordlist": {
-        "message": "リスト(番号付き)"
+      "message": "%u30EA%u30B9%u30C8(%u756A%u53F7%u4ED8%u304D)"
     },
     "bbcwbx.html.wbx.alphalist": {
-        "message": "リスト(アルファベット付き)"
+      "message": "%u30EA%u30B9%u30C8(%u30A2%u30EB%u30D5%u30A1%u30D9%u30C3%u30C8%u4ED8%u304D)"
     },
     "bbcwbx.html.wbx.urlname": {
-        "message": "リンクの作成(名前付き)"
+      "message": "%u30EA%u30F3%u30AF%u306E%u4F5C%u6210(%u540D%u524D%u4ED8%u304D)"
     },
     "bbcwbx.html.wbx.urlwiz": {
-        "message": "URL ウィザード"
+      "message": "URL %u30A6%u30A3%u30B6%u30FC%u30C9"
     },
     "bbcwbx.html.bold": {
-        "message": "太字"
+      "message": "%u592A%u5B57"
     },
     "bbcwbx.html.ital": {
-        "message": "斜体"
+      "message": "%u659C%u4F53"
     },
     "bbcwbx.html.undrln": {
-        "message": "下線"
+      "message": "%u4E0B%u7DDA"
     },
     "bbcwbx.html.strk": {
-        "message": "取り消し線"
+      "message": "%u53D6%u308A%u6D88%u3057%u7DDA"
     },
     "bbcwbx.html.img": {
-        "message": "画像"
+      "message": "%u753B%u50CF"
     },
     "bbcwbx.html.url": {
-        "message": "リンクの作成"
+      "message": "%u30EA%u30F3%u30AF%u306E%u4F5C%u6210"
     },
     "bbcwbx.xhtml": {
-        "message": "XHTML"
+      "message": "XHTML"
     },
     "bbcwbx.xhtml.clp": {
-        "message": "クリップボード"
+      "message": "%u30AF%u30EA%u30C3%u30D7%u30DC%u30FC%u30C9"
     },
     "bbcwbx.xhtml.clp.quote": {
-        "message": "引用"
+      "message": "%u5F15%u7528"
     },
     "bbcwbx.xhtml.clp.code": {
-        "message": "整形済みテキスト"
+      "message": "%u6574%u5F62%u6E08%u307F%u30C6%u30AD%u30B9%u30C8"
     },
     "bbcwbx.xhtml.clp.list": {
-        "message": "リスト"
+      "message": "%u30EA%u30B9%u30C8"
     },
     "bbcwbx.xhtml.clp.ordlist": {
-        "message": "リスト(番号付き)"
+      "message": "%u30EA%u30B9%u30C8(%u756A%u53F7%u4ED8%u304D)"
     },
     "bbcwbx.xhtml.clp.alphalist": {
-        "message": "リスト(アルファベット付き)"
+      "message": "%u30EA%u30B9%u30C8(%u30A2%u30EB%u30D5%u30A1%u30D9%u30C3%u30C8%u4ED8%u304D)"
     },
     "bbcwbx.xhtml.img": {
-        "message": "画像"
+      "message": "%u753B%u50CF"
     },
     "bbcwbx.xhtml.clp.mkurlsel": {
-        "message": "選択した部分のリンクの作成"
+      "message": "%u9078%u629E%u3057%u305F%u90E8%u5206%u306E%u30EA%u30F3%u30AF%u306E%u4F5C%u6210"
     },
     "bbcwbx.xhtml.clp.url": {
-        "message": "リンクの作成"
+      "message": "%u30EA%u30F3%u30AF%u306E%u4F5C%u6210"
     },
     "bbcwbx.xhtml.clp.urlname": {
-        "message": "リンクの作成(名前付き)"
+      "message": "%u30EA%u30F3%u30AF%u306E%u4F5C%u6210(%u540D%u524D%u4ED8%u304D)"
     },
     "bbcwbx.xhtml.wbx": {
-        "message": "WebEx"
+      "message": "WebEx"
     },
     "bbcwbx.xhtml.wbx.quote": {
-        "message": "引用"
+      "message": "%u5F15%u7528"
     },
     "bbcwbx.xhtml.wbx.code": {
-        "message": "整形済みテキスト"
+      "message": "%u6574%u5F62%u6E08%u307F%u30C6%u30AD%u30B9%u30C8"
     },
     "bbcwbx.xhtml.wbx.list": {
-        "message": "リスト"
+      "message": "%u30EA%u30B9%u30C8"
     },
     "bbcwbx.xhtml.wbx.ordlist": {
-        "message": "リスト(番号付き)"
+      "message": "%u30EA%u30B9%u30C8(%u756A%u53F7%u4ED8%u304D)"
     },
     "bbcwbx.xhtml.wbx.alphalist": {
-        "message": "リスト(アルファベット付き)"
+      "message": "%u30EA%u30B9%u30C8(%u30A2%u30EB%u30D5%u30A1%u30D9%u30C3%u30C8%u4ED8%u304D)"
     },
     "bbcwbx.xhtml.wbx.urlname": {
-        "message": "リンクの作成(名前付き)"
+      "message": "%u30EA%u30F3%u30AF%u306E%u4F5C%u6210(%u540D%u524D%u4ED8%u304D)"
     },
     "bbcwbx.xhtml.wbx.urlwiz": {
-        "message": "URL ウィザード"
+      "message": "URL %u30A6%u30A3%u30B6%u30FC%u30C9"
     },
     "bbcwbx.xhtml.bold": {
-        "message": "太字"
+      "message": "%u592A%u5B57"
     },
     "bbcwbx.xhtml.ital": {
-        "message": "斜体"
+      "message": "%u659C%u4F53"
     },
     "bbcwbx.xhtml.undrln": {
-        "message": "下線"
+      "message": "%u4E0B%u7DDA"
     },
     "bbcwbx.xhtml.strk": {
-        "message": "取り消し線"
+      "message": "%u53D6%u308A%u6D88%u3057%u7DDA"
     },
     "bbcwbx.xhtml.image": {
-        "message": "画像"
+      "message": "%u753B%u50CF"
     },
     "bbcwbx.xhtml.url": {
-        "message": "リンクの作成"
+      "message": "%u30EA%u30F3%u30AF%u306E%u4F5C%u6210"
     },
     "bbcwbx.custom": {
-        "message": "Custom Tags"
+      "message": "Custom Tags"
     },
     "bbcwbx.mkdn": {
-        "message": "Markdown"
+      "message": "Markdown"
     },
     "bbcwbx.mkdn.clp": {
-        "message": "クリップボード"
+      "message": "%u30AF%u30EA%u30C3%u30D7%u30DC%u30FC%u30C9"
     },
     "bbcwbx.mkdn.clp.quote": {
-        "message": "引用"
+      "message": "%u5F15%u7528"
     },
     "bbcwbx.mkdn.clp.code": {
-        "message": "整形済みテキスト"
+      "message": "%u6574%u5F62%u6E08%u307F%u30C6%u30AD%u30B9%u30C8"
     },
     "bbcwbx.mkdn.clp.list": {
-        "message": "リスト"
+      "message": "%u30EA%u30B9%u30C8"
     },
     "bbcwbx.mkdn.clp.ordlist": {
-        "message": "リスト(番号付き)"
+      "message": "%u30EA%u30B9%u30C8(%u756A%u53F7%u4ED8%u304D)"
     },
     "bbcwbx.mkdn.clp.mkurlsel": {
-        "message": "選択した部分のリンクの作成"
+      "message": "%u9078%u629E%u3057%u305F%u90E8%u5206%u306E%u30EA%u30F3%u30AF%u306E%u4F5C%u6210"
     },
     "bbcwbx.mkdn.clp.mkimgsel": {
-        "message": "Make image from selection"
+      "message": "Make image from selection"
     },
     "bbcwbx.mkdn.clp.urlname": {
-        "message": "リンクの作成(名前付き)"
+      "message": "%u30EA%u30F3%u30AF%u306E%u4F5C%u6210(%u540D%u524D%u4ED8%u304D)"
     },
     "bbcwbx.mkdn.wbx": {
-        "message": "WebEx"
+      "message": "WebEx"
     },
     "bbcwbx.mkdn.wbx.quote": {
-        "message": "引用"
+      "message": "%u5F15%u7528"
     },
     "bbcwbx.mkdn.wbx.code": {
-        "message": "整形済みテキスト"
+      "message": "%u6574%u5F62%u6E08%u307F%u30C6%u30AD%u30B9%u30C8"
     },
     "bbcwbx.mkdn.wbx.list": {
-        "message": "リスト"
+      "message": "%u30EA%u30B9%u30C8"
     },
     "bbcwbx.mkdn.wbx.ordlist": {
-        "message": "リスト(番号付き)"
+      "message": "%u30EA%u30B9%u30C8(%u756A%u53F7%u4ED8%u304D)"
     },
     "bbcwbx.mkdn.wbx.urlname": {
-        "message": "リンクの作成(名前付き)"
+      "message": "%u30EA%u30F3%u30AF%u306E%u4F5C%u6210(%u540D%u524D%u4ED8%u304D)"
     },
     "bbcwbx.mkdn.wbx.urlwiz": {
-        "message": "URL ウィザード"
+      "message": "URL %u30A6%u30A3%u30B6%u30FC%u30C9"
     },
     "bbcwbx.mkdn.bold": {
-        "message": "太字"
+      "message": "%u592A%u5B57"
     },
     "bbcwbx.mkdn.ital": {
-        "message": "斜体"
+      "message": "%u659C%u4F53"
     },
     "bbcwbx.mkdn.strk": {
-        "message": "取り消し線"
+      "message": "%u53D6%u308A%u6D88%u3057%u7DDA"
+    },
+    "INS_AUTHOR": {
+      "message": "%u4F5C%u6210%u8005%u306E%u540D%u524D%u3092%u5165%u529B%u3057%u3066%u304F%u3060%u3055%u3044(%u7A7A%u3067%u3082%u554F%u984C%u3042%u308A%u307E%u305B%u3093):"
+    },
+    "INS_LINKNAME": {
+      "message": "%u30EA%u30F3%u30AF%u306E%u8868%u793A%u540D%u3092%u5165%u529B%u3057%u3066%u304F%u3060%u3055%u3044:"
+    },
+    "INS_FONTSIZE": {
+      "message": "%u6587%u5B57%u306E%u5927%u304D%u3055%u3092%u5165%u529B%u3057%u3066%u304F%u3060%u3055%u3044:"
+    },
+    "INS_FONTCOLOR": {
+      "message": "%u6587%u5B57%u306E%u8272%u3092%u5165%u529B%u3057%u3066%u304F%u3060%u3055%u3044:"
+    },
+    "URLCOMPOSTO_STEP1": {
+      "message": "%u30EA%u30F3%u30AF%u306E%u8868%u793A%u540D%u3092%u5165%u529B"
+    },
+    "URLCOMPOSTO_STEP2": {
+      "message": "%u30EA%u30F3%u30AF%u5148%u306E URL %u3092%u5165%u529B"
+    },
+    "INS_THREADNUM": {
+      "message": "%u30B9%u30EC%u30C3%u30C9%u756A%u53F7%u3092%u5165%u529B%u3057%u3066%u304F%u3060%u3055%u3044:"
+    },
+    "INS_POSTNUM": {
+      "message": "%u30DD%u30B9%u30C8%u756A%u53F7%u3092%u5165%u529B%u3057%u3066%u304F%u3060%u3055%u3044:"
+    },
+    "MENU_NO_CUSTOM_TAGS": {
+      "message": "%u30AB%u30B9%u30BF%u30E0%u30BF%u30B0%u304C%u3042%u308A%u307E%u305B%u3093"
+    },
+    "MENU_DISABLE": {
+      "message": "%u3053%u306E%u30E1%u30CB%u30E5%u30FC%u306F%u7121%u52B9%u3067%u3059"
+    },
+    "MENU_SETTINGS": {
+      "message": "bbCodeWebex %u306E%u8A2D%u5B9A%u2026"
+    },
+    "DELETE_CUSTOMTAG": {
+      "message": "%u3053%u306E%u9805%u76EE%u3092%u524A%u9664%u3057%u3066%u3082%u3088%u308D%u3057%u3044%u3067%u3059%u304B%uFF1F"
+    },
+    "WINDOWTITLE_EDITCUSTOMTAG": {
+      "message": "%u30AB%u30B9%u30BF%u30E0%u30BF%u30B0%u306E%u7DE8%u96C6"
+    },
+    "WINDOWTITLE_NEWCUSTOMTAG": {
+      "message": "%u65B0%u3057%u3044%u30AB%u30B9%u30BF%u30E0%u30BF%u30B0%u306E%u8FFD%u52A0"
+    },
+    "ALERT_REORDER_TITLE": {
+      "message": "Reorder Custom Tags"
+    },
+    "ALERT_REORDER_TEXT": {
+      "message": "Custom tags will be arranged in alphabetical order. This action cannot be undone, unless you restore an existing backup. Do you want to continue?"
+    },
+    "WINDOWTITLE_EXPORT": {
+      "message": "Choose export file"
+    },
+    "WINDOWTITLE_IMPORT": {
+      "message": "Choose import file"
+    },
+    "ALERT_IMPORT_TITLE": {
+      "message": "Import Settings"
+    },
+    "ALERT_IMPORT_TEXT": {
+      "message": "This will overwrite all existing settings. Are you sure?"
+    },
+    "ALERT_IMPORT_COMPLETED": {
+      "message": "Operation completed."
+    },
+    "description": {
+      "message": "%u30B3%u30F3%u30C6%u30AD%u30B9%u30C8%u30E1%u30CB%u30E5%u30FC%u306B BBCode/HTML/XHTML %u30B3%u30DE%u30F3%u30C9%u3092%u8FFD%u52A0"
+    },
+    "name": {
+      "message": "bbCodeWebex"
+    },
+    "SETTINGSMENU": {
+      "message": "bbCodeWebex %u306E%u8A2D%u5B9A%u2026"
+    },
+    "DISABLEMENU": {
+      "message": "%u3053%u306E%u30E1%u30CB%u30E5%u30FC%u3092%u975E%u8868%u793A"
+    },
+    "PICKCOLOR_TITLE": {
+      "message": "%u8272%u306E%u9078%u629E"
+    },
+    "PICKCOLOR_DESCRIPTION": {
+      "message": "%u4F7F%u7528%u3057%u305F%u3044%u6587%u5B57%u306E%u8272%u3092%u30EA%u30B9%u30C8%u304B%u3089%u9078%u629E%u3057%u3066%u304F%u3060%u3055%u3044%u3002"
+    },
+    "PICKCOLOR_LASTCOLOR": {
+      "message": "%u6700%u5F8C%u306B%u4F7F%u7528%u3057%u305F%u8272:"
+    },
+    "SETTINGS_TITLE": {
+      "message": "bbCodeWebex %u306E%u8A2D%u5B9A"
+    },
+    "SETTINGS_MENU": {
+      "message": "%u30E1%u30CB%u30E5%u30FC"
+    },
+    "SETTINGS_CUSTOMTAGS": {
+      "message": "%u30AB%u30B9%u30BF%u30E0%u30BF%u30B0"
+    },
+    "SETTINGS_MENU_DESCRIPTION": {
+      "message": "%u9078%u629E%u3057%u305F%u9805%u76EE%u3092%u30B3%u30F3%u30C6%u30AD%u30B9%u30C8%u30E1%u30CB%u30E5%u30FC%u306B%u8868%u793A%u3057%u307E%u3059"
+    },
+    "SETTINGS_MENU_ENABLEBBCODE": {
+      "message": "bbcode %u3092%u8868%u793A"
+    },
+    "SETTINGS_MENU_ENABLEBBCODE_VBULLETIN": {
+      "message": "VBulletin %u30B5%u30D6%u30E1%u30CB%u30E5%u30FC%u3092%u8868%u793A"
+    },
+    "SETTINGS_MENU_ENABLEHTML": {
+      "message": "HTML %u3092%u8868%u793A"
+    },
+    "SETTINGS_MENU_ENABLEXHTML": {
+      "message": "XHTML %u3092%u8868%u793A"
+    },
+    "SETTINGS_MENU_ENABLEMARKDOWN": {
+      "message": "Markdown %u3092%u8868%u793A"
+    },
+    "SETTINGS_MENU_ENABLECUSTOM": {
+      "message": "%u30AB%u30B9%u30BF%u30E0%u30BF%u30B0%u3092%u8868%u793A"
+    },
+    "SETTINGS_MANAGESETTINGS": {
+      "message": "Manage settings"
+    },
+    "SETTINGS_BACKUPDESCRIPTION": {
+      "message": "WARNING: importing settings will overwrite all existing settings."
+    },
+    "SETTINGS_BTNIMPORT": {
+      "message": "Import settings%u2026"
+    },
+    "SETTINGS_BTNEXPORT": {
+      "message": "Export settings%u2026"
+    },
+    "SETTINGS_CUSTOMTAGS_TOTALTAGS": {
+      "message": "%u4F7F%u7528%u3067%u304D%u308B%u30AB%u30B9%u30BF%u30E0%u30BF%u30B0:"
+    },
+    "SETTINGS_CUSTOMTAGS_BTNADD": {
+      "message": "%u8FFD%u52A0%u2026"
+    },
+    "SETTINGS_CUSTOMTAGS_BTNEDIT": {
+      "message": "%u7DE8%u96C6%u2026"
+    },
+    "SETTINGS_CUSTOMTAGS_BTNDELETE": {
+      "message": "%u524A%u9664%u2026"
+    },
+    "SETTINGS_CUSTOMTAGS_MOVEUP": {
+      "message": "%u4E0A%u3078"
+    },
+    "SETTINGS_CUSTOMTAGS_MOVEDOWN": {
+      "message": "%u4E0B%u3078"
+    },
+    "SETTINGS_CUSTOMTAGS_SORTALPHA": {
+      "message": "Sort alphabetically"
+    },
+    "SETTINGS_CUSTOMTAGS_MOREINFO": {
+      "message": "%u8A73%u7D30%u306A%u60C5%u5831%u3068%u30B5%u30F3%u30D7%u30EB"
+    },
+    "SETTINGS_CUSTOMTAGS_VARIABLES": {
+      "message": "%u4F7F%u7528%u3067%u304D%u308B%u5909%u6570"
+    },
+    "SETTINGS_CUSTOMTAGS_VARCLIPBOARD": {
+      "message": "%u30AF%u30EA%u30C3%u30D7%u30DC%u30FC%u30C9%u306E%u5185%u5BB9"
+    },
+    "SETTINGS_CUSTOMTAGS_VARSELECTION": {
+      "message": "%u9078%u629E%u3055%u308C%u305F%u6587%u5B57%u5217"
+    },
+    "SETTINGS_CUSTOMTAGS_LABEL": {
+      "message": "%u540D%u524D:"
+    },
+    "SETTINGS_CUSTOMTAGS_ACTION": {
+      "message": "%u30B3%u30FC%u30C9:"
+    },
+    "SAVE_TAG_ORDER": {
+      "message": "Save Tag Order"
+    },
+    "ENTER_COLOR_HEX": {
+      "message": "ENTER FONT COLOR IN HEX"
     }
-}
+  }
+]

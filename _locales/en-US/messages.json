@@ -1,456 +1,556 @@
-{
+[
+  {
     "bbcwbx.bbcode": {
-        "message": "bbCode"
+      "message": "bbCode"
     },
     "bbcwbx.bbcode.clp": {
-        "message": "Clipboard"
+      "message": "Clipboard"
     },
-    "description": {
-        "description": "Note: this cannot be longer than 132 characters",
-        "message": "Adds BBCode/HTML/XHTML and custom tags commands to the context menu"
-},
     "bbcwbx.bbcode.clp.quote": {
-        "message": "Quote"
-    },
-    "name": {
-        "message": "bbCode Webex"
+      "message": "Quote"
     },
     "bbcwbx.bbcode.clp.code": {
-        "message": "Code"
+      "message": "Code"
     },
     "bbcwbx.bbcode.clp.list": {
-        "message": "List"
+      "message": "List"
     },
     "bbcwbx.bbcode.clp.ordlist": {
-        "message": "Ordered list"
+      "message": "Ordered list"
     },
     "bbcwbx.bbcode.clp.alphalist": {
-        "message": "Alphabetic list"
+      "message": "Alphabetic list"
     },
     "bbcwbx.bbcode.clp.spoiler": {
-        "message": "Spoiler"
+      "message": "Spoiler"
     },
     "bbcwbx.bbcode.clp.image": {
-        "message": "Image"
+      "message": "Image"
     },
     "bbcwbx.bbcode.clp.mkurlsel": {
-        "message": "Make URL from selection"
+      "message": "Make URL from selection"
     },
     "bbcwbx.bbcode.clp.url": {
-        "message": "URL"
+      "message": "URL"
     },
     "bbcwbx.bbcode.clp.urlname": {
-        "message": "URL with name"
+      "message": "URL with name"
     },
     "bbcwbx.bbcode.wbx": {
-        "message": "WebEx"
+      "message": "WebEx"
     },
     "bbcwbx.bbcode.wbx.quote": {
-        "message": "Quote"
+      "message": "Quote"
     },
     "bbcwbx.bbcode.wbx.code": {
-        "message": "Code"
+      "message": "Code"
     },
     "bbcwbx.bbcode.wbx.list": {
-        "message": "List"
+      "message": "List"
     },
     "bbcwbx.bbcode.wbx.ordlist": {
-        "message": "Ordered list"
+      "message": "Ordered list"
     },
     "bbcwbx.bbcode.wbx.alphalist": {
-        "message": "Alphabetic list"
+      "message": "Alphabetic list"
     },
     "bbcwbx.bbcode.wbx.spoiler": {
-        "message": "Spoiler"
+      "message": "Spoiler"
     },
     "bbcwbx.bbcode.wbx.fntcol": {
-        "message": "Font Color"
+      "message": "Font Color"
     },
     "bbcwbx.bbcode.wbx.fntcol.white": {
-        "message": "White"
+      "message": "White"
     },
     "bbcwbx.bbcode.wbx.fntcol.black": {
-        "message": "Black"
+      "message": "Black"
     },
     "bbcwbx.bbcode.wbx.fntcol.dk_gray": {
-        "message": "Dark gray"
+      "message": "Dark gray"
     },
     "bbcwbx.bbcode.wbx.fntcol.gray": {
-        "message": "Gray"
+      "message": "Gray"
     },
     "bbcwbx.bbcode.wbx.fntcol.lt_gray": {
-        "message": "Light gray"
+      "message": "Light gray"
     },
     "bbcwbx.bbcode.wbx.fntcol.olive": {
-        "message": "Olive"
+      "message": "Olive"
     },
     "bbcwbx.bbcode.wbx.fntcol.yellow": {
-        "message": "Yellow"
+      "message": "Yellow"
     },
     "bbcwbx.bbcode.wbx.fntcol.canary": {
-        "message": "Canary"
+      "message": "Canary"
     },
     "bbcwbx.bbcode.wbx.fntcol.maroon": {
-        "message": "Maroon"
+      "message": "Maroon"
     },
     "bbcwbx.bbcode.wbx.fntcol.red": {
-        "message": "Red"
+      "message": "Red"
     },
     "bbcwbx.bbcode.wbx.fntcol.pink": {
-        "message": "Pink"
+      "message": "Pink"
     },
     "bbcwbx.bbcode.wbx.fntcol.navy": {
-        "message": "Navy"
+      "message": "Navy"
     },
     "bbcwbx.bbcode.wbx.fntcol.blue": {
-        "message": "Blue"
+      "message": "Blue"
     },
     "bbcwbx.bbcode.wbx.fntcol.lt_blue": {
-        "message": "Light Blue"
+      "message": "Light Blue"
     },
     "bbcwbx.bbcode.wbx.fntcol.green": {
-        "message": "Green"
+      "message": "Green"
     },
     "bbcwbx.bbcode.wbx.fntcol.lime_green": {
-        "message": "Lime Green"
+      "message": "Lime Green"
     },
     "bbcwbx.bbcode.wbx.fntcol.mint_green": {
-        "message": "Mint Green"
+      "message": "Mint Green"
     },
     "bbcwbx.bbcode.wbx.fntcol.indigo": {
-        "message": "Indigo"
+      "message": "Indigo"
     },
     "bbcwbx.bbcode.wbx.fntcol.purple": {
-        "message": "Purple"
+      "message": "Purple"
     },
     "bbcwbx.bbcode.wbx.fntcol.fuchsia": {
-        "message": "Fuchsia"
+      "message": "Fuchsia"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.usrEnt": {
+      "message": "Enter Code in Hex"
     },
     "bbcwbx.bbcode.wbx.fntsz": {
-        "message": "Font Size"
+      "message": "Font Size"
     },
     "bbcwbx.bbcode.wbx.urlname": {
-        "message": "URL with name"
+      "message": "URL with name"
     },
     "bbcwbx.bbcode.wbx.urlwiz": {
-        "message": "URL Wizard"
+      "message": "URL Wizard"
     },
     "bbcwbx.bbcode.vbl": {
-        "message": "VBulletin3"
+      "message": "VBulletin3"
     },
     "bbcwbx.bbcode.vbl.thd": {
-        "message": "Thread"
+      "message": "Thread"
     },
     "bbcwbx.bbcode.vbl.pst": {
-        "message": "Post"
+      "message": "Post"
     },
     "bbcwbx.bbcode.vbl.alnlf": {
-        "message": "Align right"
+      "message": "Align right"
     },
     "bbcwbx.bbcode.vbl.alnrt": {
-        "message": "Align left"
+      "message": "Align left"
     },
     "bbcwbx.bbcode.vbl.ctr": {
-        "message": "Center"
+      "message": "Center"
     },
     "bbcwbx.bbcode.vbl.indnt": {
-        "message": "Indent"
+      "message": "Indent"
     },
     "bbcwbx.bbcode.vbl.hilt": {
-        "message": "Highlight"
+      "message": "Highlight"
     },
     "bbcwbx.bbcode.bold": {
-        "message": "Bold"
+      "message": "Bold"
     },
     "bbcwbx.bbcode.ital": {
-        "message": "Italic"
+      "message": "Italic"
     },
     "bbcwbx.bbcode.undrln": {
-        "message": "Underlined"
+      "message": "Underlined"
     },
     "bbcwbx.bbcode.img": {
-        "message": "Image"
+      "message": "Image"
     },
     "bbcwbx.bbcode.url": {
-        "message": "URL"
+      "message": "URL"
     },
     "bbcwbx.html": {
-        "message": "HTML"
+      "message": "HTML"
     },
     "bbcwbx.html.clp": {
-        "message": "Clipboard"
+      "message": "Clipboard"
     },
     "bbcwbx.html.clp.quote": {
-        "message": "Quote"
+      "message": "Quote"
     },
     "bbcwbx.html.clp.code": {
-        "message": "Code"
+      "message": "Code"
     },
     "bbcwbx.html.clp.list": {
-        "message": "List"
+      "message": "List"
     },
     "bbcwbx.html.clp.ordlist": {
-        "message": "Ordered list"
+      "message": "Ordered list"
     },
     "bbcwbx.html.clp.alphalist": {
-        "message": "Alphabetic list"
+      "message": "Alphabetic list"
     },
     "bbcwbx.html.clp.image": {
-        "message": "Image"
+      "message": "Image"
     },
     "bbcwbx.html.clp.mkurlsel": {
-        "message": "Make URL from selection"
+      "message": "Make URL from selection"
     },
     "bbcwbx.html.clp.url": {
-        "message": "URL"
+      "message": "URL"
     },
     "bbcwbx.html.clp.urlname": {
-        "message": "URL with name"
+      "message": "URL with name"
     },
     "bbcwbx.html.wbx": {
-        "message": "WebEx"
+      "message": "WebEx"
     },
     "bbcwbx.html.wbx.quote": {
-        "message": "Quote"
+      "message": "Quote"
     },
     "bbcwbx.html.wbx.code": {
-        "message": "Code"
+      "message": "Code"
     },
     "bbcwbx.html.wbx.list": {
-        "message": "List"
+      "message": "List"
     },
     "bbcwbx.html.wbx.ordlist": {
-        "message": "Ordered list"
+      "message": "Ordered list"
     },
     "bbcwbx.html.wbx.alphalist": {
-        "message": "Alphabetic list"
+      "message": "Alphabetic list"
     },
     "bbcwbx.html.wbx.urlname": {
-        "message": "URL with name"
+      "message": "URL with name"
     },
     "bbcwbx.html.wbx.urlwiz": {
-        "message": "URL Wizard"
+      "message": "URL Wizard"
     },
     "bbcwbx.html.bold": {
-        "message": "Bold"
+      "message": "Bold"
     },
     "bbcwbx.html.ital": {
-        "message": "Italic"
+      "message": "Italic"
     },
     "bbcwbx.html.undrln": {
-        "message": "Underlined"
+      "message": "Underlined"
     },
     "bbcwbx.html.strk": {
-        "message": "Strikethrough"
+      "message": "Strikethrough"
     },
     "bbcwbx.html.img": {
-        "message": "Image"
+      "message": "Image"
     },
     "bbcwbx.html.url": {
-        "message": "URL"
+      "message": "URL"
     },
     "bbcwbx.xhtml": {
-        "message": "XHTML"
+      "message": "XHTML"
     },
     "bbcwbx.xhtml.clp": {
-        "message": "Clipboard"
+      "message": "Clipboard"
     },
     "bbcwbx.xhtml.clp.quote": {
-        "message": "Quote"
+      "message": "Quote"
     },
     "bbcwbx.xhtml.clp.code": {
-        "message": "Code"
+      "message": "Code"
     },
     "bbcwbx.xhtml.clp.list": {
-        "message": "List"
+      "message": "List"
     },
     "bbcwbx.xhtml.clp.ordlist": {
-        "message": "Ordered list"
+      "message": "Ordered list"
     },
     "bbcwbx.xhtml.clp.alphalist": {
-        "message": "Alphabetic list"
+      "message": "Alphabetic list"
     },
     "bbcwbx.xhtml.img": {
-        "message": "Image"
+      "message": "Image"
     },
     "bbcwbx.xhtml.clp.mkurlsel": {
-        "message": "Make URL from selection"
+      "message": "Make URL from selection"
     },
     "bbcwbx.xhtml.clp.url": {
-        "message": "URL"
+      "message": "URL"
     },
     "bbcwbx.xhtml.clp.urlname": {
-        "message": "URL with name"
+      "message": "URL with name"
     },
     "bbcwbx.xhtml.wbx": {
-        "message": "WebEx"
+      "message": "WebEx"
     },
     "bbcwbx.xhtml.wbx.quote": {
-        "message": "Quote"
+      "message": "Quote"
     },
     "bbcwbx.xhtml.wbx.code": {
-        "message": "Code"
+      "message": "Code"
     },
     "bbcwbx.xhtml.wbx.list": {
-        "message": "List"
+      "message": "List"
     },
     "bbcwbx.xhtml.wbx.ordlist": {
-        "message": "Ordered list"
+      "message": "Ordered list"
     },
     "bbcwbx.xhtml.wbx.alphalist": {
-        "message": "Alphabetic list"
+      "message": "Alphabetic list"
     },
     "bbcwbx.xhtml.wbx.urlname": {
-        "message": "URL with name"
+      "message": "URL with name"
     },
     "bbcwbx.xhtml.wbx.urlwiz": {
-        "message": "URL Wizard"
+      "message": "URL Wizard"
     },
     "bbcwbx.xhtml.bold": {
-        "message": "Bold"
+      "message": "Bold"
     },
     "bbcwbx.xhtml.ital": {
-        "message": "Italic"
+      "message": "Italic"
     },
     "bbcwbx.xhtml.undrln": {
-        "message": "Underlined"
+      "message": "Underlined"
     },
     "bbcwbx.xhtml.strk": {
-        "message": "Strikethrough"
+      "message": "Strikethrough"
     },
     "bbcwbx.xhtml.image": {
-        "message": "Image"
+      "message": "Image"
     },
     "bbcwbx.xhtml.url": {
-        "message": "URL"
+      "message": "URL"
     },
     "bbcwbx.custom": {
-        "message": "Custom Tags"
+      "message": "Custom Tags"
     },
     "bbcwbx.mkdn": {
-        "message": "Markdown"
+      "message": "Markdown"
     },
     "bbcwbx.mkdn.clp": {
-        "message": "Clipboard"
+      "message": "Clipboard"
     },
     "bbcwbx.mkdn.clp.quote": {
-        "message": "Quote"
+      "message": "Quote"
     },
     "bbcwbx.mkdn.clp.code": {
-        "message": "Code"
+      "message": "Code"
     },
     "bbcwbx.mkdn.clp.list": {
-        "message": "List"
+      "message": "List"
     },
     "bbcwbx.mkdn.clp.ordlist": {
-        "message": "Ordered list"
+      "message": "Ordered list"
     },
     "bbcwbx.mkdn.clp.mkurlsel": {
-        "message": "Make URL from selection"
+      "message": "Make URL from selection"
     },
     "bbcwbx.mkdn.clp.mkimgsel": {
-        "message": "Make image from selection"
+      "message": "Make image from selection"
     },
     "bbcwbx.mkdn.clp.urlname": {
-        "message": "URL with name"
+      "message": "URL with name"
     },
     "bbcwbx.mkdn.wbx": {
-        "message": "WebEx"
+      "message": "WebEx"
     },
     "bbcwbx.mkdn.wbx.quote": {
-        "message": "Quote"
+      "message": "Quote"
     },
     "bbcwbx.mkdn.wbx.code": {
-        "message": "Code"
+      "message": "Code"
     },
     "bbcwbx.mkdn.wbx.list": {
-        "message": "List"
+      "message": "List"
     },
     "bbcwbx.mkdn.wbx.ordlist": {
-        "message": "Ordered list"
+      "message": "Ordered list"
     },
     "bbcwbx.mkdn.wbx.urlname": {
-        "message": "URL with name"
+      "message": "URL with name"
     },
     "bbcwbx.mkdn.wbx.urlwiz": {
-        "message": "URL Wizard"
+      "message": "URL Wizard"
     },
     "bbcwbx.mkdn.bold": {
-        "message": "Bold"
+      "message": "Bold"
     },
     "bbcwbx.mkdn.ital": {
-        "message": "Italic"
+      "message": "Italic"
     },
     "bbcwbx.mkdn.strk": {
-        "message": "Strikethrough"
+      "message": "Strikethrough"
     },
     "INS_AUTHOR": {
-        "message": "Please insert author name or leave empty:"
+      "message": "Please insert author name or leave empty:"
     },
     "INS_LINKNAME": {
-        "message": "Please insert link name:"
+      "message": "Please insert link name:"
     },
     "INS_FONTSIZE": {
-        "message": "Please insert text size:"
+      "message": "Please insert text size:"
     },
     "INS_FONTCOLOR": {
-        "message": "Please insert text color:"
+      "message": "Please insert text color:"
     },
     "URLCOMPOSTO_STEP1": {
-        "message": "Link name?"
+      "message": "Link name?"
     },
     "URLCOMPOSTO_STEP2": {
-        "message": "Link?"
+      "message": "Link?"
     },
     "INS_THREADNUM": {
-        "message": "Please insert thread number:"
+      "message": "Please insert thread number:"
     },
     "INS_POSTNUM": {
-        "message": "Please insert post number:"
+      "message": "Please insert post number:"
     },
     "MENU_NO_CUSTOM_TAGS": {
-        "message": "No custom tags defined"
+      "message": "No custom tags defined"
     },
     "MENU_DISABLE": {
-        "message": "Disable this menu"
+      "message": "Disable this menu"
     },
     "MENU_SETTINGS": {
-        "message": "BBCodeXtra settings..."
+      "message": "bbCodeWebex settings%u2026"
     },
     "DELETE_CUSTOMTAG": {
-        "message": "Do you want to remove this item?"
+      "message": "Do you want to remove this item?"
     },
     "WINDOWTITLE_EDITCUSTOMTAG": {
-        "message": "Edit Custom Tag"
+      "message": "Edit Custom Tag"
     },
     "WINDOWTITLE_NEWCUSTOMTAG": {
-        "message": "Add New Custom Tag"
+      "message": "Add New Custom Tag"
     },
     "ALERT_REORDER_TITLE": {
-        "message": "Reorder Custom Tags"
+      "message": "Reorder Custom Tags"
     },
     "ALERT_REORDER_TEXT": {
-        "message": "Custom tags will be arranged in alphabetical order. This action cannot be undone, unless you restore an existing backup. Do you want to continue?"
+      "message": "Custom tags will be arranged in alphabetical order. This action cannot be undone, unless you restore an existing backup. Do you want to continue?"
     },
     "WINDOWTITLE_EXPORT": {
-        "message": "Choose export file"
+      "message": "Choose export file"
     },
     "WINDOWTITLE_IMPORT": {
-        "message": "Choose import file"
+      "message": "Choose import file"
     },
     "ALERT_IMPORT_TITLE": {
-        "message": "Import Settings"
+      "message": "Import Settings"
     },
     "ALERT_IMPORT_TEXT": {
-        "message": "This will overwrite all existing settings. Are you sure?"
-    },
-    "BTNEXPORT": {
-        "message": "Export Custom Tags"
-    },
-    "SAVE_TAG_ORDER": {
-        "message": "Save Tag Order"
+      "message": "This will overwrite all existing settings. Are you sure?"
     },
     "ALERT_IMPORT_COMPLETED": {
-        "message": "Operation completed."
+      "message": "Operation completed."
+    },
+    "description": {
+      "message": "Adds BBCode/HTML/XHTML/Vbulletin/Markup and custom tags commands to the context menu"
+    },
+    "name": {
+      "message": "bbCodeWebex"
+    },
+    "SETTINGSMENU": {
+      "message": "bbCodeWebex settings%u2026"
+    },
+    "DISABLEMENU": {
+      "message": "Disable this menu"
+    },
+    "PICKCOLOR_TITLE": {
+      "message": "Pick a color"
+    },
+    "PICKCOLOR_DESCRIPTION": {
+      "message": "Select the font color from the list"
+    },
+    "PICKCOLOR_LASTCOLOR": {
+      "message": "Last used color :"
+    },
+    "SETTINGS_TITLE": {
+      "message": "bbCodeWebex Settings"
+    },
+    "SETTINGS_MENU": {
+      "message": "Menus"
+    },
+    "SETTINGS_CUSTOMTAGS": {
+      "message": "Custom Tags"
+    },
+    "SETTINGS_MENU_DESCRIPTION": {
+      "message": "Select items to display in the context menu"
+    },
+    "SETTINGS_MENU_ENABLEBBCODE": {
+      "message": "Enable bbcode menu"
+    },
+    "SETTINGS_MENU_ENABLEBBCODE_VBULLETIN": {
+      "message": "enable VBulletin submenu"
+    },
+    "SETTINGS_MENU_ENABLEHTML": {
+      "message": "Enable HTML menu"
+    },
+    "SETTINGS_MENU_ENABLEXHTML": {
+      "message": "Enable XHTML menu"
+    },
+    "SETTINGS_MENU_ENABLEMARKDOWN": {
+      "message": "Enable Markdown menu"
+    },
+    "SETTINGS_MENU_ENABLECUSTOM": {
+      "message": "Enable Custom Tags menu"
+    },
+    "SETTINGS_MANAGESETTINGS": {
+      "message": "Manage settings"
+    },
+    "SETTINGS_BACKUPDESCRIPTION": {
+      "message": "WARNING: importing settings will overwrite all existing settings."
+    },
+    "SETTINGS_BTNIMPORT": {
+      "message": "Import settings%u2026"
+    },
+    "SETTINGS_BTNEXPORT": {
+      "message": "Export settings%u2026"
+    },
+    "SETTINGS_CUSTOMTAGS_TOTALTAGS": {
+      "message": "Available Custom Tags:"
+    },
+    "SETTINGS_CUSTOMTAGS_BTNADD": {
+      "message": "Add%u2026"
+    },
+    "SETTINGS_CUSTOMTAGS_BTNEDIT": {
+      "message": "Edit%u2026"
+    },
+    "SETTINGS_CUSTOMTAGS_BTNDELETE": {
+      "message": "Delete%u2026"
+    },
+    "SETTINGS_CUSTOMTAGS_MOVEUP": {
+      "message": "Move Up"
+    },
+    "SETTINGS_CUSTOMTAGS_MOVEDOWN": {
+      "message": "Move Down"
+    },
+    "SETTINGS_CUSTOMTAGS_SORTALPHA": {
+      "message": "Sort alphabetically"
+    },
+    "SETTINGS_CUSTOMTAGS_MOREINFO": {
+      "message": "More info and examples"
+    },
+    "SETTINGS_CUSTOMTAGS_VARIABLES": {
+      "message": "Available variables"
+    },
+    "SETTINGS_CUSTOMTAGS_VARCLIPBOARD": {
+      "message": "clipboard content"
+    },
+    "SETTINGS_CUSTOMTAGS_VARSELECTION": {
+      "message": "selected text"
+    },
+    "SETTINGS_CUSTOMTAGS_LABEL": {
+      "message": "Item name:"
+    },
+    "SETTINGS_CUSTOMTAGS_ACTION": {
+      "message": "Code:"
+    },
+    "SAVE_TAG_ORDER": {
+      "message": "Save Tag Order"
+    },
+    "ENTER_COLOR_HEX": {
+      "message": "ENTER FONT COLOR IN HEX"
     }
-}
+  }
+]
