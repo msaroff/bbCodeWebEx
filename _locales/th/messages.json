@@ -1,556 +1,320 @@
-[
-  {
+﻿{
     "bbcwbx.bbcode": {
-      "message": "bbCode"
+        "message": "bbCode"
     },
     "bbcwbx.bbcode.clp": {
-      "message": "%u0E04%u0E25%u0E34%u0E1B%u0E1A%u0E2D%u0E23%u0E4C%u0E14"
+        "message": "คลิปบอร์ด"
     },
     "bbcwbx.bbcode.clp.quote": {
-      "message": "%u0E2D%u0E49%u0E32%u0E07%u0E2D%u0E34%u0E07"
+        "message": "อ้างอิง"
     },
     "bbcwbx.bbcode.clp.code": {
-      "message": "%u0E23%u0E2B%u0E31%u0E2A"
+        "message": "รหัส"
     },
     "bbcwbx.bbcode.clp.list": {
-      "message": "%u0E23%u0E32%u0E22%u0E0A%u0E37%u0E48%u0E2D"
+        "message": "รายชื่อ"
     },
     "bbcwbx.bbcode.clp.ordlist": {
-      "message": "%u0E23%u0E32%u0E22%u0E0A%u0E37%u0E48%u0E2D%u0E15%u0E32%u0E21%u0E25%u0E33%u0E31%u0E14%u0E31%u0E1A"
+        "message": "รายชื่อตามลำัดับ"
     },
     "bbcwbx.bbcode.clp.alphalist": {
-      "message": "%u0E23%u0E32%u0E22%u0E0A%u0E37%u0E48%u0E2D%u0E15%u0E32%u0E21%u0E15%u0E31%u0E27%u0E2D%u0E31%u0E01%u0E29%u0E23"
+        "message": "รายชื่อตามตัวอักษร"
     },
     "bbcwbx.bbcode.clp.spoiler": {
-      "message": "Spoiler"
+        "message": "Spoiler"
     },
     "bbcwbx.bbcode.clp.image": {
-      "message": "%u0E23%u0E39%u0E1B%u0E20%u0E32%u0E1E"
+        "message": "รูปภาพ"
     },
     "bbcwbx.bbcode.clp.mkurlsel": {
-      "message": "%u0E17%u0E33%u0E22%u0E39%u0E2D%u0E32%u0E23%u0E4C%u0E41%u0E2D%u0E25%u0E01%u0E14%u0E44%u0E14%u0E49"
+        "message": "ทำยูอาร์แอลกดได้"
     },
     "bbcwbx.bbcode.clp.url": {
-      "message": "%u0E22%u0E39%u0E2D%u0E32%u0E23%u0E4C%u0E41%u0E2D%u0E25"
+        "message": "ยูอาร์แอล"
     },
     "bbcwbx.bbcode.clp.urlname": {
-      "message": "%u0E22%u0E39%u0E2D%u0E32%u0E23%u0E4C%u0E41%u0E2D%u0E25%u0E01%u0E31%u0E1A%u0E0A%u0E37%u0E48%u0E2D"
+        "message": "ยูอาร์แอลกับชื่อ"
     },
     "bbcwbx.bbcode.wbx": {
-      "message": "WebEx"
+        "message": "WebEx"
     },
     "bbcwbx.bbcode.wbx.quote": {
-      "message": "%u0E2D%u0E49%u0E32%u0E07%u0E2D%u0E34%u0E07"
+        "message": "อ้างอิง"
     },
     "bbcwbx.bbcode.wbx.code": {
-      "message": "%u0E23%u0E2B%u0E31%u0E2A"
+        "message": "รหัส"
     },
     "bbcwbx.bbcode.wbx.list": {
-      "message": "%u0E23%u0E32%u0E22%u0E0A%u0E37%u0E48%u0E2D"
+        "message": "รายชื่อ"
     },
     "bbcwbx.bbcode.wbx.ordlist": {
-      "message": "%u0E23%u0E32%u0E22%u0E0A%u0E37%u0E48%u0E2D%u0E15%u0E32%u0E21%u0E25%u0E33%u0E31%u0E14%u0E31%u0E1A"
+        "message": "รายชื่อตามลำัดับ"
     },
     "bbcwbx.bbcode.wbx.alphalist": {
-      "message": "%u0E23%u0E32%u0E22%u0E0A%u0E37%u0E48%u0E2D%u0E15%u0E32%u0E21%u0E15%u0E31%u0E27%u0E2D%u0E31%u0E01%u0E29%u0E23"
+        "message": "รายชื่อตามตัวอักษร"
     },
     "bbcwbx.bbcode.wbx.spoiler": {
-      "message": "Spoiler"
+        "message": "Spoiler"
     },
     "bbcwbx.bbcode.wbx.fntcol": {
-      "message": "%u0E2A%u0E35%u0E41%u0E1A%u0E1A%u0E2D%u0E31%u0E01%u0E29%u0E23"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.white": {
-      "message": "White"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.black": {
-      "message": "Black"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.dk_gray": {
-      "message": "Dark gray"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.gray": {
-      "message": "Gray"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.lt_gray": {
-      "message": "Light gray"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.olive": {
-      "message": "Olive"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.yellow": {
-      "message": "Yellow"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.canary": {
-      "message": "Canary"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.maroon": {
-      "message": "Maroon"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.red": {
-      "message": "Red"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.pink": {
-      "message": "Pink"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.navy": {
-      "message": "Navy"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.blue": {
-      "message": "Blue"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.lt_blue": {
-      "message": "Light Blue"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.green": {
-      "message": "Green"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.lime_green": {
-      "message": "Lime Green"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.mint_green": {
-      "message": "Mint Green"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.indigo": {
-      "message": "Indigo"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.purple": {
-      "message": "Purple"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.fuchsia": {
-      "message": "Fuchsia"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.usrEnt": {
-      "message": "Enter Code in Hex"
+        "message": "สีแบบอักษร"
     },
     "bbcwbx.bbcode.wbx.fntsz": {
-      "message": "%u0E02%u0E19%u0E32%u0E14%u0E41%u0E1A%u0E1A%u0E2D%u0E31%u0E01%u0E29%u0E23"
+        "message": "ขนาดแบบอักษร"
     },
     "bbcwbx.bbcode.wbx.urlname": {
-      "message": "%u0E22%u0E39%u0E2D%u0E32%u0E23%u0E4C%u0E41%u0E2D%u0E25%u0E01%u0E31%u0E1A%u0E0A%u0E37%u0E48%u0E2D"
+        "message": "ยูอาร์แอลกับชื่อ"
     },
     "bbcwbx.bbcode.wbx.urlwiz": {
-      "message": "%u0E15%u0E31%u0E27%u0E0A%u0E48%u0E27%u0E22%u0E2A%u0E23%u0E49%u0E32%u0E07%u0E22%u0E39%u0E2D%u0E32%u0E23%u0E4C%u0E41%u0E2D%u0E25"
+        "message": "ตัวช่วยสร้างยูอาร์แอล"
     },
     "bbcwbx.bbcode.vbl": {
-      "message": "VBulletin3"
+        "message": "VBulletin3"
     },
     "bbcwbx.bbcode.vbl.thd": {
-      "message": "%u0E2B%u0E31%u0E27%u0E02%u0E49%u0E2D"
+        "message": "หัวข้อ"
     },
     "bbcwbx.bbcode.vbl.pst": {
-      "message": "%u0E42%u0E1E%u0E2A%u0E15%u0E4C"
+        "message": "โพสต์"
     },
     "bbcwbx.bbcode.vbl.alnlf": {
-      "message": "%u0E0A%u0E34%u0E14%u0E02%u0E27%u0E32"
+        "message": "ชิดขวา"
     },
     "bbcwbx.bbcode.vbl.alnrt": {
-      "message": "%u0E0A%u0E34%u0E14%u0E0B%u0E49%u0E32%u0E22"
+        "message": "ชิดซ้าย"
     },
     "bbcwbx.bbcode.vbl.ctr": {
-      "message": "%u0E15%u0E23%u0E07%u0E01%u0E25%u0E32%u0E07"
+        "message": "ตรงกลาง"
     },
     "bbcwbx.bbcode.vbl.indnt": {
-      "message": "%u0E22%u0E48%u0E2D%u0E2B%u0E19%u0E49%u0E32"
+        "message": "ย่อหน้า"
     },
     "bbcwbx.bbcode.vbl.hilt": {
-      "message": "%u0E40%u0E19%u0E49%u0E19"
+        "message": "เน้น"
     },
     "bbcwbx.bbcode.bold": {
-      "message": "%u0E15%u0E31%u0E27%u0E2B%u0E19%u0E32"
+        "message": "ตัวหนา"
     },
     "bbcwbx.bbcode.ital": {
-      "message": "%u0E15%u0E31%u0E27%u0E40%u0E2D%u0E19"
+        "message": "ตัวเอน"
     },
     "bbcwbx.bbcode.undrln": {
-      "message": "%u0E02%u0E35%u0E14%u0E40%u0E2A%u0E49%u0E19%u0E43%u0E15%u0E49"
+        "message": "ขีดเส้นใต้"
     },
     "bbcwbx.bbcode.img": {
-      "message": "%u0E23%u0E39%u0E1B%u0E20%u0E32%u0E1E"
+        "message": "รูปภาพ"
     },
     "bbcwbx.bbcode.url": {
-      "message": "%u0E22%u0E39%u0E2D%u0E32%u0E23%u0E4C%u0E41%u0E2D%u0E25"
+        "message": "ยูอาร์แอล"
     },
     "bbcwbx.html": {
-      "message": "HTML"
+        "message": "HTML"
     },
     "bbcwbx.html.clp": {
-      "message": "%u0E04%u0E25%u0E34%u0E1B%u0E1A%u0E2D%u0E23%u0E4C%u0E14"
+        "message": "คลิปบอร์ด"
     },
     "bbcwbx.html.clp.quote": {
-      "message": "%u0E2D%u0E49%u0E32%u0E07%u0E2D%u0E34%u0E07"
+        "message": "อ้างอิง"
     },
     "bbcwbx.html.clp.code": {
-      "message": "%u0E23%u0E2B%u0E31%u0E2A"
+        "message": "รหัส"
     },
     "bbcwbx.html.clp.list": {
-      "message": "%u0E23%u0E32%u0E22%u0E0A%u0E37%u0E48%u0E2D"
+        "message": "รายชื่อ"
     },
     "bbcwbx.html.clp.ordlist": {
-      "message": "%u0E23%u0E32%u0E22%u0E0A%u0E37%u0E48%u0E2D%u0E15%u0E32%u0E21%u0E25%u0E33%u0E31%u0E14%u0E31%u0E1A"
+        "message": "รายชื่อตามลำัดับ"
     },
     "bbcwbx.html.clp.alphalist": {
-      "message": "%u0E23%u0E32%u0E22%u0E0A%u0E37%u0E48%u0E2D%u0E15%u0E32%u0E21%u0E15%u0E31%u0E27%u0E2D%u0E31%u0E01%u0E29%u0E23"
+        "message": "รายชื่อตามตัวอักษร"
     },
     "bbcwbx.html.clp.image": {
-      "message": "%u0E23%u0E39%u0E1B%u0E20%u0E32%u0E1E"
+        "message": "รูปภาพ"
     },
     "bbcwbx.html.clp.mkurlsel": {
-      "message": "%u0E17%u0E33%u0E22%u0E39%u0E2D%u0E32%u0E23%u0E4C%u0E41%u0E2D%u0E25%u0E01%u0E14%u0E44%u0E14%u0E49"
+        "message": "ทำยูอาร์แอลกดได้"
     },
     "bbcwbx.html.clp.url": {
-      "message": "%u0E22%u0E39%u0E2D%u0E32%u0E23%u0E4C%u0E41%u0E2D%u0E25"
+        "message": "ยูอาร์แอล"
     },
     "bbcwbx.html.clp.urlname": {
-      "message": "%u0E22%u0E39%u0E2D%u0E32%u0E23%u0E4C%u0E41%u0E2D%u0E25%u0E01%u0E31%u0E1A%u0E0A%u0E37%u0E48%u0E2D"
+        "message": "ยูอาร์แอลกับชื่อ"
     },
     "bbcwbx.html.wbx": {
-      "message": "WebEx"
+        "message": "WebEx"
     },
     "bbcwbx.html.wbx.quote": {
-      "message": "%u0E2D%u0E49%u0E32%u0E07%u0E2D%u0E34%u0E07"
+        "message": "อ้างอิง"
     },
     "bbcwbx.html.wbx.code": {
-      "message": "%u0E23%u0E2B%u0E31%u0E2A"
+        "message": "รหัส"
     },
     "bbcwbx.html.wbx.list": {
-      "message": "%u0E23%u0E32%u0E22%u0E0A%u0E37%u0E48%u0E2D"
+        "message": "รายชื่อ"
     },
     "bbcwbx.html.wbx.ordlist": {
-      "message": "%u0E23%u0E32%u0E22%u0E0A%u0E37%u0E48%u0E2D%u0E15%u0E32%u0E21%u0E25%u0E33%u0E31%u0E14%u0E31%u0E1A"
+        "message": "รายชื่อตามลำัดับ"
     },
     "bbcwbx.html.wbx.alphalist": {
-      "message": "%u0E23%u0E32%u0E22%u0E0A%u0E37%u0E48%u0E2D%u0E15%u0E32%u0E21%u0E15%u0E31%u0E27%u0E2D%u0E31%u0E01%u0E29%u0E23"
+        "message": "รายชื่อตามตัวอักษร"
     },
     "bbcwbx.html.wbx.urlname": {
-      "message": "%u0E22%u0E39%u0E2D%u0E32%u0E23%u0E4C%u0E41%u0E2D%u0E25%u0E01%u0E31%u0E1A%u0E0A%u0E37%u0E48%u0E2D"
+        "message": "ยูอาร์แอลกับชื่อ"
     },
     "bbcwbx.html.wbx.urlwiz": {
-      "message": "%u0E15%u0E31%u0E27%u0E0A%u0E48%u0E27%u0E22%u0E2A%u0E23%u0E49%u0E32%u0E07%u0E22%u0E39%u0E2D%u0E32%u0E23%u0E4C%u0E41%u0E2D%u0E25"
+        "message": "ตัวช่วยสร้างยูอาร์แอล"
     },
     "bbcwbx.html.bold": {
-      "message": "%u0E15%u0E31%u0E27%u0E2B%u0E19%u0E32"
+        "message": "ตัวหนา"
     },
     "bbcwbx.html.ital": {
-      "message": "%u0E15%u0E31%u0E27%u0E40%u0E2D%u0E19"
+        "message": "ตัวเอน"
     },
     "bbcwbx.html.undrln": {
-      "message": "%u0E02%u0E35%u0E14%u0E40%u0E2A%u0E49%u0E19%u0E43%u0E15%u0E49"
+        "message": "ขีดเส้นใต้"
     },
     "bbcwbx.html.strk": {
-      "message": "%u0E02%u0E35%u0E14%u0E40%u0E2A%u0E49%u0E19%u0E17%u0E31%u0E1A"
+        "message": "ขีดเส้นทับ"
     },
     "bbcwbx.html.img": {
-      "message": "%u0E23%u0E39%u0E1B%u0E20%u0E32%u0E1E"
+        "message": "รูปภาพ"
     },
     "bbcwbx.html.url": {
-      "message": "%u0E22%u0E39%u0E2D%u0E32%u0E23%u0E4C%u0E41%u0E2D%u0E25"
+        "message": "ยูอาร์แอล"
     },
     "bbcwbx.xhtml": {
-      "message": "XHTML"
+        "message": "XHTML"
     },
     "bbcwbx.xhtml.clp": {
-      "message": "%u0E04%u0E25%u0E34%u0E1B%u0E1A%u0E2D%u0E23%u0E4C%u0E14"
+        "message": "คลิปบอร์ด"
     },
     "bbcwbx.xhtml.clp.quote": {
-      "message": "%u0E2D%u0E49%u0E32%u0E07%u0E2D%u0E34%u0E07"
+        "message": "อ้างอิง"
     },
     "bbcwbx.xhtml.clp.code": {
-      "message": "%u0E23%u0E2B%u0E31%u0E2A"
+        "message": "รหัส"
     },
     "bbcwbx.xhtml.clp.list": {
-      "message": "%u0E23%u0E32%u0E22%u0E0A%u0E37%u0E48%u0E2D"
+        "message": "รายชื่อ"
     },
     "bbcwbx.xhtml.clp.ordlist": {
-      "message": "%u0E23%u0E32%u0E22%u0E0A%u0E37%u0E48%u0E2D%u0E15%u0E32%u0E21%u0E25%u0E33%u0E31%u0E14%u0E31%u0E1A"
+        "message": "รายชื่อตามลำัดับ"
     },
     "bbcwbx.xhtml.clp.alphalist": {
-      "message": "%u0E23%u0E32%u0E22%u0E0A%u0E37%u0E48%u0E2D%u0E15%u0E32%u0E21%u0E15%u0E31%u0E27%u0E2D%u0E31%u0E01%u0E29%u0E23"
+        "message": "รายชื่อตามตัวอักษร"
     },
     "bbcwbx.xhtml.img": {
-      "message": "%u0E23%u0E39%u0E1B%u0E20%u0E32%u0E1E"
+        "message": "รูปภาพ"
     },
     "bbcwbx.xhtml.clp.mkurlsel": {
-      "message": "%u0E17%u0E33%u0E22%u0E39%u0E2D%u0E32%u0E23%u0E4C%u0E41%u0E2D%u0E25%u0E01%u0E14%u0E44%u0E14%u0E49"
+        "message": "ทำยูอาร์แอลกดได้"
     },
     "bbcwbx.xhtml.clp.url": {
-      "message": "%u0E22%u0E39%u0E2D%u0E32%u0E23%u0E4C%u0E41%u0E2D%u0E25"
+        "message": "ยูอาร์แอล"
     },
     "bbcwbx.xhtml.clp.urlname": {
-      "message": "%u0E22%u0E39%u0E2D%u0E32%u0E23%u0E4C%u0E41%u0E2D%u0E25%u0E01%u0E31%u0E1A%u0E0A%u0E37%u0E48%u0E2D"
+        "message": "ยูอาร์แอลกับชื่อ"
     },
     "bbcwbx.xhtml.wbx": {
-      "message": "WebEx"
+        "message": "WebEx"
     },
     "bbcwbx.xhtml.wbx.quote": {
-      "message": "%u0E2D%u0E49%u0E32%u0E07%u0E2D%u0E34%u0E07"
+        "message": "อ้างอิง"
     },
     "bbcwbx.xhtml.wbx.code": {
-      "message": "%u0E23%u0E2B%u0E31%u0E2A"
+        "message": "รหัส"
     },
     "bbcwbx.xhtml.wbx.list": {
-      "message": "%u0E23%u0E32%u0E22%u0E0A%u0E37%u0E48%u0E2D"
+        "message": "รายชื่อ"
     },
     "bbcwbx.xhtml.wbx.ordlist": {
-      "message": "%u0E23%u0E32%u0E22%u0E0A%u0E37%u0E48%u0E2D%u0E15%u0E32%u0E21%u0E25%u0E33%u0E31%u0E14%u0E31%u0E1A"
+        "message": "รายชื่อตามลำัดับ"
     },
     "bbcwbx.xhtml.wbx.alphalist": {
-      "message": "%u0E23%u0E32%u0E22%u0E0A%u0E37%u0E48%u0E2D%u0E15%u0E32%u0E21%u0E15%u0E31%u0E27%u0E2D%u0E31%u0E01%u0E29%u0E23"
+        "message": "รายชื่อตามตัวอักษร"
     },
     "bbcwbx.xhtml.wbx.urlname": {
-      "message": "%u0E22%u0E39%u0E2D%u0E32%u0E23%u0E4C%u0E41%u0E2D%u0E25%u0E01%u0E31%u0E1A%u0E0A%u0E37%u0E48%u0E2D"
+        "message": "ยูอาร์แอลกับชื่อ"
     },
     "bbcwbx.xhtml.wbx.urlwiz": {
-      "message": "%u0E15%u0E31%u0E27%u0E0A%u0E48%u0E27%u0E22%u0E2A%u0E23%u0E49%u0E32%u0E07%u0E22%u0E39%u0E2D%u0E32%u0E23%u0E4C%u0E41%u0E2D%u0E25"
+        "message": "ตัวช่วยสร้างยูอาร์แอล"
     },
     "bbcwbx.xhtml.bold": {
-      "message": "%u0E15%u0E31%u0E27%u0E2B%u0E19%u0E32"
+        "message": "ตัวหนา"
     },
     "bbcwbx.xhtml.ital": {
-      "message": "%u0E15%u0E31%u0E27%u0E40%u0E2D%u0E19"
+        "message": "ตัวเอน"
     },
     "bbcwbx.xhtml.undrln": {
-      "message": "%u0E02%u0E35%u0E14%u0E40%u0E2A%u0E49%u0E19%u0E43%u0E15%u0E49"
+        "message": "ขีดเส้นใต้"
     },
     "bbcwbx.xhtml.strk": {
-      "message": "%u0E02%u0E35%u0E14%u0E40%u0E2A%u0E49%u0E19%u0E17%u0E31%u0E1A"
+        "message": "ขีดเส้นทับ"
     },
     "bbcwbx.xhtml.image": {
-      "message": "%u0E23%u0E39%u0E1B%u0E20%u0E32%u0E1E"
+        "message": "รูปภาพ"
     },
     "bbcwbx.xhtml.url": {
-      "message": "%u0E22%u0E39%u0E2D%u0E32%u0E23%u0E4C%u0E41%u0E2D%u0E25"
+        "message": "ยูอาร์แอล"
     },
     "bbcwbx.custom": {
-      "message": "%u0E1B%u0E49%u0E32%u0E22%u0E0A%u0E37%u0E48%u0E2D%u0E17%u0E33%u0E40%u0E2D%u0E07"
+        "message": "ป้ายชื่อทำเอง"
     },
     "bbcwbx.mkdn": {
-      "message": "Markdown"
+        "message": "Markdown"
     },
     "bbcwbx.mkdn.clp": {
-      "message": "%u0E04%u0E25%u0E34%u0E1B%u0E1A%u0E2D%u0E23%u0E4C%u0E14"
+        "message": "คลิปบอร์ด"
     },
     "bbcwbx.mkdn.clp.quote": {
-      "message": "%u0E2D%u0E49%u0E32%u0E07%u0E2D%u0E34%u0E07"
+        "message": "อ้างอิง"
     },
     "bbcwbx.mkdn.clp.code": {
-      "message": "%u0E23%u0E2B%u0E31%u0E2A"
+        "message": "รหัส"
     },
     "bbcwbx.mkdn.clp.list": {
-      "message": "%u0E23%u0E32%u0E22%u0E0A%u0E37%u0E48%u0E2D"
+        "message": "รายชื่อ"
     },
     "bbcwbx.mkdn.clp.ordlist": {
-      "message": "%u0E23%u0E32%u0E22%u0E0A%u0E37%u0E48%u0E2D%u0E15%u0E32%u0E21%u0E25%u0E33%u0E31%u0E14%u0E31%u0E1A"
+        "message": "รายชื่อตามลำัดับ"
     },
     "bbcwbx.mkdn.clp.mkurlsel": {
-      "message": "%u0E17%u0E33%u0E22%u0E39%u0E2D%u0E32%u0E23%u0E4C%u0E41%u0E2D%u0E25%u0E01%u0E14%u0E44%u0E14%u0E49"
+        "message": "ทำยูอาร์แอลกดได้"
     },
     "bbcwbx.mkdn.clp.mkimgsel": {
-      "message": "Make image from selection"
+        "message": "Make image from selection"
     },
     "bbcwbx.mkdn.clp.urlname": {
-      "message": "%u0E22%u0E39%u0E2D%u0E32%u0E23%u0E4C%u0E41%u0E2D%u0E25%u0E01%u0E31%u0E1A%u0E0A%u0E37%u0E48%u0E2D"
+        "message": "ยูอาร์แอลกับชื่อ"
     },
     "bbcwbx.mkdn.wbx": {
-      "message": "WebEx"
+        "message": "WebEx"
     },
     "bbcwbx.mkdn.wbx.quote": {
-      "message": "%u0E2D%u0E49%u0E32%u0E07%u0E2D%u0E34%u0E07"
+        "message": "อ้างอิง"
     },
     "bbcwbx.mkdn.wbx.code": {
-      "message": "%u0E23%u0E2B%u0E31%u0E2A"
+        "message": "รหัส"
     },
     "bbcwbx.mkdn.wbx.list": {
-      "message": "%u0E23%u0E32%u0E22%u0E0A%u0E37%u0E48%u0E2D"
+        "message": "รายชื่อ"
     },
     "bbcwbx.mkdn.wbx.ordlist": {
-      "message": "%u0E23%u0E32%u0E22%u0E0A%u0E37%u0E48%u0E2D%u0E15%u0E32%u0E21%u0E25%u0E33%u0E31%u0E14%u0E31%u0E1A"
+        "message": "รายชื่อตามลำัดับ"
     },
     "bbcwbx.mkdn.wbx.urlname": {
-      "message": "%u0E22%u0E39%u0E2D%u0E32%u0E23%u0E4C%u0E41%u0E2D%u0E25%u0E01%u0E31%u0E1A%u0E0A%u0E37%u0E48%u0E2D"
+        "message": "ยูอาร์แอลกับชื่อ"
     },
     "bbcwbx.mkdn.wbx.urlwiz": {
-      "message": "%u0E15%u0E31%u0E27%u0E0A%u0E48%u0E27%u0E22%u0E2A%u0E23%u0E49%u0E32%u0E07%u0E22%u0E39%u0E2D%u0E32%u0E23%u0E4C%u0E41%u0E2D%u0E25"
+        "message": "ตัวช่วยสร้างยูอาร์แอล"
     },
     "bbcwbx.mkdn.bold": {
-      "message": "%u0E15%u0E31%u0E27%u0E2B%u0E19%u0E32"
+        "message": "ตัวหนา"
     },
     "bbcwbx.mkdn.ital": {
-      "message": "%u0E15%u0E31%u0E27%u0E40%u0E2D%u0E19"
+        "message": "ตัวเอน"
     },
     "bbcwbx.mkdn.strk": {
-      "message": "%u0E02%u0E35%u0E14%u0E40%u0E2A%u0E49%u0E19%u0E17%u0E31%u0E1A"
-    },
-    "INS_AUTHOR": {
-      "message": "%u0E01%u0E23%u0E38%u0E13%u0E32%u0E43%u0E2A%u0E48%u0E0A%u0E37%u0E48%u0E2D%u0E40%u0E08%u0E49%u0E32%u0E02%u0E2D%u0E07%u0E2B%u0E23%u0E37%u0E2D%u0E1B%u0E25%u0E48%u0E2D%u0E22%u0E27%u0E48%u0E32%u0E07:"
-    },
-    "INS_LINKNAME": {
-      "message": "%u0E01%u0E23%u0E38%u0E13%u0E32%u0E43%u0E2A%u0E48%u0E0A%u0E37%u0E48%u0E2D%u0E25%u0E34%u0E07%u0E01%u0E4C:"
-    },
-    "INS_FONTSIZE": {
-      "message": "%u0E01%u0E23%u0E38%u0E13%u0E32%u0E43%u0E2A%u0E48%u0E02%u0E19%u0E32%u0E14%u0E02%u0E49%u0E2D%u0E04%u0E27%u0E32%u0E21:"
-    },
-    "INS_FONTCOLOR": {
-      "message": "%u0E01%u0E23%u0E38%u0E13%u0E32%u0E43%u0E2A%u0E48%u0E2A%u0E35%u0E02%u0E49%u0E2D%u0E04%u0E27%u0E32%u0E21:"
-    },
-    "URLCOMPOSTO_STEP1": {
-      "message": "%u0E0A%u0E37%u0E48%u0E2D%u0E25%u0E34%u0E07%u0E01%u0E4C?"
-    },
-    "URLCOMPOSTO_STEP2": {
-      "message": "%u0E25%u0E34%u0E07%u0E01%u0E4C?"
-    },
-    "INS_THREADNUM": {
-      "message": "%u0E01%u0E23%u0E38%u0E13%u0E32%u0E43%u0E2A%u0E48%u0E2B%u0E21%u0E32%u0E22%u0E40%u0E25%u0E02%u0E2B%u0E31%u0E27%u0E02%u0E49%u0E2D:"
-    },
-    "INS_POSTNUM": {
-      "message": "%u0E01%u0E23%u0E38%u0E13%u0E32%u0E43%u0E2A%u0E48%u0E2B%u0E21%u0E32%u0E22%u0E40%u0E25%u0E02%u0E42%u0E1E%u0E2A%u0E15%u0E4C:"
-    },
-    "MENU_NO_CUSTOM_TAGS": {
-      "message": "%u0E44%u0E21%u0E48%u0E1E%u0E1A%u0E1B%u0E49%u0E32%u0E22%u0E0A%u0E37%u0E48%u0E2D%u0E17%u0E33%u0E40%u0E2D%u0E07"
-    },
-    "MENU_DISABLE": {
-      "message": "%u0E1B%u0E34%u0E14%u0E01%u0E32%u0E23%u0E43%u0E0A%u0E49%u0E07%u0E32%u0E19%u0E40%u0E21%u0E19%u0E39%u0E19%u0E35%u0E49"
-    },
-    "MENU_SETTINGS": {
-      "message": "%u0E01%u0E32%u0E23%u0E15%u0E31%u0E49%u0E07%u0E04%u0E48%u0E32 bbCodeWebex..."
-    },
-    "DELETE_CUSTOMTAG": {
-      "message": "%u0E15%u0E49%u0E2D%u0E07%u0E01%u0E32%u0E23%u0E25%u0E1A%u0E27%u0E31%u0E15%u0E16%u0E38%u0E19%u0E35%u0E49%u0E2B%u0E23%u0E37%u0E2D%u0E44%u0E21%u0E48"
-    },
-    "WINDOWTITLE_EDITCUSTOMTAG": {
-      "message": "%u0E41%u0E01%u0E49%u0E44%u0E02%u0E1B%u0E49%u0E32%u0E22%u0E0A%u0E37%u0E48%u0E2D%u0E17%u0E33%u0E40%u0E2D%u0E07"
-    },
-    "WINDOWTITLE_NEWCUSTOMTAG": {
-      "message": "%u0E40%u0E1E%u0E34%u0E48%u0E21%u0E1B%u0E49%u0E32%u0E22%u0E0A%u0E37%u0E48%u0E2D%u0E17%u0E33%u0E40%u0E2D%u0E07"
-    },
-    "ALERT_REORDER_TITLE": {
-      "message": "Reorder Custom Tags"
-    },
-    "ALERT_REORDER_TEXT": {
-      "message": "Custom tags will be arranged in alphabetical order. This action cannot be undone, unless you restore an existing backup. Do you want to continue?"
-    },
-    "WINDOWTITLE_EXPORT": {
-      "message": "Choose export file"
-    },
-    "WINDOWTITLE_IMPORT": {
-      "message": "Choose import file"
-    },
-    "ALERT_IMPORT_TITLE": {
-      "message": "Import Settings"
-    },
-    "ALERT_IMPORT_TEXT": {
-      "message": "This will overwrite all existing settings. Are you sure?"
-    },
-    "ALERT_IMPORT_COMPLETED": {
-      "message": "Operation completed."
-    },
-    "description": {
-      "message": "%u0E40%u0E1E%u0E34%u0E48%u0E21%u0E04%u0E33%u0E2A%u0E31%u0E48%u0E07 BBCode/HTML/XHTML %u0E44%u0E1B%u0E22%u0E31%u0E07%u0E40%u0E21%u0E19%u0E39%u0E1A%u0E23%u0E34%u0E1A%u0E17"
-    },
-    "name": {
-      "message": "bbCodeWebex"
-    },
-    "SETTINGSMENU": {
-      "message": "%u0E15%u0E31%u0E49%u0E07%u0E04%u0E48%u0E32 bbCodeWebex..."
-    },
-    "DISABLEMENU": {
-      "message": "%u0E1B%u0E34%u0E14%u0E40%u0E21%u0E19%u0E39%u0E19%u0E35%u0E49"
-    },
-    "PICKCOLOR_TITLE": {
-      "message": "%u0E40%u0E25%u0E37%u0E2D%u0E01%u0E2A%u0E35"
-    },
-    "PICKCOLOR_DESCRIPTION": {
-      "message": "%u0E40%u0E25%u0E37%u0E2D%u0E01%u0E2A%u0E35%u0E41%u0E1A%u0E1A%u0E2D%u0E31%u0E01%u0E29%u0E23%u0E08%u0E32%u0E01%u0E23%u0E32%u0E22%u0E0A%u0E37%u0E48%u0E2D"
-    },
-    "PICKCOLOR_LASTCOLOR": {
-      "message": "%u0E2A%u0E35%u0E17%u0E35%u0E48%u0E43%u0E0A%u0E49%u0E25%u0E48%u0E32%u0E2A%u0E38%u0E14:"
-    },
-    "SETTINGS_TITLE": {
-      "message": "%u0E15%u0E31%u0E49%u0E07%u0E04%u0E48%u0E32 bbCodeWebex"
-    },
-    "SETTINGS_MENU": {
-      "message": "%u0E40%u0E21%u0E19%u0E39"
-    },
-    "SETTINGS_CUSTOMTAGS": {
-      "message": "%u0E1B%u0E49%u0E32%u0E22%u0E0A%u0E37%u0E48%u0E2D%u0E17%u0E33%u0E40%u0E2D%u0E07"
-    },
-    "SETTINGS_MENU_DESCRIPTION": {
-      "message": "%u0E40%u0E25%u0E37%u0E2D%u0E01%u0E27%u0E31%u0E15%u0E16%u0E38%u0E40%u0E1E%u0E37%u0E48%u0E2D%u0E41%u0E2A%u0E14%u0E07%u0E1C%u0E25%u0E43%u0E19%u0E40%u0E21%u0E19%u0E39%u0E42%u0E14%u0E22%u0E23%u0E2D%u0E1A"
-    },
-    "SETTINGS_MENU_ENABLEBBCODE": {
-      "message": "%u0E40%u0E1B%u0E34%u0E14%u0E43%u0E0A%u0E49%u0E07%u0E32%u0E19%u0E40%u0E21%u0E19%u0E39 bbcode"
-    },
-    "SETTINGS_MENU_ENABLEBBCODE_VBULLETIN": {
-      "message": "%u0E40%u0E1B%u0E34%u0E14%u0E43%u0E0A%u0E49%u0E07%u0E32%u0E19%u0E40%u0E21%u0E19%u0E39%u0E22%u0E48%u0E2D%u0E22 VBulletin"
-    },
-    "SETTINGS_MENU_ENABLEHTML": {
-      "message": "%u0E40%u0E1B%u0E34%u0E14%u0E43%u0E0A%u0E49%u0E07%u0E32%u0E19%u0E40%u0E21%u0E19%u0E39 HTML"
-    },
-    "SETTINGS_MENU_ENABLEXHTML": {
-      "message": "%u0E40%u0E1B%u0E34%u0E14%u0E43%u0E0A%u0E49%u0E07%u0E32%u0E19%u0E40%u0E21%u0E19%u0E39 XHTML"
-    },
-    "SETTINGS_MENU_ENABLEMARKDOWN": {
-      "message": "%u0E40%u0E1B%u0E34%u0E14%u0E43%u0E0A%u0E49%u0E07%u0E32%u0E19%u0E40%u0E21%u0E19%u0E39 Markdown"
-    },
-    "SETTINGS_MENU_ENABLECUSTOM": {
-      "message": "%u0E40%u0E1B%u0E34%u0E14%u0E43%u0E0A%u0E49%u0E07%u0E32%u0E19%u0E40%u0E21%u0E19%u0E39%u0E1B%u0E49%u0E32%u0E22%u0E0A%u0E37%u0E48%u0E2D%u0E17%u0E33%u0E40%u0E2D%u0E07"
-    },
-    "SETTINGS_MANAGESETTINGS": {
-      "message": "Manage settings"
-    },
-    "SETTINGS_BACKUPDESCRIPTION": {
-      "message": "WARNING: importing settings will overwrite all existing settings."
-    },
-    "SETTINGS_BTNIMPORT": {
-      "message": "Import settings%u2026"
-    },
-    "SETTINGS_BTNEXPORT": {
-      "message": "Export settings%u2026"
-    },
-    "SETTINGS_CUSTOMTAGS_TOTALTAGS": {
-      "message": "%u0E1B%u0E49%u0E32%u0E22%u0E0A%u0E37%u0E48%u0E2D%u0E17%u0E33%u0E40%u0E2D%u0E07%u0E17%u0E35%u0E48%u0E21%u0E35:"
-    },
-    "SETTINGS_CUSTOMTAGS_BTNADD": {
-      "message": "%u0E40%u0E1E%u0E34%u0E48%u0E21..."
-    },
-    "SETTINGS_CUSTOMTAGS_BTNEDIT": {
-      "message": "%u0E41%u0E01%u0E49%u0E44%u0E02..."
-    },
-    "SETTINGS_CUSTOMTAGS_BTNDELETE": {
-      "message": "%u0E25%u0E1A..."
-    },
-    "SETTINGS_CUSTOMTAGS_MOVEUP": {
-      "message": "%u0E40%u0E25%u0E37%u0E48%u0E2D%u0E19%u0E02%u0E36%u0E49%u0E19"
-    },
-    "SETTINGS_CUSTOMTAGS_MOVEDOWN": {
-      "message": "%u0E40%u0E25%u0E37%u0E48%u0E2D%u0E19%u0E25%u0E07"
-    },
-    "SETTINGS_CUSTOMTAGS_SORTALPHA": {
-      "message": "Sort alphabetically"
-    },
-    "SETTINGS_CUSTOMTAGS_MOREINFO": {
-      "message": "%u0E02%u0E49%u0E2D%u0E21%u0E39%u0E25%u0E41%u0E25%u0E30%u0E15%u0E31%u0E27%u0E2D%u0E22%u0E48%u0E32%u0E07%u0E40%u0E1E%u0E34%u0E48%u0E21%u0E40%u0E15%u0E34%u0E21"
-    },
-    "SETTINGS_CUSTOMTAGS_VARIABLES": {
-      "message": "%u0E15%u0E31%u0E27%u0E41%u0E1B%u0E23%u0E17%u0E35%u0E48%u0E43%u0E0A%u0E49%u0E07%u0E32%u0E19%u0E44%u0E14%u0E49"
-    },
-    "SETTINGS_CUSTOMTAGS_VARCLIPBOARD": {
-      "message": "%u0E40%u0E19%u0E37%u0E49%u0E2D%u0E2B%u0E32%u0E04%u0E25%u0E34%u0E1B%u0E1A%u0E2D%u0E23%u0E4C%u0E14"
-    },
-    "SETTINGS_CUSTOMTAGS_VARSELECTION": {
-      "message": "%u0E02%u0E49%u0E2D%u0E04%u0E27%u0E32%u0E21%u0E17%u0E35%u0E48%u0E40%u0E25%u0E37%u0E2D%u0E01"
-    },
-    "SETTINGS_CUSTOMTAGS_LABEL": {
-      "message": "%u0E0A%u0E37%u0E48%u0E2D%u0E27%u0E31%u0E15%u0E16%u0E38:"
-    },
-    "SETTINGS_CUSTOMTAGS_ACTION": {
-      "message": "%u0E42%u0E04%u0E49%u0E14:"
-    },
-    "SAVE_TAG_ORDER": {
-      "message": "Save Tag Order"
-    },
-    "ENTER_COLOR_HEX": {
-      "message": "ENTER FONT COLOR IN HEX"
+        "message": "ขีดเส้นทับ"
     }
-  }
-]
+}
