@@ -1,8 +1,5 @@
-[
-  {
-    "bbcwbx.bbcode": {
-      "message": "bbCode"
-    },
+{
+  "{\"message\": \"bbCode\"}": {
     "bbcwbx.bbcode.clp": {
       "message": "Presse-papiers"
     },
@@ -553,4 +550,4 @@
       "message": "ENTER FONT COLOR IN HEX"
     }
   }
-]
+}

@@ -1,818 +1,554 @@
-{
-  "bbcwbx.bbcode": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode)",
-    "parentId": "",
-    "menuArg": "",
-    "icons": {
-      "16": "icons/bbcwbx.svg"
+  {
+    "bbcwbx.bbcode": {
+      "message": "bbCode"
+    },
+    "bbcwbx.bbcode.clp": {
+      "message": "Clipboard"
+    },
+    "bbcwbx.bbcode.clp.quote": {
+      "message": "Quote"
+    },
+    "bbcwbx.bbcode.clp.code": {
+      "message": "Code"
+    },
+    "bbcwbx.bbcode.clp.list": {
+      "message": "List"
+    },
+    "bbcwbx.bbcode.clp.ordlist": {
+      "message": "Ordered list"
+    },
+    "bbcwbx.bbcode.clp.alphalist": {
+      "message": "Alphabetic list"
+    },
+    "bbcwbx.bbcode.clp.spoiler": {
+      "message": "Spoiler"
+    },
+    "bbcwbx.bbcode.clp.image": {
+      "message": "Image"
+    },
+    "bbcwbx.bbcode.clp.mkurlsel": {
+      "message": "Make URL from selection"
+    },
+    "bbcwbx.bbcode.clp.url": {
+      "message": "URL"
+    },
+    "bbcwbx.bbcode.clp.urlname": {
+      "message": "URL with name"
+    },
+    "bbcwbx.bbcode.wbx": {
+      "message": "WebEx"
+    },
+    "bbcwbx.bbcode.wbx.quote": {
+      "message": "Quote"
+    },
+    "bbcwbx.bbcode.wbx.code": {
+      "message": "Code"
+    },
+    "bbcwbx.bbcode.wbx.list": {
+      "message": "List"
+    },
+    "bbcwbx.bbcode.wbx.ordlist": {
+      "message": "Ordered list"
+    },
+    "bbcwbx.bbcode.wbx.alphalist": {
+      "message": "Alphabetic list"
+    },
+    "bbcwbx.bbcode.wbx.spoiler": {
+      "message": "Spoiler"
+    },
+    "bbcwbx.bbcode.wbx.fntcol": {
+      "message": "Font Color"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.white": {
+      "message": "White"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.black": {
+      "message": "Black"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.dk_gray": {
+      "message": "Dark gray"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.gray": {
+      "message": "Gray"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.lt_gray": {
+      "message": "Light gray"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.olive": {
+      "message": "Olive"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.yellow": {
+      "message": "Yellow"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.canary": {
+      "message": "Canary"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.maroon": {
+      "message": "Maroon"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.red": {
+      "message": "Red"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.pink": {
+      "message": "Pink"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.navy": {
+      "message": "Navy"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.blue": {
+      "message": "Blue"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.lt_blue": {
+      "message": "Light Blue"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.green": {
+      "message": "Green"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.lime_green": {
+      "message": "Lime Green"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.mint_green": {
+      "message": "Mint Green"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.indigo": {
+      "message": "Indigo"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.purple": {
+      "message": "Purple"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.fuchsia": {
+      "message": "Fuchsia"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.usrEnt": {
+      "message": "Enter Code in Hex"
+    },
+    "bbcwbx.bbcode.wbx.fntsz": {
+      "message": "Font Size"
+    },
+    "bbcwbx.bbcode.wbx.urlname": {
+      "message": "URL with name"
+    },
+    "bbcwbx.bbcode.wbx.urlwiz": {
+      "message": "URL Wizard"
+    },
+    "bbcwbx.bbcode.vbl": {
+      "message": "VBulletin3"
+    },
+    "bbcwbx.bbcode.vbl.thd": {
+      "message": "Thread"
+    },
+    "bbcwbx.bbcode.vbl.pst": {
+      "message": "Post"
+    },
+    "bbcwbx.bbcode.vbl.alnlf": {
+      "message": "Align right"
+    },
+    "bbcwbx.bbcode.vbl.alnrt": {
+      "message": "Align left"
+    },
+    "bbcwbx.bbcode.vbl.ctr": {
+      "message": "Center"
+    },
+    "bbcwbx.bbcode.vbl.indnt": {
+      "message": "Indent"
+    },
+    "bbcwbx.bbcode.vbl.hilt": {
+      "message": "Highlight"
+    },
+    "bbcwbx.bbcode.bold": {
+      "message": "Bold"
+    },
+    "bbcwbx.bbcode.ital": {
+      "message": "Italic"
+    },
+    "bbcwbx.bbcode.undrln": {
+      "message": "Underlined"
+    },
+    "bbcwbx.bbcode.img": {
+      "message": "Image"
+    },
+    "bbcwbx.bbcode.url": {
+      "message": "URL"
+    },
+    "bbcwbx.html": {
+      "message": "HTML"
+    },
+    "bbcwbx.html.clp": {
+      "message": "Clipboard"
+    },
+    "bbcwbx.html.clp.quote": {
+      "message": "Quote"
+    },
+    "bbcwbx.html.clp.code": {
+      "message": "Code"
+    },
+    "bbcwbx.html.clp.list": {
+      "message": "List"
+    },
+    "bbcwbx.html.clp.ordlist": {
+      "message": "Ordered list"
+    },
+    "bbcwbx.html.clp.alphalist": {
+      "message": "Alphabetic list"
+    },
+    "bbcwbx.html.clp.image": {
+      "message": "Image"
+    },
+    "bbcwbx.html.clp.mkurlsel": {
+      "message": "Make URL from selection"
+    },
+    "bbcwbx.html.clp.url": {
+      "message": "URL"
+    },
+    "bbcwbx.html.clp.urlname": {
+      "message": "URL with name"
+    },
+    "bbcwbx.html.wbx": {
+      "message": "WebEx"
+    },
+    "bbcwbx.html.wbx.quote": {
+      "message": "Quote"
+    },
+    "bbcwbx.html.wbx.code": {
+      "message": "Code"
+    },
+    "bbcwbx.html.wbx.list": {
+      "message": "List"
+    },
+    "bbcwbx.html.wbx.ordlist": {
+      "message": "Ordered list"
+    },
+    "bbcwbx.html.wbx.alphalist": {
+      "message": "Alphabetic list"
+    },
+    "bbcwbx.html.wbx.urlname": {
+      "message": "URL with name"
+    },
+    "bbcwbx.html.wbx.urlwiz": {
+      "message": "URL Wizard"
+    },
+    "bbcwbx.html.bold": {
+      "message": "Bold"
+    },
+    "bbcwbx.html.ital": {
+      "message": "Italic"
+    },
+    "bbcwbx.html.undrln": {
+      "message": "Underlined"
+    },
+    "bbcwbx.html.strk": {
+      "message": "Strikethrough"
+    },
+    "bbcwbx.html.img": {
+      "message": "Image"
+    },
+    "bbcwbx.html.url": {
+      "message": "URL"
+    },
+    "bbcwbx.xhtml": {
+      "message": "XHTML"
+    },
+    "bbcwbx.xhtml.clp": {
+      "message": "Clipboard"
+    },
+    "bbcwbx.xhtml.clp.quote": {
+      "message": "Quote"
+    },
+    "bbcwbx.xhtml.clp.code": {
+      "message": "Code"
+    },
+    "bbcwbx.xhtml.clp.list": {
+      "message": "List"
+    },
+    "bbcwbx.xhtml.clp.ordlist": {
+      "message": "Ordered list"
+    },
+    "bbcwbx.xhtml.clp.alphalist": {
+      "message": "Alphabetic list"
+    },
+    "bbcwbx.xhtml.img": {
+      "message": "Image"
+    },
+    "bbcwbx.xhtml.clp.mkurlsel": {
+      "message": "Make URL from selection"
+    },
+    "bbcwbx.xhtml.clp.url": {
+      "message": "URL"
+    },
+    "bbcwbx.xhtml.clp.urlname": {
+      "message": "URL with name"
+    },
+    "bbcwbx.xhtml.wbx": {
+      "message": "WebEx"
+    },
+    "bbcwbx.xhtml.wbx.quote": {
+      "message": "Quote"
+    },
+    "bbcwbx.xhtml.wbx.code": {
+      "message": "Code"
+    },
+    "bbcwbx.xhtml.wbx.list": {
+      "message": "List"
+    },
+    "bbcwbx.xhtml.wbx.ordlist": {
+      "message": "Ordered list"
+    },
+    "bbcwbx.xhtml.wbx.alphalist": {
+      "message": "Alphabetic list"
+    },
+    "bbcwbx.xhtml.wbx.urlname": {
+      "message": "URL with name"
+    },
+    "bbcwbx.xhtml.wbx.urlwiz": {
+      "message": "URL Wizard"
+    },
+    "bbcwbx.xhtml.bold": {
+      "message": "Bold"
+    },
+    "bbcwbx.xhtml.ital": {
+      "message": "Italic"
+    },
+    "bbcwbx.xhtml.undrln": {
+      "message": "Underlined"
+    },
+    "bbcwbx.xhtml.strk": {
+      "message": "Strikethrough"
+    },
+    "bbcwbx.xhtml.image": {
+      "message": "Image"
+    },
+    "bbcwbx.xhtml.url": {
+      "message": "URL"
+    },
+    "bbcwbx.custom": {
+      "message": "Custom Tags"
+    },
+    "bbcwbx.mkdn": {
+      "message": "Markdown"
+    },
+    "bbcwbx.mkdn.clp": {
+      "message": "Clipboard"
+    },
+    "bbcwbx.mkdn.clp.quote": {
+      "message": "Quote"
+    },
+    "bbcwbx.mkdn.clp.code": {
+      "message": "Code"
+    },
+    "bbcwbx.mkdn.clp.list": {
+      "message": "List"
+    },
+    "bbcwbx.mkdn.clp.ordlist": {
+      "message": "Ordered list"
+    },
+    "bbcwbx.mkdn.clp.mkurlsel": {
+      "message": "Make URL from selection"
+    },
+    "bbcwbx.mkdn.clp.mkimgsel": {
+      "message": "Make image from selection"
+    },
+    "bbcwbx.mkdn.clp.urlname": {
+      "message": "URL with name"
+    },
+    "bbcwbx.mkdn.wbx": {
+      "message": "WebEx"
+    },
+    "bbcwbx.mkdn.wbx.quote": {
+      "message": "Quote"
+    },
+    "bbcwbx.mkdn.wbx.code": {
+      "message": "Code"
+    },
+    "bbcwbx.mkdn.wbx.list": {
+      "message": "List"
+    },
+    "bbcwbx.mkdn.wbx.ordlist": {
+      "message": "Ordered list"
+    },
+    "bbcwbx.mkdn.wbx.urlname": {
+      "message": "URL with name"
+    },
+    "bbcwbx.mkdn.wbx.urlwiz": {
+      "message": "URL Wizard"
+    },
+    "bbcwbx.mkdn.bold": {
+      "message": "Bold"
+    },
+    "bbcwbx.mkdn.ital": {
+      "message": "Italic"
+    },
+    "bbcwbx.mkdn.strk": {
+      "message": "Strikethrough"
+    },
+    "INS_AUTHOR": {
+      "message": "Please insert author name or leave empty:"
+    },
+    "INS_LINKNAME": {
+      "message": "Please insert link name:"
+    },
+    "INS_FONTSIZE": {
+      "message": "Please insert text size:"
+    },
+    "INS_FONTCOLOR": {
+      "message": "Please insert text color:"
+    },
+    "URLCOMPOSTO_STEP1": {
+      "message": "Link name?"
+    },
+    "URLCOMPOSTO_STEP2": {
+      "message": "Link?"
+    },
+    "INS_THREADNUM": {
+      "message": "Please insert thread number:"
+    },
+    "INS_POSTNUM": {
+      "message": "Please insert post number:"
+    },
+    "MENU_NO_CUSTOM_TAGS": {
+      "message": "No custom tags defined"
+    },
+    "MENU_DISABLE": {
+      "message": "Disable this menu"
+    },
+    "MENU_SETTINGS": {
+      "message": "bbCodeWebex settings%u2026"
+    },
+    "DELETE_CUSTOMTAG": {
+      "message": "Do you want to remove this item?"
+    },
+    "WINDOWTITLE_EDITCUSTOMTAG": {
+      "message": "Edit Custom Tag"
+    },
+    "WINDOWTITLE_NEWCUSTOMTAG": {
+      "message": "Add New Custom Tag"
+    },
+    "ALERT_REORDER_TITLE": {
+      "message": "Reorder Custom Tags"
+    },
+    "ALERT_REORDER_TEXT": {
+      "message": "Custom tags will be arranged in alphabetical order. This action cannot be undone, unless you restore an existing backup. Do you want to continue?"
+    },
+    "WINDOWTITLE_EXPORT": {
+      "message": "Choose export file"
+    },
+    "WINDOWTITLE_IMPORT": {
+      "message": "Choose import file"
+    },
+    "ALERT_IMPORT_TITLE": {
+      "message": "Import Settings"
+    },
+    "ALERT_IMPORT_TEXT": {
+      "message": "This will overwrite all existing settings. Are you sure?"
+    },
+    "ALERT_IMPORT_COMPLETED": {
+      "message": "Operation completed."
+    },
+    "description": {
+      "message": "Adds BBCode/HTML/XHTML/Vbulletin/Markup and custom tags commands to the context menu"
+    },
+    "name": {
+      "message": "bbCodeWebex"
+    },
+    "SETTINGSMENU": {
+      "message": "bbCodeWebex settings%u2026"
+    },
+    "DISABLEMENU": {
+      "message": "Disable this menu"
+    },
+    "PICKCOLOR_TITLE": {
+      "message": "Pick a color"
+    },
+    "PICKCOLOR_DESCRIPTION": {
+      "message": "Select the font color from the list"
+    },
+    "PICKCOLOR_LASTCOLOR": {
+      "message": "Last used color :"
+    },
+    "SETTINGS_TITLE": {
+      "message": "bbCodeWebex Settings"
+    },
+    "SETTINGS_MENU": {
+      "message": "Menus"
+    },
+    "SETTINGS_CUSTOMTAGS": {
+      "message": "Custom Tags"
+    },
+    "SETTINGS_MENU_DESCRIPTION": {
+      "message": "Select items to display in the context menu"
+    },
+    "SETTINGS_MENU_ENABLEBBCODE": {
+      "message": "Enable bbcode menu"
+    },
+    "SETTINGS_MENU_ENABLEBBCODE_VBULLETIN": {
+      "message": "enable VBulletin submenu"
+    },
+    "SETTINGS_MENU_ENABLEHTML": {
+      "message": "Enable HTML menu"
+    },
+    "SETTINGS_MENU_ENABLEXHTML": {
+      "message": "Enable XHTML menu"
+    },
+    "SETTINGS_MENU_ENABLEMARKDOWN": {
+      "message": "Enable Markdown menu"
+    },
+    "SETTINGS_MENU_ENABLECUSTOM": {
+      "message": "Enable Custom Tags menu"
+    },
+    "SETTINGS_MANAGESETTINGS": {
+      "message": "Manage settings"
+    },
+    "SETTINGS_BACKUPDESCRIPTION": {
+      "message": "WARNING: importing settings will overwrite all existing settings."
+    },
+    "SETTINGS_BTNIMPORT": {
+      "message": "Import settings%u2026"
+    },
+    "SETTINGS_BTNEXPORT": {
+      "message": "Export settings%u2026"
+    },
+    "SETTINGS_CUSTOMTAGS_TOTALTAGS": {
+      "message": "Available Custom Tags:"
+    },
+    "SETTINGS_CUSTOMTAGS_BTNADD": {
+      "message": "Add%u2026"
+    },
+    "SETTINGS_CUSTOMTAGS_BTNEDIT": {
+      "message": "Edit%u2026"
+    },
+    "SETTINGS_CUSTOMTAGS_BTNDELETE": {
+      "message": "Delete%u2026"
+    },
+    "SETTINGS_CUSTOMTAGS_MOVEUP": {
+      "message": "Move Up"
+    },
+    "SETTINGS_CUSTOMTAGS_MOVEDOWN": {
+      "message": "Move Down"
+    },
+    "SETTINGS_CUSTOMTAGS_SORTALPHA": {
+      "message": "Sort alphabetically"
+    },
+    "SETTINGS_CUSTOMTAGS_MOREINFO": {
+      "message": "More info and examples"
+    },
+    "SETTINGS_CUSTOMTAGS_VARIABLES": {
+      "message": "Available variables"
+    },
+    "SETTINGS_CUSTOMTAGS_VARCLIPBOARD": {
+      "message": "clipboard content"
+    },
+    "SETTINGS_CUSTOMTAGS_VARSELECTION": {
+      "message": "selected text"
+    },
+    "SETTINGS_CUSTOMTAGS_LABEL": {
+      "message": "Item name:"
+    },
+    "SETTINGS_CUSTOMTAGS_ACTION": {
+      "message": "Code:"
+    },
+    "SAVE_TAG_ORDER": {
+      "message": "Save Tag Order"
+    },
+    "ENTER_COLOR_HEX": {
+      "message": "ENTER FONT COLOR IN HEX"
     }
-  },
-  "bbcwbx.bbcode.clp": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.clp)",
-    "parentId": "bbcwbx.bbcode",
-    "menuArg": "",
-    "icons": ""
-  },
-  "bbcwbx.bbcode.clp.quote": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.clp.quote)",
-    "parentId": "bbcwbx.bbcode.clp",
-    "menuArg": "{{zzpopup,i18n.INS_AUTHOR,##authorQuote##,=\",\"}}[quote##AUTHORQUOTE##]{{clipboard}}[/quote]",
-    "icons": ""
-  },
-  "bbcwbx.bbcode.clp.code": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.clp.code)",
-    "parentId": "bbcwbx.bbcode.clp",
-    "menuArg": "[code]{{clipboard}}[/code]",
-    "icons": ""
-  },
-  "bbcwbx.bbcode.clp.list": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.clp.list)",
-    "parentId": "bbcwbx.bbcode.clp",
-    "menuArg": "{{makeList{{clipboard}},\"bbcode\"}}",
-    "icons": ""
-  },
-  "bbcwbx.bbcode.clp.ordlist": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.clp.ordlist)",
-    "parentId": "bbcwbx.bbcode.clp",
-    "menuArg": "{{makeList{{clipboard}},\"bbcodeord\"}}",
-    "icons": ""
-  },
-  "bbcwbx.bbcode.clp.alphalist": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.clp.alphalist)",
-    "parentId": "bbcwbx.bbcode.clp",
-    "menuArg": "{{makeList{{clipboard}},\"bbcodeordalf\"}}",
-    "icons": ""
-  },
-  "bbcwbx.bbcode.clp.spoiler": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.clp.spoiler)",
-    "parentId": "bbcwbx.bbcode.clp",
-    "menuArg": "[spoiler]{{clipboard}}[/spoiler]",
-    "icons": ""
-  },
-  "bbcwbx.bbcode.clp.image": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.clp.image)",
-    "parentId": "bbcwbx.bbcode.clp",
-    "menuArg": "[img]{{clipboard}}[/img]",
-    "icons": ""
-  },
-  "bbcwbx.bbcode.clp.mkurlsel": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.clp.mkurlsel)",
-    "parentId": "bbcwbx.bbcode.clp",
-    "menuArg": "[url={{clipboard}}]{{selection}}[/url]",
-    "icons": ""
-  },
-  "bbcwbx.bbcode.clp.url": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.clp.url)",
-    "parentId": "bbcwbx.bbcode.clp",
-    "menuArg": "[url]{{clipboard}}[/url]",
-    "icons": ""
-  },
-  "bbcwbx.bbcode.clp.urlname": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.clp.urlname)",
-    "parentId": "bbcwbx.bbcode.clp",
-    "menuArg": "{{zzpopup,i18n.INS_LINKNAME,##LINKNAME##,,}}[url={{clipboard}}]##LINKNAME##[/url]",
-    "icons": ""
-  },
-  "bbcwbx.bbcode.wbx": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.wbx)",
-    "parentId": "bbcwbx.bbcode",
-    "menuArg": "",
-    "icons": ""
-  },
-  "bbcwbx.bbcode.wbx.quote": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.wbx.quote)",
-    "parentId": "bbcwbx.bbcode.wbx",
-    "menuArg": "{{zzpopup,i18n.INS_AUTHOR,##authorQuote##,=\",\"}}[quote##AUTHORQUOTE##]{{selection}}[/quote]",
-    "icons": ""
-  },
-  "bbcwbx.bbcode.wbx.code": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.wbx.code)",
-    "parentId": "bbcwbx.bbcode.wbx",
-    "menuArg": "[code]{{selection}}[/code]",
-    "icons": ""
-  },
-  "bbcwbx.bbcode.wbx.list": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.wbx.list)",
-    "parentId": "bbcwbx.bbcode.wbx",
-    "menuArg": "{{makeList{{selection}},\"bbcode\"}}",
-    "icons": ""
-  },
-  "bbcwbx.bbcode.wbx.ordlist": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.wbx.ordlist)",
-    "parentId": "bbcwbx.bbcode.wbx",
-    "menuArg": "{{makeList{{selection}},\"bbcodeord\"}}",
-    "icons": ""
-  },
-  "bbcwbx.bbcode.wbx.alphalist": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.wbx.alphalist)",
-    "parentId": "bbcwbx.bbcode.wbx",
-    "menuArg": "{{makeList{{selection}},\"bbcodeordalf\"}}",
-    "icons": ""
-  },
-  "bbcwbx.bbcode.wbx.spoiler": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.wbx.spoiler)",
-    "parentId": "bbcwbx.bbcode.wbx",
-    "menuArg": "[spoiler]{{selection}}[/spoiler]",
-    "icons": ""
-  },
-  "bbcwbx.bbcode.wbx.fntcol": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.wbx.fntcol)",
-    "parentId": "bbcwbx.bbcode.wbx",
-    "menuArg": "",
-    "icons": {
-      "16": "icons/bbcodextra_color.png"
-    }
-  },
-  "bbcwbx.bbcode.wbx.fntcol.white": {
-    "menuTitle": "White",
-    "parentId": "bbcwbx.bbcode.wbx.fntcol",
-    "menuArg": "[color=#FFFFFF]{{selection}}[/color]",
-    "icons": {
-      "16": "icons/white.svg"
-    }
-  },
-  "bbcwbx.bbcode.wbx.fntcol.black": {
-    "menuTitle": "Black",
-    "parentId": "bbcwbx.bbcode.wbx.fntcol",
-    "menuArg": "[color=#000000]{{selection}}[/color]",
-    "icons": {
-      "16": "icons/black.svg"
-    }
-  },
-  "bbcwbx.bbcode.wbx.fntcol.dk_gray": {
-    "menuTitle": "Dark gray",
-    "parentId": "bbcwbx.bbcode.wbx.fntcol",
-    "menuArg": "[color=#555555]{{selection}}[/color]",
-    "icons": {
-      "16": "icons/dk_gray.svg"
-    }
-  },
-  "bbcwbx.bbcode.wbx.fntcol.gray": {
-    "menuTitle": "Gray",
-    "parentId": "bbcwbx.bbcode.wbx.fntcol",
-    "menuArg": "[color=#808080]{{selection}}[/color]",
-    "icons": {
-      "16": "icons/gray.svg"
-    }
-  },
-  "bbcwbx.bbcode.wbx.fntcol.lt_gray": {
-    "menuTitle": "Light gray",
-    "parentId": "bbcwbx.bbcode.wbx.fntcol",
-    "menuArg": "[color=#AAAAAA]{{selection}}[/color]",
-    "icons": {
-      "16": "icons/lt_gray.svg"
-    }
-  },
-  "bbcwbx.bbcode.wbx.fntcol.olive": {
-    "menuTitle": "Olive",
-    "parentId": "bbcwbx.bbcode.wbx.fntcol",
-    "menuArg": "[color=#808000]{{selection}}[/color]",
-    "icons": {
-      "16": "icons/olive.svg"
-    }
-  },
-  "bbcwbx.bbcode.wbx.fntcol.yellow": {
-    "menuTitle": "Yellow",
-    "parentId": "bbcwbx.bbcode.wbx.fntcol",
-    "menuArg": "[color=#FFFF00]{{selection}}[/color]",
-    "icons": {
-      "16": "icons/yellow.svg"
-    }
-  },
-  "bbcwbx.bbcode.wbx.fntcol.canary": {
-    "menuTitle": "Canary",
-    "parentId": "bbcwbx.bbcode.wbx.fntcol",
-    "menuArg": "[color=#FFFF99]{{selection}}[/color]",
-    "icons": {
-      "16": "icons/canary.svg"
-    }
-  },
-  "bbcwbx.bbcode.wbx.fntcol.maroon": {
-    "menuTitle": "Maroon",
-    "parentId": "bbcwbx.bbcode.wbx.fntcol",
-    "menuArg": "[color=#800000]{{selection}}[/color]",
-    "icons": {
-      "16": "icons/maroon.svg"
-    }
-  },
-  "bbcwbx.bbcode.wbx.fntcol.red": {
-    "menuTitle": "Red",
-    "parentId": "bbcwbx.bbcode.wbx.fntcol",
-    "menuArg": "[color=#FF0000]{{selection}}[/color]",
-    "icons": {
-      "16": "icons/red.svg"
-    }
-  },
-  "bbcwbx.bbcode.wbx.fntcol.pink": {
-    "menuTitle": "Pink",
-    "parentId": "bbcwbx.bbcode.wbx.fntcol",
-    "menuArg": "[color=#FFC0CB]{{selection}}[/color]",
-    "icons": {
-      "16": "icons/pink.svg"
-    }
-  },
-  "bbcwbx.bbcode.wbx.fntcol.navy": {
-    "menuTitle": "Navy",
-    "parentId": "bbcwbx.bbcode.wbx.fntcol",
-    "menuArg": "[color=#000080]{{selection}}[/color]",
-    "icons": {
-      "16": "icons/navy.svg"
-    }
-  },
-  "bbcwbx.bbcode.wbx.fntcol.blue": {
-    "menuTitle": "Blue",
-    "parentId": "bbcwbx.bbcode.wbx.fntcol",
-    "menuArg": "[color=#0000FF]{{selection}}[/color]",
-    "icons": {
-      "16": "icons/blue.svg"
-    }
-  },
-  "bbcwbx.bbcode.wbx.fntcol.lt_blue": {
-    "menuTitle": "Light Blue",
-    "parentId": "bbcwbx.bbcode.wbx.fntcol",
-    "menuArg": "[color=#B3B3FF]{{selection}}[/color]",
-    "icons": {
-      "16": "icons/lt_blue.svg"
-    }
-  },
-  "bbcwbx.bbcode.wbx.fntcol.green": {
-    "menuTitle": "Green",
-    "parentId": "bbcwbx.bbcode.wbx.fntcol",
-    "menuArg": "[color=#008000]{{selection}}[/color]",
-    "icons": {
-      "16": "icons/green.svg"
-    }
-  },
-  "bbcwbx.bbcode.wbx.fntcol.lime_green": {
-    "menuTitle": "Lime Green",
-    "parentId": "bbcwbx.bbcode.wbx.fntcol",
-    "menuArg": "[color=#00FF00]{{selection}}[/color]",
-    "icons": {
-      "16": "icons/lime_green.svg"
-    }
-  },
-  "bbcwbx.bbcode.wbx.fntcol.mint_green": {
-    "menuTitle": "Mint Green",
-    "parentId": "bbcwbx.bbcode.wbx.fntcol",
-    "menuArg": "[color=#98FB98]{{selection}}[/color]",
-    "icons": {
-      "16": "icons/mint_green.svg"
-    }
-  },
-  "bbcwbx.bbcode.wbx.fntcol.indigo": {
-    "menuTitle": "Indigo",
-    "parentId": "bbcwbx.bbcode.wbx.fntcol",
-    "menuArg": "[color=#4B0082]{{selection}}[/color]",
-    "icons": {
-      "16": "icons/indigo.svg"
-    }
-  },
-  "bbcwbx.bbcode.wbx.fntcol.purple": {
-    "menuTitle": "Purple",
-    "parentId": "bbcwbx.bbcode.wbx.fntcol",
-    "menuArg": "[color=#800080]{{selection}}[/color]",
-    "icons": {
-      "16": "icons/purple.svg"
-    }
-  },
-  "bbcwbx.bbcode.wbx.fntcol.fuchsia": {
-    "menuTitle": "Fuchsia",
-    "parentId": "bbcwbx.bbcode.wbx.fntcol",
-    "menuArg": "[color=#FF00FF]{{selection}}[/color]",
-    "icons": {
-      "16": "icons/fuchsia.svg"
-    }
-  },
-  "bbcwbx.bbcode.wbx.fntcol.usrEnt": {
-    "menuTitle": "Enter Code in Hex",
-    "parentId": "bbcwbx.bbcode.wbx.fntcol",
-    "menuArg": "{{zzpopup,i18n.ENTER_COLOR_HEX,##hexColor##,,}}[color=##hexColor##[{{selection}}[/color]",
-    "icons": ""
-  },
-  "bbcwbx.bbcode.wbx.fntsz": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.wbx.fntsz)",
-    "parentId": "bbcwbx.bbcode.wbx",
-    "menuArg": "{{zzpopup,i18n.INS_FONTSIZE,##fontSize##,,}}[size=##fontSize##]{{selection}}[/size]",
-    "icons": ""
-  },
-  "bbcwbx.bbcode.wbx.urlname": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.wbx.urlname)",
-    "parentId": "bbcwbx.bbcode.wbx",
-    "menuArg": "{{zzpopup,i18n.INS_LINKNAME,##LINKNAME##,,}}[url={{selection}}]##LINKNAME##[/url]",
-    "icons": ""
-  },
-  "bbcwbx.bbcode.wbx.urlwiz": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.wbx.urlwiz)",
-    "parentId": "bbcwbx.bbcode.wbx",
-    "menuArg": "{{zzpopup,i18n.URLCOMPOSTO_STEP1,##linkName##,,}}{{zzpopup,i18n.URLCOMPOSTO_STEP2,##URL##,,}}[url=##URL##]##linkName##[/url]",
-    "icons": ""
-  },
-  "bbcwbx.bbcode.vbl": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.vbl)",
-    "parentId": "bbcwbx.bbcode",
-    "menuArg": "",
-    "icons": {
-      "16": "icons/bbcwbx.svg"
-    }
-  },
-  "bbcwbx.bbcode.vbl.thd": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.vbl.thd)",
-    "parentId": "bbcwbx.bbcode.vbl",
-    "menuArg": "{{zzpopup,i18INS_THREADNUM,##threadNum##,,}}[thread=##threadNum##]{{selection}}[/thread]",
-    "icons": ""
-  },
-  "bbcwbx.bbcode.vbl.pst": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.vbl.pst)",
-    "parentId": "bbcwbx.bbcode.vbl",
-    "menuArg": "{{zzpopup,i18n.INS_POSTNUM,##postNum##,,}}[post=##postNum##]{{selection}}[/post]",
-    "icons": ""
-  },
-  "bbcwbx.bbcode.vbl.alnlf": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.vbl.alnlf)",
-    "parentId": "bbcwbx.bbcode.vbl",
-    "menuArg": "[right]{{selection}}[/right]",
-    "icons": ""
-  },
-  "bbcwbx.bbcode.vbl.alnrt": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.vbl.alnrt)",
-    "parentId": "bbcwbx.bbcode.vbl",
-    "menuArg": "[left]{{selection}}[/left]",
-    "icons": ""
-  },
-  "bbcwbx.bbcode.vbl.ctr": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.vbl.ctr)",
-    "parentId": "bbcwbx.bbcode.vbl",
-    "menuArg": "[center]{{selection}}[/center]",
-    "icons": ""
-  },
-  "bbcwbx.bbcode.vbl.indnt": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.vbl.indnt)",
-    "parentId": "bbcwbx.bbcode.vbl",
-    "menuArg": "[indent]{{selection}}[/indent]",
-    "icons": ""
-  },
-  "bbcwbx.bbcode.vbl.hilt": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.vbl.hilt)",
-    "parentId": "bbcwbx.bbcode.vbl",
-    "menuArg": "[highlight]{{selection}}[/highlight]",
-    "icons": ""
-  },
-  "bbcwbx.bbcode.bold": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.bold)",
-    "parentId": "bbcwbx.bbcode",
-    "menuArg": "[b]{{selection}}[/b]",
-    "icons": ""
-  },
-  "bbcwbx.bbcode.ital": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.ital)",
-    "parentId": "bbcwbx.bbcode",
-    "menuArg": "[i]{{selection}}[/i]",
-    "icons": ""
-  },
-  "bbcwbx.bbcode.undrln": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.undrln)",
-    "parentId": "bbcwbx.bbcode",
-    "menuArg": "[u]{{selection}}[/u]",
-    "icons": ""
-  },
-  "bbcwbx.bbcode.img": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.img)",
-    "parentId": "bbcwbx.bbcode",
-    "menuArg": "[img]{{selection}}[/img]",
-    "icons": ""
-  },
-  "bbcwbx.bbcode.url": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.url)",
-    "parentId": "bbcwbx.bbcode",
-    "menuArg": "[url]{{selection}}[/url]",
-    "icons": ""
-  },
-  "bbcwbx.html": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.html)",
-    "parentId": "",
-    "menuArg": "",
-    "icons": {
-      "16": "icons/bbcwbx.svg"
-    }
-  },
-  "bbcwbx.html.clp": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.html.clp)",
-    "parentId": "bbcwbx.html",
-    "menuArg": "",
-    "icons": ""
-  },
-  "bbcwbx.html.clp.quote": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.html.clp.quote)",
-    "parentId": "bbcwbx.html.clp",
-    "menuArg": "<blockquote>{{clipboard}}</blockquote>",
-    "icons": ""
-  },
-  "bbcwbx.html.clp.code": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.html.clp.code)",
-    "parentId": "bbcwbx.html.clp",
-    "menuArg": "<code>{{clipboard}}</code>",
-    "icons": ""
-  },
-  "bbcwbx.html.clp.list": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.html.clp.list)",
-    "parentId": "bbcwbx.html.clp",
-    "menuArg": "{{makeList{{clipboard}},\"html\"}}",
-    "icons": ""
-  },
-  "bbcwbx.html.clp.ordlist": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.html.clp.ordlist)",
-    "parentId": "bbcwbx.html.clp",
-    "menuArg": "{{makeList{{clipboard}},\"htmlord\"}}",
-    "icons": ""
-  },
-  "bbcwbx.html.clp.alphalist": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.html.clp.alphalist)",
-    "parentId": "bbcwbx.html.clp",
-    "menuArg": "{{makeList{{clipboard}},\"htmlordalf\"}}",
-    "icons": ""
-  },
-  "bbcwbx.html.clp.image": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.html.clp.image)",
-    "parentId": "bbcwbx.html.clp",
-    "menuArg": "<img src=\"{{clipboard}}\">",
-    "icons": ""
-  },
-  "bbcwbx.html.clp.mkurlsel": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.html.clp.mkurlsel)",
-    "parentId": "bbcwbx.html.clp",
-    "menuArg": "<a href=\"{{clipboard}}\">{{selection}}</a>",
-    "icons": ""
-  },
-  "bbcwbx.html.clp.url": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.html.clp.url)",
-    "parentId": "bbcwbx.html.clp",
-    "menuArg": "<a href=\"{{clipboard}}\">{{clipboard}}</a>",
-    "icons": ""
-  },
-  "bbcwbx.html.clp.urlname": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.html.clp.urlname)",
-    "parentId": "bbcwbx.html.clp",
-    "menuArg": "{{zzpopup,i18n.INS_LINKNAME,##LINKNAME##,,}}<a href={{clipboard}}\">{{zzpopup,i18n.INS_LINKNAME,\"\",\"\"}}</a>",
-    "icons": ""
-  },
-  "bbcwbx.html.wbx": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.html.wbx)",
-    "parentId": "bbcwbx.html",
-    "menuArg": "",
-    "icons": ""
-  },
-  "bbcwbx.html.wbx.quote": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.html.wbx.quote)",
-    "parentId": "bbcwbx.html.wbx",
-    "menuArg": "<blockquote>{{selection}}</blockquote>",
-    "icons": ""
-  },
-  "bbcwbx.html.wbx.code": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.html.wbx.code)",
-    "parentId": "bbcwbx.html.wbx",
-    "menuArg": "<code>{{selection}}</code>",
-    "icons": ""
-  },
-  "bbcwbx.html.wbx.list": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.html.wbx.list)",
-    "parentId": "bbcwbx.html.wbx",
-    "menuArg": "{{makeList{{selection}},\"html\"}}",
-    "icons": ""
-  },
-  "bbcwbx.html.wbx.ordlist": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.html.wbx.ordlist)",
-    "parentId": "bbcwbx.html.wbx",
-    "menuArg": "{{makeList{{selection}},\"htmlord\"}}",
-    "icons": ""
-  },
-  "bbcwbx.html.wbx.alphalist": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.html.wbx.alphalist)",
-    "parentId": "bbcwbx.html.wbx",
-    "menuArg": "{{makeList{{selection}},\"htmlordalf\"}}",
-    "icons": ""
-  },
-  "bbcwbx.html.wbx.urlname": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.html.wbx.urlname)",
-    "parentId": "bbcwbx.html.wbx",
-    "menuArg": "{{zzpopup,i18n.INS_LINKNAME,##LINKNAME##,,}}<a href={{selection}}\">##LINKNAME##</a>",
-    "icons": ""
-  },
-  "bbcwbx.html.wbx.urlwiz": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.html.wbx.urlwiz)",
-    "parentId": "bbcwbx.html.wbx",
-    "menuArg": "{{zzpopup,i18n.URLCOMPOSTO_STEP1,##linkName##,,}}{{zzpopup,i18n.URLCOMPOSTO_STEP2,##URL##,,}}<a href=\"##URL##\">##linkName##</a>",
-    "icons": ""
-  },
-  "bbcwbx.html.bold": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.html.bold)",
-    "parentId": "bbcwbx.html",
-    "menuArg": "<b>{{selection}}</b>",
-    "icons": ""
-  },
-  "bbcwbx.html.ital": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.html.ital)",
-    "parentId": "bbcwbx.html",
-    "menuArg": "<i>{{selection}}</i>",
-    "icons": ""
-  },
-  "bbcwbx.html.undrln": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.html.undrln)",
-    "parentId": "bbcwbx.html",
-    "menuArg": "<u>{{selection}}</u>",
-    "icons": ""
-  },
-  "bbcwbx.html.strk": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.html.strk)",
-    "parentId": "bbcwbx.html",
-    "menuArg": "<s>{{selection}}</s>",
-    "icons": ""
-  },
-  "bbcwbx.html.img": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.html.img)",
-    "parentId": "bbcwbx.html",
-    "menuArg": "<img src=\"{{selection}}\">",
-    "icons": ""
-  },
-  "bbcwbx.html.url": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.html.url)",
-    "parentId": "bbcwbx.html",
-    "menuArg": "<a href=\"{{selection}}\">{{selection}}</a>",
-    "icons": ""
-  },
-  "bbcwbx.xhtml": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.xhtml)",
-    "parentId": "",
-    "menuArg": "",
-    "icons": {
-      "16": "icons/bbcwbx.svg"
-    }
-  },
-  "bbcwbx.xhtml.clp": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.xhtml.clp)",
-    "parentId": "bbcwbx.xhtml",
-    "menuArg": "",
-    "icons": ""
-  },
-  "bbcwbx.xhtml.clp.quote": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.xhtml.clp.quote)",
-    "parentId": "bbcwbx.xhtml.clp",
-    "menuArg": "<blockquote>{{clipboard}}</blockquote>",
-    "icons": ""
-  },
-  "bbcwbx.xhtml.clp.code": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.xhtml.clp.code)",
-    "parentId": "bbcwbx.xhtml.clp",
-    "menuArg": "<code>{{clipboard}}</code>",
-    "icons": ""
-  },
-  "bbcwbx.xhtml.clp.list": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.xhtml.clp.list)",
-    "parentId": "bbcwbx.xhtml.clp",
-    "menuArg": "{{makeList{{clipboard}},\"html\"}}",
-    "icons": ""
-  },
-  "bbcwbx.xhtml.clp.ordlist": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.xhtml.clp.ordlist)",
-    "parentId": "bbcwbx.xhtml.clp",
-    "menuArg": "{{makeList{{clipboard}},\"htmlord\"}}",
-    "icons": ""
-  },
-  "bbcwbx.xhtml.clp.alphalist": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.xhtml.clp.alphalist)",
-    "parentId": "bbcwbx.xhtml.clp",
-    "menuArg": "{{makeList{{clipboard}},\"htmlordalf\"}}",
-    "icons": ""
-  },
-  "bbcwbx.xhtml.img": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.xhtml.img)",
-    "parentId": "bbcwbx.xhtml",
-    "menuArg": "<img src=\"{{clipboard}}\">",
-    "icons": ""
-  },
-  "bbcwbx.xhtml.clp.mkurlsel": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.xhtml.clp.mkurlsel)",
-    "parentId": "bbcwbx.xhtml.clp",
-    "menuArg": "<a href=\"{{clipboard}}\">{{selection}}</a>",
-    "icons": ""
-  },
-  "bbcwbx.xhtml.clp.url": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.xhtml.clp.url)",
-    "parentId": "bbcwbx.xhtml.clp",
-    "menuArg": "<a href=\"{{clipboard}}\">{{clipboard}}</a>",
-    "icons": ""
-  },
-  "bbcwbx.xhtml.clp.urlname": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.xhtml.clp.urlname)",
-    "parentId": "bbcwbx.xhtml.clp",
-    "menuArg": "{{zzpopup,i18n.INS_LINKNAME,##LINKNAME##,,}}<a href={{clipboard}}\">##LINKNAME##</a>",
-    "icons": ""
-  },
-  "bbcwbx.xhtml.wbx": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.xhtml.wbx)",
-    "parentId": "bbcwbx.xhtml",
-    "menuArg": "",
-    "icons": ""
-  },
-  "bbcwbx.xhtml.wbx.quote": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.xhtml.wbx.quote)",
-    "parentId": "bbcwbx.xhtml.wbx",
-    "menuArg": "<blockquote>{{selection}}</blockquote>",
-    "icons": ""
-  },
-  "bbcwbx.xhtml.wbx.code": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.xhtml.wbx.code)",
-    "parentId": "bbcwbx.xhtml.wbx",
-    "menuArg": "<code>{{selection}}</code>",
-    "icons": ""
-  },
-  "bbcwbx.xhtml.wbx.list": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.xhtml.wbx.list)",
-    "parentId": "bbcwbx.xhtml.wbx",
-    "menuArg": "{{makeList{{selection}},\"html\"}}",
-    "icons": ""
-  },
-  "bbcwbx.xhtml.wbx.ordlist": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.xhtml.wbx.ordlist)",
-    "parentId": "bbcwbx.xhtml.wbx",
-    "menuArg": "{{makeList{{selection}},\"htmlord\"}}",
-    "icons": ""
-  },
-  "bbcwbx.xhtml.wbx.alphalist": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.xhtml.wbx.alphalist)",
-    "parentId": "bbcwbx.xhtml.wbx",
-    "menuArg": "{{makeList{{selection}},\"htmlordalf\"}}",
-    "icons": ""
-  },
-  "bbcwbx.xhtml.wbx.urlname": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.xhtml.wbx.urlname)",
-    "parentId": "bbcwbx.xhtml.wbx",
-    "menuArg": "{{zzpopup,i18n.INS_LINKNAME,##LINKNAME##,,}}<a href={{selection}}\">##LINKNAME##</a>",
-    "icons": ""
-  },
-  "bbcwbx.xhtml.wbx.urlwiz": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.xhtml.wbx.urlwiz)",
-    "parentId": "bbcwbx.xhtml.wbx",
-    "menuArg": "{{zzpopup,i18n.URLCOMPOSTO_STEP1,##linkName##,,}}{{zzpopup,i18n.URLCOMPOSTO_STEP2,##URL##,,}}<a href=\"##URL##\">##linkName##</a>",
-    "icons": ""
-  },
-  "bbcwbx.xhtml.bold": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.xhtml.bold)",
-    "parentId": "bbcwbx.xhtml",
-    "menuArg": "<strong>{{selection}}</strong>",
-    "icons": ""
-  },
-  "bbcwbx.xhtml.ital": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.xhtml.ital)",
-    "parentId": "bbcwbx.xhtml",
-    "menuArg": "<em>{{selection}}</em>",
-    "icons": ""
-  },
-  "bbcwbx.xhtml.undrln": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.xhtml.undrln)",
-    "parentId": "bbcwbx.xhtml",
-    "menuArg": "<ins>{{selection}}</ins>",
-    "icons": ""
-  },
-  "bbcwbx.xhtml.strk": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.xhtml.strk)",
-    "parentId": "bbcwbx.xhtml",
-    "menuArg": "<del>{{selection}}</del>",
-    "icons": ""
-  },
-  "bbcwbx.xhtml.image": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.xhtml.image)",
-    "parentId": "bbcwbx.xhtml",
-    "menuArg": "<img src=\"{{selection}}\">",
-    "icons": ""
-  },
-  "bbcwbx.xhtml.url": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.xhtml.url)",
-    "parentId": "bbcwbx.xhtml",
-    "menuArg": "<a href=\"{{selection}}\">{{selection}}</a>",
-    "icons": ""
-  },
-  "bbcwbx.custom": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.custom)",
-    "parentId": "",
-    "menuArg": "",
-    "icons": {
-      "16": "icons/bbcwbx.svg"
-    }
-  },
-  "bbcwbx.mkdn": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.mkdn)",
-    "parentId": "",
-    "menuArg": "",
-    "icons": {
-      "16": "icons/bbcwbx.svg"
-    }
-  },
-  "bbcwbx.mkdn.clp": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.mkdn.clp)",
-    "parentId": "bbcwbx.mkdn",
-    "menuArg": "",
-    "icons": ""
-  },
-  "bbcwbx.mkdn.clp.quote": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.mkdn.clp.quote)",
-    "parentId": "bbcwbx.mkdn.clp",
-    "menuArg": "> {{clipboard}",
-    "icons": ""
-  },
-  "bbcwbx.mkdn.clp.code": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.mkdn.clp.code)",
-    "parentId": "bbcwbx.mkdn.clp",
-    "menuArg": "```{{clipboard}```",
-    "icons": ""
-  },
-  "bbcwbx.mkdn.clp.list": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.mkdn.clp.list)",
-    "parentId": "bbcwbx.mkdn.clp",
-    "menuArg": "{{makeList{{clipboard}},\"markdown\"}}",
-    "icons": ""
-  },
-  "bbcwbx.mkdn.clp.ordlist": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.mkdn.clp.ordlist)",
-    "parentId": "bbcwbx.mkdn.clp",
-    "menuArg": "{{makeList{{clipboard}},\"markdownord\"}}",
-    "icons": ""
-  },
-  "bbcwbx.mkdn.clp.mkurlsel": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.mkdn.clp.mkurlsel)",
-    "parentId": "bbcwbx.mkdn.clp",
-    "menuArg": "[{{selection}}]({{clipboard}})",
-    "icons": ""
-  },
-  "bbcwbx.mkdn.clp.mkimgsel": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.mkdn.clp.mkimgsel)",
-    "parentId": "bbcwbx.mkdn.clp",
-    "menuArg": "![{{selection}}]({{clipboard}})",
-    "icons": ""
-  },
-  "bbcwbx.mkdn.clp.urlname": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.mkdn.clp.urlname)",
-    "parentId": "bbcwbx.mkdn.clp",
-    "menuArg": "{{zzpopup,i18n.INS_LINKNAME,##LINKNAME##,,}}[##LINKNAME##]({{clipboard}})",
-    "icons": ""
-  },
-  "bbcwbx.mkdn.wbx": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.mkdn.wbx)",
-    "parentId": "bbcwbx.mkdn",
-    "menuArg": "",
-    "icons": ""
-  },
-  "bbcwbx.mkdn.wbx.quote": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.mkdn.wbx.quote)",
-    "parentId": "bbcwbx.mkdn.wbx",
-    "menuArg": "> {{selection}}",
-    "icons": ""
-  },
-  "bbcwbx.mkdn.wbx.code": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.mkdn.wbx.code)",
-    "parentId": "bbcwbx.mkdn.wbx",
-    "menuArg": "```{{selection}}```",
-    "icons": ""
-  },
-  "bbcwbx.mkdn.wbx.list": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.mkdn.wbx.list)",
-    "parentId": "bbcwbx.mkdn.wbx",
-    "menuArg": "{{makeList{{selection}},\"markdown\"}}",
-    "icons": ""
-  },
-  "bbcwbx.mkdn.wbx.ordlist": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.mkdn.wbx.ordlist)",
-    "parentId": "bbcwbx.mkdn.wbx",
-    "menuArg": "{{makeList{{selection}},\"markdownord\"}}",
-    "icons": ""
-  },
-  "bbcwbx.mkdn.wbx.urlname": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.mkdn.wbx.urlname)",
-    "parentId": "bbcwbx.mkdn.wbx",
-    "menuArg": "{{zzpopup,i18n.INS_LINKNAME,##LINKNAME##,,}}[##LINKNAME##]({{selection}})",
-    "icons": ""
-  },
-  "bbcwbx.mkdn.wbx.urlwiz": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.mkdn.wbx.urlwiz)",
-    "parentId": "bbcwbx.mkdn.wbx",
-    "menuArg": "{{zzpopup,i18n.URLCOMPOSTO_STEP1,##linkName##,,}}{{zzpopup,i18n.URLCOMPOSTO_STEP2,##URL##,,}}[##linkName##](##URL##)",
-    "icons": ""
-  },
-  "bbcwbx.mkdn.bold": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.mkdn.bold)",
-    "parentId": "bbcwbx.mkdn",
-    "menuArg": "***{{selection}}***",
-    "icons": ""
-  },
-  "bbcwbx.mkdn.ital": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.mkdn.ital)",
-    "parentId": "bbcwbx.mkdn",
-    "menuArg": "*{{selection}}*",
-    "icons": ""
-  },
-  "bbcwbx.mkdn.strk": {
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.mkdn.strk)",
-    "parentId": "bbcwbx.mkdn",
-    "menuArg": "~~{{selection}}~~",
-    "icons": ""
   }
-}

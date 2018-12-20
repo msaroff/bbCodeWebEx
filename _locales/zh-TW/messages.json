@@ -1,320 +1,553 @@
-﻿{
-    "bbcwbx.bbcode": {
-        "message": "bbCode"
-    },
+{
+  "{\"message\": \"bbCode\"}": {
     "bbcwbx.bbcode.clp": {
-        "message": "剪貼簿內容貼成"
+      "message": "%u526A%u8CBC%u7C3F%u5167%u5BB9%u8CBC%u6210"
     },
     "bbcwbx.bbcode.clp.quote": {
-        "message": "引用文字"
+      "message": "%u5F15%u7528%u6587%u5B57"
     },
     "bbcwbx.bbcode.clp.code": {
-        "message": "程式碼"
+      "message": "%u7A0B%u5F0F%u78BC"
     },
     "bbcwbx.bbcode.clp.list": {
-        "message": "項目清單"
+      "message": "%u9805%u76EE%u6E05%u55AE"
     },
     "bbcwbx.bbcode.clp.ordlist": {
-        "message": "編號清單 (數字)"
+      "message": "%u7DE8%u865F%u6E05%u55AE (%u6578%u5B57)"
     },
     "bbcwbx.bbcode.clp.alphalist": {
-        "message": "編號清單 (字母)"
+      "message": "%u7DE8%u865F%u6E05%u55AE (%u5B57%u6BCD)"
     },
     "bbcwbx.bbcode.clp.spoiler": {
-        "message": "Spoiler"
+      "message": "Spoiler"
     },
     "bbcwbx.bbcode.clp.image": {
-        "message": "圖片"
+      "message": "%u5716%u7247"
     },
     "bbcwbx.bbcode.clp.mkurlsel": {
-        "message": "鏈結 (插入為選取區的網址)"
+      "message": "%u93C8%u7D50 (%u63D2%u5165%u70BA%u9078%u53D6%u5340%u7684%u7DB2%u5740)"
     },
     "bbcwbx.bbcode.clp.url": {
-        "message": "鏈結"
+      "message": "%u93C8%u7D50"
     },
     "bbcwbx.bbcode.clp.urlname": {
-        "message": "鏈結 (指定名稱)"
+      "message": "%u93C8%u7D50 (%u6307%u5B9A%u540D%u7A31)"
     },
     "bbcwbx.bbcode.wbx": {
-        "message": "WebEx"
+      "message": "WebEx"
     },
     "bbcwbx.bbcode.wbx.quote": {
-        "message": "引用文字"
+      "message": "%u5F15%u7528%u6587%u5B57"
     },
     "bbcwbx.bbcode.wbx.code": {
-        "message": "程式碼"
+      "message": "%u7A0B%u5F0F%u78BC"
     },
     "bbcwbx.bbcode.wbx.list": {
-        "message": "項目清單"
+      "message": "%u9805%u76EE%u6E05%u55AE"
     },
     "bbcwbx.bbcode.wbx.ordlist": {
-        "message": "編號清單 (數字)"
+      "message": "%u7DE8%u865F%u6E05%u55AE (%u6578%u5B57)"
     },
     "bbcwbx.bbcode.wbx.alphalist": {
-        "message": "編號清單 (字母)"
+      "message": "%u7DE8%u865F%u6E05%u55AE (%u5B57%u6BCD)"
     },
     "bbcwbx.bbcode.wbx.spoiler": {
-        "message": "Spoiler"
+      "message": "Spoiler"
     },
     "bbcwbx.bbcode.wbx.fntcol": {
-        "message": "字型顏色"
+      "message": "%u5B57%u578B%u984F%u8272"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.white": {
+      "message": "White"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.black": {
+      "message": "Black"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.dk_gray": {
+      "message": "Dark gray"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.gray": {
+      "message": "Gray"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.lt_gray": {
+      "message": "Light gray"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.olive": {
+      "message": "Olive"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.yellow": {
+      "message": "Yellow"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.canary": {
+      "message": "Canary"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.maroon": {
+      "message": "Maroon"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.red": {
+      "message": "Red"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.pink": {
+      "message": "Pink"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.navy": {
+      "message": "Navy"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.blue": {
+      "message": "Blue"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.lt_blue": {
+      "message": "Light Blue"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.green": {
+      "message": "Green"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.lime_green": {
+      "message": "Lime Green"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.mint_green": {
+      "message": "Mint Green"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.indigo": {
+      "message": "Indigo"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.purple": {
+      "message": "Purple"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.fuchsia": {
+      "message": "Fuchsia"
+    },
+    "bbcwbx.bbcode.wbx.fntcol.usrEnt": {
+      "message": "Enter Code in Hex"
     },
     "bbcwbx.bbcode.wbx.fntsz": {
-        "message": "字型大小"
+      "message": "%u5B57%u578B%u5927%u5C0F"
     },
     "bbcwbx.bbcode.wbx.urlname": {
-        "message": "鏈結 (指定名稱)"
+      "message": "%u93C8%u7D50 (%u6307%u5B9A%u540D%u7A31)"
     },
     "bbcwbx.bbcode.wbx.urlwiz": {
-        "message": "鏈結精靈"
+      "message": "%u93C8%u7D50%u7CBE%u9748"
     },
     "bbcwbx.bbcode.vbl": {
-        "message": "VBulletin3"
+      "message": "VBulletin3"
     },
     "bbcwbx.bbcode.vbl.thd": {
-        "message": "主題鏈結"
+      "message": "%u4E3B%u984C%u93C8%u7D50"
     },
     "bbcwbx.bbcode.vbl.pst": {
-        "message": "回覆鏈結"
+      "message": "%u56DE%u8986%u93C8%u7D50"
     },
     "bbcwbx.bbcode.vbl.alnlf": {
-        "message": "靠右對齊"
+      "message": "%u9760%u53F3%u5C0D%u9F4A"
     },
     "bbcwbx.bbcode.vbl.alnrt": {
-        "message": "靠左對齊"
+      "message": "%u9760%u5DE6%u5C0D%u9F4A"
     },
     "bbcwbx.bbcode.vbl.ctr": {
-        "message": "置中對齊"
+      "message": "%u7F6E%u4E2D%u5C0D%u9F4A"
     },
     "bbcwbx.bbcode.vbl.indnt": {
-        "message": "縮排"
+      "message": "%u7E2E%u6392"
     },
     "bbcwbx.bbcode.vbl.hilt": {
-        "message": "高亮度標示"
+      "message": "%u9AD8%u4EAE%u5EA6%u6A19%u793A"
     },
     "bbcwbx.bbcode.bold": {
-        "message": "粗體"
+      "message": "%u7C97%u9AD4"
     },
     "bbcwbx.bbcode.ital": {
-        "message": "斜體"
+      "message": "%u659C%u9AD4"
     },
     "bbcwbx.bbcode.undrln": {
-        "message": "底線"
+      "message": "%u5E95%u7DDA"
     },
     "bbcwbx.bbcode.img": {
-        "message": "圖片"
+      "message": "%u5716%u7247"
     },
     "bbcwbx.bbcode.url": {
-        "message": "鏈結"
+      "message": "%u93C8%u7D50"
     },
     "bbcwbx.html": {
-        "message": "HTML"
+      "message": "HTML"
     },
     "bbcwbx.html.clp": {
-        "message": "剪貼簿內容貼成"
+      "message": "%u526A%u8CBC%u7C3F%u5167%u5BB9%u8CBC%u6210"
     },
     "bbcwbx.html.clp.quote": {
-        "message": "引用文字"
+      "message": "%u5F15%u7528%u6587%u5B57"
     },
     "bbcwbx.html.clp.code": {
-        "message": "程式碼"
+      "message": "%u7A0B%u5F0F%u78BC"
     },
     "bbcwbx.html.clp.list": {
-        "message": "項目清單"
+      "message": "%u9805%u76EE%u6E05%u55AE"
     },
     "bbcwbx.html.clp.ordlist": {
-        "message": "編號清單 (數字)"
+      "message": "%u7DE8%u865F%u6E05%u55AE (%u6578%u5B57)"
     },
     "bbcwbx.html.clp.alphalist": {
-        "message": "編號清單 (字母)"
+      "message": "%u7DE8%u865F%u6E05%u55AE (%u5B57%u6BCD)"
     },
     "bbcwbx.html.clp.image": {
-        "message": "圖片"
+      "message": "%u5716%u7247"
     },
     "bbcwbx.html.clp.mkurlsel": {
-        "message": "鏈結 (插入為選取區的網址)"
+      "message": "%u93C8%u7D50 (%u63D2%u5165%u70BA%u9078%u53D6%u5340%u7684%u7DB2%u5740)"
     },
     "bbcwbx.html.clp.url": {
-        "message": "鏈結"
+      "message": "%u93C8%u7D50"
     },
     "bbcwbx.html.clp.urlname": {
-        "message": "鏈結 (指定名稱)"
+      "message": "%u93C8%u7D50 (%u6307%u5B9A%u540D%u7A31)"
     },
     "bbcwbx.html.wbx": {
-        "message": "WebEx"
+      "message": "WebEx"
     },
     "bbcwbx.html.wbx.quote": {
-        "message": "引用文字"
+      "message": "%u5F15%u7528%u6587%u5B57"
     },
     "bbcwbx.html.wbx.code": {
-        "message": "程式碼"
+      "message": "%u7A0B%u5F0F%u78BC"
     },
     "bbcwbx.html.wbx.list": {
-        "message": "項目清單"
+      "message": "%u9805%u76EE%u6E05%u55AE"
     },
     "bbcwbx.html.wbx.ordlist": {
-        "message": "編號清單 (數字)"
+      "message": "%u7DE8%u865F%u6E05%u55AE (%u6578%u5B57)"
     },
     "bbcwbx.html.wbx.alphalist": {
-        "message": "編號清單 (字母)"
+      "message": "%u7DE8%u865F%u6E05%u55AE (%u5B57%u6BCD)"
     },
     "bbcwbx.html.wbx.urlname": {
-        "message": "鏈結 (指定名稱)"
+      "message": "%u93C8%u7D50 (%u6307%u5B9A%u540D%u7A31)"
     },
     "bbcwbx.html.wbx.urlwiz": {
-        "message": "鏈結精靈"
+      "message": "%u93C8%u7D50%u7CBE%u9748"
     },
     "bbcwbx.html.bold": {
-        "message": "粗體"
+      "message": "%u7C97%u9AD4"
     },
     "bbcwbx.html.ital": {
-        "message": "斜體"
+      "message": "%u659C%u9AD4"
     },
     "bbcwbx.html.undrln": {
-        "message": "底線"
+      "message": "%u5E95%u7DDA"
     },
     "bbcwbx.html.strk": {
-        "message": "刪除線"
+      "message": "%u522A%u9664%u7DDA"
     },
     "bbcwbx.html.img": {
-        "message": "圖片"
+      "message": "%u5716%u7247"
     },
     "bbcwbx.html.url": {
-        "message": "鏈結"
+      "message": "%u93C8%u7D50"
     },
     "bbcwbx.xhtml": {
-        "message": "XHTML"
+      "message": "XHTML"
     },
     "bbcwbx.xhtml.clp": {
-        "message": "剪貼簿內容貼成"
+      "message": "%u526A%u8CBC%u7C3F%u5167%u5BB9%u8CBC%u6210"
     },
     "bbcwbx.xhtml.clp.quote": {
-        "message": "引用文字"
+      "message": "%u5F15%u7528%u6587%u5B57"
     },
     "bbcwbx.xhtml.clp.code": {
-        "message": "程式碼"
+      "message": "%u7A0B%u5F0F%u78BC"
     },
     "bbcwbx.xhtml.clp.list": {
-        "message": "項目清單"
+      "message": "%u9805%u76EE%u6E05%u55AE"
     },
     "bbcwbx.xhtml.clp.ordlist": {
-        "message": "編號清單 (數字)"
+      "message": "%u7DE8%u865F%u6E05%u55AE (%u6578%u5B57)"
     },
     "bbcwbx.xhtml.clp.alphalist": {
-        "message": "編號清單 (字母)"
+      "message": "%u7DE8%u865F%u6E05%u55AE (%u5B57%u6BCD)"
     },
     "bbcwbx.xhtml.img": {
-        "message": "圖片"
+      "message": "%u5716%u7247"
     },
     "bbcwbx.xhtml.clp.mkurlsel": {
-        "message": "鏈結 (插入為選取區的網址)"
+      "message": "%u93C8%u7D50 (%u63D2%u5165%u70BA%u9078%u53D6%u5340%u7684%u7DB2%u5740)"
     },
     "bbcwbx.xhtml.clp.url": {
-        "message": "鏈結"
+      "message": "%u93C8%u7D50"
     },
     "bbcwbx.xhtml.clp.urlname": {
-        "message": "鏈結 (指定名稱)"
+      "message": "%u93C8%u7D50 (%u6307%u5B9A%u540D%u7A31)"
     },
     "bbcwbx.xhtml.wbx": {
-        "message": "WebEx"
+      "message": "WebEx"
     },
     "bbcwbx.xhtml.wbx.quote": {
-        "message": "引用文字"
+      "message": "%u5F15%u7528%u6587%u5B57"
     },
     "bbcwbx.xhtml.wbx.code": {
-        "message": "程式碼"
+      "message": "%u7A0B%u5F0F%u78BC"
     },
     "bbcwbx.xhtml.wbx.list": {
-        "message": "項目清單"
+      "message": "%u9805%u76EE%u6E05%u55AE"
     },
     "bbcwbx.xhtml.wbx.ordlist": {
-        "message": "編號清單 (數字)"
+      "message": "%u7DE8%u865F%u6E05%u55AE (%u6578%u5B57)"
     },
     "bbcwbx.xhtml.wbx.alphalist": {
-        "message": "編號清單 (字母)"
+      "message": "%u7DE8%u865F%u6E05%u55AE (%u5B57%u6BCD)"
     },
     "bbcwbx.xhtml.wbx.urlname": {
-        "message": "鏈結 (指定名稱)"
+      "message": "%u93C8%u7D50 (%u6307%u5B9A%u540D%u7A31)"
     },
     "bbcwbx.xhtml.wbx.urlwiz": {
-        "message": "鏈結精靈"
+      "message": "%u93C8%u7D50%u7CBE%u9748"
     },
     "bbcwbx.xhtml.bold": {
-        "message": "粗體"
+      "message": "%u7C97%u9AD4"
     },
     "bbcwbx.xhtml.ital": {
-        "message": "斜體"
+      "message": "%u659C%u9AD4"
     },
     "bbcwbx.xhtml.undrln": {
-        "message": "底線"
+      "message": "%u5E95%u7DDA"
     },
     "bbcwbx.xhtml.strk": {
-        "message": "刪除線"
+      "message": "%u522A%u9664%u7DDA"
     },
     "bbcwbx.xhtml.image": {
-        "message": "圖片"
+      "message": "%u5716%u7247"
     },
     "bbcwbx.xhtml.url": {
-        "message": "鏈結"
+      "message": "%u93C8%u7D50"
     },
     "bbcwbx.custom": {
-        "message": "自訂標籤"
+      "message": "%u81EA%u8A02%u6A19%u7C64"
     },
     "bbcwbx.mkdn": {
-        "message": "Markdown"
+      "message": "Markdown"
     },
     "bbcwbx.mkdn.clp": {
-        "message": "剪貼簿內容貼成"
+      "message": "%u526A%u8CBC%u7C3F%u5167%u5BB9%u8CBC%u6210"
     },
     "bbcwbx.mkdn.clp.quote": {
-        "message": "引用文字"
+      "message": "%u5F15%u7528%u6587%u5B57"
     },
     "bbcwbx.mkdn.clp.code": {
-        "message": "程式碼"
+      "message": "%u7A0B%u5F0F%u78BC"
     },
     "bbcwbx.mkdn.clp.list": {
-        "message": "項目清單"
+      "message": "%u9805%u76EE%u6E05%u55AE"
     },
     "bbcwbx.mkdn.clp.ordlist": {
-        "message": "編號清單 (數字)"
+      "message": "%u7DE8%u865F%u6E05%u55AE (%u6578%u5B57)"
     },
     "bbcwbx.mkdn.clp.mkurlsel": {
-        "message": "鏈結 (插入為選取區的網址)"
+      "message": "%u93C8%u7D50 (%u63D2%u5165%u70BA%u9078%u53D6%u5340%u7684%u7DB2%u5740)"
     },
     "bbcwbx.mkdn.clp.mkimgsel": {
-        "message": "Make image from selection"
+      "message": "Make image from selection"
     },
     "bbcwbx.mkdn.clp.urlname": {
-        "message": "鏈結 (指定名稱)"
+      "message": "%u93C8%u7D50 (%u6307%u5B9A%u540D%u7A31)"
     },
     "bbcwbx.mkdn.wbx": {
-        "message": "WebEx"
+      "message": "WebEx"
     },
     "bbcwbx.mkdn.wbx.quote": {
-        "message": "引用文字"
+      "message": "%u5F15%u7528%u6587%u5B57"
     },
     "bbcwbx.mkdn.wbx.code": {
-        "message": "程式碼"
+      "message": "%u7A0B%u5F0F%u78BC"
     },
     "bbcwbx.mkdn.wbx.list": {
-        "message": "項目清單"
+      "message": "%u9805%u76EE%u6E05%u55AE"
     },
     "bbcwbx.mkdn.wbx.ordlist": {
-        "message": "編號清單 (數字)"
+      "message": "%u7DE8%u865F%u6E05%u55AE (%u6578%u5B57)"
     },
     "bbcwbx.mkdn.wbx.urlname": {
-        "message": "鏈結 (指定名稱)"
+      "message": "%u93C8%u7D50 (%u6307%u5B9A%u540D%u7A31)"
     },
     "bbcwbx.mkdn.wbx.urlwiz": {
-        "message": "鏈結精靈"
+      "message": "%u93C8%u7D50%u7CBE%u9748"
     },
     "bbcwbx.mkdn.bold": {
-        "message": "粗體"
+      "message": "%u7C97%u9AD4"
     },
     "bbcwbx.mkdn.ital": {
-        "message": "斜體"
+      "message": "%u659C%u9AD4"
     },
     "bbcwbx.mkdn.strk": {
-        "message": "刪除線"
+      "message": "%u522A%u9664%u7DDA"
+    },
+    "INS_AUTHOR": {
+      "message": "%u8ACB%u8F38%u5165%u4F5C%u8005%u59D3%u540D%u6216%u4FDD%u7559%u7A7A%u767D:"
+    },
+    "INS_LINKNAME": {
+      "message": "%u8ACB%u8F38%u5165%u93C8%u7D50%u540D%u7A31:"
+    },
+    "INS_FONTSIZE": {
+      "message": "%u8ACB%u8F38%u5165%u6587%u5B57%u5927%u5C0F:"
+    },
+    "INS_FONTCOLOR": {
+      "message": "%u8ACB%u8F38%u5165%u6587%u5B57%u984F%u8272:"
+    },
+    "URLCOMPOSTO_STEP1": {
+      "message": "%u93C8%u7D50%u540D%u7A31%uFF1F"
+    },
+    "URLCOMPOSTO_STEP2": {
+      "message": "%u93C8%u7D50%uFF1F"
+    },
+    "INS_THREADNUM": {
+      "message": "%u8ACB%u8F38%u5165%u4E3B%u984C%u93C8%u7D50 (thread) %u7DE8%u865F:"
+    },
+    "INS_POSTNUM": {
+      "message": "%u8ACB%u8F38%u5165%u56DE%u8986%u93C8%u7D50 (post) %u7DE8%u865F:"
+    },
+    "MENU_NO_CUSTOM_TAGS": {
+      "message": "%u672A%u5B9A%u7FA9%u81EA%u8A02%u6A19%u7C64"
+    },
+    "MENU_DISABLE": {
+      "message": "%u505C%u7528%u6B64%u9078%u55AE"
+    },
+    "MENU_SETTINGS": {
+      "message": "bbCodeWebex %u8A2D%u5B9A%u2026"
+    },
+    "DELETE_CUSTOMTAG": {
+      "message": "%u60A8%u60F3%u8981%u79FB%u9664%u6B64%u9805%u76EE%u55CE%uFF1F"
+    },
+    "WINDOWTITLE_EDITCUSTOMTAG": {
+      "message": "%u7DE8%u8F2F%u81EA%u8A02%u6A19%u7C64"
+    },
+    "WINDOWTITLE_NEWCUSTOMTAG": {
+      "message": "%u65B0%u589E%u81EA%u8A02%u6A19%u7C64"
+    },
+    "ALERT_REORDER_TITLE": {
+      "message": "Reorder Custom Tags"
+    },
+    "ALERT_REORDER_TEXT": {
+      "message": "Custom tags will be arranged in alphabetical order. This action cannot be undone, unless you restore an existing backup. Do you want to continue?"
+    },
+    "WINDOWTITLE_EXPORT": {
+      "message": "Choose export file"
+    },
+    "WINDOWTITLE_IMPORT": {
+      "message": "Choose import file"
+    },
+    "ALERT_IMPORT_TITLE": {
+      "message": "Import Settings"
+    },
+    "ALERT_IMPORT_TEXT": {
+      "message": "This will overwrite all existing settings. Are you sure?"
+    },
+    "ALERT_IMPORT_COMPLETED": {
+      "message": "Operation completed."
+    },
+    "description": {
+      "message": "%u4EE5%u53F3%u9375%u9078%u55AE%u5FEB%u901F%u63D2%u5165 BBCode/HTML/XHTML %u8A9E%u6CD5"
+    },
+    "name": {
+      "message": "bbCodeWebex"
+    },
+    "SETTINGSMENU": {
+      "message": "bbCodeWebex %u8A2D%u5B9A..."
+    },
+    "DISABLEMENU": {
+      "message": "%u505C%u7528%u6B64%u9078%u55AE"
+    },
+    "PICKCOLOR_TITLE": {
+      "message": "%u9078%u64C7%u4E00%u7A2E%u984F%u8272"
+    },
+    "PICKCOLOR_DESCRIPTION": {
+      "message": "%u5F9E%u984F%u8272%u6E05%u55AE%u4E2D%u9078%u64C7%u5B57%u578B%u984F%u8272"
+    },
+    "PICKCOLOR_LASTCOLOR": {
+      "message": "%u4E0A%u6B21%u4F7F%u7528%u7684%u984F%u8272 :"
+    },
+    "SETTINGS_TITLE": {
+      "message": "bbCodeWebex %u8A2D%u5B9A"
+    },
+    "SETTINGS_MENU": {
+      "message": "%u9078%u55AE"
+    },
+    "SETTINGS_CUSTOMTAGS": {
+      "message": "%u81EA%u8A02%u6A19%u7C64"
+    },
+    "SETTINGS_MENU_DESCRIPTION": {
+      "message": "%u9078%u64C7%u5728%u53F3%u9375%u9078%u55AE%u4E2D%u8981%u986F%u793A%u7684%u9805%u76EE"
+    },
+    "SETTINGS_MENU_ENABLEBBCODE": {
+      "message": "%u555F%u7528 bbcode %u9078%u55AE"
+    },
+    "SETTINGS_MENU_ENABLEBBCODE_VBULLETIN": {
+      "message": "%u555F%u7528 VBulletin %u5B50%u9078%u55AE"
+    },
+    "SETTINGS_MENU_ENABLEHTML": {
+      "message": "%u555F%u7528 HTML %u9078%u55AE"
+    },
+    "SETTINGS_MENU_ENABLEXHTML": {
+      "message": "%u555F%u7528 XHTML %u9078%u55AE"
+    },
+    "SETTINGS_MENU_ENABLEMARKDOWN": {
+      "message": "%u555F%u7528 Markdown %u9078%u55AE"
+    },
+    "SETTINGS_MENU_ENABLECUSTOM": {
+      "message": "%u555F%u7528 %u81EA%u8A02%u6A19%u7C64 %u9078%u55AE"
+    },
+    "SETTINGS_MANAGESETTINGS": {
+      "message": "Manage settings"
+    },
+    "SETTINGS_BACKUPDESCRIPTION": {
+      "message": "WARNING: importing settings will overwrite all existing settings."
+    },
+    "SETTINGS_BTNIMPORT": {
+      "message": "Import settings%u2026"
+    },
+    "SETTINGS_BTNEXPORT": {
+      "message": "Export settings%u2026"
+    },
+    "SETTINGS_CUSTOMTAGS_TOTALTAGS": {
+      "message": "%u53EF%u7528%u7684%u81EA%u8A02%u6A19%u7C64:"
+    },
+    "SETTINGS_CUSTOMTAGS_BTNADD": {
+      "message": "%u65B0%u589E%u2026"
+    },
+    "SETTINGS_CUSTOMTAGS_BTNEDIT": {
+      "message": "%u7DE8%u8F2F%u2026"
+    },
+    "SETTINGS_CUSTOMTAGS_BTNDELETE": {
+      "message": "%u522A%u9664%u2026"
+    },
+    "SETTINGS_CUSTOMTAGS_MOVEUP": {
+      "message": "%u4E0A%u79FB"
+    },
+    "SETTINGS_CUSTOMTAGS_MOVEDOWN": {
+      "message": "%u4E0B%u79FB"
+    },
+    "SETTINGS_CUSTOMTAGS_SORTALPHA": {
+      "message": "Sort alphabetically"
+    },
+    "SETTINGS_CUSTOMTAGS_MOREINFO": {
+      "message": "%u66F4%u591A%u8CC7%u8A0A%u8207%u7BC4%u4F8B"
+    },
+    "SETTINGS_CUSTOMTAGS_VARIABLES": {
+      "message": "%u53EF%u7528%u7684%u8B8A%u6578"
+    },
+    "SETTINGS_CUSTOMTAGS_VARCLIPBOARD": {
+      "message": "%u526A%u8CBC%u7C3F%u5167%u5BB9"
+    },
+    "SETTINGS_CUSTOMTAGS_VARSELECTION": {
+      "message": "%u6240%u9078%u7684%u6587%u5B57"
+    },
+    "SETTINGS_CUSTOMTAGS_LABEL": {
+      "message": "%u9805%u76EE%u540D%u7A31:"
+    },
+    "SETTINGS_CUSTOMTAGS_ACTION": {
+      "message": "%u7A0B%u5F0F%u78BC:"
+    },
+    "SAVE_TAG_ORDER": {
+      "message": "Save Tag Order"
+    },
+    "ENTER_COLOR_HEX": {
+      "message": "ENTER FONT COLOR IN HEX"
     }
+  }
 }
