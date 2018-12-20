@@ -1,4 +1,4 @@
-  {
+{
     "bbcwbx.bbcode": {
       "message": "bbCode"
     },
@@ -411,7 +411,7 @@
       "message": "Disable this menu"
     },
     "MENU_SETTINGS": {
-      "message": "bbCodeWebex settings%uFFFD"
+      "message": "bbCodeWebex settings%u2026"
     },
     "DELETE_CUSTOMTAG": {
       "message": "Do you want to remove this item?"
@@ -426,7 +426,7 @@
       "message": "Reorder Custom Tags"
     },
     "ALERT_REORDER_TEXT": {
-      "message": "Custom tags will be arranged in alphabetical order. this action cannot be undone, unless you restore an existing backup. Do you want to continue?"
+      "message": "Custom tags will be arranged in alphabetical order. This action cannot be undone, unless you restore an existing backup. Do you want to continue?"
     },
     "WINDOWTITLE_EXPORT": {
       "message": "Choose export file"
@@ -450,7 +450,7 @@
       "message": "bbCodeWebex"
     },
     "SETTINGSMENU": {
-      "message": "bbCodeWebex settings%uFFFD"
+      "message": "bbCodeWebex settings%u2026"
     },
     "DISABLEMENU": {
       "message": "Disable this menu"
@@ -501,22 +501,22 @@
       "message": "WARNING: importing settings will overwrite all existing settings."
     },
     "SETTINGS_BTNIMPORT": {
-      "message": "Import settings%uFFFD"
+      "message": "Import settings%u2026"
     },
     "SETTINGS_BTNEXPORT": {
-      "message": "Export settings%uFFFD"
+      "message": "Export settings…"
     },
     "SETTINGS_CUSTOMTAGS_TOTALTAGS": {
       "message": "Available Custom Tags:"
     },
     "SETTINGS_CUSTOMTAGS_BTNADD": {
-      "message": "Add%uFFFD"
+      "message": "Add%u2026"
     },
     "SETTINGS_CUSTOMTAGS_BTNEDIT": {
-      "message": "Edit%uFFFD"
+      "message": "Edit%u2026"
     },
     "SETTINGS_CUSTOMTAGS_BTNDELETE": {
-      "message": "Delete%uFFFD"
+      "message": "Delete%u2026"
     },
     "SETTINGS_CUSTOMTAGS_MOVEUP": {
       "message": "Move Up"
@@ -551,4 +551,4 @@
     "ENTER_COLOR_HEX": {
       "message": "ENTER FONT COLOR IN HEX"
     }
-  }
+}
