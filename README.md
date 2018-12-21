@@ -22,9 +22,22 @@ Additionally, I am using the internatinal language codes he maintained for bbCod
 Wrote the code used to access the contents of the clipboard, available at https://github.com/NiklasGollenstede/es6lib/, specifically the dom.js file.
 
 ## License
-This code is licensed under the Church of the Flying Spaghetti Monster, which is identical to the TBD free and open source license, except that an addendum is added as performance art requiring users to go outside and play pirate, or make pasta, every so often.
+The MIT License (MIT)
 
-This addendum has no force of law, nor any effect on the rest of the document and is actually a form of performance art, and as such this addendum is licensed under the Creative Commons Attribution 4.0 International Public License.
+Copyright 2018  Matthew G. Saroff
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+## Curse/Geas
+Users are compelled, under a threat of a completely legally non-binding curse, to go outside (weather permitting) and play pirate, or to go outside and make pasta (you can use the store bought stuff, but you should really make your own pasta) on a regular basis.
+
+A regular basis is defined as being on the 5<sup>th</sup> Tuesday of any month that has one.
+
+Failure to do so will result in the user, and his children, and his children's children, being compelled to enter the service of the Church of the Flying Spaghetti Monster, or to be a pirate.  (If you can be a space pirate, do it, space pirates are cool.)
 
 ## Health Warning
 This is profoundly ugly code, and the author assumes no responsibility for any of the following conditions that might develop as a result of reading said code:
