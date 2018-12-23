@@ -11,6 +11,8 @@ const saveTag = Save.addEventListener("click", writeTag);
 
 const newMenu = New.addEventListener("click", newJSON);
 
+const deleteTag = Delete.addEventListener("click", delTag);
+
 const toVar = importTags.addEventListener("load", JSONtoVar );
 
 const importButton = document.getElementById("importTagsClick");
@@ -170,7 +172,7 @@ browser.downloads.download({
 }
 }
 
-function writeTag () {// writes new or updated tag to disk
+function writeTag () {// writes new or updated tag to locally stored variable
 currentMenuId = document.getElementById("menuId").value;
 currentMenuTitle = document.getElementById("menuTitle").value;
 currentMenuArg = document.getElementById("menuArg").value;
@@ -203,6 +205,29 @@ document.getElementById("menuArg").value = "";
 document.getElementById("parentId").value = "";
 location.reload(); // reload page, which reloads custom tags from storage
 }}}
+
+
+function delTag (){
+let curId = document.getElementById("menuId").value;
+let curTit = document.getElementById("menuTitle").value;
+let indId = customMenus.findIndex(p => p.menuId == curId);
+if (curId == ""){
+alert("Cannot delete empty tag");
+} else {
+let deleteMe = confirm("Are you sure you want to delete the tag \"" + curTit +"\"?");
+console.log(deleteMe);
+if (deleteMe){
+console.log(JSON.stringify(customMenus));
+removed = customMenus.splice(indId,1);
+localStorage.setItem('customMenus',JSON.stringify(customMenus)); //store updated tags in local storage
+}
+document.getElementById("menuId").value = ""; // clear out input boxes
+document.getElementById("menuTitle").value = "";
+document.getElementById("menuArg").value = "";
+document.getElementById("parentId").value = "";
+location.reload(); // reload page, which reloads custom tags from storage
+}
+}
 
 // =========================================================================================
 // =========================================================================================

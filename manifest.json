@@ -1,8 +1,8 @@
 {
      "manifest_version": 2,
-     "name": "__MSG_name__",
+     "name": "bbCodeWebex",
      "version": "0.0.1",
-     "description": "__MSG_description__",
+     "description": "Context Menus for bbCode/Html/etc",
      "default_locale": "en-US",
      "icons": {
           "16": "icons/bbcwbx.svg"
