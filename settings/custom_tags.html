@@ -168,6 +168,18 @@ Parent Menu <input type="text" id="parentId"  disabled> Reserved for later featu
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="button" id="Delete" value="Delete This Custom Tag">
 </form>
 <script src ="custom_tags.js" ></script>
+<br>
+<h3>Instructions</h3>
+<hr>
+Available codes:  (Note: these are <strong>case sensitive</strong>, and they can be used multiple times in a menu.)
+<ul>
+<li><code>{{clipboard}}</code>: This pastes in the current clipboard contents where it is placed.</li>
+<li><code>{{selection}}</code>: This pastes in the currently selected texts where it is placed.</li>
+</ul>
+Example:
+<code>[url={{clipboard}}]{{selection}}[/url]</code><br>
+So if you copy a url, and select text, this would add a link to it for bbCode.<br><br>
+
 <!-- start comment and end comment -->
 <!--    <input type="color" id="head" name="head"
            value="#e66465">
