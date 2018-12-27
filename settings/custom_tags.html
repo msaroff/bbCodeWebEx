@@ -138,6 +138,7 @@ ul.order {  /* Set up a list with no indent and no first character to make sorta
 </style>
 </head><body>
 <h1>Current Custom Tags</h1>
+<strong><em>Changes in selections will not be seen until either Firefox is restarted.</em></strong><br><br>
 <span class="grid-containerHdr">
 <span class="baseSort menuIdBody menuIdHdr">Menu ID</span>
 <span class="baseSort menuTitleBody menuTitleHdr">Menu Title</span>
@@ -167,6 +168,20 @@ Parent Menu <input type="text" id="parentId"  disabled> Reserved for later featu
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="button" id="Delete" value="Delete This Custom Tag">
 </form>
 <script src ="custom_tags.js" ></script>
+<br>
+<h3>Instructions</h3>
+<hr>
+Available codes:  (Note: these are <strong>case sensitive</strong>, and they can be used multiple times in a menu.)
+<ul>
+<li><code>{{clipboard}}</code>: This pastes in the current clipboard contents where it is placed.</li>
+<li><code>{{selection}}</code>: This pastes in the currently selected texts where it is placed.</li>
+</ul>
+Example:
+<code>[url={{clipboard}}]{{selection}}[/url]</code><br>
+So if you copy a url, and select text, this would add a link to it for bbCode.<br><br>
+Advance techniques, and more complex tags, are <a href="http://40yrs.blogspot.com/2018/12/bbcodewebex-detailed-documentation.html">available here</a>.<br><br>
+Complete information and documentation for bbCodeWebEx is available <a href="http://40yrs.blogspot.com/search/label/bbCodeWebEx">here</a>.
+
 <!-- start comment and end comment -->
 <!--    <input type="color" id="head" name="head"
            value="#e66465">

@@ -10,6 +10,8 @@
 <body>
 <b><span style="font-size: 275%;">Settings</span></b><br><br>
     <b><span style="font-size: 175%;">Menus to activate</span></b><br> 
+	<strong><em>Changes in selections will not be seen until either Firefox is restarted.</em></strong>
+	<br><br>
  <section class="clear-options data-types"> 
         <table>
             <td>
@@ -44,104 +46,14 @@
                                 <input type="checkbox" id="enableSymbolCHK" disabled="disabled" />Enable Symbol menu</label> (not yet implimented)</table>
  </section><br>
 <input type="button" value="Save Menu Options" id="save-button"/>
-<br><br><br><br><br> 
+<br>
+<br><br>
 <button type="button" id="customTagBtn">Custom Tags</button><br/>
-Will open in background if, "Open new windows in a new tab instead," is set.
-
-
-<!-- 
-Button popup example:
-<p>Click the button to open a new browser window.</p>
-
-<button onclick="myFunction()">Try it</button>
-
-<script>
-function myFunction() {
-    window.open("https://www.w3schools.com");
-}
-</script>
-
-
-
-
-            <h3>Custom Tags</h3>
-            <textarea rows="10" cols="80" id="custom">
-            </textarea> 
-<br><h3>To backup custom tags, just copy the text in the dialogue box and save as a text file</h3><br>
-<h3>Add or Edit a Tag</h3>
-<label for="customMenuTitle">Label for your custom menu item: (Required)</label>
-<input id="customMenuTitle" class="custom" size="70"><br /><br />
-<label for="customMenuArg">Argument for your custom menu item: (Optional)</label>
-<input id="customMenuArg" class="custom" size="70"> Required unless this has submenus. <br /><br />
-<label for="customMenuId">Menu ID for your custom menu item: (Optional)</label>
-<input id="customMenuId" class="custom" size="70"> Only needed if you want to create custom submenus. <br /><br />
-<label for="customMenuParentId">Parent Menu for your custom menu item: (Optional)</label>
-<input id="customMenuParentId" class="custom" size="70"> Only needed if you want to create custom submenus. <br /><br />
-<hr>
-<h1>Instructions for customization</h1>
-<h2>Basics</h2>
-
-Drag and drop list test:<br>
-
-<ul>
-  <li draggable="true" ondragover="dragOver(event)" ondragstart="dragStart(event)">Apples</li>
-  <li draggable="true" ondragover="dragOver(event)" ondragstart="dragStart(event)">Oranges</li>
-  <li draggable="true" ondragover="dragOver(event)" ondragstart="dragStart(event)">Bananas</li>
-  <li draggable="true" ondragover="dragOver(event)" ondragstart="dragStart(event)">Strawberries</li>
-</ul>
-
+Will open in background if, "Open new windows in a new tab instead," is set.<br>
 <br>
+Complete information and documentation for bbCodeWebEx is available <a href="http://40yrs.blogspot.com/search/label/bbCodeWebEx">here</a>.
 
-This program works by evaluating tokens.<br>
-<br>
-The basic tokens are:<br>
-<br>
 
-<table style="width: 800px;" border="1" cellspacing="3" cellpadding="3">
-<tbody>
-<tr style="height: 18px;">
-<td style="vertical-align: top; height: 18px;"><strong>Tag</strong></td>
-<td style="vertical-align: top; height: 18px;"><strong>Syntax</strong> (Case significant)</td>
-<td style="vertical-align: top; height: 18px;"><strong>Example</strong> (using bbCode, just because)</td>
-</tr>
-<tr style="height: 18px;">
-<td style="vertical-align: top; height: 18px;">&nbsp;Selection</td>
-<td style="vertical-align: top; height: 18px;">&nbsp;{{select}}</td>
-<td style="vertical-align: top; height: 18px;">&nbsp;<em>[b]{{select}}[/b]</em> Bolds selected text</td>
-</tr>
-<tr style="height: 18px;">
-<td style="vertical-align: top; height: 18px;">&nbsp;Clipboard</td>
-<td style="vertical-align: top; height: 18px;">&nbsp;{{clipboard}}</td>
-<td style="vertical-align: top; height: 18px;">&nbsp;<em>[b]{{clipboard}}[/b]</em> Pastes clipboard text as bold</td>
-</tr>
-<tr>
-<td style="vertical-align: top;">&nbsp;List</td>
-<td style="vertical-align: top;">&nbsp;{{list,text,type}}</td>
-<td style="vertical-align: top;"><em>{{list,{{clipboard}},bbcode}}</em> <br />Paste text as a bbCode unordered list. See below for current list types.</td>
-</tr>
-<tr style="height: 36px;">
-<td style="vertical-align: top; height: 36px;">Popup</td>
-<td style="vertical-align: top; height: 36px;">{{popup,title,start text, end text}}</td>
-<td style="vertical-align: top; height: 36px;"><em>[quote{{popup,"Enter Author","=\"","\""]{{clipboard}}[/quote]<br /></em>Pasts the clipboard as a quote, and prompt for author name.&nbsp; If left blank, then it is a simple "[quote]" tag.</td>
-</tr>
-</tbody>
-</table>
-<h2>Advanced</h2>
-
-<h3>List types:</h3>
-<b>bbCode</b><ul><li>bbCode Unordered (dots): <i>bbcode</i></li>
-<li>bbCode Ordered (numbers): <i>bbcodeord</i></li>
-<li>bbCode Alpha (alpha): <i>bbcodeordalf</i></li></ul>
-
-<b>HTML</b> (XHTML has identical syntax for lists)<ul><li>HTML Unordered (dots): <i>html</i></li>
-<li>HTML Ordered (number): <i>htmlord</i></li>
-<li>HTML Ordered (alpha): <i>htmlordalf</i><br></li></ul>
-<b>Markdown</b><ul><li>Markdown Unordered (dots): <i>markdown</i></li>
-<li>Markdown Ordered (number): <i>markdownord</i></li></ul>
-
-Quote marks: in thise circumstances where you need to put in a quote mark as an argument, you can escape the quote 
-mark by prepending a backslash "&lt;a href=\"", or you can use a single quote, '&lt;a href="'.
--->
 
 <script src="options.js"></script>
 

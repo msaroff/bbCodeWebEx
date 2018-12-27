@@ -411,7 +411,7 @@
       "message": "Disable this menu"
     },
     "MENU_SETTINGS": {
-      "message": "bbCodeWebex settings%u2026"
+      "message": "bbCodeWebex settings..."
     },
     "DELETE_CUSTOMTAG": {
       "message": "Do you want to remove this item?"
@@ -450,7 +450,7 @@
       "message": "bbCodeWebex"
     },
     "SETTINGSMENU": {
-      "message": "bbCodeWebex settings%u2026"
+      "message": "bbCodeWebex settings..."
     },
     "DISABLEMENU": {
       "message": "Disable this menu"
@@ -498,25 +498,25 @@
       "message": "Manage settings"
     },
     "SETTINGS_BACKUPDESCRIPTION": {
-      "message": "WARNING: importing settings will overwrite all existing settings."
+      "message": "WARNING: importing settings will ."
     },
     "SETTINGS_BTNIMPORT": {
-      "message": "Import settings%u2026"
+      "message": "Import settings..."
     },
     "SETTINGS_BTNEXPORT": {
-      "message": "Export settings…"
+      "message": "Export settings..."
     },
     "SETTINGS_CUSTOMTAGS_TOTALTAGS": {
       "message": "Available Custom Tags:"
     },
     "SETTINGS_CUSTOMTAGS_BTNADD": {
-      "message": "Add%u2026"
+      "message": "Add..."
     },
     "SETTINGS_CUSTOMTAGS_BTNEDIT": {
-      "message": "Edit%u2026"
+      "message": "Edit..."
     },
     "SETTINGS_CUSTOMTAGS_BTNDELETE": {
-      "message": "Delete%u2026"
+      "message": "Delete..."
     },
     "SETTINGS_CUSTOMTAGS_MOVEUP": {
       "message": "Move Up"
