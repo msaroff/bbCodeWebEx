@@ -8,3 +8,22 @@ The file has not yet been installed in addons.mozilla.org, so you must do one of
 Unlike Google, Mozilla has a human being review extensions before publishing them to addons.mozilla.org, and there is a bit of a backlog.
 
 Here are illustrations showing the steps:
+
+Download Zip File:
+![alt text](https://i.imgur.com/m487DEa.png "Download Zip File")
+
+Open zip file:
+![alt text](https://i.imgur.com/d1wZKXJ.png "Open zip file")
+
+Unzip to directory:
+
+![alt text](https://i.imgur.com/uYJqCC7.png)
+
+Go to firefox, enter about:debugging in the address bar, and click the "load temporary addons" button button:
+![alt text](https://i.imgur.com/CZk96Zy.png "Go to firefox, enter about:debugging in the address bar, and click the 'load temporary addons' button button")
+
+Navigate to where you unzipped the file, and click on the manifest.json file:
+![alt text](https://i.imgur.com/JeOBtwL.png "Navigate to where you unzipped the file, and click on the manifest.json file")
+
+All done!
+![alt text](https://i.imgur.com/8kecxnw.png "All done!")
