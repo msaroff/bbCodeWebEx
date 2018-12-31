@@ -6,14 +6,28 @@ function onCreated() {
     }
 }
 
+// Create listener to update the menus when they are changed in the settings pages
+browser.storage.onChanged.addListener(invokeDefaultMenus);
+
+// when you are changing menus in settings, first remove the existing menus before regenerating the menu
+//	var removing = browser.menus.removeAll();
+
+
 //read the custom menus from local storage:
 customMenus = JSON.parse(localStorage.getItem('customMenus'));
 
+const defMenuURL = browser.runtime.getURL('data/DefMenu.json'); // location of default menu storage
+
+const custMenuUrl = browser.runtime.getURL('data/customMenuTest.json'); //location of initial tutorial custom menu
+
 activeMenus = invokeDefaultMenus();
 
+var defaultMenu = [];
+
 function invokeDefaultMenus() { 
+	
 // set the falue to the defaults, or the saved value if it exists
-let defaultMenus = {
+    let defaultMenus = {
         enablebbCode: true,
         enableHTML: true,
         enableVbulletin: true,
@@ -21,17 +35,12 @@ let defaultMenus = {
         enableMarkDown: true,
         enableCustom: true,
         enableSymbol: false
-};
+    };
     if (localStorage.getItem("activeMenus") === null) { //if menu settings not stored, 
-        localStorage.setItem('activeMenus',JSON.stringify(defaultMenus)); //store default in local menu
-}
+        localStorage.setItem('activeMenus',JSON.stringify(defaultMenus)); //store default in local storage
+    }
         return JSON.parse(localStorage.getItem('activeMenus')); // load stored values if necessary
 }
-
-const defMenuURL = browser.runtime.getURL('data/DefMenu.json'); // location of default menu storage
-const custMenuUrl = browser.runtime.getURL('data/customMenuTest.json'); //location of initial tutorial custom menu
-
-var defaultMenu = [];
 
 fetch(defMenuURL)
     .then(function(response) {
@@ -39,7 +48,7 @@ fetch(defMenuURL)
     })
     .then(function(defaultMenu) {
         window.defMenu = defaultMenu; //create variable with global scope
-console.log("def",defMenu);
+        console.log("def",defMenu);
         for (i = 0; i < defaultMenu.length; i++) {
             let currentId = defaultMenu[i].menuId;
             let nobbCode = (currentId.substring(0,13) == 'bbcwbx.bbcode') && !activeMenus.enablebbCode;
@@ -63,9 +72,9 @@ console.log("def",defMenu);
             console.log('No Mark Down');
         } else if (noMKDN) {
             console.log('No Mark Down');
-    } else if (noCstm) {
+        } else if (noCstm) {
         console.log('No Custom Tags');
-    } else if (noSym) {
+        } else if (noSym) {
         console.log('No Symbols');
     } else {
         info = {
@@ -94,10 +103,10 @@ fetch(custMenuUrl)
     .then(function(response) {
         return response.json();
     })
-    .then(function(customMenu) {
+    .then(function(CustomMenuFromDisk) {
     customMenus = JSON.parse(localStorage.getItem('customMenus'));// get stored custom menus, if any
     if (customMenus == null){ // if there are no stored custom menus
-    customMenus = customMenu; // take the results of the file loaded from disk
+    customMenus = CustomMenuFromDisk; // take the results of the file loaded from disk
     localStorage.setItem('customMenus',JSON.stringify(customMenus)); //and write to local storage
     }
     if (activeMenus.enableCustom) { // process custom tags if custom tags are enabled.
