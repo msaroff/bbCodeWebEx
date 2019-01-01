@@ -23,6 +23,7 @@ const custMenuUrl = browser.runtime.getURL('data/customMenuTest.json'); //locati
 activeMenus = invokeDefaultMenus();
 
 var defaultMenu = [];
+var defMenu = [];
 
 function invokeDefaultMenus() { 
 	
@@ -41,14 +42,22 @@ function invokeDefaultMenus() {
     }
         return JSON.parse(localStorage.getItem('activeMenus')); // load stored values if necessary
 }
-
+console.log("localstor1",(localStorage.getItem('defaultMenu')));
 fetch(defMenuURL)
     .then(function(response) {
         return response.json();
     })
     .then(function(defaultMenu) {
-        window.defMenu = defaultMenu; //create variable with global scope
+        defMenu = defaultMenu; //create variable with global scope
         console.log("def",defMenu);
+		localStorage.setItem('defaultMenu',JSON.stringify(defMenu));
+		generateMenu();
+	})
+
+
+function generateMenu(){
+	let defaultMenu = JSON.parse(localStorage.getItem('defaultMenu'));
+	console.log("gentest",defaultMenu);
         for (i = 0; i < defaultMenu.length; i++) {
             let currentId = defaultMenu[i].menuId;
             let nobbCode = (currentId.substring(0,13) == 'bbcwbx.bbcode') && !activeMenus.enablebbCode;
@@ -96,7 +105,7 @@ fetch(defMenuURL)
         browser.menus.create(info);
     }
     }
-});
+}
 
 // load custom menus
 fetch(custMenuUrl)
