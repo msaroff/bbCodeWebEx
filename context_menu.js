@@ -56,6 +56,8 @@ fetch(defMenuURL)
 
 
 function generateMenu(){
+	// when you are changing menus in settings, first remove the existing menus before regenerating the menu
+	var removing = browser.menus.removeAll();
 	let defaultMenu = JSON.parse(localStorage.getItem('defaultMenu'));
 	console.log("gentest",defaultMenu);
         for (i = 0; i < defaultMenu.length; i++) {
