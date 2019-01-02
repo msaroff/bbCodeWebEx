@@ -15,38 +15,24 @@
 
     browser.runtime.onMessage.addListener(function(commandString, sendResponse) {
         CommandParse(commandString);
-//        getColor();
     });
 
-
-function removeElement(id) { //generic remove element by ID function
-    var elem = document.getElementById(id);
-    return elem.parentNode.removeChild(elem);
+// sanitize selections and clipboard contents so that they do not get executed as commands
+// will put the string, "_~_~", in between each "{{", "}}", and "##" so they will not be parsed
+function sanitize (sanitized) {
+   sanitized  = sanitized.replace(/{{/g,"{_~_~{");
+   sanitized  = sanitized.replace(/}}/g,"}_~_~}");
+   sanitized  = sanitized.replace(/##/g,"#_~_~#");
+return sanitized;
 }
 
-// check out code from NilkasGNiklas Gollenstede
-
-function clickElement(element) {
-	const evt = document.createEvent('MouseEvents');
-	evt.initEvent('click', true, true);
-	element.dispatchEvent(evt);
-	return element;
+// return selections and clipboard contents back to original values.
+function deSanitize (deSanitized) {
+   deSanitized  = deSanitized.replace(/{_~_~{/g,"{{");
+   deSanitized  = deSanitized.replace(/}_~_~}/g,"}}");
+   deSanitized  = deSanitized.replace(/#_~_~#/g,"##");
+return deSanitized;
 }
-
-function pickColor() { return new Promise(resolve => {
-	const input = document.createElement('input'); input.type = 'color';
-console.log("input "+input);
-	input.addEventListener('change', () => resolve(input.value));
-	clickElement.call(window, input);
-}); }
-/*
-someElement.onclick = async () => {
-	const color = (await pickColor());
-	console.log(color);
-}; */
-
-//end of code from NilkasGNiklas Gollenstede
-
 
 /*
 Popup has the format of {{zzppopup,title,unique text string to change,text before, text after}}
