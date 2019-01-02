@@ -1,5 +1,5 @@
 customMenus = JSON.parse(localStorage.getItem('customMenus'));
-console.log (customMenus);
+console.log (JSON.stringify(customMenus));
 
 /* space for all the listeners begin */
 
