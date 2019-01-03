@@ -19,7 +19,7 @@
     "menuId": "bbcwbx.bbcode.clp.quote",
     "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.clp.quote)",
     "parentId": "bbcwbx.bbcode.clp",
-    "menuArg": "{{zzpopup,i18n.INS_AUTHOR,##authorQuote##,=\",\"}}[quote##AUTHORQUOTE##]{{clipboard}}[/quote]",
+    "menuArg": "{{zzpopup,i18n.INS_AUTHOR,##authorQuote##,=\",\"}}[quote##authorQuote##]{{clipboard}}[/quote]",
     "icons": ""
   },
   {
@@ -96,7 +96,7 @@
     "menuId": "bbcwbx.bbcode.wbx.quote",
     "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.wbx.quote)",
     "parentId": "bbcwbx.bbcode.wbx",
-    "menuArg": "{{zzpopup,i18n.INS_AUTHOR,##authorQuote##,=\",\"}}[quote##AUTHORQUOTE##]{{selection}}[/quote]",
+    "menuArg": "{{zzpopup,i18n.INS_AUTHOR,##authorQuote##,=\",\"}}[quote##authorQuote##]{{selection}}[/quote]",
     "icons": ""
   },
   {
