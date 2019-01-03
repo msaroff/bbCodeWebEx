@@ -112,11 +112,11 @@ This will generate as many popup dialogues as you would want.
         let txtcont = document.getElementById(TextBoxID).value; //contents of edit box
         let selstart = clickedElement.selectionStart; // index of selectin start
         let selend = clickedElement.selectionEnd; //index of selection end
-        let selcont = txtcont.substring(selstart, selend); // selected text content
+        let selcont = sanitize(txtcont.substring(selstart, selend)); // selected text content sanitized
         let firsttext = txtcont.substring(0, selstart); //stuff before the selection
         let lasttext = txtcont.substring(selend); // stuff after the selection
         if (argString.includes("{{clipboard}}")) { // Replace clipboard tag with clipboard contents
-            const clipcont = await readFromClipboard('text/plain');
+            const clipcont = sanitize(await readFromClipboard('text/plain')); //clipboard content sanitized
             argString = argString.replace(/{{clipboard}}/g, clipcont);
 //console.log(argString);
         }
@@ -135,10 +135,8 @@ console.log(argString);
 //            argString = getColor(argString);
 //  ** not yet implemented.            
 //        }
-
-
-
-        clickedElement.value = firsttext + argString + lasttext;
+//desanitize and paste element
+        clickedElement.value = firsttext + deSanitize(argString) + lasttext;
 
     }
 
