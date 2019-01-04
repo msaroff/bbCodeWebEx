@@ -18,7 +18,7 @@ customMenus = JSON.parse(localStorage.getItem('customMenus'));
 
 const defMenuURL = browser.runtime.getURL('data/DefMenu.json'); // location of default menu storage
 
-const custMenuUrl = browser.runtime.getURL('data/customMenuTest.json'); //location of initial tutorial custom menu
+const custMenuURL = browser.runtime.getURL('data/customMenuTest.json'); //location of initial tutorial custom menu
 
 activeMenus = invokeDefaultMenus();
 
@@ -110,7 +110,7 @@ function generateMenu(){
 }
 
 // load custom menus
-fetch(custMenuUrl)
+fetch(custMenuURL)
     .then(function(response) {
         return response.json();
     })
