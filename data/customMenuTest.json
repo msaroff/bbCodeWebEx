@@ -41,5 +41,11 @@
     "menuTitle": "bbCode Paste Quote",
     "parentId": "bbcwbx.custom",
     "menuArg": "{{zzpopup,\"Enter author\",##authorQuote##,=\",\"}}[quote##authorQuote##]{{clipboard}}[/quote]"
+  },
+  {
+    "menuId": "bbcwbx.custom.005",
+    "menuTitle": "Enter 5 line list",
+    "parentId": "bbcwbx.custom",
+    "menuArg": "{{zzpopup,\"Line 1\",##line1##,\\n,\\n}}{{zzpopup,\"Line 2\",##line2##,,}}{{makeList##line1####line2##,\"bbcode\"}}"
   }
 ]

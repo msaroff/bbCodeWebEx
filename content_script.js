@@ -87,11 +87,17 @@ This will generate as many popup dialogues as you would want.
     */
     function listMake (listArg) {
         let listStartIdx = listArg.indexOf("{{makeList"); // start of list argument in commend string
+		console.log(listStartIdx);
         let listEndIdx = listArg.indexOf("}}", listStartIdx); // end of list argument in command string
+		console.log(listEndIdx);
         let listWork = listArg.substring(listStartIdx, listEndIdx);; // extract the portion of the argument that has to do with making the list
+		console.log(listWork);
         listWork = listWork.substring(10, listWork.length -1 ); //remove the "{{makeList," from the beginning of the argument, and the "}}" from the end.
+		console.log(listWork);
         let listType = listWork.substring(listWork.lastIndexOf(",") +2, (listWork.length)) // the type of list is after the last comma
-        let listWhat = listWork.substring(0, listWork.lastIndexOf(",")) // the text to which the list would be attached
+        console.log(listType);
+		listWhat = listWork.substring(0, listWork.lastIndexOf(",")).replace(/\\n/g,'\n'); // the text to which the list would be attached
+		// the replace will only apply to cases where line breaks are inserted through custom user scripts
         let listResult = createList(listWhat, listType); //return the properly formatted list to put into the list argument
         return listArg.substring(0, listStartIdx) + listResult + listArg.substring(listEndIdx +2); //send the parsed list in the back
     }
@@ -147,7 +153,6 @@ which is under an MIT free and open-source software (FOSS) license.
 */
 
 function createList(originalText, listType) {
-console.log("createList running");
     var startBlock, endBlock, startItem, endItem, formattedText;
 
     // Make sure only \n is used as line ending
@@ -158,10 +163,8 @@ console.log("createList running");
     lines = lines.filter(function(n) {
         return n !== '';
     });
-console.log(listType);
     switch (listType) {
         case 'bbcode':
-console.log("bbcode tripped");
             startBlock = '[list]\n';
             startItem = '[*]';
             endItem = '\n';
