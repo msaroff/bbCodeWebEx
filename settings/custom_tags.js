@@ -187,7 +187,8 @@ var newMenu = {
     menuId: currentMenuId,
     menuTitle: currentMenuTitle,
     parentId: currentMenuParentId,
-    menuArg: currentMenuArg
+    menuArg: currentMenuArg,
+	icons: ""
   }
 //get the index of the value of currentMenuId in the input box
 locationOfRecord = customMenus.findIndex(p => p.menuId == currentMenuId);
