@@ -15,19 +15,22 @@
     "menuId": "bbcwbx.custom.003",
     "menuTitle": "Third custom menu",
     "parentId": "bbcwbx.custom",
-    "menuArg": "Arg 3"
+    "menuArg": "Arg 3".
+     "icons": ""
   },
   {
     "menuId": "bbcwbx.custom.004",
     "menuTitle": "Fourth custom menu",
     "parentId": "bbcwbx.custom",
-    "menuArg": "Arg 4"
+    "menuArg": "Arg 4".
+     "icons": ""
   },
   {
     "menuId": "bbcwbx.custom.006",
     "menuTitle": "Fifth custom menu",
     "parentId": "bbcwbx.custom",
-    "menuArg": "XYZZY"
+    "menuArg": "XYZZY".
+     "icons": ""
   },
   {
     "menuId": "bbcwbx.custom.010",
@@ -40,12 +43,14 @@
     "menuId": "bbcwbx.custom.008",
     "menuTitle": "bbCode Paste Quote",
     "parentId": "bbcwbx.custom",
-    "menuArg": "{{zzpopup,\"Enter author\",##authorQuote##,=\",\"}}[quote##authorQuote##]{{clipboard}}[/quote]"
+    "menuArg": "{{zzpopup,\"Enter author\",##authorQuote##,=\",\"}}[quote##authorQuote##]{{clipboard}}[/quote]".
+     "icons": ""
   },
   {
     "menuId": "bbcwbx.custom.005",
     "menuTitle": "Enter 5 line list",
     "parentId": "bbcwbx.custom",
-    "menuArg": "{{zzpopup,\"Line 1\",##line1##,\\n,\\n}}{{zzpopup,\"Line 2\",##line2##,,}}{{makeList##line1####line2##,\"bbcode\"}}"
+    "menuArg": "{{zzpopup,\"Line 1\",##line1##,\\n,\\n}}{{zzpopup,\"Line 2\",##line2##,,}}{{makeList##line1####line2##,\"bbcode\"}}".
+     "icons": ""
   }
 ]
