@@ -1,5 +1,4 @@
-customMenus = JSON.parse(localStorage.getItem('customMenus'));
-console.log (JSON.stringify(customMenus));
+customMenu = JSON.parse(localStorage.getItem('customMenu'));
 
 /* space for all the listeners begin */
 
@@ -26,7 +25,7 @@ fileButton.addEventListener("click", JSONtoVar);
 /* Space for all the listeners end */
 
 //console.log(ulSort);
-    for (i = 0; i < Object.keys(customMenus).length; i++) {
+    for (i = 0; i < Object.keys(customMenu).length; i++) {
 
 const containerSpan = document.createElement('span');
       containerSpan.classList.add("grid-container");
@@ -39,13 +38,13 @@ const parentIdSpan = document.createElement('span');
 const menuArgSpan = document.createElement('span');
       menuArgSpan.classList.add("baseSort", "menuArgBody", "hover");
     var createLi = document.createElement("li"); 
-    createLi.setAttribute('id', customMenus[i].menuId);
+    createLi.setAttribute('id', customMenu[i].menuId);
     createLi.setAttribute('draggable', true);
     createLi.classList.add("listItem");
-    menuIdSpan.appendChild(document.createTextNode(customMenus[i].menuId));
-    menuTitleSpan.appendChild(document.createTextNode(customMenus[i].menuTitle));
-    parentIdSpan.appendChild(document.createTextNode(customMenus[i].parentId));
-    menuArgSpan.appendChild(document.createTextNode(customMenus[i].menuArg));
+    menuIdSpan.appendChild(document.createTextNode(customMenu[i].menuId));
+    menuTitleSpan.appendChild(document.createTextNode(customMenu[i].menuTitle));
+    parentIdSpan.appendChild(document.createTextNode(customMenu[i].parentId));
+    menuArgSpan.appendChild(document.createTextNode(customMenu[i].menuArg));
 //console.log(menuIdSpan,menuTitleSpan);
     containerSpan.appendChild(menuIdSpan);
     containerSpan.appendChild(menuTitleSpan);
@@ -58,9 +57,9 @@ createLi.appendChild(containerSpan);
 
 
 
-for (i = 0; i < customMenus.length; i++) {
-let singleRow = customMenus[i];
-let singleRowId = customMenus[i].menuId;
+for (i = 0; i < customMenu.length; i++) {
+let singleRow = customMenu[i];
+let singleRowId = customMenu[i].menuId;
 //console.log(singleRowId)
 document.getElementById(singleRowId).addEventListener('click', () => {getMenuClicked(singleRowId);});
 }
@@ -70,12 +69,12 @@ document.getElementById(singleRowId).addEventListener('click', () => {getMenuCli
 
 function getMenuClicked (menuId) {
 console.log("Menu ID: ", menuId);
-for (i = 0; i < customMenus.length; i++) {
-if (menuId == customMenus[i].menuId) {
-document.getElementById("menuId").value = customMenus[i].menuId;
-document.getElementById("menuTitle").value = customMenus[i].menuTitle;
-document.getElementById("menuArg").value = customMenus[i].menuArg;
-document.getElementById("parentId").value = customMenus[i].parentId;
+for (i = 0; i < customMenu.length; i++) {
+if (menuId == customMenu[i].menuId) {
+document.getElementById("menuId").value = customMenu[i].menuId;
+document.getElementById("menuTitle").value = customMenu[i].menuTitle;
+document.getElementById("menuArg").value = customMenu[i].menuArg;
+document.getElementById("parentId").value = customMenu[i].parentId;
 }}
 }
 
@@ -85,7 +84,7 @@ function newJSON() {
 for (i = 1; i < 1000; i++) {// Allows up to 1000 custom tags
 var textNum = i+""; //declare as text
 var textNum = textNum.padStart(3,"0"); //prepend with zeros to make 3 digit number
-if (customMenus.findIndex(p => p.menuId == "bbcwbx.custom."+textNum) == -1) { break;} // if the menu id is not found break, and use this number
+if (customMenu.findIndex(p => p.menuId == "bbcwbx.custom."+textNum) == -1) { break;} // if the menu id is not found break, and use this number
 }
 console.log(textNum);
 document.getElementById("menuId").value = "bbcwbx.custom." + textNum;
@@ -111,7 +110,7 @@ function JSONtoVar (event) {
     // The file's text will be printed here
     let readValue = event.target.result;
 //    console.log(readValue);
-localStorage.setItem('customMenus',readValue); //store order of custom tags locally
+localStorage.setItem('customMenu',readValue); //store order of custom tags locally
 location.reload(); // reload page, which reloads custom tags from storage
   };
   reader.readAsText(file);
@@ -128,23 +127,23 @@ let tempSaveSort = [];
 let lis = "";
 for (i = 0; i < document.getElementById("listOrder").getElementsByTagName("li").length; i++) {
 let listMenuId = document.getElementById("listOrder").getElementsByTagName("li")[i].id;
-let menuIdx = customMenus.findIndex(p => p.menuId == listMenuId);
+let menuIdx = customMenu.findIndex(p => p.menuId == listMenuId);
 lis = lis + menuIdx +" " + listMenuId +"\n";
-//tempSaveSort = Object.assign({menuId: customMenus[menuIdx].menuId }, tempSaveSort);
-let keyToAdd = {"menuId": customMenus[menuIdx].menuId,
-menuTitle: customMenus[menuIdx].menuTitle,
-parentId: customMenus[menuIdx].parentId,
-menuArg: customMenus[menuIdx].menuArg
+//tempSaveSort = Object.assign({menuId: customMenu[menuIdx].menuId }, tempSaveSort);
+let keyToAdd = {"menuId": customMenu[menuIdx].menuId,
+menuTitle: customMenu[menuIdx].menuTitle,
+parentId: customMenu[menuIdx].parentId,
+menuArg: customMenu[menuIdx].menuArg
 };
 //console.log(keyToAdd);
 tempSaveSort.push(keyToAdd);
 //Object.assign(tempSaveSort, keyToAdd);
 }
 alert(lis);
-//console.log(JSON.stringify(customMenus));
+//console.log(JSON.stringify(customMenu));
 console.log(JSON.stringify(tempSaveSort));
-localStorage.setItem('customMenus',JSON.stringify(tempSaveSort)); //store order of custom tags locally
-//customMenus = JSON.parse(localStorage.getItem('customMenus')); //reread custom tags from local storage
+localStorage.setItem('customMenu',JSON.stringify(tempSaveSort)); //store order of custom tags locally
+//customMenu = JSON.parse(localStorage.getItem('customMenu')); //reread custom tags from local storage
 location.reload(); // reload page, which reloads custom tags from storage
 }
 
@@ -157,7 +156,7 @@ function expTag () {
 let  expProceed = window.confirm("Save any edits first?\n Any unsaved edits will be lost");
 console.log(expProceed);
 if (expProceed) {
-let stuffToExportJSON = JSON.stringify(customMenus, null, 2);
+let stuffToExportJSON = JSON.stringify(customMenu, null, 2);
 let stuffToExportBLOB  = new Blob([stuffToExportJSON], { type: 'application/javascript;charset=utf-8' });
 let stuffToExportURL = URL.createObjectURL(stuffToExportBLOB);
 let dt = new Date();
@@ -191,14 +190,14 @@ var newMenu = {
 	icons: ""
   }
 //get the index of the value of currentMenuId in the input box
-locationOfRecord = customMenus.findIndex(p => p.menuId == currentMenuId);
+locationOfRecord = customMenu.findIndex(p => p.menuId == currentMenuId);
 console.log(locationOfRecord);
 if (locationOfRecord !== -1){ //if a an existing tag replace
-customMenus[locationOfRecord] = newMenu;
+customMenu[locationOfRecord] = newMenu;
 } else { // if new tag, add to end
-customMenus = customMenus.concat(newMenu);
+customMenu = customMenu.concat(newMenu);
 }
-localStorage.setItem('customMenus',JSON.stringify(customMenus)); //store updated tags in local storage
+localStorage.setItem('customMenu',JSON.stringify(customMenu)); //store updated tags in local storage
 // clear the input boxes after value is saved
 document.getElementById("menuId").value = "";
 document.getElementById("menuTitle").value = "";
@@ -211,16 +210,16 @@ location.reload(); // reload page, which reloads custom tags from storage
 function delTag (){
 let curId = document.getElementById("menuId").value;
 let curTit = document.getElementById("menuTitle").value;
-let indId = customMenus.findIndex(p => p.menuId == curId);
+let indId = customMenu.findIndex(p => p.menuId == curId);
 if (curId == ""){
 alert("Cannot delete empty tag");
 } else {
 let deleteMe = confirm("Are you sure you want to delete the tag \"" + curTit +"\"?");
 console.log(deleteMe);
 if (deleteMe){
-console.log(JSON.stringify(customMenus));
-removed = customMenus.splice(indId,1);
-localStorage.setItem('customMenus',JSON.stringify(customMenus)); //store updated tags in local storage
+console.log(JSON.stringify(customMenu));
+removed = customMenu.splice(indId,1);
+localStorage.setItem('customMenu',JSON.stringify(customMenu)); //store updated tags in local storage
 }
 document.getElementById("menuId").value = ""; // clear out input boxes
 document.getElementById("menuTitle").value = "";
