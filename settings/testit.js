@@ -5,10 +5,10 @@ const custMenuURL = browser.runtime.getURL('../data/customMenuTest.json'); //loc
 
 
 const request = async () => {
-    let defmen = await fetch(defMenuURL);
-    defaultMenuFromDisk = await defmen.json();
-    let custmen = await fetch(custMenuURL);
-    customMenuFromDisk = await custmen.json();
+    let defaultMenuFromDisk = JSON.parse(localStorage.getItem('defaultMenu'));
+//    defaultMenuFromDisk = await defmen.json();
+    let customMenuFromDisk = JSON.parse(localStorage.getItem('customMenus'));
+ //   customMenuFromDisk = await custmen.json();
 	document.getElementById("demo").innerHTML = "<h1>Default Menu</h1><xmp>" + 
 	JSON.stringify(defaultMenuFromDisk,null,2) + 
 	"</xmp><h1>Custom Menu</h1><xmp>" + 
