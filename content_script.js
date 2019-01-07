@@ -124,7 +124,6 @@ This will generate as many popup dialogues as you would want.
         if (argString.includes("{{clipboard}}")) { // Replace clipboard tag with clipboard contents
             const clipcont = sanitize(await readFromClipboard('text/plain')); //clipboard content sanitized
             argString = argString.replace(/{{clipboard}}/g, clipcont);
-//console.log(argString);
         }
         if (argString.includes("{{selection}}")) { // Replace selection tag with selection value 
             argString = argString.replace(/{{selection}}/g, selcont);
@@ -136,11 +135,6 @@ This will generate as many popup dialogues as you would want.
 console.log(argString);
             argString = listMake(argString);
         }
-//        if (argString.includes("fontzcol")) { // Invoke font color wheel
-//            argString = await getColor(argString);
-//            argString = getColor(argString);
-//  ** not yet implemented.            
-//        }
 //desanitize and paste element
         clickedElement.value = firsttext + deSanitize(argString) + lasttext;
 
@@ -230,6 +224,3 @@ function createList(originalText, listType) {
     formattedText += endBlock;
     return formattedText;
 }
-
-// Use document.activeElement, it is supported in all major browsers.
-// https://stackoverflow.com/questions/497094/how-do-i-find-out-which-dom-element-has-the-focus
