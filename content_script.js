@@ -68,13 +68,19 @@ This will generate as many popup dialogues as you would want.
         popupBefore = popWork.substring(0, popWork.indexOf(",")) //text to be added before entered text
         popupAfter = popWork.substring(popWork.lastIndexOf(",")+1) //text to be added before entered text
         let popupResp = prompt(popTitle);
+		console.log('popupResp',popupResp);
+		alert(popupResp);
         if (popupResp === null || popupResp === "") { // if the prompt is left blank, produce empty response
             popupResp = "";
             popupBefore = "";
             popupAfter = "";
         }
 
-        let popUpHere = popupBefore + popupResp + popupAfter;
+        let popUpHere = (popupBefore + popupResp + popupAfter);
+		popUpHere = popUpHere.replace(/\\\\n/g,'~_~_~n');
+		popUpHere = popUpHere.replace(/\\n/g,'\n');
+		popUpHere = popUpHere.replace(/~_~_~n/g,'\\n');
+		console.log("popuphere",popUpHere);
         popArg = popArg.substring(0, popStartIdx) + popArg.substring(popEndIdx); //string it together with popup removed
         popArg = popArg.replace(new RegExp(textToReplace,"g"),popUpHere); //replace hashtag with word prompt results
 }
@@ -87,16 +93,17 @@ This will generate as many popup dialogues as you would want.
     */
     function listMake (listArg) {
         let listStartIdx = listArg.indexOf("{{makeList"); // start of list argument in commend string
-		console.log(listStartIdx);
+//		console.log(listStartIdx);
         let listEndIdx = listArg.indexOf("}}", listStartIdx); // end of list argument in command string
-		console.log(listEndIdx);
+//		console.log(listEndIdx);
         let listWork = listArg.substring(listStartIdx, listEndIdx);; // extract the portion of the argument that has to do with making the list
-		console.log(listWork);
-        listWork = listWork.substring(10, listWork.length -1 ); //remove the "{{makeList," from the beginning of the argument, and the "}}" from the end.
-		console.log(listWork);
+//		console.log(listWork);
+        listWork = listWork.substring(11, listWork.length -1 ); //remove the "{{makeList," from the beginning of the argument, and the "}}" from the end.
+//		console.log(listWork);
         let listType = listWork.substring(listWork.lastIndexOf(",") +2, (listWork.length)) // the type of list is after the last comma
-        console.log(listType);
-		listWhat = listWork.substring(0, listWork.lastIndexOf(",")).replace(/\\n/g,'\n'); // the text to which the list would be attached
+//        console.log(listType);
+		listWhat = listWork.substring(0, listWork.lastIndexOf(",")); // the text to which the list would be applied
+//		console.log("lw",listWhat);
 		// the replace will only apply to cases where line breaks are inserted through custom user scripts
         let listResult = createList(listWhat, listType); //return the properly formatted list to put into the list argument
         return listArg.substring(0, listStartIdx) + listResult + listArg.substring(listEndIdx +2); //send the parsed list in the back
@@ -132,7 +139,7 @@ This will generate as many popup dialogues as you would want.
             argString = popThisUp(argString);
         }
         if (argString.includes("{{makeList")) { // Invoke list creation function
-console.log(argString);
+//console.log('argmake',argString);
             argString = listMake(argString);
         }
 //desanitize and paste element

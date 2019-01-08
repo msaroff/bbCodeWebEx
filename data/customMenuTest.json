@@ -52,7 +52,7 @@
     "menuId": "bbcwbx.custom.005",
     "menuTitle": "Enter 5 line list",
     "parentId": "bbcwbx.custom",
-    "menuArg": "{{zzpopup,\"Line 1\",##line1##,\\n,\\n}}{{zzpopup,\"Line 2\",##line2##,,}}{{makeList##line1####line2##,\"bbcode\"}}",
+    "menuArg": "{{zzpopup,\"Line 1\",##line1##,,\n}}{{zzpopup,\"Line 2\",##line2##,,}}{{makeList,##line1####line2##,\"bbcode\"}}",
      "icons": ""
   }
 ]
