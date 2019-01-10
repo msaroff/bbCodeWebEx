@@ -28,7 +28,8 @@ console.log(JSON.stringify(activeMenus));
 activeMenus[crntMenu] = checkVal; //gotta use this notation because I am using a variable for the name.
 }
     localStorage.setItem('activeMenus',JSON.stringify(activeMenus)); //store default in local menu
-console.log("Menu Settings Saved");
+//	browser.storage.local.set(); // using storage.local as opposed to localStorage
+console.log("Menu Settings Saved",JSON.stringify(activeMenus,null,4));
 }
 
 

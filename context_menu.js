@@ -117,4 +117,5 @@ browser.menus.onClicked.addListener((info, tab, defaultMenu) => {
 });
 
 window.addEventListener("storage", generateMenu, false);
+//browser.addEventListener("storage", generateMenu, false);
 //browser.storage.onChanged.addListener(generateMenu);
