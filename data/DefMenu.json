@@ -33,21 +33,21 @@
     "menuId": "bbcwbx.bbcode.clp.list",
     "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.clp.list)",
     "parentId": "bbcwbx.bbcode.clp",
-    "menuArg": "{{makeList,{{clipboard}},\"bbcode\"}}",
+    "menuArg": "{{makelist,{{clipboard}},\"bbcode\"}}",
     "icons": ""
   },
   {
     "menuId": "bbcwbx.bbcode.clp.ordlist",
     "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.clp.ordlist)",
     "parentId": "bbcwbx.bbcode.clp",
-    "menuArg": "{{makeList,{{clipboard}},\"bbcodeord\"}}",
+    "menuArg": "{{makelist,{{clipboard}},\"bbcodeord\"}}",
     "icons": ""
   },
   {
     "menuId": "bbcwbx.bbcode.clp.alphalist",
     "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.clp.alphalist)",
     "parentId": "bbcwbx.bbcode.clp",
-    "menuArg": "{{makeList,{{clipboard}},\"bbcodeordalf\"}}",
+    "menuArg": "{{makelist,{{clipboard}},\"bbcodeordalf\"}}",
     "icons": ""
   },
   {
@@ -110,21 +110,21 @@
     "menuId": "bbcwbx.bbcode.wbx.list",
     "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.wbx.list)",
     "parentId": "bbcwbx.bbcode.wbx",
-    "menuArg": "{{makeList,{{selection}},\"bbcode\"}}",
+    "menuArg": "{{makelist,{{selection}},\"bbcode\"}}",
     "icons": ""
   },
   {
     "menuId": "bbcwbx.bbcode.wbx.ordlist",
     "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.wbx.ordlist)",
     "parentId": "bbcwbx.bbcode.wbx",
-    "menuArg": "{{makeList,{{selection}},\"bbcodeord\"}}",
+    "menuArg": "{{makelist,{{selection}},\"bbcodeord\"}}",
     "icons": ""
   },
   {
     "menuId": "bbcwbx.bbcode.wbx.alphalist",
     "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.wbx.alphalist)",
     "parentId": "bbcwbx.bbcode.wbx",
-    "menuArg": "{{makeList,{{selection}},\"bbcodeordalf\"}}",
+    "menuArg": "{{makelist,{{selection}},\"bbcodeordalf\"}}",
     "icons": ""
   },
   {
@@ -478,21 +478,21 @@
     "menuId": "bbcwbx.html.clp.list",
     "menuTitle": "browser.i18n.getMessage(bbcwbx.html.clp.list)",
     "parentId": "bbcwbx.html.clp",
-    "menuArg": "{{makeList,{{clipboard}},\"html\"}}",
+    "menuArg": "{{makelist,{{clipboard}},\"html\"}}",
     "icons": ""
   },
   {
     "menuId": "bbcwbx.html.clp.ordlist",
     "menuTitle": "browser.i18n.getMessage(bbcwbx.html.clp.ordlist)",
     "parentId": "bbcwbx.html.clp",
-    "menuArg": "{{makeList,{{clipboard}},\"htmlord\"}}",
+    "menuArg": "{{makelist,{{clipboard}},\"htmlord\"}}",
     "icons": ""
   },
   {
     "menuId": "bbcwbx.html.clp.alphalist",
     "menuTitle": "browser.i18n.getMessage(bbcwbx.html.clp.alphalist)",
     "parentId": "bbcwbx.html.clp",
-    "menuArg": "{{makeList,{{clipboard}},\"htmlordalf\"}}",
+    "menuArg": "{{makelist,{{clipboard}},\"htmlordalf\"}}",
     "icons": ""
   },
   {
@@ -548,21 +548,21 @@
     "menuId": "bbcwbx.html.wbx.list",
     "menuTitle": "browser.i18n.getMessage(bbcwbx.html.wbx.list)",
     "parentId": "bbcwbx.html.wbx",
-    "menuArg": "{{makeList,{{selection}},\"html\"}}",
+    "menuArg": "{{makelist,{{selection}},\"html\"}}",
     "icons": ""
   },
   {
     "menuId": "bbcwbx.html.wbx.ordlist",
     "menuTitle": "browser.i18n.getMessage(bbcwbx.html.wbx.ordlist)",
     "parentId": "bbcwbx.html.wbx",
-    "menuArg": "{{makeList,{{selection}},\"htmlord\"}}",
+    "menuArg": "{{makelist,{{selection}},\"htmlord\"}}",
     "icons": ""
   },
   {
     "menuId": "bbcwbx.html.wbx.alphalist",
     "menuTitle": "browser.i18n.getMessage(bbcwbx.html.wbx.alphalist)",
     "parentId": "bbcwbx.html.wbx",
-    "menuArg": "{{makeList,{{selection}},\"htmlordalf\"}}",
+    "menuArg": "{{makelist,{{selection}},\"htmlordalf\"}}",
     "icons": ""
   },
   {
@@ -655,21 +655,21 @@
     "menuId": "bbcwbx.xhtml.clp.list",
     "menuTitle": "browser.i18n.getMessage(bbcwbx.xhtml.clp.list)",
     "parentId": "bbcwbx.xhtml.clp",
-    "menuArg": "{{makeList,{{clipboard}},\"html\"}}",
+    "menuArg": "{{makelist,{{clipboard}},\"html\"}}",
     "icons": ""
   },
   {
     "menuId": "bbcwbx.xhtml.clp.ordlist",
     "menuTitle": "browser.i18n.getMessage(bbcwbx.xhtml.clp.ordlist)",
     "parentId": "bbcwbx.xhtml.clp",
-    "menuArg": "{{makeList,{{clipboard}},\"htmlord\"}}",
+    "menuArg": "{{makelist,{{clipboard}},\"htmlord\"}}",
     "icons": ""
   },
   {
     "menuId": "bbcwbx.xhtml.clp.alphalist",
     "menuTitle": "browser.i18n.getMessage(bbcwbx.xhtml.clp.alphalist)",
     "parentId": "bbcwbx.xhtml.clp",
-    "menuArg": "{{makeList,{{clipboard}},\"htmlordalf\"}}",
+    "menuArg": "{{makelist,{{clipboard}},\"htmlordalf\"}}",
     "icons": ""
   },
   {
@@ -725,21 +725,21 @@
     "menuId": "bbcwbx.xhtml.wbx.list",
     "menuTitle": "browser.i18n.getMessage(bbcwbx.xhtml.wbx.list)",
     "parentId": "bbcwbx.xhtml.wbx",
-    "menuArg": "{{makeList,{{selection}},\"html\"}}",
+    "menuArg": "{{makelist,{{selection}},\"html\"}}",
     "icons": ""
   },
   {
     "menuId": "bbcwbx.xhtml.wbx.ordlist",
     "menuTitle": "browser.i18n.getMessage(bbcwbx.xhtml.wbx.ordlist)",
     "parentId": "bbcwbx.xhtml.wbx",
-    "menuArg": "{{makeList,{{selection}},\"htmlord\"}}",
+    "menuArg": "{{makelist,{{selection}},\"htmlord\"}}",
     "icons": ""
   },
   {
     "menuId": "bbcwbx.xhtml.wbx.alphalist",
     "menuTitle": "browser.i18n.getMessage(bbcwbx.xhtml.wbx.alphalist)",
     "parentId": "bbcwbx.xhtml.wbx",
-    "menuArg": "{{makeList,{{selection}},\"htmlordalf\"}}",
+    "menuArg": "{{makelist,{{selection}},\"htmlordalf\"}}",
     "icons": ""
   },
   {
@@ -841,14 +841,14 @@
     "menuId": "bbcwbx.mkdn.clp.list",
     "menuTitle": "browser.i18n.getMessage(bbcwbx.mkdn.clp.list)",
     "parentId": "bbcwbx.mkdn.clp",
-    "menuArg": "{{makeList,{{clipboard}},\"markdown\"}}",
+    "menuArg": "{{makelist,{{clipboard}},\"markdown\"}}",
     "icons": ""
   },
   {
     "menuId": "bbcwbx.mkdn.clp.ordlist",
     "menuTitle": "browser.i18n.getMessage(bbcwbx.mkdn.clp.ordlist)",
     "parentId": "bbcwbx.mkdn.clp",
-    "menuArg": "{{makeList,{{clipboard}},\"markdownord\"}}",
+    "menuArg": "{{makelist,{{clipboard}},\"markdownord\"}}",
     "icons": ""
   },
   {
@@ -897,14 +897,14 @@
     "menuId": "bbcwbx.mkdn.wbx.list",
     "menuTitle": "browser.i18n.getMessage(bbcwbx.mkdn.wbx.list)",
     "parentId": "bbcwbx.mkdn.wbx",
-    "menuArg": "{{makeList,{{selection}},\"markdown\"}}",
+    "menuArg": "{{makelist,{{selection}},\"markdown\"}}",
     "icons": ""
   },
   {
     "menuId": "bbcwbx.mkdn.wbx.ordlist",
     "menuTitle": "browser.i18n.getMessage(bbcwbx.mkdn.wbx.ordlist)",
     "parentId": "bbcwbx.mkdn.wbx",
-    "menuArg": "{{makeList,{{selection}},\"markdownord\"}}",
+    "menuArg": "{{makelist,{{selection}},\"markdownord\"}}",
     "icons": ""
   },
   {
@@ -940,6 +940,482 @@
     "menuTitle": "browser.i18n.getMessage(bbcwbx.mkdn.strk)",
     "parentId": "bbcwbx.mkdn",
     "menuArg": "~~{{selection}}~~",
+    "icons": ""
+  },
+  {
+    "menuId": "bbcwbx.sym",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym)",
+    "parentId": "",
+    "menuArg": "",
+    "icons": ""
+  },
+  {
+    "menuId": "bbcwbx.sym.fraction",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.fraction)",
+    "parentId": "bbcwbx.sym",
+    "menuArg": "",
+    "icons": ""
+  },
+  {
+    "menuId": "bbcwbx.sym.fraction.12",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.fraction.12)",
+    "parentId": "bbcwbx.sym.fraction",
+    "menuArg": "½",
+    "icons": ""
+  },
+  {
+    "menuId": "bbcwbx.sym.fraction.13",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.fraction.13)",
+    "parentId": "bbcwbx.sym.fraction",
+    "menuArg": "⅓",
+    "icons": ""
+  },
+  {
+    "menuId": "bbcwbx.sym.fraction.23",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.fraction.23)",
+    "parentId": "bbcwbx.sym.fraction",
+    "menuArg": "⅔",
+    "icons": ""
+  },
+  {
+    "menuId": "bbcwbx.sym.fraction.14",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.fraction.14)",
+    "parentId": "bbcwbx.sym.fraction",
+    "menuArg": "¼",
+    "icons": ""
+  },
+  {
+    "menuId": "bbcwbx.sym.fraction.34",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.fraction.34)",
+    "parentId": "bbcwbx.sym.fraction",
+    "menuArg": "¾",
+    "icons": ""
+  },
+  {
+    "menuId": "bbcwbx.sym.fraction.15",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.fraction.15)",
+    "parentId": "bbcwbx.sym.fraction",
+    "menuArg": "⅕",
+    "icons": ""
+  },
+  {
+    "menuId": "bbcwbx.sym.fraction.25",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.fraction.25)",
+    "parentId": "bbcwbx.sym.fraction",
+    "menuArg": "⅖",
+    "icons": ""
+  },
+  {
+    "menuId": "bbcwbx.sym.fraction.35",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.fraction.35)",
+    "parentId": "bbcwbx.sym.fraction",
+    "menuArg": "⅗",
+    "icons": ""
+  },
+  {
+    "menuId": "bbcwbx.sym.fraction.45",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.fraction.45)",
+    "parentId": "bbcwbx.sym.fraction",
+    "menuArg": "⅘",
+    "icons": ""
+  },
+  {
+    "menuId": "bbcwbx.sym.fraction.16",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.fraction.16)",
+    "parentId": "bbcwbx.sym.fraction",
+    "menuArg": "⅙",
+    "icons": ""
+  },
+  {
+    "menuId": "bbcwbx.sym.fraction.46",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.fraction.46)",
+    "parentId": "bbcwbx.sym.fraction",
+    "menuArg": "⅚",
+    "icons": ""
+  },
+  {
+    "menuId": "bbcwbx.sym.fraction.18",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.fraction.18)",
+    "parentId": "bbcwbx.sym.fraction",
+    "menuArg": "⅛",
+    "icons": ""
+  },
+  {
+    "menuId": "bbcwbx.sym.fraction.38",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.fraction.38)",
+    "parentId": "bbcwbx.sym.fraction",
+    "menuArg": "⅜",
+    "icons": ""
+  },
+  {
+    "menuId": "bbcwbx.sym.fraction.58",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.fraction.58)",
+    "parentId": "bbcwbx.sym.fraction",
+    "menuArg": "⅝",
+    "icons": ""
+  },
+  {
+    "menuId": "bbcwbx.sym.fraction.78",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.fraction.78)",
+    "parentId": "bbcwbx.sym.fraction",
+    "menuArg": "⅞",
+    "icons": ""
+  },
+  {
+    "menuId": "bbcwbx.sym.currency",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.currency)",
+    "parentId": "bbcwbx.sym",
+    "menuArg": "",
+    "icons": ""
+  },
+  {
+    "menuId": "bbcwbx.sym.currency.dollar",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.currency.dollar)",
+    "parentId": "bbcwbx.sym.currency",
+    "menuArg": "$",
+    "icons": ""
+  },
+  {
+    "menuId": "bbcwbx.sym.currency.cent",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.currency.cent)",
+    "parentId": "bbcwbx.sym.currency",
+    "menuArg": "¢",
+    "icons": ""
+  },
+  {
+    "menuId": "bbcwbx.sym.currency.euro",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.currency.euro)",
+    "parentId": "bbcwbx.sym.currency",
+    "menuArg": "€",
+    "icons": ""
+  },
+  {
+    "menuId": "bbcwbx.sym.currency.gbp",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.currency.gbp)",
+    "parentId": "bbcwbx.sym.currency",
+    "menuArg": "£",
+    "icons": ""
+  },
+  {
+    "menuId": "bbcwbx.sym.currency.yen",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.currency.yen)",
+    "parentId": "bbcwbx.sym.currency",
+    "menuArg": "¥",
+    "icons": ""
+  },
+  {
+    "menuId": "bbcwbx.sym.currency.franc",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.currency.franc)",
+    "parentId": "bbcwbx.sym.currency",
+    "menuArg": "₣",
+    "icons": ""
+  },
+  {
+    "menuId": "bbcwbx.sym.currency.lira",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.currency.lira)",
+    "parentId": "bbcwbx.sym.currency",
+    "menuArg": "₤",
+    "icons": ""
+  },
+  {
+    "menuId": "bbcwbx.sym.currency.yuan",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.currency.yuan)",
+    "parentId": "bbcwbx.sym.currency",
+    "menuArg": "¥CNY",
+    "icons": ""
+  },
+  {
+    "menuId": "bbcwbx.sym.currency.rupee",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.currency.rupee)",
+    "parentId": "bbcwbx.sym.currency",
+    "menuArg": "₨",
+    "icons": ""
+  },
+  {
+    "menuId": "bbcwbx.sym.currency.rupee2",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.currency.rupee2)",
+    "parentId": "bbcwbx.sym.currency",
+    "menuArg": "₹",
+    "icons": ""
+  },
+  {
+    "menuId": "bbcwbx.sym.currency.thaibt",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.currency.thaibt)",
+    "parentId": "bbcwbx.sym.currency",
+    "menuArg": "฿",
+    "icons": ""
+  },
+  {
+    "menuId": "bbcwbx.sym.currency.won",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.currency.won)",
+    "parentId": "bbcwbx.sym.currency",
+    "menuArg": "₩",
+    "icons": ""
+  },
+  {
+    "menuId": "bbcwbx.sym.sci",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.sci)",
+    "parentId": "bbcwbx.sym",
+    "menuArg": "",
+    "icons": ""
+  },
+  {
+    "menuId": "bbcwbx.sym.sci.micro",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.sci.micro)",
+    "parentId": "bbcwbx.sym.sci",
+    "menuArg": "µ",
+    "icons": ""
+  },
+  {
+    "menuId": "bbcwbx.sym.sci.ohm",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.sci.ohm)",
+    "parentId": "bbcwbx.sym.sci",
+    "menuArg": "Ω",
+    "icons": ""
+  },
+  {
+    "menuId": "bbcwbx.sym.sci.sigma",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.sci.sigma)",
+    "parentId": "bbcwbx.sym.sci",
+    "menuArg": "∑",
+    "icons": ""
+  },
+  {
+    "menuId": "bbcwbx.sym.sci.sqrt",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.sci.sqrt)",
+    "parentId": "bbcwbx.sym.sci",
+    "menuArg": "√",
+    "icons": ""
+  },
+  {
+    "menuId": "bbcwbx.sym.sci.infin",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.sci.infin)",
+    "parentId": "bbcwbx.sym.sci",
+    "menuArg": "∞",
+    "icons": ""
+  },
+  {
+    "menuId": "bbcwbx.sym.sci.apprx",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.sci.apprx)",
+    "parentId": "bbcwbx.sym.sci",
+    "menuArg": "≈",
+    "icons": ""
+  },
+  {
+    "menuId": "bbcwbx.sym.sci.neq",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.sci.neq)",
+    "parentId": "bbcwbx.sym.sci",
+    "menuArg": "≠",
+    "icons": ""
+  },
+  {
+    "menuId": "bbcwbx.sym.sci.lte",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.sci.lte)",
+    "parentId": "bbcwbx.sym.sci",
+    "menuArg": "≤",
+    "icons": ""
+  },
+  {
+    "menuId": "bbcwbx.sym.sci.gte",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.sci.gte)",
+    "parentId": "bbcwbx.sym.sci",
+    "menuArg": "≥",
+    "icons": ""
+  },
+  {
+    "menuId": "bbcwbx.sym.grk",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.grk)",
+    "parentId": "bbcwbx.sym",
+    "menuArg": "",
+    "icons": ""
+  },
+  {
+    "menuId": "bbcwbx.sym.grk.pi",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.grk.pi)",
+    "parentId": "bbcwbx.sym.grk",
+    "menuArg": "π",
+    "icons": ""
+  },
+  {
+    "menuId": "bbcwbx.sym.grk.rho",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.grk.rho)",
+    "parentId": "bbcwbx.sym.grk",
+    "menuArg": "ρ",
+    "icons": ""
+  },
+  {
+    "menuId": "bbcwbx.sym.grk.sgm",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.grk.sgm)",
+    "parentId": "bbcwbx.sym.grk",
+    "menuArg": "σ",
+    "icons": ""
+  },
+  {
+    "menuId": "bbcwbx.sym.grk.tau",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.grk.tau)",
+    "parentId": "bbcwbx.sym.grk",
+    "menuArg": "τ",
+    "icons": ""
+  },
+  {
+    "menuId": "bbcwbx.sym.grk.chi",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.grk.chi)",
+    "parentId": "bbcwbx.sym.grk",
+    "menuArg": "χ",
+    "icons": ""
+  },
+  {
+    "menuId": "bbcwbx.sym.grk.psi",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.grk.psi)",
+    "parentId": "bbcwbx.sym.grk",
+    "menuArg": "ψ",
+    "icons": ""
+  },
+  {
+    "menuId": "bbcwbx.sym.grk.omega",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.grk.omega)",
+    "parentId": "bbcwbx.sym.grk",
+    "menuArg": "ω",
+    "icons": ""
+  },
+  {
+    "menuId": "bbcwbx.sym.grk.comega",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.grk.comega)",
+    "parentId": "bbcwbx.sym.grk",
+    "menuArg": "Θ",
+    "icons": ""
+  },
+  {
+    "menuId": "bbcwbx.sym.grk.delta",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.grk.delta)",
+    "parentId": "bbcwbx.sym.grk",
+    "menuArg": "Δ",
+    "icons": ""
+  },
+  {
+    "menuId": "bbcwbx.sym.grk.ldelta",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.grk.ldelta)",
+    "parentId": "bbcwbx.sym.grk",
+    "menuArg": "δ",
+    "icons": ""
+  },
+  {
+    "menuId": "bbcwbx.sym.grk.lambda",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.grk.lambda)",
+    "parentId": "bbcwbx.sym.grk",
+    "menuArg": "λ",
+    "icons": ""
+  },
+  {
+    "menuId": "bbcwbx.sym.grk.phi",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.grk.phi)",
+    "parentId": "bbcwbx.sym.grk",
+    "menuArg": "ɸ",
+    "icons": ""
+  },
+  {
+    "menuId": "bbcwbx.sym.grk.theta",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.grk.theta)",
+    "parentId": "bbcwbx.sym.grk",
+    "menuArg": "ϴ",
+    "icons": ""
+  },
+  {
+    "menuId": "bbcwbx.sym.dgre",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.dgre)",
+    "parentId": "bbcwbx.sym",
+    "menuArg": "°",
+    "icons": ""
+  },
+  {
+    "menuId": "bbcwbx.sym.cprt",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.cprt)",
+    "parentId": "bbcwbx.sym",
+    "menuArg": "©",
+    "icons": ""
+  },
+  {
+    "menuId": "bbcwbx.sym.phontm",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.phontm)",
+    "parentId": "bbcwbx.sym",
+    "menuArg": "℗",
+    "icons": ""
+  },
+  {
+    "menuId": "bbcwbx.sym.sm",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.sm)",
+    "parentId": "bbcwbx.sym",
+    "menuArg": "℠",
+    "icons": ""
+  },
+  {
+    "menuId": "bbcwbx.sym.tm",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.tm)",
+    "parentId": "bbcwbx.sym",
+    "menuArg": "™",
+    "icons": ""
+  },
+  {
+    "menuId": "bbcwbx.sym.regtm",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.regtm)",
+    "parentId": "bbcwbx.sym",
+    "menuArg": "®",
+    "icons": ""
+  },
+  {
+    "menuId": "bbcwbx.sym.phonrt",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.phonrt)",
+    "parentId": "bbcwbx.sym",
+    "menuArg": "℗",
+    "icons": ""
+  },
+  {
+    "menuId": "bbcwbx.sym.section",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.section)",
+    "parentId": "bbcwbx.sym",
+    "menuArg": "§",
+    "icons": ""
+  },
+  {
+    "menuId": "bbcwbx.sym.plumin",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.plumin)",
+    "parentId": "bbcwbx.sym",
+    "menuArg": "±",
+    "icons": ""
+  },
+  {
+    "menuId": "bbcwbx.sym.elps",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.elps)",
+    "parentId": "bbcwbx.sym",
+    "menuArg": "…",
+    "icons": ""
+  },
+  {
+    "menuId": "bbcwbx.sym.emdash",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.emdash)",
+    "parentId": "bbcwbx.sym",
+    "menuArg": "—",
+    "icons": ""
+  },
+  {
+    "menuId": "bbcwbx.sym.dagger",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.dagger)",
+    "parentId": "bbcwbx.sym",
+    "menuArg": "†",
+    "icons": ""
+  },
+  {
+    "menuId": "bbcwbx.sym.dubdagger",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.dubdagger)",
+    "parentId": "bbcwbx.sym",
+    "menuArg": "‡",
+    "icons": ""
+  },
+  {
+    "menuId": "bbcwbx.sym.permil",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.permil)",
+    "parentId": "bbcwbx.sym",
+    "menuArg": "‰",
     "icons": ""
   }
 ]
