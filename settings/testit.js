@@ -20,8 +20,7 @@ browser.storage.onChanged.addListener(menuFires);
 
 async function request() {
 browser.storage.local.set({customMenuFromDisk});
-var cstmnudsk = await browser.storage.local.get(['customMenuFromDisk']);//, function(result) {
-       //var cstmnudsk = result.customMenuFromDisk;   
+	var { customMenuFromDisk: cstmnudsk } = await browser.storage.local.get('customMenuFromDisk');  
 		console.log (JSON.stringify(cstmnudsk,null,3));
 //		 });
 
