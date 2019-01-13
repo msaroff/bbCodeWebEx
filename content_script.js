@@ -74,7 +74,11 @@ This will generate as many popup dialogues as you would want.
             popupAfter = "";
         }
 
-        let popUpHere = popupBefore + popupResp + popupAfter;
+        let popUpHere = (popupBefore + popupResp + popupAfter);
+		// add stuff to allow '\n\' to creat new line from popup
+		popUpHere = popUpHere.replace(/\\\\n/g,'~_~_~n'); // use '\\n' to actually enter '\n\'
+		popUpHere = popUpHere.replace(/\\n/g,'\n');
+		popUpHere = popUpHere.replace(/~_~_~n/g,'\\n');
         popArg = popArg.substring(0, popStartIdx) + popArg.substring(popEndIdx); //string it together with popup removed
         popArg = popArg.replace(new RegExp(textToReplace,"g"),popUpHere); //replace hashtag with word prompt results
 }
@@ -87,16 +91,11 @@ This will generate as many popup dialogues as you would want.
     */
     function listMake (listArg) {
         let listStartIdx = listArg.indexOf("{{makeList"); // start of list argument in commend string
-		console.log(listStartIdx);
         let listEndIdx = listArg.indexOf("}}", listStartIdx); // end of list argument in command string
-		console.log(listEndIdx);
         let listWork = listArg.substring(listStartIdx, listEndIdx);; // extract the portion of the argument that has to do with making the list
-		console.log(listWork);
-        listWork = listWork.substring(10, listWork.length -1 ); //remove the "{{makeList," from the beginning of the argument, and the "}}" from the end.
-		console.log(listWork);
+        listWork = listWork.substring(11, listWork.length -1 ); //remove the "{{makeList," from the beginning of the argument, and the "}}" from the end.
         let listType = listWork.substring(listWork.lastIndexOf(",") +2, (listWork.length)) // the type of list is after the last comma
-        console.log(listType);
-		listWhat = listWork.substring(0, listWork.lastIndexOf(",")).replace(/\\n/g,'\n'); // the text to which the list would be attached
+		listWhat = listWork.substring(0, listWork.lastIndexOf(",")); // the text to which the list would be applied
 		// the replace will only apply to cases where line breaks are inserted through custom user scripts
         let listResult = createList(listWhat, listType); //return the properly formatted list to put into the list argument
         return listArg.substring(0, listStartIdx) + listResult + listArg.substring(listEndIdx +2); //send the parsed list in the back
@@ -124,7 +123,6 @@ This will generate as many popup dialogues as you would want.
         if (argString.includes("{{clipboard}}")) { // Replace clipboard tag with clipboard contents
             const clipcont = sanitize(await readFromClipboard('text/plain')); //clipboard content sanitized
             argString = argString.replace(/{{clipboard}}/g, clipcont);
-//console.log(argString);
         }
         if (argString.includes("{{selection}}")) { // Replace selection tag with selection value 
             argString = argString.replace(/{{selection}}/g, selcont);
@@ -133,14 +131,8 @@ This will generate as many popup dialogues as you would want.
             argString = popThisUp(argString);
         }
         if (argString.includes("{{makeList")) { // Invoke list creation function
-console.log(argString);
             argString = listMake(argString);
         }
-//        if (argString.includes("fontzcol")) { // Invoke font color wheel
-//            argString = await getColor(argString);
-//            argString = getColor(argString);
-//  ** not yet implemented.            
-//        }
 //desanitize and paste element
         clickedElement.value = firsttext + deSanitize(argString) + lasttext;
 
@@ -230,6 +222,3 @@ function createList(originalText, listType) {
     formattedText += endBlock;
     return formattedText;
 }
-
-// Use document.activeElement, it is supported in all major browsers.
-// https://stackoverflow.com/questions/497094/how-do-i-find-out-which-dom-element-has-the-focus
