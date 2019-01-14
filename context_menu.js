@@ -23,21 +23,18 @@ if (localStorage.getItem('customMenu') == null){
     let custDef = await fetch(custMenuURL);
     defCust = await custDef.json();
     localStorage.setItem('customMenu',JSON.stringify(defCust));
-}
-	console.log("localstorage should be many:", JSON.stringify(localStorage).length);
-//	console.log("Browser Storage Start:",browser.storage.local.getBytesInUse(null));
-	browser.storage.local.get(function(items) {
-    console.log("before defaults",JSON.stringify(items).length);
-  });
+
+  } else {defCust = JSON.parse(localStorage.getItem('customMenu'))}
+ 
 	browser.storage.local.set({defTemp});
-	browser.storage.local.get(function(items) {
-    console.log("after defaults",JSON.stringify(items).length);
-  });
-    browser.storage.local.set({defCust});
-	console.log(defCust);
-	browser.storage.local.get(function(items) {
-    console.log("after custom",JSON.stringify(items).length);
-  });
+	let {defTemp: moop} = await browser.storage.local.get("defTemp");
+//console.log(JSON.stringify(moop,null,2));
+console.log("defCust",defCust);
+// console.log("defCust",JSON.stringify(await browser.storage.local.get({defCust})));
+	browser.storage.local.set({defCust});
+	let {defCust: mook} = await browser.storage.local.get("defCust");
+console.log(JSON.stringify(mook,null,4));
+  
 
 //	browser.storage.local.get("browser.local.storage everything:", function(items) {
 //    console.log(JSON.stringify(items).length);
