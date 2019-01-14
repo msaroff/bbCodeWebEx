@@ -17,7 +17,7 @@ const initialize = async () => {
     let tempDef = await fetch(defMenuURL);
 //	console.log(tempDef);
     defTemp = await tempDef.json();
-//	console.log(JSON.stringify(defTemp,null,3));
+	console.log("localstorage should be 0:", localStorage.length);
 	localStorage.setItem('defaultMenu',JSON.stringify(defTemp))
 //check if custom menus are in local storage, if no, load local JSON and save to local storage
 if (localStorage.getItem('customMenu') == null){
@@ -25,6 +25,7 @@ if (localStorage.getItem('customMenu') == null){
     defCust = await custDef.json();
     localStorage.setItem('customMenu',JSON.stringify(defCust));
 }
+	console.log("localstorage should be many:", localStorage.length);
 // set the falue to the defaults, or the saved value if it exists
 if (localStorage.getItem("activeMenus") === null) { //if menu settings not stored, 
     activeMenus = {
@@ -63,7 +64,7 @@ function generateMenu () {
             let noXHTML = (currentId.substring(0,12) == 'bbcwbx.xhtml') && !activeMenus.enableXHTML;
             let noMKDN = (currentId.substring(0,11) == 'bbcwbx.mkdn') && !activeMenus.enableMarkDown; 
             let noCstm = (currentId.substring(0,13) == 'bbcwbx.custom') && !activeMenus.enableCustom;
-            let noSym = (currentId.substring(0,19) == 'bbcwbx.sym') && !activeMenus.enableSymbol;
+            let noSym = (currentId.substring(0,10) == 'bbcwbx.sym') && !activeMenus.enableSymbol;
     if (nobbCode) {
             console.log('No bbCode');
         } else if (noHTML) {
@@ -99,6 +100,7 @@ function generateMenu () {
             if (defMenu[i].parentId != "") {
                 info.parentId = defMenu[i].parentId;
             }
+		console.log(JSON.stringify(info,null,2));
         browser.menus.create(info);
     }
     }	
