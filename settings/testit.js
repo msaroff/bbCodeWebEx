@@ -11,6 +11,8 @@ const request = async () => {
    customMenuFromDisk = await custmen.json();
 console.log(JSON.stringify(customMenuFromDisk)); */
 
+//console.log(Object.keys(localStorage));
+
 defaultMenuFromDisk = JSON.parse(localStorage.getItem('defaultMenu'));
 customMenuFromDisk = JSON.parse(localStorage.getItem('customMenu'));
 function menuFires (){
@@ -22,12 +24,16 @@ async function request() {
 browser.storage.local.set({customMenuFromDisk});
 var { customMenuFromDisk: cstmnudsk } = await browser.storage.local.get(['customMenuFromDisk']);//, function(result) {
        //var cstmnudsk = result.customMenuFromDisk;   
-		console.log (JSON.stringify(cstmnudsk,null,3));
+//		console.log (JSON.stringify(cstmnudsk,null,3));
 //		 });
-
+var wtf = await browser.storage.local.get();
+console.log(JSON.stringify(wtf,null,2));
 }
 
 request();
+
+
+
 
 //console.log(JSON.stringify(moo,null,5));
 // ;//,function(result));
