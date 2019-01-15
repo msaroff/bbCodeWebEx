@@ -1,0 +1,10 @@
+
+  {
+    "enablebbCode": true,
+    "enableHTML": true,
+    "enableVbulletin": true,
+    "enableXHTML": true,
+    "enableMarkDown": true,
+    "enableCustom": true,
+    "enableSymbol": false
+  }

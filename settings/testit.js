@@ -20,6 +20,7 @@ function menuFires (){
 }
 browser.storage.onChanged.addListener(menuFires);
 
+/*
 async function request() {
 browser.storage.local.set({customMenuFromDisk});
 var { customMenuFromDisk: cstmnudsk } = await browser.storage.local.get(['customMenuFromDisk']);//, function(result) {
@@ -32,7 +33,7 @@ console.log(JSON.stringify(wtf,null,2));
 
 request();
 
-
+*/
 
 
 //console.log(JSON.stringify(moo,null,5));
