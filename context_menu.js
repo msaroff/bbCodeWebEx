@@ -34,10 +34,12 @@ if (localStorage.getItem('activeMenus') != null){ // if active menus earlier rel
 	let tempAct = JSON.parse(localStorage.getItem('activeMenus'));
     let actTemp = await tempAct.json();
 	browser.storage.local.set({actTemp}); // save to browser.storage
+	console.log(actTemp);
     localStorage.removeItem('activeMenus'); // fix error in earlier release
 }   else if (await Object.keys(browser.storage.local.get('actTemp') == 0)){
 	let tempAct = await fetch(activeMenusURL);
 	let actTemp = await tempAct.json();
+	console.log(actTemp);
     browser.storage.local.set({actTemp})}	
 	}
   
@@ -53,14 +55,13 @@ async function generateMenu () {
 // when you are changing menus in settings, first remove the existing menus before regenerating the menu
 	var removing = browser.menus.removeAll();
 // load values from local storage
-console.log("meep",Object.keys(await browser.storage.local.get('meep')).length);
 	let { actTemp: activeMenus } = await browser.storage.local.get(['actTemp']);
 	console.log((await browser.storage.local.get()));
 	let { defCust: customMenu } = await browser.storage.local.get(['defCust']);
 	let { defTemp: defaultMenu} = await browser.storage.local.get(['defTemp']);
-console.log(JSON.stringify(activeMenus,null,1));
-console.log(JSON.stringify(customMenu,null,1));
-console.log(JSON.stringify(defaultMenu,null,1));
+//console.log(JSON.stringify(activeMenus));
+//console.log(JSON.stringify(customMenu,null,1));
+//console.log(JSON.stringify(defaultMenu,null,1));
 //console.log(JSON.stringify(customMenu,null,2));
 // concatenate default and custom variables to generate menus
 	defMenu = defaultMenu.concat(customMenu);
@@ -109,7 +110,7 @@ console.log(JSON.stringify(defaultMenu,null,1));
             if (defMenu[i].parentId != "") {
                 info.parentId = defMenu[i].parentId;
             }
-		console.log("info", JSON.stringify(info,null,2));
+//		console.log("info", JSON.stringify(info,null,2));
         browser.menus.create(info);
     }
     }	
