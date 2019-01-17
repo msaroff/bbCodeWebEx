@@ -1,12 +1,3 @@
-async function loadFromBrowserStorage () { // save the browser.storage.local to localStorage, 
-// because fuck the browser.storage.local API
-let { defCust: customMenu } = await browser.storage.local.get(['defCust']) //get browser.storage
-//console.log ("generated",customMenu);
-localStorage.setItem('customMenu',JSON.stringify(customMenu)); //store default in local menu
-//console.log("storage",localStorage.getItem('customMenu'));
-}
-loadFromBrowserStorage();
-
 customMenu = JSON.parse(localStorage.getItem('customMenu'));
 
 /* space for all the listeners begin */
@@ -108,10 +99,8 @@ function tagImport () {
 to click on the file button while maintaining the same appearance as 
 the other submit buttons. */
 alert("\t\t\t\tWarning:\nThis will overwrite existing custom tags and tag order.");
-let gonnaImport = confirm("\tAre you sure you want to proceed?\n     Click OK to proceed, or cancel and then\nbackup your current setup before proceeding.");
-//if (gonnaImport) {
-	importTags.click();
-// }
+confirm("\tAre you sure you want to proceed?\n     Click OK to proceed, or cancel and then\nbackup your current setup before proceeding.");
+importTags.click();
 }
 
 function JSONtoVar (event) {
@@ -120,13 +109,9 @@ function JSONtoVar (event) {
   reader.onload = function(event) {
     // The file's text will be printed here
     let readValue = event.target.result;
-//    console.log("readvalue",readValue);
-//localStorage.setItem('customMenu',readValue); //store order of custom tags locally
-let defCust = JSON.parse(readValue);
-browser.storage.local.set({defCust});
-console.log(JSON.stringify(defCust,null,2));
-loadFromBrowserStorage ();
-  location.reload(); // reload page, which reloads custom tags from storage
+//    console.log(readValue);
+localStorage.setItem('customMenu',readValue); //store order of custom tags locally
+location.reload(); // reload page, which reloads custom tags from storage
   };
   reader.readAsText(file);
 }
@@ -157,11 +142,8 @@ tempSaveSort.push(keyToAdd);
 alert(lis);
 //console.log(JSON.stringify(customMenu));
 console.log(JSON.stringify(tempSaveSort));
-let defCust = tempSaveSort;
-browser.storage.local.set({defCust});
-//localStorage.setItem('customMenu',JSON.stringify(tempSaveSort)); //store order of custom tags locally
+localStorage.setItem('customMenu',JSON.stringify(tempSaveSort)); //store order of custom tags locally
 //customMenu = JSON.parse(localStorage.getItem('customMenu')); //reread custom tags from local storage
-loadFromBrowserStorage ();
 location.reload(); // reload page, which reloads custom tags from storage
 }
 
@@ -215,15 +197,12 @@ customMenu[locationOfRecord] = newMenu;
 } else { // if new tag, add to end
 customMenu = customMenu.concat(newMenu);
 }
-let defCust = customMenu;
-browser.storage.local.set({defCust});
-//localStorage.setItem('customMenu',JSON.stringify(customMenu)); //store updated tags in local storage
+localStorage.setItem('customMenu',JSON.stringify(customMenu)); //store updated tags in local storage
 // clear the input boxes after value is saved
 document.getElementById("menuId").value = "";
 document.getElementById("menuTitle").value = "";
 document.getElementById("menuArg").value = "";
 document.getElementById("parentId").value = "";
-loadFromBrowserStorage ();
 location.reload(); // reload page, which reloads custom tags from storage
 }}}
 
@@ -240,15 +219,12 @@ console.log(deleteMe);
 if (deleteMe){
 console.log(JSON.stringify(customMenu));
 removed = customMenu.splice(indId,1);
-let defCust = customMenu;
-browser.storage.local.set({defCust});
-//localStorage.setItem('customMenu',JSON.stringify(customMenu)); //store updated tags in local storage
+localStorage.setItem('customMenu',JSON.stringify(customMenu)); //store updated tags in local storage
 }
 document.getElementById("menuId").value = ""; // clear out input boxes
 document.getElementById("menuTitle").value = "";
 document.getElementById("menuArg").value = "";
 document.getElementById("parentId").value = "";
-loadFromBrowserStorage ();
 location.reload(); // reload page, which reloads custom tags from storage
 }
 }

@@ -18,7 +18,7 @@ customMenuFromDisk = JSON.parse(localStorage.getItem('customMenu'));
 function menuFires (){
 	console.log("listener fires");
 }
-browser.storage.onChanged.addListener(menuFires);
+//browser.storage.onChanged.addListener(menuFires);
 
 /*
 async function request() {

@@ -1,20 +1,26 @@
 // Store the currently selected settings using browser.storage.local.
 
-async function loadFromBrowserStorage () { // save the browser.storage.local to localStorage, 
-// because fuck the browser.storage.local API
-let { actTemp: activeMenus } = await browser.storage.local.get(['actTemp']); //get browser.storage
-console.log ("generated",activeMenus);
-localStorage.setItem('activeMenus',JSON.stringify(activeMenus)); //store default in local menu
-console.log("storage",localStorage.getItem('activeMenus'));
-}
-loadFromBrowserStorage();
+/* Global variables */
+var activProm = initialize();
 
-activeMenus = JSON.parse(localStorage.getItem('activeMenus'));
+async function initialize () {
+	let {actTemp: activeMenus}  = await browser.storage.local.get("actTemp");
+	console.log(JSON.stringify(await activeMenus));
+
+//		console.log(activeMenus);
+		return(activeMenus);
+}
+initialize();
+
+// async function delay() { //yes, I've put in a fucking delay to allow he fucking get to fucking ccomplete
+// console.log("delay\n",JSON.stringify(await activeMenus,null,2));
+// }
+
+// delay();
+
+//activeMenus = JSON.parse(localStorage.getItem('activeMenus'));
 
 menuLoaded = loadMenus();
-console.log(menuLoaded);
-
-console.log(activeMenus);
 
 
 // above and below listen for the custom tags button and open up custom tags window
@@ -23,12 +29,14 @@ document.getElementById('customTagBtn').onclick =
         window.open("custom_tags.html","Custom_Tags","resizable, scrollbars");
 }
 
+
 // listen for the menu activation check box button click to save values to local storage
 const saveButton = document.getElementById("save-button");
 
 saveButton.addEventListener("click", saveMenus);
 
-function saveMenus () {
+async function saveMenus () {
+		let activeMenus = await activProm;
 console.log(JSON.stringify(activeMenus));
     for (i = 0; i < Object.keys(activeMenus).length; i++) {
         let crntMenu = Object.keys(activeMenus)[i]; //steps through object names
@@ -36,9 +44,8 @@ console.log(JSON.stringify(activeMenus));
         let checkVal = document.getElementById(crntCheck).checked; //gives boolean value of check box
 activeMenus[crntMenu] = checkVal; //gotta use this notation because I am using a variable for the name.
 }
-let actTemp = activeMenus;
-//    localStorage.setItem('activeMenus',JSON.stringify(activeMenus)); //store default in local menu
-browser.storage.local.set({actTemp}); // using storage.local as opposed to localStorage
+    localStorage.setItem('activeMenus',JSON.stringify(activeMenus)); //store default in local menu
+//	browser.storage.local.set(); // using storage.local as opposed to localStorage
 console.log("Menu Settings Saved",JSON.stringify(activeMenus,null,4));
 }
 
@@ -58,7 +65,9 @@ bbBox.addEventListener('change', (event) => {
 
 
 // Read stored menu settings and set checkboxes
-function loadMenus() {
+async function loadMenus() {
+	let activeMenus = await activProm;
+	console.log(JSON.stringify(activeMenus));
     for (i = 0; i < Object.keys(activeMenus).length; i++) {
         let crntMenu = Object.keys(activeMenus)[i]; //steps through object names
         let crntCheck = crntMenu+"CHK"; //steps through check box names
