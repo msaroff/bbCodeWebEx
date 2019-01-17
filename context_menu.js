@@ -39,16 +39,16 @@ if (localStorage.getItem('activeMenus') != null){ // if active menus earlier rel
 }   else if (await Object.keys(browser.storage.local.get('actTemp') == 0)){
 	let tempAct = await fetch(activeMenusURL);
 	let actTemp = await tempAct.json();
-	console.log(actTemp);
+	console.log(JSON.stringify(actTemp,null,2));
     browser.storage.local.set({actTemp})}	
 	}
   
-
+initialize();
 
 generateMenu();
 
 
-initialize();
+
 
 
 async function generateMenu () {
@@ -128,9 +128,9 @@ browser.menus.onClicked.addListener((info, tab, defaultMenu) => {
     }
 });
 
-window.addEventListener("storage", generateMenu, false);
+//window.addEventListener("storage", generateMenu, false);
 //browser.addEventListener("storage", generateMenu, false);
-//browser.storage.onChanged.addListener(generateMenu);
+browser.storage.onChanged.addListener(generateMenu);
 
 //	browser.storage.local.get("browser.local.storage everything:", function(items) {
 //    console.log(JSON.stringify(items).length);

@@ -1,5 +1,14 @@
 // Store the currently selected settings using browser.storage.local.
 
+async function loadFromBrowserStorage () { // save the browser.storage.local to localStorage, 
+// because fuck the browser.storage.local API
+let { actTemp: activeMenus } = await browser.storage.local.get(['actTemp']); //get browser.storage
+console.log ("generated",activeMenus);
+localStorage.setItem('activeMenus',JSON.stringify(activeMenus)); //store default in local menu
+console.log("storage",localStorage.getItem('activeMenus'));
+}
+loadFromBrowserStorage();
+
 activeMenus = JSON.parse(localStorage.getItem('activeMenus'));
 
 menuLoaded = loadMenus();
@@ -27,8 +36,9 @@ console.log(JSON.stringify(activeMenus));
         let checkVal = document.getElementById(crntCheck).checked; //gives boolean value of check box
 activeMenus[crntMenu] = checkVal; //gotta use this notation because I am using a variable for the name.
 }
-    localStorage.setItem('activeMenus',JSON.stringify(activeMenus)); //store default in local menu
-//	browser.storage.local.set(); // using storage.local as opposed to localStorage
+let actTemp = activeMenus;
+//    localStorage.setItem('activeMenus',JSON.stringify(activeMenus)); //store default in local menu
+browser.storage.local.set({actTemp}); // using storage.local as opposed to localStorage
 console.log("Menu Settings Saved",JSON.stringify(activeMenus,null,4));
 }
 
