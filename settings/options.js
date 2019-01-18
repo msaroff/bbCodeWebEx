@@ -10,7 +10,7 @@ async function initialize () {
 //		console.log(activeMenus);
 		return(activeMenus);
 }
-initialize();
+// initialize();
 
 // async function delay() { //yes, I've put in a fucking delay to allow he fucking get to fucking ccomplete
 // console.log("delay\n",JSON.stringify(await activeMenus,null,2));
@@ -44,8 +44,8 @@ console.log(JSON.stringify(activeMenus));
         let checkVal = document.getElementById(crntCheck).checked; //gives boolean value of check box
 activeMenus[crntMenu] = checkVal; //gotta use this notation because I am using a variable for the name.
 }
-    localStorage.setItem('activeMenus',JSON.stringify(activeMenus)); //store default in local menu
-//	browser.storage.local.set(); // using storage.local as opposed to localStorage
+// localStorage.setItem('activeMenus',JSON.stringify(activeMenus)); //store default in local menu
+	browser.storage.local.set({actTemp: activeMenus}); // using storage.local as opposed to localStorage
 console.log("Menu Settings Saved",JSON.stringify(activeMenus,null,4));
 }
 

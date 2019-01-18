@@ -1,30 +1,10 @@
-customMenu = JSON.parse(localStorage.getItem('customMenu'));
+/* Global variables */
+var custProm = initialize();
 
-/* space for all the listeners begin */
+async function initialize () {
+	let {defCust: customMenu}  = await browser.storage.local.get("defCust");
+	console.log(JSON.stringify(await customMenu,null,2));
 
-var ulSort = document.getElementById("listOrder");
-
-var listRef = document.getElementById("listOrder").li;
-
-const saveTag = Save.addEventListener("click", writeTag);
-
-const newMenu = New.addEventListener("click", newJSON);
-
-const deleteTag = Delete.addEventListener("click", delTag);
-
-const toVar = importTags.addEventListener("load", JSONtoVar );
-
-const importButton = document.getElementById("importTagsClick");
-
-const fileButton = document.getElementById('importTags')
-
-importButton.addEventListener("click", tagImport);
-
-fileButton.addEventListener("click", JSONtoVar);
-
-/* Space for all the listeners end */
-
-//console.log(ulSort);
     for (i = 0; i < Object.keys(customMenu).length; i++) {
 
 const containerSpan = document.createElement('span');
@@ -54,9 +34,6 @@ createLi.appendChild(containerSpan);
   ulSort.appendChild(createLi);
 }
 
-
-
-
 for (i = 0; i < customMenu.length; i++) {
 let singleRow = customMenu[i];
 let singleRowId = customMenu[i].menuId;
@@ -64,10 +41,45 @@ let singleRowId = customMenu[i].menuId;
 document.getElementById(singleRowId).addEventListener('click', () => {getMenuClicked(singleRowId);});
 }
 
+		return(customMenu);
+}
+
+/* space for all the listeners begin */
+
+var ulSort = document.getElementById("listOrder");
+
+var listRef = document.getElementById("listOrder").li;
+
+const saveTag = Save.addEventListener("click", writeTag);
+
+const newMenu = New.addEventListener("click", newJSON);
+
+const deleteTag = Delete.addEventListener("click", delTag);
+
+const toVar = importTags.addEventListener("load", JSONtoVar );
+
+const importButton = document.getElementById("importTagsClick");
+
+const fileButton = document.getElementById('importTags')
+
+importButton.addEventListener("click", tagImport);
+
+fileButton.addEventListener("click", JSONtoVar);
+
+/* Space for all the listeners end */
+
+//console.log(ulSort);
+
+
+
+
+
+
 
  
 
-function getMenuClicked (menuId) {
+async function getMenuClicked (menuId) {
+	let customMenu = await custProm;
 console.log("Menu ID: ", menuId);
 for (i = 0; i < customMenu.length; i++) {
 if (menuId == customMenu[i].menuId) {
@@ -79,7 +91,8 @@ document.getElementById("parentId").value = customMenu[i].parentId;
 }
 
 
-function newJSON() {
+async function newJSON() {
+	let customMenu = await custProm;
 // step through numbers until you find an open id
 for (i = 1; i < 1000; i++) {// Allows up to 1000 custom tags
 var textNum = i+""; //declare as text
@@ -94,7 +107,8 @@ document.getElementById("parentId").value = "bbcwbx.custom";
 }
 
 
-function tagImport () {
+async function tagImport () {
+	let customMenu = await custProm;
 /* click on the file input button this is a hack using the submit button 
 to click on the file button while maintaining the same appearance as 
 the other submit buttons. */
@@ -103,14 +117,15 @@ confirm("\tAre you sure you want to proceed?\n     Click OK to proceed, or cance
 importTags.click();
 }
 
-function JSONtoVar (event) {
+async function JSONtoVar (event) {
+	let customMenu = await custProm;
   var file = event.target.files[0];
   var reader = new FileReader();
   reader.onload = function(event) {
     // The file's text will be printed here
     let readValue = event.target.result;
 //    console.log(readValue);
-localStorage.setItem('customMenu',readValue); //store order of custom tags locally
+browser.storage.local.set({ defCust: readValue }); //store order of custom tags locally
 location.reload(); // reload page, which reloads custom tags from storage
   };
   reader.readAsText(file);
@@ -122,7 +137,8 @@ const saveButton = document.getElementById("saveTagOrder");
 
 saveButton.addEventListener("click", saveTagOrd);
 
-function saveTagOrd () {
+async function saveTagOrd () {
+	let customMenu = await custProm;
 let tempSaveSort = [];
 let lis = "";
 for (i = 0; i < document.getElementById("listOrder").getElementsByTagName("li").length; i++) {
@@ -140,10 +156,7 @@ tempSaveSort.push(keyToAdd);
 //Object.assign(tempSaveSort, keyToAdd);
 }
 alert(lis);
-//console.log(JSON.stringify(customMenu));
-console.log(JSON.stringify(tempSaveSort));
-localStorage.setItem('customMenu',JSON.stringify(tempSaveSort)); //store order of custom tags locally
-//customMenu = JSON.parse(localStorage.getItem('customMenu')); //reread custom tags from local storage
+browser.storage.local.set({defCust: tempSaveSort});; //store order of custom tags locally
 location.reload(); // reload page, which reloads custom tags from storage
 }
 
@@ -152,7 +165,8 @@ const exportButton = document.getElementById("exportTags");
 
 exportButton.addEventListener("click", expTag);
 
-function expTag () {
+async function expTag () {
+	let customMenu = await custProm;
 let  expProceed = window.confirm("Save any edits first?\n Any unsaved edits will be lost");
 console.log(expProceed);
 if (expProceed) {
@@ -171,7 +185,8 @@ browser.downloads.download({
 }
 }
 
-function writeTag () {// writes new or updated tag to locally stored variable
+async function writeTag () {// writes new or updated tag to locally stored variable
+    let customMenu = await custProm;
 currentMenuId = document.getElementById("menuId").value;
 currentMenuTitle = document.getElementById("menuTitle").value;
 currentMenuArg = document.getElementById("menuArg").value;
@@ -197,7 +212,7 @@ customMenu[locationOfRecord] = newMenu;
 } else { // if new tag, add to end
 customMenu = customMenu.concat(newMenu);
 }
-localStorage.setItem('customMenu',JSON.stringify(customMenu)); //store updated tags in local storage
+browser.storage.local.set({defCust: customMenu}); //store updated tags in local storage
 // clear the input boxes after value is saved
 document.getElementById("menuId").value = "";
 document.getElementById("menuTitle").value = "";
@@ -207,7 +222,8 @@ location.reload(); // reload page, which reloads custom tags from storage
 }}}
 
 
-function delTag (){
+async function delTag (){
+	let customMenu = await custProm;
 let curId = document.getElementById("menuId").value;
 let curTit = document.getElementById("menuTitle").value;
 let indId = customMenu.findIndex(p => p.menuId == curId);
@@ -219,7 +235,7 @@ console.log(deleteMe);
 if (deleteMe){
 console.log(JSON.stringify(customMenu));
 removed = customMenu.splice(indId,1);
-localStorage.setItem('customMenu',JSON.stringify(customMenu)); //store updated tags in local storage
+browser.storage.local.set({defCust: customMenu}); //store updated tags in local storage
 }
 document.getElementById("menuId").value = ""; // clear out input boxes
 document.getElementById("menuTitle").value = "";
