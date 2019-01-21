@@ -52,6 +52,8 @@ generateMenu();
 
 
 async function generateMenu () {
+	browser.storage.onChanged.removeListener(generateMenu); // make sure that while initializing
+	// it is not calling itself again, and again, and again
 // when you are changing menus in settings, first remove the existing menus before regenerating the menu
 	var removing = browser.menus.removeAll();
 // load values from local storage
@@ -110,15 +112,17 @@ async function generateMenu () {
             if (defMenu[i].parentId != "") {
                 info.parentId = defMenu[i].parentId;
             }
-//		console.log("info", JSON.stringify(info,null,2));
+		
         browser.menus.create(info);
     }
-    }	
+    }	//console.log("info", JSON.stringify(defMenu,null,2));
+	browser.storage.onChanged.addListener(generateMenu); //add listener
+	// for changes made to active menus and custom tags
 }
 
 browser.menus.onClicked.addListener((info, tab, defaultMenu) => {
     if (info.menuItemId.substring(0, 6) == "bbcwbx") {
-        console.log(info.menuItemId);
+ //       console.log(info.menuItemId);
         for (i = 0; i < defMenu.length; i++) {
             if (info.menuItemId == defMenu[i].menuId) {
                 var clickArg = defMenu[i].menuArg;
@@ -130,7 +134,7 @@ browser.menus.onClicked.addListener((info, tab, defaultMenu) => {
 
 //window.addEventListener("storage", generateMenu, false);
 //browser.addEventListener("storage", generateMenu, false);
-browser.storage.onChanged.addListener(generateMenu);
+//browser.storage.onChanged.addListener(generateMenu);
 
 //	browser.storage.local.get("browser.local.storage everything:", function(items) {
 //    console.log(JSON.stringify(items).length);
