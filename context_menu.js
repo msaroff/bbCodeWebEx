@@ -15,33 +15,25 @@ const custMenuURL = browser.runtime.getURL('data/customMenuTest.json'); //locati
 const activeMenusURL = browser.runtime.getURL('data/activeMenu.json'); //location of initial active menus
 
 const initialize = async () => {
-// load the default menu settings in JSON and save to browser.storage.local
-    localStorage.removeItem('customMenu') // fix error in earlier release
-    let tempDef = await fetch(defMenuURL);
-    defTemp = await tempDef.json();
-	browser.storage.local.set({defTemp});
-//check if custom menus are in local storage, if no, load local JSON and save to local storage
-if (localStorage.getItem('customMenu') != null){ // if custom menus earlier release exists
-	let custDef = JSON.parse(localStorage.getItem('customMenu'));
-    defCust = await custDef.json();
-	browser.storage.local.set({defCust}); // save to browser.storage
-    localStorage.removeItem('customMenu'); // fix error in earlier release
-}   else if (await Object.keys(browser.storage.local.get('defCust')) == 0){ //if no custom menus
-	let tempCust = await fetch(custMenuURL);
-	let defCust = await  tempCust.json();
-    browser.storage.local.set({defCust})}
-if (localStorage.getItem('activeMenus') != null){ // if active menus earlier release exists
-	let tempAct = JSON.parse(localStorage.getItem('activeMenus'));
-    let actTemp = await tempAct.json();
-	browser.storage.local.set({actTemp}); // save to browser.storage
-	console.log(actTemp);
-    localStorage.removeItem('activeMenus'); // fix error in earlier release
-}   else if (await Object.keys(browser.storage.local.get('actTemp') == 0)){
-	let tempAct = await fetch(activeMenusURL);
-	let actTemp = await tempAct.json();
-	console.log(JSON.stringify(actTemp,null,2));
-    browser.storage.local.set({actTemp})}	
+	let {actTemp: activeTemp} = await browser.storage.local.get(['actTemp']);
+	if (await activeTemp == null){ //if active menus not yet set, read from JSON
+			let tempAct = await fetch(activeMenusURL);
+			activeTemp = await tempAct.json();
+			browser.storage.local.set({actTemp: activeTemp}); //and save to local storage
 	}
+//check if custom menus are in local storage, if no, load local JSON and save to local storage
+    let {defCust: cstmMenu} = await browser.storage.local.get(['defCust']);
+	if (await cstmMenu == null){ // if custom menus are not set, read from JSON
+		let tempCust = await fetch(custMenuURL);
+	    let defCust = await  tempCust.json();
+	browser.storage.local.set({defTemp: defCust}); //and save to local storage
+	}
+// load the default menu settings in JSON and save to browser.storage.local
+    let tempDef = await fetch(defMenuURL);
+	let defltTemp = await tempDef.json
+	browser.storage.local.set({defTemp: defltTemp}); // save to browser.storage
+}
+
   
 initialize();
 

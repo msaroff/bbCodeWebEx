@@ -2,7 +2,7 @@
      "manifest_version": 2,
      "name": "bbCodeWebex",
      "version": "0.1.3",
-     "description": "Context Menus for bbCode/Html/etc",
+     "description": "Context Menus for bbCode/Html/Markdown/etc. formatting",
      "default_locale": "en-US",
      "icons": {
           "16": "icons/bbcwbx.svg"
@@ -12,8 +12,6 @@
      "homepage_url": "https://github.com/msaroff/bbCodeWebEx",
      "permissions": [
            "<all_urls>",
-           "webRequest",
-           "downloads",
            "notifications",
            "contextMenus",
            "menus",
