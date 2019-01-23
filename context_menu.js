@@ -26,12 +26,13 @@ const initialize = async () => {
 	if (await cstmMenu == null){ // if custom menus are not set, read from JSON
 		let tempCust = await fetch(custMenuURL);
 	    let defCust = await  tempCust.json();
-	browser.storage.local.set({defTemp: defCust}); //and save to local storage
+	browser.storage.local.set({defCust: defCust}); //and save to local storage
 	}
 // load the default menu settings in JSON and save to browser.storage.local
     let tempDef = await fetch(defMenuURL);
-	let defltTemp = await tempDef.json
-	browser.storage.local.set({defTemp: defltTemp}); // save to browser.storage
+	let defaultMenu = await tempDef.json();
+	browser.storage.local.set({defTemp: defaultMenu}); // save to browser.storage
+	console.log(await browser.storage.local.get());
 }
 
   
@@ -50,15 +51,18 @@ async function generateMenu () {
 	var removing = browser.menus.removeAll();
 // load values from local storage
 	let { actTemp: activeMenus } = await browser.storage.local.get(['actTemp']);
-	console.log((await browser.storage.local.get()));
 	let { defCust: customMenu } = await browser.storage.local.get(['defCust']);
 	let { defTemp: defaultMenu} = await browser.storage.local.get(['defTemp']);
+//	console.log(activeMenus);
+//	console.log(await customMenu);
+//	console.log(await defaultMenu);
+//	console.log(await browser.storage.local.get());
 //console.log(JSON.stringify(activeMenus));
 //console.log(JSON.stringify(customMenu,null,1));
 //console.log(JSON.stringify(defaultMenu,null,1));
 //console.log(JSON.stringify(customMenu,null,2));
 // concatenate default and custom variables to generate menus
-	defMenu = defaultMenu.concat(customMenu);
+	defMenu = await defaultMenu.concat(await customMenu);
 //	console.log(JSON.stringify(defMenu,null,3));
         for (i = 0; i < defMenu.length; i++) {
             let currentId = defMenu[i].menuId;
@@ -114,7 +118,6 @@ async function generateMenu () {
 
 browser.menus.onClicked.addListener((info, tab, defaultMenu) => {
     if (info.menuItemId.substring(0, 6) == "bbcwbx") {
- //       console.log(info.menuItemId);
         for (i = 0; i < defMenu.length; i++) {
             if (info.menuItemId == defMenu[i].menuId) {
                 var clickArg = defMenu[i].menuArg;
