@@ -31,7 +31,8 @@
      "content_scripts": [
           {
           "matches": ["*://*/*"],
-          "js": ["node_modules/es6lib/dom.js", "content_script.js"]
+		  "css": ["cpicker/cpicker.css"],
+          "js": ["node_modules/es6lib/dom.js", "content_script.js", "cpicker/cpicker.js"]
           }
      ],
 	  "browser_action": {

@@ -53,7 +53,6 @@ async function generateMenu () {
 	var { defTemp: defaultMenu } = await browser.storage.local.get({defTemp: defaultMenu});
 // concatenate default and custom variables to generate menus
 	defMenu = defaultMenu.concat(await customMenu);
-	console.log(defMenu);
 //	console.log(JSON.stringify(defMenu,null,3));
         for (i = 0; i < defMenu.length; i++) {
             let currentId = defMenu[i].menuId;
@@ -104,10 +103,10 @@ async function generateMenu () {
     }
     }	//console.log("info", JSON.stringify(defMenu,null,2));
 	browser.menus.create( {
-		id: "bbcwby.bbcode.moo",
+		id: "bbcwbxy.bbcode.moo",
 		title: "Moo",
 		contexts: ["all"],
-		command: "_execute_page_action"
+//		command: "_execute_page_action"
 	});
 		
 	browser.storage.onChanged.addListener(generateMenu); //add listener
@@ -126,8 +125,9 @@ browser.menus.onClicked.addListener((info, tab, defaultMenu) => {
             }
         }
     }
-	if (info.menuItemId.substring(0, 6) == "bbcwby"){
+	if (info.menuItemId.substring(0, 7) == "bbcwbxy"){
 		console.log("moo");
+		browser.tabs.sendMessage(tab.id, {"action": "startColorPicker"}); // send call to open up color picker
 	}
 });
 

@@ -16,6 +16,14 @@
     browser.runtime.onMessage.addListener(function(commandString, sendResponse) {
         CommandParse(commandString);
     });
+	
+	browser.runtime.onMessage.addListener(
+	function(request, sender, sendResponse) {
+		if ( request.action == "startColorPicker" ) {
+			console.log("cpicker");
+			//window.open("'cpicker/cpicker.html'","Color Picker","resizable, scrollbars");
+			showModal();
+ }});
 
 // sanitize selections and clipboard contents so that they do not get executed as commands
 // will put the string, "_~_~", in between each "{{", "}}", and "##" so they will not be parsed
@@ -222,3 +230,14 @@ function createList(originalText, listType) {
     formattedText += endBlock;
     return formattedText;
 }
+
+function showModal(){
+	alert("cpicker");
+	let popUpMenuURL = browser.runtime.getURL('cpicker/cpicker.html');
+//	 browser.browserAction.openPopup();
+//	let ppup = browser.windows.create({
+//		 'url': popUpMenuURL,
+//		 'type': 'popup',
+//	 });
+//window.open("'cpicker/cpicker.html'","Color Picker","resizable, scrollbars");
+} 
