@@ -6,7 +6,7 @@ function onCreated() {
     }
 }
 
-var defMenu = [];
+//var defMenu = [];
 
 const defMenuURL = browser.runtime.getURL('data/DefMenu.json'); // location of default menu storage
 
@@ -32,7 +32,6 @@ const initialize = async () => {
     let tempDef = await fetch(defMenuURL);
 	let defaultMenu = await tempDef.json();
 	browser.storage.local.set({defTemp: defaultMenu}); // save to browser.storage
-	console.log(await browser.storage.local.get());
 }
 
   
@@ -41,28 +40,20 @@ initialize();
 generateMenu();
 
 
-
-
-
 async function generateMenu () {
-	browser.storage.onChanged.removeListener(generateMenu); // make sure that while initializing
-	// it is not calling itself again, and again, and again
+	browser.storage.onChanged.removeListener(generateMenu); /* make sure that while initializing
+	it is not calling itself again, and again, and again */
+	await initialize();
+
 // when you are changing menus in settings, first remove the existing menus before regenerating the menu
 	var removing = browser.menus.removeAll();
 // load values from local storage
-	let { actTemp: activeMenus } = await browser.storage.local.get(['actTemp']);
-	let { defCust: customMenu } = await browser.storage.local.get(['defCust']);
-	let { defTemp: defaultMenu} = await browser.storage.local.get(['defTemp']);
-//	console.log(activeMenus);
-//	console.log(await customMenu);
-//	console.log(await defaultMenu);
-//	console.log(await browser.storage.local.get());
-//console.log(JSON.stringify(activeMenus));
-//console.log(JSON.stringify(customMenu,null,1));
-//console.log(JSON.stringify(defaultMenu,null,1));
-//console.log(JSON.stringify(customMenu,null,2));
+	var { actTemp: activeMenus } = await browser.storage.local.get(['actTemp']);
+	var { defCust: customMenu } = await browser.storage.local.get(['defCust']);
+	var { defTemp: defaultMenu } = await browser.storage.local.get({defTemp: defaultMenu});
 // concatenate default and custom variables to generate menus
-	defMenu = await defaultMenu.concat(await customMenu);
+	defMenu = defaultMenu.concat(await customMenu);
+	console.log(defMenu);
 //	console.log(JSON.stringify(defMenu,null,3));
         for (i = 0; i < defMenu.length; i++) {
             let currentId = defMenu[i].menuId;
@@ -123,6 +114,9 @@ async function generateMenu () {
 	// for changes made to active menus and custom tags
 }
 
+
+
+
 browser.menus.onClicked.addListener((info, tab, defaultMenu) => {
     if (info.menuItemId.substring(0, 6) == "bbcwbx") {
         for (i = 0; i < defMenu.length; i++) {
@@ -137,25 +131,3 @@ browser.menus.onClicked.addListener((info, tab, defaultMenu) => {
 	}
 });
 
-//window.addEventListener("storage", generateMenu, false);
-//browser.addEventListener("storage", generateMenu, false);
-//browser.storage.onChanged.addListener(generateMenu);
-
-//	browser.storage.local.get("browser.local.storage everything:", function(items) {
-//    console.log(JSON.stringify(items).length);
-//  });
-  
-//	console.log("Browser Storage end:",browser.storage.local.getBytesInUse({}));
-// set the falue to the defaults, or the saved value if it exists
-/* if (localStorage.getItem("activeMenus") === null) { //if menu settings not stored, 
-    activeMenus = {
-        enablebbCode: true,
-        enableHTML: true,
-        enableVbulletin: true,
-        enableXHTML: true,
-        enableMarkDown: true,
-        enableCustom: true,
-        enableSymbol: false
-    };
-    localStorage.setItem('activeMenus',JSON.stringify(activeMenus)); //store default in local storage
-    } */ 
