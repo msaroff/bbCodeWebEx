@@ -112,6 +112,13 @@ async function generateMenu () {
         browser.menus.create(info);
     }
     }	//console.log("info", JSON.stringify(defMenu,null,2));
+	browser.menus.create( {
+		id: "bbcwby.bbcode.moo",
+		title: "Moo",
+		contexts: ["all"],
+		command: "_execute_page_action"
+	});
+		
 	browser.storage.onChanged.addListener(generateMenu); //add listener
 	// for changes made to active menus and custom tags
 }
@@ -125,6 +132,9 @@ browser.menus.onClicked.addListener((info, tab, defaultMenu) => {
             }
         }
     }
+	if (info.menuItemId.substring(0, 6) == "bbcwby"){
+		console.log("moo");
+	}
 });
 
 //window.addEventListener("storage", generateMenu, false);

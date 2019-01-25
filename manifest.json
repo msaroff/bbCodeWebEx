@@ -28,12 +28,15 @@
      "background": {
           "scripts": ["context_menu.js"]
      },
-         "content_scripts": [
-              {
-              "matches": ["*://*/*"],
-              "js": ["node_modules/es6lib/dom.js", "content_script.js"]
-              }
-         ],
+     "content_scripts": [
+          {
+          "matches": ["*://*/*"],
+          "js": ["node_modules/es6lib/dom.js", "content_script.js"]
+          }
+     ],
+	  "browser_action": {
+	      "default_popup": "popup/popup.html"
+		  },
      "options_ui": {
           "page": "settings/options.html",
                 "browser_style": false
