@@ -131,3 +131,6 @@ browser.menus.onClicked.addListener((info, tab, defaultMenu) => {
 	}
 });
 
+browser.menus.onClicked.addListener(() => {
+  browser.browserAction.openPopup();
+});

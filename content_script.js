@@ -231,9 +231,13 @@ function createList(originalText, listType) {
     return formattedText;
 }
 
+/*
 function showModal(){
 	alert("cpicker");
 	let popUpMenuURL = browser.runtime.getURL('cpicker/cpicker.html');
+	console.log(popUpMenuURL);
+//	browser.browserAction.openPopup();
+	window.open(popUpMenuURL);
 //	 browser.browserAction.openPopup();
 //	let ppup = browser.windows.create({
 //		 'url': popUpMenuURL,
@@ -241,3 +245,8 @@ function showModal(){
 //	 });
 //window.open("'cpicker/cpicker.html'","Color Picker","resizable, scrollbars");
 } 
+
+browser.menus.onClicked.addListener(() => {
+  browser.browserAction.openPopup();
+});
+*/
