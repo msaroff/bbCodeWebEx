@@ -44,7 +44,7 @@ document.getElementById(singleRowId).addEventListener('click', () => {getMenuCli
 		return(customMenu);
 }
 
-/* space for all the listeners begin */
+
 
 var ulSort = document.getElementById("listOrder");
 
@@ -66,7 +66,7 @@ importButton.addEventListener("click", tagImport);
 
 fileButton.addEventListener("click", JSONtoVar);
 
-/* Space for all the listeners end */
+
 
 //console.log(ulSort);
 

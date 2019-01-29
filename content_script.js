@@ -17,13 +17,13 @@
         CommandParse(commandString);
     });
 	
-	browser.runtime.onMessage.addListener(
+/*	browser.runtime.onMessage.addListener(
 	function(request, sender, sendResponse) {
 		if ( request.action == "startColorPicker" ) {
 			console.log("cpicker");
 			//window.open("'cpicker/cpicker.html'","Color Picker","resizable, scrollbars");
 			showModal();
- }});
+ }}); */
 
 // sanitize selections and clipboard contents so that they do not get executed as commands
 // will put the string, "_~_~", in between each "{{", "}}", and "##" so they will not be parsed
