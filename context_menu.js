@@ -102,13 +102,6 @@ async function generateMenu () {
         browser.menus.create(info);
     }
     }	//console.log("info", JSON.stringify(defMenu,null,2));
-	browser.menus.create( {
-		id: "bbcwbxy.bbcode.moo",
-		title: "Moo",
-		contexts: ["all"],
-//		command: "_execute_page_action"
-	});
-		
 	browser.storage.onChanged.addListener(generateMenu); //add listener
 	// for changes made to active menus and custom tags
 }
@@ -125,12 +118,29 @@ browser.menus.onClicked.addListener((info, tab, defaultMenu) => {
             }
         }
     }
-	if (info.menuItemId.substring(0, 7) == "bbcwbxy"){
-		console.log("moo");
-		browser.tabs.sendMessage(tab.id, {"action": "startColorPicker"}); // send call to open up color picker
-	}
 });
 
-browser.menus.onClicked.addListener(() => {
-  browser.browserAction.openPopup();
+browser.menus.onClicked.addListener((info, tab, defaultMenu) => {
+	    if (info.menuItemId.substring(0, 6) == "bbcwbx") {
+        for (i = 0; i < defMenu.length; i++) {
+            if (info.menuItemId == defMenu[i].menuId) {
+                var clickArg = defMenu[i].menuArg;
+                if (clickArg.includes("{{zzGetColor")){
+					console.log("popup");
+					browser.browserAction.openPopup();
+					//call color picker here
+//					var windowvar = window.open("popup/popup.html","moo");
+					
+				}
+            }
+        }
+    }
 });
+/*
+function getColor() {
+    var input = document.createElement("input");  //create element
+    input.setAttribute('type', 'color'); //is a color input button
+    input.setAttribute('id','zzzcolor'); //it's ID is zzzcolor
+    document.body.appendChild(input);  // append to body
+    document.getElementById("zzzcolor").click(); // click on element
+}*/

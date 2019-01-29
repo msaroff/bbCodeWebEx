@@ -3,6 +3,18 @@ console.log(table);
 var cells = table.getElementsByTagName('td'); 
 console.log(cells);
 getColor();
+const cancelButton = document.getElementById("FontColorCancel");
+console.log(cancelButton)
+/*window.onbeforeunload = confirmExit;
+  function confirmExit()
+  {
+    return "You have attempted to leave this page.  If you have made any changes to the fields without clicking the Save button, your changes will be lost.  Are you sure you want to exit this page?";
+  }
+
+
+function myFunction() {
+  return "Write something clever here...";
+}*/
 
 function getColor(){
 for (var i = 0; i < cells.length; i++)
@@ -11,4 +23,10 @@ for (var i = 0; i < cells.length; i++)
       console.log(this.className.substring(1));
     }, false);
   })(i);
+}
+
+cancelButton.addEventListener("click", zzclose);// window.close()); //close windo when click cancel button
+
+function zzclose (){
+	window.close();
 }
