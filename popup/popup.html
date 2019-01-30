@@ -5,24 +5,58 @@
 <head>
 <meta charset="utf-8">
 <style>
-body {
-  width: 200px;
-  height: 280px;
-}
-body {
-  background-color: #f0f0f0;
-}
-
 .center {
   text-align: center;
 }
+body {
+  width: 200px;
+  height: 360px;
+  background-color: #f0f0f0;
+}
+table{
+  table-layout: fixed;
+  width: 100%; /* must have this set */
+}
 
 tr {
-max-height: 10px;
+	padding: 0px;
 }
-td {
-border: 1px solid black;
+
+.colorTable td {
+border: 1px solid black; 
+height: 17px;
+	padding: 0px;
+
 }
+.square {
+  height: 10px;
+  width: 10px;
+  background-color: #555;
+}
+.tbutton td:nth-child(1),
+.tbutton td:nth-child(3) {
+  width: 40%;
+}
+.tbutton td:nth-child(2) {
+  width: 20%;
+} 
+
+td.tdcancel{
+text-align: right;
+}
+td.tdok{
+text-align: center;
+}
+
+#tdbutton tr td th {
+ border: 5px solid black;
+}
+
+.curcol{
+    background-color: #FF00FF;
+	border: 1px solid black;
+	font-size: 80%;
+	}
 
 td.cFFFFFF {background-color: #FFFFFF;}
 td.cFFCCCC {background-color: #FFCCCC;}
@@ -98,23 +132,14 @@ td.selected {
   background-color: red;
 }
 
-
-table {
-  width: 200px;
-  height: 140px;
-    table-layout: fixed;
-}
-
-
-}
 </style>
 
 </head>
 
 <body">
 <div class="center">Select Color</div><br>
-<table class="tg" id="colorTable">
-<tr style="line-height: 8px; height: 8px;">
+<table id="colorTable" class="colorTable">
+<tr>
 <td class="cFFFFFF"></td>
 <td class="cFFCCCC"></td>
 <td class="cFFCC99"></td>
@@ -125,7 +150,7 @@ table {
 <td class="cCCFFFF"></td>
 <td class="cCCCCFF"></td>
 <td class="cFFCCFF"></td>
-</tr><tr style="line-height: 8px; height: 8px;">
+</tr><tr>
 <td class="cCCCCCC"></td>
 <td class="cFF6666"></td>
 <td class="cFF9966"></td>
@@ -136,7 +161,7 @@ table {
 <td class="c66FFFF"></td>
 <td class="c9999FF"></td>
 <td class="cFF99FF"></td>
-</tr><tr style="line-height: 8px; height: 8px;">
+</tr><tr>
 <td class="cC0C0C0"></td>
 <td class="cFF0000"></td>
 <td class="cFF9900"></td>
@@ -147,7 +172,7 @@ table {
 <td class="c33CCFF"></td>
 <td class="c6666CC"></td>
 <td class="cCC66CC"></td>
-</tr><tr style="line-height: 8px; height: 8px;">
+</tr><tr>
 <td class="c999999"></td>
 <td class="cCC0000"></td>
 <td class="cFF6600"></td>
@@ -158,7 +183,7 @@ table {
 <td class="c3366FF"></td>
 <td class="c6633FF"></td>
 <td class="cCC33CC"></td>
-</tr><tr style="line-height: 8px; height: 8px;">
+</tr><tr>
 <td class="c666666"></td>
 <td class="c990000"></td>
 <td class="cCC6600"></td>
@@ -169,7 +194,7 @@ table {
 <td class="c3333FF"></td>
 <td class="c6600CC"></td>
 <td class="c993399"></td>
-</tr><tr style="line-height: 8px; height: 8px;">
+</tr><tr>
 <td class="c333333"></td>
 <td class="c660000"></td>
 <td class="c993300"></td>
@@ -180,7 +205,7 @@ table {
 <td class="c000099"></td>
 <td class="c333399"></td>
 <td class="c663366"></td>
-</tr><tr style="line-height: 8px; height: 8px;">
+</tr><tr>
 <td class="c000000"></td>
 <td class="c330000"></td>
 <td class="c663300"></td>
@@ -193,13 +218,13 @@ table {
 <td class="c330033"></td>
 </tr>
 </table>
-
-Font Color: &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="FontColor" size="13%"> 
+Current Color: <span class="curcol">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><br><br>
+Current Color Hex: <input type="text" id="FontColor" size="7%"> 
 <br><br>
 <!-- <input type="button" id="FontColorOk" data-i18n="ALERT_IMPORT_TITLE|value" value=""> -->
-<input type="button" id="FontColorOk" value="OK">
-<input type="button" id="FontColorCancel" value="Cancel">
-
+<center><input type="button" id="HTML5ColorPik" value="Native Color Picker"></center><br>
+<table id="tbutton" class="tbutton"><tr><td></td><td class="tdok"><input type="button" id="FontColorOk" value="OK"></td><td class="tdcancel"><input type="button" id="FontColorCancel" value="Cancel"></td></tr>
+</table>
  <script type="text/javascript" src="popup.js" ></script>
 </body>
 </html>
