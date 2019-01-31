@@ -20,7 +20,13 @@ function getColor(){
 for (var i = 0; i < cells.length; i++)
   (function (e) {
     cells[e].addEventListener("click", function () {
-      console.log(this.className.substring(1));
+      let clColor = this.className;
+	  let selColor = "#"+clColor.substring(1);
+	  console.log(selColor);
+	  let ccol = document.getElementsByClassName("curcol");
+	  console.log(ccol[0]);
+	  ccol[0].style.backgroundColor = selColor;
+	  document.getElementById("FontColor").value = selColor;
     }, false);
   })(i);
 }
