@@ -114,12 +114,24 @@ browser.menus.onClicked.addListener((info, tab, defaultMenu) => {
         for (i = 0; i < defMenu.length; i++) {
             if (info.menuItemId == defMenu[i].menuId) {
                 var clickArg = defMenu[i].menuArg;
+				if (clickArg.includes("{{zzGetColor")){
+//					console.log("popup");
+					let moo = browser.browserAction.openPopup();
+					console.log(moo);
+					browser.runtime.onMessage.addListener(function(message, sender) {
+				    console.log("message received")
+					browser.tabs.sendMessage(tab.id, clickArg); // send argument to content script for execution
+				});
+			        browser.runtime.onMessage.removeListener(function(message, sender ){});
+				 } else {
                 browser.tabs.sendMessage(tab.id, clickArg); // send argument to content script for execution
+				}
             }
         }
-    }
-});
+		}});
 
+
+/*
 browser.menus.onClicked.addListener((info, tab, defaultMenu) => {
 	    if (info.menuItemId.substring(0, 6) == "bbcwbx") {
         for (i = 0; i < defMenu.length; i++) {
@@ -127,15 +139,13 @@ browser.menus.onClicked.addListener((info, tab, defaultMenu) => {
                 var clickArg = defMenu[i].menuArg;
                 if (clickArg.includes("{{zzGetColor")){
 					console.log("popup");
-					browser.browserAction.openPopup();
-					//call color picker here
-//					var windowvar = window.open("popup/popup.html","moo");
-					
+					browser.browserAction.openPopup();					
 				}
             }
         }
     }
-});
+}); */
+
 /*
 function getColor() {
     var input = document.createElement("input");  //create element

@@ -1,10 +1,16 @@
+window.addEventListener("unload", function(event) {
+        var sending = browser.runtime.sendMessage({
+			message: "color set done"
+			});
+			console.log("message sent");
+      });
 var table = document.getElementById('colorTable'); 
-console.log(table);
+//console.log(table);
 var cells = table.getElementsByTagName('td'); 
-console.log(cells);
+//console.log(cells);
 getColor();
 const cancelButton = document.getElementById("FontColorCancel");
-console.log(cancelButton)
+//console.log(cancelButton)
 /*window.onbeforeunload = confirmExit;
   function confirmExit()
   {
@@ -31,7 +37,9 @@ for (var i = 0; i < cells.length; i++)
   })(i);
 }
 
-cancelButton.addEventListener("click", zzclose);// window.close()); //close windo when click cancel button
+cancelButton.addEventListener("click", zzclose); // close window when click cancel button
+
+
 
 function zzclose (){
 	window.close();
