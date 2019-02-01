@@ -54,7 +54,7 @@ async function generateMenu () {
 // concatenate default and custom variables to generate menus
 	defMenu = defaultMenu.concat(await customMenu);
 //	console.log(JSON.stringify(defMenu,null,3));
-        for (i = 0; i < defMenu.length; i++) {
+        for (let i = 0; i < defMenu.length; i++) {
             let currentId = defMenu[i].menuId;
             let nobbCode = (currentId.substring(0,13) == 'bbcwbx.bbcode') && !activeMenus.enablebbCode;
             let noHTML = (currentId.substring(0,11) == 'bbcwbx.html') && !activeMenus.enableHTML;
@@ -111,7 +111,7 @@ async function generateMenu () {
 
 browser.menus.onClicked.addListener((info, tab, defaultMenu) => {
     if (info.menuItemId.substring(0, 6) == "bbcwbx") {
-        for (i = 0; i < defMenu.length; i++) {
+        for (let i = 0; i < defMenu.length; i++) {
             if (info.menuItemId == defMenu[i].menuId) {
                 var clickArg = defMenu[i].menuArg;
 				if (clickArg.includes("{{zzGetColor")){
@@ -134,7 +134,7 @@ browser.menus.onClicked.addListener((info, tab, defaultMenu) => {
 /*
 browser.menus.onClicked.addListener((info, tab, defaultMenu) => {
 	    if (info.menuItemId.substring(0, 6) == "bbcwbx") {
-        for (i = 0; i < defMenu.length; i++) {
+        for (let i = 0; i < defMenu.length; i++) {
             if (info.menuItemId == defMenu[i].menuId) {
                 var clickArg = defMenu[i].menuArg;
                 if (clickArg.includes("{{zzGetColor")){
