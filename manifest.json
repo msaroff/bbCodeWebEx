@@ -36,6 +36,9 @@
           }
      ],
 	  "browser_action": {
+	      "default_icon": {
+            "16": "icons/bbcwbx.svg"
+          },
 		  "default_title": "bbCodeWebEx",
 		  "default_popup": "popup/popup.html"
 		  },

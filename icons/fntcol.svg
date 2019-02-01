@@ -1,4 +1,4 @@
-<svg width="940" height="500" xmlns="http://www.w3.org/2000/svg">
+<svg width="790" height="340" xmlns="http://www.w3.org/2000/svg">
  <defs>
   <style type="text/css">
    <![CDATA[
@@ -18,7 +18,7 @@ fill: #0000FF;
 .s3_1{
 font-size: 481.33px;
 font-family: Arial-Black_5;
-fill: #00FF00;
+fill: #006600;
 }
 
 
@@ -38,13 +38,13 @@ fill: #00FF00;
  </style>
  <g>
   <title>background</title>
-  <rect fill="none" id="canvas_background" height="502" width="942" y="-1" x="-1"/>
+  <rect x="-1" y="-1" width="792" height="342" id="canvas_background" fill="none"/>
  </g>
  <g>
   <title>Layer 1</title>
-  <path id="svg_1" fill="#FFFFFF" d="m112.000008,84.793358l0,658.999977l963.999992,0l0,-658.999977l-963.999992,0z"/>
-  <text id="svg_2" class="s1_1" y="430.793349" x="111">A</text>
-  <text id="svg_3" class="s2_1" y="430.793371" x="398">B</text>
-  <text id="svg_4" class="s3_1" y="430.793342" x="628">C</text>
+  <text x="-17" y="327.793349" class="s1_1" id="svg_2">A</text>
+  <path d="m113.000008,85.793358l0,658.999977l963.999992,0l0,-658.999977l-963.999992,0z" fill="none" id="svg_1"/>
+  <text x="264" y="327.793371" class="s2_1" id="svg_3">B</text>
+  <text x="482" y="325.793342" class="s3_1" id="svg_4">C</text>
  </g>
 </svg>
