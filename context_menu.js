@@ -116,13 +116,13 @@ browser.menus.onClicked.addListener((info, tab, defaultMenu) => {
                 var clickArg = defMenu[i].menuArg;
 				if (clickArg.includes("{{zzGetColor")){
 //					console.log("popup");
-					let moo = browser.browserAction.openPopup();
-					console.log(moo);
-					browser.runtime.onMessage.addListener(function(message, sender) {
+					browser.browserAction.openPopup();
+					browser.runtime.onMessage.addListener(meepMoopMop = function(message, sender) {
 				    console.log("message received")
 					browser.tabs.sendMessage(tab.id, clickArg); // send argument to content script for execution
+					browser.runtime.onMessage.removeListener(meepMoopMop);
 				});
-			        browser.runtime.onMessage.removeListener(function(message, sender ){});
+			        
 				 } else {
                 browser.tabs.sendMessage(tab.id, clickArg); // send argument to content script for execution
 				}
