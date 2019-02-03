@@ -118,7 +118,7 @@ browser.menus.onClicked.addListener((info, tab, defaultMenu) => {
 //					console.log("popup");
 					browser.browserAction.openPopup();
 					browser.runtime.onMessage.addListener(meepMoopMop = function(message, sender) {
-				    console.log("message received")
+				    console.log("message received");
 					browser.tabs.sendMessage(tab.id, clickArg); // send argument to content script for execution
 					browser.runtime.onMessage.removeListener(meepMoopMop);
 				});

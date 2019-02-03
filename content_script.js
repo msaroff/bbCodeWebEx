@@ -57,6 +57,12 @@ It will prompt for title, and then for url, and the result will be
 [url=URL]TITLE[/url]
 This will generate as many popup dialogues as you would want.
 */
+
+function colorPick (colorArg){
+	alert(localStorage.getItem('pickColor'));
+	return(colorArg);
+}
+
     function popThisUp(popArg) {
 	while (popArg.includes("zzpopup")) { // cycle through multiple popups until done
         let popStartIdx = popArg.indexOf("{{zzpopup"); // start of popup argument in commend string
@@ -141,6 +147,9 @@ This will generate as many popup dialogues as you would want.
         if (argString.includes("{{makeList")) { // Invoke list creation function
             argString = listMake(argString);
         }
+		if (argString.includes("{{zzGetColor")) { // invoke color picker
+			argstring = colorPick(argString);
+		}
 //desanitize and paste element
         clickedElement.value = firsttext + deSanitize(argString) + lasttext;
 

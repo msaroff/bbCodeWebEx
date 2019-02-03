@@ -1,15 +1,23 @@
-window.addEventListener("unload", function(event) {
-        var sending = browser.runtime.sendMessage({
-			message: "color set done"
-			});
-			console.log("message sent");
-      });
-var table = document.getElementById('colorTable'); 
+window.pickColor = "nocolor"; // pickColor is what is output from the menu. 
+window.selColor = ""; //initialize global variable for selected color
+
+window.addEventListener("unload", function(event) { //when the window is closed
+	localStorage.setItem("pickColor", "meep"); // save selected color to localStorage
+	let sending = browser.runtime.sendMessage({
+		message: "color set done"
+	});
+	console.log("message sent");
+	});
+
+// nocolor means that no color has peen picked.  It will be replaced by a user selection  
+
+const table = document.getElementById('colorTable'); 
 //console.log(table);
-var cells = table.getElementsByTagName('td'); 
+const cells = table.getElementsByTagName('td'); 
 //console.log(cells);
 getColor();
 const cancelButton = document.getElementById("FontColorCancel");
+const okButton = document.getElementById("FontColorOk");
 //console.log(cancelButton)
 /*window.onbeforeunload = confirmExit;
   function confirmExit()
@@ -23,11 +31,11 @@ function myFunction() {
 }*/
 
 function getColor(){
-for (var i = 0; i < cells.length; i++)
+for (let i = 0; i < cells.length; i++)
   (function (e) {
     cells[e].addEventListener("click", function () {
       let clColor = this.className;
-	  let selColor = "#"+clColor.substring(1);
+	  selColor = "#"+clColor.substring(1);
 	  console.log(selColor);
 	  let ccol = document.getElementsByClassName("curcol");
 	  console.log(ccol[0]);
@@ -38,8 +46,12 @@ for (var i = 0; i < cells.length; i++)
 }
 
 cancelButton.addEventListener("click", zzclose); // close window when click cancel button
+okButton.addEventListener("click", savePick); // Save selected color and close window when click OK
 
-
+function savePick (){
+	pickColor = selColor; 
+	zzclose ();
+}
 
 function zzclose (){
 	window.close();
