@@ -59,7 +59,7 @@ This will generate as many popup dialogues as you would want.
 */
 
 function colorPick (colorArg){
-	alert(localStorage.getItem('pickColor'));
+	alert(localStorage.getItem("pickColor"));
 	return(colorArg);
 }
 

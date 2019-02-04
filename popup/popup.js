@@ -1,8 +1,8 @@
-window.pickColor = "nocolor"; // pickColor is what is output from the menu. 
-window.selColor = ""; //initialize global variable for selected color
+localStorage.setItem("pickColor", "nocolor"); // save localStorage to noselection state
+console.log(localStorage.getItem("pickColor"));
+window.selColor = "nocolor"; //initialize global variable for selected color
 
 window.addEventListener("unload", function(event) { //when the window is closed
-	localStorage.setItem("pickColor", "meep"); // save selected color to localStorage
 	let sending = browser.runtime.sendMessage({
 		message: "color set done"
 	});
@@ -49,7 +49,7 @@ cancelButton.addEventListener("click", zzclose); // close window when click canc
 okButton.addEventListener("click", savePick); // Save selected color and close window when click OK
 
 function savePick (){
-	pickColor = selColor; 
+	localStorage.setItem("pickColor", selColor); 
 	zzclose ();
 }
 
