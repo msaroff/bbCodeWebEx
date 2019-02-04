@@ -1,6 +1,5 @@
-localStorage.setItem("pickColor", "nocolor"); // save localStorage to noselection state
-console.log(localStorage.getItem("pickColor"));
 window.selColor = "nocolor"; //initialize global variable for selected color
+browser.storage.local.set({"pickColor": selColor});
 
 window.addEventListener("unload", function(event) { //when the window is closed
 	let sending = browser.runtime.sendMessage({
@@ -49,7 +48,7 @@ cancelButton.addEventListener("click", zzclose); // close window when click canc
 okButton.addEventListener("click", savePick); // Save selected color and close window when click OK
 
 function savePick (){
-	localStorage.setItem("pickColor", selColor); 
+	browser.storage.local.set({"pickColor": selColor});
 	zzclose ();
 }
 

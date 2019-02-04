@@ -58,8 +58,9 @@ It will prompt for title, and then for url, and the result will be
 This will generate as many popup dialogues as you would want.
 */
 
-function colorPick (colorArg){
-	alert(localStorage.getItem("pickColor"));
+async function colorPick (colorArg){
+	let {pickColor: colorPicked}  = await browser.storage.local.get("pickColor");
+	console.log("color picked", await colorPicked);
 	return(colorArg);
 }
 
