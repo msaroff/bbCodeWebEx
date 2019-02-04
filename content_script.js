@@ -59,10 +59,14 @@ async function colorPick (colorArg){ //read the color from the popup
 }
 
 function colorProc (colorArg,colorPicked){
-	if (colorPicked == "nocolor"){
-		//clear color agument
-	} else {
-		// process color argument
+	if (colorPicked == "nocolor"){ //No color selected, clear color agument
+		while (colorPicked.includes("{{zzGetColor"){
+			let colorStartIdx = colorArg.indexOf("{{zzpopup");
+			let colorEndIdx = colorArg.indexOf("}}", colorStartIdx) + 2; 
+			let colorPicked = colorPicked.substring(0,colorStartIdx)+colorPicked.substring(colorEndIdx);
+		}
+	} else { //Color selected,  process color argument
+		
 	}	
 	return(colorArg)
 }
