@@ -52,10 +52,19 @@ It will prompt for title, and then for url, and the result will be
 This will generate as many popup dialogues as you would want.
 */
 
-async function colorPick (colorArg){
+async function colorPick (colorArg){ //read the color from the popup
 	let {pickColor: colorPicked}  = await browser.storage.local.get("pickColor");
 	console.log("color picked", await colorPicked);
-	return(colorArg);
+	return(colorProc(colorArg, await colorPicked)); //process the actual argument
+}
+
+function colorProc (colorArg,colorPicked){
+	if (colorPicked == "nocolor"){
+		//clear color agument
+	} else {
+		// process color argument
+	}	
+	return(colorArg)
 }
 
     function popThisUp(popArg) {
