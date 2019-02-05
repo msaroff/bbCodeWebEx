@@ -138,7 +138,7 @@
     "menuId": "bbcwbx.bbcode.wbx.fntcol",
     "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.wbx.fntcol)",
     "parentId": "bbcwbx.bbcode.wbx",
-    "menuArg": "{{zzGetColor,\"[color=\",\"]\",\"[/color]}}{{selection}}{{zzColorEnd}}",
+    "menuArg": "{{zzGetColor,\"[color=\",\"]\",\"[/color]\"}}{{selection}}{{zzColorEnd}}",
     "icons": {
       "16": "icons/fntcol.svg"
     }

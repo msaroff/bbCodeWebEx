@@ -61,14 +61,21 @@ async function colorPick (colorArg){ //read the color from the popup
 function colorProc (colorArg,colorPicked){
 	if (colorPicked == "nocolor"){ //No color selected, clear color agument
 		while (colorPicked.includes("{{zzGetColor"){
-			let colorStartIdx = colorArg.indexOf("{{zzpopup");
-			let colorEndIdx = colorArg.indexOf("}}", colorStartIdx) + 2; 
-			let colorPicked = colorPicked.substring(0,colorStartIdx)+colorPicked.substring(colorEndIdx);
+			let colorStartStartIdx = colorArg.indexOf("{{zzGetColor");
+			let colorStartEndIdx = colorArg.indexOf("}}", colorStartIdx) + 2; 
+			let colorPicked = colorPicked.substring(0,colorStartStartIdx)+colorPicked.substring(colorStartEndIdx);
+			let colorEndStartIdx = colorArg.indexOf("{{zzColorEnd");
+			let colorEndendIdx = colorArg.indexOf("}}", colorStartIdx) + 2;
+			let colorPicked = colorPicked.substring(0,colorEndStartIdx)+colorPicked.substring(colorEndEnd);
 		}
 	} else {//Color selected,  process color argument
 		while (colorPicked.includes("{{zzGetColor"){
-			let colorStartIdx = colorArg.indexOf("{{zzpopup");
-			let colorEndIdx = colorArg.indexOf("}}", colorStartIdx) + 2;
+			let colorStartStartIdx = colorArg.indexOf("{{zzpopup");
+			let colorStartEndIdx = colorArg.indexOf("}}", colorStartIdx) + 2;
+			let colorWork = colorArg.substring(colorStartStartIdx,colorStartEndIdx);
+			let startColorTag = 
+			let endColorTag =
+			let finalColorTab =
 			let colorWork = colorArg(colorStartIdx,colorEndIdx);
 			let colorWork = colorWork.substring(10, colorWork.length - 2);
 			let colorBefore = popupBefore = popWork.substring(0, popWork.indexOf(","));
