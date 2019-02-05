@@ -53,36 +53,33 @@ This will generate as many popup dialogues as you would want.
 */
 
 async function colorPick (colorArg){ //read the color from the popup
-	let {pickColor: colorPicked}  = await browser.storage.local.get("pickColor");
-	console.log("color picked", await colorPicked);
-	return(colorProc(colorArg, await colorPicked)); //process the actual argument
-}
-
-function colorProc (colorArg,colorPicked){
+	let {pickColor: colorPicked} = await browser.storage.local.get("pickColor");
+	console.log(colorPicked);
 	if (colorPicked == "nocolor"){ //No color selected, clear color agument
-		while (colorPicked.includes("{{zzGetColor"){
-			let colorStartStartIdx = colorArg.indexOf("{{zzGetColor");
-			let colorStartEndIdx = colorArg.indexOf("}}", colorStartIdx) + 2; 
-			let colorPicked = colorPicked.substring(0,colorStartStartIdx)+colorPicked.substring(colorStartEndIdx);
+		let colorStartStartIdx = colorArg.indexOf('{{zzGetColor'); 
+			let colorStartEndIdx = colorArg.indexOf("}}", colorStartStartIdx) + 2;
+		    colorArg = colorArg.substring(0,colorStartStartIdx)+colorArg.substring(colorStartEndIdx);
 			let colorEndStartIdx = colorArg.indexOf("{{zzColorEnd");
-			let colorEndendIdx = colorArg.indexOf("}}", colorStartIdx) + 2;
-			let colorPicked = colorPicked.substring(0,colorEndStartIdx)+colorPicked.substring(colorEndEnd);
-		}
-	} else {//Color selected,  process color argument
-		while (colorPicked.includes("{{zzGetColor"){
+			let colorEndEndIdx = colorArg.indexOf("}}", colorEndStartIdx) + 2;
+		    colorArg = colorArg.substring(0,colorEndStartIdx)+colorArg.substring(colorEndEndIdx);
+			console.log(colorArg);
+		}   else { //Color selected,  process color argument
 			let colorStartStartIdx = colorArg.indexOf("{{zzpopup");
-			let colorStartEndIdx = colorArg.indexOf("}}", colorStartIdx) + 2;
+			let colorStartEndIdx = colorArg.indexOf("}}", colorStartStartIdx) + 2;
 			let colorWork = colorArg.substring(colorStartStartIdx,colorStartEndIdx);
-			let startColorTag = 
-			let endColorTag =
-			let finalColorTab =
-			let colorWork = colorArg(colorStartIdx,colorEndIdx);
-			let colorWork = colorWork.substring(10, colorWork.length - 2);
-			let colorBefore = popupBefore = popWork.substring(0, popWork.indexOf(","));
-			let colorAfter = popWork.substring(popWork.lastIndexOf(",")+1);
-		}
+			colorWork = colorWork.substring(colorWork.indexOf(",") + 1); //drop title from popWork
+			let startColorTag = colorWork.substring(1, colorWork.indexOf(",")-1); 
+			colorWork = colorWork.substring(colorWork.indexOf(",")+2);
+			let endColorTag = colorWork.substring(0,colorWork.indexOf(",")-1);
+			colorWork = colorWork.substring(colorWork.indexOf(",")+2);
+			let finalColorTab = colorWork.substring(0,colorWork.indexOf("\""));;
+			colorArg = colorArg.substring(colorStartEndIdx);
+			colorArg = colorArg.substring(0,colorArg.indexOf("{{")),
+			colorArg = startColorTag+colorPicked+endColorTag+colorArg+finalColorTab;
+			console.log(colorArg);
 	}	
-	return(colorArg)
+	console.log (colorArg);
+	return colorArg ; 
 }
 
     function popThisUp(popArg) {
@@ -168,7 +165,7 @@ function colorProc (colorArg,colorPicked){
             argString = listMake(argString);
         }
 		if (argString.includes("{{zzGetColor")) { // invoke color picker
-			argstring = colorPick(argString);
+			argString = await colorPick(argString);
 		}
 //desanitize and paste element
         clickedElement.value = firsttext + deSanitize(argString) + lasttext;

@@ -1,6 +1,54 @@
-const defMenuURL = browser.runtime.getURL('../data/DefMenu.json'); // location of default menu storage
+browser = window.browser;
+colorArg = "{{zzGetColor,\"[color=\",\"]\",\"[/color]\"}}texttoformat{{zzColorEnd}}";
+colorCall = "nocolor";
+browser.storage.local.set({"pickColor": colorCall});
 
-const custMenuURL = browser.runtime.getURL('../data/customMenuTest.json'); //location of initial tutorial custom menu
+
+
+moop(colorArg);
+function moop(colorArg){
+	let {pickColor: meep} = browser.storage.local.get("pickColor");
+	moo = meep;
+	document.getElementById("demo").innerHTML = "<h1>Checking Out Color processing</h1><br>"+colorArg+
+	"<br><br>Nocolor Argument:  "+moo+"<br><br><br><br><br><br>"+colorPick(colorArg);
+}
+
+
+
+colorPick(colorArg);
+
+async function colorPick (colorArg){ //read the color from the popup
+	let {pickColor: colorPicked} = await browser.storage.local.get("pickColor");
+	if (colorPicked == "nocolor"){ //No color selected, clear color agument
+		let colorStartStartIdx = colorArg.indexOf('{{zzGetColor'); 
+			let colorStartEndIdx = colorArg.indexOf("}}", colorStartStartIdx) + 2;
+		    colorArg = colorArg.substring(0,colorStartStartIdx)+colorArg.substring(colorStartEndIdx);
+			let colorEndStartIdx = colorArg.indexOf("{{zzColorEnd");
+			let colorEndEndIdx = colorArg.indexOf("}}", colorEndStartIdx) + 2;
+		    colorArg = colorArg.substring(0,colorEndStartIdx)+colorPicked.substring(colorEndEndIdx);
+		}   else { //Color selected,  process color argument
+			let colorStartStartIdx = colorArg.indexOf("{{zzpopup");
+			let colorStartEndIdx = colorArg.indexOf("}}", colorStartStartIdx) + 2;
+			let colorWork = colorArg.substring(colorStartStartIdx,colorStartEndIdx);
+			colorWork = colorWork.substring(colorWork.indexOf(",") + 1); //drop title from popWork
+			let startColorTag = colorWork.substring(1, colorWork.indexOf(",")-1); 
+			colorWork = colorWork.substring(colorWork.indexOf(",")+2);
+			let endColorTag = colorWork.substring(0,colorWork.indexOf(",")-1);
+			colorWork = colorWork.substring(colorWork.indexOf(",")+2);
+			let finalColorTab = colorWork.substring(0,colorWork.indexOf("\""));;
+			colorArg = colorArg.substring(colorStartEndIdx);
+			colorArg = colorArg.substring(0,colorArg.indexOf("{{")),
+			colorArg = startColorTag+colorPicked+endColorTag+colorArg+finalColorTab;
+			console.log(colorArg);
+	}	
+	return(colorArg) 
+}
+
+
+
+/* const defMenuURL = browser.runtime.getURL('../data/DefMenu.json'); // location of default menu storage
+
+const custMenuURL = browser.runtime.getURL('../data/customMenuTest.json'); //location of initial tutorial custom menu */
 
 
 /*
@@ -13,11 +61,14 @@ console.log(JSON.stringify(customMenuFromDisk)); */
 
 //console.log(Object.keys(localStorage));
 
+/*
 defaultMenuFromDisk = JSON.parse(localStorage.getItem('defaultMenu'));
 customMenuFromDisk = JSON.parse(localStorage.getItem('customMenu'));
 function menuFires (){
 	console.log("listener fires");
-}
+} */
+
+
 //browser.storage.onChanged.addListener(menuFires);
 
 /*
