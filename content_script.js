@@ -65,8 +65,15 @@ function colorProc (colorArg,colorPicked){
 			let colorEndIdx = colorArg.indexOf("}}", colorStartIdx) + 2; 
 			let colorPicked = colorPicked.substring(0,colorStartIdx)+colorPicked.substring(colorEndIdx);
 		}
-	} else { //Color selected,  process color argument
-		
+	} else {//Color selected,  process color argument
+		while (colorPicked.includes("{{zzGetColor"){
+			let colorStartIdx = colorArg.indexOf("{{zzpopup");
+			let colorEndIdx = colorArg.indexOf("}}", colorStartIdx) + 2;
+			let colorWork = colorArg(colorStartIdx,colorEndIdx);
+			let colorWork = colorWork.substring(10, colorWork.length - 2);
+			let colorBefore = popupBefore = popWork.substring(0, popWork.indexOf(","));
+			let colorAfter = popWork.substring(popWork.lastIndexOf(",")+1);
+		}
 	}	
 	return(colorArg)
 }
@@ -74,7 +81,6 @@ function colorProc (colorArg,colorPicked){
     function popThisUp(popArg) {
 	while (popArg.includes("zzpopup")) { // cycle through multiple popups until done
         let popStartIdx = popArg.indexOf("{{zzpopup"); // start of popup argument in commend string
-
         let popEndIdx = popArg.indexOf("}}", popStartIdx) + 2; // end of popup argument in command string
         let popWork = popArg.substring(popStartIdx, popEndIdx); // extract the portion of the argument that has to do with making the popup
         popWork = popWork.substring(10, popWork.length - 2); //remove the "{{zzpopup," from the beginning of  argument, and "}}" from the end.
@@ -85,17 +91,16 @@ function colorProc (colorArg,colorPicked){
         let popToReplaceStart = popWork.indexOf("##"); //start index of string to replace
         let popToReplaceEnd = popWork.indexOf("##",popToReplaceStart + 1); //end index of string to replace.
         var textToReplace = popWork.substring(popToReplaceStart,popToReplaceEnd +2);
-        popWork = popWork.substring(popWork.indexOf(",") + 1) //drop title from popWork
-        popWork = popWork.substring(popWork.indexOf(",") + 1) //drop string to be replaced from popWork
-        popupBefore = popWork.substring(0, popWork.indexOf(",")) //text to be added before entered text
-        popupAfter = popWork.substring(popWork.lastIndexOf(",")+1) //text to be added before entered text
+        popWork = popWork.substring(popWork.indexOf(",") + 1); //drop title from popWork
+        popWork = popWork.substring(popWork.indexOf(",") + 1); //drop string to be replaced from popWork
+        popupBefore = popWork.substring(0, popWork.indexOf(",")); //text to be added before entered text
+        popupAfter = popWork.substring(popWork.lastIndexOf(",")+1); //text to be added before entered text
         let popupResp = prompt(popTitle);
         if (popupResp === null || popupResp === "") { // if the prompt is left blank, produce empty response
             popupResp = "";
             popupBefore = "";
             popupAfter = "";
         }
-
         let popUpHere = (popupBefore + popupResp + popupAfter);
 		// add stuff to allow '\n\' to creat new line from popup
 		popUpHere = popUpHere.replace(/\\\\n/g,'~_~_~n'); // use '\\n' to actually enter '\n\'
