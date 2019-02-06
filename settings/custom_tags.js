@@ -3,7 +3,7 @@ var custProm = initialize();
 
 async function initialize () {
 	let {defCust: customMenu}  = await browser.storage.local.get("defCust");
-	console.log(JSON.stringify(await customMenu,null,2));
+	console.log(JSON.stringify(await customMenu).substring(0,200));
 
     for (i = 0; i < Object.keys(customMenu).length; i++) {
 
