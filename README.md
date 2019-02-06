@@ -14,7 +14,7 @@ Users will be able to create their own custom tags and symbols as well as turnin
 ## Acknowledgements
 #### Francesco Lodolo \[:flod]
 Wrote the program [bbCodeXtra](https://addons.mozilla.org/en-US/firefox/addon/bbcodextra/), (dead link)
-which (with his permission) this program hews to as closely as possible. (Released under MPL 1.1)
+which (with his permission) this program hews to as closely as possible. (Released under Mozilla Public License 1.1)
 
 Additionally, I am using the internatinal language codes he maintained for bbCodeXtra, as well as an almost direct copy of the code he used to generate lists.
 
@@ -22,10 +22,12 @@ Additionally, I am using the internatinal language codes he maintained for bbCod
 Wrote the code used to access the contents of the clipboard, available at https://github.com/NiklasGollenstede/es6lib/, specifically the dom.js file. (Released under MIT License)
 
 #### \[erosman]
-Wrote the code for [internationalization of HTML pages](https://github.com/erosman/HTML-Internationalization).  He is also a [prolific author of Firefox extensions](https://addons.mozilla.org/en-US/firefox/user/690471/). (It's 5 lines of code, without a specific license listed.)
+Wrote the code for [internationalization of HTML pages](https://github.com/erosman/HTML-Internationalization).  He is also a [prolific author of Firefox extensions](https://addons.mozilla.org/en-US/firefox/user/690471/). (It's 5 AMAZING lines of code, without a specific license listed.)
 
-#### Friso Gouwetor \[Friso NL] 
-Wrote the code for [drag and drop reordering of the custom tags](https://codereview.stackexchange.com/questions/127271/javascript-drag-and-drop-sortable-list) on Stack Echange. (No license listed)
+#### The [SortableJS Library](https://github.com/SortableJS/Sortable) (Released under MIT License)
+
+#### Charles E. Saroff \[w4t3rf1r3] All icons and logos, © Charles E. Saroff.  Check out his [Deviant Art](https://www.deviantart.com/w4t3rf1r3) to contact him or to get license details before using on any fork or other progra.
+
 
 ## License
 
@@ -38,14 +40,6 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-### Material under other licenses:
-The logo and the menu icons are © Charles E. Saroff.
-
-Any use of these works in another context, including forks of this, is prohibited without permission.
-
-You can contact him at: https://www.deviantart.com/w4t3rf1r3.  
-
 
 ## Curse/Geas
 Users are compelled, under a threat of a completely legally non-binding curse, to go outside (weather permitting) and play pirate, or to go outside and make pasta (you can use the store bought stuff, but you should really make your own pasta) on a regular basis.
