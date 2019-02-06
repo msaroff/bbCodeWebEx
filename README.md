@@ -14,18 +14,18 @@ Users will be able to create their own custom tags and symbols as well as turnin
 ## Acknowledgements
 #### Francesco Lodolo \[:flod]
 Wrote the program [bbCodeXtra](https://addons.mozilla.org/en-US/firefox/addon/bbcodextra/), (dead link)
-which (with his permission) this program hews to as closely as possible.
+which (with his permission) this program hews to as closely as possible. (Released under MPL 1.1)
 
 Additionally, I am using the internatinal language codes he maintained for bbCodeXtra, as well as an almost direct copy of the code he used to generate lists.
 
 #### Niklas Gollenstede \[NilkasG]
-Wrote the code used to access the contents of the clipboard, available at https://github.com/NiklasGollenstede/es6lib/, specifically the dom.js file.
+Wrote the code used to access the contents of the clipboard, available at https://github.com/NiklasGollenstede/es6lib/, specifically the dom.js file. (Released under MIT License)
 
-### \[erosman]
-Wrote the code for [internationalization of HTML pages](https://github.com/erosman/HTML-Internationalization).  He is also a [prolific author of Firefox extensions](https://addons.mozilla.org/en-US/firefox/user/690471/). 
+#### \[erosman]
+Wrote the code for [internationalization of HTML pages](https://github.com/erosman/HTML-Internationalization).  He is also a [prolific author of Firefox extensions](https://addons.mozilla.org/en-US/firefox/user/690471/). (It's 5 lines of code, without a specific license listed.)
 
-### Friso Gouwetor \[Friso NL] 
-Wrote the code for [drag and drop reordering of the custom tags](https://codereview.stackexchange.com/questions/127271/javascript-drag-and-drop-sortable-list).
+#### Friso Gouwetor \[Friso NL] 
+Wrote the code for [drag and drop reordering of the custom tags](https://codereview.stackexchange.com/questions/127271/javascript-drag-and-drop-sortable-list) on Stack Echange. (No license listed)
 
 ## License
 
