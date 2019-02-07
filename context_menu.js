@@ -117,6 +117,10 @@ browser.menus.onClicked.addListener((info, tab, defaultMenu) => {
 				if (clickArg.includes("{{zzGetColor")){
 //					console.log("popup");
 					browser.browserAction.openPopup();
+//					browser.windows.create({
+//						'url': 'popup/popup.html',
+//						'type': 'popup'
+//					});
 					browser.runtime.onMessage.addListener(meepMoopMop = function(message, sender) {
 				    console.log("message received");
 					browser.tabs.sendMessage(tab.id, clickArg); // send argument to content script for execution

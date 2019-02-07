@@ -1,5 +1,26 @@
 window.selColor = "nocolor"; //initialize global variable for selected color
 browser.storage.local.set({"pickColor": selColor});
+/*
+function firefox57_workaround_for_blank_panel () {
+	
+    // browser.windows.create () displays blank windows (panel, popup or detached_panel)
+    // The trick to display content is to resize the window...
+
+    function getCurrentWindow () { getCurrentWindow
+        return browser.windows.getCurrent ();
+    }
+
+    getCurrentWindow ().then ((currentWindow) => {
+        var updateInfo = {
+            width: 220,
+            height: 410 
+        };
+        browser.windows.update (currentWindow.id, updateInfo);
+    });
+}
+
+firefox57_workaround_for_blank_panel ();
+*/
 
 window.addEventListener("unload", function(event) { //when the window is closed
 	let sending = browser.runtime.sendMessage({
@@ -7,6 +28,7 @@ window.addEventListener("unload", function(event) { //when the window is closed
 	});
 	console.log("message sent");
 	});
+	
 
 // nocolor means that no color has peen picked.  It will be replaced by a user selection  
 
