@@ -1,6 +1,7 @@
 window.selColor = "nocolor"; //initialize global variable for selected color
 browser.storage.local.set({"pickColor": selColor});
 
+
 function firefox57_workaround_for_blank_panel () {
 	
     // browser.windows.create () displays blank windows (panel, popup or detached_panel)
@@ -12,8 +13,8 @@ function firefox57_workaround_for_blank_panel () {
 
     getCurrentWindow ().then ((currentWindow) => {
         var updateInfo = {
-            width: 220,
-            height: 410 
+            width: 230,
+            height: 415 
         };
         browser.windows.update (currentWindow.id, updateInfo);
     });
@@ -40,6 +41,8 @@ const cells = table.getElementsByTagName('td');
 getColor();
 const cancelButton = document.getElementById("FontColorCancel");
 const okButton = document.getElementById("FontColorOk");
+const colHexVal = document.getElementById("hexCol");
+const colPkr = document.getElementById("HTML5ColorPik");
 //console.log(cancelButton)
 /*window.onbeforeunload = confirmExit;
   function confirmExit()
@@ -59,14 +62,20 @@ for (let i = 0; i < cells.length; i++)
       let clColor = this.className;
 	  selColor = "#"+clColor.substring(1);
 	  console.log(selColor);
-	  let ccol = document.getElementsByClassName("curcol");
-	  console.log(ccol[0]);
-	  ccol[0].style.backgroundColor = selColor;
-	  document.getElementById("FontColor").value = selColor;
+	  colHexVal.textContent = selColor;
+	  colPkr.value = selColor;
+//	  document.getElementById("FontColor").value = selColor;
     }, false);
   })(i);
 }
 
+ function colorPicker (){
+	 selColor = colPkr.value;
+	 colHexVal.textContent = selColor; 
+	 console.log(selColor);  
+ }
+
+colPkr.addEventListener("change",colorPicker);
 cancelButton.addEventListener("click", zzclose); // close window when click cancel button
 okButton.addEventListener("click", savePick); // Save selected color and close window when click OK
 
