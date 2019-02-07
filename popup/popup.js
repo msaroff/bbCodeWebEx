@@ -1,6 +1,6 @@
 window.selColor = "nocolor"; //initialize global variable for selected color
 browser.storage.local.set({"pickColor": selColor});
-/*
+
 function firefox57_workaround_for_blank_panel () {
 	
     // browser.windows.create () displays blank windows (panel, popup or detached_panel)
@@ -20,9 +20,10 @@ function firefox57_workaround_for_blank_panel () {
 }
 
 firefox57_workaround_for_blank_panel ();
-*/
 
-window.addEventListener("unload", function(event) { //when the window is closed
+
+window.addEventListener("beforeunload", function(event) { //when the window is closed
+	console.log("mesage sending");
 	let sending = browser.runtime.sendMessage({
 		message: "color set done"
 	});

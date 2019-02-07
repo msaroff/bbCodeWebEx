@@ -35,13 +35,6 @@
           "js": ["node_modules/es6lib/dom.js", "content_script.js", "cpicker/cpicker.js"]
           }
      ],
-	  "browser_action": {
-	      "default_icon": {
-            "16": "icons/bbcwbx.svg"
-          },
-		  "default_title": "bbCodeWebEx",
-		  "default_popup": "popup/popup.html"
-		  },
      "options_ui": {
           "page": "settings/options.html",
 		  "browser_style": false
