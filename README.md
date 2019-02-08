@@ -66,7 +66,7 @@ Seriously, this is Vogon code Javascript, and I keep expecting a bodily organ to
 <br>Donate to Matthew Saroff's Beer Fund and Javascript Crib</a>
 
 ## Screenshots:
-![](https://i.imgur.com/TznzLHV.png)
+![](https://github.com/msaroff/bbCodeWebEx/blob/master/Screen_Shots/bbCodeWebEx/menu_example.png)
 
 ![](https://i.imgur.com/lb0VGZl.png)
 
