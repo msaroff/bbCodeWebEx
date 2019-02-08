@@ -32,7 +32,7 @@
           {
           "matches": ["*://*/*"],
 		  "css": ["cpicker/cpicker.css"],
-          "js": ["node_modules/es6lib/dom.js", "content_script.js", "cpicker/cpicker.js"]
+          "js": ["libraries/dom.js", "content_script.js"]
           }
      ],
      "options_ui": {
