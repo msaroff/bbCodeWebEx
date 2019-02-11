@@ -1,554 +1,1380 @@
   {
-    "bbcwbx.bbcode": {
-      "message": "bbCode"
-    },
-    "bbcwbx.bbcode.clp": {
-      "message": "Clipboard"
-    },
-    "bbcwbx.bbcode.clp.quote": {
-      "message": "Quote"
-    },
-    "bbcwbx.bbcode.clp.code": {
-      "message": "Code"
-    },
-    "bbcwbx.bbcode.clp.list": {
-      "message": "List"
-    },
-    "bbcwbx.bbcode.clp.ordlist": {
-      "message": "Ordered list"
-    },
-    "bbcwbx.bbcode.clp.alphalist": {
-      "message": "Alphabetic list"
-    },
-    "bbcwbx.bbcode.clp.spoiler": {
+    "bbcwbx.bbcode": "bbcwbx.bbcode.clp",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Portapapeles"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.bbcode.clp.quote",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Citar"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.bbcode.clp.code",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Código"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.bbcode.clp.list",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Lista"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.bbcode.clp.ordlist",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Lista ordenada"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.bbcode.clp.alphalist",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Lista ordenada alfabéticamente"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.bbcode.clp.spoiler",
+    "{\"message\": \"bbCode\"}": {
       "message": "Spoiler"
-    },
-    "bbcwbx.bbcode.clp.image": {
-      "message": "Image"
-    },
-    "bbcwbx.bbcode.clp.mkurlsel": {
-      "message": "Make URL from selection"
-    },
-    "bbcwbx.bbcode.clp.url": {
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.bbcode.clp.image",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Imagen"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.bbcode.clp.mkurlsel",
+    "{\"message\": \"bbCode\"}": {
+      "message": "URL de selección"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.bbcode.clp.url",
+    "{\"message\": \"bbCode\"}": {
       "message": "URL"
-    },
-    "bbcwbx.bbcode.clp.urlname": {
-      "message": "URL with name"
-    },
-    "bbcwbx.bbcode.wbx": {
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.bbcode.clp.urlname",
+    "{\"message\": \"bbCode\"}": {
+      "message": "URL con nombre"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.bbcode.wbx",
+    "{\"message\": \"bbCode\"}": {
       "message": "WebEx"
-    },
-    "bbcwbx.bbcode.wbx.quote": {
-      "message": "Quote"
-    },
-    "bbcwbx.bbcode.wbx.code": {
-      "message": "Code"
-    },
-    "bbcwbx.bbcode.wbx.list": {
-      "message": "List"
-    },
-    "bbcwbx.bbcode.wbx.ordlist": {
-      "message": "Ordered list"
-    },
-    "bbcwbx.bbcode.wbx.alphalist": {
-      "message": "Alphabetic list"
-    },
-    "bbcwbx.bbcode.wbx.spoiler": {
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.bbcode.wbx.quote",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Citar"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.bbcode.wbx.code",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Código"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.bbcode.wbx.list",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Lista"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.bbcode.wbx.ordlist",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Lista ordenada"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.bbcode.wbx.alphalist",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Lista ordenada alfabéticamente"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.bbcode.wbx.spoiler",
+    "{\"message\": \"bbCode\"}": {
       "message": "Spoiler"
-    },
-    "bbcwbx.bbcode.wbx.fntcol": {
-      "message": "Font Color"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.white": {
-      "message": "White"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.black": {
-      "message": "Black"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.dk_gray": {
-      "message": "Dark gray"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.gray": {
-      "message": "Gray"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.lt_gray": {
-      "message": "Light gray"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.olive": {
-      "message": "Olive"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.yellow": {
-      "message": "Yellow"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.canary": {
-      "message": "Canary"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.maroon": {
-      "message": "Maroon"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.red": {
-      "message": "Red"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.pink": {
-      "message": "Pink"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.navy": {
-      "message": "Navy"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.blue": {
-      "message": "Blue"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.lt_blue": {
-      "message": "Light Blue"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.green": {
-      "message": "Green"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.lime_green": {
-      "message": "Lime Green"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.mint_green": {
-      "message": "Mint Green"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.indigo": {
-      "message": "Indigo"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.purple": {
-      "message": "Purple"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.fuchsia": {
-      "message": "Fuchsia"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.usrEnt": {
-      "message": "Enter Code in Hex"
-    },
-    "bbcwbx.bbcode.wbx.fntsz": {
-      "message": "Font Size"
-    },
-    "bbcwbx.bbcode.wbx.urlname": {
-      "message": "URL with name"
-    },
-    "bbcwbx.bbcode.wbx.urlwiz": {
-      "message": "URL Wizard"
-    },
-    "bbcwbx.bbcode.vbl": {
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.bbcode.wbx.fntcol",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Color"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.bbcode.wbx.fntsz",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Tamaño"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.bbcode.wbx.urlname",
+    "{\"message\": \"bbCode\"}": {
+      "message": "URL con nombre"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.bbcode.wbx.urlwiz",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Asistente para URL"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.bbcode.vbl",
+    "{\"message\": \"bbCode\"}": {
       "message": "VBulletin3"
-    },
-    "bbcwbx.bbcode.vbl.thd": {
-      "message": "Thread"
-    },
-    "bbcwbx.bbcode.vbl.pst": {
-      "message": "Post"
-    },
-    "bbcwbx.bbcode.vbl.alnlf": {
-      "message": "Align right"
-    },
-    "bbcwbx.bbcode.vbl.alnrt": {
-      "message": "Align left"
-    },
-    "bbcwbx.bbcode.vbl.ctr": {
-      "message": "Center"
-    },
-    "bbcwbx.bbcode.vbl.indnt": {
-      "message": "Indent"
-    },
-    "bbcwbx.bbcode.vbl.hilt": {
-      "message": "Highlight"
-    },
-    "bbcwbx.bbcode.bold": {
-      "message": "Bold"
-    },
-    "bbcwbx.bbcode.ital": {
-      "message": "Italic"
-    },
-    "bbcwbx.bbcode.undrln": {
-      "message": "Underlined"
-    },
-    "bbcwbx.bbcode.img": {
-      "message": "Image"
-    },
-    "bbcwbx.bbcode.url": {
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.bbcode.vbl.thd",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Cadena"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.bbcode.vbl.pst",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Mensaje"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.bbcode.vbl.alnlf",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Alinear a la derecha"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.bbcode.vbl.alnrt",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Alinear a la izquierda"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.bbcode.vbl.ctr",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Centrado"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.bbcode.vbl.indnt",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Sangrado"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.bbcode.vbl.hilt",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Resaltado"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.bbcode.bold",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Negrita"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.bbcode.ital",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Cursiva"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.bbcode.undrln",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Subrayado"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.bbcode.img",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Imagen"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.bbcode.url",
+    "{\"message\": \"bbCode\"}": {
       "message": "URL"
-    },
-    "bbcwbx.html": {
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.html",
+    "{\"message\": \"bbCode\"}": {
       "message": "HTML"
-    },
-    "bbcwbx.html.clp": {
-      "message": "Clipboard"
-    },
-    "bbcwbx.html.clp.quote": {
-      "message": "Quote"
-    },
-    "bbcwbx.html.clp.code": {
-      "message": "Code"
-    },
-    "bbcwbx.html.clp.list": {
-      "message": "List"
-    },
-    "bbcwbx.html.clp.ordlist": {
-      "message": "Ordered list"
-    },
-    "bbcwbx.html.clp.alphalist": {
-      "message": "Alphabetic list"
-    },
-    "bbcwbx.html.clp.image": {
-      "message": "Image"
-    },
-    "bbcwbx.html.clp.mkurlsel": {
-      "message": "Make URL from selection"
-    },
-    "bbcwbx.html.clp.url": {
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.html.clp",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Portapapeles"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.html.clp.quote",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Citar"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.html.clp.code",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Código"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.html.clp.list",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Lista"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.html.clp.ordlist",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Lista ordenada"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.html.clp.alphalist",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Lista ordenada alfabéticamente"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.html.clp.image",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Imagen"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.html.clp.mkurlsel",
+    "{\"message\": \"bbCode\"}": {
+      "message": "URL de selección"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.html.clp.url",
+    "{\"message\": \"bbCode\"}": {
       "message": "URL"
-    },
-    "bbcwbx.html.clp.urlname": {
-      "message": "URL with name"
-    },
-    "bbcwbx.html.wbx": {
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.html.clp.urlname",
+    "{\"message\": \"bbCode\"}": {
+      "message": "URL con nombre"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.html.wbx",
+    "{\"message\": \"bbCode\"}": {
       "message": "WebEx"
-    },
-    "bbcwbx.html.wbx.quote": {
-      "message": "Quote"
-    },
-    "bbcwbx.html.wbx.code": {
-      "message": "Code"
-    },
-    "bbcwbx.html.wbx.list": {
-      "message": "List"
-    },
-    "bbcwbx.html.wbx.ordlist": {
-      "message": "Ordered list"
-    },
-    "bbcwbx.html.wbx.alphalist": {
-      "message": "Alphabetic list"
-    },
-    "bbcwbx.html.wbx.urlname": {
-      "message": "URL with name"
-    },
-    "bbcwbx.html.wbx.urlwiz": {
-      "message": "URL Wizard"
-    },
-    "bbcwbx.html.bold": {
-      "message": "Bold"
-    },
-    "bbcwbx.html.ital": {
-      "message": "Italic"
-    },
-    "bbcwbx.html.undrln": {
-      "message": "Underlined"
-    },
-    "bbcwbx.html.strk": {
-      "message": "Strikethrough"
-    },
-    "bbcwbx.html.img": {
-      "message": "Image"
-    },
-    "bbcwbx.html.url": {
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.html.wbx.quote",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Citar"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.html.wbx.code",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Código"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.html.wbx.list",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Lista"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.html.wbx.ordlist",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Lista ordenada"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.html.wbx.alphalist",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Lista ordenada alfabéticamente"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.html.wbx.urlname",
+    "{\"message\": \"bbCode\"}": {
+      "message": "URL con nombre"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.html.wbx.urlwiz",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Asistente para URL"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.html.bold",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Negrita"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.html.ital",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Cursiva"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.html.undrln",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Subrayado"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.html.strk",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Tachado"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.html.img",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Imagen"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.html.url",
+    "{\"message\": \"bbCode\"}": {
       "message": "URL"
-    },
-    "bbcwbx.xhtml": {
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.xhtml",
+    "{\"message\": \"bbCode\"}": {
       "message": "XHTML"
-    },
-    "bbcwbx.xhtml.clp": {
-      "message": "Clipboard"
-    },
-    "bbcwbx.xhtml.clp.quote": {
-      "message": "Quote"
-    },
-    "bbcwbx.xhtml.clp.code": {
-      "message": "Code"
-    },
-    "bbcwbx.xhtml.clp.list": {
-      "message": "List"
-    },
-    "bbcwbx.xhtml.clp.ordlist": {
-      "message": "Ordered list"
-    },
-    "bbcwbx.xhtml.clp.alphalist": {
-      "message": "Alphabetic list"
-    },
-    "bbcwbx.xhtml.img": {
-      "message": "Image"
-    },
-    "bbcwbx.xhtml.clp.mkurlsel": {
-      "message": "Make URL from selection"
-    },
-    "bbcwbx.xhtml.clp.url": {
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.xhtml.clp",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Portapapeles"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.xhtml.clp.quote",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Citar"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.xhtml.clp.code",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Código"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.xhtml.clp.list",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Lista"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.xhtml.clp.ordlist",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Lista ordenada"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.xhtml.clp.alphalist",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Lista ordenada alfabéticamente"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.xhtml.img",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Imagen"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.xhtml.clp.mkurlsel",
+    "{\"message\": \"bbCode\"}": {
+      "message": "URL de selección"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.xhtml.clp.url",
+    "{\"message\": \"bbCode\"}": {
       "message": "URL"
-    },
-    "bbcwbx.xhtml.clp.urlname": {
-      "message": "URL with name"
-    },
-    "bbcwbx.xhtml.wbx": {
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.xhtml.clp.urlname",
+    "{\"message\": \"bbCode\"}": {
+      "message": "URL con nombre"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.xhtml.wbx",
+    "{\"message\": \"bbCode\"}": {
       "message": "WebEx"
-    },
-    "bbcwbx.xhtml.wbx.quote": {
-      "message": "Quote"
-    },
-    "bbcwbx.xhtml.wbx.code": {
-      "message": "Code"
-    },
-    "bbcwbx.xhtml.wbx.list": {
-      "message": "List"
-    },
-    "bbcwbx.xhtml.wbx.ordlist": {
-      "message": "Ordered list"
-    },
-    "bbcwbx.xhtml.wbx.alphalist": {
-      "message": "Alphabetic list"
-    },
-    "bbcwbx.xhtml.wbx.urlname": {
-      "message": "URL with name"
-    },
-    "bbcwbx.xhtml.wbx.urlwiz": {
-      "message": "URL Wizard"
-    },
-    "bbcwbx.xhtml.bold": {
-      "message": "Bold"
-    },
-    "bbcwbx.xhtml.ital": {
-      "message": "Italic"
-    },
-    "bbcwbx.xhtml.undrln": {
-      "message": "Underlined"
-    },
-    "bbcwbx.xhtml.strk": {
-      "message": "Strikethrough"
-    },
-    "bbcwbx.xhtml.image": {
-      "message": "Image"
-    },
-    "bbcwbx.xhtml.url": {
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.xhtml.wbx.quote",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Citar"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.xhtml.wbx.code",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Código"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.xhtml.wbx.list",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Lista"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.xhtml.wbx.ordlist",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Lista ordenada"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.xhtml.wbx.alphalist",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Lista ordenada alfabéticamente"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.xhtml.wbx.urlname",
+    "{\"message\": \"bbCode\"}": {
+      "message": "URL con nombre"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.xhtml.wbx.urlwiz",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Asistente para URL"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.xhtml.bold",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Negrita"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.xhtml.ital",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Cursiva"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.xhtml.undrln",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Subrayado"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.xhtml.strk",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Tachado"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.xhtml.image",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Imagen"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.xhtml.url",
+    "{\"message\": \"bbCode\"}": {
       "message": "URL"
-    },
-    "bbcwbx.custom": {
-      "message": "Custom Tags"
-    },
-    "bbcwbx.mkdn": {
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.custom",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Etiquetas"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.mkdn",
+    "{\"message\": \"bbCode\"}": {
       "message": "Markdown"
-    },
-    "bbcwbx.mkdn.clp": {
-      "message": "Clipboard"
-    },
-    "bbcwbx.mkdn.clp.quote": {
-      "message": "Quote"
-    },
-    "bbcwbx.mkdn.clp.code": {
-      "message": "Code"
-    },
-    "bbcwbx.mkdn.clp.list": {
-      "message": "List"
-    },
-    "bbcwbx.mkdn.clp.ordlist": {
-      "message": "Ordered list"
-    },
-    "bbcwbx.mkdn.clp.mkurlsel": {
-      "message": "Make URL from selection"
-    },
-    "bbcwbx.mkdn.clp.mkimgsel": {
-      "message": "Make image from selection"
-    },
-    "bbcwbx.mkdn.clp.urlname": {
-      "message": "URL with name"
-    },
-    "bbcwbx.mkdn.wbx": {
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.mkdn.clp",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Portapapeles"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.mkdn.clp.quote",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Citar"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.mkdn.clp.code",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Código"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.mkdn.clp.list",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Lista"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.mkdn.clp.ordlist",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Lista ordenada"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.mkdn.clp.mkurlsel",
+    "{\"message\": \"bbCode\"}": {
+      "message": "URL de selección"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.mkdn.clp.mkimgsel",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Crear imagen a partir de selección"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.mkdn.clp.urlname",
+    "{\"message\": \"bbCode\"}": {
+      "message": "URL con nombre"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.mkdn.wbx",
+    "{\"message\": \"bbCode\"}": {
       "message": "WebEx"
-    },
-    "bbcwbx.mkdn.wbx.quote": {
-      "message": "Quote"
-    },
-    "bbcwbx.mkdn.wbx.code": {
-      "message": "Code"
-    },
-    "bbcwbx.mkdn.wbx.list": {
-      "message": "List"
-    },
-    "bbcwbx.mkdn.wbx.ordlist": {
-      "message": "Ordered list"
-    },
-    "bbcwbx.mkdn.wbx.urlname": {
-      "message": "URL with name"
-    },
-    "bbcwbx.mkdn.wbx.urlwiz": {
-      "message": "URL Wizard"
-    },
-    "bbcwbx.mkdn.bold": {
-      "message": "Bold"
-    },
-    "bbcwbx.mkdn.ital": {
-      "message": "Italic"
-    },
-    "bbcwbx.mkdn.strk": {
-      "message": "Strikethrough"
-    },
-    "INS_AUTHOR": {
-      "message": "Please insert author name or leave empty:"
-    },
-    "INS_LINKNAME": {
-      "message": "Please insert link name:"
-    },
-    "INS_FONTSIZE": {
-      "message": "Please insert text size:"
-    },
-    "INS_FONTCOLOR": {
-      "message": "Please insert text color:"
-    },
-    "URLCOMPOSTO_STEP1": {
-      "message": "Link name?"
-    },
-    "URLCOMPOSTO_STEP2": {
-      "message": "Link?"
-    },
-    "INS_THREADNUM": {
-      "message": "Please insert thread number:"
-    },
-    "INS_POSTNUM": {
-      "message": "Please insert post number:"
-    },
-    "MENU_NO_CUSTOM_TAGS": {
-      "message": "No custom tags defined"
-    },
-    "MENU_DISABLE": {
-      "message": "Disable this menu"
-    },
-    "MENU_SETTINGS": {
-      "message": "bbCodeWebex settings%uFFFD"
-    },
-    "DELETE_CUSTOMTAG": {
-      "message": "Do you want to remove this item?"
-    },
-    "WINDOWTITLE_EDITCUSTOMTAG": {
-      "message": "Edit Custom Tag"
-    },
-    "WINDOWTITLE_NEWCUSTOMTAG": {
-      "message": "Add New Custom Tag"
-    },
-    "ALERT_REORDER_TITLE": {
-      "message": "Reorder Custom Tags"
-    },
-    "ALERT_REORDER_TEXT": {
-      "message": "Custom tags will be arranged in alphabetical order. this action cannot be undone, unless you restore an existing backup. Do you want to continue?"
-    },
-    "WINDOWTITLE_EXPORT": {
-      "message": "Choose export file"
-    },
-    "WINDOWTITLE_IMPORT": {
-      "message": "Choose import file"
-    },
-    "ALERT_IMPORT_TITLE": {
-      "message": "Import Settings"
-    },
-    "ALERT_IMPORT_TEXT": {
-      "message": "This will overwrite all existing settings. Are you sure?"
-    },
-    "ALERT_IMPORT_COMPLETED": {
-      "message": "Operation completed."
-    },
-    "description": {
-      "message": "Adds BBCode/HTML/XHTML/Vbulletin/Markup and custom tags commands to the context menu"
-    },
-    "name": {
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.mkdn.wbx.quote",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Citar"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.mkdn.wbx.code",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Código"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.mkdn.wbx.list",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Lista"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.mkdn.wbx.ordlist",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Lista ordenada"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.mkdn.wbx.urlname",
+    "{\"message\": \"bbCode\"}": {
+      "message": "URL con nombre"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.mkdn.wbx.urlwiz",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Asistente para URL"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.mkdn.bold",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Negrita"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.mkdn.ital",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Cursiva"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.mkdn.strk",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Tachado"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.sym",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Simbolos"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.sym.fraction",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Fracciones"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.sym.fraction.12",
+    "{\"message\": \"bbCode\"}": {
+      "message": "½"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.sym.fraction.13",
+    "{\"message\": \"bbCode\"}": {
+      "message": "⅓"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.sym.fraction.23",
+    "{\"message\": \"bbCode\"}": {
+      "message": "⅔"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.sym.fraction.14",
+    "{\"message\": \"bbCode\"}": {
+      "message": "¼"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.sym.fraction.34",
+    "{\"message\": \"bbCode\"}": {
+      "message": "¾"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.sym.fraction.15",
+    "{\"message\": \"bbCode\"}": {
+      "message": "⅕"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.sym.fraction.25",
+    "{\"message\": \"bbCode\"}": {
+      "message": "⅖"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.sym.fraction.35",
+    "{\"message\": \"bbCode\"}": {
+      "message": "⅗"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.sym.fraction.45",
+    "{\"message\": \"bbCode\"}": {
+      "message": "⅘"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.sym.fraction.16",
+    "{\"message\": \"bbCode\"}": {
+      "message": "⅙"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.sym.fraction.46",
+    "{\"message\": \"bbCode\"}": {
+      "message": "⅚"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.sym.fraction.18",
+    "{\"message\": \"bbCode\"}": {
+      "message": "⅛"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.sym.fraction.38",
+    "{\"message\": \"bbCode\"}": {
+      "message": "⅜"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.sym.fraction.58",
+    "{\"message\": \"bbCode\"}": {
+      "message": "⅝"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.sym.fraction.78",
+    "{\"message\": \"bbCode\"}": {
+      "message": "⅞"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.sym.currency",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Moneda"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.sym.currency.dollar",
+    "{\"message\": \"bbCode\"}": {
+      "message": "$"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.sym.currency.cent",
+    "{\"message\": \"bbCode\"}": {
+      "message": "¢"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.sym.currency.euro",
+    "{\"message\": \"bbCode\"}": {
+      "message": "€"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.sym.currency.gbp",
+    "{\"message\": \"bbCode\"}": {
+      "message": "£"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.sym.currency.yen",
+    "{\"message\": \"bbCode\"}": {
+      "message": "¥"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.sym.currency.franc",
+    "{\"message\": \"bbCode\"}": {
+      "message": "₣"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.sym.currency.lira",
+    "{\"message\": \"bbCode\"}": {
+      "message": "₤"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.sym.currency.yuan",
+    "{\"message\": \"bbCode\"}": {
+      "message": "¥CNY"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.sym.currency.rupee",
+    "{\"message\": \"bbCode\"}": {
+      "message": "₨"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.sym.currency.rupee2",
+    "{\"message\": \"bbCode\"}": {
+      "message": "₹"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.sym.currency.thaibt",
+    "{\"message\": \"bbCode\"}": {
+      "message": "฿"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.sym.currency.won",
+    "{\"message\": \"bbCode\"}": {
+      "message": "₩"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.sym.sci",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Ciencia"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.sym.sci.micro",
+    "{\"message\": \"bbCode\"}": {
+      "message": "µ"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.sym.sci.ohm",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Ω"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.sym.sci.sigma",
+    "{\"message\": \"bbCode\"}": {
+      "message": "∑"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.sym.sci.sqrt",
+    "{\"message\": \"bbCode\"}": {
+      "message": "√"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.sym.sci.infin",
+    "{\"message\": \"bbCode\"}": {
+      "message": "∞"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.sym.sci.apprx",
+    "{\"message\": \"bbCode\"}": {
+      "message": "≈"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.sym.sci.neq",
+    "{\"message\": \"bbCode\"}": {
+      "message": "≠"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.sym.sci.lte",
+    "{\"message\": \"bbCode\"}": {
+      "message": "≤"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.sym.sci.gte",
+    "{\"message\": \"bbCode\"}": {
+      "message": "≥"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.sym.grk",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Griego"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.sym.grk.pi",
+    "{\"message\": \"bbCode\"}": {
+      "message": "π"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.sym.grk.rho",
+    "{\"message\": \"bbCode\"}": {
+      "message": "ρ"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.sym.grk.sgm",
+    "{\"message\": \"bbCode\"}": {
+      "message": "σ"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.sym.grk.tau",
+    "{\"message\": \"bbCode\"}": {
+      "message": "τ"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.sym.grk.chi",
+    "{\"message\": \"bbCode\"}": {
+      "message": "χ"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.sym.grk.psi",
+    "{\"message\": \"bbCode\"}": {
+      "message": "ψ"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.sym.grk.omega",
+    "{\"message\": \"bbCode\"}": {
+      "message": "ω"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.sym.grk.comega",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Θ"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.sym.grk.delta",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Δ"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.sym.grk.ldelta",
+    "{\"message\": \"bbCode\"}": {
+      "message": "δ"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.sym.grk.lambda",
+    "{\"message\": \"bbCode\"}": {
+      "message": "λ"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.sym.grk.phi",
+    "{\"message\": \"bbCode\"}": {
+      "message": "ɸ"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.sym.grk.theta",
+    "{\"message\": \"bbCode\"}": {
+      "message": "ϴ"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.sym.dgre",
+    "{\"message\": \"bbCode\"}": {
+      "message": "°"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.sym.cprt",
+    "{\"message\": \"bbCode\"}": {
+      "message": "©"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.sym.phontm",
+    "{\"message\": \"bbCode\"}": {
+      "message": "℗"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.sym.sm",
+    "{\"message\": \"bbCode\"}": {
+      "message": "℠"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.sym.tm",
+    "{\"message\": \"bbCode\"}": {
+      "message": "™"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.sym.regtm",
+    "{\"message\": \"bbCode\"}": {
+      "message": "®"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.sym.phonrt",
+    "{\"message\": \"bbCode\"}": {
+      "message": "℗"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.sym.section",
+    "{\"message\": \"bbCode\"}": {
+      "message": "§"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.sym.plumin",
+    "{\"message\": \"bbCode\"}": {
+      "message": "±"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.sym.elps",
+    "{\"message\": \"bbCode\"}": {
+      "message": "…"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.sym.emdash",
+    "{\"message\": \"bbCode\"}": {
+      "message": "—"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.sym.dagger",
+    "{\"message\": \"bbCode\"}": {
+      "message": "†"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.sym.dubdagger",
+    "{\"message\": \"bbCode\"}": {
+      "message": "‡"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "bbcwbx.sym.permil",
+    "{\"message\": \"bbCode\"}": {
+      "message": "‰"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "INS_AUTHOR",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Escriba el nombre del autor o déjelo en blanco:"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "INS_LINKNAME",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Escriba el nombre del enlace:"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "INS_FONTSIZE",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Proporcione el tamaño del texto:"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "INS_FONTCOLOR",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Proporcione el color del texto:"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "URLCOMPOSTO_STEP1",
+    "{\"message\": \"bbCode\"}": {
+      "message": "¿Nombre del enlace?"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "URLCOMPOSTO_STEP2",
+    "{\"message\": \"bbCode\"}": {
+      "message": "¿Enlace?"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "INS_THREADNUM",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Escriba el número de la cadena:"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "INS_POSTNUM",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Escriba el número del mensaje:"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "MENU_NO_CUSTOM_TAGS",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Etiquetas sin definir"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "MENU_DISABLE",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Desactivar este menú"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "MENU_SETTINGS",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Configuración de bbCodeWebex"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "DELETE_CUSTOMTAG",
+    "{\"message\": \"bbCode\"}": {
+      "message": "¿Quiere eliminar esta etiqueta?"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "WINDOWTITLE_EDITCUSTOMTAG",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Editar etiqueta"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "WINDOWTITLE_NEWCUSTOMTAG",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Añadir etiqueta nueva"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "ALERT_REORDER_TITLE",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Reordenar etiquetas personalizadas"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "ALERT_REORDER_TEXT",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Las etiquetas personalizadas se organizarán alfabéticamente. No se podrá deshacer esta acción a menos que restaure desde una copia de seguridad. ¿Quiere continuar?"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "WINDOWTITLE_EXPORT",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Elija el archivo de exportación"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "WINDOWTITLE_IMPORT",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Elija el archivo de importación"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "ALERT_IMPORT_TITLE",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Configuración de importación"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "ALERT_IMPORT_TEXT",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Esto sobrescribirá las preferencias actuales. ¿Quiere continuar?"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "ALERT_IMPORT_COMPLETED",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Se ha completado la operación."
+    }
+  },
+  {
+    "bbcwbx.bbcode": "description",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Añade órdenes de BBCode/HTML/XHTML al menú contextual"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "name",
+    "{\"message\": \"bbCode\"}": {
       "message": "bbCodeWebex"
-    },
-    "SETTINGSMENU": {
-      "message": "bbCodeWebex settings%uFFFD"
-    },
-    "DISABLEMENU": {
-      "message": "Disable this menu"
-    },
-    "PICKCOLOR_TITLE": {
-      "message": "Pick a color"
-    },
-    "PICKCOLOR_DESCRIPTION": {
-      "message": "Select the font color from the list"
-    },
-    "PICKCOLOR_LASTCOLOR": {
-      "message": "Last used color :"
-    },
-    "SETTINGS_TITLE": {
-      "message": "bbCodeWebex Settings"
-    },
-    "SETTINGS_MENU": {
-      "message": "Menus"
-    },
-    "SETTINGS_CUSTOMTAGS": {
-      "message": "Custom Tags"
-    },
-    "SETTINGS_MENU_DESCRIPTION": {
-      "message": "Select items to display in the context menu"
-    },
-    "SETTINGS_MENU_ENABLEBBCODE": {
-      "message": "Enable bbcode menu"
-    },
-    "SETTINGS_MENU_ENABLEBBCODE_VBULLETIN": {
-      "message": "enable VBulletin submenu"
-    },
-    "SETTINGS_MENU_ENABLEHTML": {
-      "message": "Enable HTML menu"
-    },
-    "SETTINGS_MENU_ENABLEXHTML": {
-      "message": "Enable XHTML menu"
-    },
-    "SETTINGS_MENU_ENABLEMARKDOWN": {
-      "message": "Enable Markdown menu"
-    },
-    "SETTINGS_MENU_ENABLECUSTOM": {
-      "message": "Enable Custom Tags menu"
-    },
-    "SETTINGS_MANAGESETTINGS": {
-      "message": "Manage settings"
-    },
-    "SETTINGS_BACKUPDESCRIPTION": {
-      "message": "WARNING: importing settings will overwrite all existing settings."
-    },
-    "SETTINGS_BTNIMPORT": {
-      "message": "Import settings%uFFFD"
-    },
-    "SETTINGS_BTNEXPORT": {
-      "message": "Export settings%uFFFD"
-    },
-    "SETTINGS_CUSTOMTAGS_TOTALTAGS": {
-      "message": "Available Custom Tags:"
-    },
-    "SETTINGS_CUSTOMTAGS_BTNADD": {
-      "message": "Add%uFFFD"
-    },
-    "SETTINGS_CUSTOMTAGS_BTNEDIT": {
-      "message": "Edit%uFFFD"
-    },
-    "SETTINGS_CUSTOMTAGS_BTNDELETE": {
-      "message": "Delete%uFFFD"
-    },
-    "SETTINGS_CUSTOMTAGS_MOVEUP": {
-      "message": "Move Up"
-    },
-    "SETTINGS_CUSTOMTAGS_MOVEDOWN": {
-      "message": "Move Down"
-    },
-    "SETTINGS_CUSTOMTAGS_SORTALPHA": {
-      "message": "Sort alphabetically"
-    },
-    "SETTINGS_CUSTOMTAGS_MOREINFO": {
-      "message": "More info and examples"
-    },
-    "SETTINGS_CUSTOMTAGS_VARIABLES": {
-      "message": "Available variables"
-    },
-    "SETTINGS_CUSTOMTAGS_VARCLIPBOARD": {
-      "message": "clipboard content"
-    },
-    "SETTINGS_CUSTOMTAGS_VARSELECTION": {
-      "message": "selected text"
-    },
-    "SETTINGS_CUSTOMTAGS_LABEL": {
-      "message": "Item name:"
-    },
-    "SETTINGS_CUSTOMTAGS_ACTION": {
-      "message": "Code:"
-    },
-    "SAVE_TAG_ORDER": {
-      "message": "Save Tag Order"
-    },
-    "ENTER_COLOR_HEX": {
+    }
+  },
+  {
+    "bbcwbx.bbcode": "SETTINGSMENU",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Configuración de bbCodeWebex…"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "DISABLEMENU",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Ocultar este menú"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "PICKCOLOR_TITLE",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Escoja un color"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "PICKCOLOR_DESCRIPTION",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Seleccione un color de la lista"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "PICKCOLOR_LASTCOLOR",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Último color usado:"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "SETTINGS_TITLE",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Configuración de bbCodeWebex"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "SETTINGS_MENU",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Menús"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "SETTINGS_CUSTOMTAGS",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Etiquetas"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "SETTINGS_MENU_DESCRIPTION",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Seleccione elementos que mostrar en el menú contextual"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "SETTINGS_MENU_ENABLEBBCODE",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Activar el menú de BBCode"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "SETTINGS_MENU_ENABLEBBCODE_VBULLETIN",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Activar el submenú de vBulletin"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "SETTINGS_MENU_ENABLEHTML",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Activar el menú de HTML"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "SETTINGS_MENU_ENABLEXHTML",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Activar el menú de XHTML"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "SETTINGS_MENU_ENABLEMARKDOWN",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Activar el menú de Markdown"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "SETTINGS_MENU_ENABLECUSTOM",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Activar el menú de etiquetas personalizadas"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "SETTINGS_MANAGESETTINGS",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Gestionar configuración"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "SETTINGS_BACKUPDESCRIPTION",
+    "{\"message\": \"bbCode\"}": {
+      "message": "AVISO: al importar una configuración se sobrescribirán las preferencias existentes."
+    }
+  },
+  {
+    "bbcwbx.bbcode": "SETTINGS_BTNIMPORT",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Importar configuración…"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "SETTINGS_BTNEXPORT",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Exportar configuración…"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "SETTINGS_CUSTOMTAGS_TOTALTAGS",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Etiquetas disponibles"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "SETTINGS_CUSTOMTAGS_BTNADD",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Añadir…"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "SETTINGS_CUSTOMTAGS_BTNEDIT",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Editar…"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "SETTINGS_CUSTOMTAGS_BTNDELETE",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Eliminar…"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "SETTINGS_CUSTOMTAGS_MOVEUP",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Subir…"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "SETTINGS_CUSTOMTAGS_MOVEDOWN",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Bajar…"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "SETTINGS_CUSTOMTAGS_SORTALPHA",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Ordenar alfabéticamente"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "SETTINGS_CUSTOMTAGS_MOREINFO",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Más información y ejemplos"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "SETTINGS_CUSTOMTAGS_VARIABLES",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Variables disponibles"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "SETTINGS_CUSTOMTAGS_VARCLIPBOARD",
+    "{\"message\": \"bbCode\"}": {
+      "message": "contenido del portapapeles"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "SETTINGS_CUSTOMTAGS_VARSELECTION",
+    "{\"message\": \"bbCode\"}": {
+      "message": "texto seleccionado"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "SETTINGS_CUSTOMTAGS_LABEL",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Nombre del elemento:"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "SETTINGS_CUSTOMTAGS_ACTION",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Código:"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "SAVE_TAG_ORDER",
+    "{\"message\": \"bbCode\"}": {
+      "message": "Save Custom Tag Order"
+    }
+  },
+  {
+    "bbcwbx.bbcode": "ENTER_COLOR_HEX",
+    "{\"message\": \"bbCode\"}": {
       "message": "ENTER FONT COLOR IN HEX"
     }
   }

@@ -140,7 +140,7 @@
     "parentId": "bbcwbx.bbcode.wbx",
     "menuArg": "{{zzGetColor,\"[color=\",\"]\",\"[/color]\"}}{{selection}}{{zzColorEnd}}",
     "icons": {
-      "16": "icons/fntcol.svg"
+      "16": "icons/pickColor.svg"
     }
   },
   {
@@ -760,7 +760,9 @@
     "menuTitle": "browser.i18n.getMessage(bbcwbx.sym)",
     "parentId": "",
     "menuArg": "",
-    "icons": ""
+    "icons": {
+      "16": "icons/bbcwbx.svg"
+    }
   },
   {
     "menuId": "bbcwbx.sym.fraction",

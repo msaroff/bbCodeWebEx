@@ -3,430 +3,571 @@
       "message": "bbCode"
     },
     "bbcwbx.bbcode.clp": {
-      "message": "Clipboard"
+      "message": "Буфер обмена"
     },
     "bbcwbx.bbcode.clp.quote": {
-      "message": "Quote"
+      "message": "Цитата"
     },
     "bbcwbx.bbcode.clp.code": {
-      "message": "Code"
+      "message": "Код"
     },
     "bbcwbx.bbcode.clp.list": {
-      "message": "List"
+      "message": "Список"
     },
     "bbcwbx.bbcode.clp.ordlist": {
-      "message": "Ordered list"
+      "message": "Отсортированный список"
     },
     "bbcwbx.bbcode.clp.alphalist": {
-      "message": "Alphabetic list"
+      "message": "Список по алфавиту"
     },
     "bbcwbx.bbcode.clp.spoiler": {
       "message": "Spoiler"
     },
     "bbcwbx.bbcode.clp.image": {
-      "message": "Image"
+      "message": "Изображение"
     },
     "bbcwbx.bbcode.clp.mkurlsel": {
-      "message": "Make URL from selection"
+      "message": "Сделайте выбор ссылки"
     },
     "bbcwbx.bbcode.clp.url": {
-      "message": "URL"
+      "message": "Ссылка"
     },
     "bbcwbx.bbcode.clp.urlname": {
-      "message": "URL with name"
+      "message": "Ссылка с именем"
     },
     "bbcwbx.bbcode.wbx": {
       "message": "WebEx"
     },
     "bbcwbx.bbcode.wbx.quote": {
-      "message": "Quote"
+      "message": "Цитата"
     },
     "bbcwbx.bbcode.wbx.code": {
-      "message": "Code"
+      "message": "Код"
     },
     "bbcwbx.bbcode.wbx.list": {
-      "message": "List"
+      "message": "Список"
     },
     "bbcwbx.bbcode.wbx.ordlist": {
-      "message": "Ordered list"
+      "message": "Отсортированный список"
     },
     "bbcwbx.bbcode.wbx.alphalist": {
-      "message": "Alphabetic list"
+      "message": "Список по алфавиту"
     },
     "bbcwbx.bbcode.wbx.spoiler": {
       "message": "Spoiler"
     },
     "bbcwbx.bbcode.wbx.fntcol": {
-      "message": "Font Color"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.white": {
-      "message": "White"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.black": {
-      "message": "Black"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.dk_gray": {
-      "message": "Dark gray"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.gray": {
-      "message": "Gray"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.lt_gray": {
-      "message": "Light gray"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.olive": {
-      "message": "Olive"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.yellow": {
-      "message": "Yellow"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.canary": {
-      "message": "Canary"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.maroon": {
-      "message": "Maroon"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.red": {
-      "message": "Red"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.pink": {
-      "message": "Pink"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.navy": {
-      "message": "Navy"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.blue": {
-      "message": "Blue"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.lt_blue": {
-      "message": "Light Blue"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.green": {
-      "message": "Green"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.lime_green": {
-      "message": "Lime Green"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.mint_green": {
-      "message": "Mint Green"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.indigo": {
-      "message": "Indigo"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.purple": {
-      "message": "Purple"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.fuchsia": {
-      "message": "Fuchsia"
-    },
-    "bbcwbx.bbcode.wbx.fntcol.usrEnt": {
-      "message": "Enter Code in Hex"
+      "message": "Цвет шрифта"
     },
     "bbcwbx.bbcode.wbx.fntsz": {
-      "message": "Font Size"
+      "message": "Кегль шрифта"
     },
     "bbcwbx.bbcode.wbx.urlname": {
-      "message": "URL with name"
+      "message": "Ссылка с именем"
     },
     "bbcwbx.bbcode.wbx.urlwiz": {
-      "message": "URL Wizard"
+      "message": "Ссылка с помощником"
     },
     "bbcwbx.bbcode.vbl": {
       "message": "VBulletin3"
     },
     "bbcwbx.bbcode.vbl.thd": {
-      "message": "Thread"
+      "message": "Тема"
     },
     "bbcwbx.bbcode.vbl.pst": {
-      "message": "Post"
+      "message": "Сообщение"
     },
     "bbcwbx.bbcode.vbl.alnlf": {
-      "message": "Align right"
+      "message": "По правому краю"
     },
     "bbcwbx.bbcode.vbl.alnrt": {
-      "message": "Align left"
+      "message": "По левому краю"
     },
     "bbcwbx.bbcode.vbl.ctr": {
-      "message": "Center"
+      "message": "По центру"
     },
     "bbcwbx.bbcode.vbl.indnt": {
-      "message": "Indent"
+      "message": "Индент"
     },
     "bbcwbx.bbcode.vbl.hilt": {
-      "message": "Highlight"
+      "message": "Подсветить"
     },
     "bbcwbx.bbcode.bold": {
-      "message": "Bold"
+      "message": "Полужирный"
     },
     "bbcwbx.bbcode.ital": {
-      "message": "Italic"
+      "message": "Наклонный"
     },
     "bbcwbx.bbcode.undrln": {
-      "message": "Underlined"
+      "message": "Подчёркнутый"
     },
     "bbcwbx.bbcode.img": {
-      "message": "Image"
+      "message": "Изображение"
     },
     "bbcwbx.bbcode.url": {
-      "message": "URL"
+      "message": "Ссылка"
     },
     "bbcwbx.html": {
       "message": "HTML"
     },
     "bbcwbx.html.clp": {
-      "message": "Clipboard"
+      "message": "Буфер обмена"
     },
     "bbcwbx.html.clp.quote": {
-      "message": "Quote"
+      "message": "Цитата"
     },
     "bbcwbx.html.clp.code": {
-      "message": "Code"
+      "message": "Код"
     },
     "bbcwbx.html.clp.list": {
-      "message": "List"
+      "message": "Список"
     },
     "bbcwbx.html.clp.ordlist": {
-      "message": "Ordered list"
+      "message": "Отсортированный список"
     },
     "bbcwbx.html.clp.alphalist": {
-      "message": "Alphabetic list"
+      "message": "Список по алфавиту"
     },
     "bbcwbx.html.clp.image": {
-      "message": "Image"
+      "message": "Изображение"
     },
     "bbcwbx.html.clp.mkurlsel": {
-      "message": "Make URL from selection"
+      "message": "Сделайте выбор ссылки"
     },
     "bbcwbx.html.clp.url": {
-      "message": "URL"
+      "message": "Ссылка"
     },
     "bbcwbx.html.clp.urlname": {
-      "message": "URL with name"
+      "message": "Ссылка с именем"
     },
     "bbcwbx.html.wbx": {
       "message": "WebEx"
     },
     "bbcwbx.html.wbx.quote": {
-      "message": "Quote"
+      "message": "Цитата"
     },
     "bbcwbx.html.wbx.code": {
-      "message": "Code"
+      "message": "Код"
     },
     "bbcwbx.html.wbx.list": {
-      "message": "List"
+      "message": "Список"
     },
     "bbcwbx.html.wbx.ordlist": {
-      "message": "Ordered list"
+      "message": "Отсортированный список"
     },
     "bbcwbx.html.wbx.alphalist": {
-      "message": "Alphabetic list"
+      "message": "Список по алфавиту"
     },
     "bbcwbx.html.wbx.urlname": {
-      "message": "URL with name"
+      "message": "Ссылка с именем"
     },
     "bbcwbx.html.wbx.urlwiz": {
-      "message": "URL Wizard"
+      "message": "Ссылка с помощником"
     },
     "bbcwbx.html.bold": {
-      "message": "Bold"
+      "message": "Полужирный"
     },
     "bbcwbx.html.ital": {
-      "message": "Italic"
+      "message": "Наклонный"
     },
     "bbcwbx.html.undrln": {
-      "message": "Underlined"
+      "message": "Подчёркнутый"
     },
     "bbcwbx.html.strk": {
-      "message": "Strikethrough"
+      "message": "Зачёркнутый"
     },
     "bbcwbx.html.img": {
-      "message": "Image"
+      "message": "Изображение"
     },
     "bbcwbx.html.url": {
-      "message": "URL"
+      "message": "Ссылка"
     },
     "bbcwbx.xhtml": {
       "message": "XHTML"
     },
     "bbcwbx.xhtml.clp": {
-      "message": "Clipboard"
+      "message": "Буфер обмена"
     },
     "bbcwbx.xhtml.clp.quote": {
-      "message": "Quote"
+      "message": "Цитата"
     },
     "bbcwbx.xhtml.clp.code": {
-      "message": "Code"
+      "message": "Код"
     },
     "bbcwbx.xhtml.clp.list": {
-      "message": "List"
+      "message": "Список"
     },
     "bbcwbx.xhtml.clp.ordlist": {
-      "message": "Ordered list"
+      "message": "Отсортированный список"
     },
     "bbcwbx.xhtml.clp.alphalist": {
-      "message": "Alphabetic list"
+      "message": "Список по алфавиту"
     },
     "bbcwbx.xhtml.img": {
-      "message": "Image"
+      "message": "Изображение"
     },
     "bbcwbx.xhtml.clp.mkurlsel": {
-      "message": "Make URL from selection"
+      "message": "Сделайте выбор ссылки"
     },
     "bbcwbx.xhtml.clp.url": {
-      "message": "URL"
+      "message": "Ссылка"
     },
     "bbcwbx.xhtml.clp.urlname": {
-      "message": "URL with name"
+      "message": "Ссылка с именем"
     },
     "bbcwbx.xhtml.wbx": {
       "message": "WebEx"
     },
     "bbcwbx.xhtml.wbx.quote": {
-      "message": "Quote"
+      "message": "Цитата"
     },
     "bbcwbx.xhtml.wbx.code": {
-      "message": "Code"
+      "message": "Код"
     },
     "bbcwbx.xhtml.wbx.list": {
-      "message": "List"
+      "message": "Список"
     },
     "bbcwbx.xhtml.wbx.ordlist": {
-      "message": "Ordered list"
+      "message": "Отсортированный список"
     },
     "bbcwbx.xhtml.wbx.alphalist": {
-      "message": "Alphabetic list"
+      "message": "Список по алфавиту"
     },
     "bbcwbx.xhtml.wbx.urlname": {
-      "message": "URL with name"
+      "message": "Ссылка с именем"
     },
     "bbcwbx.xhtml.wbx.urlwiz": {
-      "message": "URL Wizard"
+      "message": "Ссылка с помощником"
     },
     "bbcwbx.xhtml.bold": {
-      "message": "Bold"
+      "message": "Полужирный"
     },
     "bbcwbx.xhtml.ital": {
-      "message": "Italic"
+      "message": "Наклонный"
     },
     "bbcwbx.xhtml.undrln": {
-      "message": "Underlined"
+      "message": "Подчёркнутый"
     },
     "bbcwbx.xhtml.strk": {
-      "message": "Strikethrough"
+      "message": "Зачёркнутый"
     },
     "bbcwbx.xhtml.image": {
-      "message": "Image"
+      "message": "Изображение"
     },
     "bbcwbx.xhtml.url": {
-      "message": "URL"
+      "message": "Ссылка"
     },
     "bbcwbx.custom": {
-      "message": "Custom Tags"
+      "message": "Пользовательские теги"
     },
     "bbcwbx.mkdn": {
       "message": "Markdown"
     },
     "bbcwbx.mkdn.clp": {
-      "message": "Clipboard"
+      "message": "Буфер обмена"
     },
     "bbcwbx.mkdn.clp.quote": {
-      "message": "Quote"
+      "message": "Цитата"
     },
     "bbcwbx.mkdn.clp.code": {
-      "message": "Code"
+      "message": "Код"
     },
     "bbcwbx.mkdn.clp.list": {
-      "message": "List"
+      "message": "Список"
     },
     "bbcwbx.mkdn.clp.ordlist": {
-      "message": "Ordered list"
+      "message": "Отсортированный список"
     },
     "bbcwbx.mkdn.clp.mkurlsel": {
-      "message": "Make URL from selection"
+      "message": "Сделайте выбор ссылки"
     },
     "bbcwbx.mkdn.clp.mkimgsel": {
       "message": "Make image from selection"
     },
     "bbcwbx.mkdn.clp.urlname": {
-      "message": "URL with name"
+      "message": "Ссылка с именем"
     },
     "bbcwbx.mkdn.wbx": {
       "message": "WebEx"
     },
     "bbcwbx.mkdn.wbx.quote": {
-      "message": "Quote"
+      "message": "Цитата"
     },
     "bbcwbx.mkdn.wbx.code": {
-      "message": "Code"
+      "message": "Код"
     },
     "bbcwbx.mkdn.wbx.list": {
-      "message": "List"
+      "message": "Список"
     },
     "bbcwbx.mkdn.wbx.ordlist": {
-      "message": "Ordered list"
+      "message": "Отсортированный список"
     },
     "bbcwbx.mkdn.wbx.urlname": {
-      "message": "URL with name"
+      "message": "Ссылка с именем"
     },
     "bbcwbx.mkdn.wbx.urlwiz": {
-      "message": "URL Wizard"
+      "message": "Ссылка с помощником"
     },
     "bbcwbx.mkdn.bold": {
-      "message": "Bold"
+      "message": "Полужирный"
     },
     "bbcwbx.mkdn.ital": {
-      "message": "Italic"
+      "message": "Наклонный"
     },
     "bbcwbx.mkdn.strk": {
-      "message": "Strikethrough"
+      "message": "Зачёркнутый"
+    },
+    "bbcwbx.sym": {
+      "message": "Символы"
+    },
+    "bbcwbx.sym.fraction": {
+      "message": "фракции"
+    },
+    "bbcwbx.sym.fraction.12": {
+      "message": "½"
+    },
+    "bbcwbx.sym.fraction.13": {
+      "message": "⅓"
+    },
+    "bbcwbx.sym.fraction.23": {
+      "message": "⅔"
+    },
+    "bbcwbx.sym.fraction.14": {
+      "message": "¼"
+    },
+    "bbcwbx.sym.fraction.34": {
+      "message": "¾"
+    },
+    "bbcwbx.sym.fraction.15": {
+      "message": "⅕"
+    },
+    "bbcwbx.sym.fraction.25": {
+      "message": "⅖"
+    },
+    "bbcwbx.sym.fraction.35": {
+      "message": "⅗"
+    },
+    "bbcwbx.sym.fraction.45": {
+      "message": "⅘"
+    },
+    "bbcwbx.sym.fraction.16": {
+      "message": "⅙"
+    },
+    "bbcwbx.sym.fraction.46": {
+      "message": "⅚"
+    },
+    "bbcwbx.sym.fraction.18": {
+      "message": "⅛"
+    },
+    "bbcwbx.sym.fraction.38": {
+      "message": "⅜"
+    },
+    "bbcwbx.sym.fraction.58": {
+      "message": "⅝"
+    },
+    "bbcwbx.sym.fraction.78": {
+      "message": "⅞"
+    },
+    "bbcwbx.sym.currency": {
+      "message": "валюта"
+    },
+    "bbcwbx.sym.currency.dollar": {
+      "message": "$"
+    },
+    "bbcwbx.sym.currency.cent": {
+      "message": "¢"
+    },
+    "bbcwbx.sym.currency.euro": {
+      "message": "€"
+    },
+    "bbcwbx.sym.currency.gbp": {
+      "message": "£"
+    },
+    "bbcwbx.sym.currency.yen": {
+      "message": "¥"
+    },
+    "bbcwbx.sym.currency.franc": {
+      "message": "₣"
+    },
+    "bbcwbx.sym.currency.lira": {
+      "message": "₤"
+    },
+    "bbcwbx.sym.currency.yuan": {
+      "message": "¥CNY"
+    },
+    "bbcwbx.sym.currency.rupee": {
+      "message": "₨"
+    },
+    "bbcwbx.sym.currency.rupee2": {
+      "message": "₹"
+    },
+    "bbcwbx.sym.currency.thaibt": {
+      "message": "฿"
+    },
+    "bbcwbx.sym.currency.won": {
+      "message": "₩"
+    },
+    "bbcwbx.sym.sci": {
+      "message": "Наука"
+    },
+    "bbcwbx.sym.sci.micro": {
+      "message": "µ"
+    },
+    "bbcwbx.sym.sci.ohm": {
+      "message": "Ω"
+    },
+    "bbcwbx.sym.sci.sigma": {
+      "message": "∑"
+    },
+    "bbcwbx.sym.sci.sqrt": {
+      "message": "√"
+    },
+    "bbcwbx.sym.sci.infin": {
+      "message": "∞"
+    },
+    "bbcwbx.sym.sci.apprx": {
+      "message": "≈"
+    },
+    "bbcwbx.sym.sci.neq": {
+      "message": "≠"
+    },
+    "bbcwbx.sym.sci.lte": {
+      "message": "≤"
+    },
+    "bbcwbx.sym.sci.gte": {
+      "message": "≥"
+    },
+    "bbcwbx.sym.grk": {
+      "message": "греческий"
+    },
+    "bbcwbx.sym.grk.pi": {
+      "message": "π"
+    },
+    "bbcwbx.sym.grk.rho": {
+      "message": "ρ"
+    },
+    "bbcwbx.sym.grk.sgm": {
+      "message": "σ"
+    },
+    "bbcwbx.sym.grk.tau": {
+      "message": "τ"
+    },
+    "bbcwbx.sym.grk.chi": {
+      "message": "χ"
+    },
+    "bbcwbx.sym.grk.psi": {
+      "message": "ψ"
+    },
+    "bbcwbx.sym.grk.omega": {
+      "message": "ω"
+    },
+    "bbcwbx.sym.grk.comega": {
+      "message": "Θ"
+    },
+    "bbcwbx.sym.grk.delta": {
+      "message": "Δ"
+    },
+    "bbcwbx.sym.grk.ldelta": {
+      "message": "δ"
+    },
+    "bbcwbx.sym.grk.lambda": {
+      "message": "λ"
+    },
+    "bbcwbx.sym.grk.phi": {
+      "message": "ɸ"
+    },
+    "bbcwbx.sym.grk.theta": {
+      "message": "ϴ"
+    },
+    "bbcwbx.sym.dgre": {
+      "message": "°"
+    },
+    "bbcwbx.sym.cprt": {
+      "message": "©"
+    },
+    "bbcwbx.sym.phontm": {
+      "message": "℗"
+    },
+    "bbcwbx.sym.sm": {
+      "message": "℠"
+    },
+    "bbcwbx.sym.tm": {
+      "message": "™"
+    },
+    "bbcwbx.sym.regtm": {
+      "message": "®"
+    },
+    "bbcwbx.sym.phonrt": {
+      "message": "℗"
+    },
+    "bbcwbx.sym.section": {
+      "message": "§"
+    },
+    "bbcwbx.sym.plumin": {
+      "message": "±"
+    },
+    "bbcwbx.sym.elps": {
+      "message": "…"
+    },
+    "bbcwbx.sym.emdash": {
+      "message": "—"
+    },
+    "bbcwbx.sym.dagger": {
+      "message": "†"
+    },
+    "bbcwbx.sym.dubdagger": {
+      "message": "‡"
+    },
+    "bbcwbx.sym.permil": {
+      "message": "‰"
     },
     "INS_AUTHOR": {
-      "message": "Please insert author name or leave empty:"
+      "message": "Введите имя автора или оставьте поле пустым"
     },
     "INS_LINKNAME": {
-      "message": "Please insert link name:"
+      "message": "Введите имя ссылки"
     },
     "INS_FONTSIZE": {
-      "message": "Please insert text size:"
+      "message": "Введите кегль текста"
     },
     "INS_FONTCOLOR": {
-      "message": "Please insert text color:"
+      "message": "Введите цвет текста"
     },
     "URLCOMPOSTO_STEP1": {
-      "message": "Link name?"
+      "message": "Введите имя ссылки"
     },
     "URLCOMPOSTO_STEP2": {
-      "message": "Link?"
+      "message": "Введите адрес"
     },
     "INS_THREADNUM": {
-      "message": "Please insert thread number:"
+      "message": "Введите номер темы"
     },
     "INS_POSTNUM": {
-      "message": "Please insert post number:"
+      "message": "Введите номер сообщения"
     },
     "MENU_NO_CUSTOM_TAGS": {
-      "message": "No custom tags defined"
+      "message": "Нет пользовательских тегов"
     },
     "MENU_DISABLE": {
-      "message": "Disable this menu"
+      "message": "Отключить это меню"
     },
     "MENU_SETTINGS": {
-      "message": "bbCodeWebex settings%uFFFD"
+      "message": "Настройки bbCodeWebex..."
     },
     "DELETE_CUSTOMTAG": {
-      "message": "Do you want to remove this item?"
+      "message": "Вы хотите удалить этот тег?"
     },
     "WINDOWTITLE_EDITCUSTOMTAG": {
-      "message": "Edit Custom Tag"
+      "message": "Редактирование пользовательского тега"
     },
     "WINDOWTITLE_NEWCUSTOMTAG": {
-      "message": "Add New Custom Tag"
+      "message": "Добавление нового пользовательского тега"
     },
     "ALERT_REORDER_TITLE": {
       "message": "Reorder Custom Tags"
     },
     "ALERT_REORDER_TEXT": {
-      "message": "Custom tags will be arranged in alphabetical order. this action cannot be undone, unless you restore an existing backup. Do you want to continue?"
+      "message": "Custom tags will be arranged in alphabetical order. This action cannot be undone, unless you restore an existing backup. Do you want to continue?"
     },
     "WINDOWTITLE_EXPORT": {
       "message": "Choose export file"
@@ -444,55 +585,55 @@
       "message": "Operation completed."
     },
     "description": {
-      "message": "Adds BBCode/HTML/XHTML/Vbulletin/Markup and custom tags commands to the context menu"
+      "message": "Добавляет команды BBCode/HTML/XHTML в контекстное меню"
     },
     "name": {
       "message": "bbCodeWebex"
     },
     "SETTINGSMENU": {
-      "message": "bbCodeWebex settings%uFFFD"
+      "message": "Настройки bbCodeWebex..."
     },
     "DISABLEMENU": {
-      "message": "Disable this menu"
+      "message": "Отключить это меню"
     },
     "PICKCOLOR_TITLE": {
-      "message": "Pick a color"
+      "message": "Выберите цвет"
     },
     "PICKCOLOR_DESCRIPTION": {
-      "message": "Select the font color from the list"
+      "message": "Выберите шрифт из списка"
     },
     "PICKCOLOR_LASTCOLOR": {
-      "message": "Last used color :"
+      "message": "Последний использованный цвет"
     },
     "SETTINGS_TITLE": {
-      "message": "bbCodeWebex Settings"
+      "message": "Настройки bbCodeWebex"
     },
     "SETTINGS_MENU": {
-      "message": "Menus"
+      "message": "Меню"
     },
     "SETTINGS_CUSTOMTAGS": {
-      "message": "Custom Tags"
+      "message": "Пользовательские теги"
     },
     "SETTINGS_MENU_DESCRIPTION": {
-      "message": "Select items to display in the context menu"
+      "message": "Выберите пункты для их отображения в контекстном меню"
     },
     "SETTINGS_MENU_ENABLEBBCODE": {
-      "message": "Enable bbcode menu"
+      "message": "Включить меню BBCode"
     },
     "SETTINGS_MENU_ENABLEBBCODE_VBULLETIN": {
-      "message": "enable VBulletin submenu"
+      "message": "Включить подменю VBulletin"
     },
     "SETTINGS_MENU_ENABLEHTML": {
-      "message": "Enable HTML menu"
+      "message": "Включить меню HTML"
     },
     "SETTINGS_MENU_ENABLEXHTML": {
-      "message": "Enable XHTML menu"
+      "message": "Включить меню XHTML"
     },
     "SETTINGS_MENU_ENABLEMARKDOWN": {
-      "message": "Enable Markdown menu"
+      "message": "Включить меню Markdown"
     },
     "SETTINGS_MENU_ENABLECUSTOM": {
-      "message": "Enable Custom Tags menu"
+      "message": "Включить меню пользовательских тегов"
     },
     "SETTINGS_MANAGESETTINGS": {
       "message": "Manage settings"
@@ -501,52 +642,52 @@
       "message": "WARNING: importing settings will overwrite all existing settings."
     },
     "SETTINGS_BTNIMPORT": {
-      "message": "Import settings%uFFFD"
+      "message": "Import Custom Settings…"
     },
     "SETTINGS_BTNEXPORT": {
-      "message": "Export settings%uFFFD"
+      "message": "Export Custom Settings…"
     },
     "SETTINGS_CUSTOMTAGS_TOTALTAGS": {
-      "message": "Available Custom Tags:"
+      "message": "Доступные пользовательские теги:"
     },
     "SETTINGS_CUSTOMTAGS_BTNADD": {
-      "message": "Add%uFFFD"
+      "message": "Добавить..."
     },
     "SETTINGS_CUSTOMTAGS_BTNEDIT": {
-      "message": "Edit%uFFFD"
+      "message": "Редактировать..."
     },
     "SETTINGS_CUSTOMTAGS_BTNDELETE": {
-      "message": "Delete%uFFFD"
+      "message": "Удалить..."
     },
     "SETTINGS_CUSTOMTAGS_MOVEUP": {
-      "message": "Move Up"
+      "message": "Вверх"
     },
     "SETTINGS_CUSTOMTAGS_MOVEDOWN": {
-      "message": "Move Down"
+      "message": "Вниз"
     },
     "SETTINGS_CUSTOMTAGS_SORTALPHA": {
       "message": "Sort alphabetically"
     },
     "SETTINGS_CUSTOMTAGS_MOREINFO": {
-      "message": "More info and examples"
+      "message": "Информация и примеры"
     },
     "SETTINGS_CUSTOMTAGS_VARIABLES": {
-      "message": "Available variables"
+      "message": "Доступные переменные"
     },
     "SETTINGS_CUSTOMTAGS_VARCLIPBOARD": {
-      "message": "clipboard content"
+      "message": "содержимое буфера"
     },
     "SETTINGS_CUSTOMTAGS_VARSELECTION": {
-      "message": "selected text"
+      "message": "выделенный текст"
     },
     "SETTINGS_CUSTOMTAGS_LABEL": {
-      "message": "Item name:"
+      "message": "Имя пункта:"
     },
     "SETTINGS_CUSTOMTAGS_ACTION": {
-      "message": "Code:"
+      "message": "Код:"
     },
     "SAVE_TAG_ORDER": {
-      "message": "Save Tag Order"
+      "message": "Save Custom Tag Order"
     },
     "ENTER_COLOR_HEX": {
       "message": "ENTER FONT COLOR IN HEX"
