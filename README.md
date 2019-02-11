@@ -28,7 +28,7 @@ Wrote the code for [internationalization of HTML pages](https://github.com/erosm
 Authors of the [SortableJS Library](https://github.com/SortableJS/Sortable). (Released under MIT License)
 
 #### Charles E. Saroff \[w4t3rf1r3] 
-The icons and logos bbcwbx.svg and bbcwbx-icon.svg are © 2019 Charles E. Saroff.  Check out his [Deviant Art](https://www.deviantart.com/w4t3rf1r3) to contact him or to get license details before using on any fork or other program.
+The icons and logos "bbcwbx.svg" and "bbcwbx-icon.svg" are © 2019 Charles E. Saroff.  Check out his [Deviant Art](https://www.deviantart.com/w4t3rf1r3) to contact him or to get license details before using on any fork or other program.
 
 ## License
 
