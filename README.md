@@ -1,4 +1,4 @@
-# bbCodeWebEx
+!(https://github.com/msaroff/bbCodeWebEx/blob/master/icons/bbcwbx.svg)# bbCodeWebEx
 A Webextensions Version of the Firefox extension bbCodeXtra, which is legacy (pre Quantum) extension.
 
 This uses the context menu to automate the insertion of various codes (bbCode, HTML, XHTML, Vbulletin, Markdown) using a context menu.
@@ -22,18 +22,19 @@ Additionally, I am using the internatinal language codes he maintained for bbCod
 Wrote the code used to access the contents of the clipboard, available at https://github.com/NiklasGollenstede/es6lib/, specifically the dom.js file. (Released under MIT License)
 
 #### \[erosman]
-Wrote the code for [internationalization of HTML pages](https://github.com/erosman/HTML-Internationalization).  He is also a [prolific author of Firefox extensions](https://addons.mozilla.org/en-US/firefox/user/690471/). (It's 5 AMAZING lines of code, without a specific license listed.)
+Wrote the code for [internationalization of HTML pages](https://github.com/erosman/HTML-Internationalization).  He is also a [prolific author of Firefox extensions](https://addons.mozilla.org/en-US/firefox/user/690471/). (It's 5 lines of code, without a specific license listed.)
 
 #### Lebedev Konstantin \[RubaXa], \[owen-m1], and Sean Kelly \[seank-com]
 Authors of the [SortableJS Library](https://github.com/SortableJS/Sortable). (Released under MIT License)
 
 #### Charles E. Saroff \[w4t3rf1r3] 
-All icons and logos, © Charles E. Saroff.  Check out his [Deviant Art](https://www.deviantart.com/w4t3rf1r3) to contact him or to get license details before using on any fork or other program.
+The following icons and logos, © Charles E. Saroff.  Check out his [Deviant Art](https://www.deviantart.com/w4t3rf1r3) to contact him or to get license details before using on any fork or other program.
+
 
 
 ## License
 
-© 2018  Matthew G. Saroff, except where noted, all work here is licensed under:
+© 2019  Matthew G. Saroff, except where noted, all work here is licensed under:
 
 The MIT License (MIT)
 
