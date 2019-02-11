@@ -1,6 +1,4 @@
-<img src="https://github.com/msaroff/bbCodeWebEx/blob/master/icons/bbcwbx.svg" style="cursor: pointer; float: left" width="40">
-
-# bbCodeWebEx
+<img src="https://github.com/msaroff/bbCodeWebEx/blob/master/icons/bbcwbx.svg" style="cursor: pointer; float: left" width="40"><h1>bbCodeWebEx</h1>
 A Webextensions Version of the Firefox extension bbCodeXtra, which is legacy (pre Quantum) extension.
 
 This uses the context menu to automate the insertion of various codes (bbCode, HTML, XHTML, Vbulletin, Markdown) using a context menu.
