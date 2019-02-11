@@ -1,4 +1,4 @@
-!(https://github.com/msaroff/bbCodeWebEx/blob/master/icons/bbcwbx.svg)
+![](https://github.com/msaroff/bbCodeWebEx/blob/master/icons/bbcwbx.svg)
 # bbCodeWebEx
 A Webextensions Version of the Firefox extension bbCodeXtra, which is legacy (pre Quantum) extension.
 
