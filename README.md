@@ -1,4 +1,5 @@
-<img src="https://github.com/msaroff/bbCodeWebEx/blob/master/icons/bbcwbx.svg" width="40">
+<img src="https://github.com/msaroff/bbCodeWebEx/blob/master/icons/bbcwbx.svg" style="cursor: pointer; float: left" width="40">
+
 # bbCodeWebEx
 A Webextensions Version of the Firefox extension bbCodeXtra, which is legacy (pre Quantum) extension.
 
