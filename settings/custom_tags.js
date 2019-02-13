@@ -1,12 +1,14 @@
 /* Global variables */
 var custProm = initialize();
+console.log(custProm);
 
 async function initialize () {
 	let {defCust: customMenu}  = await browser.storage.local.get("defCust");
-	console.log(JSON.stringify(await customMenu).substring(0,200));
+	console.log(JSON.stringify((customMenu), null, 4).substring(0,200));
 
     for (i = 0; i < Object.keys(customMenu).length; i++) {
-
+		console.log(Object.keys(customMenu).length);
+//console.log("count",i);
 const containerSpan = document.createElement('span');
       containerSpan.classList.add("grid-container");
 const menuIdSpan = document.createElement('span');
@@ -41,7 +43,7 @@ let singleRowId = customMenu[i].menuId;
 document.getElementById(singleRowId).addEventListener('click', () => {getMenuClicked(singleRowId);});
 }
 
-		return(customMenu);
+		return((await customMenu));
 }
 
 
@@ -129,8 +131,8 @@ async function JSONtoVar (event) {
   var reader = new FileReader();
   reader.onload = function(event) {
     // The file's text will be printed here
-    let readValue = event.target.result;
-//    console.log(readValue);
+    let readValue = JSON.parse(event.target.result);
+    console.log(readValue);
 browser.storage.local.set({ defCust: readValue }); //store order of custom tags locally
 location.reload(); // reload page, which reloads custom tags from storage
   };
