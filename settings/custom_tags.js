@@ -1,6 +1,5 @@
 /* Global variables */
 var custProm = initialize();
-console.log(custProm);
 
 async function initialize () {
 	let {defCust: customMenu}  = await browser.storage.local.get("defCust");
@@ -132,7 +131,7 @@ async function JSONtoVar (event) {
   reader.onload = function(event) {
     // The file's text will be printed here
     let readValue = JSON.parse(event.target.result);
-    console.log(readValue);
+    //console.log(readValue);
 browser.storage.local.set({ defCust: readValue }); //store order of custom tags locally
 location.reload(); // reload page, which reloads custom tags from storage
   };
@@ -176,7 +175,7 @@ exportButton.addEventListener("click", expTag);
 async function expTag () {
 	let customMenu = await custProm;
 let  expProceed = window.confirm("Save any edits first?\n Any unsaved edits will be lost");
-console.log(expProceed);
+//console.log(expProceed);
 if (expProceed) {
 let stuffToExportJSON = JSON.stringify(customMenu, null, 2);
 let stuffToExportBLOB  = new Blob([stuffToExportJSON], { type: 'application/javascript;charset=utf-8' });
@@ -239,7 +238,7 @@ if (curId == ""){
 alert("Cannot delete empty tag");
 } else {
 let deleteMe = confirm("Are you sure you want to delete the tag \"" + curTit +"\"?");
-console.log(deleteMe);
+//console.log(deleteMe);
 if (deleteMe){
 console.log(JSON.stringify(customMenu));
 removed = customMenu.splice(indId,1);
