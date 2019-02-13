@@ -117,8 +117,10 @@ async function tagImport () {
 to click on the file button while maintaining the same appearance as 
 the other submit buttons. */
 alert("\t\t\t\tWarning:\nThis will overwrite existing custom tags and tag order.");
-confirm("\tAre you sure you want to proceed?\n     Click OK to proceed, or cancel and then\nbackup your current setup before proceeding.");
-importTags.click();
+let confImp = confirm("\tAre you sure you want to proceed?\n     Click OK to proceed, or cancel and then\nbackup your current setup before proceeding.");
+if (confImp) {
+	importTags.click();
+	}
 }
 
 async function JSONtoVar (event) {
