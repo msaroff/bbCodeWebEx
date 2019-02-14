@@ -39,7 +39,7 @@ function procCustBBCXtags (oldCodes){
 	let sortedTags = oldTags.sort(function(a, b){
 		return a.name > b.name;
 	});
-	let toImport = {}; //initialize variable to be imported.
+	let toImport = []; //initialize array to be imported.
 	console.log(JSON.stringify(sortedTags,null,2).substring(0,100));
 	for (i = 0; i < Object.keys(sortedTags).length; i++){ // go through the entire array
 		if (sortedTags[i].name.includes("custom") && sortedTags[i].name.includes("action")){
