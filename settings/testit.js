@@ -22,9 +22,9 @@ function loadBBCodeXtra (event) {
   reader.onload = function(event) {
     // The file's text will be printed here
     let readValue = event.target.result;
-    document.getElementById("loaded").innerHTML = "<xmp>"+readValue+"</xmp>";
+    document.getElementById("loaded").innerHTML = "<xmp>"+readValue.substring(0,100)+"</xmp>";
 	let forImport = procCustBBCXtags(readValue);
-	document.getElementById("processed").innerHTML = "processedxyzzy<br>"+forImport;
+	document.getElementById("processed").innerHTML = "<xmp>"+JSON.stringify(forImport,null,4)+"</xmp>";
 //browser.storage.local.set({ defCust: readValue }); //store order of custom tags locally
 //location.reload(); // reload page, which reloads custom tags from storage
   };
@@ -35,7 +35,7 @@ function loadBBCodeXtra (event) {
 
 function procCustBBCXtags (oldCodes){
 	let oldTags = JSON.parse(oldCodes);
-	console.log(JSON.stringify(oldTags,null,2).substring(0,200));
+	console.log(JSON.stringify(oldTags,null,2).substring(0,100));
 	let sortedTags = oldTags.sort(function(a, b){
 		return a.name > b.name;
 	});
@@ -43,12 +43,14 @@ function procCustBBCXtags (oldCodes){
 	console.log(JSON.stringify(sortedTags,null,2).substring(0,100));
 	for (i = 0; i < Object.keys(sortedTags).length; i++){ // go through the entire array
 		if (sortedTags[i].name.includes("custom") && sortedTags[i].name.includes("action")){
-			console.log(sortedTags[i].name);
+//			console.log(sortedTags[i].name);
+			let impObject = {menuTitle: sortedTags[i+1].value, menuArg: sortedTags[i].value};
+			toImport.push(impObject);
 		}
 	}
 		
 	
-	return ("procCustBBCXtags");
+	return (toImport);
 }
 
 async function trigImport () {
