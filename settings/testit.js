@@ -43,8 +43,10 @@ function procCustBBCXtags (oldCodes){
 	console.log(JSON.stringify(sortedTags,null,2).substring(0,100));
 	for (i = 0; i < Object.keys(sortedTags).length; i++){ // go through the entire array
 		if (sortedTags[i].name.includes("custom") && sortedTags[i].name.includes("action")){
-//			console.log(sortedTags[i].name);
+			console.log(sortedTags[i].name);
 			let impObject = {menuTitle: sortedTags[i+1].value, menuArg: sortedTags[i].value};
+			impObject.menuArg = impObject.menuArg.replace(/_clipboard_/ig,'{{clipboard}}');
+			impObject.menuArg = impObject.menuArg.replace(/_selection_/ig,'{{selection}}');
 			toImport.push(impObject);
 		}
 	}
