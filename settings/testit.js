@@ -49,12 +49,19 @@ function procCustBBCXtags (oldCodes){
 			impObject.menuArg = impObject.menuArg.replace(/_selection_/ig,'{{selection}}');
 			toImport.push(impObject);
 		}
-	}
-		
-	
+	}	
 	return (toImport);
 }
 
 async function trigImport () {
 	importButton.click();
 }
+
+// ----------------- Internationalization ------------------
+// From https://github.com/erosman/HTML-Internationalization
+for (let node of document.querySelectorAll('[data-i18n]')) {
+  let [text, attr] = node.dataset.i18n.split('|');
+  text = chrome.i18n.getMessage(text);
+  attr ? node[attr] = text : node.appendChild(document.createTextNode(text));
+}
+// ----------------- /Internationalization -----------------
