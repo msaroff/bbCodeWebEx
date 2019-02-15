@@ -689,6 +689,9 @@
     "SAVE_TAG_ORDER": {
       "message": "Save Custom Tag Order"
     },
+	"TAGS_BTNIMPORT_BBCODEXTRA": {
+	  "message": "Import Custom Settings — From BBCodeXtra…"
+	},
     "ENTER_COLOR_HEX": {
       "message": "ENTER FONT COLOR IN HEX"
     }
