@@ -101,33 +101,29 @@ function loadBBCodeXtra (event) {
 
 async function procCustBBCXtags (oldCodes){
 	customMenu = await custProm;
-	let oldTags = oldCodes;
-	console.log(JSON.stringify(oldTags).substring(0,300));
-	let sortedTags = oldTags.sort(function(a, b){
+	let oldTags = await oldCodes;
+//	console.log(JSON.stringify(oldTags).substring(0,300));
+	let sortedTags = await oldTags.sort(function(a, b){
 		return a.name > b.name;
 	});
-	let toImport = []; //initialize array to be imported.
-	New.click(); //click on add new custom tag button
-//	let mId = document.getElementById("menuId").value;
-	for (i = 1; i < 1000; i++) {// Allows up to 1000 custom tags
-	var textNum = i+""; //declare as text
+	console.log(JSON.stringify(sortedTags,null,1));
+	for (i = 0; i < Object.keys(await sortedTags).length; i++){ // go through the entire array
+		if (await sortedTags[i].name.includes("custom") && await sortedTags[i].name.includes("action")){
+	for (int = 1; int < 1000; int++) {// Allows up to 1000 custom tags
+	var textNum = int+""; //declare as text
 	var textNum = textNum.padStart(3,"0"); //prepend with zeros to make 3 digit number
 	if (customMenu.findIndex(p => p.menuId == "bbcwbx.custom."+textNum) == -1) { break;} // if the menu id is not found break, and use this number
-	}
+		}
 	let mId = "bbcwbx.custom." + textNum;
 //  let mId = document.getElementById("menuId").value;
 	let mParent = "bbcwbx.custom";
 //	let mParent = document.getElementById("parentId").value;
-	let mTitle = sortedTags[1].value; //title of custom tag
-	let mArg = sortedTags[0].value; //argument of custom tag
-	console.log(mId,mTitle,mArg,mParent);
-//  document.getElementById("menuTitle").focus()
-//	document.getElementById('menuTitle').value = "blblblbl";
-//	let moo = document.getElementById('menuTitle').value;
-//	console.log("moo",moo);
-//	document.getElementById("menuTitle").value = customMenu[i].menuTitle;
-//	document.getElementById("menuArg").value = mArg;
-//	console.log(document.getElementById("menuArg").value);
+	let mTitle = sortedTags[i+1].value; //title of custom tag
+	let mArg = sortedTags[i].value; //argument of custom tag
+	mArg = mArg.replace(/_clipboard_/ig,'{{clipboard}}'); //change to my notation
+	mArg = mArg.replace(/_selection_/ig,'{{selection}}'); //change to my notation
+//	console.log(mId,mTitle,mArg,mParent);
+
 	let newMenuBCodeXtra = {
     menuId: mId,
     menuTitle: mTitle,
@@ -135,32 +131,14 @@ async function procCustBBCXtags (oldCodes){
     menuArg: mArg,
 	icons: ""
   }
-  console.log(newMenuBCodeXtra);
+ // console.log(newMenuBCodeXtra);
   customMenu = customMenu.concat(newMenuBCodeXtra);
-//  console.log(JSON.stringify(customMenu));
-
-//	document.getElementById("menuArg").value = customMenu[i].menuArg;
-
-/*	for (i = 0; i < Object.keys(sortedTags).length; i++){ // go through the entire array
-		if (sortedTags[i].name.includes("custom") && sortedTags[i].name.includes("action")){
-			console.log(sortedTags[i].name);
-			New.click(); //click on add new custom tag button
-			let mTitle = sortedTags[i+1].value; //title of custom tag
-			let mArg = sortedTags[i].value; //argument of custom tag
-			mArg = mArg.replace(/_clipboard_/ig,'{{clipboard}}'); //change to my notation
-			mArg = mArg.replace(/_selection_/ig,'{{selection}}'); //change to my notation
-			document.getElementById("menuTitle").value = mTitle;
-			document.getElementById("menuArg").value = mArg;
-			Save.click(); 
-		}
-	}	
-	return (toImport); */
 	browser.storage.local.set({defCust: customMenu}); //store updated tags in local storage
-	location.reload(); // reload page, which reloads custom tags from storage
 
-}
-/* */
-//console.log(ulSort);
+}}
+	location.reload(); // reload page, which reloads custom tags from storage
+	}
+
 
 
 Sortable.create(listOrder, {

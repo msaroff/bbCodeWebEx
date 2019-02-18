@@ -35,15 +35,16 @@ function loadBBCodeXtra (event) {
 
 function procCustBBCXtags (oldCodes){
 	let oldTags = JSON.parse(oldCodes);
-	console.log(JSON.stringify(oldTags,null,2).substring(0,100));
+//	console.log(JSON.stringify(oldTags,null,2));
 	let sortedTags = oldTags.sort(function(a, b){
 		return a.name > b.name;
 	});
+	console.log(JSON.stringify(sortedTags,null,1));
 	let toImport = []; //initialize array to be imported.
-	console.log(JSON.stringify(sortedTags,null,2).substring(0,100));
+//	console.log(JSON.stringify(sortedTags,null,2).substring(0,100));
 	for (i = 0; i < Object.keys(sortedTags).length; i++){ // go through the entire array
 		if (sortedTags[i].name.includes("custom") && sortedTags[i].name.includes("action")){
-			console.log(sortedTags[i].name);
+//			console.log(sortedTags[i].name);
 			let impObject = {menuTitle: sortedTags[i+1].value, menuArg: sortedTags[i].value};
 			impObject.menuArg = impObject.menuArg.replace(/_clipboard_/ig,'{{clipboard}}');
 			impObject.menuArg = impObject.menuArg.replace(/_selection_/ig,'{{selection}}');
