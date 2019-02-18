@@ -1,12 +1,13 @@
+
 /* Global variables */
 var custProm = initialize();
 
 async function initialize () {
 	let {defCust: customMenu}  = await browser.storage.local.get("defCust");
-	console.log(JSON.stringify((customMenu), null, 4).substring(0,200));
+//	console.log(JSON.stringify((customMenu), null, 4).substring(0,200));
 
     for (i = 0; i < Object.keys(customMenu).length; i++) {
-		console.log(Object.keys(customMenu).length);
+//		console.log(Object.keys(customMenu).length);
 //console.log("count",i);
 const containerSpan = document.createElement('span');
       containerSpan.classList.add("grid-container");
@@ -98,24 +99,45 @@ function loadBBCodeXtra (event) {
   reader.readAsText(file);
 }
 
-function procCustBBCXtags (oldCodes){
+async function procCustBBCXtags (oldCodes){
+	customMenu = await custProm;
 	let oldTags = oldCodes;
-	console.log(JSON.stringify(oldTags,null,2).substring(0,100));
+	console.log(JSON.stringify(oldTags).substring(0,300));
 	let sortedTags = oldTags.sort(function(a, b){
 		return a.name > b.name;
 	});
 	let toImport = []; //initialize array to be imported.
-	console.log(JSON.stringify(sortedTags,null,2).substring(0,100));
+	New.click(); //click on add new custom tag button
+//	let mId = document.getElementById("menuId").value;
+	for (i = 1; i < 1000; i++) {// Allows up to 1000 custom tags
+	var textNum = i+""; //declare as text
+	var textNum = textNum.padStart(3,"0"); //prepend with zeros to make 3 digit number
+	if (customMenu.findIndex(p => p.menuId == "bbcwbx.custom."+textNum) == -1) { break;} // if the menu id is not found break, and use this number
+	}
+	let mId = "bbcwbx.custom." + textNum;
+//  let mId = document.getElementById("menuId").value;
+	let mParent = "bbcwbx.custom";
+//	let mParent = document.getElementById("parentId").value;
 	let mTitle = sortedTags[1].value; //title of custom tag
 	let mArg = sortedTags[0].value; //argument of custom tag
-	console.log(mTitle,mArg);
-	New.click(); //click on add new custom tag button
-	document.getElementById('menuTitle').value = "blblblbl";
-	let moo = document.getElementById('menuTitle').value;
-	console.log("moo",moo);
+	console.log(mId,mTitle,mArg,mParent);
+//  document.getElementById("menuTitle").focus()
+//	document.getElementById('menuTitle').value = "blblblbl";
+//	let moo = document.getElementById('menuTitle').value;
+//	console.log("moo",moo);
 //	document.getElementById("menuTitle").value = customMenu[i].menuTitle;
-	document.getElementById("menuArg").value = mArg;
-	console.log(document.getElementById("menuArg").value);
+//	document.getElementById("menuArg").value = mArg;
+//	console.log(document.getElementById("menuArg").value);
+	let newMenuBCodeXtra = {
+    menuId: mId,
+    menuTitle: mTitle,
+    parentId: mParent,
+    menuArg: mArg,
+	icons: ""
+  }
+  console.log(newMenuBCodeXtra);
+  customMenu = customMenu.concat(newMenuBCodeXtra);
+//  console.log(JSON.stringify(customMenu));
 
 //	document.getElementById("menuArg").value = customMenu[i].menuArg;
 
@@ -133,6 +155,9 @@ function procCustBBCXtags (oldCodes){
 		}
 	}	
 	return (toImport); */
+	browser.storage.local.set({defCust: customMenu}); //store updated tags in local storage
+	location.reload(); // reload page, which reloads custom tags from storage
+
 }
 /* */
 //console.log(ulSort);
