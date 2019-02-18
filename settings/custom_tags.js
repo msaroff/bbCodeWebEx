@@ -51,17 +51,26 @@ var ulSort = document.getElementById("listOrder");
 
 var listRef = document.getElementById("listOrder").li;
 
-const saveTag = Save.addEventListener("click", writeTag);
+Save.addEventListener("click", writeTag);
 
-const newMenu = New.addEventListener("click", newJSON);
+New.addEventListener("click", newJSON);
 
-const deleteTag = Delete.addEventListener("click", delTag);
+Delete.addEventListener("click", delTag);
 
-const toVar = importTags.addEventListener("load", JSONtoVar );
+importTags.addEventListener("load", JSONtoVar );
 
 const importButton = document.getElementById("importTagsClick");
 
-const fileButton = document.getElementById('importTags')
+const fileButton = document.getElementById('importTags');
+
+const importButtonBBCodeXtra = document.getElementById("BBCodeXtraImport");
+
+const callButtonBBCodeXtra = document.getElementById("BBCodeXtraLoad");
+const newTag = document.getElementById("New");
+
+callButtonBBCodeXtra.addEventListener("change", loadBBCodeXtra);
+
+importButtonBBCodeXtra.addEventListener("click", trigImportBBCodeXtra);
 
 importButton.addEventListener("click", tagImport);
 
@@ -69,6 +78,63 @@ fileButton.addEventListener("click", JSONtoVar);
 
 
 
+function trigImportBBCodeXtra () {
+	callButtonBBCodeXtra.click();
+}
+
+function loadBBCodeXtra (event) {
+//	let customMenu = await custProm;
+  var getfile = event.target.files;
+  
+  var file = getfile[0]
+  var reader = new FileReader();
+//  console.log(getfile,"\n",file,"\n",reader);
+  reader.onload = function(event) {
+    // The file's text will be printed here
+    let readValue = JSON.parse(event.target.result);
+	let forImport = procCustBBCXtags(readValue);
+  };
+  //console.log(event.target.result);
+  reader.readAsText(file);
+}
+
+function procCustBBCXtags (oldCodes){
+	let oldTags = oldCodes;
+	console.log(JSON.stringify(oldTags,null,2).substring(0,100));
+	let sortedTags = oldTags.sort(function(a, b){
+		return a.name > b.name;
+	});
+	let toImport = []; //initialize array to be imported.
+	console.log(JSON.stringify(sortedTags,null,2).substring(0,100));
+	let mTitle = sortedTags[1].value; //title of custom tag
+	let mArg = sortedTags[0].value; //argument of custom tag
+	console.log(mTitle,mArg);
+	New.click(); //click on add new custom tag button
+	document.getElementById('menuTitle').value = "blblblbl";
+	let moo = document.getElementById('menuTitle').value;
+	console.log("moo",moo);
+//	document.getElementById("menuTitle").value = customMenu[i].menuTitle;
+	document.getElementById("menuArg").value = mArg;
+	console.log(document.getElementById("menuArg").value);
+
+//	document.getElementById("menuArg").value = customMenu[i].menuArg;
+
+/*	for (i = 0; i < Object.keys(sortedTags).length; i++){ // go through the entire array
+		if (sortedTags[i].name.includes("custom") && sortedTags[i].name.includes("action")){
+			console.log(sortedTags[i].name);
+			New.click(); //click on add new custom tag button
+			let mTitle = sortedTags[i+1].value; //title of custom tag
+			let mArg = sortedTags[i].value; //argument of custom tag
+			mArg = mArg.replace(/_clipboard_/ig,'{{clipboard}}'); //change to my notation
+			mArg = mArg.replace(/_selection_/ig,'{{selection}}'); //change to my notation
+			document.getElementById("menuTitle").value = mTitle;
+			document.getElementById("menuArg").value = mArg;
+			Save.click(); 
+		}
+	}	
+	return (toImport); */
+}
+/* */
 //console.log(ulSort);
 
 
@@ -94,7 +160,6 @@ document.getElementById("menuArg").value = customMenu[i].menuArg;
 document.getElementById("parentId").value = customMenu[i].parentId;
 }}
 }
-
 
 async function newJSON() {
 	let customMenu = await custProm;

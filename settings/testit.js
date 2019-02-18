@@ -53,7 +53,7 @@ function procCustBBCXtags (oldCodes){
 	return (toImport);
 }
 
-async function trigImport () {
+function trigImport () {
 	importButton.click();
 }
 
