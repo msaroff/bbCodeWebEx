@@ -689,16 +689,16 @@
     "SAVE_TAG_ORDER": {
       "message": "Save Custom Tag Order"
     },
-	"TAGS_BTNIMPORT_BBCODEXTRA": {
-	  "message": "Import Custom Settings — \n Append From BBCodeXtra"
-	},
-	"TAGS_BTNIMPORT_APPEND": {
-	  "message": "Import Custom Settings — \n Append to Existing"
-	},
-	"TAGS_BTNIMPORT_OVRT": {
-	  "message": "Import Custom Settings — \n Overwrite Existing"
-	},
     "ENTER_COLOR_HEX": {
       "message": "ENTER FONT COLOR IN HEX"
+    },
+    "TAGS_BTNIMPORT_OVRT": {
+      "message": "Import Custom Settings — \n Overwrite Existing"
+    },
+    "TAGS_BTNIMPORT_APPEND": {
+      "message": "Import Custom Settings — \n Append to Existing"
+    },
+    "TAGS_BTNIMPORT_BBCODEXTRA": {
+      "message": "Import Custom Settings — \n Append From BBCodeXtra"
     }
   }

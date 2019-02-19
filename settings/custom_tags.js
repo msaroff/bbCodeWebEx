@@ -99,30 +99,34 @@ function loadBBCodeXtra (event) {
   reader.readAsText(file);
 }
 
+
+
+async function generateNewId() { //this finds the next available id for a new custom tag
+    customMenu = await custProm;
+	for (int = 1; int < 1000; int++) {
+		var textNum = await int+""; //declare as text
+		textNum = await textNum.padStart(3,"0"); //prepend with zeros to make 3 digit number
+		if (customMenu.findIndex(p => p.menuId == "bbcwbx.custom."+textNum) == -1) { break;} // if the menu id is not found break, and use this number
+	}
+	return ("bbcwbx.custom."+await textNum);
+}
+
 async function procCustBBCXtags (oldCodes){
 	customMenu = await custProm;
 	let oldTags = await oldCodes;
-//	console.log(JSON.stringify(oldTags).substring(0,300));
 	let sortedTags = await oldTags.sort(function(a, b){
 		return a.name > b.name;
 	});
 	console.log(JSON.stringify(sortedTags,null,1));
 	for (i = 0; i < Object.keys(await sortedTags).length; i++){ // go through the entire array
 		if (await sortedTags[i].name.includes("custom") && await sortedTags[i].name.includes("action")){
-	for (int = 1; int < 1000; int++) {// Allows up to 1000 custom tags
-	var textNum = int+""; //declare as text
-	var textNum = textNum.padStart(3,"0"); //prepend with zeros to make 3 digit number
-	if (customMenu.findIndex(p => p.menuId == "bbcwbx.custom."+textNum) == -1) { break;} // if the menu id is not found break, and use this number
-		}
-	let mId = "bbcwbx.custom." + textNum;
-//  let mId = document.getElementById("menuId").value;
+	let mId = await generateNewId();
 	let mParent = "bbcwbx.custom";
-//	let mParent = document.getElementById("parentId").value;
 	let mTitle = sortedTags[i+1].value; //title of custom tag
 	let mArg = sortedTags[i].value; //argument of custom tag
 	mArg = mArg.replace(/_clipboard_/ig,'{{clipboard}}'); //change to my notation
 	mArg = mArg.replace(/_selection_/ig,'{{selection}}'); //change to my notation
-//	console.log(mId,mTitle,mArg,mParent);
+
 
 	let newMenuBCodeXtra = {
     menuId: mId,
@@ -167,13 +171,7 @@ document.getElementById("parentId").value = customMenu[i].parentId;
 async function newJSON() {
 	let customMenu = await custProm;
 // step through numbers until you find an open id
-for (i = 1; i < 1000; i++) {// Allows up to 1000 custom tags
-var textNum = i+""; //declare as text
-var textNum = textNum.padStart(3,"0"); //prepend with zeros to make 3 digit number
-if (customMenu.findIndex(p => p.menuId == "bbcwbx.custom."+textNum) == -1) { break;} // if the menu id is not found break, and use this number
-}
-console.log(textNum);
-document.getElementById("menuId").value = "bbcwbx.custom." + textNum;
+document.getElementById("menuId").value = await generateNewId();
 document.getElementById("menuTitle").value = "";
 document.getElementById("menuArg").value = "";
 document.getElementById("parentId").value = "bbcwbx.custom";
