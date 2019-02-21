@@ -2,7 +2,7 @@
 /* Global variables */
 var custProm = initialize();
 
-async function initialize () {
+async function initialize () { // generates tag table when page is (re)loaded
 	let {defCust: customMenu}  = await browser.storage.local.get("defCust");
 //	console.log(JSON.stringify((customMenu), null, 4).substring(0,200));
 
@@ -46,19 +46,11 @@ document.getElementById(singleRowId).addEventListener('click', () => {getMenuCli
 		return((await customMenu));
 }
 
-
+/* ------------------------------ Begin variables, constants, and listeners ---------------- */
 
 var ulSort = document.getElementById("listOrder");
 
 var listRef = document.getElementById("listOrder").li;
-
-Save.addEventListener("click", writeTag);
-
-New.addEventListener("click", newJSON);
-
-Delete.addEventListener("click", delTag);
-
-importTags.addEventListener("load", JSONtoVar );
 
 const importButton = document.getElementById("importTagsClick");
 
@@ -74,27 +66,36 @@ const appendbbcwbx = document.getElementById("importTagsAppend");
 
 const appendGetFile = document.getElementById("appendTags");
 
+Save.addEventListener("click", writeTag);
+
+New.addEventListener("click", newJSON);
+
+Delete.addEventListener("click", delTag);
+
 callButtonBBCodeXtra.addEventListener("change", loadBBCodeXtra);
 
 importButtonBBCodeXtra.addEventListener("click", trigImportBBCodeXtra);
 
 importButton.addEventListener("click", tagImport);
 
-fileButton.addEventListener("click", JSONtoVar);
+fileButton.addEventListener("change", importOverwrite);
 
 appendbbcwbx.addEventListener("click",trigAppend);
 
 appendGetFile.addEventListener("change",loadbbcwbx);
 
+const saveButton = document.getElementById("saveTagOrder");
 
+saveButton.addEventListener("click", saveTagOrd);
 
+const exportButton = document.getElementById("exportTags");
 
-function trigImportBBCodeXtra () {
+exportButton.addEventListener("click", expTag);
+/* ------------------------------ End variables, constants, and listeners ---------------- */
+
+/* ------------------------------ Begin load and append, BBCodeXtra Tags ---------------- */
+function trigImportBBCodeXtra () { //click button to trigger file input
 	callButtonBBCodeXtra.click();
-}
-
-function trigAppend(){
-	appendGetFile.click();
 }
 
 function loadBBCodeXtra (event) {
@@ -110,59 +111,6 @@ function loadBBCodeXtra (event) {
   };
   //console.log(event.target.result);
   reader.readAsText(file);
-}
-
-function loadbbcwbx (event) {
-//	let customMenu = await custProm;
-  var getfile = event.target.files;
-  var file = getfile[0]
-  var reader = new FileReader();
-//  console.log(getfile,"\n",file,"\n",reader);
-  reader.onload = function(event) {
-    // The file's text will be printed here
-    let readValue = JSON.parse(event.target.result);
-	let forImport = procCustBBCWBXtags(readValue);
-  };
-  //console.log(event.target.result);
-  reader.readAsText(file);
-}
-
-async function procCustBBCWBXtags (oldCodes){  //import and append bbCodeWebex Tags
-	let customMenu = await custProm;
-	let oldTags = await oldCodes;
-//	console.log(JSON.stringify(oldTags,null,1));
-	for (i = 0; i < Object.keys(await oldTags).length; i++){ // go through the entire array
-	let mId = await generateNewId(customMenu);
-	console.log(mId);
-	let mParent = "bbcwbx.custom";
-	let mTitle = await oldTags[i].menuTitle; //title of custom tag
-	let mArg = await oldTags[i].menuArg; //argument of custom tag
-	let newMenuBCodeXtra = {
-    menuId: mId,
-    menuTitle: mTitle,
-    parentId: mParent,
-    menuArg: mArg,
-	icons: ""
-  }
-//  console.log(JSON.stringify(newMenuBCodeXtra));
- // console.log(newMenuBCodeXtra);
-    if (oldTags[i].menuTitle !="" && oldTags[i].menuArg != "") { //filter out an imported garbage file
-		customMenu = await customMenu.concat(newMenuBCodeXtra);
-		let moo = await browser.storage.local.set({defCust: customMenu}); //store updated tags in local storage
-		console.log(JSON.stringify(customMenu).slice(-200)+"\n\n");
-	}
-}
-	location.reload(); // reload page, which reloads custom tags from storage
-	}
-
-
-async function generateNewId(customMenu) { //this finds the next available id for a new custom tag
-	for (int = 1; int < 1000; int++) {
-		var textNum = await int+""; //declare as text
-		textNum = await textNum.padStart(3,"0"); //prepend with zeros to make 3 digit number
-		if (customMenu.findIndex(p => p.menuId == "bbcwbx.custom."+textNum) == -1) { break;} // if the menu id is not found break, and use this number
-	}
-	return ("bbcwbx.custom."+await textNum);
 }
 
 async function procCustBBCXtags (oldCodes){ //Import and append BBCodeXtra Tags
@@ -196,21 +144,90 @@ async function procCustBBCXtags (oldCodes){ //Import and append BBCodeXtra Tags
 }}
 	location.reload(); // reload page, which reloads custom tags from storage
 	}
+/* ------------------------------ End load and append, BBCodeXtra Tags ---------------- */
 
+/* ------------------------------ Begin load and append, bbCodeWebex Tags ---------------- */
+function trigAppend(){ //click button to trigger file input
+	appendGetFile.click();
+}
 
+function loadbbcwbx (event) {
+//	let customMenu = await custProm;
+  var getfile = event.target.files;
+  var file = getfile[0]
+  var reader = new FileReader();
+//  console.log(getfile,"\n",file,"\n",reader);
+  reader.onload = function(event) {
+    // The file's text will be printed here
+    let readValue = JSON.parse(event.target.result);
+	let forImport = procCustBBCWBXtags(readValue);
+  };
+  //console.log(event.target.result);
+  reader.readAsText(file);
+}
 
-Sortable.create(listOrder, {
+async function procCustBBCWBXtags (oldCodes){  //import and append bbCodeWebex Tags
+	let customMenu = await custProm;
+	let oldTags = await oldCodes;
+//	console.log(JSON.stringify(oldTags,null,1));
+	for (i = 0; i < Object.keys(await oldTags).length; i++){ // go through the entire array
+	let mId = await generateNewId(customMenu);
+	let mParent = "bbcwbx.custom";
+	let mTitle = await oldTags[i].menuTitle; //title of custom tag
+	let mArg = await oldTags[i].menuArg; //argument of custom tag
+	let newMenuBCodeXtra = {
+    menuId: mId,
+    menuTitle: mTitle,
+    parentId: mParent,
+    menuArg: mArg,
+	icons: ""
+  }
+//  console.log(JSON.stringify(newMenuBCodeXtra));
+ // console.log(newMenuBCodeXtra);
+    if (oldTags[i].menuTitle !="" && oldTags[i].menuArg != "") { //filter out an imported garbage file
+		customMenu = await customMenu.concat(newMenuBCodeXtra);
+		let moo = await browser.storage.local.set({defCust: customMenu}); //store updated tags in local storage
+		console.log(JSON.stringify(customMenu).slice(-200)+"\n\n");
+	}
+}
+	location.reload(); // reload page, which reloads custom tags from storage
+	}
+/* ------------------------------ End load and append, bbCodeWebex Tags ---------------- */
+
+/* ------------------------------ Begin load and OVERWRITE, bbCodeWebex Tags ---------------- */
+async function tagImport () {
+	let customMenu = await custProm;
+/* click on the file input button this is a hack using the submit button 
+to click on the file button while maintaining the same appearance as 
+the other submit buttons. */
+alert("\t\t\t\tWarning:\nThis will overwrite existing custom tags and tag order.");
+let confImp = confirm("\tAre you sure you want to proceed?\n     Click OK to proceed, or cancel and then\nbackup your current setup before proceeding.");
+if (confImp) {
+	importTags.click();
+	}
+}
+
+async function importOverwrite (event) {
+  var file = event.target.files[0];
+  var reader = new FileReader();
+  reader.onload = function(event) {
+    var readValue = JSON.parse(event.target.result);
+    browser.storage.local.set({defCust: readValue}); //store order of custom tags locally
+	  location.reload(); // reload page, which reloads custom tags from storage
+  };
+  reader.readAsText(file);
+
+}
+
+/* ------------------------------ End load and OVERWRITE, bbCodeWebex Tags ---------------- */
+
+/* ------------------------------ Begin tag manipulation and editing ---------------- */
+Sortable.create(listOrder, { //uses Sortable library to allow for drag and drop rows
   group: 'listOrder',
   animation: 100
 });
 
-
-
-
-
- 
-
-async function getMenuClicked (menuId) {
+async function getMenuClicked (menuId) { //user selection of a menu to edit or delete.
 	let customMenu = await custProm;
 console.log("Menu ID: ", menuId);
 for (i = 0; i < customMenu.length; i++) {
@@ -222,7 +239,7 @@ document.getElementById("parentId").value = customMenu[i].parentId;
 }}
 }
 
-async function newJSON() {
+async function newJSON() { //create new menu item
 	let customMenu = await custProm;
 document.getElementById("menuId").value = await generateNewId(customMenu);
 document.getElementById("menuTitle").value = "";
@@ -230,42 +247,7 @@ document.getElementById("menuArg").value = "";
 document.getElementById("parentId").value = "bbcwbx.custom";
 }
 
-
-async function tagImport () {
-	let customMenu = await custProm;
-/* click on the file input button this is a hack using the submit button 
-to click on the file button while maintaining the same appearance as 
-the other submit buttons. */
-alert("\t\t\t\tWarning:\nThis will overwrite existing custom tags and tag order.");
-let confImp = confirm("\tAre you sure you want to proceed?\n     Click OK to proceed, or cancel and then\nbackup your current setup before proceeding.");
-if (confImp) {
-//	document.getElementById("importTags").value = "";
-	importTags.click();
-	}
-}
-
-async function JSONtoVar (event) {
-	let customMenu = await custProm;
-  var file = event.target.files[0];
-  console.log(file);
-  var reader = new FileReader();
-  reader.onload = function(event) {
-    // The file's text will be printed here
-    let readValue = JSON.parse(event.target.result);
-    //console.log(readValue);
-browser.storage.local.set({ defCust: readValue }); //store order of custom tags locally
-location.reload(); // reload page, which reloads custom tags from storage
-  };
-  reader.readAsText(file);
-}
-
-
-// listen for save tag order button
-const saveButton = document.getElementById("saveTagOrder");
-
-saveButton.addEventListener("click", saveTagOrd);
-
-async function saveTagOrd () {
+async function saveTagOrd () { // save tag order after dragging and dropping
 	let customMenu = await custProm;
 let tempSaveSort = [];
 let lis = "";
@@ -286,31 +268,6 @@ tempSaveSort.push(keyToAdd);
 alert(lis);
 browser.storage.local.set({defCust: tempSaveSort});; //store order of custom tags locally
 location.reload(); // reload page, which reloads custom tags from storage
-}
-
-// listen for export tags button
-const exportButton = document.getElementById("exportTags");
-
-exportButton.addEventListener("click", expTag);
-
-async function expTag () {
-	let customMenu = await custProm;
-let  expProceed = window.confirm("Save any edits first?\n Any unsaved edits will be lost");
-//console.log(expProceed);
-if (expProceed) {
-let stuffToExportJSON = JSON.stringify(customMenu, null, 2);
-let stuffToExportBLOB  = new Blob([stuffToExportJSON], { type: 'application/javascript;charset=utf-8' });
-let stuffToExportURL = URL.createObjectURL(stuffToExportBLOB);
-let dt = new Date();
-let dtlab = dt.toISOString().substring(0,10);
-let exportFile = 'bbCode_WebEx_'+dtlab+'.json';
-browser.downloads.download({
-        url: stuffToExportURL,
-        filename: exportFile,
-        saveAs: true,
-        conflictAction: 'uniquify'
-    });
-}
 }
 
 async function writeTag () {// writes new or updated tag to locally stored variable
@@ -349,7 +306,6 @@ document.getElementById("parentId").value = "";
 location.reload(); // reload page, which reloads custom tags from storage
 }}}
 
-
 async function delTag (){
 	let customMenu = await custProm;
 let curId = document.getElementById("menuId").value;
@@ -372,14 +328,44 @@ document.getElementById("parentId").value = "";
 location.reload(); // reload page, which reloads custom tags from storage
 }
 }
+/* ------------------------------ End tag manipulation and editing ---------------- */
+
+/* ------------------------------ Begin Export Tags to JSON File ---------------- */
+async function expTag () {
+	let customMenu = await custProm;
+let  expProceed = window.confirm("Save any edits first?\n Any unsaved edits will be lost");
+//console.log(expProceed);
+if (expProceed) {
+let stuffToExportJSON = JSON.stringify(customMenu, null, 2);
+let stuffToExportBLOB  = new Blob([stuffToExportJSON], { type: 'application/javascript;charset=utf-8' });
+let stuffToExportURL = URL.createObjectURL(stuffToExportBLOB);
+let dt = new Date();
+let dtlab = dt.toISOString().substring(0,10);
+let exportFile = 'bbCode_WebEx_'+dtlab+'.json';
+browser.downloads.download({
+        url: stuffToExportURL,
+        filename: exportFile,
+        saveAs: true,
+        conflictAction: 'uniquify'
+    });
+}
+}/* ------------------------------ End Export Tags to JSON File ---------------- */
 
 
+async function generateNewId(customMenu) { //this finds the next available id for a new custom tag
+	for (int = 1; int < 1000; int++) {
+		var textNum = await int+""; //declare as text
+		textNum = await textNum.padStart(3,"0"); //prepend with zeros to make 3 digit number
+		if (customMenu.findIndex(p => p.menuId == "bbcwbx.custom."+textNum) == -1) { break;} // if the menu id is not found break, and use this number
+	}
+	return ("bbcwbx.custom."+await textNum);
+}
 
-// ----------------- Internationalization ------------------
-// From https://github.com/erosman/HTML-Internationalization
+/* ----------------- Begin Internationalization ------------------
+ From https://github.com/erosman/HTML-Internationalization */
 for (let node of document.querySelectorAll('[data-i18n]')) {
   let [text, attr] = node.dataset.i18n.split('|');
   text = chrome.i18n.getMessage(text);
   attr ? node[attr] = text : node.appendChild(document.createTextNode(text));
 }
-// ----------------- /Internationalization -----------------
+/* ----------------- End Internationalization ----------------- */
