@@ -67,7 +67,12 @@ const fileButton = document.getElementById('importTags');
 const importButtonBBCodeXtra = document.getElementById("BBCodeXtraImport");
 
 const callButtonBBCodeXtra = document.getElementById("BBCodeXtraLoad");
+
 const newTag = document.getElementById("New");
+
+const appendbbcwbx = document.getElementById("importTagsAppend");
+
+const appendGetFile = document.getElementById("appendTags");
 
 callButtonBBCodeXtra.addEventListener("change", loadBBCodeXtra);
 
@@ -77,16 +82,24 @@ importButton.addEventListener("click", tagImport);
 
 fileButton.addEventListener("click", JSONtoVar);
 
+appendbbcwbx.addEventListener("click",trigAppend);
+
+appendGetFile.addEventListener("change",loadbbcwbx);
+
+
 
 
 function trigImportBBCodeXtra () {
 	callButtonBBCodeXtra.click();
 }
 
+function trigAppend(){
+	appendGetFile.click();
+}
+
 function loadBBCodeXtra (event) {
 //	let customMenu = await custProm;
   var getfile = event.target.files;
-  
   var file = getfile[0]
   var reader = new FileReader();
 //  console.log(getfile,"\n",file,"\n",reader);
@@ -99,10 +112,51 @@ function loadBBCodeXtra (event) {
   reader.readAsText(file);
 }
 
+function loadbbcwbx (event) {
+//	let customMenu = await custProm;
+  var getfile = event.target.files;
+  var file = getfile[0]
+  var reader = new FileReader();
+//  console.log(getfile,"\n",file,"\n",reader);
+  reader.onload = function(event) {
+    // The file's text will be printed here
+    let readValue = JSON.parse(event.target.result);
+	let forImport = procCustBBCWBXtags(readValue);
+  };
+  //console.log(event.target.result);
+  reader.readAsText(file);
+}
+
+async function procCustBBCWBXtags (oldCodes){  //import and append bbCodeWebex Tags
+	let customMenu = await custProm;
+	let oldTags = await oldCodes;
+//	console.log(JSON.stringify(oldTags,null,1));
+	for (i = 0; i < Object.keys(await oldTags).length; i++){ // go through the entire array
+	let mId = await generateNewId(customMenu);
+	console.log(mId);
+	let mParent = "bbcwbx.custom";
+	let mTitle = await oldTags[i].menuTitle; //title of custom tag
+	let mArg = await oldTags[i].menuArg; //argument of custom tag
+	let newMenuBCodeXtra = {
+    menuId: mId,
+    menuTitle: mTitle,
+    parentId: mParent,
+    menuArg: mArg,
+	icons: ""
+  }
+//  console.log(JSON.stringify(newMenuBCodeXtra));
+ // console.log(newMenuBCodeXtra);
+    if (oldTags[i].menuTitle !="" && oldTags[i].menuArg != "") { //filter out an imported garbage file
+		customMenu = await customMenu.concat(newMenuBCodeXtra);
+		let moo = await browser.storage.local.set({defCust: customMenu}); //store updated tags in local storage
+		console.log(JSON.stringify(customMenu).slice(-200)+"\n\n");
+	}
+}
+	location.reload(); // reload page, which reloads custom tags from storage
+	}
 
 
-async function generateNewId() { //this finds the next available id for a new custom tag
-    customMenu = await custProm;
+async function generateNewId(customMenu) { //this finds the next available id for a new custom tag
 	for (int = 1; int < 1000; int++) {
 		var textNum = await int+""; //declare as text
 		textNum = await textNum.padStart(3,"0"); //prepend with zeros to make 3 digit number
@@ -111,23 +165,22 @@ async function generateNewId() { //this finds the next available id for a new cu
 	return ("bbcwbx.custom."+await textNum);
 }
 
-async function procCustBBCXtags (oldCodes){
-	customMenu = await custProm;
+async function procCustBBCXtags (oldCodes){ //Import and append BBCodeXtra Tags
+	let customMenu = await custProm;
 	let oldTags = await oldCodes;
 	let sortedTags = await oldTags.sort(function(a, b){
 		return a.name > b.name;
 	});
-	console.log(JSON.stringify(sortedTags,null,1));
+//	console.log(JSON.stringify(sortedTags,null,1));
 	for (i = 0; i < Object.keys(await sortedTags).length; i++){ // go through the entire array
 		if (await sortedTags[i].name.includes("custom") && await sortedTags[i].name.includes("action")){
-	let mId = await generateNewId();
+	let mId = await generateNewId(customMenu);
+	console.log(mId);
 	let mParent = "bbcwbx.custom";
-	let mTitle = sortedTags[i+1].value; //title of custom tag
-	let mArg = sortedTags[i].value; //argument of custom tag
-	mArg = mArg.replace(/_clipboard_/ig,'{{clipboard}}'); //change to my notation
-	mArg = mArg.replace(/_selection_/ig,'{{selection}}'); //change to my notation
-
-
+	let mTitle = await sortedTags[i+1].value; //title of custom tag
+	let mArg = await sortedTags[i].value; //argument of custom tag
+	mArg = await mArg.replace(/_clipboard_/ig,'{{clipboard}}'); //change to my notation
+	mArg = await mArg.replace(/_selection_/ig,'{{selection}}'); //change to my notation
 	let newMenuBCodeXtra = {
     menuId: mId,
     menuTitle: mTitle,
@@ -135,10 +188,11 @@ async function procCustBBCXtags (oldCodes){
     menuArg: mArg,
 	icons: ""
   }
+//  console.log(JSON.stringify(newMenuBCodeXtra));
  // console.log(newMenuBCodeXtra);
-  customMenu = customMenu.concat(newMenuBCodeXtra);
-	browser.storage.local.set({defCust: customMenu}); //store updated tags in local storage
-
+  customMenu = await customMenu.concat(newMenuBCodeXtra);
+  let moo = await browser.storage.local.set({defCust: customMenu}); //store updated tags in local storage
+  console.log(JSON.stringify(customMenu).slice(-200)+"\n\n");
 }}
 	location.reload(); // reload page, which reloads custom tags from storage
 	}
@@ -170,8 +224,7 @@ document.getElementById("parentId").value = customMenu[i].parentId;
 
 async function newJSON() {
 	let customMenu = await custProm;
-// step through numbers until you find an open id
-document.getElementById("menuId").value = await generateNewId();
+document.getElementById("menuId").value = await generateNewId(customMenu);
 document.getElementById("menuTitle").value = "";
 document.getElementById("menuArg").value = "";
 document.getElementById("parentId").value = "bbcwbx.custom";
@@ -186,6 +239,7 @@ the other submit buttons. */
 alert("\t\t\t\tWarning:\nThis will overwrite existing custom tags and tag order.");
 let confImp = confirm("\tAre you sure you want to proceed?\n     Click OK to proceed, or cancel and then\nbackup your current setup before proceeding.");
 if (confImp) {
+//	document.getElementById("importTags").value = "";
 	importTags.click();
 	}
 }
@@ -193,6 +247,7 @@ if (confImp) {
 async function JSONtoVar (event) {
 	let customMenu = await custProm;
   var file = event.target.files[0];
+  console.log(file);
   var reader = new FileReader();
   reader.onload = function(event) {
     // The file's text will be printed here
