@@ -693,7 +693,7 @@
       "message": "ENTER FONT COLOR IN HEX"
     },
     "TAGS_BTNIMPORT_OVRT": {
-      "message": "Import Custom Settings — \n Overwrite Existing"
+      "message": "Import Settings — \nOverrwrite"
     },
     "TAGS_BTNIMPORT_APPEND": {
       "message": "Import Custom Settings — \n Append to Existing"
