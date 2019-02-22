@@ -3,7 +3,7 @@ A Webextensions Version of the Firefox extension bbCodeXtra, which is legacy (pr
 
 This uses the context menu to automate the insertion of various codes (bbCode, HTML, XHTML, Vbulletin, Markdown) using a context menu.
 
-Currently in pre alpha development.
+Currently in initial release.
 
 ## Firefox Versions
 This extension supports Firefox 57 and above.
@@ -48,6 +48,12 @@ Users are compelled, under a threat of a completely legally non-binding curse, t
 A regular basis is defined as being on the 5<sup>th</sup> Tuesday of any month that has one.
 
 Failure to do so will result in the user, and his children, and his children's children, being compelled to enter the service of the Church of the Flying Spaghetti Monster, or to be a pirate.  (If you can be a space pirate, do it, space pirates are cool.)
+
+## Support
+Complete information, documentation, and support for bbCodeWebEx is available <a href="http://www.stellarparthenon.org/bbcwbx/">here</a>. (A phpBB bulletin board)
+
+## Source code
+Available <a href="https://github.com/msaroff/bbCodeWebEx">here</a>. 
 
 ## Health Warning
 This is profoundly ugly code, and the author assumes no responsibility for any of the following conditions that might develop as a result of reading said code:

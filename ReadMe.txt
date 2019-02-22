@@ -3,13 +3,15 @@ A Webextensions Version of the Firefox extension bbCodeXtra, which is legacy (pr
 
 This uses the context menu to automate the insertion of various codes (bbCode, HTML, XHTML, Vbulletin, Markdown) using a context menu.
 
-Currently in pre alpha development.
-Firefox Versions
+Currently in initial release.
 
+Firefox Versions
 This extension supports Firefox 57 and above.
+
 Customization
 
 Users will be able to create their own custom tags and symbols as well as turning on and off code menus. (Not yet implemented)
+
 Acknowledgements
 Francesco Lodolo [:flod]
 
@@ -39,13 +41,20 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-Curse/Geas
 
+Curse/Geas
 Users are compelled, under a threat of a completely legally non-binding curse, to go outside (weather permitting) and play pirate, or to go outside and make pasta (you can use the store bought stuff, but you should really make your own pasta) on a regular basis.
 
 A regular basis is defined as being on the 5th Tuesday of any month that has one.
 
 Failure to do so will result in the user, and his children, and his children's children, being compelled to enter the service of the Church of the Flying Spaghetti Monster, or to be a pirate. (If you can be a space pirate, do it, space pirates are cool.)
+
+Support
+Complete information, documentation, and support for bbCodeWebEx is available at http://www.stellarparthenon.org/bbcwbx/. (A phpBB bulletin board)
+
+## Source code
+Available https://github.com/msaroff/bbCodeWebEx. 
+
 Health Warning
 
 This is profoundly ugly code, and the author assumes no responsibility for any of the following conditions that might develop as a result of reading said code:
