@@ -696,9 +696,9 @@
       "message": "Import Settings — \nOverrwrite"
     },
     "TAGS_BTNIMPORT_APPEND": {
-      "message": "Import Custom Settings — \n Append to Existing"
+      "message": "Import Settings — \nAppend"
     },
     "TAGS_BTNIMPORT_BBCODEXTRA": {
-      "message": "Import Custom Settings — \n Append From BBCodeXtra"
+      "message": "Import Settings — \nAppend bbCodeXtra"
     }
   }

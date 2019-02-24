@@ -689,7 +689,16 @@
     "ENTER_COLOR_HEX": {
       "message": "Save Custom Tag Order"
     },
-    "": {
+    "TAGS_BTNIMPORT_OVRT": {
       "message": "ENTER FONT COLOR IN HEX"
+    },
+    "TAGS_BTNIMPORT_APPEND": {
+      "message": "Importazione impostazioni — \nsovrascrivere"
+    },
+    "TAGS_BTNIMPORT_BBCODEXTRA": {
+      "message": "Importazione impostazioni — \nAggiungere"
+    },
+    "": {
+      "message": "Importazione impostazioni — \nAggiungere bbCodeXtra"
     }
   }

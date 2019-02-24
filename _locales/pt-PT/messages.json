@@ -691,5 +691,14 @@
     },
     "ENTER_COLOR_HEX": {
       "message": "ENTER FONT COLOR IN HEX"
+    },
+    "TAGS_BTNIMPORT_OVRT": {
+      "message": "Import Settings — \nSobrescrever"
+    },
+    "TAGS_BTNIMPORT_APPEND": {
+      "message": "Import Settings — \nAcrescentar"
+    },
+    "TAGS_BTNIMPORT_BBCODEXTRA": {
+      "message": "Import Settings — \nAcrescentar bbCodeXtra"
     }
   }

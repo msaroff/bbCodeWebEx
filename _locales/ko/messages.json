@@ -691,5 +691,14 @@
     },
     "ENTER_COLOR_HEX": {
       "message": "ENTER FONT COLOR IN HEX"
+    },
+    "TAGS_BTNIMPORT_OVRT": {
+      "message": "Import Settings — \n덮어 쓰기"
+    },
+    "TAGS_BTNIMPORT_APPEND": {
+      "message": "Import Settings — \n추가"
+    },
+    "TAGS_BTNIMPORT_BBCODEXTRA": {
+      "message": "Import Settings — \n추가 bbCodeXtra"
     }
   }

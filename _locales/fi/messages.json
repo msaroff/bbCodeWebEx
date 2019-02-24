@@ -691,5 +691,14 @@
     },
     "ENTER_COLOR_HEX": {
       "message": "ENTER FONT COLOR IN HEX"
+    },
+    "TAGS_BTNIMPORT_OVRT": {
+      "message": "Tuo asetuksia — \nKorvataanko"
+    },
+    "TAGS_BTNIMPORT_APPEND": {
+      "message": "Tuo asetuksia — \nLiitä"
+    },
+    "TAGS_BTNIMPORT_BBCODEXTRA": {
+      "message": "Tuo asetuksia — \nLiitä bbCodeXtra"
     }
   }

@@ -1,4 +1,4 @@
-{
+  {
     "bbcwbx.bbcode": {
       "message": "bbCode"
     },
@@ -691,5 +691,14 @@
     },
     "ENTER_COLOR_HEX": {
       "message": "ENTER FONT COLOR IN HEX"
+    },
+    "TAGS_BTNIMPORT_OVRT": {
+      "message": "Import Settings — \nÉcraser"
+    },
+    "TAGS_BTNIMPORT_APPEND": {
+      "message": "Import Settings — \nAjouter"
+    },
+    "TAGS_BTNIMPORT_BBCODEXTRA": {
+      "message": "Import Settings — \nAjouter bbCodeXtra"
     }
   }
