@@ -10,15 +10,6 @@ async function initialize () {
 //		console.log(activeMenus);
 		return(activeMenus);
 }
-// initialize();
-
-// async function delay() { //yes, I've put in a fucking delay to allow he fucking get to fucking ccomplete
-// console.log("delay\n",JSON.stringify(await activeMenus,null,2));
-// }
-
-// delay();
-
-//activeMenus = JSON.parse(localStorage.getItem('activeMenus'));
 
 menuLoaded = loadMenus();
 
