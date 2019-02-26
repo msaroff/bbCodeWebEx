@@ -31,7 +31,6 @@
      "content_scripts": [
           {
           "matches": ["*://*/*"],
-		  "css": ["cpicker/cpicker.css"],
           "js": ["libraries/dom.js", "content_script.js"]
           }
      ],
