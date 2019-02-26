@@ -145,7 +145,7 @@ async function colorPick (colorArg){ //read the color from the popup
             TextBoxID = clickedElement.getAttribute('id');
         }
         let FocusInfo = document.activeElement;
-        let txtcont = document.getElementById(TextBoxID).value; //contents of edit box
+        let txtcont = clickedElement.value; //contents of edit box
         let selstart = clickedElement.selectionStart; // index of selectin start
         let selend = clickedElement.selectionEnd; //index of selection end
         let selcont = sanitize(txtcont.substring(selstart, selend)); // selected text content sanitized

@@ -115,8 +115,6 @@ browser.menus.onClicked.addListener((info, tab, defaultMenu) => {
             if (info.menuItemId == defMenu[i].menuId) {
                 var clickArg = defMenu[i].menuArg;
 				if (clickArg.includes("{{zzGetColor")){
-//					console.log("popup");
-//					browser.browserAction.openPopup();
 					browser.windows.create({
 						'url': 'popup/popup.html',
 						'type': 'popup'
@@ -135,26 +133,3 @@ browser.menus.onClicked.addListener((info, tab, defaultMenu) => {
 		}});
 
 
-/*
-browser.menus.onClicked.addListener((info, tab, defaultMenu) => {
-	    if (info.menuItemId.substring(0, 6) == "bbcwbx") {
-        for (let i = 0; i < defMenu.length; i++) {
-            if (info.menuItemId == defMenu[i].menuId) {
-                var clickArg = defMenu[i].menuArg;
-                if (clickArg.includes("{{zzGetColor")){
-					console.log("popup");
-					browser.browserAction.openPopup();					
-				}
-            }
-        }
-    }
-}); */
-
-/*
-function getColor() {
-    var input = document.createElement("input");  //create element
-    input.setAttribute('type', 'color'); //is a color input button
-    input.setAttribute('id','zzzcolor'); //it's ID is zzzcolor
-    document.body.appendChild(input);  // append to body
-    document.getElementById("zzzcolor").click(); // click on element
-}*/
