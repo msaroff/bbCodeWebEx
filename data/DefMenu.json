@@ -5,7 +5,7 @@
     "parentId": "",
     "menuArg": "",
     "icons": {
-      "16": "icons/bbcwbx.svg"
+      "16": "icons/bbcwbx-menu.svg"
     }
   },
   {
@@ -170,7 +170,7 @@
     "parentId": "bbcwbx.bbcode",
     "menuArg": "",
     "icons": {
-      "16": "icons/bbcwbx.svg"
+      "16": "icons/bbcwbx-menu.svg"
     }
   },
   {
@@ -263,7 +263,7 @@
     "parentId": "",
     "menuArg": "",
     "icons": {
-      "16": "icons/bbcwbx.svg"
+      "16": "icons/bbcwbx-menu.svg"
     }
   },
   {
@@ -440,7 +440,7 @@
     "parentId": "",
     "menuArg": "",
     "icons": {
-      "16": "icons/bbcwbx.svg"
+      "16": "icons/bbcwbx-menu.svg"
     }
   },
   {
@@ -617,7 +617,7 @@
     "parentId": "",
     "menuArg": "",
     "icons": {
-      "16": "icons/bbcwbx.svg"
+      "16": "icons/bbcwbx-menu.svg"
     }
   },
   {
@@ -626,7 +626,7 @@
     "parentId": "",
     "menuArg": "",
     "icons": {
-      "16": "icons/bbcwbx.svg"
+      "16": "icons/bbcwbx-menu.svg"
     }
   },
   {
@@ -761,7 +761,7 @@
     "parentId": "",
     "menuArg": "",
     "icons": {
-      "16": "icons/bbcwbx.svg"
+      "16": "icons/bbcwbx-menu.svg"
     }
   },
   {
