@@ -73,6 +73,6 @@ Seriously, this is Vogon code Javascript, and I keep expecting a bodily organ to
 ## Screenshots:
 ![](https://github.com/msaroff/bbCodeWebEx/blob/master/Screen_Shots/bbCodeWebEx/menu_example.png)
 
-![](https://i.imgur.com/lb0VGZl.png)
+![](https://github.com/msaroff/bbCodeWebEx/blob/master/Screen_Shots/bbCodeWebEx/custom_tag_page.png)
 
-![](https://i.imgur.com/lQoA5zT.png)
+![](https://github.com/msaroff/bbCodeWebEx/blob/master/Screen_Shots/bbCodeWebEx/activate_menus.png)
