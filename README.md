@@ -30,7 +30,7 @@ Authors of the [SortableJS Library](https://github.com/SortableJS/Sortable). (Re
 #### Charles E. Saroff \[w4t3rf1r3] 
 Note that the icons bbcwbx-menu.svg, bbcwbx.png, and bbcwbx.svg are <b>NOT</b> covered by the FOSS MIT license, they are © 2019 Charles E. Saroff [w4t3rf1r3] and licensed for use in this program.
 
-Check out his [Deviant Art](https://www.deviantart.com/w4t3rf1r3 to contact him or to get license details before using on any fork or other program.
+Check out his [Deviant Art](https://www.deviantart.com/w4t3rf1r3) to contact him or to get license details before using on any fork or other program.
 
 ## License
 
