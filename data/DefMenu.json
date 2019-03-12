@@ -640,7 +640,7 @@
     "menuId": "bbcwbx.mkdn.clp.quote",
     "menuTitle": "browser.i18n.getMessage(bbcwbx.mkdn.clp.quote)",
     "parentId": "bbcwbx.mkdn.clp",
-    "menuArg": "> {{clipboard}",
+    "menuArg": "> {{clipboard}}",
     "icons": ""
   },
   {
