@@ -647,7 +647,7 @@
     "menuId": "bbcwbx.mkdn.clp.code",
     "menuTitle": "browser.i18n.getMessage(bbcwbx.mkdn.clp.code)",
     "parentId": "bbcwbx.mkdn.clp",
-    "menuArg": "```{{clipboard}```",
+    "menuArg": "```{{clipboard}}```",
     "icons": ""
   },
   {

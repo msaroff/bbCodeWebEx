@@ -136,18 +136,14 @@ async function colorPick (colorArg){ //read the color from the popup
     async function CommandParse(argString) {
         //       Get Info About Textbox
         // check out document.activeElement
-        var selectedTextArea = document.activeElement;
-        let TextBoxName = clickedElement.getAttribute('name');
+
         // some text boxes do not have an id assigned, but they do have a name assigned, if so, use the name
-        if (clickedElement.getAttribute('id') == null || clickedElement.getAttribute('id') == "") {
-            TextBoxID = TextBoxName;
-        } else {
-            TextBoxID = clickedElement.getAttribute('id');
-        }
-        let FocusInfo = document.activeElement;
+//        let FocusInfo = document.getElementById(document.activeElement.id).contentWindow.document.body.innerHTML;
         let txtcont = clickedElement.value; //contents of edit box
-		let htmlcont = clickedElement.outerHTML;
-		console.log("textcont:",txtcont,"TextBoxID:",TextBoxID,"Htmlcont:",htmlcont);
+		if (txtcont === undefined) {
+			txtcont = document.getElementById(document.activeElement.id).contentWindow.document.body.innerHTML;
+		}
+		console.log(txtcont);
         let selstart = clickedElement.selectionStart; // index of selectin start
         let selend = clickedElement.selectionEnd; //index of selection end
         let selcont = sanitize(txtcont.substring(selstart, selend)); // selected text content sanitized
