@@ -140,13 +140,16 @@ async function colorPick (colorArg){ //read the color from the popup
         // some text boxes do not have an id assigned, but they do have a name assigned, if so, use the name
 //        let FocusInfo = document.getElementById(document.activeElement.id).contentWindow.document.body.innerHTML;
         let txtcont = document.activeElement.value; //contents of edit box
-/*		if (txtcont === undefined) { // occurs when using the context menu on a rich text edit box
+		if (txtcont === undefined) { // occurs when using the context menu on a rich text edit box
 			txtcont = document.activeElement.contentWindow.document.body.innerHTML;
-		} */
+		} 
 		console.log(txtcont);
         let selstart = clickedElement.selectionStart; // index of selectin start
+		console.log(selstart);
         let selend = clickedElement.selectionEnd; //index of selection end
+		console.log(selend);
         let selcont = sanitize(txtcont.substring(selstart, selend)); // selected text content sanitized
+		console.log(selcont);
         let firsttext = txtcont.substring(0, selstart); //stuff before the selection
         let lasttext = txtcont.substring(selend); // stuff after the selection
         if (argString.includes("{{clipboard}}")) { // Replace clipboard tag with clipboard contents
