@@ -6,5 +6,5 @@
     "enableXHTML": true,
     "enableMarkDown": true,
     "enableCustom": true,
-    "enableSymbol": false
+    "enableSymbol": true
   }
