@@ -145,8 +145,11 @@ async function colorPick (colorArg){ //read the color from the popup
 			console.log(txtcont);
 			let eleName = document.activeElement.id;
 			console.log(eleName);
-			let eleFull = document.getElementById(eleName);
+			let eleFull = eleName.contentDocument;
 			console.log(eleFull);
+			let selstart = document.activeElement.contentWindow.document.body.selectionStart;			
+			let selend = document.activeElement.contentWindow.document.body.selectionEnd;
+			console.log("selstart",selstart,"selend",selend);
 		} 
         let selstart = clickedElement.selectionStart; // index of selectin start
 		console.log(selstart);
