@@ -142,8 +142,12 @@ async function colorPick (colorArg){ //read the color from the popup
         let txtcont = document.activeElement.value; //contents of edit box
 		if (txtcont === undefined) { // occurs when using the context menu on a rich text edit box
 			txtcont = document.activeElement.contentWindow.document.body.innerHTML;
+			console.log(txtcont);
+			let eleName = document.activeElement.id;
+			console.log(eleName);
+			let eleFull = document.getElementById(eleName);
+			console.log(eleFull);
 		} 
-		console.log(txtcont);
         let selstart = clickedElement.selectionStart; // index of selectin start
 		console.log(selstart);
         let selend = clickedElement.selectionEnd; //index of selection end
