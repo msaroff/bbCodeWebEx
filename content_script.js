@@ -6,6 +6,17 @@
 
     var clickedElement = null;
 
+    document.removeEventListener("mousedown", function(event) {
+        //right click
+        if (event.button == 2) {
+            clickedElement = event.target;
+        }
+    }, true);
+
+    browser.runtime.onMessage.removeListener(function(commandString, sendResponse) {
+        CommandParse(commandString);
+    });
+
     document.addEventListener("mousedown", function(event) {
         //right click
         if (event.button == 2) {
@@ -142,13 +153,14 @@ async function colorPick (colorArg){ //read the color from the popup
         let txtcont = document.activeElement.value; //contents of edit box
 		if (txtcont === undefined) { // occurs when using the context menu on a rich text edit box
 			txtcont = document.activeElement.contentWindow.document.body.innerHTML;
-			framename= document.activeElement.contentWindow.document.body.id;
-			framename = document.getElementById(framename);
-			console.log("framename",framename);
-			innerstuff = framename.contentDocument.id;
-			console.log("innerstuff",innerstuff);
-			innerwhat = innerstuff.activeElement.id;
-			console.log(innerwhat);
+			console.log(txtcont);
+//			framename = document.getElementById(framename);
+//			framename= document.activeElement.contentWindow.document.body.id;
+//			console.log("framename",framename);
+//			innerstuff = framename.contentDocument.id;
+//			console.log("innerstuff",innerstuff);
+//			innerwhat = innerstuff.activeElement.id;
+//			console.log(innerwhat);
 		} 
 		console.log(txtcont);
         let selstart = clickedElement.selectionStart; // index of selectin start
