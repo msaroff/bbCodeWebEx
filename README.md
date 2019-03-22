@@ -22,7 +22,7 @@ Additionally, I am using the internatinal language codes he maintained for bbCod
 Wrote the code used to access the contents of the clipboard, available at https://github.com/NiklasGollenstede/es6lib/, specifically the dom.js file. (Released under MIT License)
 
 #### \[erosman]
-Wrote the code for [internationalization of HTML pages](https://github.com/erosman/HTML-Internationalization).  He is also a [prolific author of Firefox extensions](https://addons.mozilla.org/en-US/firefox/user/690471/). (It's 5 lines of code, without a specific license listed.)
+Wrote the code for [internationalization of HTML pages](https://github.com/erosman/HTML-Internationalization).  He is also a [prolific author of Firefox extensions](https://addons.mozilla.org/en-US/firefox/user/690471/). (Released under Mozilla Public License, 2.0)
 
 #### Lebedev Konstantin \[RubaXa], \[owen-m1], and Sean Kelly \[seank-com]
 Authors of the [SortableJS Library](https://github.com/SortableJS/Sortable). (Released under MIT License)
