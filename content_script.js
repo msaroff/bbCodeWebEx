@@ -152,6 +152,10 @@ async function colorPick (colorArg){ //read the color from the popup
 //        let FocusInfo = document.getElementById(document.activeElement.id).contentWindow.document.body.innerHTML;
         let txtcont = document.activeElement.value; //contents of edit box
 		console.log(txtcont);
+		let testId = document.activeElement.id;
+		console.log(testId);
+		let tagName = document.activeElement.tagName.toLowerCase();
+		console.log(tagName);
 		if (txtcont === undefined) { // occurs when using the context menu on a rich text edit box
 			txtcont = document.activeElement.contentWindow.document.body.innerHTML;
 			console.log(txtcont);
