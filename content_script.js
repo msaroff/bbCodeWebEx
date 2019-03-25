@@ -150,6 +150,8 @@ async function colorPick (colorArg){ //read the color from the popup
 
         // some text boxes do not have an id assigned, but they do have a name assigned, if so, use the name
 //        let FocusInfo = document.getElementById(document.activeElement.id).contentWindow.document.body.innerHTML;
+//Works on  elements: textarea and input
+//does not work on: <pre id="sourceText" contenteditable="true">, <div id="textBox" contenteditable="true"><p>Lorem ipsum</p></div>, and iframe
         let txtcont = document.activeElement.value; //contents of edit box
 		console.log(txtcont);
 		let testId = document.activeElement.id;
