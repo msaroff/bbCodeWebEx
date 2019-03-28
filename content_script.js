@@ -158,18 +158,9 @@ async function colorPick (colorArg){ //read the color from the popup
 		console.log(testId);
 		let tagName = document.activeElement.tagName.toLowerCase();
 		console.log(tagName);
-		if (txtcont === undefined) { // occurs when using the context menu on a rich text edit box
-			txtcont = document.activeElement.contentWindow.document.body.innerHTML;
-			console.log(txtcont);
-//			framename = document.getElementById(framename);
-//			framename= document.activeElement.contentWindow.document.body.id;
-//			console.log("framename",framename);
-//			innerstuff = framename.contentDocument.id;
-//			console.log("innerstuff",innerstuff);
-//			innerwhat = innerstuff.activeElement.id;
-//			console.log(innerwhat);
-		} 
-		console.log(txtcont);
+		const activeElement = await document.activeElement; //.documentContext;
+		console.log(activeElement);
+		if (txtcont !== undefined) { // use when text box or input field is used (plain text)
         let selstart = clickedElement.selectionStart; // index of selectin start
 		console.log(selstart);
         let selend = clickedElement.selectionEnd; //index of selection end
@@ -193,9 +184,18 @@ async function colorPick (colorArg){ //read the color from the popup
         }
 		if (argString.includes("{{zzGetColor")) { // invoke color picker
 			argString = await colorPick(argString);
-		}
-//desanitize and paste element
+		}//desanitize and paste element
         clickedElement.value = firsttext + deSanitize(argString) + lasttext;
+
+		} else if (activeElement.hasAttribute('contenteditable')) {
+			let moo = document.getElementById(activeElement).contents().get(0);
+			console.log(moo);
+			console.log(activeElement.hasAttribute('contenteditable'));
+			txtcont = document.activeElement.contentWindow.document.body.innerHTML;
+			console.log(txtcont);
+		}
+
+		console.log(txtcont);
 
     }
 
