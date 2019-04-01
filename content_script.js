@@ -152,51 +152,40 @@ async function colorPick (colorArg){ //read the color from the popup
 //        let FocusInfo = document.getElementById(document.activeElement.id).contentWindow.document.body.innerHTML;
 //Works on  elements: textarea and input
 //does not work on: <pre id="sourceText" contenteditable="true">, <div id="textBox" contenteditable="true"><p>Lorem ipsum</p></div>, and iframe
-        let txtcont = document.activeElement.value; //contents of edit box
+        let txtcont = document.activeElement.value; //contents of edit box, textbox
 		console.log(txtcont);
 		let testId = document.activeElement.id;
 		console.log(testId);
 		let tagName = document.activeElement.tagName.toLowerCase();
 		console.log(tagName);
-		if (txtcont === undefined) { // occurs when using the context menu on a rich text edit box
-			txtcont = document.activeElement.contentWindow.document.body.innerHTML;
+		if (txtcont !== undefined) {// if a textbox or an input (plain text) field
 			console.log(txtcont);
-//			framename = document.getElementById(framename);
-//			framename= document.activeElement.contentWindow.document.body.id;
-//			console.log("framename",framename);
-//			innerstuff = framename.contentDocument.id;
-//			console.log("innerstuff",innerstuff);
-//			innerwhat = innerstuff.activeElement.id;
-//			console.log(innerwhat);
-		} 
-		console.log(txtcont);
-        let selstart = clickedElement.selectionStart; // index of selectin start
-		console.log(selstart);
-        let selend = clickedElement.selectionEnd; //index of selection end
-		console.log(selend);
-        let selcont = sanitize(txtcont.substring(selstart, selend)); // selected text content sanitized
-		console.log(selcont);
-        let firsttext = txtcont.substring(0, selstart); //stuff before the selection
-        let lasttext = txtcont.substring(selend); // stuff after the selection
-        if (argString.includes("{{clipboard}}")) { // Replace clipboard tag with clipboard contents
-            const clipcont = sanitize(await readFromClipboard('text/plain')); //clipboard content sanitized
-            argString = argString.replace(/{{clipboard}}/g, clipcont);
-        }
-        if (argString.includes("{{selection}}")) { // Replace selection tag with selection value 
-            argString = argString.replace(/{{selection}}/g, selcont);
-        }
-        if (argString.includes("{{zzpopup")) { // Invoke popup query function
-            argString = popThisUp(argString);
-        }
-        if (argString.includes("{{makeList")) { // Invoke list creation function
-            argString = listMake(argString);
-        }
-		if (argString.includes("{{zzGetColor")) { // invoke color picker
-			argString = await colorPick(argString);
-		}
+			let selstart = clickedElement.selectionStart; // index of selection start
+			let selend = clickedElement.selectionEnd; //index of selection end
+			let selcont = sanitize(txtcont.substring(selstart, selend)); // selected text content sanitized
+			        let firsttext = txtcont.substring(0, selstart); //stuff before the selection
+					let lasttext = txtcont.substring(selend); // stuff after the selection
+					if (argString.includes("{{clipboard}}")) { // Replace clipboard tag with clipboard contents
+						const clipcont = sanitize(await readFromClipboard('text/plain')); //clipboard content sanitized
+						argString = argString.replace(/{{clipboard}}/g, clipcont);
+					}
+					if (argString.includes("{{selection}}")) { // Replace selection tag with selection value 
+						argString = argString.replace(/{{selection}}/g, selcont);
+					}
+					if (argString.includes("{{zzpopup")) { // Invoke popup query function
+						argString = popThisUp(argString);
+					}
+					if (argString.includes("{{makeList")) { // Invoke list creation function
+						argString = listMake(argString);
+					}
+					if (argString.includes("{{zzGetColor")) { // invoke color picker
+						argString = await colorPick(argString);
+					}
 //desanitize and paste element
         clickedElement.value = firsttext + deSanitize(argString) + lasttext;
-
+		} else { //contenteditable or iframe contenteditable
+			console.log("Not Text", document.getElementById(testId));
+		}
     }
 
 })(this);
