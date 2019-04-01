@@ -1,4 +1,8 @@
-﻿(function(global) {
+﻿<!DOCTYPE HTML>
+<!DOCTYPE html PUBLIC "" ""><HTML><HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8"></HEAD>
+<BODY>
+<PRE>(function(global) {
 
     const {
         readFromClipboard,
@@ -151,52 +155,41 @@ async function colorPick (colorArg){ //read the color from the popup
         // some text boxes do not have an id assigned, but they do have a name assigned, if so, use the name
 //        let FocusInfo = document.getElementById(document.activeElement.id).contentWindow.document.body.innerHTML;
 //Works on  elements: textarea and input
-//does not work on: <pre id="sourceText" contenteditable="true">, <div id="textBox" contenteditable="true"><p>Lorem ipsum</p></div>, and iframe
-        let txtcont = document.activeElement.value; //contents of edit box
+//does not work on: &lt;pre id="sourceText" contenteditable="true"&gt;, &lt;div id="textBox" contenteditable="true"&gt;&lt;p&gt;Lorem ipsum&lt;/p&gt;&lt;/div&gt;, and iframe
+        let txtcont = document.activeElement.value; //contents of edit box, textbox
 		console.log(txtcont);
 		let testId = document.activeElement.id;
 		console.log(testId);
 		let tagName = document.activeElement.tagName.toLowerCase();
 		console.log(tagName);
-		const activeElement = await document.activeElement; //.documentContext;
-		console.log(activeElement);
-		if (txtcont !== undefined) { // use when text box or input field is used (plain text)
-        let selstart = clickedElement.selectionStart; // index of selectin start
-		console.log(selstart);
-        let selend = clickedElement.selectionEnd; //index of selection end
-		console.log(selend);
-        let selcont = sanitize(txtcont.substring(selstart, selend)); // selected text content sanitized
-		console.log(selcont);
-        let firsttext = txtcont.substring(0, selstart); //stuff before the selection
-        let lasttext = txtcont.substring(selend); // stuff after the selection
-        if (argString.includes("{{clipboard}}")) { // Replace clipboard tag with clipboard contents
-            const clipcont = sanitize(await readFromClipboard('text/plain')); //clipboard content sanitized
-            argString = argString.replace(/{{clipboard}}/g, clipcont);
-        }
-        if (argString.includes("{{selection}}")) { // Replace selection tag with selection value 
-            argString = argString.replace(/{{selection}}/g, selcont);
-        }
-        if (argString.includes("{{zzpopup")) { // Invoke popup query function
-            argString = popThisUp(argString);
-        }
-        if (argString.includes("{{makeList")) { // Invoke list creation function
-            argString = listMake(argString);
-        }
-		if (argString.includes("{{zzGetColor")) { // invoke color picker
-			argString = await colorPick(argString);
-		}//desanitize and paste element
-        clickedElement.value = firsttext + deSanitize(argString) + lasttext;
-
-		} else if (activeElement.hasAttribute('contenteditable')) {
-			let moo = document.getElementById(activeElement).contents().get(0);
-			console.log(moo);
-			console.log(activeElement.hasAttribute('contenteditable'));
-			txtcont = document.activeElement.contentWindow.document.body.innerHTML;
+		if (txtcont !== undefined) {// if a textbox or an input (plain text) field
 			console.log(txtcont);
+			let selstart = clickedElement.selectionStart; // index of selection start
+			let selend = clickedElement.selectionEnd; //index of selection end
+			let selcont = sanitize(txtcont.substring(selstart, selend)); // selected text content sanitized
+			        let firsttext = txtcont.substring(0, selstart); //stuff before the selection
+					let lasttext = txtcont.substring(selend); // stuff after the selection
+					if (argString.includes("{{clipboard}}")) { // Replace clipboard tag with clipboard contents
+						const clipcont = sanitize(await readFromClipboard('text/plain')); //clipboard content sanitized
+						argString = argString.replace(/{{clipboard}}/g, clipcont);
+					}
+					if (argString.includes("{{selection}}")) { // Replace selection tag with selection value 
+						argString = argString.replace(/{{selection}}/g, selcont);
+					}
+					if (argString.includes("{{zzpopup")) { // Invoke popup query function
+						argString = popThisUp(argString);
+					}
+					if (argString.includes("{{makeList")) { // Invoke list creation function
+						argString = listMake(argString);
+					}
+					if (argString.includes("{{zzGetColor")) { // invoke color picker
+						argString = await colorPick(argString);
+					}
+//desanitize and paste element
+        clickedElement.value = firsttext + deSanitize(argString) + lasttext;
+		} else { //contenteditable or iframe contenteditable
+			console.log("Not Text", document.getElementById(testId));
 		}
-
-		console.log(txtcont);
-
     }
 
 })(this);
@@ -236,22 +229,22 @@ function createList(originalText, listType) {
             endBlock = '[/list]';
             break;
         case 'html':
-            startBlock = '<ul>\n';
-            startItem = '<li>';
-            endItem = '</li>\n';
-            endBlock = '</ul>';
+            startBlock = '&lt;ul&gt;\n';
+            startItem = '&lt;li&gt;';
+            endItem = '&lt;/li&gt;\n';
+            endBlock = '&lt;/ul&gt;';
             break;
         case 'htmlord':
-            startBlock = '<ol>\n';
-            startItem = '<li>';
-            endItem = '</li>\n';
-            endBlock = '</ol>';
+            startBlock = '&lt;ol&gt;\n';
+            startItem = '&lt;li&gt;';
+            endItem = '&lt;/li&gt;\n';
+            endBlock = '&lt;/ol&gt;';
             break;
         case 'htmlordalf':
-            startBlock = '<ol type=a>\n';
-            startItem = '<li>';
-            endItem = '</li>\n';
-            endBlock = '</ol>';
+            startBlock = '&lt;ol type=a&gt;\n';
+            startItem = '&lt;li&gt;';
+            endItem = '&lt;/li&gt;\n';
+            endBlock = '&lt;/ol&gt;';
             break;
         case 'markdown':
             startBlock = endBlock = '';
@@ -272,7 +265,7 @@ function createList(originalText, listType) {
     }
 
     formattedText = startBlock;
-    for (var i = 0; i < lines.length; i++) {
+    for (var i = 0; i &lt; lines.length; i++) {
         if (listType == 'markdownord') {
             var linenumber = i + 1;
             formattedText += linenumber + '. ' + lines[i] + endItem;
@@ -284,3 +277,4 @@ function createList(originalText, listType) {
     return formattedText;
 }
 
+</PRE></BODY></HTML>
