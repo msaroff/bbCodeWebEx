@@ -1,8 +1,4 @@
-﻿<!DOCTYPE HTML>
-<!DOCTYPE html PUBLIC "" ""><HTML><HEAD>
-<META http-equiv="Content-Type" content="text/html; charset=utf-8"></HEAD>
-<BODY>
-<PRE>(function(global) {
+﻿(function(global) {
 
     const {
         readFromClipboard,
@@ -155,7 +151,7 @@ async function colorPick (colorArg){ //read the color from the popup
         // some text boxes do not have an id assigned, but they do have a name assigned, if so, use the name
 //        let FocusInfo = document.getElementById(document.activeElement.id).contentWindow.document.body.innerHTML;
 //Works on  elements: textarea and input
-//does not work on: &lt;pre id="sourceText" contenteditable="true"&gt;, &lt;div id="textBox" contenteditable="true"&gt;&lt;p&gt;Lorem ipsum&lt;/p&gt;&lt;/div&gt;, and iframe
+//does not work on: <pre id="sourceText" contenteditable="true">, <div id="textBox" contenteditable="true"><p>Lorem ipsum</p></div>, and iframe
         let txtcont = document.activeElement.value; //contents of edit box, textbox
 		console.log(txtcont);
 		let testId = document.activeElement.id;
@@ -229,22 +225,22 @@ function createList(originalText, listType) {
             endBlock = '[/list]';
             break;
         case 'html':
-            startBlock = '&lt;ul&gt;\n';
-            startItem = '&lt;li&gt;';
-            endItem = '&lt;/li&gt;\n';
-            endBlock = '&lt;/ul&gt;';
+            startBlock = '<ul>\n';
+            startItem = '<li>';
+            endItem = '</li>\n';
+            endBlock = '</ul>';
             break;
         case 'htmlord':
-            startBlock = '&lt;ol&gt;\n';
-            startItem = '&lt;li&gt;';
-            endItem = '&lt;/li&gt;\n';
-            endBlock = '&lt;/ol&gt;';
+            startBlock = '<ol>\n';
+            startItem = '<li>';
+            endItem = '</li>\n';
+            endBlock = '</ol>';
             break;
         case 'htmlordalf':
-            startBlock = '&lt;ol type=a&gt;\n';
-            startItem = '&lt;li&gt;';
-            endItem = '&lt;/li&gt;\n';
-            endBlock = '&lt;/ol&gt;';
+            startBlock = '<ol type=a>\n';
+            startItem = '<li>';
+            endItem = '</li>\n';
+            endBlock = '</ol>';
             break;
         case 'markdown':
             startBlock = endBlock = '';
@@ -265,7 +261,7 @@ function createList(originalText, listType) {
     }
 
     formattedText = startBlock;
-    for (var i = 0; i &lt; lines.length; i++) {
+    for (var i = 0; i < lines.length; i++) {
         if (listType == 'markdownord') {
             var linenumber = i + 1;
             formattedText += linenumber + '. ' + lines[i] + endItem;
@@ -277,4 +273,3 @@ function createList(originalText, listType) {
     return formattedText;
 }
 
-</PRE></BODY></HTML>
