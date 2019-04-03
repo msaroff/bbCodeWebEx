@@ -155,9 +155,9 @@ async function colorPick (colorArg){ //read the color from the popup
         let txtcont = document.activeElement.value; //contents of edit box, textbox
 		console.log(txtcont);
 		let testId = document.activeElement.id;
-		console.log(testId);
+		console.log("active element id", testId);
 		let tagName = document.activeElement.tagName.toLowerCase();
-		console.log(tagName);
+		console.log("tag name", tagName);
 		if (txtcont !== undefined) {// if a textbox or an input (plain text) field
 			console.log(txtcont);
 			let selstart = clickedElement.selectionStart; // index of selection start
