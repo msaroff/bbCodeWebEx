@@ -189,6 +189,8 @@ async function colorPick (colorArg){ //read the color from the popup
 			document.execCommand('cut'); //copy to clipboard
 			let copsel = await readFromClipboard();
 			console.log("selection copied to clipboard", copsel);
+			await navigator.clipboard.writeText('blblblblblblblblblblblblblbl');
+			document.execCommand('paste');
 		}
     }
 
