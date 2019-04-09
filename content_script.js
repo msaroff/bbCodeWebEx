@@ -184,7 +184,11 @@ async function colorPick (colorArg){ //read the color from the popup
 //desanitize and paste element
         clickedElement.value = firsttext + deSanitize(argString) + lasttext;
 		} else { //contenteditable or iframe contenteditable
-			console.log("Not Text", document.getElementById(testId));
+			//console.log("Not Text", document.getElementById(testId));
+			console.log("Current contents of clipboard",(await readFromClipboard()));
+			document.execCommand('cut'); //copy to clipboard
+			let copsel = await readFromClipboard();
+			console.log("selection copied to clipboard", copsel);
 		}
     }
 
