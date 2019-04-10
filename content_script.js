@@ -153,11 +153,11 @@ async function colorPick (colorArg){ //read the color from the popup
 //Works on  elements: textarea and input
 //does not work on: <pre id="sourceText" contenteditable="true">, <div id="textBox" contenteditable="true"><p>Lorem ipsum</p></div>, and iframe
         let txtcont = document.activeElement.value; //contents of edit box, textbox
-		console.log(txtcont);
+//		console.log(txtcont);
 		let testId = document.activeElement.id;
 		console.log("active element id", testId);
 		let tagName = document.activeElement.tagName.toLowerCase();
-		console.log("tag name", tagName);
+//		console.log("tag name", tagName);
 		if (txtcont !== undefined) {// if a textbox or an input (plain text) field
 			console.log(txtcont);
 			let selstart = clickedElement.selectionStart; // index of selection start
@@ -190,6 +190,8 @@ async function colorPick (colorArg){ //read the color from the popup
 			let copsel = await readFromClipboard();
 			console.log("selection copied to clipboard", copsel);
 			await navigator.clipboard.writeText('blblblblblblblblblblblblblbl');
+			let afterBl = await readFromClipboard();
+			console.log("afterBl",afterBl);
 			document.execCommand('paste');
 		}
     }
