@@ -186,9 +186,9 @@ async function colorPick (colorArg){ //read the color from the popup
 		} else { //contenteditable or iframe contenteditable
 			//console.log("Not Text", document.getElementById(testId));
 			console.log("Current contents of clipboard",(await readFromClipboard()));
-			document.execCommand('cut'); //copy to clipboard
+			document.execCommand('copy'); //copy to clipboard
 			let copsel = await readFromClipboard();
-			console.log("selection copied to clipboard", copsel);
+			console.log("selection copied to clipboard", await copsel);
 			await navigator.clipboard.writeText('blblblblblblblblblblblblblbl');
 			let afterBl = await readFromClipboard();
 			console.log("afterBl",afterBl);
