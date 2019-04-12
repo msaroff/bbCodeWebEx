@@ -189,7 +189,7 @@ async function colorPick (colorArg){ //read the color from the popup
 			document.execCommand('copy'); //copy to clipboard
 			let copsel = await readFromClipboard();
 			console.log("selection copied to clipboard", await copsel);
-			await navigator.clipboard.writeText('blblblblblblblblblblblblblbl');
+			await navigator.clipboard.writeText('blblblblblblblblblblblblblbl'); // only works for https url
 			let afterBl = await readFromClipboard();
 			console.log("afterBl",afterBl);
 			document.execCommand('paste');
