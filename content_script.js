@@ -185,6 +185,8 @@ async function colorPick (colorArg){ //read the color from the popup
         clickedElement.value = firsttext + deSanitize(argString) + lasttext;
 		} else { //contenteditable or iframe contenteditable
 			//console.log("Not Text", document.getElementById(testId));
+			let woo = window.getSelection;
+			console.log("woo",woo);
 			console.log("Current contents of clipboard",(await readFromClipboard()));
 			document.execCommand('copy'); //copy to clipboard
 			let copsel = await readFromClipboard();
