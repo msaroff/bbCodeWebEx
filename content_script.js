@@ -1,7 +1,11 @@
 ﻿(function(global) {
 
     const {
-        readFromClipboard,
+        readFromClipboard, //library to read from clipboard to variable
+    } = global.es6lib_dom
+
+   const {
+        writeToClipboard, //library to write from variable to clipboard 
     } = global.es6lib_dom
 
     var clickedElement = null;
@@ -191,10 +195,12 @@ async function colorPick (colorArg){ //read the color from the popup
 			document.execCommand('copy'); //copy to clipboard
 			let copsel = await readFromClipboard();
 			console.log("selection copied to clipboard", await copsel);
-			await navigator.clipboard.writeText('blblblblblblblblblblblblblbl'); // only works for https url
+//			await navigator.clipboard.writeText('blblblblbl\nblblblblbl\nblblblbl'); // only works for https url
+			let toClip = 'blblblblbl\nblblblblbl\nblblblbl';
+			writeToClipboard(toClip);
 			let afterBl = await readFromClipboard();
 			console.log("afterBl",afterBl);
-			document.execCommand('paste');
+//			document.execCommand('paste');
 		}
     }
 
