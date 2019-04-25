@@ -156,11 +156,11 @@ async function CommandParse(argString) {
 //        let FocusInfo = document.getElementById(document.activeElement.id).contentWindow.document.body.innerHTML;
 //Works on  elements: textarea and input
 //does not work on: <pre id="sourceText" contenteditable="true">, <div id="textBox" contenteditable="true"><p>Lorem ipsum</p></div>, and iframe
-	const currentClipBoard = await readFromClipboard(); //store current clipboard contents
-	const clipCont = sanitize(currentClipBoard); // clipboard content sanitized
+	let currentClipBoard = await readFromClipboard(); //store current clipboard contents
+	let clipCont = sanitize(currentClipBoard); // clipboard content sanitized
 	document.execCommand('copy'); //copy current selection to clipboard
-	const currentSelection = await readFromClipboard(); //store current selection contents
-	const selCont = sanitize(currentSelection); // selected text content sanitized
+	let currentSelection = await readFromClipboard(); //store current selection contents
+	let selCont = sanitize(currentSelection); // selected text content sanitized
 	if (argString.includes("{{clipboard}}")) { // Replace clipboard tag with clipboard contents
 		argString = argString.replace(/{{clipboard}}/g, clipCont);
 	}
