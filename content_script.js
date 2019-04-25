@@ -148,7 +148,7 @@ async function colorPick (colorArg){ //read the color from the popup
     }
 
 
-    async function CommandParse(argString) {
+async function CommandParse(argString) {
         //       Get Info About Textbox
         // check out document.activeElement
 
@@ -156,6 +156,33 @@ async function colorPick (colorArg){ //read the color from the popup
 //        let FocusInfo = document.getElementById(document.activeElement.id).contentWindow.document.body.innerHTML;
 //Works on  elements: textarea and input
 //does not work on: <pre id="sourceText" contenteditable="true">, <div id="textBox" contenteditable="true"><p>Lorem ipsum</p></div>, and iframe
+	const currentClipBoard = await readFromClipboard(); //store current clipboard contents
+	const clipCont = sanitize(currentClipBoard); // clipboard content sanitized
+	document.execCommand('copy'); //copy current selection to clipboard
+	const currentSelection = await readFromClipboard(); //store current selection contents
+	const selCont = sanitize(currentSelection); // selected text content sanitized
+	if (argString.includes("{{clipboard}}")) { // Replace clipboard tag with clipboard contents
+		argString = argString.replace(/{{clipboard}}/g, clipCont);
+	}
+	if (argString.includes("{{selection}}")) { // Replace selection tag with selection value 
+		argString = argString.replace(/{{selection}}/g, selCont);
+	}
+	if (argString.includes("{{zzpopup")) { // Invoke popup query function
+		argString = popThisUp(argString);
+	}
+	if (argString.includes("{{makeList")) { // Invoke list creation function
+		argString = listMake(argString);
+	}
+	if (argString.includes("{{zzGetColor")) { // invoke color picker
+		argString = await colorPick(argString);
+	}
+	writeToClipboard(deSanitize(argString)); // desanitize argument string and write to clipboard
+	document.execCommand('paste'); // past to cursor location or selection
+	writeToClipboard(currentClipBoard); //restore clipboard to previous state
+	
+
+	
+/* Old way of doing this, try new way
         let txtcont = document.activeElement.value; //contents of edit box, textbox
 //		console.log(txtcont);
 		let testId = document.activeElement.id;
@@ -201,7 +228,7 @@ async function colorPick (colorArg){ //read the color from the popup
 			let afterBl = await readFromClipboard();
 			console.log("afterBl",afterBl);
 //			document.execCommand('paste');
-		}
+		} */
     }
 
 })(this);
