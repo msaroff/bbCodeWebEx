@@ -157,9 +157,12 @@ async function CommandParse(argString) {
 //Works on  elements: textarea and input
 //does not work on: <pre id="sourceText" contenteditable="true">, <div id="textBox" contenteditable="true"><p>Lorem ipsum</p></div>, and iframe
 	let currentClipBoard = await readFromClipboard(); //store current clipboard contents
+	console.log(currentClipBoard)
 	let clipCont = sanitize(currentClipBoard); // clipboard content sanitized
+	console.log(clipCont);
 	document.execCommand('copy'); //copy current selection to clipboard
 	let currentSelection = await readFromClipboard(); //store current selection contents
+	console.log((currentSelection);
 	let selCont = sanitize(currentSelection); // selected text content sanitized
 	if (argString.includes("{{clipboard}}")) { // Replace clipboard tag with clipboard contents
 		argString = argString.replace(/{{clipboard}}/g, clipCont);
