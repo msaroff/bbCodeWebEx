@@ -188,7 +188,7 @@ async function CommandParse(argString) {
 	console.log("final",argString);
 	writeToClipboard(deSanitize(argString)); // desanitize argument string and write to clipboard
 	document.execCommand('paste'); // past to cursor location or selection
-//	writeToClipboard(currentClipBoard); //restore clipboard to previous state
+	writeToClipboard(currentClipBoard); //restore clipboard to previous state
 	
 /* Old way of doing this, try new way
         let txtcont = document.activeElement.value; //contents of edit box, textbox
