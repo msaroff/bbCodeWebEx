@@ -69,7 +69,7 @@ This will generate as many popup dialogues as you would want.
 
 async function colorPick (colorArg){ //read the color from the popup
 	let {pickColor: colorPicked} = await browser.storage.local.get("pickColor");
-	console.log(colorPicked);
+//	console.log(colorPicked);
 	if (colorPicked == "nocolor"){ //No color selected, clear color agument
 		let colorStartStartIdx = colorArg.indexOf('{{zzGetColor'); 
 			let colorStartEndIdx = colorArg.indexOf("}}", colorStartStartIdx) + 2;
@@ -77,7 +77,7 @@ async function colorPick (colorArg){ //read the color from the popup
 			let colorEndStartIdx = colorArg.indexOf("{{zzColorEnd");
 			let colorEndEndIdx = colorArg.indexOf("}}", colorEndStartIdx) + 2;
 		    colorArg = colorArg.substring(0,colorEndStartIdx)+colorArg.substring(colorEndEndIdx);
-			console.log(colorArg);
+//			console.log(colorArg);
 		}   else { //Color selected,  process color argument
 			let colorStartStartIdx = colorArg.indexOf("{{zzpopup");
 			let colorStartEndIdx = colorArg.indexOf("}}", colorStartStartIdx) + 2;
@@ -91,9 +91,9 @@ async function colorPick (colorArg){ //read the color from the popup
 			colorArg = colorArg.substring(colorStartEndIdx);
 			colorArg = colorArg.substring(0,colorArg.indexOf("{{")),
 			colorArg = startColorTag+colorPicked+endColorTag+colorArg+finalColorTab;
-			console.log(colorArg);
+//			console.log(colorArg);
 	}	
-	console.log (colorArg);
+//	console.log (colorArg);
 	return colorArg ; 
 }
 
@@ -156,41 +156,7 @@ async function CommandParse(argString) {
 //        let FocusInfo = document.getElementById(document.activeElement.id).contentWindow.document.body.innerHTML;
 //Works on  elements: textarea and input
 //does not work on: <pre id="sourceText" contenteditable="true">, <div id="textBox" contenteditable="true"><p>Lorem ipsum</p></div>, and iframe
-	let currentClipBoard = await readFromClipboard(); //store current clipboard contents
-	console.log(currentClipBoard)
-	let clipCont = sanitize(currentClipBoard); // clipboard content sanitized
-	console.log(clipCont);
-	document.execCommand('copy'); //copy current selection to clipboard
-	let currentSelection = await readFromClipboard(); //store current selection contents
-	console.log(currentSelection);
-	let selCont = sanitize(currentSelection); // selected text content sanitized
-	if (argString.includes("{{clipboard}}")) { // Replace clipboard tag with clipboard contents
-		argString = argString.replace(/{{clipboard}}/g, clipCont);
-		console.log(argString);
-	}
-	if (argString.includes("{{selection}}")) { // Replace selection tag with selection value 
-		argString = argString.replace(/{{selection}}/g, selCont);
-		console.log(argString);
-	}
-	if (argString.includes("{{zzpopup")) { // Invoke popup query function
-		console.log("before popup",argString)
-		argString = popThisUp(argString);
-		console.log("after popup",argString);
-	}
-	if (argString.includes("{{makeList")) { // Invoke list creation function
-		argString = listMake(argString);
-		console.log(argString);
-	}
-	if (argString.includes("{{zzGetColor")) { // invoke color picker
-		argString = await colorPick(argString);
-		console.log(argString);
-	}
-	console.log("final",argString);
-	writeToClipboard(deSanitize(argString)); // desanitize argument string and write to clipboard
-	document.execCommand('paste'); // past to cursor location or selection
-	writeToClipboard(currentClipBoard); //restore clipboard to previous state
-	
-/* Old way of doing this, try new way
+// Old way of doing this, try new way
         let txtcont = document.activeElement.value; //contents of edit box, textbox
 //		console.log(txtcont);
 		let testId = document.activeElement.id;
@@ -222,22 +188,41 @@ async function CommandParse(argString) {
 					}
 //desanitize and paste element
         clickedElement.value = firsttext + deSanitize(argString) + lasttext;
-		} else { //contenteditable or iframe contenteditable
-			//console.log("Not Text", document.getElementById(testId));
-			let woo = window.getSelection;
-			console.log("woo",woo);
-			console.log("Current contents of clipboard",(await readFromClipboard()));
-			document.execCommand('copy'); //copy to clipboard
-			let copsel = await readFromClipboard();
-			console.log("selection copied to clipboard", await copsel);
-//			await navigator.clipboard.writeText('blblblblbl\nblblblblbl\nblblblbl'); // only works for https url
-			let toClip = 'blblblblbl\nblblblblbl\nblblblbl';
-			writeToClipboard(toClip);
-			let afterBl = await readFromClipboard();
-			console.log("afterBl",afterBl);
-//			document.execCommand('paste');
-		} */
-    }
+		} else { 
+	let currentClipBoard = await readFromClipboard(); //store current clipboard contents
+//	console.log(currentClipBoard)
+	let clipCont = sanitize(currentClipBoard); // clipboard content sanitized
+//	console.log(clipCont);
+	document.execCommand('copy'); //copy current selection to clipboard
+	let currentSelection = await readFromClipboard(); //store current selection contents
+//	console.log(currentSelection);
+	let selCont = sanitize(currentSelection); // selected text content sanitized
+	if (argString.includes("{{clipboard}}")) { // Replace clipboard tag with clipboard contents
+		argString = argString.replace(/{{clipboard}}/g, clipCont);
+//		console.log(argString);
+	}
+	if (argString.includes("{{selection}}")) { // Replace selection tag with selection value 
+		argString = argString.replace(/{{selection}}/g, selCont);
+//		console.log(argString);
+	}
+	if (argString.includes("{{zzpopup")) { // Invoke popup query function
+//		console.log("before popup",argString)
+		argString = popThisUp(argString);
+//		console.log("after popup",argString);
+	}
+	if (argString.includes("{{makeList")) { // Invoke list creation function
+		argString = listMake(argString);
+//		console.log(argString);
+	}
+	if (argString.includes("{{zzGetColor")) { // invoke color picker
+		argString = await colorPick(argString);
+//		console.log(argString);
+	}
+//	console.log("final",argString);
+	writeToClipboard(deSanitize(argString)); // desanitize argument string and write to clipboard
+	document.execCommand('paste'); // past to cursor location or selection
+	writeToClipboard(currentClipBoard); //restore clipboard to previous state
+	}}
 
 })(this);
 
