@@ -99,11 +99,15 @@ async function colorPick (colorArg){ //read the color from the popup
 
     function popThisUp(popArg) {
 	while (popArg.includes("zzpopup")) { // cycle through multiple popups until done
-		console.log("102",popArg,popArg.includes("zzpopup"));
+		console.log("102",popArg);
         let popStartIdx = popArg.indexOf("{{zzpopup"); // start of popup argument in commend string
+		console.log("104",popStartIdx);
         let popEndIdx = popArg.indexOf("}}", popStartIdx) + 2; // end of popup argument in command string
+		console.log("106",popEndIdx);
         let popWork = popArg.substring(popStartIdx, popEndIdx); // extract the portion of the argument that has to do with making the popup
+		console.log("108",popWork);
         popWork = popWork.substring(10, popWork.length - 2); //remove the "{{zzpopup," from the beginning of  argument, and "}}" from the end.
+		console.log("110",popWork);
         let popTitle = popWork.substring(0, popWork.indexOf(",")); // popup title, possibly including i18n localization tag
             if (popTitle.includes("i18n")) { //if there is a localization tag
                 popTitle = browser.i18n.getMessage(popTitle.substring(5));  // replace with i18n value
@@ -183,7 +187,9 @@ async function CommandParse(argString) {
 						argString = argString.replace(/{{selection}}/g, selcont);
 					}
 					if (argString.includes("{{zzpopup")) { // Invoke popup query function
-						argString = popThisUp(argString);
+						console.log("before popup",argString);
+						argString = await popThisUp(argString);
+						console.log("after popup",argString);
 					}
 					if (argString.includes("{{makeList")) { // Invoke list creation function
 						argString = listMake(argString);
@@ -195,13 +201,14 @@ async function CommandParse(argString) {
         clickedElement.value = firsttext + deSanitize(argString) + lasttext;
 		} else { 
 	let currentClipBoard = await readFromClipboard(); //store current clipboard contents
-//	console.log(currentClipBoard)
+//	console.log(currentClipBoard);
 	let clipCont = sanitize(await readFromClipboard('text/plain')); // clipboard content sanitized
 //	console.log(clipCont);
 	document.execCommand('copy'); //copy current selection to clipboard
 	let currentSelection = await readFromClipboard(); //store current selection contents
-//	console.log(currentSelection);
+	console.log("csel",currentSelection);
 	let selCont = sanitize(currentSelection); // selected text content sanitized
+	console.log(selCont);
 	if (argString.includes("{{clipboard}}")) { // Replace clipboard tag with clipboard contents
 		argString = argString.replace(/{{clipboard}}/g, clipCont);
 //		console.log(argString);
@@ -211,9 +218,9 @@ async function CommandParse(argString) {
 //		console.log(argString);
 	}
 	if (argString.includes("{{zzpopup")) { // Invoke popup query function
-//		console.log("before popup",argString)
+		console.log("before popup",argString);
 		argString = popThisUp(argString);
-//		console.log("after popup",argString);
+		console.log("after popup",argString);
 	}
 	if (argString.includes("{{makeList")) { // Invoke list creation function
 		argString = listMake(argString);
