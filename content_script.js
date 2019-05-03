@@ -99,6 +99,7 @@ async function colorPick (colorArg){ //read the color from the popup
 
     function popThisUp(popArg) {
 	while (popArg.includes("zzpopup")) { // cycle through multiple popups until done
+		console.log("102",popArg,popArg.includes("zzpopup"));
         let popStartIdx = popArg.indexOf("{{zzpopup"); // start of popup argument in commend string
         let popEndIdx = popArg.indexOf("}}", popStartIdx) + 2; // end of popup argument in command string
         let popWork = popArg.substring(popStartIdx, popEndIdx); // extract the portion of the argument that has to do with making the popup
@@ -125,8 +126,12 @@ async function colorPick (colorArg){ //read the color from the popup
 		popUpHere = popUpHere.replace(/\\\\n/g,'~_~_~n'); // use '\\n' to actually enter '\n\'
 		popUpHere = popUpHere.replace(/\\n/g,'\n');
 		popUpHere = popUpHere.replace(/~_~_~n/g,'\\n');
+		console.log("129",popArg);
         popArg = popArg.substring(0, popStartIdx) + popArg.substring(popEndIdx); //string it together with popup removed
+		console.log("131",popArg);
         popArg = popArg.replace(new RegExp(textToReplace,"g"),popUpHere); //replace hashtag with word prompt results
+		console.log("133",popArg);
+
 }
 //add in whatever you got from  the dialog box
         return popArg;
@@ -160,11 +165,11 @@ async function CommandParse(argString) {
         let txtcont = document.activeElement.value; //contents of edit box, textbox
 //		console.log(txtcont);
 		let testId = document.activeElement.id;
-		console.log("active element id", testId);
+//		console.log("active element id", testId);
 		let tagName = document.activeElement.tagName.toLowerCase();
 //		console.log("tag name", tagName);
 		if (txtcont !== undefined) {// if a textbox or an input (plain text) field
-			console.log(txtcont);
+//			console.log(txtcont);
 			let selstart = clickedElement.selectionStart; // index of selection start
 			let selend = clickedElement.selectionEnd; //index of selection end
 			let selcont = sanitize(txtcont.substring(selstart, selend)); // selected text content sanitized
@@ -191,7 +196,7 @@ async function CommandParse(argString) {
 		} else { 
 	let currentClipBoard = await readFromClipboard(); //store current clipboard contents
 //	console.log(currentClipBoard)
-	let clipCont = sanitize(currentClipBoard); // clipboard content sanitized
+	let clipCont = sanitize(await readFromClipboard('text/plain')); // clipboard content sanitized
 //	console.log(clipCont);
 	document.execCommand('copy'); //copy current selection to clipboard
 	let currentSelection = await readFromClipboard(); //store current selection contents
