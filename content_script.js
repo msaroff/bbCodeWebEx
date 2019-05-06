@@ -174,6 +174,7 @@ async function CommandParse(argString) {
 //		console.log("tag name", tagName);
 		if (txtcont !== undefined) {// if a textbox or an input (plain text) field
 //			console.log(txtcont);
+console.log("plain stuff moo");
 			let selstart = clickedElement.selectionStart; // index of selection start
 			let selend = clickedElement.selectionEnd; //index of selection end
 			let selcont = sanitize(txtcont.substring(selstart, selend)); // selected text content sanitized
@@ -231,9 +232,11 @@ async function CommandParse(argString) {
 //		console.log(argString);
 	}
 //	console.log("final",argString);
-	writeToClipboard(deSanitize(argString)); // desanitize argument string and write to clipboard
+//	writeToClipboard(deSanitize(argString)); // desanitize argument string and write to clipboard
+await navigator.clipboard.writeText(deSanitize(argString));
 	document.execCommand('paste'); // past to cursor location or selection
-	writeToClipboard(currentClipBoard); //restore clipboard to previous state
+//	writeToClipboard(currentClipBoard); //restore clipboard to previous state
+await navigator.clipboard.writeText(currentClipBoard);
 	}}
 
 })(this);
