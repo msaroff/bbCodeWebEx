@@ -200,12 +200,13 @@ console.log("plain stuff moo");
 					}
 //desanitize and paste element
         clickedElement.value = firsttext + deSanitize(argString) + lasttext;
-		} else { 
+		} else { console.log("rich text moo");
 	let currentClipBoard = await readFromClipboard(); //store current clipboard contents
 //	console.log(currentClipBoard);
 	let clipCont = sanitize(await readFromClipboard('text/plain')); // clipboard content sanitized
 //	console.log(clipCont);
-	document.execCommand('copy'); //copy current selection to clipboard
+	let isSelection = document.execCommand('copy'); //copy current selection to clipboard
+  console.log(isSelection);
 	let currentSelection = await readFromClipboard(); //store current selection contents
 	console.log("csel",currentSelection);
 	let selCont = sanitize(currentSelection); // selected text content sanitized
