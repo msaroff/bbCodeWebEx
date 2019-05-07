@@ -1,5 +1,8 @@
 ﻿(function(global) {
 
+/*  if (window.hasRunContentScriptOnce === true) return;
+  window.hasRunContentScriptOnce = true; */
+
     const {
         readFromClipboard, //library to read from clipboard to variable
     } = global.es6lib_dom
@@ -10,6 +13,13 @@
 
     var clickedElement = null;
 
+	document.addEventListener("mousedown", function(event) {
+        //right click
+        if (event.button == 2) {
+            clickedElement = event.target;
+        }
+    }, true); 
+
     document.removeEventListener("mousedown", function(event) {
         //right click
         if (event.button == 2) {
@@ -17,21 +27,15 @@
         }
     }, true);
 
-    browser.runtime.onMessage.removeListener(function(commandString, sendResponse) {
-        CommandParse(commandString);
-    });
 
-    document.addEventListener("mousedown", function(event) {
-        //right click
-        if (event.button == 2) {
-            clickedElement = event.target;
-        }
-    }, true);
-
-    browser.runtime.onMessage.addListener(function(commandString, sendResponse) {
+		browser.runtime.onMessage.addListener(function(commandString, sendResponse) {
         CommandParse(commandString);
-    });
+    }); 
+
 	
+	    browser.runtime.onMessage.removeListener(function(commandString, sendResponse) {
+        CommandParse(commandString);
+    });
 
 
 // sanitize selections and clipboard contents so that they do not get executed as commands
@@ -99,7 +103,7 @@ async function colorPick (colorArg){ //read the color from the popup
 
     function popThisUp(popArg) {
 	while (popArg.includes("zzpopup")) { // cycle through multiple popups until done
-		console.log("102",popArg);
+		console.log("105",(popArg.match(/zzpopup/g) || []).length);
         let popStartIdx = popArg.indexOf("{{zzpopup"); // start of popup argument in commend string
 		console.log("104",popStartIdx);
         let popEndIdx = popArg.indexOf("}}", popStartIdx) + 2; // end of popup argument in command string
@@ -119,7 +123,8 @@ async function colorPick (colorArg){ //read the color from the popup
         popWork = popWork.substring(popWork.indexOf(",") + 1); //drop string to be replaced from popWork
         popupBefore = popWork.substring(0, popWork.indexOf(",")); //text to be added before entered text
         popupAfter = popWork.substring(popWork.lastIndexOf(",")+1); //text to be added before entered text
-        let popupResp = prompt(popTitle);
+//        let popupResp = prompt(popTitle);
+		let popupResp = "blblbl";
         if (popupResp === null || popupResp === "") { // if the prompt is left blank, produce empty response
             popupResp = "";
             popupBefore = "";
@@ -201,12 +206,13 @@ console.log("plain stuff moo");
 //desanitize and paste element
         clickedElement.value = firsttext + deSanitize(argString) + lasttext;
 		} else { console.log("rich text moo");
+		console.log(document.activeElement); //.id);
+//		console.log(browser.menus.onClickData.frameId);
 	let currentClipBoard = await readFromClipboard(); //store current clipboard contents
 //	console.log(currentClipBoard);
 	let clipCont = sanitize(await readFromClipboard('text/plain')); // clipboard content sanitized
 //	console.log(clipCont);
-	let isSelection = document.execCommand('copy'); //copy current selection to clipboard
-  console.log(isSelection);
+	document.execCommand('copy'); //copy current selection to clipboard
 	let currentSelection = await readFromClipboard(); //store current selection contents
 	console.log("csel",currentSelection);
 	let selCont = sanitize(currentSelection); // selected text content sanitized
