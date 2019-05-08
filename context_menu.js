@@ -110,6 +110,7 @@ async function generateMenu () {
 
 
 browser.menus.onClicked.addListener((info, tab, defaultMenu) => {
+	let identifyFrame = info.targetElementId; //the frame ID
     if (info.menuItemId.substring(0, 6) == "bbcwbx") {
         for (let i = 0; i < defMenu.length; i++) {
             if (info.menuItemId == defMenu[i].menuId) {
