@@ -128,8 +128,13 @@ browser.menus.onClicked.addListener((info, tab, defaultMenu) => {
 				});
 			        
 				 } else {
-                browser.tabs.sendMessage(tab.id, clickArg); // send argument to content script for execution
-//                browser.tabs.sendMessage(tab.id, {"clickArg": clickArg}, {frameId: identifyFrame}); // send argument to content script for execution
+//                browser.tabs.sendMessage(tab.id, {clickArg}); // send argument to content script for execution
+                browser.tabs.sendMessage(tab.id, 
+				{clickArg, identifyFrame}
+				);
+//				{
+//					"frameId": identifyFrame
+//				}); // send argument to content script for execution
 				}
             }
         }

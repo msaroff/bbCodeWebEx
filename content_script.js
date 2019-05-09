@@ -13,7 +13,7 @@
 
     var clickedElement = null;
 
-	document.addEventListener("mousedown", function(event) {
+	document.addEventListener("mousedown", function(event) { //this one is needed for the plain text version
         //right click
         if (event.button == 2) {
             clickedElement = event.target;
@@ -25,15 +25,16 @@
         if (event.button == 2) {
             clickedElement = event.target;
         }
-    }, true);
+    }, true); 
 
 
-		browser.runtime.onMessage.addListener(function(commandString, sendResponse) {
-        CommandParse(commandString);
-    }); 
+		browser.runtime.onMessage.addListener(function(commandString) {
+//			tgtElement = const element = browser.menus.getTargetElement(commandString.frameId);
+			CommandParse(commandString.clickArg);
+		}); 
 
 	
-	    browser.runtime.onMessage.removeListener(function(commandString, sendResponse) {
+	    browser.runtime.onMessage.removeListener(function(commandString) {
         CommandParse(commandString);
     });
 
