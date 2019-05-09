@@ -121,13 +121,14 @@ browser.menus.onClicked.addListener((info, tab, defaultMenu) => {
 					});
 					browser.runtime.onMessage.addListener(meepMoopMop = function(message, sender) {
 				    console.log("message received");
-					browser.tabs.sendMessage(tab.id, clickArg); // send argument to content script for execution
+					browser.tabs.sendMessage(tab.id, clickArg, {'frameId': info.frameId}); // send argument to content script
 					browser.runtime.onMessage.removeListener(meepMoopMop);
 				});
 			        
 				 } else {
 //                browser.tabs.sendMessage(tab.id, {clickArg}); // send argument to content script for execution
                 browser.tabs.sendMessage(tab.id, clickArg, {'frameId': info.frameId}); // send argument to content script for execution
+//the {'frameId': info.frameId}	ensures that only the active iframe runs the program, otherwise it runs multiple times.	
 				}
             }
         }
