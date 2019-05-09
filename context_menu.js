@@ -130,11 +130,11 @@ browser.menus.onClicked.addListener((info, tab, defaultMenu) => {
 				 } else {
 //                browser.tabs.sendMessage(tab.id, {clickArg}); // send argument to content script for execution
                 browser.tabs.sendMessage(tab.id, 
-				{clickArg, identifyFrame}
-				);
+				{clickArg, "frameId": identifyFrame},
 //				{
-//					"frameId": identifyFrame
-//				}); // send argument to content script for execution
+//					frameId:identifyFrame
+//				}
+				); // send argument to content script for execution
 				}
             }
         }

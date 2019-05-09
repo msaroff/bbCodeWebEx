@@ -30,7 +30,8 @@
 
 		browser.runtime.onMessage.addListener(function(commandString) {
 			CommandParse(commandString.clickArg);
-			const tgtElement = browser.menus.getTargetElement(commandString.identifyFrame);
+			const tgtElement = browser.menus.getTargetElement(commandString.frameId);
+			console.log(tgtElement);
 		}); 
 
 	
