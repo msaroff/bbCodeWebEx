@@ -29,8 +29,8 @@
 
 
 		browser.runtime.onMessage.addListener(function(commandString) {
-//			tgtElement = const element = browser.menus.getTargetElement(commandString.frameId);
 			CommandParse(commandString.clickArg);
+			const tgtElement = browser.menus.getTargetElement(commandString.identifyFrame);
 		}); 
 
 	
