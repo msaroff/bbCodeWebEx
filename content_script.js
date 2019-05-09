@@ -29,10 +29,9 @@
 
 
 		browser.runtime.onMessage.addListener(function(commandString) {
-			CommandParse(commandString.clickArg);
-			const tgtElement = browser.menus.getTargetElement(commandString.frameId);
-			console.log(tgtElement);
-		}); 
+			CommandParse(commandString)}); 
+//		});
+		
 
 	
 	    browser.runtime.onMessage.removeListener(function(commandString) {
@@ -125,8 +124,7 @@ async function colorPick (colorArg){ //read the color from the popup
         popWork = popWork.substring(popWork.indexOf(",") + 1); //drop string to be replaced from popWork
         popupBefore = popWork.substring(0, popWork.indexOf(",")); //text to be added before entered text
         popupAfter = popWork.substring(popWork.lastIndexOf(",")+1); //text to be added before entered text
-//        let popupResp = prompt(popTitle);
-		let popupResp = "blblbl";
+        let popupResp = prompt(popTitle);
         if (popupResp === null || popupResp === "") { // if the prompt is left blank, produce empty response
             popupResp = "";
             popupBefore = "";

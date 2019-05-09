@@ -110,8 +110,6 @@ async function generateMenu () {
 
 
 browser.menus.onClicked.addListener((info, tab, defaultMenu) => {
-	let identifyFrame = info.targetElementId; //the active frame ID for nested frames
-	console.log(identifyFrame);
     if (info.menuItemId.substring(0, 6) == "bbcwbx") {
         for (let i = 0; i < defMenu.length; i++) {
             if (info.menuItemId == defMenu[i].menuId) {
@@ -129,12 +127,7 @@ browser.menus.onClicked.addListener((info, tab, defaultMenu) => {
 			        
 				 } else {
 //                browser.tabs.sendMessage(tab.id, {clickArg}); // send argument to content script for execution
-                browser.tabs.sendMessage(tab.id, 
-				{clickArg, "frameId": identifyFrame},
-//				{
-//					frameId:identifyFrame
-//				}
-				); // send argument to content script for execution
+                browser.tabs.sendMessage(tab.id, clickArg, {'frameId': info.frameId}); // send argument to content script for execution
 				}
             }
         }
