@@ -6,10 +6,20 @@ function onCreated() {
     }
 }
 
+//web page to open when the extension is uninstalled
+var settingUrl = browser.runtime.setUninstallURL("https://takethatyoufiend.com");
+
+//what to show user when installing for first time or updating
 browser.runtime.onInstalled.addListener(async ({ reason, temporary, }) =>{
-	console.log(temporary);
-	console.log("reason",reason);
-	browser.tabs.create({url: "https://www.pobox.com/~msaroff"});
+	if (temporary) return; // skip during development comment out when running testing
+	switch (reason) {
+		case "install":  //if initial installation
+			browser.tabs.create({url: "https://www.pobox.com/~msaroff"});
+			break;
+		case "update":  //if the extension is updated
+			browser.tabs.create({url: "https://www.pobox.com/~msaroff/40"});
+			break;
+		}
 });
 
 
