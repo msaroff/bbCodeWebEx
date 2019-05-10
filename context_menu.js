@@ -6,6 +6,13 @@ function onCreated() {
     }
 }
 
+browser.runtime.onInstalled.addListener(async ({ reason, temporary, }) =>{
+	console.log(temporary);
+	console.log("reason",reason);
+	browser.tabs.create({url: "https://www.pobox.com/~msaroff"});
+});
+
+
 //var defMenu = [];
 
 const defMenuURL = browser.runtime.getURL('data/DefMenu.json'); // location of default menu storage
