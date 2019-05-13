@@ -212,9 +212,9 @@ console.log("plain stuff moo");
 //	console.log(currentClipBoard);
 	let clipCont = sanitize(await readFromClipboard('text/plain')); // clipboard content sanitized
 //	console.log(clipCont);
-	document.execCommand('copy'); //copy current selection to clipboard
-	let currentSelection = await readFromClipboard(); //store current selection contents
-	console.log("csel",currentSelection);
+
+	let currentSelection =  window.getSelection().toString().trim(); //store current selection contents
+//	let currentSelection = await readFromClipboard(); //store current selection contents
 	let selCont = sanitize(currentSelection); // selected text content sanitized
 	console.log(selCont);
 	if (argString.includes("{{clipboard}}")) { // Replace clipboard tag with clipboard contents
