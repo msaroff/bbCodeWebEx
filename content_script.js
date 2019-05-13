@@ -163,23 +163,8 @@ async function colorPick (colorArg){ //read the color from the popup
 
 
 async function CommandParse(argString) {
-        //       Get Info About Textbox
-        // check out document.activeElement
-
-        // some text boxes do not have an id assigned, but they do have a name assigned, if so, use the name
-//        let FocusInfo = document.getElementById(document.activeElement.id).contentWindow.document.body.innerHTML;
-//Works on  elements: textarea and input
-//does not work on: <pre id="sourceText" contenteditable="true">, <div id="textBox" contenteditable="true"><p>Lorem ipsum</p></div>, and iframe
-// Old way of doing this, try new way
-        let txtcont = document.activeElement.value; //contents of edit box, textbox
-//		console.log(txtcont);
-		let testId = document.activeElement.id;
-//		console.log("active element id", testId);
-		let tagName = document.activeElement.tagName.toLowerCase();
-//		console.log("tag name", tagName);
-		if (txtcont !== undefined) {// if a textbox or an input (plain text) field
-//			console.log(txtcont);
-console.log("plain stuff moo");
+        let txtcont = document.activeElement.value; //contents of edit box, textbox undef if content editable
+		if (txtcont !== undefined) {// process as text/input box
 			let selstart = clickedElement.selectionStart; // index of selection start
 			let selend = clickedElement.selectionEnd; //index of selection end
 			let selcont = sanitize(txtcont.substring(selstart, selend)); // selected text content sanitized
@@ -205,47 +190,32 @@ console.log("plain stuff moo");
 					}
 //desanitize and paste element
         clickedElement.value = firsttext + deSanitize(argString) + lasttext;
-		} else { console.log("rich text moo");
-		console.log(document.activeElement); //.id);
-//		console.log(browser.menus.onClickData.frameId);
+		} else {  // for rich text and iframe edit boxes
 	let currentClipBoard = await readFromClipboard(); //store current clipboard contents
-//	console.log(currentClipBoard);
 	let clipCont = sanitize(await readFromClipboard('text/plain')); // clipboard content sanitized
-//	console.log(clipCont);
-
 	let currentSelection =  window.getSelection().toString().trim(); //store current selection contents
-//	let currentSelection = await readFromClipboard(); //store current selection contents
+	// will give empty string if the area is just clicked in, and not selected,
 	let selCont = sanitize(currentSelection); // selected text content sanitized
-	console.log(selCont);
 	if (argString.includes("{{clipboard}}")) { // Replace clipboard tag with clipboard contents
 		argString = argString.replace(/{{clipboard}}/g, clipCont);
-//		console.log(argString);
 	}
 	if (argString.includes("{{selection}}")) { // Replace selection tag with selection value 
 		argString = argString.replace(/{{selection}}/g, selCont);
-//		console.log(argString);
 	}
 	if (argString.includes("{{zzpopup")) { // Invoke popup query function
-		console.log("before popup",argString);
 		argString = popThisUp(argString);
-		console.log("after popup",argString);
 	}
 	if (argString.includes("{{makeList")) { // Invoke list creation function
 		argString = listMake(argString);
-//		console.log(argString);
 	}
 	if (argString.includes("{{zzGetColor")) { // invoke color picker
 		argString = await colorPick(argString);
-//		console.log(argString);
 	}
-//	console.log("final",argString);
-//	writeToClipboard(deSanitize(argString)); // desanitize argument string and write to clipboard
-await navigator.clipboard.writeText(deSanitize(argString));
+	writeToClipboard(deSanitize(argString)); // desanitize argument string and write to clipboard
+//await navigator.clipboard.writeText(deSanitize(argString));
 	document.execCommand('paste'); // past to cursor location or selection
-//	writeToClipboard(currentClipBoard); //restore clipboard to previous state
-await navigator.clipboard.writeText(currentClipBoard);
+	writeToClipboard(currentClipBoard); //restore previous clipboard 
 	}}
-
 })(this);
 
 /* this is pretty much a copy of the function from bbCodeXtra by flod (Francesco Lodolo)
