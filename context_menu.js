@@ -7,17 +7,17 @@ function onCreated() {
 }
 
 //web page to open when the extension is uninstalled
-var settingUrl = browser.runtime.setUninstallURL("https://takethatyoufiend.com");
+var settingUrl = browser.runtime.setUninstallURL("http://www.stellarparthenon.org/bbcwbx/app.php/uninstall");
 
 //what to show user when installing for first time or updating
 browser.runtime.onInstalled.addListener(async ({ reason, temporary, }) =>{
 	if (temporary) return; // skip during development comment out when running testing
 	switch (reason) {
 		case "install":  //if initial installation
-			browser.tabs.create({url: "https://www.pobox.com/~msaroff"});
+			browser.tabs.create({url: "http://www.stellarparthenon.org/bbcwbx/app.php/installing"});
 			break;
 		case "update":  //if the extension is updated
-			browser.tabs.create({url: "https://www.pobox.com/~msaroff/40"});
+			browser.tabs.create({url: "http://www.stellarparthenon.org/bbcwbx/app.php/upgrade"});
 			break;
 		}
 });
