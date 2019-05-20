@@ -104,15 +104,15 @@ async function colorPick (colorArg){ //read the color from the popup
 
     function popThisUp(popArg) {
 	while (popArg.includes("zzpopup")) { // cycle through multiple popups until done
-		console.log("105",(popArg.match(/zzpopup/g) || []).length);
+		console.log("107",(popArg.match(/zzpopup/g) || []).length);
         let popStartIdx = popArg.indexOf("{{zzpopup"); // start of popup argument in commend string
-		console.log("104",popStartIdx);
+		console.log("109",popStartIdx);
         let popEndIdx = popArg.indexOf("}}", popStartIdx) + 2; // end of popup argument in command string
-		console.log("106",popEndIdx);
+		console.log("111",popEndIdx);
         let popWork = popArg.substring(popStartIdx, popEndIdx); // extract the portion of the argument that has to do with making the popup
-		console.log("108",popWork);
+		console.log("113",popWork);
         popWork = popWork.substring(10, popWork.length - 2); //remove the "{{zzpopup," from the beginning of  argument, and "}}" from the end.
-		console.log("110",popWork);
+		console.log("115",popWork);
         let popTitle = popWork.substring(0, popWork.indexOf(",")); // popup title, possibly including i18n localization tag
             if (popTitle.includes("i18n")) { //if there is a localization tag
                 popTitle = browser.i18n.getMessage(popTitle.substring(5));  // replace with i18n value
@@ -165,7 +165,7 @@ async function colorPick (colorArg){ //read the color from the popup
 async function CommandParse(argString) {
         let txtcont = document.activeElement.value; //contents of edit box, textbox undef if content editable
 		if (txtcont !== undefined) {// process as text/input box
-			console.log("dialogue box case 2');
+			console.log("dialogue box case 1");
 			let selstart = clickedElement.selectionStart; // index of selection start
 			let selend = clickedElement.selectionEnd; //index of selection end
 			let selcont = sanitize(txtcont.substring(selstart, selend)); // selected text content sanitized
