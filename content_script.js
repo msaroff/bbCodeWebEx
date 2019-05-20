@@ -165,6 +165,7 @@ async function colorPick (colorArg){ //read the color from the popup
 async function CommandParse(argString) {
         let txtcont = document.activeElement.value; //contents of edit box, textbox undef if content editable
 		if (txtcont !== undefined) {// process as text/input box
+			console.log("dialogue box case 2');
 			let selstart = clickedElement.selectionStart; // index of selection start
 			let selend = clickedElement.selectionEnd; //index of selection end
 			let selcont = sanitize(txtcont.substring(selstart, selend)); // selected text content sanitized
@@ -190,33 +191,34 @@ async function CommandParse(argString) {
 					}
 //desanitize and paste element
         clickedElement.value = firsttext + deSanitize(argString) + lasttext;
-		} else {  // for rich text and iframe edit boxes
-	let currentClipBoard = await readFromClipboard(); //store current clipboard contents
-	let clipCont = sanitize(await readFromClipboard('text/plain')); // clipboard content sanitized
-	let currentSelection =  window.getSelection().toString().trim(); //store current selection contents
-	// will give empty string if the area is just clicked in, and not selected,
-	let selCont = sanitize(currentSelection); // selected text content sanitized
-	if (argString.includes("{{clipboard}}")) { // Replace clipboard tag with clipboard contents
-		argString = argString.replace(/{{clipboard}}/g, clipCont);
-	}
-	if (argString.includes("{{selection}}")) { // Replace selection tag with selection value 
-		argString = argString.replace(/{{selection}}/g, selCont);
-	}
-	if (argString.includes("{{zzpopup")) { // Invoke popup query function
-		argString = popThisUp(argString);
-	}
-	if (argString.includes("{{makeList")) { // Invoke list creation function
-		argString = listMake(argString);
-	}
-	if (argString.includes("{{zzGetColor")) { // invoke color picker
-		argString = await colorPick(argString);
-	}
-	writeToClipboard(deSanitize(argString)); // desanitize argument string and write to clipboard
-//await navigator.clipboard.writeText(deSanitize(argString));
-	document.execCommand('paste'); // past to cursor location or selection
-	writeToClipboard(currentClipBoard); //restore previous clipboard 
-	}}
-})(this);
+		} else { // for rich text and iframe edit boxes only works on https pages			
+			console.log("dialogue box case 2");
+			let currentClipBoard = await readFromClipboard(); //store current clipboard contents
+			let clipCont = sanitize(await readFromClipboard('text/plain')); // clipboard content sanitized
+			let currentSelection =  window.getSelection().toString().trim(); //store current selection contents
+			// will give empty string if the area is just clicked in, and not selected,
+			let selCont = sanitize(currentSelection); // selected text content sanitized
+			if (argString.includes("{{clipboard}}")) {// Replace clipboard tag with clipboard contents
+				argString = argString.replace(/{{clipboard}}/g, clipCont);
+			}
+			if (argString.includes("{{selection}}")) { // Replace selection tag with selection value 
+				argString = argString.replace(/{{selection}}/g, selCont);
+			}
+			if (argString.includes("{{zzpopup")) { // Invoke popup query function
+				argString = popThisUp(argString);
+			}
+			if (argString.includes("{{makeList")) { // Invoke list creation function
+				argString = listMake(argString);
+			}
+			if (argString.includes("{{zzGetColor")) { // invoke color picker
+				argString = await colorPick(argString);
+			}
+			writeToClipboard(deSanitize(argString)); // desanitize argument string and write to clipboard
+			//await navigator.clipboard.writeText(deSanitize(argString));
+			document.execCommand('paste'); // past to cursor location or selection
+			writeToClipboard(currentClipBoard); //restore previous clipboard 
+		}}
+	})(this);
 
 /* this is pretty much a copy of the function from bbCodeXtra by flod (Francesco Lodolo)
 which is under an MIT free and open-source software (FOSS) license.
