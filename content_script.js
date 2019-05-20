@@ -104,15 +104,10 @@ async function colorPick (colorArg){ //read the color from the popup
 
     function popThisUp(popArg) {
 	while (popArg.includes("zzpopup")) { // cycle through multiple popups until done
-		console.log("107",(popArg.match(/zzpopup/g) || []).length);
         let popStartIdx = popArg.indexOf("{{zzpopup"); // start of popup argument in commend string
-		console.log("109",popStartIdx);
         let popEndIdx = popArg.indexOf("}}", popStartIdx) + 2; // end of popup argument in command string
-		console.log("111",popEndIdx);
         let popWork = popArg.substring(popStartIdx, popEndIdx); // extract the portion of the argument that has to do with making the popup
-		console.log("113",popWork);
         popWork = popWork.substring(10, popWork.length - 2); //remove the "{{zzpopup," from the beginning of  argument, and "}}" from the end.
-		console.log("115",popWork);
         let popTitle = popWork.substring(0, popWork.indexOf(",")); // popup title, possibly including i18n localization tag
             if (popTitle.includes("i18n")) { //if there is a localization tag
                 popTitle = browser.i18n.getMessage(popTitle.substring(5));  // replace with i18n value
@@ -189,17 +184,15 @@ async function CommandParse(argString) {
 					if (argString.includes("{{zzGetColor")) { // invoke color picker
 						argString = await colorPick(argString);
 					}
-//desanitize and paste element
-        clickedElement.value = firsttext + deSanitize(argString) + lasttext;
+        clickedElement.value = firsttext + deSanitize(argString) + lasttext; //desanitize and insert element
 		} else { // for rich text and iframe edit boxes only works on https pages			
 			console.log("dialogue box case 2");
-			let currentClipBoard = await readFromClipboard(); //store current clipboard contents
-			let clipCont = sanitize(await readFromClipboard('text/plain')); // clipboard content sanitized
+			let currentClipBoard = await navigator.clipboard.readText();
 			let currentSelection =  window.getSelection().toString().trim(); //store current selection contents
 			// will give empty string if the area is just clicked in, and not selected,
 			let selCont = sanitize(currentSelection); // selected text content sanitized
 			if (argString.includes("{{clipboard}}")) {// Replace clipboard tag with clipboard contents
-				argString = argString.replace(/{{clipboard}}/g, clipCont);
+				argString = argString.replace(/{{clipboard}}/g, currentClipBoard);
 			}
 			if (argString.includes("{{selection}}")) { // Replace selection tag with selection value 
 				argString = argString.replace(/{{selection}}/g, selCont);
@@ -213,10 +206,11 @@ async function CommandParse(argString) {
 			if (argString.includes("{{zzGetColor")) { // invoke color picker
 				argString = await colorPick(argString);
 			}
-			writeToClipboard(deSanitize(argString)); // desanitize argument string and write to clipboard
-			//await navigator.clipboard.writeText(deSanitize(argString));
-			document.execCommand('paste'); // past to cursor location or selection
-			writeToClipboard(currentClipBoard); //restore previous clipboard 
+			await navigator.clipboard.writeText(deSanitize(argString));
+			console.log("moo");
+			document.execCommand('paste'); // paste to cursor location or selection
+			console.log("cclip",currentClipBoard);
+			await navigator.clipboard.writeText(currentClipBoard);
 		}}
 	})(this);
 
