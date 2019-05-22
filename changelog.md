@@ -9,7 +9,7 @@
 - Added install, update, and uninstall pages with poll.
 
 #### Issues
-- Content-editable element capabilities only work on secure (*https://*) not inscure (*http://*) pages, because the two sorts of pages have different ways of accessing the clipboard and other content.  This is because the navigator.clipboard API only works on secure pages.
+- Content-editable element capabilities only work on secure (*https://*) not inscure (*http://*) pages, because they require (for now) the navigator.clipboard API, which does not work on inscure (*http://*) pages.
 -->
 
 ## Version 0.1.5 2019-03-05
