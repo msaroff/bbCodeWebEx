@@ -1,5 +1,5 @@
 # Change Log 
-<!--
+<!-- This is a comment
 ## Version 0.2.0 2019-XX-XX
 ### Major update:
 #### New Features
