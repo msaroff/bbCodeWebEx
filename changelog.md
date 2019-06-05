@@ -1,5 +1,5 @@
 # Change Log 
-<!-- This is a comment
+<!-- This is a comment  -->
 ## Version 0.2.0 2019-XX-XX
 ### Major update:
 #### New Features
@@ -10,7 +10,7 @@
 
 #### Issues
 - Content-editable element capabilities only work on secure (*https://*) not inscure (*http://*) pages, because they require (for now) the navigator.clipboard API, which does not work on inscure (*http://*) pages.
--->
+
 
 ## Version 0.1.5 2019-03-05
 ### Inital release to addons.mozilla.org.
