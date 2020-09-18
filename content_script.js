@@ -159,7 +159,9 @@ async function colorPick (colorArg){ //read the color from the popup
 
 async function CommandParse(argString) {
         let txtcont = document.activeElement.value; //contents of edit box, textbox undef if content editable
-		if (txtcont !== undefined) {// process as text/input box
+        let locProt = location.protocol;
+        // console.log("text box type: ",txtcont," Location Protocol: ",locProt);
+		if (txtcont !== undefined && locProt != 'https:') {// process as text/input box on an insecure page  
 			console.log("dialogue box case 1");
 			let selstart = clickedElement.selectionStart; // index of selection start
 			let selend = clickedElement.selectionEnd; //index of selection end
