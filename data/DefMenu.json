@@ -5,7 +5,7 @@
     "parentId": "",
     "menuArg": "",
     "icons": {
-      "16": "icons/bbcwbx-menu.svg"
+      "16": "icons/bbcwbx.svg"
     }
   },
   {
@@ -170,7 +170,7 @@
     "parentId": "bbcwbx.bbcode",
     "menuArg": "",
     "icons": {
-      "16": "icons/bbcwbx-menu.svg"
+      "16": "icons/bbcwbx.svg"
     }
   },
   {
@@ -263,7 +263,7 @@
     "parentId": "",
     "menuArg": "",
     "icons": {
-      "16": "icons/bbcwbx-menu.svg"
+      "16": "icons/bbcwbx.svg"
     }
   },
   {
@@ -421,6 +421,15 @@
     "icons": ""
   },
   {
+    "menuId": "bbcwbx.html.wbx.fntcol",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.html.wbx.fntcol)",
+    "parentId": "bbcwbx.html.wbx",
+    "menuArg": "{{zzGetColor,\"<span style=~_~qt~_~color: \",\";~_~qt~_~>\",\"</span>\"}}{{selection}}{{zzColorEnd}}",
+    "icons": {
+      "16": "icons/pickColor.svg"
+    }
+  },
+  {
     "menuId": "bbcwbx.html.img",
     "menuTitle": "browser.i18n.getMessage(bbcwbx.html.img)",
     "parentId": "bbcwbx.html",
@@ -440,7 +449,7 @@
     "parentId": "",
     "menuArg": "",
     "icons": {
-      "16": "icons/bbcwbx-menu.svg"
+      "16": "icons/bbcwbx.svg"
     }
   },
   {
@@ -598,6 +607,15 @@
     "icons": ""
   },
   {
+    "menuId": "bbcwbx.xhtml.wbx.fntcol",
+    "menuTitle": "browser.i18n.getMessage(bbcwbx.xhtml.wbx.fntcol)",
+    "parentId": "bbcwbx.xhtml.wbx",
+    "menuArg": "{{zzGetColor,\"[color=\",\"]\",\"[/color]\"}}{{selection}}{{zzColorEnd}}",
+    "icons": {
+      "16": "icons/pickColor.svg"
+    }
+  },
+  {
     "menuId": "bbcwbx.xhtml.image",
     "menuTitle": "browser.i18n.getMessage(bbcwbx.xhtml.image)",
     "parentId": "bbcwbx.xhtml",
@@ -617,7 +635,7 @@
     "parentId": "",
     "menuArg": "",
     "icons": {
-      "16": "icons/bbcwbx-menu.svg"
+      "16": "icons/bbcwbx.svg"
     }
   },
   {
@@ -626,7 +644,7 @@
     "parentId": "",
     "menuArg": "",
     "icons": {
-      "16": "icons/bbcwbx-menu.svg"
+      "16": "icons/bbcwbx.svg"
     }
   },
   {
@@ -761,7 +779,7 @@
     "parentId": "",
     "menuArg": "",
     "icons": {
-      "16": "icons/bbcwbx-menu.svg"
+      "16": "icons/bbcwbx.svg"
     }
   },
   {

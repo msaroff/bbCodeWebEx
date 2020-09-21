@@ -53,7 +53,6 @@ function deSanitize (deSanitized) {
    deSanitized  = deSanitized.replace(/{_~_~{/g,"{{");
    deSanitized  = deSanitized.replace(/}_~_~}/g,"}}");
    deSanitized  = deSanitized.replace(/#_~_~#/g,"##");
-   deSanitized  = deSanitized.replace(/~_~qt~_~/g,"\""); //allows the use of ~_~qt~_~ to replace a quote " only for preinstalled menus
    deSanitized  = deSanitized.replace(/~_~nl~_~/g,"\n"); //allows the use of ~_~nl~_~ to substitute for a new line used in custom tags
 return deSanitized;
 }
@@ -101,6 +100,8 @@ async function colorPick (colorArg){ //read the color from the popup
 //			console.log(colorArg);
 	}	
 //	console.log (colorArg);
+  colorArg  = colorArg.replace(/~_~qt~_~/g,"\""); //the span statement uses quotes.  This allows the 
+//use of the quote proxy (~_~qt~_~) in the argument
 	return colorArg ; 
 }
 
