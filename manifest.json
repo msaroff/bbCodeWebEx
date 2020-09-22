@@ -5,8 +5,8 @@
      "description": "Context Menus for bbCode/Html/Markdown/etc. formatting",
      "default_locale": "en-US",
      "icons": {
-          "16": "icons/bbcwbx-menu.svg",
-          "32": "icons/bbcwbx-menu.svg",
+          "16": "icons/bbcwbx.svg",
+          "32": "icons/bbcwbx.svg",
           "64": "icons/bbcwbx.svg"
      },
      "author": "Matthew G. Saroff",
