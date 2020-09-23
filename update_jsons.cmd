@@ -3,6 +3,8 @@ rem This takes a file and outputs it as utf-8 in the utf8 subdirectory
 Rem we will then convert the file to a CSV and copy it to the correct directory in the Github directory.
 rem note that the first and the last line of the localizations are removed so that the additional 
 rem open and close brackets are removed
+rem import-csv -Delimiter "`t" ".\DefMenu.csv"|ConvertTo-Json -AsArray | % { [System.Text.RegularExpressions.Regex]::Unescape($_) } 
+rem that last bit prevents the new lines from being excaped
 powershell "get-content C:\Moo\bbCodeWebex_Temp\en-US.csv | out-file -encoding utf8 C:\Moo\bbCodeWebex_Temp\utf8\en-US.csv"
 powershell "get-content C:\Moo\bbCodeWebex_Temp\de.csv | out-file -encoding utf8 C:\Moo\bbCodeWebex_Temp\utf8\de.csv"
 powershell "get-content C:\Moo\bbCodeWebex_Temp\es-ES.csv | out-file -encoding utf8 C:\Moo\bbCodeWebex_Temp\utf8\es-ES.csv"
