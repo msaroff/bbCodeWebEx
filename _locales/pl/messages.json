@@ -1,721 +1,715 @@
-{
-     "bbcwbx.bbcode":  {
-          "message": "bbCode"
-     },
-     "bbcwbx.bbcode.clp":  {
-          "message": "Zawartosc schowka wstaw jako:"
-     },
-     "bbcwbx.bbcode.clp.quote":  {
-          "message": "Cytat"
-     },
-     "bbcwbx.bbcode.clp.code":  {
-          "message": "Kod"
-     },
-     "bbcwbx.bbcode.clp.list":  {
-          "message": "Lista"
-     },
-     "bbcwbx.bbcode.clp.ordlist":  {
-          "message": "Lista numerowana"
-     },
-     "bbcwbx.bbcode.clp.alphalist":  {
-          "message": "Lista alfabetyczna"
-     },
-     "bbcwbx.bbcode.clp.spoiler":  {
-          "message": "Spoiler"
-     },
-     "bbcwbx.bbcode.clp.image":  {
-          "message": "Obrazek"
-     },
-     "bbcwbx.bbcode.clp.mkurlsel":  {
-          "message": "Odnosnik z nazwa zaznaczenia"
-     },
-     "bbcwbx.bbcode.clp.url":  {
-          "message": "Odnosnik"
-     },
-     "bbcwbx.bbcode.clp.urlname":  {
-          "message": "Odnosnik z nazwa"
-     },
-     "bbcwbx.bbcode.wbx":  {
-          "message": "WebEx"
-     },
-     "bbcwbx.bbcode.wbx.quote":  {
-          "message": "Cytat"
-     },
-     "bbcwbx.bbcode.wbx.code":  {
-          "message": "Kod"
-     },
-     "bbcwbx.bbcode.wbx.list":  {
-          "message": "Lista"
-     },
-     "bbcwbx.bbcode.wbx.ordlist":  {
-          "message": "Lista numerowana"
-     },
-     "bbcwbx.bbcode.wbx.alphalist":  {
-          "message": "Lista alfabetyczna"
-     },
-     "bbcwbx.bbcode.wbx.spoiler":  {
-          "message": "Spoiler"
-     },
-     "bbcwbx.bbcode.wbx.fntcol":  {
-          "message": "Kolor czcionki"
-     },
-     "bbcwbx.bbcode.wbx.fntsz":  {
-          "message": "Rozmiar czcionki"
-     },
-     "bbcwbx.bbcode.wbx.urlname":  {
-          "message": "Odnosnik z nazwa"
-     },
-     "bbcwbx.bbcode.wbx.urlwiz":  {
-          "message": "Kreator odnosnik�w"
-     },
-     "bbcwbx.bbcode.vbl":  {
-          "message": "VBulletin3"
-     },
-     "bbcwbx.bbcode.vbl.thd":  {
-          "message": "Watek"
-     },
-     "bbcwbx.bbcode.vbl.pst":  {
-          "message": "Post"
-     },
-     "bbcwbx.bbcode.vbl.alnlf":  {
-          "message": "Wyr�wnanie do prawej"
-     },
-     "bbcwbx.bbcode.vbl.alnrt":  {
-          "message": "Wyr�wnanie do lewej"
-     },
-     "bbcwbx.bbcode.vbl.ctr":  {
-          "message": "Wysrodkowanie"
-     },
-     "bbcwbx.bbcode.vbl.indnt":  {
-          "message": "Wciecie"
-     },
-     "bbcwbx.bbcode.vbl.hilt":  {
-          "message": "Zaznacz"
-     },
-     "bbcwbx.bbcode.bold":  {
-          "message": "Pogrubienie"
-     },
-     "bbcwbx.bbcode.ital":  {
-          "message": "Kursywa"
-     },
-     "bbcwbx.bbcode.undrln":  {
-          "message": "Podkreslenie"
-     },
-     "bbcwbx.bbcode.img":  {
-          "message": "Obrazek"
-     },
-     "bbcwbx.bbcode.url":  {
-          "message": "Odnosnik"
-     },
-     "bbcwbx.html":  {
-          "message": "HTML"
-     },
-     "bbcwbx.html.clp":  {
-          "message": "Zawartosc schowka wstaw jako:"
-     },
-     "bbcwbx.html.clp.quote":  {
-          "message": "Cytat"
-     },
-     "bbcwbx.html.clp.code":  {
-          "message": "Kod"
-     },
-     "bbcwbx.html.clp.list":  {
-          "message": "Lista"
-     },
-     "bbcwbx.html.clp.ordlist":  {
-          "message": "Lista numerowana"
-     },
-     "bbcwbx.html.clp.alphalist":  {
-          "message": "Lista alfabetyczna"
-     },
-     "bbcwbx.html.clp.image":  {
-          "message": "Obrazek"
-     },
-     "bbcwbx.html.clp.mkurlsel":  {
-          "message": "Odnosnik z nazwa zaznaczenia"
-     },
-     "bbcwbx.html.clp.url":  {
-          "message": "Odnosnik"
-     },
-     "bbcwbx.html.clp.urlname":  {
-          "message": "Odnosnik z nazwa"
-     },
-     "bbcwbx.html.wbx":  {
-          "message": "WebEx"
-     },
-     "bbcwbx.html.wbx.quote":  {
-          "message": "Cytat"
-     },
-     "bbcwbx.html.wbx.code":  {
-          "message": "Kod"
-     },
-     "bbcwbx.html.wbx.list":  {
-          "message": "Lista"
-     },
-     "bbcwbx.html.wbx.ordlist":  {
-          "message": "Lista numerowana"
-     },
-     "bbcwbx.html.wbx.alphalist":  {
-          "message": "Lista alfabetyczna"
-     },
-     "bbcwbx.html.wbx.urlname":  {
-          "message": "Odnosnik z nazwa"
-     },
-     "bbcwbx.html.wbx.urlwiz":  {
-          "message": "Kreator odnosnik�w"
-     },
-     "bbcwbx.html.bold":  {
-          "message": "Pogrubienie"
-     },
-     "bbcwbx.html.ital":  {
-          "message": "Kursywa"
-     },
-     "bbcwbx.html.undrln":  {
-          "message": "Podkreslenie"
-     },
-     "bbcwbx.html.strk":  {
-          "message": "Przekreslenie"
-     },
-     "bbcwbx.html.wbx.fntcol":  {
-          "message": "Kolor czcionki"
-     },
-     "bbcwbx.html.img":  {
-          "message": "Obrazek"
-     },
-     "bbcwbx.html.url":  {
-          "message": "Odnosnik"
-     },
-     "bbcwbx.xhtml":  {
-          "message": "XHTML"
-     },
-     "bbcwbx.xhtml.clp":  {
-          "message": "Zawartosc schowka wstaw jako:"
-     },
-     "bbcwbx.xhtml.clp.quote":  {
-          "message": "Cytat"
-     },
-     "bbcwbx.xhtml.clp.code":  {
-          "message": "Kod"
-     },
-     "bbcwbx.xhtml.clp.list":  {
-          "message": "Lista"
-     },
-     "bbcwbx.xhtml.clp.ordlist":  {
-          "message": "Lista numerowana"
-     },
-     "bbcwbx.xhtml.clp.alphalist":  {
-          "message": "Lista alfabetyczna"
-     },
-     "bbcwbx.xhtml.img":  {
-          "message": "Obrazek"
-     },
-     "bbcwbx.xhtml.clp.mkurlsel":  {
-          "message": "Odnosnik z nazwa zaznaczenia"
-     },
-     "bbcwbx.xhtml.clp.url":  {
-          "message": "Odnosnik"
-     },
-     "bbcwbx.xhtml.clp.urlname":  {
-          "message": "Odnosnik z nazwa"
-     },
-     "bbcwbx.xhtml.wbx":  {
-          "message": "WebEx"
-     },
-     "bbcwbx.xhtml.wbx.quote":  {
-          "message": "Cytat"
-     },
-     "bbcwbx.xhtml.wbx.code":  {
-          "message": "Kod"
-     },
-     "bbcwbx.xhtml.wbx.list":  {
-          "message": "Lista"
-     },
-     "bbcwbx.xhtml.wbx.ordlist":  {
-          "message": "Lista numerowana"
-     },
-     "bbcwbx.xhtml.wbx.alphalist":  {
-          "message": "Lista alfabetyczna"
-     },
-     "bbcwbx.xhtml.wbx.urlname":  {
-          "message": "Odnosnik z nazwa"
-     },
-     "bbcwbx.xhtml.wbx.urlwiz":  {
-          "message": "Kreator odnosnik�w"
-     },
-     "bbcwbx.xhtml.bold":  {
-          "message": "Pogrubienie"
-     },
-     "bbcwbx.xhtml.ital":  {
-          "message": "Kursywa"
-     },
-     "bbcwbx.xhtml.undrln":  {
-          "message": "Podkreslenie"
-     },
-     "bbcwbx.xhtml.strk":  {
-          "message": "Przekreslenie"
-     },
-     "bbcwbx.xhtml.wbx.fntcol":  {
-          "message": "Kolor czcionki"
-     },
-     "bbcwbx.xhtml.image":  {
-          "message": "Obrazek"
-     },
-     "bbcwbx.xhtml.url":  {
-          "message": "Odnosnik"
-     },
-     "bbcwbx.custom":  {
-          "message": "Wlasne znaczniki"
-     },
-     "bbcwbx.mkdn":  {
-          "message": "Markdown"
-     },
-     "bbcwbx.mkdn.clp":  {
-          "message": "Zawartosc schowka wstaw jako:"
-     },
-     "bbcwbx.mkdn.clp.quote":  {
-          "message": "Cytat"
-     },
-     "bbcwbx.mkdn.clp.code":  {
-          "message": "Kod"
-     },
-     "bbcwbx.mkdn.clp.list":  {
-          "message": "Lista"
-     },
-     "bbcwbx.mkdn.clp.ordlist":  {
-          "message": "Lista numerowana"
-     },
-     "bbcwbx.mkdn.clp.mkurlsel":  {
-          "message": "Odnosnik z nazwa zaznaczenia"
-     },
-     "bbcwbx.mkdn.clp.mkimgsel":  {
-          "message": "Make image from selection"
-     },
-     "bbcwbx.mkdn.clp.urlname":  {
-          "message": "Odnosnik z nazwa"
-     },
-     "bbcwbx.mkdn.wbx":  {
-          "message": "WebEx"
-     },
-     "bbcwbx.mkdn.wbx.quote":  {
-          "message": "Cytat"
-     },
-     "bbcwbx.mkdn.wbx.code":  {
-          "message": "Kod"
-     },
-     "bbcwbx.mkdn.wbx.list":  {
-          "message": "Lista"
-     },
-     "bbcwbx.mkdn.wbx.ordlist":  {
-          "message": "Lista numerowana"
-     },
-     "bbcwbx.mkdn.wbx.urlname":  {
-          "message": "Odnosnik z nazwa"
-     },
-     "bbcwbx.mkdn.wbx.urlwiz":  {
-          "message": "Kreator odnosnik�w"
-     },
-     "bbcwbx.mkdn.bold":  {
-          "message": "Pogrubienie"
-     },
-     "bbcwbx.mkdn.ital":  {
-          "message": "Kursywa"
-     },
-     "bbcwbx.mkdn.strk":  {
-          "message": "Przekreslenie"
-     },
-     "bbcwbx.sym":  {
-          "message": "Symbolika"
-     },
-     "bbcwbx.sym.fraction":  {
-          "message": "Frakcje"
-     },
-     "bbcwbx.sym.fraction.12":  {
-          "message": "�"
-     },
-     "bbcwbx.sym.fraction.13":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.fraction.23":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.fraction.14":  {
-          "message": "�"
-     },
-     "bbcwbx.sym.fraction.34":  {
-          "message": "�"
-     },
-     "bbcwbx.sym.fraction.15":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.fraction.25":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.fraction.35":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.fraction.45":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.fraction.16":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.fraction.46":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.fraction.18":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.fraction.38":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.fraction.58":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.fraction.78":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.currency":  {
-          "message": "Waluta"
-     },
-     "bbcwbx.sym.currency.dollar":  {
-          "message": "$"
-     },
-     "bbcwbx.sym.currency.cent":  {
-          "message": "�"
-     },
-     "bbcwbx.sym.currency.euro":  {
-          "message": "�"
-     },
-     "bbcwbx.sym.currency.gbp":  {
-          "message": "�"
-     },
-     "bbcwbx.sym.currency.yen":  {
-          "message": "�"
-     },
-     "bbcwbx.sym.currency.franc":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.currency.lira":  {
-          "message": "�"
-     },
-     "bbcwbx.sym.currency.yuan":  {
-          "message": "�CNY"
-     },
-     "bbcwbx.sym.currency.rupee":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.currency.rupee2":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.currency.thaibt":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.currency.won":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.sci":  {
-          "message": "Nauka"
-     },
-     "bbcwbx.sym.sci.micro":  {
-          "message": "�"
-     },
-     "bbcwbx.sym.sci.ohm":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.sci.sigma":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.sci.sqrt":  {
-          "message": "v"
-     },
-     "bbcwbx.sym.sci.infin":  {
-          "message": "8"
-     },
-     "bbcwbx.sym.sci.apprx":  {
-          "message": "�"
-     },
-     "bbcwbx.sym.sci.neq":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.sci.lte":  {
-          "message": "="
-     },
-     "bbcwbx.sym.sci.gte":  {
-          "message": "="
-     },
-     "bbcwbx.sym.grk":  {
-          "message": "Grecki"
-     },
-     "bbcwbx.sym.grk.pi":  {
-          "message": "p"
-     },
-     "bbcwbx.sym.grk.rho":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.grk.sgm":  {
-          "message": "s"
-     },
-     "bbcwbx.sym.grk.tau":  {
-          "message": "t"
-     },
-     "bbcwbx.sym.grk.chi":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.grk.psi":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.grk.omega":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.grk.comega":  {
-          "message": "T"
-     },
-     "bbcwbx.sym.grk.delta":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.grk.ldelta":  {
-          "message": "d"
-     },
-     "bbcwbx.sym.grk.lambda":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.grk.phi":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.grk.theta":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.dgre":  {
-          "message": "�"
-     },
-     "bbcwbx.sym.cprt":  {
-          "message": "�"
-     },
-     "bbcwbx.sym.phontm":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.sm":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.tm":  {
-          "message": "�"
-     },
-     "bbcwbx.sym.regtm":  {
-          "message": "�"
-     },
-     "bbcwbx.sym.phonrt":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.section":  {
-          "message": "�"
-     },
-     "bbcwbx.sym.plumin":  {
-          "message": "�"
-     },
-     "bbcwbx.sym.elps":  {
-          "message": "�"
-     },
-     "bbcwbx.sym.emdash":  {
-          "message": "�"
-     },
-     "bbcwbx.sym.dagger":  {
-          "message": "�"
-     },
-     "bbcwbx.sym.dubdagger":  {
-          "message": "�"
-     },
-     "bbcwbx.sym.permil":  {
-          "message": "�"
-     },
-     "INS_AUTHOR": {
-          "message": "Wpisz nazwe autora lub pozostaw to pole puste:"
-     },
-     "INS_LINKNAME": {
-          "message": "Wpisz nazwe odnosnika:"
-     },
-     "INS_FONTSIZE": {
-          "message": "Podaj wielkosc czcionki:"
-     },
-     "INS_FONTCOLOR": {
-          "message": "Wybierz kolor tekstu:"
-     },
-     "URLCOMPOSTO_STEP1": {
-          "message": "Podaj nazwe odnosnika"
-     },
-     "URLCOMPOSTO_STEP2": {
-          "message": "Podaj adres URL odnosnika"
-     },
-     "INS_THREADNUM": {
-          "message": "Podaj numer watku:"
-     },
-     "INS_POSTNUM": {
-          "message": "Podaj numer posta:"
-     },
-     "MENU_NO_CUSTOM_TAGS ": {
-          "message": "Nie zdefiniowano wlasnych znacznik�w"
-     },
-     "MENU_DISABLE ": {
-          "message": "Wylacz to menu"
-     },
-     "MENU_SETTINGS ": {
-          "message": "bbCodeWebex � ustawienia�"
-     },
-     "DELETE_CUSTOMTAG": {
-          "message": "Czy chcesz usunac ten element?"
-     },
-     "WINDOWTITLE_EDITCUSTOMTAG ": {
-          "message": "Edytuj wlasny znacznik"
-     },
-     "WINDOWTITLE_NEWCUSTOMTAG ": {
-          "message": "Dodaj nowy znacznik"
-     },
-     "ALERT_REORDER_TITLE ": {
-          "message": "Reorder Custom Tags"
-     },
-     "ALERT_REORDER_TEXT ": {
-          "message": "Custom tags will be arranged in alphabetical order. This action cannot be undone, unless you restore an existing backup. Do you want to continue?"
-     },
-     "WINDOWTITLE_EXPORT ": {
-          "message": "Choose export file"
-     },
-     "WINDOWTITLE_IMPORT ": {
-          "message": "Choose import file"
-     },
-     "ALERT_IMPORT_TITLE ": {
-          "message": "Import Settings"
-     },
-     "ALERT_IMPORT_TEXT ": {
-          "message": "This will overwrite all existing settings. Are you sure?"
-     },
-     "ALERT_IMPORT_COMPLETED ": {
-          "message": "Operation completed."
-     },
-     "description": {
-          "message": "Dodaje do menu kontekstowego polecenia BBCode/HTML/XHTML"
-     },
-     "name": {
-          "message": "bbCodeWebex"
-     },
-     "SETTINGSMENU": {
-          "message": "Ustawienia bbCodeWebex..."
-     },
-     "DISABLEMENU": {
-          "message": "Wylacz to menu"
-     },
-     "PICKCOLOR_TITLE": {
-          "message": "Wybierz kolor"
-     },
-     "PICKCOLOR_DESCRIPTION": {
-          "message": "Wybierz kolor czcionki"
-     },
-     "PICKCOLOR_LASTCOLOR": {
-          "message": "Ostatnio uzyty kolor:"
-     },
-     "SETTINGS_TITLE": {
-          "message": "bbCodeWebex - ustawienia"
-     },
-     "SETTINGS_MENU": {
-          "message": "Menu"
-     },
-     "SETTINGS_CUSTOMTAGS": {
-          "message": "Wlasne znaczniki"
-     },
-     "SETTINGS_MENU_DESCRIPTION": {
-          "message": "Wybierz elementy wyswietlane w menu kontekstowym"
-     },
-     "SETTINGS_MENU_ENABLEBBCODE": {
-          "message": "Wlacz menu BBCode"
-     },
-     "SETTINGS_MENU_ENABLEBBCODE_VBULLETIN": {
-          "message": "Wlacz submenu VBulletin"
-     },
-     "SETTINGS_MENU_ENABLEHTML": {
-          "message": "Wlacz menu HTML"
-     },
-     "SETTINGS_MENU_ENABLEXHTML": {
-          "message": "Wlacz menu XHTML"
-     },
-     "SETTINGS_MENU_ENABLEMARKDOWN": {
-          "message": "Wlacz menu Markdown"
-     },
-     "SETTINGS_MENU_ENABLECUSTOM": {
-          "message": "Wlacz menu wlasnych znacznik�w"
-     },
-     "SETTINGS_MANAGESETTINGS": {
-          "message": "Manage settings"
-     },
-     "SETTINGS_BACKUPDESCRIPTION": {
-          "message": "WARNING: importing settings will overwrite all existing settings."
-     },
-     "SETTINGS_BTNIMPORT": {
-          "message": "Import Custom Settings�"
-     },
-     "SETTINGS_BTNEXPORT": {
-          "message": "Export Custom Settings�"
-     },
-     "SETTINGS_CUSTOMTAGS_TOTALTAGS": {
-          "message": "Dostepne wlasne znaczniki:"
-     },
-     "SETTINGS_CUSTOMTAGS_BTNADD": {
-          "message": "Dodaj�"
-     },
-     "SETTINGS_CUSTOMTAGS_BTNEDIT": {
-          "message": "Edytuj�"
-     },
-     "SETTINGS_CUSTOMTAGS_BTNDELETE": {
-          "message": "Usun�"
-     },
-     "SETTINGS_CUSTOMTAGS_MOVEUP": {
-          "message": "Przenies w g�re"
-     },
-     "SETTINGS_CUSTOMTAGS_MOVEDOWN": {
-          "message": "Przenies w d�l"
-     },
-     "SETTINGS_CUSTOMTAGS_SORTALPHA": {
-          "message": "Sort alphabetically"
-     },
-     "SETTINGS_CUSTOMTAGS_MOREINFO": {
-          "message": "Informacje i przyklady"
-     },
-     "SETTINGS_CUSTOMTAGS_VARIABLES": {
-          "message": "Dostepne zmienne"
-     },
-     "SETTINGS_CUSTOMTAGS_VARCLIPBOARD": {
-          "message": "zawartosc schowka"
-     },
-     "SETTINGS_CUSTOMTAGS_VARSELECTION": {
-          "message": "zaznaczony tekst"
-     },
-     "SETTINGS_CUSTOMTAGS_LABEL": {
-          "message": "Nazwa elementu:"
-     },
-     "SETTINGS_CUSTOMTAGS_ACTION": {
-          "message": "Kod:"
-     },
-     "SAVE_TAG_ORDER": {
-          "message": "Save Custom Tag Order"
-     },
-     "ENTER_COLOR_HEX": {
-          "message": "ENTER FONT COLOR IN HEX"
-     },
-     "TAGS_BTNIMPORT_OVRT": {
-          "message": "Import Settings � \nPrzepisac"
-     },
-     "TAGS_BTNIMPORT_APPEND": {
-          "message": "Import Settings � \nDodac"
-     },
-     "TAGS_BTNIMPORT_BBCODEXTRA": {
-          "message": "Import Settings � \nDodac bbCodeXtra"
-     },
-}
 
+C:\Users\msaroff\Documents\GitHub\bbCodeWebEx>rem this is simply a way to call lynx in a simplified manner 
 
+C:\Users\msaroff\Documents\GitHub\bbCodeWebEx>C:\Users\msaroff\Documents\github\bbcodewebex\Lynx\lynx.exe -dump -width 300 -cfg=C:\Users\msaroff\Documents\github\bbcodewebex\lynx\lynx.cfg C:\Moo\bbCodeWebex_Temp\pl.htm  
 
-
-
-
-
-
-
-
-
+                                                                                                                                                   {
+        "bbcwbx.bbcode":  {
+             "message": "bbCode"
+        },
+        "bbcwbx.bbcode.clp":  {
+             "message": "Zawartość schowka wstaw jako:"
+        },
+        "bbcwbx.bbcode.clp.quote":  {
+             "message": "Cytat"
+        },
+        "bbcwbx.bbcode.clp.code":  {
+             "message": "Kod"
+        },
+        "bbcwbx.bbcode.clp.list":  {
+             "message": "Lista"
+        },
+        "bbcwbx.bbcode.clp.ordlist":  {
+             "message": "Lista numerowana"
+        },
+        "bbcwbx.bbcode.clp.alphalist":  {
+             "message": "Lista alfabetyczna"
+        },
+        "bbcwbx.bbcode.clp.spoiler":  {
+             "message": "Spoiler"
+        },
+        "bbcwbx.bbcode.clp.image":  {
+             "message": "Obrazek"
+        },
+        "bbcwbx.bbcode.clp.mkurlsel":  {
+             "message": "Odnośnik z nazwą zaznaczenia"
+        },
+        "bbcwbx.bbcode.clp.url":  {
+             "message": "Odnośnik"
+        },
+        "bbcwbx.bbcode.clp.urlname":  {
+             "message": "Odnośnik z nazwą"
+        },
+        "bbcwbx.bbcode.wbx":  {
+             "message": "WebEx"
+        },
+        "bbcwbx.bbcode.wbx.quote":  {
+             "message": "Cytat"
+        },
+        "bbcwbx.bbcode.wbx.code":  {
+             "message": "Kod"
+        },
+        "bbcwbx.bbcode.wbx.list":  {
+             "message": "Lista"
+        },
+        "bbcwbx.bbcode.wbx.ordlist":  {
+             "message": "Lista numerowana"
+        },
+        "bbcwbx.bbcode.wbx.alphalist":  {
+             "message": "Lista alfabetyczna"
+        },
+        "bbcwbx.bbcode.wbx.spoiler":  {
+             "message": "Spoiler"
+        },
+        "bbcwbx.bbcode.wbx.fntcol":  {
+             "message": "Kolor czcionki"
+        },
+        "bbcwbx.bbcode.wbx.fntsz":  {
+             "message": "Rozmiar czcionki"
+        },
+        "bbcwbx.bbcode.wbx.urlname":  {
+             "message": "Odnośnik z nazwą"
+        },
+        "bbcwbx.bbcode.wbx.urlwiz":  {
+             "message": "Kreator odnośników"
+        },
+        "bbcwbx.bbcode.vbl":  {
+             "message": "VBulletin3"
+        },
+        "bbcwbx.bbcode.vbl.thd":  {
+             "message": "Wątek"
+        },
+        "bbcwbx.bbcode.vbl.pst":  {
+             "message": "Post"
+        },
+        "bbcwbx.bbcode.vbl.alnlf":  {
+             "message": "Wyrównanie do prawej"
+        },
+        "bbcwbx.bbcode.vbl.alnrt":  {
+             "message": "Wyrównanie do lewej"
+        },
+        "bbcwbx.bbcode.vbl.ctr":  {
+             "message": "Wyśrodkowanie"
+        },
+        "bbcwbx.bbcode.vbl.indnt":  {
+             "message": "Wcięcie"
+        },
+        "bbcwbx.bbcode.vbl.hilt":  {
+             "message": "Zaznacz"
+        },
+        "bbcwbx.bbcode.bold":  {
+             "message": "Pogrubienie"
+        },
+        "bbcwbx.bbcode.ital":  {
+             "message": "Kursywa"
+        },
+        "bbcwbx.bbcode.undrln":  {
+             "message": "Podkreślenie"
+        },
+        "bbcwbx.bbcode.img":  {
+             "message": "Obrazek"
+        },
+        "bbcwbx.bbcode.url":  {
+             "message": "Odnośnik"
+        },
+        "bbcwbx.html":  {
+             "message": "HTML"
+        },
+        "bbcwbx.html.clp":  {
+             "message": "Zawartość schowka wstaw jako:"
+        },
+        "bbcwbx.html.clp.quote":  {
+             "message": "Cytat"
+        },
+        "bbcwbx.html.clp.code":  {
+             "message": "Kod"
+        },
+        "bbcwbx.html.clp.list":  {
+             "message": "Lista"
+        },
+        "bbcwbx.html.clp.ordlist":  {
+             "message": "Lista numerowana"
+        },
+        "bbcwbx.html.clp.alphalist":  {
+             "message": "Lista alfabetyczna"
+        },
+        "bbcwbx.html.clp.image":  {
+             "message": "Obrazek"
+        },
+        "bbcwbx.html.clp.mkurlsel":  {
+             "message": "Odnośnik z nazwą zaznaczenia"
+        },
+        "bbcwbx.html.clp.url":  {
+             "message": "Odnośnik"
+        },
+        "bbcwbx.html.clp.urlname":  {
+             "message": "Odnośnik z nazwą"
+        },
+        "bbcwbx.html.wbx":  {
+             "message": "WebEx"
+        },
+        "bbcwbx.html.wbx.quote":  {
+             "message": "Cytat"
+        },
+        "bbcwbx.html.wbx.code":  {
+             "message": "Kod"
+        },
+        "bbcwbx.html.wbx.list":  {
+             "message": "Lista"
+        },
+        "bbcwbx.html.wbx.ordlist":  {
+             "message": "Lista numerowana"
+        },
+        "bbcwbx.html.wbx.alphalist":  {
+             "message": "Lista alfabetyczna"
+        },
+        "bbcwbx.html.wbx.urlname":  {
+             "message": "Odnośnik z nazwą"
+        },
+        "bbcwbx.html.wbx.urlwiz":  {
+             "message": "Kreator odnośników"
+        },
+        "bbcwbx.html.bold":  {
+             "message": "Pogrubienie"
+        },
+        "bbcwbx.html.ital":  {
+             "message": "Kursywa"
+        },
+        "bbcwbx.html.undrln":  {
+             "message": "Podkreślenie"
+        },
+        "bbcwbx.html.strk":  {
+             "message": "Przekreślenie"
+        },
+        "bbcwbx.html.wbx.fntcol":  {
+             "message": "Kolor czcionki"
+        },
+        "bbcwbx.html.img":  {
+             "message": "Obrazek"
+        },
+        "bbcwbx.html.url":  {
+             "message": "Odnośnik"
+        },
+        "bbcwbx.xhtml":  {
+             "message": "XHTML"
+        },
+        "bbcwbx.xhtml.clp":  {
+             "message": "Zawartość schowka wstaw jako:"
+        },
+        "bbcwbx.xhtml.clp.quote":  {
+             "message": "Cytat"
+        },
+        "bbcwbx.xhtml.clp.code":  {
+             "message": "Kod"
+        },
+        "bbcwbx.xhtml.clp.list":  {
+             "message": "Lista"
+        },
+        "bbcwbx.xhtml.clp.ordlist":  {
+             "message": "Lista numerowana"
+        },
+        "bbcwbx.xhtml.clp.alphalist":  {
+             "message": "Lista alfabetyczna"
+        },
+        "bbcwbx.xhtml.img":  {
+             "message": "Obrazek"
+        },
+        "bbcwbx.xhtml.clp.mkurlsel":  {
+             "message": "Odnośnik z nazwą zaznaczenia"
+        },
+        "bbcwbx.xhtml.clp.url":  {
+             "message": "Odnośnik"
+        },
+        "bbcwbx.xhtml.clp.urlname":  {
+             "message": "Odnośnik z nazwą"
+        },
+        "bbcwbx.xhtml.wbx":  {
+             "message": "WebEx"
+        },
+        "bbcwbx.xhtml.wbx.quote":  {
+             "message": "Cytat"
+        },
+        "bbcwbx.xhtml.wbx.code":  {
+             "message": "Kod"
+        },
+        "bbcwbx.xhtml.wbx.list":  {
+             "message": "Lista"
+        },
+        "bbcwbx.xhtml.wbx.ordlist":  {
+             "message": "Lista numerowana"
+        },
+        "bbcwbx.xhtml.wbx.alphalist":  {
+             "message": "Lista alfabetyczna"
+        },
+        "bbcwbx.xhtml.wbx.urlname":  {
+             "message": "Odnośnik z nazwą"
+        },
+        "bbcwbx.xhtml.wbx.urlwiz":  {
+             "message": "Kreator odnośników"
+        },
+        "bbcwbx.xhtml.bold":  {
+             "message": "Pogrubienie"
+        },
+        "bbcwbx.xhtml.ital":  {
+             "message": "Kursywa"
+        },
+        "bbcwbx.xhtml.undrln":  {
+             "message": "Podkreślenie"
+        },
+        "bbcwbx.xhtml.strk":  {
+             "message": "Przekreślenie"
+        },
+        "bbcwbx.xhtml.wbx.fntcol":  {
+             "message": "Kolor czcionki"
+        },
+        "bbcwbx.xhtml.image":  {
+             "message": "Obrazek"
+        },
+        "bbcwbx.xhtml.url":  {
+             "message": "Odnośnik"
+        },
+        "bbcwbx.custom":  {
+             "message": "Własne znaczniki"
+        },
+        "bbcwbx.mkdn":  {
+             "message": "Markdown"
+        },
+        "bbcwbx.mkdn.clp":  {
+             "message": "Zawartość schowka wstaw jako:"
+        },
+        "bbcwbx.mkdn.clp.quote":  {
+             "message": "Cytat"
+        },
+        "bbcwbx.mkdn.clp.code":  {
+             "message": "Kod"
+        },
+        "bbcwbx.mkdn.clp.list":  {
+             "message": "Lista"
+        },
+        "bbcwbx.mkdn.clp.ordlist":  {
+             "message": "Lista numerowana"
+        },
+        "bbcwbx.mkdn.clp.mkurlsel":  {
+             "message": "Odnośnik z nazwą zaznaczenia"
+        },
+        "bbcwbx.mkdn.clp.mkimgsel":  {
+             "message": "Make image from selection"
+        },
+        "bbcwbx.mkdn.clp.urlname":  {
+             "message": "Odnośnik z nazwą"
+        },
+        "bbcwbx.mkdn.wbx":  {
+             "message": "WebEx"
+        },
+        "bbcwbx.mkdn.wbx.quote":  {
+             "message": "Cytat"
+        },
+        "bbcwbx.mkdn.wbx.code":  {
+             "message": "Kod"
+        },
+        "bbcwbx.mkdn.wbx.list":  {
+             "message": "Lista"
+        },
+        "bbcwbx.mkdn.wbx.ordlist":  {
+             "message": "Lista numerowana"
+        },
+        "bbcwbx.mkdn.wbx.urlname":  {
+             "message": "Odnośnik z nazwą"
+        },
+        "bbcwbx.mkdn.wbx.urlwiz":  {
+             "message": "Kreator odnośników"
+        },
+        "bbcwbx.mkdn.bold":  {
+             "message": "Pogrubienie"
+        },
+        "bbcwbx.mkdn.ital":  {
+             "message": "Kursywa"
+        },
+        "bbcwbx.mkdn.strk":  {
+             "message": "Przekreślenie"
+        },
+        "bbcwbx.sym":  {
+             "message": "Symbolika"
+        },
+        "bbcwbx.sym.fraction":  {
+             "message": "Frakcje"
+        },
+        "bbcwbx.sym.fraction.12":  {
+             "message": "½"
+        },
+        "bbcwbx.sym.fraction.13":  {
+             "message": "⅓"
+        },
+        "bbcwbx.sym.fraction.23":  {
+             "message": "⅔"
+        },
+        "bbcwbx.sym.fraction.14":  {
+             "message": "¼"
+        },
+        "bbcwbx.sym.fraction.34":  {
+             "message": "¾"
+        },
+        "bbcwbx.sym.fraction.15":  {
+             "message": "⅕"
+        },
+        "bbcwbx.sym.fraction.25":  {
+             "message": "⅖"
+        },
+        "bbcwbx.sym.fraction.35":  {
+             "message": "⅗"
+        },
+        "bbcwbx.sym.fraction.45":  {
+             "message": "⅘"
+        },
+        "bbcwbx.sym.fraction.16":  {
+             "message": "⅙"
+        },
+        "bbcwbx.sym.fraction.46":  {
+             "message": "⅚"
+        },
+        "bbcwbx.sym.fraction.18":  {
+             "message": "⅛"
+        },
+        "bbcwbx.sym.fraction.38":  {
+             "message": "⅜"
+        },
+        "bbcwbx.sym.fraction.58":  {
+             "message": "⅝"
+        },
+        "bbcwbx.sym.fraction.78":  {
+             "message": "⅞"
+        },
+        "bbcwbx.sym.currency":  {
+             "message": "Waluta"
+        },
+        "bbcwbx.sym.currency.dollar":  {
+             "message": "$"
+        },
+        "bbcwbx.sym.currency.cent":  {
+             "message": "¢"
+        },
+        "bbcwbx.sym.currency.euro":  {
+             "message": "€"
+        },
+        "bbcwbx.sym.currency.gbp":  {
+             "message": "£"
+        },
+        "bbcwbx.sym.currency.yen":  {
+             "message": "¥"
+        },
+        "bbcwbx.sym.currency.franc":  {
+             "message": "₣"
+        },
+        "bbcwbx.sym.currency.lira":  {
+             "message": "₤"
+        },
+        "bbcwbx.sym.currency.yuan":  {
+             "message": "¥CNY"
+        },
+        "bbcwbx.sym.currency.rupee":  {
+             "message": "₨"
+        },
+        "bbcwbx.sym.currency.rupee2":  {
+             "message": "₹"
+        },
+        "bbcwbx.sym.currency.thaibt":  {
+             "message": "฿"
+        },
+        "bbcwbx.sym.currency.won":  {
+             "message": "₩"
+        },
+        "bbcwbx.sym.sci":  {
+             "message": "Nauka"
+        },
+        "bbcwbx.sym.sci.micro":  {
+             "message": "µ"
+        },
+        "bbcwbx.sym.sci.ohm":  {
+             "message": "Ω"
+        },
+        "bbcwbx.sym.sci.sigma":  {
+             "message": "∑"
+        },
+        "bbcwbx.sym.sci.sqrt":  {
+             "message": "√"
+        },
+        "bbcwbx.sym.sci.infin":  {
+             "message": "∞"
+        },
+        "bbcwbx.sym.sci.apprx":  {
+             "message": "≈"
+        },
+        "bbcwbx.sym.sci.neq":  {
+             "message": "≠"
+        },
+        "bbcwbx.sym.sci.lte":  {
+             "message": "≤"
+        },
+        "bbcwbx.sym.sci.gte":  {
+             "message": "≥"
+        },
+        "bbcwbx.sym.grk":  {
+             "message": "Grecki"
+        },
+        "bbcwbx.sym.grk.pi":  {
+             "message": "π"
+        },
+        "bbcwbx.sym.grk.rho":  {
+             "message": "ρ"
+        },
+        "bbcwbx.sym.grk.sgm":  {
+             "message": "σ"
+        },
+        "bbcwbx.sym.grk.tau":  {
+             "message": "τ"
+        },
+        "bbcwbx.sym.grk.chi":  {
+             "message": "χ"
+        },
+        "bbcwbx.sym.grk.psi":  {
+             "message": "ψ"
+        },
+        "bbcwbx.sym.grk.omega":  {
+             "message": "ω"
+        },
+        "bbcwbx.sym.grk.comega":  {
+             "message": "Θ"
+        },
+        "bbcwbx.sym.grk.delta":  {
+             "message": "Δ"
+        },
+        "bbcwbx.sym.grk.ldelta":  {
+             "message": "δ"
+        },
+        "bbcwbx.sym.grk.lambda":  {
+             "message": "λ"
+        },
+        "bbcwbx.sym.grk.phi":  {
+             "message": "ɸ"
+        },
+        "bbcwbx.sym.grk.theta":  {
+             "message": "ϴ"
+        },
+        "bbcwbx.sym.dgre":  {
+             "message": "°"
+        },
+        "bbcwbx.sym.cprt":  {
+             "message": "©"
+        },
+        "bbcwbx.sym.phontm":  {
+             "message": "℗"
+        },
+        "bbcwbx.sym.sm":  {
+             "message": "℠"
+        },
+        "bbcwbx.sym.tm":  {
+             "message": "™"
+        },
+        "bbcwbx.sym.regtm":  {
+             "message": "®"
+        },
+        "bbcwbx.sym.phonrt":  {
+             "message": "℗"
+        },
+        "bbcwbx.sym.section":  {
+             "message": "§"
+        },
+        "bbcwbx.sym.plumin":  {
+             "message": "±"
+        },
+        "bbcwbx.sym.elps":  {
+             "message": "…"
+        },
+        "bbcwbx.sym.emdash":  {
+             "message": "—"
+        },
+        "bbcwbx.sym.dagger":  {
+             "message": "†"
+        },
+        "bbcwbx.sym.dubdagger":  {
+             "message": "‡"
+        },
+        "bbcwbx.sym.permil":  {
+             "message": "‰"
+        },
+        "INS_AUTHOR": {
+             "message": "Wpisz nazwę autora lub pozostaw to pole puste:"
+        },
+        "INS_LINKNAME": {
+             "message": "Wpisz nazwę odnośnika:"
+        },
+        "INS_FONTSIZE": {
+             "message": "Podaj wielkość czcionki:"
+        },
+        "INS_FONTCOLOR": {
+             "message": "Wybierz kolor tekstu:"
+        },
+        "URLCOMPOSTO_STEP1": {
+             "message": "Podaj nazwę odnośnika"
+        },
+        "URLCOMPOSTO_STEP2": {
+             "message": "Podaj adres URL odnośnika"
+        },
+        "INS_THREADNUM": {
+             "message": "Podaj numer wątku:"
+        },
+        "INS_POSTNUM": {
+             "message": "Podaj numer posta:"
+        },
+        "MENU_NO_CUSTOM_TAGS ": {
+             "message": "Nie zdefiniowano własnych znaczników"
+        },
+        "MENU_DISABLE ": {
+             "message": "Wyłącz to menu"
+        },
+        "MENU_SETTINGS ": {
+             "message": "bbCodeWebex – ustawienia…"
+        },
+        "DELETE_CUSTOMTAG": {
+             "message": "Czy chcesz usunąć ten element?"
+        },
+        "WINDOWTITLE_EDITCUSTOMTAG ": {
+             "message": "Edytuj własny znacznik"
+        },
+        "WINDOWTITLE_NEWCUSTOMTAG ": {
+             "message": "Dodaj nowy znacznik"
+        },
+        "ALERT_REORDER_TITLE ": {
+             "message": "Reorder Custom Tags"
+        },
+        "ALERT_REORDER_TEXT ": {
+             "message": "Custom tags will be arranged in alphabetical order. This action cannot be undone, unless you restore an existing backup. Do you want to continue?"
+        },
+        "WINDOWTITLE_EXPORT ": {
+             "message": "Choose export file"
+        },
+        "WINDOWTITLE_IMPORT ": {
+             "message": "Choose import file"
+        },
+        "ALERT_IMPORT_TITLE ": {
+             "message": "Import Settings"
+        },
+        "ALERT_IMPORT_TEXT ": {
+             "message": "This will overwrite all existing settings. Are you sure?"
+        },
+        "ALERT_IMPORT_COMPLETED ": {
+             "message": "Operation completed."
+        },
+        "description": {
+             "message": "Dodaje do menu kontekstowego polecenia BBCode/HTML/XHTML"
+        },
+        "name": {
+             "message": "bbCodeWebex"
+        },
+        "SETTINGSMENU": {
+             "message": "Ustawienia bbCodeWebex..."
+        },
+        "DISABLEMENU": {
+             "message": "Wyłącz to menu"
+        },
+        "PICKCOLOR_TITLE": {
+             "message": "Wybierz kolor"
+        },
+        "PICKCOLOR_DESCRIPTION": {
+             "message": "Wybierz kolor czcionki"
+        },
+        "PICKCOLOR_LASTCOLOR": {
+             "message": "Ostatnio użyty kolor:"
+        },
+        "SETTINGS_TITLE": {
+             "message": "bbCodeWebex - ustawienia"
+        },
+        "SETTINGS_MENU": {
+             "message": "Menu"
+        },
+        "SETTINGS_CUSTOMTAGS": {
+             "message": "Własne znaczniki"
+        },
+        "SETTINGS_MENU_DESCRIPTION": {
+             "message": "Wybierz elementy wyświetlane w menu kontekstowym"
+        },
+        "SETTINGS_MENU_ENABLEBBCODE": {
+             "message": "Włącz menu BBCode"
+        },
+        "SETTINGS_MENU_ENABLEBBCODE_VBULLETIN": {
+             "message": "Włącz submenu VBulletin"
+        },
+        "SETTINGS_MENU_ENABLEHTML": {
+             "message": "Włącz menu HTML"
+        },
+        "SETTINGS_MENU_ENABLEXHTML": {
+             "message": "Włącz menu XHTML"
+        },
+        "SETTINGS_MENU_ENABLEMARKDOWN": {
+             "message": "Włącz menu Markdown"
+        },
+        "SETTINGS_MENU_ENABLECUSTOM": {
+             "message": "Włącz menu własnych znaczników"
+        },
+        "SETTINGS_MANAGESETTINGS": {
+             "message": "Manage settings"
+        },
+        "SETTINGS_BACKUPDESCRIPTION": {
+             "message": "WARNING: importing settings will overwrite all existing settings."
+        },
+        "SETTINGS_BTNIMPORT": {
+             "message": "Import Custom Settings…"
+        },
+        "SETTINGS_BTNEXPORT": {
+             "message": "Export Custom Settings…"
+        },
+        "SETTINGS_CUSTOMTAGS_TOTALTAGS": {
+             "message": "Dostępne własne znaczniki:"
+        },
+        "SETTINGS_CUSTOMTAGS_BTNADD": {
+             "message": "Dodaj…"
+        },
+        "SETTINGS_CUSTOMTAGS_BTNEDIT": {
+             "message": "Edytuj…"
+        },
+        "SETTINGS_CUSTOMTAGS_BTNDELETE": {
+             "message": "Usuń…"
+        },
+        "SETTINGS_CUSTOMTAGS_MOVEUP": {
+             "message": "Przenieś w górę"
+        },
+        "SETTINGS_CUSTOMTAGS_MOVEDOWN": {
+             "message": "Przenieś w dół"
+        },
+        "SETTINGS_CUSTOMTAGS_SORTALPHA": {
+             "message": "Sort alphabetically"
+        },
+        "SETTINGS_CUSTOMTAGS_MOREINFO": {
+             "message": "Informacje i przykłady"
+        },
+        "SETTINGS_CUSTOMTAGS_VARIABLES": {
+             "message": "Dostępne zmienne"
+        },
+        "SETTINGS_CUSTOMTAGS_VARCLIPBOARD": {
+             "message": "zawartość schowka"
+        },
+        "SETTINGS_CUSTOMTAGS_VARSELECTION": {
+             "message": "zaznaczony tekst"
+        },
+        "SETTINGS_CUSTOMTAGS_LABEL": {
+             "message": "Nazwa elementu:"
+        },
+        "SETTINGS_CUSTOMTAGS_ACTION": {
+             "message": "Kod:"
+        },
+        "SAVE_TAG_ORDER": {
+             "message": "Save Custom Tag Order"
+        },
+        "ENTER_COLOR_HEX": {
+             "message": "ENTER FONT COLOR IN HEX"
+        },
+        "TAGS_BTNIMPORT_OVRT": {
+             "message": "Import Settings — \nPrzepisać"
+        },
+        "TAGS_BTNIMPORT_APPEND": {
+             "message": "Import Settings — \nDodać"
+        },
+        "TAGS_BTNIMPORT_BBCODEXTRA": {
+             "message": "Import Settings — \nDodać bbCodeXtra"
+        },
+                                                                                                                                                   }

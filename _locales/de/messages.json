@@ -1,721 +1,715 @@
-{
-     "bbcwbx.bbcode":  {
-          "message": "bbCode"
-     },
-     "bbcwbx.bbcode.clp":  {
-          "message": "Zwischenablage"
-     },
-     "bbcwbx.bbcode.clp.quote":  {
-          "message": "Zitieren"
-     },
-     "bbcwbx.bbcode.clp.code":  {
-          "message": "Code"
-     },
-     "bbcwbx.bbcode.clp.list":  {
-          "message": "Liste"
-     },
-     "bbcwbx.bbcode.clp.ordlist":  {
-          "message": "Geordnete Liste"
-     },
-     "bbcwbx.bbcode.clp.alphalist":  {
-          "message": "Alphabetische Liste"
-     },
-     "bbcwbx.bbcode.clp.spoiler":  {
-          "message": "Spoiler"
-     },
-     "bbcwbx.bbcode.clp.image":  {
-          "message": "Grafik"
-     },
-     "bbcwbx.bbcode.clp.mkurlsel":  {
-          "message": "URL aus Markierung erzeugen"
-     },
-     "bbcwbx.bbcode.clp.url":  {
-          "message": "URL"
-     },
-     "bbcwbx.bbcode.clp.urlname":  {
-          "message": "Benannte URL"
-     },
-     "bbcwbx.bbcode.wbx":  {
-          "message": "WebEx"
-     },
-     "bbcwbx.bbcode.wbx.quote":  {
-          "message": "Zitieren"
-     },
-     "bbcwbx.bbcode.wbx.code":  {
-          "message": "Code"
-     },
-     "bbcwbx.bbcode.wbx.list":  {
-          "message": "Liste"
-     },
-     "bbcwbx.bbcode.wbx.ordlist":  {
-          "message": "Geordnete Liste"
-     },
-     "bbcwbx.bbcode.wbx.alphalist":  {
-          "message": "Alphabetische Liste"
-     },
-     "bbcwbx.bbcode.wbx.spoiler":  {
-          "message": "Spoiler"
-     },
-     "bbcwbx.bbcode.wbx.fntcol":  {
-          "message": "Schriftfarbe"
-     },
-     "bbcwbx.bbcode.wbx.fntsz":  {
-          "message": "Schriftgrˆﬂe"
-     },
-     "bbcwbx.bbcode.wbx.urlname":  {
-          "message": "Benannte URL"
-     },
-     "bbcwbx.bbcode.wbx.urlwiz":  {
-          "message": "URL-Wizard"
-     },
-     "bbcwbx.bbcode.vbl":  {
-          "message": "VBulletin3"
-     },
-     "bbcwbx.bbcode.vbl.thd":  {
-          "message": "Thread"
-     },
-     "bbcwbx.bbcode.vbl.pst":  {
-          "message": "Post"
-     },
-     "bbcwbx.bbcode.vbl.alnlf":  {
-          "message": "Rechtsb¸ndig"
-     },
-     "bbcwbx.bbcode.vbl.alnrt":  {
-          "message": "Linksb¸ndig"
-     },
-     "bbcwbx.bbcode.vbl.ctr":  {
-          "message": "Zentrieren"
-     },
-     "bbcwbx.bbcode.vbl.indnt":  {
-          "message": "Einr¸cken"
-     },
-     "bbcwbx.bbcode.vbl.hilt":  {
-          "message": "Markieren"
-     },
-     "bbcwbx.bbcode.bold":  {
-          "message": "Fett"
-     },
-     "bbcwbx.bbcode.ital":  {
-          "message": "Kursiv"
-     },
-     "bbcwbx.bbcode.undrln":  {
-          "message": "Unterstrichen"
-     },
-     "bbcwbx.bbcode.img":  {
-          "message": "Grafik"
-     },
-     "bbcwbx.bbcode.url":  {
-          "message": "URL"
-     },
-     "bbcwbx.html":  {
-          "message": "HTML"
-     },
-     "bbcwbx.html.clp":  {
-          "message": "Zwischenablage"
-     },
-     "bbcwbx.html.clp.quote":  {
-          "message": "Zitieren"
-     },
-     "bbcwbx.html.clp.code":  {
-          "message": "Code"
-     },
-     "bbcwbx.html.clp.list":  {
-          "message": "Liste"
-     },
-     "bbcwbx.html.clp.ordlist":  {
-          "message": "Geordnete Liste"
-     },
-     "bbcwbx.html.clp.alphalist":  {
-          "message": "Alphabetische Liste"
-     },
-     "bbcwbx.html.clp.image":  {
-          "message": "Grafik"
-     },
-     "bbcwbx.html.clp.mkurlsel":  {
-          "message": "URL aus Markierung erzeugen"
-     },
-     "bbcwbx.html.clp.url":  {
-          "message": "URL"
-     },
-     "bbcwbx.html.clp.urlname":  {
-          "message": "Benannte URL"
-     },
-     "bbcwbx.html.wbx":  {
-          "message": "WebEx"
-     },
-     "bbcwbx.html.wbx.quote":  {
-          "message": "Zitieren"
-     },
-     "bbcwbx.html.wbx.code":  {
-          "message": "Code"
-     },
-     "bbcwbx.html.wbx.list":  {
-          "message": "Liste"
-     },
-     "bbcwbx.html.wbx.ordlist":  {
-          "message": "Geordnete Liste"
-     },
-     "bbcwbx.html.wbx.alphalist":  {
-          "message": "Alphabetische Liste"
-     },
-     "bbcwbx.html.wbx.urlname":  {
-          "message": "Benannte URL"
-     },
-     "bbcwbx.html.wbx.urlwiz":  {
-          "message": "URL-Wizard"
-     },
-     "bbcwbx.html.bold":  {
-          "message": "Fett"
-     },
-     "bbcwbx.html.ital":  {
-          "message": "Kursiv"
-     },
-     "bbcwbx.html.undrln":  {
-          "message": "Unterstrichen"
-     },
-     "bbcwbx.html.strk":  {
-          "message": "Durchgestrichen"
-     },
-     "bbcwbx.html.wbx.fntcol":  {
-          "message": "Schriftfarbe"
-     },
-     "bbcwbx.html.img":  {
-          "message": "Grafik"
-     },
-     "bbcwbx.html.url":  {
-          "message": "URL"
-     },
-     "bbcwbx.xhtml":  {
-          "message": "XHTML"
-     },
-     "bbcwbx.xhtml.clp":  {
-          "message": "Zwischenablage"
-     },
-     "bbcwbx.xhtml.clp.quote":  {
-          "message": "Zitieren"
-     },
-     "bbcwbx.xhtml.clp.code":  {
-          "message": "Code"
-     },
-     "bbcwbx.xhtml.clp.list":  {
-          "message": "Liste"
-     },
-     "bbcwbx.xhtml.clp.ordlist":  {
-          "message": "Geordnete Liste"
-     },
-     "bbcwbx.xhtml.clp.alphalist":  {
-          "message": "Alphabetische Liste"
-     },
-     "bbcwbx.xhtml.img":  {
-          "message": "Grafik"
-     },
-     "bbcwbx.xhtml.clp.mkurlsel":  {
-          "message": "URL aus Markierung erzeugen"
-     },
-     "bbcwbx.xhtml.clp.url":  {
-          "message": "URL"
-     },
-     "bbcwbx.xhtml.clp.urlname":  {
-          "message": "Benannte URL"
-     },
-     "bbcwbx.xhtml.wbx":  {
-          "message": "WebEx"
-     },
-     "bbcwbx.xhtml.wbx.quote":  {
-          "message": "Zitieren"
-     },
-     "bbcwbx.xhtml.wbx.code":  {
-          "message": "Code"
-     },
-     "bbcwbx.xhtml.wbx.list":  {
-          "message": "Liste"
-     },
-     "bbcwbx.xhtml.wbx.ordlist":  {
-          "message": "Geordnete Liste"
-     },
-     "bbcwbx.xhtml.wbx.alphalist":  {
-          "message": "Alphabetische Liste"
-     },
-     "bbcwbx.xhtml.wbx.urlname":  {
-          "message": "Benannte URL"
-     },
-     "bbcwbx.xhtml.wbx.urlwiz":  {
-          "message": "URL-Wizard"
-     },
-     "bbcwbx.xhtml.bold":  {
-          "message": "Fett"
-     },
-     "bbcwbx.xhtml.ital":  {
-          "message": "Kursiv"
-     },
-     "bbcwbx.xhtml.undrln":  {
-          "message": "Unterstrichen"
-     },
-     "bbcwbx.xhtml.strk":  {
-          "message": "Durchgestrichen"
-     },
-     "bbcwbx.xhtml.wbx.fntcol":  {
-          "message": "Schriftfarbe"
-     },
-     "bbcwbx.xhtml.image":  {
-          "message": "Grafik"
-     },
-     "bbcwbx.xhtml.url":  {
-          "message": "URL"
-     },
-     "bbcwbx.custom":  {
-          "message": "Eigene Tags"
-     },
-     "bbcwbx.mkdn":  {
-          "message": "Markdown"
-     },
-     "bbcwbx.mkdn.clp":  {
-          "message": "Zwischenablage"
-     },
-     "bbcwbx.mkdn.clp.quote":  {
-          "message": "Zitieren"
-     },
-     "bbcwbx.mkdn.clp.code":  {
-          "message": "Code"
-     },
-     "bbcwbx.mkdn.clp.list":  {
-          "message": "Liste"
-     },
-     "bbcwbx.mkdn.clp.ordlist":  {
-          "message": "Geordnete Liste"
-     },
-     "bbcwbx.mkdn.clp.mkurlsel":  {
-          "message": "URL aus Markierung erzeugen"
-     },
-     "bbcwbx.mkdn.clp.mkimgsel":  {
-          "message": "Make image from selection"
-     },
-     "bbcwbx.mkdn.clp.urlname":  {
-          "message": "Benannte URL"
-     },
-     "bbcwbx.mkdn.wbx":  {
-          "message": "WebEx"
-     },
-     "bbcwbx.mkdn.wbx.quote":  {
-          "message": "Zitieren"
-     },
-     "bbcwbx.mkdn.wbx.code":  {
-          "message": "Code"
-     },
-     "bbcwbx.mkdn.wbx.list":  {
-          "message": "Liste"
-     },
-     "bbcwbx.mkdn.wbx.ordlist":  {
-          "message": "Geordnete Liste"
-     },
-     "bbcwbx.mkdn.wbx.urlname":  {
-          "message": "Benannte URL"
-     },
-     "bbcwbx.mkdn.wbx.urlwiz":  {
-          "message": "URL-Wizard"
-     },
-     "bbcwbx.mkdn.bold":  {
-          "message": "Fett"
-     },
-     "bbcwbx.mkdn.ital":  {
-          "message": "Kursiv"
-     },
-     "bbcwbx.mkdn.strk":  {
-          "message": "Durchgestrichen"
-     },
-     "bbcwbx.sym":  {
-          "message": "Symbole"
-     },
-     "bbcwbx.sym.fraction":  {
-          "message": "Fraktionen"
-     },
-     "bbcwbx.sym.fraction.12":  {
-          "message": "Ω"
-     },
-     "bbcwbx.sym.fraction.13":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.fraction.23":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.fraction.14":  {
-          "message": "º"
-     },
-     "bbcwbx.sym.fraction.34":  {
-          "message": "æ"
-     },
-     "bbcwbx.sym.fraction.15":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.fraction.25":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.fraction.35":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.fraction.45":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.fraction.16":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.fraction.46":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.fraction.18":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.fraction.38":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.fraction.58":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.fraction.78":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.currency":  {
-          "message": "W‰hrung"
-     },
-     "bbcwbx.sym.currency.dollar":  {
-          "message": "$"
-     },
-     "bbcwbx.sym.currency.cent":  {
-          "message": "¢"
-     },
-     "bbcwbx.sym.currency.euro":  {
-          "message": "Ä"
-     },
-     "bbcwbx.sym.currency.gbp":  {
-          "message": "£"
-     },
-     "bbcwbx.sym.currency.yen":  {
-          "message": "•"
-     },
-     "bbcwbx.sym.currency.franc":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.currency.lira":  {
-          "message": "£"
-     },
-     "bbcwbx.sym.currency.yuan":  {
-          "message": "•CNY"
-     },
-     "bbcwbx.sym.currency.rupee":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.currency.rupee2":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.currency.thaibt":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.currency.won":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.sci":  {
-          "message": "Wissenschaft"
-     },
-     "bbcwbx.sym.sci.micro":  {
-          "message": "µ"
-     },
-     "bbcwbx.sym.sci.ohm":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.sci.sigma":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.sci.sqrt":  {
-          "message": "v"
-     },
-     "bbcwbx.sym.sci.infin":  {
-          "message": "8"
-     },
-     "bbcwbx.sym.sci.apprx":  {
-          "message": "ò"
-     },
-     "bbcwbx.sym.sci.neq":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.sci.lte":  {
-          "message": "="
-     },
-     "bbcwbx.sym.sci.gte":  {
-          "message": "="
-     },
-     "bbcwbx.sym.grk":  {
-          "message": "Griechisch"
-     },
-     "bbcwbx.sym.grk.pi":  {
-          "message": "p"
-     },
-     "bbcwbx.sym.grk.rho":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.grk.sgm":  {
-          "message": "s"
-     },
-     "bbcwbx.sym.grk.tau":  {
-          "message": "t"
-     },
-     "bbcwbx.sym.grk.chi":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.grk.psi":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.grk.omega":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.grk.comega":  {
-          "message": "T"
-     },
-     "bbcwbx.sym.grk.delta":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.grk.ldelta":  {
-          "message": "d"
-     },
-     "bbcwbx.sym.grk.lambda":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.grk.phi":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.grk.theta":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.dgre":  {
-          "message": "∞"
-     },
-     "bbcwbx.sym.cprt":  {
-          "message": "©"
-     },
-     "bbcwbx.sym.phontm":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.sm":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.tm":  {
-          "message": "ô"
-     },
-     "bbcwbx.sym.regtm":  {
-          "message": "Æ"
-     },
-     "bbcwbx.sym.phonrt":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.section":  {
-          "message": "ß"
-     },
-     "bbcwbx.sym.plumin":  {
-          "message": "±"
-     },
-     "bbcwbx.sym.elps":  {
-          "message": "Ö"
-     },
-     "bbcwbx.sym.emdash":  {
-          "message": "ó"
-     },
-     "bbcwbx.sym.dagger":  {
-          "message": "Ü"
-     },
-     "bbcwbx.sym.dubdagger":  {
-          "message": "á"
-     },
-     "bbcwbx.sym.permil":  {
-          "message": "â"
-     },
-     "INS_AUTHOR": {
-          "message": "Bitte den Autorennamen eingeben oder leer lassen:"
-     },
-     "INS_LINKNAME": {
-          "message": "Bitte den Linknamen eingeben:"
-     },
-     "INS_FONTSIZE": {
-          "message": "Bitte die Schriftgrˆﬂe eingeben:"
-     },
-     "INS_FONTCOLOR": {
-          "message": "Bitte die Textfarbe eingeben:"
-     },
-     "URLCOMPOSTO_STEP1": {
-          "message": "Linkname?"
-     },
-     "URLCOMPOSTO_STEP2": {
-          "message": "Link?"
-     },
-     "INS_THREADNUM": {
-          "message": "Bitte die Threadnummer eingeben:"
-     },
-     "INS_POSTNUM": {
-          "message": "Bitte die Postnummer eingeben:"
-     },
-     "MENU_NO_CUSTOM_TAGS ": {
-          "message": " Keine eigene Tags festgelegt"
-     },
-     "MENU_DISABLE ": {
-          "message": "Dieses Men¸ deaktivieren"
-     },
-     "MENU_SETTINGS ": {
-          "message": "bbCodeWebex - EinstellungenÖ"
-     },
-     "DELETE_CUSTOMTAG": {
-          "message": "Mˆchten Sie diesen Eintrag entfernen?"
-     },
-     "WINDOWTITLE_EDITCUSTOMTAG ": {
-          "message": "Eigenen Tag bearbeiten"
-     },
-     "WINDOWTITLE_NEWCUSTOMTAG ": {
-          "message": "Neuen eigenen Tag hinzuf¸gen"
-     },
-     "ALERT_REORDER_TITLE ": {
-          "message": "Reorder Custom Tags"
-     },
-     "ALERT_REORDER_TEXT ": {
-          "message": "Custom tags will be arranged in alphabetical order. "
-     },
-     "WINDOWTITLE_EXPORT ": {
-          "message": "Choose export file"
-     },
-     "WINDOWTITLE_IMPORT ": {
-          "message": "Choose import file"
-     },
-     "ALERT_IMPORT_TITLE ": {
-          "message": "Importeinstellungen"
-     },
-     "ALERT_IMPORT_TEXT ": {
-          "message": "Dadurch werden alle vorhandenen Einstellungen ¸berschrieben. Bist du sicher?"
-     },
-     "ALERT_IMPORT_COMPLETED ": {
-          "message": "Vorgang abgeschlossen"
-     },
-     "description": {
-          "message": "F¸gt Befehle zur Formatierung mit BBCode/HTML/XHTML/Vbulletin/Markup dem Kontextmen¸ hinzu"
-     },
-     "name": {
-          "message": "bbCodeWebex"
-     },
-     "SETTINGSMENU": {
-          "message": "bbCodeWebex - EinstellungenÖ"
-     },
-     "DISABLEMENU": {
-          "message": "Dieses Men¸ deaktivieren"
-     },
-     "PICKCOLOR_TITLE": {
-          "message": "Farbe ausw‰hlen"
-     },
-     "PICKCOLOR_DESCRIPTION": {
-          "message": "Schriftfarbe aus der Liste w‰hlen"
-     },
-     "PICKCOLOR_LASTCOLOR": {
-          "message": "Letzte verwendete Farbe :"
-     },
-     "SETTINGS_TITLE": {
-          "message": "bbCodeWebex - Einstellungen"
-     },
-     "SETTINGS_MENU": {
-          "message": "Men¸s"
-     },
-     "SETTINGS_CUSTOMTAGS": {
-          "message": "Eigene Tags"
-     },
-     "SETTINGS_MENU_DESCRIPTION": {
-          "message": "Im Kontextmen¸ anzuzeigende Eintr‰ge ausw‰hlen"
-     },
-     "SETTINGS_MENU_ENABLEBBCODE": {
-          "message": "BBCode-Men¸ aktivieren"
-     },
-     "SETTINGS_MENU_ENABLEBBCODE_VBULLETIN": {
-          "message": "VBulletin-Untermen¸ aktivieren"
-     },
-     "SETTINGS_MENU_ENABLEHTML": {
-          "message": "HTML-Men¸ aktivieren"
-     },
-     "SETTINGS_MENU_ENABLEXHTML": {
-          "message": "XHTML-Men¸ aktivieren"
-     },
-     "SETTINGS_MENU_ENABLEMARKDOWN": {
-          "message": "Markdown-Men¸ aktivieren"
-     },
-     "SETTINGS_MENU_ENABLECUSTOM": {
-          "message": "Men¸ &quot;Eigene Tags&quot; aktivieren"
-     },
-     "SETTINGS_MANAGESETTINGS": {
-          "message": "Einstellungen verwalten"
-     },
-     "SETTINGS_BACKUPDESCRIPTION": {
-          "message": "WARNING: importing settings will overwrite all existing settings."
-     },
-     "SETTINGS_BTNIMPORT": {
-          "message": "ImporteinstellungenÖ"
-     },
-     "SETTINGS_BTNEXPORT": {
-          "message": "Exporteinstellungen"
-     },
-     "SETTINGS_CUSTOMTAGS_TOTALTAGS": {
-          "message": "Verf¸gbare eigene Tags:"
-     },
-     "SETTINGS_CUSTOMTAGS_BTNADD": {
-          "message": "Hinzuf¸genÖ"
-     },
-     "SETTINGS_CUSTOMTAGS_BTNEDIT": {
-          "message": "BearbeitenÖ"
-     },
-     "SETTINGS_CUSTOMTAGS_BTNDELETE": {
-          "message": "LˆschenÖ"
-     },
-     "SETTINGS_CUSTOMTAGS_MOVEUP": {
-          "message": "Nach oben"
-     },
-     "SETTINGS_CUSTOMTAGS_MOVEDOWN": {
-          "message": "Nach unten"
-     },
-     "SETTINGS_CUSTOMTAGS_SORTALPHA": {
-          "message": "Sort alphabetically"
-     },
-     "SETTINGS_CUSTOMTAGS_MOREINFO": {
-          "message": "Mehr Informationen und Beispiele"
-     },
-     "SETTINGS_CUSTOMTAGS_VARIABLES": {
-          "message": "Verf¸gbare Variabeln"
-     },
-     "SETTINGS_CUSTOMTAGS_VARCLIPBOARD": {
-          "message": "Inhalt der Zwischenablage"
-     },
-     "SETTINGS_CUSTOMTAGS_VARSELECTION": {
-          "message": "Markierter Text"
-     },
-     "SETTINGS_CUSTOMTAGS_LABEL": {
-          "message": "Name des Eintrags:"
-     },
-     "SETTINGS_CUSTOMTAGS_ACTION": {
-          "message": "Code:"
-     },
-     "SAVE_TAG_ORDER": {
-          "message": "Save Custom Tag Order"
-     },
-     "ENTER_COLOR_HEX": {
-          "message": "ENTER FONT COLOR IN HEX"
-     },
-     "TAGS_BTNIMPORT_OVRT": {
-          "message": "Importeinstellungen ó \n‹berschreiben"
-     },
-     "TAGS_BTNIMPORT_APPEND": {
-          "message": "Importeinstellungen ó \nAnh‰ngen"
-     },
-     "TAGS_BTNIMPORT_BBCODEXTRA": {
-          "message": "Importeinstellungen ó \nAnh‰ngen bbCodeXtra"
-     },
-}
 
+C:\Users\msaroff\Documents\GitHub\bbCodeWebEx>rem this is simply a way to call lynx in a simplified manner 
 
+C:\Users\msaroff\Documents\GitHub\bbCodeWebEx>C:\Users\msaroff\Documents\github\bbcodewebex\Lynx\lynx.exe -dump -width 300 -cfg=C:\Users\msaroff\Documents\github\bbcodewebex\lynx\lynx.cfg C:\Moo\bbCodeWebex_Temp\de.htm  
 
-
-
-
-
-
-
-
-
+                                                                                                                                                   {
+        "bbcwbx.bbcode":  {
+             "message": "bbCode"
+        },
+        "bbcwbx.bbcode.clp":  {
+             "message": "Zwischenablage"
+        },
+        "bbcwbx.bbcode.clp.quote":  {
+             "message": "Zitieren"
+        },
+        "bbcwbx.bbcode.clp.code":  {
+             "message": "Code"
+        },
+        "bbcwbx.bbcode.clp.list":  {
+             "message": "Liste"
+        },
+        "bbcwbx.bbcode.clp.ordlist":  {
+             "message": "Geordnete Liste"
+        },
+        "bbcwbx.bbcode.clp.alphalist":  {
+             "message": "Alphabetische Liste"
+        },
+        "bbcwbx.bbcode.clp.spoiler":  {
+             "message": "Spoiler"
+        },
+        "bbcwbx.bbcode.clp.image":  {
+             "message": "Grafik"
+        },
+        "bbcwbx.bbcode.clp.mkurlsel":  {
+             "message": "URL aus Markierung erzeugen"
+        },
+        "bbcwbx.bbcode.clp.url":  {
+             "message": "URL"
+        },
+        "bbcwbx.bbcode.clp.urlname":  {
+             "message": "Benannte URL"
+        },
+        "bbcwbx.bbcode.wbx":  {
+             "message": "WebEx"
+        },
+        "bbcwbx.bbcode.wbx.quote":  {
+             "message": "Zitieren"
+        },
+        "bbcwbx.bbcode.wbx.code":  {
+             "message": "Code"
+        },
+        "bbcwbx.bbcode.wbx.list":  {
+             "message": "Liste"
+        },
+        "bbcwbx.bbcode.wbx.ordlist":  {
+             "message": "Geordnete Liste"
+        },
+        "bbcwbx.bbcode.wbx.alphalist":  {
+             "message": "Alphabetische Liste"
+        },
+        "bbcwbx.bbcode.wbx.spoiler":  {
+             "message": "Spoiler"
+        },
+        "bbcwbx.bbcode.wbx.fntcol":  {
+             "message": "Schriftfarbe"
+        },
+        "bbcwbx.bbcode.wbx.fntsz":  {
+             "message": "Schriftgr√∂√üe"
+        },
+        "bbcwbx.bbcode.wbx.urlname":  {
+             "message": "Benannte URL"
+        },
+        "bbcwbx.bbcode.wbx.urlwiz":  {
+             "message": "URL-Wizard"
+        },
+        "bbcwbx.bbcode.vbl":  {
+             "message": "VBulletin3"
+        },
+        "bbcwbx.bbcode.vbl.thd":  {
+             "message": "Thread"
+        },
+        "bbcwbx.bbcode.vbl.pst":  {
+             "message": "Post"
+        },
+        "bbcwbx.bbcode.vbl.alnlf":  {
+             "message": "Rechtsb√ºndig"
+        },
+        "bbcwbx.bbcode.vbl.alnrt":  {
+             "message": "Linksb√ºndig"
+        },
+        "bbcwbx.bbcode.vbl.ctr":  {
+             "message": "Zentrieren"
+        },
+        "bbcwbx.bbcode.vbl.indnt":  {
+             "message": "Einr√ºcken"
+        },
+        "bbcwbx.bbcode.vbl.hilt":  {
+             "message": "Markieren"
+        },
+        "bbcwbx.bbcode.bold":  {
+             "message": "Fett"
+        },
+        "bbcwbx.bbcode.ital":  {
+             "message": "Kursiv"
+        },
+        "bbcwbx.bbcode.undrln":  {
+             "message": "Unterstrichen"
+        },
+        "bbcwbx.bbcode.img":  {
+             "message": "Grafik"
+        },
+        "bbcwbx.bbcode.url":  {
+             "message": "URL"
+        },
+        "bbcwbx.html":  {
+             "message": "HTML"
+        },
+        "bbcwbx.html.clp":  {
+             "message": "Zwischenablage"
+        },
+        "bbcwbx.html.clp.quote":  {
+             "message": "Zitieren"
+        },
+        "bbcwbx.html.clp.code":  {
+             "message": "Code"
+        },
+        "bbcwbx.html.clp.list":  {
+             "message": "Liste"
+        },
+        "bbcwbx.html.clp.ordlist":  {
+             "message": "Geordnete Liste"
+        },
+        "bbcwbx.html.clp.alphalist":  {
+             "message": "Alphabetische Liste"
+        },
+        "bbcwbx.html.clp.image":  {
+             "message": "Grafik"
+        },
+        "bbcwbx.html.clp.mkurlsel":  {
+             "message": "URL aus Markierung erzeugen"
+        },
+        "bbcwbx.html.clp.url":  {
+             "message": "URL"
+        },
+        "bbcwbx.html.clp.urlname":  {
+             "message": "Benannte URL"
+        },
+        "bbcwbx.html.wbx":  {
+             "message": "WebEx"
+        },
+        "bbcwbx.html.wbx.quote":  {
+             "message": "Zitieren"
+        },
+        "bbcwbx.html.wbx.code":  {
+             "message": "Code"
+        },
+        "bbcwbx.html.wbx.list":  {
+             "message": "Liste"
+        },
+        "bbcwbx.html.wbx.ordlist":  {
+             "message": "Geordnete Liste"
+        },
+        "bbcwbx.html.wbx.alphalist":  {
+             "message": "Alphabetische Liste"
+        },
+        "bbcwbx.html.wbx.urlname":  {
+             "message": "Benannte URL"
+        },
+        "bbcwbx.html.wbx.urlwiz":  {
+             "message": "URL-Wizard"
+        },
+        "bbcwbx.html.bold":  {
+             "message": "Fett"
+        },
+        "bbcwbx.html.ital":  {
+             "message": "Kursiv"
+        },
+        "bbcwbx.html.undrln":  {
+             "message": "Unterstrichen"
+        },
+        "bbcwbx.html.strk":  {
+             "message": "Durchgestrichen"
+        },
+        "bbcwbx.html.wbx.fntcol":  {
+             "message": "Schriftfarbe"
+        },
+        "bbcwbx.html.img":  {
+             "message": "Grafik"
+        },
+        "bbcwbx.html.url":  {
+             "message": "URL"
+        },
+        "bbcwbx.xhtml":  {
+             "message": "XHTML"
+        },
+        "bbcwbx.xhtml.clp":  {
+             "message": "Zwischenablage"
+        },
+        "bbcwbx.xhtml.clp.quote":  {
+             "message": "Zitieren"
+        },
+        "bbcwbx.xhtml.clp.code":  {
+             "message": "Code"
+        },
+        "bbcwbx.xhtml.clp.list":  {
+             "message": "Liste"
+        },
+        "bbcwbx.xhtml.clp.ordlist":  {
+             "message": "Geordnete Liste"
+        },
+        "bbcwbx.xhtml.clp.alphalist":  {
+             "message": "Alphabetische Liste"
+        },
+        "bbcwbx.xhtml.img":  {
+             "message": "Grafik"
+        },
+        "bbcwbx.xhtml.clp.mkurlsel":  {
+             "message": "URL aus Markierung erzeugen"
+        },
+        "bbcwbx.xhtml.clp.url":  {
+             "message": "URL"
+        },
+        "bbcwbx.xhtml.clp.urlname":  {
+             "message": "Benannte URL"
+        },
+        "bbcwbx.xhtml.wbx":  {
+             "message": "WebEx"
+        },
+        "bbcwbx.xhtml.wbx.quote":  {
+             "message": "Zitieren"
+        },
+        "bbcwbx.xhtml.wbx.code":  {
+             "message": "Code"
+        },
+        "bbcwbx.xhtml.wbx.list":  {
+             "message": "Liste"
+        },
+        "bbcwbx.xhtml.wbx.ordlist":  {
+             "message": "Geordnete Liste"
+        },
+        "bbcwbx.xhtml.wbx.alphalist":  {
+             "message": "Alphabetische Liste"
+        },
+        "bbcwbx.xhtml.wbx.urlname":  {
+             "message": "Benannte URL"
+        },
+        "bbcwbx.xhtml.wbx.urlwiz":  {
+             "message": "URL-Wizard"
+        },
+        "bbcwbx.xhtml.bold":  {
+             "message": "Fett"
+        },
+        "bbcwbx.xhtml.ital":  {
+             "message": "Kursiv"
+        },
+        "bbcwbx.xhtml.undrln":  {
+             "message": "Unterstrichen"
+        },
+        "bbcwbx.xhtml.strk":  {
+             "message": "Durchgestrichen"
+        },
+        "bbcwbx.xhtml.wbx.fntcol":  {
+             "message": "Schriftfarbe"
+        },
+        "bbcwbx.xhtml.image":  {
+             "message": "Grafik"
+        },
+        "bbcwbx.xhtml.url":  {
+             "message": "URL"
+        },
+        "bbcwbx.custom":  {
+             "message": "Eigene Tags"
+        },
+        "bbcwbx.mkdn":  {
+             "message": "Markdown"
+        },
+        "bbcwbx.mkdn.clp":  {
+             "message": "Zwischenablage"
+        },
+        "bbcwbx.mkdn.clp.quote":  {
+             "message": "Zitieren"
+        },
+        "bbcwbx.mkdn.clp.code":  {
+             "message": "Code"
+        },
+        "bbcwbx.mkdn.clp.list":  {
+             "message": "Liste"
+        },
+        "bbcwbx.mkdn.clp.ordlist":  {
+             "message": "Geordnete Liste"
+        },
+        "bbcwbx.mkdn.clp.mkurlsel":  {
+             "message": "URL aus Markierung erzeugen"
+        },
+        "bbcwbx.mkdn.clp.mkimgsel":  {
+             "message": "Make image from selection"
+        },
+        "bbcwbx.mkdn.clp.urlname":  {
+             "message": "Benannte URL"
+        },
+        "bbcwbx.mkdn.wbx":  {
+             "message": "WebEx"
+        },
+        "bbcwbx.mkdn.wbx.quote":  {
+             "message": "Zitieren"
+        },
+        "bbcwbx.mkdn.wbx.code":  {
+             "message": "Code"
+        },
+        "bbcwbx.mkdn.wbx.list":  {
+             "message": "Liste"
+        },
+        "bbcwbx.mkdn.wbx.ordlist":  {
+             "message": "Geordnete Liste"
+        },
+        "bbcwbx.mkdn.wbx.urlname":  {
+             "message": "Benannte URL"
+        },
+        "bbcwbx.mkdn.wbx.urlwiz":  {
+             "message": "URL-Wizard"
+        },
+        "bbcwbx.mkdn.bold":  {
+             "message": "Fett"
+        },
+        "bbcwbx.mkdn.ital":  {
+             "message": "Kursiv"
+        },
+        "bbcwbx.mkdn.strk":  {
+             "message": "Durchgestrichen"
+        },
+        "bbcwbx.sym":  {
+             "message": "Symbole"
+        },
+        "bbcwbx.sym.fraction":  {
+             "message": "Fraktionen"
+        },
+        "bbcwbx.sym.fraction.12":  {
+             "message": "¬Ω"
+        },
+        "bbcwbx.sym.fraction.13":  {
+             "message": "‚Öì"
+        },
+        "bbcwbx.sym.fraction.23":  {
+             "message": "‚Öî"
+        },
+        "bbcwbx.sym.fraction.14":  {
+             "message": "¬º"
+        },
+        "bbcwbx.sym.fraction.34":  {
+             "message": "¬æ"
+        },
+        "bbcwbx.sym.fraction.15":  {
+             "message": "‚Öï"
+        },
+        "bbcwbx.sym.fraction.25":  {
+             "message": "‚Öñ"
+        },
+        "bbcwbx.sym.fraction.35":  {
+             "message": "‚Öó"
+        },
+        "bbcwbx.sym.fraction.45":  {
+             "message": "‚Öò"
+        },
+        "bbcwbx.sym.fraction.16":  {
+             "message": "‚Öô"
+        },
+        "bbcwbx.sym.fraction.46":  {
+             "message": "‚Öö"
+        },
+        "bbcwbx.sym.fraction.18":  {
+             "message": "‚Öõ"
+        },
+        "bbcwbx.sym.fraction.38":  {
+             "message": "‚Öú"
+        },
+        "bbcwbx.sym.fraction.58":  {
+             "message": "‚Öù"
+        },
+        "bbcwbx.sym.fraction.78":  {
+             "message": "‚Öû"
+        },
+        "bbcwbx.sym.currency":  {
+             "message": "W√§hrung"
+        },
+        "bbcwbx.sym.currency.dollar":  {
+             "message": "$"
+        },
+        "bbcwbx.sym.currency.cent":  {
+             "message": "¬¢"
+        },
+        "bbcwbx.sym.currency.euro":  {
+             "message": "‚Ç¨"
+        },
+        "bbcwbx.sym.currency.gbp":  {
+             "message": "¬£"
+        },
+        "bbcwbx.sym.currency.yen":  {
+             "message": "¬•"
+        },
+        "bbcwbx.sym.currency.franc":  {
+             "message": "‚Ç£"
+        },
+        "bbcwbx.sym.currency.lira":  {
+             "message": "‚Ç§"
+        },
+        "bbcwbx.sym.currency.yuan":  {
+             "message": "¬•CNY"
+        },
+        "bbcwbx.sym.currency.rupee":  {
+             "message": "‚Ç®"
+        },
+        "bbcwbx.sym.currency.rupee2":  {
+             "message": "‚Çπ"
+        },
+        "bbcwbx.sym.currency.thaibt":  {
+             "message": "‡∏ø"
+        },
+        "bbcwbx.sym.currency.won":  {
+             "message": "‚Ç©"
+        },
+        "bbcwbx.sym.sci":  {
+             "message": "Wissenschaft"
+        },
+        "bbcwbx.sym.sci.micro":  {
+             "message": "¬µ"
+        },
+        "bbcwbx.sym.sci.ohm":  {
+             "message": "‚Ñ¶"
+        },
+        "bbcwbx.sym.sci.sigma":  {
+             "message": "‚àë"
+        },
+        "bbcwbx.sym.sci.sqrt":  {
+             "message": "‚àö"
+        },
+        "bbcwbx.sym.sci.infin":  {
+             "message": "‚àû"
+        },
+        "bbcwbx.sym.sci.apprx":  {
+             "message": "‚âà"
+        },
+        "bbcwbx.sym.sci.neq":  {
+             "message": "‚â†"
+        },
+        "bbcwbx.sym.sci.lte":  {
+             "message": "‚â§"
+        },
+        "bbcwbx.sym.sci.gte":  {
+             "message": "‚â•"
+        },
+        "bbcwbx.sym.grk":  {
+             "message": "Griechisch"
+        },
+        "bbcwbx.sym.grk.pi":  {
+             "message": "œÄ"
+        },
+        "bbcwbx.sym.grk.rho":  {
+             "message": "œÅ"
+        },
+        "bbcwbx.sym.grk.sgm":  {
+             "message": "œÉ"
+        },
+        "bbcwbx.sym.grk.tau":  {
+             "message": "œÑ"
+        },
+        "bbcwbx.sym.grk.chi":  {
+             "message": "œá"
+        },
+        "bbcwbx.sym.grk.psi":  {
+             "message": "œà"
+        },
+        "bbcwbx.sym.grk.omega":  {
+             "message": "œâ"
+        },
+        "bbcwbx.sym.grk.comega":  {
+             "message": "Œò"
+        },
+        "bbcwbx.sym.grk.delta":  {
+             "message": "Œî"
+        },
+        "bbcwbx.sym.grk.ldelta":  {
+             "message": "Œ¥"
+        },
+        "bbcwbx.sym.grk.lambda":  {
+             "message": "Œª"
+        },
+        "bbcwbx.sym.grk.phi":  {
+             "message": "…∏"
+        },
+        "bbcwbx.sym.grk.theta":  {
+             "message": "œ¥"
+        },
+        "bbcwbx.sym.dgre":  {
+             "message": "¬∞"
+        },
+        "bbcwbx.sym.cprt":  {
+             "message": "¬©"
+        },
+        "bbcwbx.sym.phontm":  {
+             "message": "‚Ñó"
+        },
+        "bbcwbx.sym.sm":  {
+             "message": "‚Ñ†"
+        },
+        "bbcwbx.sym.tm":  {
+             "message": "‚Ñ¢"
+        },
+        "bbcwbx.sym.regtm":  {
+             "message": "¬Æ"
+        },
+        "bbcwbx.sym.phonrt":  {
+             "message": "‚Ñó"
+        },
+        "bbcwbx.sym.section":  {
+             "message": "¬ß"
+        },
+        "bbcwbx.sym.plumin":  {
+             "message": "¬±"
+        },
+        "bbcwbx.sym.elps":  {
+             "message": "‚Ä¶"
+        },
+        "bbcwbx.sym.emdash":  {
+             "message": "‚Äî"
+        },
+        "bbcwbx.sym.dagger":  {
+             "message": "‚Ä†"
+        },
+        "bbcwbx.sym.dubdagger":  {
+             "message": "‚Ä°"
+        },
+        "bbcwbx.sym.permil":  {
+             "message": "‚Ä∞"
+        },
+        "INS_AUTHOR": {
+             "message": "Bitte den Autorennamen eingeben oder leer lassen:"
+        },
+        "INS_LINKNAME": {
+             "message": "Bitte den Linknamen eingeben:"
+        },
+        "INS_FONTSIZE": {
+             "message": "Bitte die Schriftgr√∂√üe eingeben:"
+        },
+        "INS_FONTCOLOR": {
+             "message": "Bitte die Textfarbe eingeben:"
+        },
+        "URLCOMPOSTO_STEP1": {
+             "message": "Linkname?"
+        },
+        "URLCOMPOSTO_STEP2": {
+             "message": "Link?"
+        },
+        "INS_THREADNUM": {
+             "message": "Bitte die Threadnummer eingeben:"
+        },
+        "INS_POSTNUM": {
+             "message": "Bitte die Postnummer eingeben:"
+        },
+        "MENU_NO_CUSTOM_TAGS ": {
+             "message": " Keine eigene Tags festgelegt"
+        },
+        "MENU_DISABLE ": {
+             "message": "Dieses Men√º deaktivieren"
+        },
+        "MENU_SETTINGS ": {
+             "message": "bbCodeWebex - Einstellungen‚Ä¶"
+        },
+        "DELETE_CUSTOMTAG": {
+             "message": "M√∂chten Sie diesen Eintrag entfernen?"
+        },
+        "WINDOWTITLE_EDITCUSTOMTAG ": {
+             "message": "Eigenen Tag bearbeiten"
+        },
+        "WINDOWTITLE_NEWCUSTOMTAG ": {
+             "message": "Neuen eigenen Tag hinzuf√ºgen"
+        },
+        "ALERT_REORDER_TITLE ": {
+             "message": "Reorder Custom Tags"
+        },
+        "ALERT_REORDER_TEXT ": {
+             "message": "Custom tags will be arranged in alphabetical order. "
+        },
+        "WINDOWTITLE_EXPORT ": {
+             "message": "Choose export file"
+        },
+        "WINDOWTITLE_IMPORT ": {
+             "message": "Choose import file"
+        },
+        "ALERT_IMPORT_TITLE ": {
+             "message": "Importeinstellungen"
+        },
+        "ALERT_IMPORT_TEXT ": {
+             "message": "Dadurch werden alle vorhandenen Einstellungen √ºberschrieben. Bist du sicher?"
+        },
+        "ALERT_IMPORT_COMPLETED ": {
+             "message": "Vorgang abgeschlossen"
+        },
+        "description": {
+             "message": "F√ºgt Befehle zur Formatierung mit BBCode/HTML/XHTML/Vbulletin/Markup dem Kontextmen√º hinzu"
+        },
+        "name": {
+             "message": "bbCodeWebex"
+        },
+        "SETTINGSMENU": {
+             "message": "bbCodeWebex - Einstellungen‚Ä¶"
+        },
+        "DISABLEMENU": {
+             "message": "Dieses Men√º deaktivieren"
+        },
+        "PICKCOLOR_TITLE": {
+             "message": "Farbe ausw√§hlen"
+        },
+        "PICKCOLOR_DESCRIPTION": {
+             "message": "Schriftfarbe aus der Liste w√§hlen"
+        },
+        "PICKCOLOR_LASTCOLOR": {
+             "message": "Letzte verwendete Farbe :"
+        },
+        "SETTINGS_TITLE": {
+             "message": "bbCodeWebex - Einstellungen"
+        },
+        "SETTINGS_MENU": {
+             "message": "Men√ºs"
+        },
+        "SETTINGS_CUSTOMTAGS": {
+             "message": "Eigene Tags"
+        },
+        "SETTINGS_MENU_DESCRIPTION": {
+             "message": "Im Kontextmen√º anzuzeigende Eintr√§ge ausw√§hlen"
+        },
+        "SETTINGS_MENU_ENABLEBBCODE": {
+             "message": "BBCode-Men√º aktivieren"
+        },
+        "SETTINGS_MENU_ENABLEBBCODE_VBULLETIN": {
+             "message": "VBulletin-Untermen√º aktivieren"
+        },
+        "SETTINGS_MENU_ENABLEHTML": {
+             "message": "HTML-Men√º aktivieren"
+        },
+        "SETTINGS_MENU_ENABLEXHTML": {
+             "message": "XHTML-Men√º aktivieren"
+        },
+        "SETTINGS_MENU_ENABLEMARKDOWN": {
+             "message": "Markdown-Men√º aktivieren"
+        },
+        "SETTINGS_MENU_ENABLECUSTOM": {
+             "message": "Men√º &quot;Eigene Tags&quot; aktivieren"
+        },
+        "SETTINGS_MANAGESETTINGS": {
+             "message": "Einstellungen verwalten"
+        },
+        "SETTINGS_BACKUPDESCRIPTION": {
+             "message": "WARNING: importing settings will overwrite all existing settings."
+        },
+        "SETTINGS_BTNIMPORT": {
+             "message": "Importeinstellungen‚Ä¶"
+        },
+        "SETTINGS_BTNEXPORT": {
+             "message": "Exporteinstellungen"
+        },
+        "SETTINGS_CUSTOMTAGS_TOTALTAGS": {
+             "message": "Verf√ºgbare eigene Tags:"
+        },
+        "SETTINGS_CUSTOMTAGS_BTNADD": {
+             "message": "Hinzuf√ºgen‚Ä¶"
+        },
+        "SETTINGS_CUSTOMTAGS_BTNEDIT": {
+             "message": "Bearbeiten‚Ä¶"
+        },
+        "SETTINGS_CUSTOMTAGS_BTNDELETE": {
+             "message": "L√∂schen‚Ä¶"
+        },
+        "SETTINGS_CUSTOMTAGS_MOVEUP": {
+             "message": "Nach oben"
+        },
+        "SETTINGS_CUSTOMTAGS_MOVEDOWN": {
+             "message": "Nach unten"
+        },
+        "SETTINGS_CUSTOMTAGS_SORTALPHA": {
+             "message": "Sort alphabetically"
+        },
+        "SETTINGS_CUSTOMTAGS_MOREINFO": {
+             "message": "Mehr Informationen und Beispiele"
+        },
+        "SETTINGS_CUSTOMTAGS_VARIABLES": {
+             "message": "Verf√ºgbare Variabeln"
+        },
+        "SETTINGS_CUSTOMTAGS_VARCLIPBOARD": {
+             "message": "Inhalt der Zwischenablage"
+        },
+        "SETTINGS_CUSTOMTAGS_VARSELECTION": {
+             "message": "Markierter Text"
+        },
+        "SETTINGS_CUSTOMTAGS_LABEL": {
+             "message": "Name des Eintrags:"
+        },
+        "SETTINGS_CUSTOMTAGS_ACTION": {
+             "message": "Code:"
+        },
+        "SAVE_TAG_ORDER": {
+             "message": "Save Custom Tag Order"
+        },
+        "ENTER_COLOR_HEX": {
+             "message": "ENTER FONT COLOR IN HEX"
+        },
+        "TAGS_BTNIMPORT_OVRT": {
+             "message": "Importeinstellungen ‚Äî \n√úberschreiben"
+        },
+        "TAGS_BTNIMPORT_APPEND": {
+             "message": "Importeinstellungen ‚Äî \nAnh√§ngen"
+        },
+        "TAGS_BTNIMPORT_BBCODEXTRA": {
+             "message": "Importeinstellungen ‚Äî \nAnh√§ngen bbCodeXtra"
+        },
+                                                                                                                                                   }

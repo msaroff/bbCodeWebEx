@@ -1,721 +1,715 @@
-{
-     "bbcwbx.bbcode":  {
-          "message": "bbCode"
-     },
-     "bbcwbx.bbcode.clp":  {
-          "message": "??? ??????"
-     },
-     "bbcwbx.bbcode.clp.quote":  {
-          "message": "?????"
-     },
-     "bbcwbx.bbcode.clp.code":  {
-          "message": "???"
-     },
-     "bbcwbx.bbcode.clp.list":  {
-          "message": "?????"
-     },
-     "bbcwbx.bbcode.clp.ordlist":  {
-          "message": "????? ??????"
-     },
-     "bbcwbx.bbcode.clp.alphalist":  {
-          "message": "????? ????????"
-     },
-     "bbcwbx.bbcode.clp.spoiler":  {
-          "message": "Spoiler"
-     },
-     "bbcwbx.bbcode.clp.image":  {
-          "message": "?????"
-     },
-     "bbcwbx.bbcode.clp.mkurlsel":  {
-          "message": "????? ????? ???????"
-     },
-     "bbcwbx.bbcode.clp.url":  {
-          "message": "????? ???????"
-     },
-     "bbcwbx.bbcode.clp.urlname":  {
-          "message": "????? ??????? ?? ??"
-     },
-     "bbcwbx.bbcode.wbx":  {
-          "message": "WebEx"
-     },
-     "bbcwbx.bbcode.wbx.quote":  {
-          "message": "?????"
-     },
-     "bbcwbx.bbcode.wbx.code":  {
-          "message": "???"
-     },
-     "bbcwbx.bbcode.wbx.list":  {
-          "message": "?????"
-     },
-     "bbcwbx.bbcode.wbx.ordlist":  {
-          "message": "????? ??????"
-     },
-     "bbcwbx.bbcode.wbx.alphalist":  {
-          "message": "????? ????????"
-     },
-     "bbcwbx.bbcode.wbx.spoiler":  {
-          "message": "Spoiler"
-     },
-     "bbcwbx.bbcode.wbx.fntcol":  {
-          "message": "??? ????"
-     },
-     "bbcwbx.bbcode.wbx.fntsz":  {
-          "message": "???? ????"
-     },
-     "bbcwbx.bbcode.wbx.urlname":  {
-          "message": "????? ??????? ?? ??"
-     },
-     "bbcwbx.bbcode.wbx.urlwiz":  {
-          "message": "??? ????? ???????"
-     },
-     "bbcwbx.bbcode.vbl":  {
-          "message": "VBulletin3"
-     },
-     "bbcwbx.bbcode.vbl.thd":  {
-          "message": "?????"
-     },
-     "bbcwbx.bbcode.vbl.pst":  {
-          "message": "?????"
-     },
-     "bbcwbx.bbcode.vbl.alnlf":  {
-          "message": "????? ?????"
-     },
-     "bbcwbx.bbcode.vbl.alnrt":  {
-          "message": "????? ?????"
-     },
-     "bbcwbx.bbcode.vbl.ctr":  {
-          "message": "????"
-     },
-     "bbcwbx.bbcode.vbl.indnt":  {
-          "message": "????? ?????"
-     },
-     "bbcwbx.bbcode.vbl.hilt":  {
-          "message": "?????"
-     },
-     "bbcwbx.bbcode.bold":  {
-          "message": "????"
-     },
-     "bbcwbx.bbcode.ital":  {
-          "message": "????"
-     },
-     "bbcwbx.bbcode.undrln":  {
-          "message": "????? (?? ?????)"
-     },
-     "bbcwbx.bbcode.img":  {
-          "message": "?????"
-     },
-     "bbcwbx.bbcode.url":  {
-          "message": "????? ???????"
-     },
-     "bbcwbx.html":  {
-          "message": "HTML"
-     },
-     "bbcwbx.html.clp":  {
-          "message": "??? ??????"
-     },
-     "bbcwbx.html.clp.quote":  {
-          "message": "?????"
-     },
-     "bbcwbx.html.clp.code":  {
-          "message": "???"
-     },
-     "bbcwbx.html.clp.list":  {
-          "message": "?????"
-     },
-     "bbcwbx.html.clp.ordlist":  {
-          "message": "????? ??????"
-     },
-     "bbcwbx.html.clp.alphalist":  {
-          "message": "????? ????????"
-     },
-     "bbcwbx.html.clp.image":  {
-          "message": "?????"
-     },
-     "bbcwbx.html.clp.mkurlsel":  {
-          "message": "????? ????? ???????"
-     },
-     "bbcwbx.html.clp.url":  {
-          "message": "????? ???????"
-     },
-     "bbcwbx.html.clp.urlname":  {
-          "message": "????? ??????? ?? ??"
-     },
-     "bbcwbx.html.wbx":  {
-          "message": "WebEx"
-     },
-     "bbcwbx.html.wbx.quote":  {
-          "message": "?????"
-     },
-     "bbcwbx.html.wbx.code":  {
-          "message": "???"
-     },
-     "bbcwbx.html.wbx.list":  {
-          "message": "?????"
-     },
-     "bbcwbx.html.wbx.ordlist":  {
-          "message": "????? ??????"
-     },
-     "bbcwbx.html.wbx.alphalist":  {
-          "message": "????? ????????"
-     },
-     "bbcwbx.html.wbx.urlname":  {
-          "message": "????? ??????? ?? ??"
-     },
-     "bbcwbx.html.wbx.urlwiz":  {
-          "message": "??? ????? ???????"
-     },
-     "bbcwbx.html.bold":  {
-          "message": "????"
-     },
-     "bbcwbx.html.ital":  {
-          "message": "????"
-     },
-     "bbcwbx.html.undrln":  {
-          "message": "????? (?? ?????)"
-     },
-     "bbcwbx.html.strk":  {
-          "message": "?? - ????? ?? ?? ??? ?????"
-     },
-     "bbcwbx.html.wbx.fntcol":  {
-          "message": "??? ????"
-     },
-     "bbcwbx.html.img":  {
-          "message": "?????"
-     },
-     "bbcwbx.html.url":  {
-          "message": "????? ???????"
-     },
-     "bbcwbx.xhtml":  {
-          "message": "XHTML"
-     },
-     "bbcwbx.xhtml.clp":  {
-          "message": "??? ??????"
-     },
-     "bbcwbx.xhtml.clp.quote":  {
-          "message": "?????"
-     },
-     "bbcwbx.xhtml.clp.code":  {
-          "message": "???"
-     },
-     "bbcwbx.xhtml.clp.list":  {
-          "message": "?????"
-     },
-     "bbcwbx.xhtml.clp.ordlist":  {
-          "message": "????? ??????"
-     },
-     "bbcwbx.xhtml.clp.alphalist":  {
-          "message": "????? ????????"
-     },
-     "bbcwbx.xhtml.img":  {
-          "message": "?????"
-     },
-     "bbcwbx.xhtml.clp.mkurlsel":  {
-          "message": "????? ????? ???????"
-     },
-     "bbcwbx.xhtml.clp.url":  {
-          "message": "????? ???????"
-     },
-     "bbcwbx.xhtml.clp.urlname":  {
-          "message": "????? ??????? ?? ??"
-     },
-     "bbcwbx.xhtml.wbx":  {
-          "message": "WebEx"
-     },
-     "bbcwbx.xhtml.wbx.quote":  {
-          "message": "?????"
-     },
-     "bbcwbx.xhtml.wbx.code":  {
-          "message": "???"
-     },
-     "bbcwbx.xhtml.wbx.list":  {
-          "message": "?????"
-     },
-     "bbcwbx.xhtml.wbx.ordlist":  {
-          "message": "????? ??????"
-     },
-     "bbcwbx.xhtml.wbx.alphalist":  {
-          "message": "????? ????????"
-     },
-     "bbcwbx.xhtml.wbx.urlname":  {
-          "message": "????? ??????? ?? ??"
-     },
-     "bbcwbx.xhtml.wbx.urlwiz":  {
-          "message": "??? ????? ???????"
-     },
-     "bbcwbx.xhtml.bold":  {
-          "message": "????"
-     },
-     "bbcwbx.xhtml.ital":  {
-          "message": "????"
-     },
-     "bbcwbx.xhtml.undrln":  {
-          "message": "????? (?? ?????)"
-     },
-     "bbcwbx.xhtml.strk":  {
-          "message": "?? - ????? ?? ?? ??? ?????"
-     },
-     "bbcwbx.xhtml.wbx.fntcol":  {
-          "message": "??? ????"
-     },
-     "bbcwbx.xhtml.image":  {
-          "message": "?????"
-     },
-     "bbcwbx.xhtml.url":  {
-          "message": "????? ???????"
-     },
-     "bbcwbx.custom":  {
-          "message": "?????? ???????"
-     },
-     "bbcwbx.mkdn":  {
-          "message": "Markdown"
-     },
-     "bbcwbx.mkdn.clp":  {
-          "message": "??? ??????"
-     },
-     "bbcwbx.mkdn.clp.quote":  {
-          "message": "?????"
-     },
-     "bbcwbx.mkdn.clp.code":  {
-          "message": "???"
-     },
-     "bbcwbx.mkdn.clp.list":  {
-          "message": "?????"
-     },
-     "bbcwbx.mkdn.clp.ordlist":  {
-          "message": "????? ??????"
-     },
-     "bbcwbx.mkdn.clp.mkurlsel":  {
-          "message": "????? ????? ???????"
-     },
-     "bbcwbx.mkdn.clp.mkimgsel":  {
-          "message": "Make image from selection"
-     },
-     "bbcwbx.mkdn.clp.urlname":  {
-          "message": "????? ??????? ?? ??"
-     },
-     "bbcwbx.mkdn.wbx":  {
-          "message": "WebEx"
-     },
-     "bbcwbx.mkdn.wbx.quote":  {
-          "message": "?????"
-     },
-     "bbcwbx.mkdn.wbx.code":  {
-          "message": "???"
-     },
-     "bbcwbx.mkdn.wbx.list":  {
-          "message": "?????"
-     },
-     "bbcwbx.mkdn.wbx.ordlist":  {
-          "message": "????? ??????"
-     },
-     "bbcwbx.mkdn.wbx.urlname":  {
-          "message": "????? ??????? ?? ??"
-     },
-     "bbcwbx.mkdn.wbx.urlwiz":  {
-          "message": "??? ????? ???????"
-     },
-     "bbcwbx.mkdn.bold":  {
-          "message": "????"
-     },
-     "bbcwbx.mkdn.ital":  {
-          "message": "????"
-     },
-     "bbcwbx.mkdn.strk":  {
-          "message": "?? - ????? ?? ?? ??? ?????"
-     },
-     "bbcwbx.sym":  {
-          "message": "?????"
-     },
-     "bbcwbx.sym.fraction":  {
-          "message": "?????"
-     },
-     "bbcwbx.sym.fraction.12":  {
-          "message": "�"
-     },
-     "bbcwbx.sym.fraction.13":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.fraction.23":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.fraction.14":  {
-          "message": "�"
-     },
-     "bbcwbx.sym.fraction.34":  {
-          "message": "�"
-     },
-     "bbcwbx.sym.fraction.15":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.fraction.25":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.fraction.35":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.fraction.45":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.fraction.16":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.fraction.46":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.fraction.18":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.fraction.38":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.fraction.58":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.fraction.78":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.currency":  {
-          "message": "????"
-     },
-     "bbcwbx.sym.currency.dollar":  {
-          "message": "$"
-     },
-     "bbcwbx.sym.currency.cent":  {
-          "message": "�"
-     },
-     "bbcwbx.sym.currency.euro":  {
-          "message": "�"
-     },
-     "bbcwbx.sym.currency.gbp":  {
-          "message": "�"
-     },
-     "bbcwbx.sym.currency.yen":  {
-          "message": "�"
-     },
-     "bbcwbx.sym.currency.franc":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.currency.lira":  {
-          "message": "�"
-     },
-     "bbcwbx.sym.currency.yuan":  {
-          "message": "�CNY"
-     },
-     "bbcwbx.sym.currency.rupee":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.currency.rupee2":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.currency.thaibt":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.currency.won":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.sci":  {
-          "message": "???"
-     },
-     "bbcwbx.sym.sci.micro":  {
-          "message": "�"
-     },
-     "bbcwbx.sym.sci.ohm":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.sci.sigma":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.sci.sqrt":  {
-          "message": "v"
-     },
-     "bbcwbx.sym.sci.infin":  {
-          "message": "8"
-     },
-     "bbcwbx.sym.sci.apprx":  {
-          "message": "�"
-     },
-     "bbcwbx.sym.sci.neq":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.sci.lte":  {
-          "message": "="
-     },
-     "bbcwbx.sym.sci.gte":  {
-          "message": "="
-     },
-     "bbcwbx.sym.grk":  {
-          "message": "??????"
-     },
-     "bbcwbx.sym.grk.pi":  {
-          "message": "p"
-     },
-     "bbcwbx.sym.grk.rho":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.grk.sgm":  {
-          "message": "s"
-     },
-     "bbcwbx.sym.grk.tau":  {
-          "message": "t"
-     },
-     "bbcwbx.sym.grk.chi":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.grk.psi":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.grk.omega":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.grk.comega":  {
-          "message": "T"
-     },
-     "bbcwbx.sym.grk.delta":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.grk.ldelta":  {
-          "message": "d"
-     },
-     "bbcwbx.sym.grk.lambda":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.grk.phi":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.grk.theta":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.dgre":  {
-          "message": "�"
-     },
-     "bbcwbx.sym.cprt":  {
-          "message": "�"
-     },
-     "bbcwbx.sym.phontm":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.sm":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.tm":  {
-          "message": "�"
-     },
-     "bbcwbx.sym.regtm":  {
-          "message": "�"
-     },
-     "bbcwbx.sym.phonrt":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.section":  {
-          "message": "�"
-     },
-     "bbcwbx.sym.plumin":  {
-          "message": "�"
-     },
-     "bbcwbx.sym.elps":  {
-          "message": "�"
-     },
-     "bbcwbx.sym.emdash":  {
-          "message": "�"
-     },
-     "bbcwbx.sym.dagger":  {
-          "message": "�"
-     },
-     "bbcwbx.sym.dubdagger":  {
-          "message": "�"
-     },
-     "bbcwbx.sym.permil":  {
-          "message": "�"
-     },
-     "INS_AUTHOR": {
-          "message": "????? ?? ????? ?? ?????? ???:"
-     },
-     "INS_LINKNAME": {
-          "message": "????? ?? ??????:"
-     },
-     "INS_FONTSIZE": {
-          "message": "????? ???? ?????:"
-     },
-     "INS_FONTCOLOR": {
-          "message": "????? ??? ?????:"
-     },
-     "URLCOMPOSTO_STEP1": {
-          "message": "?? ???????"
-     },
-     "URLCOMPOSTO_STEP2": {
-          "message": "??????"
-     },
-     "INS_THREADNUM": {
-          "message": "????? ???? ??????:"
-     },
-     "INS_POSTNUM": {
-          "message": "????? ???? ??????:"
-     },
-     "MENU_NO_CUSTOM_TAGS ": {
-          "message": "?? ??????? ?????? ???????"
-     },
-     "MENU_DISABLE ": {
-          "message": "????? ????? ??"
-     },
-     "MENU_SETTINGS ": {
-          "message": "?????? bbCodeWebex..."
-     },
-     "DELETE_CUSTOMTAG": {
-          "message": "??? ????? ???? ???"
-     },
-     "WINDOWTITLE_EDITCUSTOMTAG ": {
-          "message": "????? ????? ??????"
-     },
-     "WINDOWTITLE_NEWCUSTOMTAG ": {
-          "message": "????? ????? ?????? ????"
-     },
-     "ALERT_REORDER_TITLE ": {
-          "message": "Reorder Custom Tags"
-     },
-     "ALERT_REORDER_TEXT ": {
-          "message": "Custom tags will be arranged in alphabetical order. This action cannot be undone, unless you restore an existing backup. Do you want to continue?"
-     },
-     "WINDOWTITLE_EXPORT ": {
-          "message": "Choose export file"
-     },
-     "WINDOWTITLE_IMPORT ": {
-          "message": "Choose import file"
-     },
-     "ALERT_IMPORT_TITLE ": {
-          "message": "Import Settings"
-     },
-     "ALERT_IMPORT_TEXT ": {
-          "message": "This will overwrite all existing settings. Are you sure?"
-     },
-     "ALERT_IMPORT_COMPLETED ": {
-          "message": "Operation completed."
-     },
-     "description": {
-          "message": "????? BBCode/HTML/XHTML ??????? ??????? ?????? ????? ?????"
-     },
-     "name": {
-          "message": "bbCodeWebex"
-     },
-     "SETTINGSMENU": {
-          "message": "?????? bbCodeWebex..."
-     },
-     "DISABLEMENU": {
-          "message": "????? ????? ??"
-     },
-     "PICKCOLOR_TITLE": {
-          "message": "????? ???"
-     },
-     "PICKCOLOR_DESCRIPTION": {
-          "message": "????? ??? ????? ???????"
-     },
-     "PICKCOLOR_LASTCOLOR": {
-          "message": "???? ?????? ??????:"
-     },
-     "SETTINGS_TITLE": {
-          "message": "?????? bbCodeWebex"
-     },
-     "SETTINGS_MENU": {
-          "message": "???????"
-     },
-     "SETTINGS_CUSTOMTAGS": {
-          "message": "?????? ???????"
-     },
-     "SETTINGS_MENU_DESCRIPTION": {
-          "message": "????? ?????? ????? ?????? ????? ?????"
-     },
-     "SETTINGS_MENU_ENABLEBBCODE": {
-          "message": "????? ????? bbcode"
-     },
-     "SETTINGS_MENU_ENABLEBBCODE_VBULLETIN": {
-          "message": "????? ?? ????? VBulletin"
-     },
-     "SETTINGS_MENU_ENABLEHTML": {
-          "message": "????? ????? HTML"
-     },
-     "SETTINGS_MENU_ENABLEXHTML": {
-          "message": "????? ????? XHTML"
-     },
-     "SETTINGS_MENU_ENABLEMARKDOWN": {
-          "message": "????? ????? Markdown"
-     },
-     "SETTINGS_MENU_ENABLECUSTOM": {
-          "message": "????? ????? ?????? ???????"
-     },
-     "SETTINGS_MANAGESETTINGS": {
-          "message": "Manage settings"
-     },
-     "SETTINGS_BACKUPDESCRIPTION": {
-          "message": "WARNING: importing settings will overwrite all existing settings."
-     },
-     "SETTINGS_BTNIMPORT": {
-          "message": "Import Custom Settings�"
-     },
-     "SETTINGS_BTNEXPORT": {
-          "message": "Export Custom Settings�"
-     },
-     "SETTINGS_CUSTOMTAGS_TOTALTAGS": {
-          "message": "?????? ??????? ??????:"
-     },
-     "SETTINGS_CUSTOMTAGS_BTNADD": {
-          "message": "?????..."
-     },
-     "SETTINGS_CUSTOMTAGS_BTNEDIT": {
-          "message": "?????..."
-     },
-     "SETTINGS_CUSTOMTAGS_BTNDELETE": {
-          "message": "?????..."
-     },
-     "SETTINGS_CUSTOMTAGS_MOVEUP": {
-          "message": "??? ????"
-     },
-     "SETTINGS_CUSTOMTAGS_MOVEDOWN": {
-          "message": "??? ???"
-     },
-     "SETTINGS_CUSTOMTAGS_SORTALPHA": {
-          "message": "Sort alphabetically"
-     },
-     "SETTINGS_CUSTOMTAGS_MOREINFO": {
-          "message": "???? ???? ????????"
-     },
-     "SETTINGS_CUSTOMTAGS_VARIABLES": {
-          "message": "?????? ??????"
-     },
-     "SETTINGS_CUSTOMTAGS_VARCLIPBOARD": {
-          "message": "???? ??? ??????"
-     },
-     "SETTINGS_CUSTOMTAGS_VARSELECTION": {
-          "message": "???? ????"
-     },
-     "SETTINGS_CUSTOMTAGS_LABEL": {
-          "message": "?? ?????:"
-     },
-     "SETTINGS_CUSTOMTAGS_ACTION": {
-          "message": "???:"
-     },
-     "SAVE_TAG_ORDER": {
-          "message": "Save Custom Tag Order"
-     },
-     "ENTER_COLOR_HEX": {
-          "message": "ENTER FONT COLOR IN HEX"
-     },
-     "TAGS_BTNIMPORT_OVRT": {
-          "message": "Import Settings � \n????"
-     },
-     "TAGS_BTNIMPORT_APPEND": {
-          "message": "Import Settings � \n???"
-     },
-     "TAGS_BTNIMPORT_BBCODEXTRA": {
-          "message": "Import Settings � \n??? bbCodeXtra"
-     },
-}
 
+C:\Users\msaroff\Documents\GitHub\bbCodeWebEx>rem this is simply a way to call lynx in a simplified manner 
 
+C:\Users\msaroff\Documents\GitHub\bbCodeWebEx>C:\Users\msaroff\Documents\github\bbcodewebex\Lynx\lynx.exe -dump -width 300 -cfg=C:\Users\msaroff\Documents\github\bbcodewebex\lynx\lynx.cfg C:\Moo\bbCodeWebex_Temp\he.htm  
 
-
-
-
-
-
-
-
-
+                                                                                                                                                   {
+        "bbcwbx.bbcode":  {
+             "message": "bbCode"
+        },
+        "bbcwbx.bbcode.clp":  {
+             "message": "לוח העריכה"
+        },
+        "bbcwbx.bbcode.clp.quote":  {
+             "message": "ציטוט"
+        },
+        "bbcwbx.bbcode.clp.code":  {
+             "message": "קוד"
+        },
+        "bbcwbx.bbcode.clp.list":  {
+             "message": "רשימה"
+        },
+        "bbcwbx.bbcode.clp.ordlist":  {
+             "message": "רשימה מסודרת"
+        },
+        "bbcwbx.bbcode.clp.alphalist":  {
+             "message": "רשימה אלפביתית"
+        },
+        "bbcwbx.bbcode.clp.spoiler":  {
+             "message": "Spoiler"
+        },
+        "bbcwbx.bbcode.clp.image":  {
+             "message": "תמונה"
+        },
+        "bbcwbx.bbcode.clp.mkurlsel":  {
+             "message": "בחירת כתובת אינטרנט"
+        },
+        "bbcwbx.bbcode.clp.url":  {
+             "message": "כתובת אינטרנט"
+        },
+        "bbcwbx.bbcode.clp.urlname":  {
+             "message": "כתובת אינטרנט עם שם"
+        },
+        "bbcwbx.bbcode.wbx":  {
+             "message": "WebEx"
+        },
+        "bbcwbx.bbcode.wbx.quote":  {
+             "message": "ציטוט"
+        },
+        "bbcwbx.bbcode.wbx.code":  {
+             "message": "קוד"
+        },
+        "bbcwbx.bbcode.wbx.list":  {
+             "message": "רשימה"
+        },
+        "bbcwbx.bbcode.wbx.ordlist":  {
+             "message": "רשימה מסודרת"
+        },
+        "bbcwbx.bbcode.wbx.alphalist":  {
+             "message": "רשימה אלפביתית"
+        },
+        "bbcwbx.bbcode.wbx.spoiler":  {
+             "message": "Spoiler"
+        },
+        "bbcwbx.bbcode.wbx.fntcol":  {
+             "message": "צבע גופן"
+        },
+        "bbcwbx.bbcode.wbx.fntsz":  {
+             "message": "גודל גופן"
+        },
+        "bbcwbx.bbcode.wbx.urlname":  {
+             "message": "כתובת אינטרנט עם שם"
+        },
+        "bbcwbx.bbcode.wbx.urlwiz":  {
+             "message": "אשף כתובת אינטרנט"
+        },
+        "bbcwbx.bbcode.vbl":  {
+             "message": "VBulletin3"
+        },
+        "bbcwbx.bbcode.vbl.thd":  {
+             "message": "שרשור"
+        },
+        "bbcwbx.bbcode.vbl.pst":  {
+             "message": "פרסום"
+        },
+        "bbcwbx.bbcode.vbl.alnlf":  {
+             "message": "יישור לימין"
+        },
+        "bbcwbx.bbcode.vbl.alnrt":  {
+             "message": "יישור לשמאל"
+        },
+        "bbcwbx.bbcode.vbl.ctr":  {
+             "message": "אמצע"
+        },
+        "bbcwbx.bbcode.vbl.indnt":  {
+             "message": "מרווח מפריד"
+        },
+        "bbcwbx.bbcode.vbl.hilt":  {
+             "message": "מודגש"
+        },
+        "bbcwbx.bbcode.bold":  {
+             "message": "בולט"
+        },
+        "bbcwbx.bbcode.ital":  {
+             "message": "נטוי"
+        },
+        "bbcwbx.bbcode.undrln":  {
+             "message": "הדגשה (קו תחתון)"
+        },
+        "bbcwbx.bbcode.img":  {
+             "message": "תמונה"
+        },
+        "bbcwbx.bbcode.url":  {
+             "message": "כתובת אינטרנט"
+        },
+        "bbcwbx.html":  {
+             "message": "HTML"
+        },
+        "bbcwbx.html.clp":  {
+             "message": "לוח העריכה"
+        },
+        "bbcwbx.html.clp.quote":  {
+             "message": "ציטוט"
+        },
+        "bbcwbx.html.clp.code":  {
+             "message": "קוד"
+        },
+        "bbcwbx.html.clp.list":  {
+             "message": "רשימה"
+        },
+        "bbcwbx.html.clp.ordlist":  {
+             "message": "רשימה מסודרת"
+        },
+        "bbcwbx.html.clp.alphalist":  {
+             "message": "רשימה אלפביתית"
+        },
+        "bbcwbx.html.clp.image":  {
+             "message": "תמונה"
+        },
+        "bbcwbx.html.clp.mkurlsel":  {
+             "message": "בחירת כתובת אינטרנט"
+        },
+        "bbcwbx.html.clp.url":  {
+             "message": "כתובת אינטרנט"
+        },
+        "bbcwbx.html.clp.urlname":  {
+             "message": "כתובת אינטרנט עם שם"
+        },
+        "bbcwbx.html.wbx":  {
+             "message": "WebEx"
+        },
+        "bbcwbx.html.wbx.quote":  {
+             "message": "ציטוט"
+        },
+        "bbcwbx.html.wbx.code":  {
+             "message": "קוד"
+        },
+        "bbcwbx.html.wbx.list":  {
+             "message": "רשימה"
+        },
+        "bbcwbx.html.wbx.ordlist":  {
+             "message": "רשימה מסודרת"
+        },
+        "bbcwbx.html.wbx.alphalist":  {
+             "message": "רשימה אלפביתית"
+        },
+        "bbcwbx.html.wbx.urlname":  {
+             "message": "כתובת אינטרנט עם שם"
+        },
+        "bbcwbx.html.wbx.urlwiz":  {
+             "message": "אשף כתובת אינטרנט"
+        },
+        "bbcwbx.html.bold":  {
+             "message": "בולט"
+        },
+        "bbcwbx.html.ital":  {
+             "message": "נטוי"
+        },
+        "bbcwbx.html.undrln":  {
+             "message": "הדגשה (קו תחתון)"
+        },
+        "bbcwbx.html.strk":  {
+             "message": "פס - מוסיף קו על גבי הטקסט"
+        },
+        "bbcwbx.html.wbx.fntcol":  {
+             "message": "צבע גופן"
+        },
+        "bbcwbx.html.img":  {
+             "message": "תמונה"
+        },
+        "bbcwbx.html.url":  {
+             "message": "כתובת אינטרנט"
+        },
+        "bbcwbx.xhtml":  {
+             "message": "XHTML"
+        },
+        "bbcwbx.xhtml.clp":  {
+             "message": "לוח העריכה"
+        },
+        "bbcwbx.xhtml.clp.quote":  {
+             "message": "ציטוט"
+        },
+        "bbcwbx.xhtml.clp.code":  {
+             "message": "קוד"
+        },
+        "bbcwbx.xhtml.clp.list":  {
+             "message": "רשימה"
+        },
+        "bbcwbx.xhtml.clp.ordlist":  {
+             "message": "רשימה מסודרת"
+        },
+        "bbcwbx.xhtml.clp.alphalist":  {
+             "message": "רשימה אלפביתית"
+        },
+        "bbcwbx.xhtml.img":  {
+             "message": "תמונה"
+        },
+        "bbcwbx.xhtml.clp.mkurlsel":  {
+             "message": "בחירת כתובת אינטרנט"
+        },
+        "bbcwbx.xhtml.clp.url":  {
+             "message": "כתובת אינטרנט"
+        },
+        "bbcwbx.xhtml.clp.urlname":  {
+             "message": "כתובת אינטרנט עם שם"
+        },
+        "bbcwbx.xhtml.wbx":  {
+             "message": "WebEx"
+        },
+        "bbcwbx.xhtml.wbx.quote":  {
+             "message": "ציטוט"
+        },
+        "bbcwbx.xhtml.wbx.code":  {
+             "message": "קוד"
+        },
+        "bbcwbx.xhtml.wbx.list":  {
+             "message": "רשימה"
+        },
+        "bbcwbx.xhtml.wbx.ordlist":  {
+             "message": "רשימה מסודרת"
+        },
+        "bbcwbx.xhtml.wbx.alphalist":  {
+             "message": "רשימה אלפביתית"
+        },
+        "bbcwbx.xhtml.wbx.urlname":  {
+             "message": "כתובת אינטרנט עם שם"
+        },
+        "bbcwbx.xhtml.wbx.urlwiz":  {
+             "message": "אשף כתובת אינטרנט"
+        },
+        "bbcwbx.xhtml.bold":  {
+             "message": "בולט"
+        },
+        "bbcwbx.xhtml.ital":  {
+             "message": "נטוי"
+        },
+        "bbcwbx.xhtml.undrln":  {
+             "message": "הדגשה (קו תחתון)"
+        },
+        "bbcwbx.xhtml.strk":  {
+             "message": "פס - מוסיף קו על גבי הטקסט"
+        },
+        "bbcwbx.xhtml.wbx.fntcol":  {
+             "message": "צבע גופן"
+        },
+        "bbcwbx.xhtml.image":  {
+             "message": "תמונה"
+        },
+        "bbcwbx.xhtml.url":  {
+             "message": "כתובת אינטרנט"
+        },
+        "bbcwbx.custom":  {
+             "message": "תוויות מותאמות"
+        },
+        "bbcwbx.mkdn":  {
+             "message": "Markdown"
+        },
+        "bbcwbx.mkdn.clp":  {
+             "message": "לוח העריכה"
+        },
+        "bbcwbx.mkdn.clp.quote":  {
+             "message": "ציטוט"
+        },
+        "bbcwbx.mkdn.clp.code":  {
+             "message": "קוד"
+        },
+        "bbcwbx.mkdn.clp.list":  {
+             "message": "רשימה"
+        },
+        "bbcwbx.mkdn.clp.ordlist":  {
+             "message": "רשימה מסודרת"
+        },
+        "bbcwbx.mkdn.clp.mkurlsel":  {
+             "message": "בחירת כתובת אינטרנט"
+        },
+        "bbcwbx.mkdn.clp.mkimgsel":  {
+             "message": "Make image from selection"
+        },
+        "bbcwbx.mkdn.clp.urlname":  {
+             "message": "כתובת אינטרנט עם שם"
+        },
+        "bbcwbx.mkdn.wbx":  {
+             "message": "WebEx"
+        },
+        "bbcwbx.mkdn.wbx.quote":  {
+             "message": "ציטוט"
+        },
+        "bbcwbx.mkdn.wbx.code":  {
+             "message": "קוד"
+        },
+        "bbcwbx.mkdn.wbx.list":  {
+             "message": "רשימה"
+        },
+        "bbcwbx.mkdn.wbx.ordlist":  {
+             "message": "רשימה מסודרת"
+        },
+        "bbcwbx.mkdn.wbx.urlname":  {
+             "message": "כתובת אינטרנט עם שם"
+        },
+        "bbcwbx.mkdn.wbx.urlwiz":  {
+             "message": "אשף כתובת אינטרנט"
+        },
+        "bbcwbx.mkdn.bold":  {
+             "message": "בולט"
+        },
+        "bbcwbx.mkdn.ital":  {
+             "message": "נטוי"
+        },
+        "bbcwbx.mkdn.strk":  {
+             "message": "פס - מוסיף קו על גבי הטקסט"
+        },
+        "bbcwbx.sym":  {
+             "message": "סמלים"
+        },
+        "bbcwbx.sym.fraction":  {
+             "message": "שברים"
+        },
+        "bbcwbx.sym.fraction.12":  {
+             "message": "½"
+        },
+        "bbcwbx.sym.fraction.13":  {
+             "message": "⅓"
+        },
+        "bbcwbx.sym.fraction.23":  {
+             "message": "⅔"
+        },
+        "bbcwbx.sym.fraction.14":  {
+             "message": "¼"
+        },
+        "bbcwbx.sym.fraction.34":  {
+             "message": "¾"
+        },
+        "bbcwbx.sym.fraction.15":  {
+             "message": "⅕"
+        },
+        "bbcwbx.sym.fraction.25":  {
+             "message": "⅖"
+        },
+        "bbcwbx.sym.fraction.35":  {
+             "message": "⅗"
+        },
+        "bbcwbx.sym.fraction.45":  {
+             "message": "⅘"
+        },
+        "bbcwbx.sym.fraction.16":  {
+             "message": "⅙"
+        },
+        "bbcwbx.sym.fraction.46":  {
+             "message": "⅚"
+        },
+        "bbcwbx.sym.fraction.18":  {
+             "message": "⅛"
+        },
+        "bbcwbx.sym.fraction.38":  {
+             "message": "⅜"
+        },
+        "bbcwbx.sym.fraction.58":  {
+             "message": "⅝"
+        },
+        "bbcwbx.sym.fraction.78":  {
+             "message": "⅞"
+        },
+        "bbcwbx.sym.currency":  {
+             "message": "מטבע"
+        },
+        "bbcwbx.sym.currency.dollar":  {
+             "message": "$"
+        },
+        "bbcwbx.sym.currency.cent":  {
+             "message": "¢"
+        },
+        "bbcwbx.sym.currency.euro":  {
+             "message": "€"
+        },
+        "bbcwbx.sym.currency.gbp":  {
+             "message": "£"
+        },
+        "bbcwbx.sym.currency.yen":  {
+             "message": "¥"
+        },
+        "bbcwbx.sym.currency.franc":  {
+             "message": "₣"
+        },
+        "bbcwbx.sym.currency.lira":  {
+             "message": "₤"
+        },
+        "bbcwbx.sym.currency.yuan":  {
+             "message": "¥CNY"
+        },
+        "bbcwbx.sym.currency.rupee":  {
+             "message": "₨"
+        },
+        "bbcwbx.sym.currency.rupee2":  {
+             "message": "₹"
+        },
+        "bbcwbx.sym.currency.thaibt":  {
+             "message": "฿"
+        },
+        "bbcwbx.sym.currency.won":  {
+             "message": "₩"
+        },
+        "bbcwbx.sym.sci":  {
+             "message": "מדע"
+        },
+        "bbcwbx.sym.sci.micro":  {
+             "message": "µ"
+        },
+        "bbcwbx.sym.sci.ohm":  {
+             "message": "Ω"
+        },
+        "bbcwbx.sym.sci.sigma":  {
+             "message": "∑"
+        },
+        "bbcwbx.sym.sci.sqrt":  {
+             "message": "√"
+        },
+        "bbcwbx.sym.sci.infin":  {
+             "message": "∞"
+        },
+        "bbcwbx.sym.sci.apprx":  {
+             "message": "≈"
+        },
+        "bbcwbx.sym.sci.neq":  {
+             "message": "≠"
+        },
+        "bbcwbx.sym.sci.lte":  {
+             "message": "≤"
+        },
+        "bbcwbx.sym.sci.gte":  {
+             "message": "≥"
+        },
+        "bbcwbx.sym.grk":  {
+             "message": "יוונית"
+        },
+        "bbcwbx.sym.grk.pi":  {
+             "message": "π"
+        },
+        "bbcwbx.sym.grk.rho":  {
+             "message": "ρ"
+        },
+        "bbcwbx.sym.grk.sgm":  {
+             "message": "σ"
+        },
+        "bbcwbx.sym.grk.tau":  {
+             "message": "τ"
+        },
+        "bbcwbx.sym.grk.chi":  {
+             "message": "χ"
+        },
+        "bbcwbx.sym.grk.psi":  {
+             "message": "ψ"
+        },
+        "bbcwbx.sym.grk.omega":  {
+             "message": "ω"
+        },
+        "bbcwbx.sym.grk.comega":  {
+             "message": "Θ"
+        },
+        "bbcwbx.sym.grk.delta":  {
+             "message": "Δ"
+        },
+        "bbcwbx.sym.grk.ldelta":  {
+             "message": "δ"
+        },
+        "bbcwbx.sym.grk.lambda":  {
+             "message": "λ"
+        },
+        "bbcwbx.sym.grk.phi":  {
+             "message": "ɸ"
+        },
+        "bbcwbx.sym.grk.theta":  {
+             "message": "ϴ"
+        },
+        "bbcwbx.sym.dgre":  {
+             "message": "°"
+        },
+        "bbcwbx.sym.cprt":  {
+             "message": "©"
+        },
+        "bbcwbx.sym.phontm":  {
+             "message": "℗"
+        },
+        "bbcwbx.sym.sm":  {
+             "message": "℠"
+        },
+        "bbcwbx.sym.tm":  {
+             "message": "™"
+        },
+        "bbcwbx.sym.regtm":  {
+             "message": "®"
+        },
+        "bbcwbx.sym.phonrt":  {
+             "message": "℗"
+        },
+        "bbcwbx.sym.section":  {
+             "message": "§"
+        },
+        "bbcwbx.sym.plumin":  {
+             "message": "±"
+        },
+        "bbcwbx.sym.elps":  {
+             "message": "…"
+        },
+        "bbcwbx.sym.emdash":  {
+             "message": "—"
+        },
+        "bbcwbx.sym.dagger":  {
+             "message": "†"
+        },
+        "bbcwbx.sym.dubdagger":  {
+             "message": "‡"
+        },
+        "bbcwbx.sym.permil":  {
+             "message": "‰"
+        },
+        "INS_AUTHOR": {
+             "message": "הכנסת שם היוצר או להשאיר ריק:"
+        },
+        "INS_LINKNAME": {
+             "message": "הכנסת שם הקישור:"
+        },
+        "INS_FONTSIZE": {
+             "message": "הכנסת גודל הטקסט:"
+        },
+        "INS_FONTCOLOR": {
+             "message": "הכנסת צבע הטקסט:"
+        },
+        "URLCOMPOSTO_STEP1": {
+             "message": "שם הקישור?"
+        },
+        "URLCOMPOSTO_STEP2": {
+             "message": "קישור?"
+        },
+        "INS_THREADNUM": {
+             "message": "הכנסת מספר השרשור:"
+        },
+        "INS_POSTNUM": {
+             "message": "הכנסת מספר הפרסום:"
+        },
+        "MENU_NO_CUSTOM_TAGS ": {
+             "message": "לא מוגדרות תוויות מותאמות"
+        },
+        "MENU_DISABLE ": {
+             "message": "נטרול תפריט זה"
+        },
+        "MENU_SETTINGS ": {
+             "message": "הגדרות bbCodeWebex..."
+        },
+        "DELETE_CUSTOMTAG": {
+             "message": "האם להסיר פריט זה?"
+        },
+        "WINDOWTITLE_EDITCUSTOMTAG ": {
+             "message": "עריכת תווית מותאמת"
+        },
+        "WINDOWTITLE_NEWCUSTOMTAG ": {
+             "message": "הוספת תווית מותאמת חדשה"
+        },
+        "ALERT_REORDER_TITLE ": {
+             "message": "Reorder Custom Tags"
+        },
+        "ALERT_REORDER_TEXT ": {
+             "message": "Custom tags will be arranged in alphabetical order. This action cannot be undone, unless you restore an existing backup. Do you want to continue?"
+        },
+        "WINDOWTITLE_EXPORT ": {
+             "message": "Choose export file"
+        },
+        "WINDOWTITLE_IMPORT ": {
+             "message": "Choose import file"
+        },
+        "ALERT_IMPORT_TITLE ": {
+             "message": "Import Settings"
+        },
+        "ALERT_IMPORT_TEXT ": {
+             "message": "This will overwrite all existing settings. Are you sure?"
+        },
+        "ALERT_IMPORT_COMPLETED ": {
+             "message": "Operation completed."
+        },
+        "description": {
+             "message": "הוספת BBCode/HTML/XHTML ותוויות מותאמות לתפריט הלחצן הימני"
+        },
+        "name": {
+             "message": "bbCodeWebex"
+        },
+        "SETTINGSMENU": {
+             "message": "הגדרות bbCodeWebex..."
+        },
+        "DISABLEMENU": {
+             "message": "נטרול תפריט זה"
+        },
+        "PICKCOLOR_TITLE": {
+             "message": "בחירת צבע"
+        },
+        "PICKCOLOR_DESCRIPTION": {
+             "message": "בחירת צבע הגופן מהרשימה"
+        },
+        "PICKCOLOR_LASTCOLOR": {
+             "message": "הצבע האחרון בשימוש:"
+        },
+        "SETTINGS_TITLE": {
+             "message": "הגדרות bbCodeWebex"
+        },
+        "SETTINGS_MENU": {
+             "message": "תפריטים"
+        },
+        "SETTINGS_CUSTOMTAGS": {
+             "message": "תוויות מותאמות"
+        },
+        "SETTINGS_MENU_DESCRIPTION": {
+             "message": "בחירת פריטים להצגה בתפריט הלחצן הימני"
+        },
+        "SETTINGS_MENU_ENABLEBBCODE": {
+             "message": "אפשור תפריט bbcode"
+        },
+        "SETTINGS_MENU_ENABLEBBCODE_VBULLETIN": {
+             "message": "אפשור תת תפריט VBulletin"
+        },
+        "SETTINGS_MENU_ENABLEHTML": {
+             "message": "אפשור תפריט HTML"
+        },
+        "SETTINGS_MENU_ENABLEXHTML": {
+             "message": "אפשור תפריט XHTML"
+        },
+        "SETTINGS_MENU_ENABLEMARKDOWN": {
+             "message": "אפשור תפריט Markdown"
+        },
+        "SETTINGS_MENU_ENABLECUSTOM": {
+             "message": "אפשור תפריט תוויות מותאמות"
+        },
+        "SETTINGS_MANAGESETTINGS": {
+             "message": "Manage settings"
+        },
+        "SETTINGS_BACKUPDESCRIPTION": {
+             "message": "WARNING: importing settings will overwrite all existing settings."
+        },
+        "SETTINGS_BTNIMPORT": {
+             "message": "Import Custom Settings…"
+        },
+        "SETTINGS_BTNEXPORT": {
+             "message": "Export Custom Settings…"
+        },
+        "SETTINGS_CUSTOMTAGS_TOTALTAGS": {
+             "message": "תוויות מותאמות זמינות:"
+        },
+        "SETTINGS_CUSTOMTAGS_BTNADD": {
+             "message": "הוספה..."
+        },
+        "SETTINGS_CUSTOMTAGS_BTNEDIT": {
+             "message": "עריכה..."
+        },
+        "SETTINGS_CUSTOMTAGS_BTNDELETE": {
+             "message": "מחיקה..."
+        },
+        "SETTINGS_CUSTOMTAGS_MOVEUP": {
+             "message": "הזז מעלה"
+        },
+        "SETTINGS_CUSTOMTAGS_MOVEDOWN": {
+             "message": "הזז מטה"
+        },
+        "SETTINGS_CUSTOMTAGS_SORTALPHA": {
+             "message": "Sort alphabetically"
+        },
+        "SETTINGS_CUSTOMTAGS_MOREINFO": {
+             "message": "מידע נוסף ודוגמאות"
+        },
+        "SETTINGS_CUSTOMTAGS_VARIABLES": {
+             "message": "משתנים זמינים"
+        },
+        "SETTINGS_CUSTOMTAGS_VARCLIPBOARD": {
+             "message": "תוכן לוח הכתיבה"
+        },
+        "SETTINGS_CUSTOMTAGS_VARSELECTION": {
+             "message": "טקסט נבחר"
+        },
+        "SETTINGS_CUSTOMTAGS_LABEL": {
+             "message": "שם הפריט:"
+        },
+        "SETTINGS_CUSTOMTAGS_ACTION": {
+             "message": "קוד:"
+        },
+        "SAVE_TAG_ORDER": {
+             "message": "Save Custom Tag Order"
+        },
+        "ENTER_COLOR_HEX": {
+             "message": "ENTER FONT COLOR IN HEX"
+        },
+        "TAGS_BTNIMPORT_OVRT": {
+             "message": "Import Settings — \nהחלף"
+        },
+        "TAGS_BTNIMPORT_APPEND": {
+             "message": "Import Settings — \nצרף"
+        },
+        "TAGS_BTNIMPORT_BBCODEXTRA": {
+             "message": "Import Settings — \nצרף bbCodeXtra"
+        },
+                                                                                                                                                   }

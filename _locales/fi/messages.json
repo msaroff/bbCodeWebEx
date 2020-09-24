@@ -1,721 +1,715 @@
-{
-     "bbcwbx.bbcode":  {
-          "message": "bbCode"
-     },
-     "bbcwbx.bbcode.clp":  {
-          "message": "Leikepˆyt‰"
-     },
-     "bbcwbx.bbcode.clp.quote":  {
-          "message": "Lainaus"
-     },
-     "bbcwbx.bbcode.clp.code":  {
-          "message": "Koodi"
-     },
-     "bbcwbx.bbcode.clp.list":  {
-          "message": "Lista"
-     },
-     "bbcwbx.bbcode.clp.ordlist":  {
-          "message": "Numeroj‰rjestyksellinen lista"
-     },
-     "bbcwbx.bbcode.clp.alphalist":  {
-          "message": "Aakkosj‰rjestyksellinen lista"
-     },
-     "bbcwbx.bbcode.clp.spoiler":  {
-          "message": "Spoiler"
-     },
-     "bbcwbx.bbcode.clp.image":  {
-          "message": "Kuva"
-     },
-     "bbcwbx.bbcode.clp.mkurlsel":  {
-          "message": "Tee valinnasta linkki"
-     },
-     "bbcwbx.bbcode.clp.url":  {
-          "message": "Linkki"
-     },
-     "bbcwbx.bbcode.clp.urlname":  {
-          "message": "Linkki nimell‰"
-     },
-     "bbcwbx.bbcode.wbx":  {
-          "message": "WebEx"
-     },
-     "bbcwbx.bbcode.wbx.quote":  {
-          "message": "Lainaus"
-     },
-     "bbcwbx.bbcode.wbx.code":  {
-          "message": "Koodi"
-     },
-     "bbcwbx.bbcode.wbx.list":  {
-          "message": "Lista"
-     },
-     "bbcwbx.bbcode.wbx.ordlist":  {
-          "message": "Numeroj‰rjestyksellinen lista"
-     },
-     "bbcwbx.bbcode.wbx.alphalist":  {
-          "message": "Aakkosj‰rjestyksellinen lista"
-     },
-     "bbcwbx.bbcode.wbx.spoiler":  {
-          "message": "Spoiler"
-     },
-     "bbcwbx.bbcode.wbx.fntcol":  {
-          "message": "Kirjaisimen v‰ri"
-     },
-     "bbcwbx.bbcode.wbx.fntsz":  {
-          "message": "Kirjaisimen koko"
-     },
-     "bbcwbx.bbcode.wbx.urlname":  {
-          "message": "Linkki nimell‰"
-     },
-     "bbcwbx.bbcode.wbx.urlwiz":  {
-          "message": "Linkinluoja"
-     },
-     "bbcwbx.bbcode.vbl":  {
-          "message": "VBulletin3"
-     },
-     "bbcwbx.bbcode.vbl.thd":  {
-          "message": "Keskusteluketju"
-     },
-     "bbcwbx.bbcode.vbl.pst":  {
-          "message": "Posti"
-     },
-     "bbcwbx.bbcode.vbl.alnlf":  {
-          "message": "Tasaa oikealle"
-     },
-     "bbcwbx.bbcode.vbl.alnrt":  {
-          "message": "Tasaa vasemmalle"
-     },
-     "bbcwbx.bbcode.vbl.ctr":  {
-          "message": "Keskelle"
-     },
-     "bbcwbx.bbcode.vbl.indnt":  {
-          "message": "Sisenn‰"
-     },
-     "bbcwbx.bbcode.vbl.hilt":  {
-          "message": "Korosta"
-     },
-     "bbcwbx.bbcode.bold":  {
-          "message": "Lihavoi"
-     },
-     "bbcwbx.bbcode.ital":  {
-          "message": "Kursivoi"
-     },
-     "bbcwbx.bbcode.undrln":  {
-          "message": "Alleviivaa"
-     },
-     "bbcwbx.bbcode.img":  {
-          "message": "Kuva"
-     },
-     "bbcwbx.bbcode.url":  {
-          "message": "Linkki"
-     },
-     "bbcwbx.html":  {
-          "message": "HTML"
-     },
-     "bbcwbx.html.clp":  {
-          "message": "Leikepˆyt‰"
-     },
-     "bbcwbx.html.clp.quote":  {
-          "message": "Lainaus"
-     },
-     "bbcwbx.html.clp.code":  {
-          "message": "Koodi"
-     },
-     "bbcwbx.html.clp.list":  {
-          "message": "Lista"
-     },
-     "bbcwbx.html.clp.ordlist":  {
-          "message": "Numeroj‰rjestyksellinen lista"
-     },
-     "bbcwbx.html.clp.alphalist":  {
-          "message": "Aakkosj‰rjestyksellinen lista"
-     },
-     "bbcwbx.html.clp.image":  {
-          "message": "Kuva"
-     },
-     "bbcwbx.html.clp.mkurlsel":  {
-          "message": "Tee valinnasta linkki"
-     },
-     "bbcwbx.html.clp.url":  {
-          "message": "Linkki"
-     },
-     "bbcwbx.html.clp.urlname":  {
-          "message": "Linkki nimell‰"
-     },
-     "bbcwbx.html.wbx":  {
-          "message": "WebEx"
-     },
-     "bbcwbx.html.wbx.quote":  {
-          "message": "Lainaus"
-     },
-     "bbcwbx.html.wbx.code":  {
-          "message": "Koodi"
-     },
-     "bbcwbx.html.wbx.list":  {
-          "message": "Lista"
-     },
-     "bbcwbx.html.wbx.ordlist":  {
-          "message": "Numeroj‰rjestyksellinen lista"
-     },
-     "bbcwbx.html.wbx.alphalist":  {
-          "message": "Aakkosj‰rjestyksellinen lista"
-     },
-     "bbcwbx.html.wbx.urlname":  {
-          "message": "Linkki nimell‰"
-     },
-     "bbcwbx.html.wbx.urlwiz":  {
-          "message": "Linkinluoja"
-     },
-     "bbcwbx.html.bold":  {
-          "message": "Lihavoi"
-     },
-     "bbcwbx.html.ital":  {
-          "message": "Kursivoi"
-     },
-     "bbcwbx.html.undrln":  {
-          "message": "Alleviivaa"
-     },
-     "bbcwbx.html.strk":  {
-          "message": "Yliviivaa"
-     },
-     "bbcwbx.html.wbx.fntcol":  {
-          "message": "Kirjaisimen v‰ri"
-     },
-     "bbcwbx.html.img":  {
-          "message": "Kuva"
-     },
-     "bbcwbx.html.url":  {
-          "message": "Linkki"
-     },
-     "bbcwbx.xhtml":  {
-          "message": "XHTML"
-     },
-     "bbcwbx.xhtml.clp":  {
-          "message": "Leikepˆyt‰"
-     },
-     "bbcwbx.xhtml.clp.quote":  {
-          "message": "Lainaus"
-     },
-     "bbcwbx.xhtml.clp.code":  {
-          "message": "Koodi"
-     },
-     "bbcwbx.xhtml.clp.list":  {
-          "message": "Lista"
-     },
-     "bbcwbx.xhtml.clp.ordlist":  {
-          "message": "Numeroj‰rjestyksellinen lista"
-     },
-     "bbcwbx.xhtml.clp.alphalist":  {
-          "message": "Aakkosj‰rjestyksellinen lista"
-     },
-     "bbcwbx.xhtml.img":  {
-          "message": "Kuva"
-     },
-     "bbcwbx.xhtml.clp.mkurlsel":  {
-          "message": "Tee valinnasta linkki"
-     },
-     "bbcwbx.xhtml.clp.url":  {
-          "message": "Linkki"
-     },
-     "bbcwbx.xhtml.clp.urlname":  {
-          "message": "Linkki nimell‰"
-     },
-     "bbcwbx.xhtml.wbx":  {
-          "message": "WebEx"
-     },
-     "bbcwbx.xhtml.wbx.quote":  {
-          "message": "Lainaus"
-     },
-     "bbcwbx.xhtml.wbx.code":  {
-          "message": "Koodi"
-     },
-     "bbcwbx.xhtml.wbx.list":  {
-          "message": "Lista"
-     },
-     "bbcwbx.xhtml.wbx.ordlist":  {
-          "message": "Numeroj‰rjestyksellinen lista"
-     },
-     "bbcwbx.xhtml.wbx.alphalist":  {
-          "message": "Aakkosj‰rjestyksellinen lista"
-     },
-     "bbcwbx.xhtml.wbx.urlname":  {
-          "message": "Linkki nimell‰"
-     },
-     "bbcwbx.xhtml.wbx.urlwiz":  {
-          "message": "Linkinluoja"
-     },
-     "bbcwbx.xhtml.bold":  {
-          "message": "Lihavoi"
-     },
-     "bbcwbx.xhtml.ital":  {
-          "message": "Kursivoi"
-     },
-     "bbcwbx.xhtml.undrln":  {
-          "message": "Alleviivaa"
-     },
-     "bbcwbx.xhtml.strk":  {
-          "message": "Yliviivaa"
-     },
-     "bbcwbx.xhtml.wbx.fntcol":  {
-          "message": "Kirjaisimen v‰ri"
-     },
-     "bbcwbx.xhtml.image":  {
-          "message": "Kuva"
-     },
-     "bbcwbx.xhtml.url":  {
-          "message": "Linkki"
-     },
-     "bbcwbx.custom":  {
-          "message": "Omat tagit"
-     },
-     "bbcwbx.mkdn":  {
-          "message": "Markdown"
-     },
-     "bbcwbx.mkdn.clp":  {
-          "message": "Leikepˆyt‰"
-     },
-     "bbcwbx.mkdn.clp.quote":  {
-          "message": "Lainaus"
-     },
-     "bbcwbx.mkdn.clp.code":  {
-          "message": "Koodi"
-     },
-     "bbcwbx.mkdn.clp.list":  {
-          "message": "Lista"
-     },
-     "bbcwbx.mkdn.clp.ordlist":  {
-          "message": "Numeroj‰rjestyksellinen lista"
-     },
-     "bbcwbx.mkdn.clp.mkurlsel":  {
-          "message": "Tee valinnasta linkki"
-     },
-     "bbcwbx.mkdn.clp.mkimgsel":  {
-          "message": "Make image from selection"
-     },
-     "bbcwbx.mkdn.clp.urlname":  {
-          "message": "Linkki nimell‰"
-     },
-     "bbcwbx.mkdn.wbx":  {
-          "message": "WebEx"
-     },
-     "bbcwbx.mkdn.wbx.quote":  {
-          "message": "Lainaus"
-     },
-     "bbcwbx.mkdn.wbx.code":  {
-          "message": "Koodi"
-     },
-     "bbcwbx.mkdn.wbx.list":  {
-          "message": "Lista"
-     },
-     "bbcwbx.mkdn.wbx.ordlist":  {
-          "message": "Numeroj‰rjestyksellinen lista"
-     },
-     "bbcwbx.mkdn.wbx.urlname":  {
-          "message": "Linkki nimell‰"
-     },
-     "bbcwbx.mkdn.wbx.urlwiz":  {
-          "message": "Linkinluoja"
-     },
-     "bbcwbx.mkdn.bold":  {
-          "message": "Lihavoi"
-     },
-     "bbcwbx.mkdn.ital":  {
-          "message": "Kursivoi"
-     },
-     "bbcwbx.mkdn.strk":  {
-          "message": "Yliviivaa"
-     },
-     "bbcwbx.sym":  {
-          "message": "Symbolit"
-     },
-     "bbcwbx.sym.fraction":  {
-          "message": "Fakeet"
-     },
-     "bbcwbx.sym.fraction.12":  {
-          "message": "Ω"
-     },
-     "bbcwbx.sym.fraction.13":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.fraction.23":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.fraction.14":  {
-          "message": "º"
-     },
-     "bbcwbx.sym.fraction.34":  {
-          "message": "æ"
-     },
-     "bbcwbx.sym.fraction.15":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.fraction.25":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.fraction.35":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.fraction.45":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.fraction.16":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.fraction.46":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.fraction.18":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.fraction.38":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.fraction.58":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.fraction.78":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.currency":  {
-          "message": "Valuutta"
-     },
-     "bbcwbx.sym.currency.dollar":  {
-          "message": "$"
-     },
-     "bbcwbx.sym.currency.cent":  {
-          "message": "¢"
-     },
-     "bbcwbx.sym.currency.euro":  {
-          "message": "Ä"
-     },
-     "bbcwbx.sym.currency.gbp":  {
-          "message": "£"
-     },
-     "bbcwbx.sym.currency.yen":  {
-          "message": "•"
-     },
-     "bbcwbx.sym.currency.franc":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.currency.lira":  {
-          "message": "£"
-     },
-     "bbcwbx.sym.currency.yuan":  {
-          "message": "•CNY"
-     },
-     "bbcwbx.sym.currency.rupee":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.currency.rupee2":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.currency.thaibt":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.currency.won":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.sci":  {
-          "message": "Tiede"
-     },
-     "bbcwbx.sym.sci.micro":  {
-          "message": "µ"
-     },
-     "bbcwbx.sym.sci.ohm":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.sci.sigma":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.sci.sqrt":  {
-          "message": "v"
-     },
-     "bbcwbx.sym.sci.infin":  {
-          "message": "8"
-     },
-     "bbcwbx.sym.sci.apprx":  {
-          "message": "ò"
-     },
-     "bbcwbx.sym.sci.neq":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.sci.lte":  {
-          "message": "="
-     },
-     "bbcwbx.sym.sci.gte":  {
-          "message": "="
-     },
-     "bbcwbx.sym.grk":  {
-          "message": "Kreikka"
-     },
-     "bbcwbx.sym.grk.pi":  {
-          "message": "p"
-     },
-     "bbcwbx.sym.grk.rho":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.grk.sgm":  {
-          "message": "s"
-     },
-     "bbcwbx.sym.grk.tau":  {
-          "message": "t"
-     },
-     "bbcwbx.sym.grk.chi":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.grk.psi":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.grk.omega":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.grk.comega":  {
-          "message": "T"
-     },
-     "bbcwbx.sym.grk.delta":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.grk.ldelta":  {
-          "message": "d"
-     },
-     "bbcwbx.sym.grk.lambda":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.grk.phi":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.grk.theta":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.dgre":  {
-          "message": "∞"
-     },
-     "bbcwbx.sym.cprt":  {
-          "message": "©"
-     },
-     "bbcwbx.sym.phontm":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.sm":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.tm":  {
-          "message": "ô"
-     },
-     "bbcwbx.sym.regtm":  {
-          "message": "Æ"
-     },
-     "bbcwbx.sym.phonrt":  {
-          "message": "?"
-     },
-     "bbcwbx.sym.section":  {
-          "message": "ß"
-     },
-     "bbcwbx.sym.plumin":  {
-          "message": "±"
-     },
-     "bbcwbx.sym.elps":  {
-          "message": "Ö"
-     },
-     "bbcwbx.sym.emdash":  {
-          "message": "ó"
-     },
-     "bbcwbx.sym.dagger":  {
-          "message": "Ü"
-     },
-     "bbcwbx.sym.dubdagger":  {
-          "message": "á"
-     },
-     "bbcwbx.sym.permil":  {
-          "message": "â"
-     },
-     "INS_AUTHOR": {
-          "message": "Syˆt‰ kirjoittajan nimi tai j‰t‰ tyhj‰ksi:"
-     },
-     "INS_LINKNAME": {
-          "message": "Ssyˆt‰ linkin nimi:"
-     },
-     "INS_FONTSIZE": {
-          "message": "Syˆt‰ tekstin koko:"
-     },
-     "INS_FONTCOLOR": {
-          "message": "Syˆt‰ tekstin v‰ri:"
-     },
-     "URLCOMPOSTO_STEP1": {
-          "message": "Linkin nimi?"
-     },
-     "URLCOMPOSTO_STEP2": {
-          "message": "Osoite?"
-     },
-     "INS_THREADNUM": {
-          "message": "Syˆt‰ keskusteluketjun numero:"
-     },
-     "INS_POSTNUM": {
-          "message": "Syˆt‰ postin numero:"
-     },
-     "MENU_NO_CUSTOM_TAGS ": {
-          "message": "Omia tageja ei m‰‰ritelty"
-     },
-     "MENU_DISABLE ": {
-          "message": "Poista t‰m‰ valikko k‰ytˆst‰"
-     },
-     "MENU_SETTINGS ": {
-          "message": "bbCodeWebex asetukset..."
-     },
-     "DELETE_CUSTOMTAG": {
-          "message": "Poistetaanko t‰m‰ tagi?"
-     },
-     "WINDOWTITLE_EDITCUSTOMTAG ": {
-          "message": "Muokkaa omaa tagia"
-     },
-     "WINDOWTITLE_NEWCUSTOMTAG ": {
-          "message": "Lis‰‰ uusi oma tagi"
-     },
-     "ALERT_REORDER_TITLE ": {
-          "message": "Reorder Custom Tags"
-     },
-     "ALERT_REORDER_TEXT ": {
-          "message": "Custom tags will be arranged in alphabetical order. This action cannot be undone, unless you restore an existing backup. Do you want to continue?"
-     },
-     "WINDOWTITLE_EXPORT ": {
-          "message": "Choose export file"
-     },
-     "WINDOWTITLE_IMPORT ": {
-          "message": "Choose import file"
-     },
-     "ALERT_IMPORT_TITLE ": {
-          "message": "Tuo asetuksia"
-     },
-     "ALERT_IMPORT_TEXT ": {
-          "message": "This will overwrite all existing settings. Are you sure?"
-     },
-     "ALERT_IMPORT_COMPLETED ": {
-          "message": "Operation completed."
-     },
-     "description": {
-          "message": "Lis‰‰ BBCode/HTML/XHTML-komennot ponnahdusvalikkoon"
-     },
-     "name": {
-          "message": "bbCodeWebex"
-     },
-     "SETTINGSMENU": {
-          "message": "bbCodeWebex - Asetukset..."
-     },
-     "DISABLEMENU": {
-          "message": "Poista t‰m‰ valikko k‰ytˆst‰"
-     },
-     "PICKCOLOR_TITLE": {
-          "message": "Valitse v‰ri"
-     },
-     "PICKCOLOR_DESCRIPTION": {
-          "message": "Valitse kirjaisimen v‰ri listasta"
-     },
-     "PICKCOLOR_LASTCOLOR": {
-          "message": "Viimeksi k‰ytetty v‰ri:"
-     },
-     "SETTINGS_TITLE": {
-          "message": "bbCodeWebex - Asetukset"
-     },
-     "SETTINGS_MENU": {
-          "message": "Valikot"
-     },
-     "SETTINGS_CUSTOMTAGS": {
-          "message": "Omat tagit"
-     },
-     "SETTINGS_MENU_DESCRIPTION": {
-          "message": "Valitse sis‰ltˆvalikossa n‰kyv‰t osiot"
-     },
-     "SETTINGS_MENU_ENABLEBBCODE": {
-          "message": "bbcode-valikko"
-     },
-     "SETTINGS_MENU_ENABLEBBCODE_VBULLETIN": {
-          "message": "VBullettin-alivalikko"
-     },
-     "SETTINGS_MENU_ENABLEHTML": {
-          "message": "HTML-valikko"
-     },
-     "SETTINGS_MENU_ENABLEXHTML": {
-          "message": "XHTML-valikko"
-     },
-     "SETTINGS_MENU_ENABLEMARKDOWN": {
-          "message": "Markdown-valikko"
-     },
-     "SETTINGS_MENU_ENABLECUSTOM": {
-          "message": "Omat tagit -valikko"
-     },
-     "SETTINGS_MANAGESETTINGS": {
-          "message": "Manage settings"
-     },
-     "SETTINGS_BACKUPDESCRIPTION": {
-          "message": "WARNING: importing settings will overwrite all existing settings."
-     },
-     "SETTINGS_BTNIMPORT": {
-          "message": "Tuo asetuksia"
-     },
-     "SETTINGS_BTNEXPORT": {
-          "message": "Vie asetukset"
-     },
-     "SETTINGS_CUSTOMTAGS_TOTALTAGS": {
-          "message": "K‰ytett‰viss‰ olevat omat tagit:"
-     },
-     "SETTINGS_CUSTOMTAGS_BTNADD": {
-          "message": "Lis‰‰..."
-     },
-     "SETTINGS_CUSTOMTAGS_BTNEDIT": {
-          "message": "Muokkaa..."
-     },
-     "SETTINGS_CUSTOMTAGS_BTNDELETE": {
-          "message": "Poista..."
-     },
-     "SETTINGS_CUSTOMTAGS_MOVEUP": {
-          "message": "Siirr‰ ylˆs"
-     },
-     "SETTINGS_CUSTOMTAGS_MOVEDOWN": {
-          "message": "Siirr‰ alas"
-     },
-     "SETTINGS_CUSTOMTAGS_SORTALPHA": {
-          "message": "Sort alphabetically"
-     },
-     "SETTINGS_CUSTOMTAGS_MOREINFO": {
-          "message": "Lis‰tietoja ja esimerkkej‰"
-     },
-     "SETTINGS_CUSTOMTAGS_VARIABLES": {
-          "message": "K‰ytett‰viss‰ olevat muuttujat"
-     },
-     "SETTINGS_CUSTOMTAGS_VARCLIPBOARD": {
-          "message": "leikepˆyd‰n sis‰ltˆ"
-     },
-     "SETTINGS_CUSTOMTAGS_VARSELECTION": {
-          "message": "valittu teksti"
-     },
-     "SETTINGS_CUSTOMTAGS_LABEL": {
-          "message": "Tagin nimi:"
-     },
-     "SETTINGS_CUSTOMTAGS_ACTION": {
-          "message": "Koodi:"
-     },
-     "SAVE_TAG_ORDER": {
-          "message": "Save Custom Tag Order"
-     },
-     "ENTER_COLOR_HEX": {
-          "message": "ENTER FONT COLOR IN HEX"
-     },
-     "TAGS_BTNIMPORT_OVRT": {
-          "message": "Tuo asetuksia ó \nKorvataanko"
-     },
-     "TAGS_BTNIMPORT_APPEND": {
-          "message": "Tuo asetuksia ó \nLiit‰"
-     },
-     "TAGS_BTNIMPORT_BBCODEXTRA": {
-          "message": "Tuo asetuksia ó \nLiit‰ bbCodeXtra"
-     },
-}
 
+C:\Users\msaroff\Documents\GitHub\bbCodeWebEx>rem this is simply a way to call lynx in a simplified manner 
 
+C:\Users\msaroff\Documents\GitHub\bbCodeWebEx>C:\Users\msaroff\Documents\github\bbcodewebex\Lynx\lynx.exe -dump -width 300 -cfg=C:\Users\msaroff\Documents\github\bbcodewebex\lynx\lynx.cfg C:\Moo\bbCodeWebex_Temp\fi.htm  
 
-
-
-
-
-
-
-
-
+                                                                                                                                                   {
+        "bbcwbx.bbcode":  {
+             "message": "bbCode"
+        },
+        "bbcwbx.bbcode.clp":  {
+             "message": "Leikep√∂yt√§"
+        },
+        "bbcwbx.bbcode.clp.quote":  {
+             "message": "Lainaus"
+        },
+        "bbcwbx.bbcode.clp.code":  {
+             "message": "Koodi"
+        },
+        "bbcwbx.bbcode.clp.list":  {
+             "message": "Lista"
+        },
+        "bbcwbx.bbcode.clp.ordlist":  {
+             "message": "Numeroj√§rjestyksellinen lista"
+        },
+        "bbcwbx.bbcode.clp.alphalist":  {
+             "message": "Aakkosj√§rjestyksellinen lista"
+        },
+        "bbcwbx.bbcode.clp.spoiler":  {
+             "message": "Spoiler"
+        },
+        "bbcwbx.bbcode.clp.image":  {
+             "message": "Kuva"
+        },
+        "bbcwbx.bbcode.clp.mkurlsel":  {
+             "message": "Tee valinnasta linkki"
+        },
+        "bbcwbx.bbcode.clp.url":  {
+             "message": "Linkki"
+        },
+        "bbcwbx.bbcode.clp.urlname":  {
+             "message": "Linkki nimell√§"
+        },
+        "bbcwbx.bbcode.wbx":  {
+             "message": "WebEx"
+        },
+        "bbcwbx.bbcode.wbx.quote":  {
+             "message": "Lainaus"
+        },
+        "bbcwbx.bbcode.wbx.code":  {
+             "message": "Koodi"
+        },
+        "bbcwbx.bbcode.wbx.list":  {
+             "message": "Lista"
+        },
+        "bbcwbx.bbcode.wbx.ordlist":  {
+             "message": "Numeroj√§rjestyksellinen lista"
+        },
+        "bbcwbx.bbcode.wbx.alphalist":  {
+             "message": "Aakkosj√§rjestyksellinen lista"
+        },
+        "bbcwbx.bbcode.wbx.spoiler":  {
+             "message": "Spoiler"
+        },
+        "bbcwbx.bbcode.wbx.fntcol":  {
+             "message": "Kirjaisimen v√§ri"
+        },
+        "bbcwbx.bbcode.wbx.fntsz":  {
+             "message": "Kirjaisimen koko"
+        },
+        "bbcwbx.bbcode.wbx.urlname":  {
+             "message": "Linkki nimell√§"
+        },
+        "bbcwbx.bbcode.wbx.urlwiz":  {
+             "message": "Linkinluoja"
+        },
+        "bbcwbx.bbcode.vbl":  {
+             "message": "VBulletin3"
+        },
+        "bbcwbx.bbcode.vbl.thd":  {
+             "message": "Keskusteluketju"
+        },
+        "bbcwbx.bbcode.vbl.pst":  {
+             "message": "Posti"
+        },
+        "bbcwbx.bbcode.vbl.alnlf":  {
+             "message": "Tasaa oikealle"
+        },
+        "bbcwbx.bbcode.vbl.alnrt":  {
+             "message": "Tasaa vasemmalle"
+        },
+        "bbcwbx.bbcode.vbl.ctr":  {
+             "message": "Keskelle"
+        },
+        "bbcwbx.bbcode.vbl.indnt":  {
+             "message": "Sisenn√§"
+        },
+        "bbcwbx.bbcode.vbl.hilt":  {
+             "message": "Korosta"
+        },
+        "bbcwbx.bbcode.bold":  {
+             "message": "Lihavoi"
+        },
+        "bbcwbx.bbcode.ital":  {
+             "message": "Kursivoi"
+        },
+        "bbcwbx.bbcode.undrln":  {
+             "message": "Alleviivaa"
+        },
+        "bbcwbx.bbcode.img":  {
+             "message": "Kuva"
+        },
+        "bbcwbx.bbcode.url":  {
+             "message": "Linkki"
+        },
+        "bbcwbx.html":  {
+             "message": "HTML"
+        },
+        "bbcwbx.html.clp":  {
+             "message": "Leikep√∂yt√§"
+        },
+        "bbcwbx.html.clp.quote":  {
+             "message": "Lainaus"
+        },
+        "bbcwbx.html.clp.code":  {
+             "message": "Koodi"
+        },
+        "bbcwbx.html.clp.list":  {
+             "message": "Lista"
+        },
+        "bbcwbx.html.clp.ordlist":  {
+             "message": "Numeroj√§rjestyksellinen lista"
+        },
+        "bbcwbx.html.clp.alphalist":  {
+             "message": "Aakkosj√§rjestyksellinen lista"
+        },
+        "bbcwbx.html.clp.image":  {
+             "message": "Kuva"
+        },
+        "bbcwbx.html.clp.mkurlsel":  {
+             "message": "Tee valinnasta linkki"
+        },
+        "bbcwbx.html.clp.url":  {
+             "message": "Linkki"
+        },
+        "bbcwbx.html.clp.urlname":  {
+             "message": "Linkki nimell√§"
+        },
+        "bbcwbx.html.wbx":  {
+             "message": "WebEx"
+        },
+        "bbcwbx.html.wbx.quote":  {
+             "message": "Lainaus"
+        },
+        "bbcwbx.html.wbx.code":  {
+             "message": "Koodi"
+        },
+        "bbcwbx.html.wbx.list":  {
+             "message": "Lista"
+        },
+        "bbcwbx.html.wbx.ordlist":  {
+             "message": "Numeroj√§rjestyksellinen lista"
+        },
+        "bbcwbx.html.wbx.alphalist":  {
+             "message": "Aakkosj√§rjestyksellinen lista"
+        },
+        "bbcwbx.html.wbx.urlname":  {
+             "message": "Linkki nimell√§"
+        },
+        "bbcwbx.html.wbx.urlwiz":  {
+             "message": "Linkinluoja"
+        },
+        "bbcwbx.html.bold":  {
+             "message": "Lihavoi"
+        },
+        "bbcwbx.html.ital":  {
+             "message": "Kursivoi"
+        },
+        "bbcwbx.html.undrln":  {
+             "message": "Alleviivaa"
+        },
+        "bbcwbx.html.strk":  {
+             "message": "Yliviivaa"
+        },
+        "bbcwbx.html.wbx.fntcol":  {
+             "message": "Kirjaisimen v√§ri"
+        },
+        "bbcwbx.html.img":  {
+             "message": "Kuva"
+        },
+        "bbcwbx.html.url":  {
+             "message": "Linkki"
+        },
+        "bbcwbx.xhtml":  {
+             "message": "XHTML"
+        },
+        "bbcwbx.xhtml.clp":  {
+             "message": "Leikep√∂yt√§"
+        },
+        "bbcwbx.xhtml.clp.quote":  {
+             "message": "Lainaus"
+        },
+        "bbcwbx.xhtml.clp.code":  {
+             "message": "Koodi"
+        },
+        "bbcwbx.xhtml.clp.list":  {
+             "message": "Lista"
+        },
+        "bbcwbx.xhtml.clp.ordlist":  {
+             "message": "Numeroj√§rjestyksellinen lista"
+        },
+        "bbcwbx.xhtml.clp.alphalist":  {
+             "message": "Aakkosj√§rjestyksellinen lista"
+        },
+        "bbcwbx.xhtml.img":  {
+             "message": "Kuva"
+        },
+        "bbcwbx.xhtml.clp.mkurlsel":  {
+             "message": "Tee valinnasta linkki"
+        },
+        "bbcwbx.xhtml.clp.url":  {
+             "message": "Linkki"
+        },
+        "bbcwbx.xhtml.clp.urlname":  {
+             "message": "Linkki nimell√§"
+        },
+        "bbcwbx.xhtml.wbx":  {
+             "message": "WebEx"
+        },
+        "bbcwbx.xhtml.wbx.quote":  {
+             "message": "Lainaus"
+        },
+        "bbcwbx.xhtml.wbx.code":  {
+             "message": "Koodi"
+        },
+        "bbcwbx.xhtml.wbx.list":  {
+             "message": "Lista"
+        },
+        "bbcwbx.xhtml.wbx.ordlist":  {
+             "message": "Numeroj√§rjestyksellinen lista"
+        },
+        "bbcwbx.xhtml.wbx.alphalist":  {
+             "message": "Aakkosj√§rjestyksellinen lista"
+        },
+        "bbcwbx.xhtml.wbx.urlname":  {
+             "message": "Linkki nimell√§"
+        },
+        "bbcwbx.xhtml.wbx.urlwiz":  {
+             "message": "Linkinluoja"
+        },
+        "bbcwbx.xhtml.bold":  {
+             "message": "Lihavoi"
+        },
+        "bbcwbx.xhtml.ital":  {
+             "message": "Kursivoi"
+        },
+        "bbcwbx.xhtml.undrln":  {
+             "message": "Alleviivaa"
+        },
+        "bbcwbx.xhtml.strk":  {
+             "message": "Yliviivaa"
+        },
+        "bbcwbx.xhtml.wbx.fntcol":  {
+             "message": "Kirjaisimen v√§ri"
+        },
+        "bbcwbx.xhtml.image":  {
+             "message": "Kuva"
+        },
+        "bbcwbx.xhtml.url":  {
+             "message": "Linkki"
+        },
+        "bbcwbx.custom":  {
+             "message": "Omat tagit"
+        },
+        "bbcwbx.mkdn":  {
+             "message": "Markdown"
+        },
+        "bbcwbx.mkdn.clp":  {
+             "message": "Leikep√∂yt√§"
+        },
+        "bbcwbx.mkdn.clp.quote":  {
+             "message": "Lainaus"
+        },
+        "bbcwbx.mkdn.clp.code":  {
+             "message": "Koodi"
+        },
+        "bbcwbx.mkdn.clp.list":  {
+             "message": "Lista"
+        },
+        "bbcwbx.mkdn.clp.ordlist":  {
+             "message": "Numeroj√§rjestyksellinen lista"
+        },
+        "bbcwbx.mkdn.clp.mkurlsel":  {
+             "message": "Tee valinnasta linkki"
+        },
+        "bbcwbx.mkdn.clp.mkimgsel":  {
+             "message": "Make image from selection"
+        },
+        "bbcwbx.mkdn.clp.urlname":  {
+             "message": "Linkki nimell√§"
+        },
+        "bbcwbx.mkdn.wbx":  {
+             "message": "WebEx"
+        },
+        "bbcwbx.mkdn.wbx.quote":  {
+             "message": "Lainaus"
+        },
+        "bbcwbx.mkdn.wbx.code":  {
+             "message": "Koodi"
+        },
+        "bbcwbx.mkdn.wbx.list":  {
+             "message": "Lista"
+        },
+        "bbcwbx.mkdn.wbx.ordlist":  {
+             "message": "Numeroj√§rjestyksellinen lista"
+        },
+        "bbcwbx.mkdn.wbx.urlname":  {
+             "message": "Linkki nimell√§"
+        },
+        "bbcwbx.mkdn.wbx.urlwiz":  {
+             "message": "Linkinluoja"
+        },
+        "bbcwbx.mkdn.bold":  {
+             "message": "Lihavoi"
+        },
+        "bbcwbx.mkdn.ital":  {
+             "message": "Kursivoi"
+        },
+        "bbcwbx.mkdn.strk":  {
+             "message": "Yliviivaa"
+        },
+        "bbcwbx.sym":  {
+             "message": "Symbolit"
+        },
+        "bbcwbx.sym.fraction":  {
+             "message": "Fakeet"
+        },
+        "bbcwbx.sym.fraction.12":  {
+             "message": "¬Ω"
+        },
+        "bbcwbx.sym.fraction.13":  {
+             "message": "‚Öì"
+        },
+        "bbcwbx.sym.fraction.23":  {
+             "message": "‚Öî"
+        },
+        "bbcwbx.sym.fraction.14":  {
+             "message": "¬º"
+        },
+        "bbcwbx.sym.fraction.34":  {
+             "message": "¬æ"
+        },
+        "bbcwbx.sym.fraction.15":  {
+             "message": "‚Öï"
+        },
+        "bbcwbx.sym.fraction.25":  {
+             "message": "‚Öñ"
+        },
+        "bbcwbx.sym.fraction.35":  {
+             "message": "‚Öó"
+        },
+        "bbcwbx.sym.fraction.45":  {
+             "message": "‚Öò"
+        },
+        "bbcwbx.sym.fraction.16":  {
+             "message": "‚Öô"
+        },
+        "bbcwbx.sym.fraction.46":  {
+             "message": "‚Öö"
+        },
+        "bbcwbx.sym.fraction.18":  {
+             "message": "‚Öõ"
+        },
+        "bbcwbx.sym.fraction.38":  {
+             "message": "‚Öú"
+        },
+        "bbcwbx.sym.fraction.58":  {
+             "message": "‚Öù"
+        },
+        "bbcwbx.sym.fraction.78":  {
+             "message": "‚Öû"
+        },
+        "bbcwbx.sym.currency":  {
+             "message": "Valuutta"
+        },
+        "bbcwbx.sym.currency.dollar":  {
+             "message": "$"
+        },
+        "bbcwbx.sym.currency.cent":  {
+             "message": "¬¢"
+        },
+        "bbcwbx.sym.currency.euro":  {
+             "message": "‚Ç¨"
+        },
+        "bbcwbx.sym.currency.gbp":  {
+             "message": "¬£"
+        },
+        "bbcwbx.sym.currency.yen":  {
+             "message": "¬•"
+        },
+        "bbcwbx.sym.currency.franc":  {
+             "message": "‚Ç£"
+        },
+        "bbcwbx.sym.currency.lira":  {
+             "message": "‚Ç§"
+        },
+        "bbcwbx.sym.currency.yuan":  {
+             "message": "¬•CNY"
+        },
+        "bbcwbx.sym.currency.rupee":  {
+             "message": "‚Ç®"
+        },
+        "bbcwbx.sym.currency.rupee2":  {
+             "message": "‚Çπ"
+        },
+        "bbcwbx.sym.currency.thaibt":  {
+             "message": "‡∏ø"
+        },
+        "bbcwbx.sym.currency.won":  {
+             "message": "‚Ç©"
+        },
+        "bbcwbx.sym.sci":  {
+             "message": "Tiede"
+        },
+        "bbcwbx.sym.sci.micro":  {
+             "message": "¬µ"
+        },
+        "bbcwbx.sym.sci.ohm":  {
+             "message": "‚Ñ¶"
+        },
+        "bbcwbx.sym.sci.sigma":  {
+             "message": "‚àë"
+        },
+        "bbcwbx.sym.sci.sqrt":  {
+             "message": "‚àö"
+        },
+        "bbcwbx.sym.sci.infin":  {
+             "message": "‚àû"
+        },
+        "bbcwbx.sym.sci.apprx":  {
+             "message": "‚âà"
+        },
+        "bbcwbx.sym.sci.neq":  {
+             "message": "‚â†"
+        },
+        "bbcwbx.sym.sci.lte":  {
+             "message": "‚â§"
+        },
+        "bbcwbx.sym.sci.gte":  {
+             "message": "‚â•"
+        },
+        "bbcwbx.sym.grk":  {
+             "message": "Kreikka"
+        },
+        "bbcwbx.sym.grk.pi":  {
+             "message": "œÄ"
+        },
+        "bbcwbx.sym.grk.rho":  {
+             "message": "œÅ"
+        },
+        "bbcwbx.sym.grk.sgm":  {
+             "message": "œÉ"
+        },
+        "bbcwbx.sym.grk.tau":  {
+             "message": "œÑ"
+        },
+        "bbcwbx.sym.grk.chi":  {
+             "message": "œá"
+        },
+        "bbcwbx.sym.grk.psi":  {
+             "message": "œà"
+        },
+        "bbcwbx.sym.grk.omega":  {
+             "message": "œâ"
+        },
+        "bbcwbx.sym.grk.comega":  {
+             "message": "Œò"
+        },
+        "bbcwbx.sym.grk.delta":  {
+             "message": "Œî"
+        },
+        "bbcwbx.sym.grk.ldelta":  {
+             "message": "Œ¥"
+        },
+        "bbcwbx.sym.grk.lambda":  {
+             "message": "Œª"
+        },
+        "bbcwbx.sym.grk.phi":  {
+             "message": "…∏"
+        },
+        "bbcwbx.sym.grk.theta":  {
+             "message": "œ¥"
+        },
+        "bbcwbx.sym.dgre":  {
+             "message": "¬∞"
+        },
+        "bbcwbx.sym.cprt":  {
+             "message": "¬©"
+        },
+        "bbcwbx.sym.phontm":  {
+             "message": "‚Ñó"
+        },
+        "bbcwbx.sym.sm":  {
+             "message": "‚Ñ†"
+        },
+        "bbcwbx.sym.tm":  {
+             "message": "‚Ñ¢"
+        },
+        "bbcwbx.sym.regtm":  {
+             "message": "¬Æ"
+        },
+        "bbcwbx.sym.phonrt":  {
+             "message": "‚Ñó"
+        },
+        "bbcwbx.sym.section":  {
+             "message": "¬ß"
+        },
+        "bbcwbx.sym.plumin":  {
+             "message": "¬±"
+        },
+        "bbcwbx.sym.elps":  {
+             "message": "‚Ä¶"
+        },
+        "bbcwbx.sym.emdash":  {
+             "message": "‚Äî"
+        },
+        "bbcwbx.sym.dagger":  {
+             "message": "‚Ä†"
+        },
+        "bbcwbx.sym.dubdagger":  {
+             "message": "‚Ä°"
+        },
+        "bbcwbx.sym.permil":  {
+             "message": "‚Ä∞"
+        },
+        "INS_AUTHOR": {
+             "message": "Sy√∂t√§ kirjoittajan nimi tai j√§t√§ tyhj√§ksi:"
+        },
+        "INS_LINKNAME": {
+             "message": "Ssy√∂t√§ linkin nimi:"
+        },
+        "INS_FONTSIZE": {
+             "message": "Sy√∂t√§ tekstin koko:"
+        },
+        "INS_FONTCOLOR": {
+             "message": "Sy√∂t√§ tekstin v√§ri:"
+        },
+        "URLCOMPOSTO_STEP1": {
+             "message": "Linkin nimi?"
+        },
+        "URLCOMPOSTO_STEP2": {
+             "message": "Osoite?"
+        },
+        "INS_THREADNUM": {
+             "message": "Sy√∂t√§ keskusteluketjun numero:"
+        },
+        "INS_POSTNUM": {
+             "message": "Sy√∂t√§ postin numero:"
+        },
+        "MENU_NO_CUSTOM_TAGS ": {
+             "message": "Omia tageja ei m√§√§ritelty"
+        },
+        "MENU_DISABLE ": {
+             "message": "Poista t√§m√§ valikko k√§yt√∂st√§"
+        },
+        "MENU_SETTINGS ": {
+             "message": "bbCodeWebex asetukset..."
+        },
+        "DELETE_CUSTOMTAG": {
+             "message": "Poistetaanko t√§m√§ tagi?"
+        },
+        "WINDOWTITLE_EDITCUSTOMTAG ": {
+             "message": "Muokkaa omaa tagia"
+        },
+        "WINDOWTITLE_NEWCUSTOMTAG ": {
+             "message": "Lis√§√§ uusi oma tagi"
+        },
+        "ALERT_REORDER_TITLE ": {
+             "message": "Reorder Custom Tags"
+        },
+        "ALERT_REORDER_TEXT ": {
+             "message": "Custom tags will be arranged in alphabetical order. This action cannot be undone, unless you restore an existing backup. Do you want to continue?"
+        },
+        "WINDOWTITLE_EXPORT ": {
+             "message": "Choose export file"
+        },
+        "WINDOWTITLE_IMPORT ": {
+             "message": "Choose import file"
+        },
+        "ALERT_IMPORT_TITLE ": {
+             "message": "Tuo asetuksia"
+        },
+        "ALERT_IMPORT_TEXT ": {
+             "message": "This will overwrite all existing settings. Are you sure?"
+        },
+        "ALERT_IMPORT_COMPLETED ": {
+             "message": "Operation completed."
+        },
+        "description": {
+             "message": "Lis√§√§ BBCode/HTML/XHTML-komennot ponnahdusvalikkoon"
+        },
+        "name": {
+             "message": "bbCodeWebex"
+        },
+        "SETTINGSMENU": {
+             "message": "bbCodeWebex - Asetukset..."
+        },
+        "DISABLEMENU": {
+             "message": "Poista t√§m√§ valikko k√§yt√∂st√§"
+        },
+        "PICKCOLOR_TITLE": {
+             "message": "Valitse v√§ri"
+        },
+        "PICKCOLOR_DESCRIPTION": {
+             "message": "Valitse kirjaisimen v√§ri listasta"
+        },
+        "PICKCOLOR_LASTCOLOR": {
+             "message": "Viimeksi k√§ytetty v√§ri:"
+        },
+        "SETTINGS_TITLE": {
+             "message": "bbCodeWebex - Asetukset"
+        },
+        "SETTINGS_MENU": {
+             "message": "Valikot"
+        },
+        "SETTINGS_CUSTOMTAGS": {
+             "message": "Omat tagit"
+        },
+        "SETTINGS_MENU_DESCRIPTION": {
+             "message": "Valitse sis√§lt√∂valikossa n√§kyv√§t osiot"
+        },
+        "SETTINGS_MENU_ENABLEBBCODE": {
+             "message": "bbcode-valikko"
+        },
+        "SETTINGS_MENU_ENABLEBBCODE_VBULLETIN": {
+             "message": "VBullettin-alivalikko"
+        },
+        "SETTINGS_MENU_ENABLEHTML": {
+             "message": "HTML-valikko"
+        },
+        "SETTINGS_MENU_ENABLEXHTML": {
+             "message": "XHTML-valikko"
+        },
+        "SETTINGS_MENU_ENABLEMARKDOWN": {
+             "message": "Markdown-valikko"
+        },
+        "SETTINGS_MENU_ENABLECUSTOM": {
+             "message": "Omat tagit -valikko"
+        },
+        "SETTINGS_MANAGESETTINGS": {
+             "message": "Manage settings"
+        },
+        "SETTINGS_BACKUPDESCRIPTION": {
+             "message": "WARNING: importing settings will overwrite all existing settings."
+        },
+        "SETTINGS_BTNIMPORT": {
+             "message": "Tuo asetuksia"
+        },
+        "SETTINGS_BTNEXPORT": {
+             "message": "Vie asetukset"
+        },
+        "SETTINGS_CUSTOMTAGS_TOTALTAGS": {
+             "message": "K√§ytett√§viss√§ olevat omat tagit:"
+        },
+        "SETTINGS_CUSTOMTAGS_BTNADD": {
+             "message": "Lis√§√§..."
+        },
+        "SETTINGS_CUSTOMTAGS_BTNEDIT": {
+             "message": "Muokkaa..."
+        },
+        "SETTINGS_CUSTOMTAGS_BTNDELETE": {
+             "message": "Poista..."
+        },
+        "SETTINGS_CUSTOMTAGS_MOVEUP": {
+             "message": "Siirr√§ yl√∂s"
+        },
+        "SETTINGS_CUSTOMTAGS_MOVEDOWN": {
+             "message": "Siirr√§ alas"
+        },
+        "SETTINGS_CUSTOMTAGS_SORTALPHA": {
+             "message": "Sort alphabetically"
+        },
+        "SETTINGS_CUSTOMTAGS_MOREINFO": {
+             "message": "Lis√§tietoja ja esimerkkej√§"
+        },
+        "SETTINGS_CUSTOMTAGS_VARIABLES": {
+             "message": "K√§ytett√§viss√§ olevat muuttujat"
+        },
+        "SETTINGS_CUSTOMTAGS_VARCLIPBOARD": {
+             "message": "leikep√∂yd√§n sis√§lt√∂"
+        },
+        "SETTINGS_CUSTOMTAGS_VARSELECTION": {
+             "message": "valittu teksti"
+        },
+        "SETTINGS_CUSTOMTAGS_LABEL": {
+             "message": "Tagin nimi:"
+        },
+        "SETTINGS_CUSTOMTAGS_ACTION": {
+             "message": "Koodi:"
+        },
+        "SAVE_TAG_ORDER": {
+             "message": "Save Custom Tag Order"
+        },
+        "ENTER_COLOR_HEX": {
+             "message": "ENTER FONT COLOR IN HEX"
+        },
+        "TAGS_BTNIMPORT_OVRT": {
+             "message": "Tuo asetuksia ‚Äî \nKorvataanko"
+        },
+        "TAGS_BTNIMPORT_APPEND": {
+             "message": "Tuo asetuksia ‚Äî \nLiit√§"
+        },
+        "TAGS_BTNIMPORT_BBCODEXTRA": {
+             "message": "Tuo asetuksia ‚Äî \nLiit√§ bbCodeXtra"
+        },
+                                                                                                                                                   }
