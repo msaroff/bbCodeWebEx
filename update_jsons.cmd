@@ -1,9 +1,9 @@
-rem Runs a customized configureation of the lynx browser in order to  
-rem convert html exported from Excel into a UTF-8 Json File.  Calls 
-rem Runlynx to deal with long directory names to call Browser
-rem it then takes the files and dumps them to the appropriate add-on
-rem directory.
-rem %userprofile%\Documents\github\bbcodewebex\Lynx\lynx.exe -cfg=%userprofile%\Documents\github\bbcodewebex\lynx\lynx.cfg -dump -width 300 .\DefMenu.htm > DefMenu.json
+@rem Runs a customized configureation of the lynx browser in order to  
+@rem convert html exported from Excel into a UTF-8 Json File.  Calls 
+@rem Runlynx to deal with long directory names to call Browser
+@rem it then takes the files and dumps them to the appropriate add-on
+@rem directory.
+@ rem %userprofile%\Documents\github\bbcodewebex\Lynx\lynx.exe -cfg=%userprofile%\Documents\github\bbcodewebex\lynx\lynx.cfg -dump -width 300 .\DefMenu.htm > DefMenu.json
 call runlynx C:\Moo\bbCodeWebex_Temp\en-US.htm > "%userprofile%\Documents\GitHub\bbCodeWebEx\_locales\en-US\messages.json"
 call runlynx C:\Moo\bbCodeWebex_Temp\de.htm > "%userprofile%\Documents\GitHub\bbCodeWebEx\_locales\de\messages.json"
 call runlynx C:\Moo\bbCodeWebex_Temp\es-ES.htm > "%userprofile%\Documents\GitHub\bbCodeWebEx\_locales\es-ES\messages.json"
