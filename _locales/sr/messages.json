@@ -1,704 +1,721 @@
-  {
-    "bbcwbx.bbcode": {
-      "message": "bbCode"
-    },
-    "bbcwbx.bbcode.clp": {
-      "message": "Clipboard"
-    },
-    "bbcwbx.bbcode.clp.quote": {
-      "message": "Наводници"
-    },
-    "bbcwbx.bbcode.clp.code": {
-      "message": "Кôд"
-    },
-    "bbcwbx.bbcode.clp.list": {
-      "message": "Списак"
-    },
-    "bbcwbx.bbcode.clp.ordlist": {
-      "message": "Уређен списак"
-    },
-    "bbcwbx.bbcode.clp.alphalist": {
-      "message": "Азбучни списак"
-    },
-    "bbcwbx.bbcode.clp.spoiler": {
-      "message": "Spoiler"
-    },
-    "bbcwbx.bbcode.clp.image": {
-      "message": "Слика"
-    },
-    "bbcwbx.bbcode.clp.mkurlsel": {
-      "message": "Нека одабрано постане URL"
-    },
-    "bbcwbx.bbcode.clp.url": {
-      "message": "URL"
-    },
-    "bbcwbx.bbcode.clp.urlname": {
-      "message": "URL са називом"
-    },
-    "bbcwbx.bbcode.wbx": {
-      "message": "WebEx"
-    },
-    "bbcwbx.bbcode.wbx.quote": {
-      "message": "Наводници"
-    },
-    "bbcwbx.bbcode.wbx.code": {
-      "message": "Кôд"
-    },
-    "bbcwbx.bbcode.wbx.list": {
-      "message": "Списак"
-    },
-    "bbcwbx.bbcode.wbx.ordlist": {
-      "message": "Уређен списак"
-    },
-    "bbcwbx.bbcode.wbx.alphalist": {
-      "message": "Азбучни списак"
-    },
-    "bbcwbx.bbcode.wbx.spoiler": {
-      "message": "Spoiler"
-    },
-    "bbcwbx.bbcode.wbx.fntcol": {
-      "message": "Боја фонта"
-    },
-    "bbcwbx.bbcode.wbx.fntsz": {
-      "message": "Величина фонта"
-    },
-    "bbcwbx.bbcode.wbx.urlname": {
-      "message": "URL са називом"
-    },
-    "bbcwbx.bbcode.wbx.urlwiz": {
-      "message": "URL чаробњак"
-    },
-    "bbcwbx.bbcode.vbl": {
-      "message": "VBulletin3"
-    },
-    "bbcwbx.bbcode.vbl.thd": {
-      "message": "Тема"
-    },
-    "bbcwbx.bbcode.vbl.pst": {
-      "message": "Одговор"
-    },
-    "bbcwbx.bbcode.vbl.alnlf": {
-      "message": "Лево поравнање"
-    },
-    "bbcwbx.bbcode.vbl.alnrt": {
-      "message": "Десно поравнање"
-    },
-    "bbcwbx.bbcode.vbl.ctr": {
-      "message": "Центрирано"
-    },
-    "bbcwbx.bbcode.vbl.indnt": {
-      "message": "Увлачење"
-    },
-    "bbcwbx.bbcode.vbl.hilt": {
-      "message": "Истицање"
-    },
-    "bbcwbx.bbcode.bold": {
-      "message": "Подебљано"
-    },
-    "bbcwbx.bbcode.ital": {
-      "message": "Искошено"
-    },
-    "bbcwbx.bbcode.undrln": {
-      "message": "Подвучено"
-    },
-    "bbcwbx.bbcode.img": {
-      "message": "Слика"
-    },
-    "bbcwbx.bbcode.url": {
-      "message": "URL"
-    },
-    "bbcwbx.html": {
-      "message": "HTML"
-    },
-    "bbcwbx.html.clp": {
-      "message": "Clipboard"
-    },
-    "bbcwbx.html.clp.quote": {
-      "message": "Наводници"
-    },
-    "bbcwbx.html.clp.code": {
-      "message": "Кôд"
-    },
-    "bbcwbx.html.clp.list": {
-      "message": "Списак"
-    },
-    "bbcwbx.html.clp.ordlist": {
-      "message": "Уређен списак"
-    },
-    "bbcwbx.html.clp.alphalist": {
-      "message": "Азбучни списак"
-    },
-    "bbcwbx.html.clp.image": {
-      "message": "Слика"
-    },
-    "bbcwbx.html.clp.mkurlsel": {
-      "message": "Нека одабрано постане URL"
-    },
-    "bbcwbx.html.clp.url": {
-      "message": "URL"
-    },
-    "bbcwbx.html.clp.urlname": {
-      "message": "URL са називом"
-    },
-    "bbcwbx.html.wbx": {
-      "message": "WebEx"
-    },
-    "bbcwbx.html.wbx.quote": {
-      "message": "Наводници"
-    },
-    "bbcwbx.html.wbx.code": {
-      "message": "Кôд"
-    },
-    "bbcwbx.html.wbx.list": {
-      "message": "Списак"
-    },
-    "bbcwbx.html.wbx.ordlist": {
-      "message": "Уређен списак"
-    },
-    "bbcwbx.html.wbx.alphalist": {
-      "message": "Азбучни списак"
-    },
-    "bbcwbx.html.wbx.urlname": {
-      "message": "URL са називом"
-    },
-    "bbcwbx.html.wbx.urlwiz": {
-      "message": "URL чаробњак"
-    },
-    "bbcwbx.html.bold": {
-      "message": "Подебљано"
-    },
-    "bbcwbx.html.ital": {
-      "message": "Искошено"
-    },
-    "bbcwbx.html.undrln": {
-      "message": "Подвучено"
-    },
-    "bbcwbx.html.strk": {
-      "message": "Прецртано"
-    },
-    "bbcwbx.html.img": {
-      "message": "Слика"
-    },
-    "bbcwbx.html.url": {
-      "message": "URL"
-    },
-    "bbcwbx.xhtml": {
-      "message": "XHTML"
-    },
-    "bbcwbx.xhtml.clp": {
-      "message": "Clipboard"
-    },
-    "bbcwbx.xhtml.clp.quote": {
-      "message": "Наводници"
-    },
-    "bbcwbx.xhtml.clp.code": {
-      "message": "Кôд"
-    },
-    "bbcwbx.xhtml.clp.list": {
-      "message": "Списак"
-    },
-    "bbcwbx.xhtml.clp.ordlist": {
-      "message": "Уређен списак"
-    },
-    "bbcwbx.xhtml.clp.alphalist": {
-      "message": "Азбучни списак"
-    },
-    "bbcwbx.xhtml.img": {
-      "message": "Слика"
-    },
-    "bbcwbx.xhtml.clp.mkurlsel": {
-      "message": "Нека одабрано постане URL"
-    },
-    "bbcwbx.xhtml.clp.url": {
-      "message": "URL"
-    },
-    "bbcwbx.xhtml.clp.urlname": {
-      "message": "URL са називом"
-    },
-    "bbcwbx.xhtml.wbx": {
-      "message": "WebEx"
-    },
-    "bbcwbx.xhtml.wbx.quote": {
-      "message": "Наводници"
-    },
-    "bbcwbx.xhtml.wbx.code": {
-      "message": "Кôд"
-    },
-    "bbcwbx.xhtml.wbx.list": {
-      "message": "Списак"
-    },
-    "bbcwbx.xhtml.wbx.ordlist": {
-      "message": "Уређен списак"
-    },
-    "bbcwbx.xhtml.wbx.alphalist": {
-      "message": "Азбучни списак"
-    },
-    "bbcwbx.xhtml.wbx.urlname": {
-      "message": "URL са називом"
-    },
-    "bbcwbx.xhtml.wbx.urlwiz": {
-      "message": "URL чаробњак"
-    },
-    "bbcwbx.xhtml.bold": {
-      "message": "Подебљано"
-    },
-    "bbcwbx.xhtml.ital": {
-      "message": "Искошено"
-    },
-    "bbcwbx.xhtml.undrln": {
-      "message": "Подвучено"
-    },
-    "bbcwbx.xhtml.strk": {
-      "message": "Прецртано"
-    },
-    "bbcwbx.xhtml.image": {
-      "message": "Слика"
-    },
-    "bbcwbx.xhtml.url": {
-      "message": "URL"
-    },
-    "bbcwbx.custom": {
-      "message": "Прилагођене ознаке"
-    },
-    "bbcwbx.mkdn": {
-      "message": "Markdown"
-    },
-    "bbcwbx.mkdn.clp": {
-      "message": "Clipboard"
-    },
-    "bbcwbx.mkdn.clp.quote": {
-      "message": "Наводници"
-    },
-    "bbcwbx.mkdn.clp.code": {
-      "message": "Кôд"
-    },
-    "bbcwbx.mkdn.clp.list": {
-      "message": "Списак"
-    },
-    "bbcwbx.mkdn.clp.ordlist": {
-      "message": "Уређен списак"
-    },
-    "bbcwbx.mkdn.clp.mkurlsel": {
-      "message": "Нека одабрано постане URL"
-    },
-    "bbcwbx.mkdn.clp.mkimgsel": {
-      "message": "Нека одабрано постане слика"
-    },
-    "bbcwbx.mkdn.clp.urlname": {
-      "message": "URL са називом"
-    },
-    "bbcwbx.mkdn.wbx": {
-      "message": "WebEx"
-    },
-    "bbcwbx.mkdn.wbx.quote": {
-      "message": "Наводници"
-    },
-    "bbcwbx.mkdn.wbx.code": {
-      "message": "Кôд"
-    },
-    "bbcwbx.mkdn.wbx.list": {
-      "message": "Списак"
-    },
-    "bbcwbx.mkdn.wbx.ordlist": {
-      "message": "Уређен списак"
-    },
-    "bbcwbx.mkdn.wbx.urlname": {
-      "message": "URL са називом"
-    },
-    "bbcwbx.mkdn.wbx.urlwiz": {
-      "message": "URL чаробњак"
-    },
-    "bbcwbx.mkdn.bold": {
-      "message": "Подебљано"
-    },
-    "bbcwbx.mkdn.ital": {
-      "message": "Искошено"
-    },
-    "bbcwbx.mkdn.strk": {
-      "message": "Прецртано"
-    },
-    "bbcwbx.sym": {
-      "message": "Симболи"
-    },
-    "bbcwbx.sym.fraction": {
-      "message": "фракције"
-    },
-    "bbcwbx.sym.fraction.12": {
-      "message": "½"
-    },
-    "bbcwbx.sym.fraction.13": {
-      "message": "⅓"
-    },
-    "bbcwbx.sym.fraction.23": {
-      "message": "⅔"
-    },
-    "bbcwbx.sym.fraction.14": {
-      "message": "¼"
-    },
-    "bbcwbx.sym.fraction.34": {
-      "message": "¾"
-    },
-    "bbcwbx.sym.fraction.15": {
-      "message": "⅕"
-    },
-    "bbcwbx.sym.fraction.25": {
-      "message": "⅖"
-    },
-    "bbcwbx.sym.fraction.35": {
-      "message": "⅗"
-    },
-    "bbcwbx.sym.fraction.45": {
-      "message": "⅘"
-    },
-    "bbcwbx.sym.fraction.16": {
-      "message": "⅙"
-    },
-    "bbcwbx.sym.fraction.46": {
-      "message": "⅚"
-    },
-    "bbcwbx.sym.fraction.18": {
-      "message": "⅛"
-    },
-    "bbcwbx.sym.fraction.38": {
-      "message": "⅜"
-    },
-    "bbcwbx.sym.fraction.58": {
-      "message": "⅝"
-    },
-    "bbcwbx.sym.fraction.78": {
-      "message": "⅞"
-    },
-    "bbcwbx.sym.currency": {
-      "message": "Валута"
-    },
-    "bbcwbx.sym.currency.dollar": {
-      "message": "$"
-    },
-    "bbcwbx.sym.currency.cent": {
-      "message": "¢"
-    },
-    "bbcwbx.sym.currency.euro": {
-      "message": "€"
-    },
-    "bbcwbx.sym.currency.gbp": {
-      "message": "£"
-    },
-    "bbcwbx.sym.currency.yen": {
-      "message": "¥"
-    },
-    "bbcwbx.sym.currency.franc": {
-      "message": "₣"
-    },
-    "bbcwbx.sym.currency.lira": {
-      "message": "₤"
-    },
-    "bbcwbx.sym.currency.yuan": {
-      "message": "¥CNY"
-    },
-    "bbcwbx.sym.currency.rupee": {
-      "message": "₨"
-    },
-    "bbcwbx.sym.currency.rupee2": {
-      "message": "₹"
-    },
-    "bbcwbx.sym.currency.thaibt": {
-      "message": "฿"
-    },
-    "bbcwbx.sym.currency.won": {
-      "message": "₩"
-    },
-    "bbcwbx.sym.sci": {
-      "message": "Наука"
-    },
-    "bbcwbx.sym.sci.micro": {
-      "message": "µ"
-    },
-    "bbcwbx.sym.sci.ohm": {
-      "message": "Ω"
-    },
-    "bbcwbx.sym.sci.sigma": {
-      "message": "∑"
-    },
-    "bbcwbx.sym.sci.sqrt": {
-      "message": "√"
-    },
-    "bbcwbx.sym.sci.infin": {
-      "message": "∞"
-    },
-    "bbcwbx.sym.sci.apprx": {
-      "message": "≈"
-    },
-    "bbcwbx.sym.sci.neq": {
-      "message": "≠"
-    },
-    "bbcwbx.sym.sci.lte": {
-      "message": "≤"
-    },
-    "bbcwbx.sym.sci.gte": {
-      "message": "≥"
-    },
-    "bbcwbx.sym.grk": {
-      "message": "Греек"
-    },
-    "bbcwbx.sym.grk.pi": {
-      "message": "π"
-    },
-    "bbcwbx.sym.grk.rho": {
-      "message": "ρ"
-    },
-    "bbcwbx.sym.grk.sgm": {
-      "message": "σ"
-    },
-    "bbcwbx.sym.grk.tau": {
-      "message": "τ"
-    },
-    "bbcwbx.sym.grk.chi": {
-      "message": "χ"
-    },
-    "bbcwbx.sym.grk.psi": {
-      "message": "ψ"
-    },
-    "bbcwbx.sym.grk.omega": {
-      "message": "ω"
-    },
-    "bbcwbx.sym.grk.comega": {
-      "message": "Θ"
-    },
-    "bbcwbx.sym.grk.delta": {
-      "message": "Δ"
-    },
-    "bbcwbx.sym.grk.ldelta": {
-      "message": "δ"
-    },
-    "bbcwbx.sym.grk.lambda": {
-      "message": "λ"
-    },
-    "bbcwbx.sym.grk.phi": {
-      "message": "ɸ"
-    },
-    "bbcwbx.sym.grk.theta": {
-      "message": "ϴ"
-    },
-    "bbcwbx.sym.dgre": {
-      "message": "°"
-    },
-    "bbcwbx.sym.cprt": {
-      "message": "©"
-    },
-    "bbcwbx.sym.phontm": {
-      "message": "℗"
-    },
-    "bbcwbx.sym.sm": {
-      "message": "℠"
-    },
-    "bbcwbx.sym.tm": {
-      "message": "™"
-    },
-    "bbcwbx.sym.regtm": {
-      "message": "®"
-    },
-    "bbcwbx.sym.phonrt": {
-      "message": "℗"
-    },
-    "bbcwbx.sym.section": {
-      "message": "§"
-    },
-    "bbcwbx.sym.plumin": {
-      "message": "±"
-    },
-    "bbcwbx.sym.elps": {
-      "message": "…"
-    },
-    "bbcwbx.sym.emdash": {
-      "message": "—"
-    },
-    "bbcwbx.sym.dagger": {
-      "message": "†"
-    },
-    "bbcwbx.sym.dubdagger": {
-      "message": "‡"
-    },
-    "bbcwbx.sym.permil": {
-      "message": "‰"
-    },
-    "INS_AUTHOR": {
-      "message": "Унесите име аутора или оставите празно:"
-    },
-    "INS_LINKNAME": {
-      "message": "Унесите назив везе:"
-    },
-    "INS_FONTSIZE": {
-      "message": "Унесите величину текста:"
-    },
-    "INS_FONTCOLOR": {
-      "message": "Унесите боју текста:"
-    },
-    "URLCOMPOSTO_STEP1": {
-      "message": "Назив везе?"
-    },
-    "URLCOMPOSTO_STEP2": {
-      "message": "Веза?"
-    },
-    "INS_THREADNUM": {
-      "message": "Унесите број теме:"
-    },
-    "INS_POSTNUM": {
-      "message": "Унесите број одговора:"
-    },
-    "MENU_NO_CUSTOM_TAGS": {
-      "message": "Нису одређене прилагођене ознаке"
-    },
-    "MENU_DISABLE": {
-      "message": "Искључи овај мени"
-    },
-    "MENU_SETTINGS": {
-      "message": "bbCodeWebex подешавања…"
-    },
-    "DELETE_CUSTOMTAG": {
-      "message": "Да ли желите да уклоните ову ставку?"
-    },
-    "WINDOWTITLE_EDITCUSTOMTAG": {
-      "message": "Уреди прилагођену ознаку"
-    },
-    "WINDOWTITLE_NEWCUSTOMTAG": {
-      "message": "Додај нову прилагођену ознаку"
-    },
-    "ALERT_REORDER_TITLE": {
-      "message": "Распоређивање прилагођених ознака"
-    },
-    "ALERT_REORDER_TEXT": {
-      "message": "Прилагођене ознаке ће бити распоређене по абецедном редоследу. Ова акција се не може поништити, осим ако не повратите постојећу резервну копију. Да ли желите наставити?"
-    },
-    "WINDOWTITLE_EXPORT": {
-      "message": "Изаберите датотеку за извоз"
-    },
-    "WINDOWTITLE_IMPORT": {
-      "message": "Изаберите датотеку за увоз"
-    },
-    "ALERT_IMPORT_TITLE": {
-      "message": "Подешавања за увоз"
-    },
-    "ALERT_IMPORT_TEXT": {
-      "message": "Ово ће заменити постојећа подешавања. Да ли сте сигурни?"
-    },
-    "ALERT_IMPORT_COMPLETED": {
-      "message": "Операција је завршена."
-    },
-    "description": {
-      "message": "Додаје BBCode/HTML/XHTML наредбе у садржајни мени"
-    },
-    "name": {
-      "message": "bbCodeWebex"
-    },
-    "SETTINGSMENU": {
-      "message": "bbCodeWebex подешавања…"
-    },
-    "DISABLEMENU": {
-      "message": "Искључи овај мени"
-    },
-    "PICKCOLOR_TITLE": {
-      "message": "Изабери боју"
-    },
-    "PICKCOLOR_DESCRIPTION": {
-      "message": "Изаберите боју фонта са списка"
-    },
-    "PICKCOLOR_LASTCOLOR": {
-      "message": "Последња коришћена боја:"
-    },
-    "SETTINGS_TITLE": {
-      "message": "bbCodeWebex подешавања"
-    },
-    "SETTINGS_MENU": {
-      "message": "Менији"
-    },
-    "SETTINGS_CUSTOMTAGS": {
-      "message": "Прилагођене ознаке"
-    },
-    "SETTINGS_MENU_DESCRIPTION": {
-      "message": "Изаберите ставке које желите да видите у садржајном менију"
-    },
-    "SETTINGS_MENU_ENABLEBBCODE": {
-      "message": "Омогући bbcode мени"
-    },
-    "SETTINGS_MENU_ENABLEBBCODE_VBULLETIN": {
-      "message": "Омогући VBulletin подмени"
-    },
-    "SETTINGS_MENU_ENABLEHTML": {
-      "message": "Омогући HTML мени"
-    },
-    "SETTINGS_MENU_ENABLEXHTML": {
-      "message": "Омогући XHTML мени"
-    },
-    "SETTINGS_MENU_ENABLEMARKDOWN": {
-      "message": "Омогући Markdown мени"
-    },
-    "SETTINGS_MENU_ENABLECUSTOM": {
-      "message": "Омогући мени прилагођених ознака"
-    },
-    "SETTINGS_MANAGESETTINGS": {
-      "message": "Управљање подешавањима"
-    },
-    "SETTINGS_BACKUPDESCRIPTION": {
-      "message": "УПОЗОРЕЊЕ: Увожење подешавања ће заменити постојећа подешавања."
-    },
-    "SETTINGS_BTNIMPORT": {
-      "message": "Подешавања за увоз…"
-    },
-    "SETTINGS_BTNEXPORT": {
-      "message": "Подешавања за извоз…"
-    },
-    "SETTINGS_CUSTOMTAGS_TOTALTAGS": {
-      "message": "Доступне прилагођене ознаке:"
-    },
-    "SETTINGS_CUSTOMTAGS_BTNADD": {
-      "message": "Додај…"
-    },
-    "SETTINGS_CUSTOMTAGS_BTNEDIT": {
-      "message": "Уреди…"
-    },
-    "SETTINGS_CUSTOMTAGS_BTNDELETE": {
-      "message": "Избриши…"
-    },
-    "SETTINGS_CUSTOMTAGS_MOVEUP": {
-      "message": "Помери нагоре"
-    },
-    "SETTINGS_CUSTOMTAGS_MOVEDOWN": {
-      "message": "Помери надоле"
-    },
-    "SETTINGS_CUSTOMTAGS_SORTALPHA": {
-      "message": "Сортирај по абецеди"
-    },
-    "SETTINGS_CUSTOMTAGS_MOREINFO": {
-      "message": "Више информација и примера"
-    },
-    "SETTINGS_CUSTOMTAGS_VARIABLES": {
-      "message": "Доступне варијабле"
-    },
-    "SETTINGS_CUSTOMTAGS_VARCLIPBOARD": {
-      "message": "Clipboard садржај"
-    },
-    "SETTINGS_CUSTOMTAGS_VARSELECTION": {
-      "message": "одабрани текст"
-    },
-    "SETTINGS_CUSTOMTAGS_LABEL": {
-      "message": "Назив ставке:"
-    },
-    "SETTINGS_CUSTOMTAGS_ACTION": {
-      "message": "Кôд:"
-    },
-    "SAVE_TAG_ORDER": {
-      "message": "Save Custom Tag Order"
-    },
-    "ENTER_COLOR_HEX": {
-      "message": "ENTER FONT COLOR IN HEX"
-    },
-    "TAGS_BTNIMPORT_OVRT": {
-      "message": "Подешавања за увоз — \nОверврите"
-    },
-    "TAGS_BTNIMPORT_APPEND": {
-      "message": "Подешавања за увоз — \nДодати"
-    },
-    "TAGS_BTNIMPORT_BBCODEXTRA": {
-      "message": "Подешавања за увоз — \nДодати bbCodeXtra"
-    }
-  }
+{
+     "bbcwbx.bbcode":  {
+          "message": "bbCode"
+     },
+     "bbcwbx.bbcode.clp":  {
+          "message": "Clipboard"
+     },
+     "bbcwbx.bbcode.clp.quote":  {
+          "message": "?????????"
+     },
+     "bbcwbx.bbcode.clp.code":  {
+          "message": "?�?"
+     },
+     "bbcwbx.bbcode.clp.list":  {
+          "message": "??????"
+     },
+     "bbcwbx.bbcode.clp.ordlist":  {
+          "message": "?????? ??????"
+     },
+     "bbcwbx.bbcode.clp.alphalist":  {
+          "message": "??????? ??????"
+     },
+     "bbcwbx.bbcode.clp.spoiler":  {
+          "message": "Spoiler"
+     },
+     "bbcwbx.bbcode.clp.image":  {
+          "message": "?????"
+     },
+     "bbcwbx.bbcode.clp.mkurlsel":  {
+          "message": "???? ???????? ??????? URL"
+     },
+     "bbcwbx.bbcode.clp.url":  {
+          "message": "URL"
+     },
+     "bbcwbx.bbcode.clp.urlname":  {
+          "message": "URL ?? ???????"
+     },
+     "bbcwbx.bbcode.wbx":  {
+          "message": "WebEx"
+     },
+     "bbcwbx.bbcode.wbx.quote":  {
+          "message": "?????????"
+     },
+     "bbcwbx.bbcode.wbx.code":  {
+          "message": "?�?"
+     },
+     "bbcwbx.bbcode.wbx.list":  {
+          "message": "??????"
+     },
+     "bbcwbx.bbcode.wbx.ordlist":  {
+          "message": "?????? ??????"
+     },
+     "bbcwbx.bbcode.wbx.alphalist":  {
+          "message": "??????? ??????"
+     },
+     "bbcwbx.bbcode.wbx.spoiler":  {
+          "message": "Spoiler"
+     },
+     "bbcwbx.bbcode.wbx.fntcol":  {
+          "message": "???? ?????"
+     },
+     "bbcwbx.bbcode.wbx.fntsz":  {
+          "message": "???????? ?????"
+     },
+     "bbcwbx.bbcode.wbx.urlname":  {
+          "message": "URL ?? ???????"
+     },
+     "bbcwbx.bbcode.wbx.urlwiz":  {
+          "message": "URL ????????"
+     },
+     "bbcwbx.bbcode.vbl":  {
+          "message": "VBulletin3"
+     },
+     "bbcwbx.bbcode.vbl.thd":  {
+          "message": "????"
+     },
+     "bbcwbx.bbcode.vbl.pst":  {
+          "message": "???????"
+     },
+     "bbcwbx.bbcode.vbl.alnlf":  {
+          "message": "???? ?????????"
+     },
+     "bbcwbx.bbcode.vbl.alnrt":  {
+          "message": "????? ?????????"
+     },
+     "bbcwbx.bbcode.vbl.ctr":  {
+          "message": "??????????"
+     },
+     "bbcwbx.bbcode.vbl.indnt":  {
+          "message": "????????"
+     },
+     "bbcwbx.bbcode.vbl.hilt":  {
+          "message": "????????"
+     },
+     "bbcwbx.bbcode.bold":  {
+          "message": "?????????"
+     },
+     "bbcwbx.bbcode.ital":  {
+          "message": "????????"
+     },
+     "bbcwbx.bbcode.undrln":  {
+          "message": "?????????"
+     },
+     "bbcwbx.bbcode.img":  {
+          "message": "?????"
+     },
+     "bbcwbx.bbcode.url":  {
+          "message": "URL"
+     },
+     "bbcwbx.html":  {
+          "message": "HTML"
+     },
+     "bbcwbx.html.clp":  {
+          "message": "Clipboard"
+     },
+     "bbcwbx.html.clp.quote":  {
+          "message": "?????????"
+     },
+     "bbcwbx.html.clp.code":  {
+          "message": "?�?"
+     },
+     "bbcwbx.html.clp.list":  {
+          "message": "??????"
+     },
+     "bbcwbx.html.clp.ordlist":  {
+          "message": "?????? ??????"
+     },
+     "bbcwbx.html.clp.alphalist":  {
+          "message": "??????? ??????"
+     },
+     "bbcwbx.html.clp.image":  {
+          "message": "?????"
+     },
+     "bbcwbx.html.clp.mkurlsel":  {
+          "message": "???? ???????? ??????? URL"
+     },
+     "bbcwbx.html.clp.url":  {
+          "message": "URL"
+     },
+     "bbcwbx.html.clp.urlname":  {
+          "message": "URL ?? ???????"
+     },
+     "bbcwbx.html.wbx":  {
+          "message": "WebEx"
+     },
+     "bbcwbx.html.wbx.quote":  {
+          "message": "?????????"
+     },
+     "bbcwbx.html.wbx.code":  {
+          "message": "?�?"
+     },
+     "bbcwbx.html.wbx.list":  {
+          "message": "??????"
+     },
+     "bbcwbx.html.wbx.ordlist":  {
+          "message": "?????? ??????"
+     },
+     "bbcwbx.html.wbx.alphalist":  {
+          "message": "??????? ??????"
+     },
+     "bbcwbx.html.wbx.urlname":  {
+          "message": "URL ?? ???????"
+     },
+     "bbcwbx.html.wbx.urlwiz":  {
+          "message": "URL ????????"
+     },
+     "bbcwbx.html.bold":  {
+          "message": "?????????"
+     },
+     "bbcwbx.html.ital":  {
+          "message": "????????"
+     },
+     "bbcwbx.html.undrln":  {
+          "message": "?????????"
+     },
+     "bbcwbx.html.strk":  {
+          "message": "?????????"
+     },
+     "bbcwbx.html.wbx.fntcol":  {
+          "message": "???? ?????"
+     },
+     "bbcwbx.html.img":  {
+          "message": "?????"
+     },
+     "bbcwbx.html.url":  {
+          "message": "URL"
+     },
+     "bbcwbx.xhtml":  {
+          "message": "XHTML"
+     },
+     "bbcwbx.xhtml.clp":  {
+          "message": "Clipboard"
+     },
+     "bbcwbx.xhtml.clp.quote":  {
+          "message": "?????????"
+     },
+     "bbcwbx.xhtml.clp.code":  {
+          "message": "?�?"
+     },
+     "bbcwbx.xhtml.clp.list":  {
+          "message": "??????"
+     },
+     "bbcwbx.xhtml.clp.ordlist":  {
+          "message": "?????? ??????"
+     },
+     "bbcwbx.xhtml.clp.alphalist":  {
+          "message": "??????? ??????"
+     },
+     "bbcwbx.xhtml.img":  {
+          "message": "?????"
+     },
+     "bbcwbx.xhtml.clp.mkurlsel":  {
+          "message": "???? ???????? ??????? URL"
+     },
+     "bbcwbx.xhtml.clp.url":  {
+          "message": "URL"
+     },
+     "bbcwbx.xhtml.clp.urlname":  {
+          "message": "URL ?? ???????"
+     },
+     "bbcwbx.xhtml.wbx":  {
+          "message": "WebEx"
+     },
+     "bbcwbx.xhtml.wbx.quote":  {
+          "message": "?????????"
+     },
+     "bbcwbx.xhtml.wbx.code":  {
+          "message": "?�?"
+     },
+     "bbcwbx.xhtml.wbx.list":  {
+          "message": "??????"
+     },
+     "bbcwbx.xhtml.wbx.ordlist":  {
+          "message": "?????? ??????"
+     },
+     "bbcwbx.xhtml.wbx.alphalist":  {
+          "message": "??????? ??????"
+     },
+     "bbcwbx.xhtml.wbx.urlname":  {
+          "message": "URL ?? ???????"
+     },
+     "bbcwbx.xhtml.wbx.urlwiz":  {
+          "message": "URL ????????"
+     },
+     "bbcwbx.xhtml.bold":  {
+          "message": "?????????"
+     },
+     "bbcwbx.xhtml.ital":  {
+          "message": "????????"
+     },
+     "bbcwbx.xhtml.undrln":  {
+          "message": "?????????"
+     },
+     "bbcwbx.xhtml.strk":  {
+          "message": "?????????"
+     },
+     "bbcwbx.xhtml.wbx.fntcol":  {
+          "message": "???? ?????"
+     },
+     "bbcwbx.xhtml.image":  {
+          "message": "?????"
+     },
+     "bbcwbx.xhtml.url":  {
+          "message": "URL"
+     },
+     "bbcwbx.custom":  {
+          "message": "??????????? ??????"
+     },
+     "bbcwbx.mkdn":  {
+          "message": "Markdown"
+     },
+     "bbcwbx.mkdn.clp":  {
+          "message": "Clipboard"
+     },
+     "bbcwbx.mkdn.clp.quote":  {
+          "message": "?????????"
+     },
+     "bbcwbx.mkdn.clp.code":  {
+          "message": "?�?"
+     },
+     "bbcwbx.mkdn.clp.list":  {
+          "message": "??????"
+     },
+     "bbcwbx.mkdn.clp.ordlist":  {
+          "message": "?????? ??????"
+     },
+     "bbcwbx.mkdn.clp.mkurlsel":  {
+          "message": "???? ???????? ??????? URL"
+     },
+     "bbcwbx.mkdn.clp.mkimgsel":  {
+          "message": "???? ???????? ??????? ?????"
+     },
+     "bbcwbx.mkdn.clp.urlname":  {
+          "message": "URL ?? ???????"
+     },
+     "bbcwbx.mkdn.wbx":  {
+          "message": "WebEx"
+     },
+     "bbcwbx.mkdn.wbx.quote":  {
+          "message": "?????????"
+     },
+     "bbcwbx.mkdn.wbx.code":  {
+          "message": "?�?"
+     },
+     "bbcwbx.mkdn.wbx.list":  {
+          "message": "??????"
+     },
+     "bbcwbx.mkdn.wbx.ordlist":  {
+          "message": "?????? ??????"
+     },
+     "bbcwbx.mkdn.wbx.urlname":  {
+          "message": "URL ?? ???????"
+     },
+     "bbcwbx.mkdn.wbx.urlwiz":  {
+          "message": "URL ????????"
+     },
+     "bbcwbx.mkdn.bold":  {
+          "message": "?????????"
+     },
+     "bbcwbx.mkdn.ital":  {
+          "message": "????????"
+     },
+     "bbcwbx.mkdn.strk":  {
+          "message": "?????????"
+     },
+     "bbcwbx.sym":  {
+          "message": "???????"
+     },
+     "bbcwbx.sym.fraction":  {
+          "message": "????????"
+     },
+     "bbcwbx.sym.fraction.12":  {
+          "message": "�"
+     },
+     "bbcwbx.sym.fraction.13":  {
+          "message": "?"
+     },
+     "bbcwbx.sym.fraction.23":  {
+          "message": "?"
+     },
+     "bbcwbx.sym.fraction.14":  {
+          "message": "�"
+     },
+     "bbcwbx.sym.fraction.34":  {
+          "message": "�"
+     },
+     "bbcwbx.sym.fraction.15":  {
+          "message": "?"
+     },
+     "bbcwbx.sym.fraction.25":  {
+          "message": "?"
+     },
+     "bbcwbx.sym.fraction.35":  {
+          "message": "?"
+     },
+     "bbcwbx.sym.fraction.45":  {
+          "message": "?"
+     },
+     "bbcwbx.sym.fraction.16":  {
+          "message": "?"
+     },
+     "bbcwbx.sym.fraction.46":  {
+          "message": "?"
+     },
+     "bbcwbx.sym.fraction.18":  {
+          "message": "?"
+     },
+     "bbcwbx.sym.fraction.38":  {
+          "message": "?"
+     },
+     "bbcwbx.sym.fraction.58":  {
+          "message": "?"
+     },
+     "bbcwbx.sym.fraction.78":  {
+          "message": "?"
+     },
+     "bbcwbx.sym.currency":  {
+          "message": "??????"
+     },
+     "bbcwbx.sym.currency.dollar":  {
+          "message": "$"
+     },
+     "bbcwbx.sym.currency.cent":  {
+          "message": "�"
+     },
+     "bbcwbx.sym.currency.euro":  {
+          "message": "�"
+     },
+     "bbcwbx.sym.currency.gbp":  {
+          "message": "�"
+     },
+     "bbcwbx.sym.currency.yen":  {
+          "message": "�"
+     },
+     "bbcwbx.sym.currency.franc":  {
+          "message": "?"
+     },
+     "bbcwbx.sym.currency.lira":  {
+          "message": "�"
+     },
+     "bbcwbx.sym.currency.yuan":  {
+          "message": "�CNY"
+     },
+     "bbcwbx.sym.currency.rupee":  {
+          "message": "?"
+     },
+     "bbcwbx.sym.currency.rupee2":  {
+          "message": "?"
+     },
+     "bbcwbx.sym.currency.thaibt":  {
+          "message": "?"
+     },
+     "bbcwbx.sym.currency.won":  {
+          "message": "?"
+     },
+     "bbcwbx.sym.sci":  {
+          "message": "?????"
+     },
+     "bbcwbx.sym.sci.micro":  {
+          "message": "�"
+     },
+     "bbcwbx.sym.sci.ohm":  {
+          "message": "?"
+     },
+     "bbcwbx.sym.sci.sigma":  {
+          "message": "?"
+     },
+     "bbcwbx.sym.sci.sqrt":  {
+          "message": "v"
+     },
+     "bbcwbx.sym.sci.infin":  {
+          "message": "8"
+     },
+     "bbcwbx.sym.sci.apprx":  {
+          "message": "�"
+     },
+     "bbcwbx.sym.sci.neq":  {
+          "message": "?"
+     },
+     "bbcwbx.sym.sci.lte":  {
+          "message": "="
+     },
+     "bbcwbx.sym.sci.gte":  {
+          "message": "="
+     },
+     "bbcwbx.sym.grk":  {
+          "message": "?????"
+     },
+     "bbcwbx.sym.grk.pi":  {
+          "message": "p"
+     },
+     "bbcwbx.sym.grk.rho":  {
+          "message": "?"
+     },
+     "bbcwbx.sym.grk.sgm":  {
+          "message": "s"
+     },
+     "bbcwbx.sym.grk.tau":  {
+          "message": "t"
+     },
+     "bbcwbx.sym.grk.chi":  {
+          "message": "?"
+     },
+     "bbcwbx.sym.grk.psi":  {
+          "message": "?"
+     },
+     "bbcwbx.sym.grk.omega":  {
+          "message": "?"
+     },
+     "bbcwbx.sym.grk.comega":  {
+          "message": "T"
+     },
+     "bbcwbx.sym.grk.delta":  {
+          "message": "?"
+     },
+     "bbcwbx.sym.grk.ldelta":  {
+          "message": "d"
+     },
+     "bbcwbx.sym.grk.lambda":  {
+          "message": "?"
+     },
+     "bbcwbx.sym.grk.phi":  {
+          "message": "?"
+     },
+     "bbcwbx.sym.grk.theta":  {
+          "message": "?"
+     },
+     "bbcwbx.sym.dgre":  {
+          "message": "�"
+     },
+     "bbcwbx.sym.cprt":  {
+          "message": "�"
+     },
+     "bbcwbx.sym.phontm":  {
+          "message": "?"
+     },
+     "bbcwbx.sym.sm":  {
+          "message": "?"
+     },
+     "bbcwbx.sym.tm":  {
+          "message": "�"
+     },
+     "bbcwbx.sym.regtm":  {
+          "message": "�"
+     },
+     "bbcwbx.sym.phonrt":  {
+          "message": "?"
+     },
+     "bbcwbx.sym.section":  {
+          "message": "�"
+     },
+     "bbcwbx.sym.plumin":  {
+          "message": "�"
+     },
+     "bbcwbx.sym.elps":  {
+          "message": "�"
+     },
+     "bbcwbx.sym.emdash":  {
+          "message": "�"
+     },
+     "bbcwbx.sym.dagger":  {
+          "message": "�"
+     },
+     "bbcwbx.sym.dubdagger":  {
+          "message": "�"
+     },
+     "bbcwbx.sym.permil":  {
+          "message": "�"
+     },
+     "INS_AUTHOR": {
+          "message": "??????? ??? ?????? ??? ???????? ??????:"
+     },
+     "INS_LINKNAME": {
+          "message": "??????? ????? ????:"
+     },
+     "INS_FONTSIZE": {
+          "message": "??????? ???????? ??????:"
+     },
+     "INS_FONTCOLOR": {
+          "message": "??????? ???? ??????:"
+     },
+     "URLCOMPOSTO_STEP1": {
+          "message": "????? ?????"
+     },
+     "URLCOMPOSTO_STEP2": {
+          "message": "?????"
+     },
+     "INS_THREADNUM": {
+          "message": "??????? ???? ????:"
+     },
+     "INS_POSTNUM": {
+          "message": "??????? ???? ????????:"
+     },
+     "MENU_NO_CUSTOM_TAGS ": {
+          "message": "???? ???????? ??????????? ??????"
+     },
+     "MENU_DISABLE ": {
+          "message": "??????? ???? ????"
+     },
+     "MENU_SETTINGS ": {
+          "message": "bbCodeWebex ??????????�"
+     },
+     "DELETE_CUSTOMTAG": {
+          "message": "?? ?? ?????? ?? ???????? ??? ???????"
+     },
+     "WINDOWTITLE_EDITCUSTOMTAG ": {
+          "message": "????? ??????????? ??????"
+     },
+     "WINDOWTITLE_NEWCUSTOMTAG ": {
+          "message": "????? ???? ??????????? ??????"
+     },
+     "ALERT_REORDER_TITLE ": {
+          "message": "????????????? ???????????? ??????"
+     },
+     "ALERT_REORDER_TEXT ": {
+          "message": "??????????? ?????? ?? ???? ??????????? ?? ????????? ?????????. ??? ?????? ?? ?? ???? ?????????, ???? ??? ?? ????????? ????????? ???????? ??????. ?? ?? ?????? ??????????"
+     },
+     "WINDOWTITLE_EXPORT ": {
+          "message": "????????? ???????? ?? ?????"
+     },
+     "WINDOWTITLE_IMPORT ": {
+          "message": "????????? ???????? ?? ????"
+     },
+     "ALERT_IMPORT_TITLE ": {
+          "message": "?????????? ?? ????"
+     },
+     "ALERT_IMPORT_TEXT ": {
+          "message": "??? ?? ???????? ????????? ??????????. ?? ?? ??? ????????"
+     },
+     "ALERT_IMPORT_COMPLETED ": {
+          "message": "????????? ?? ????????."
+     },
+     "description": {
+          "message": "?????? BBCode/HTML/XHTML ??????? ? ????????? ????"
+     },
+     "name": {
+          "message": "bbCodeWebex"
+     },
+     "SETTINGSMENU": {
+          "message": "bbCodeWebex ??????????�"
+     },
+     "DISABLEMENU": {
+          "message": "??????? ???? ????"
+     },
+     "PICKCOLOR_TITLE": {
+          "message": "??????? ????"
+     },
+     "PICKCOLOR_DESCRIPTION": {
+          "message": "????????? ???? ????? ?? ??????"
+     },
+     "PICKCOLOR_LASTCOLOR": {
+          "message": "???????? ????????? ????:"
+     },
+     "SETTINGS_TITLE": {
+          "message": "bbCodeWebex ??????????"
+     },
+     "SETTINGS_MENU": {
+          "message": "??????"
+     },
+     "SETTINGS_CUSTOMTAGS": {
+          "message": "??????????? ??????"
+     },
+     "SETTINGS_MENU_DESCRIPTION": {
+          "message": "????????? ?????? ???? ?????? ?? ?????? ? ?????????? ??????"
+     },
+     "SETTINGS_MENU_ENABLEBBCODE": {
+          "message": "??????? bbcode ????"
+     },
+     "SETTINGS_MENU_ENABLEBBCODE_VBULLETIN": {
+          "message": "??????? VBulletin ???????"
+     },
+     "SETTINGS_MENU_ENABLEHTML": {
+          "message": "??????? HTML ????"
+     },
+     "SETTINGS_MENU_ENABLEXHTML": {
+          "message": "??????? XHTML ????"
+     },
+     "SETTINGS_MENU_ENABLEMARKDOWN": {
+          "message": "??????? Markdown ????"
+     },
+     "SETTINGS_MENU_ENABLECUSTOM": {
+          "message": "??????? ???? ???????????? ??????"
+     },
+     "SETTINGS_MANAGESETTINGS": {
+          "message": "????????? ????????????"
+     },
+     "SETTINGS_BACKUPDESCRIPTION": {
+          "message": "?????????: ??????? ?????????? ?? ???????? ????????? ??????????."
+     },
+     "SETTINGS_BTNIMPORT": {
+          "message": "?????????? ?? ????�"
+     },
+     "SETTINGS_BTNEXPORT": {
+          "message": "?????????? ?? ?????�"
+     },
+     "SETTINGS_CUSTOMTAGS_TOTALTAGS": {
+          "message": "???????? ??????????? ??????:"
+     },
+     "SETTINGS_CUSTOMTAGS_BTNADD": {
+          "message": "?????�"
+     },
+     "SETTINGS_CUSTOMTAGS_BTNEDIT": {
+          "message": "?????�"
+     },
+     "SETTINGS_CUSTOMTAGS_BTNDELETE": {
+          "message": "???????�"
+     },
+     "SETTINGS_CUSTOMTAGS_MOVEUP": {
+          "message": "?????? ??????"
+     },
+     "SETTINGS_CUSTOMTAGS_MOVEDOWN": {
+          "message": "?????? ??????"
+     },
+     "SETTINGS_CUSTOMTAGS_SORTALPHA": {
+          "message": "???????? ?? ???????"
+     },
+     "SETTINGS_CUSTOMTAGS_MOREINFO": {
+          "message": "???? ??????????? ? ???????"
+     },
+     "SETTINGS_CUSTOMTAGS_VARIABLES": {
+          "message": "???????? ?????????"
+     },
+     "SETTINGS_CUSTOMTAGS_VARCLIPBOARD": {
+          "message": "Clipboard ???????"
+     },
+     "SETTINGS_CUSTOMTAGS_VARSELECTION": {
+          "message": "???????? ?????"
+     },
+     "SETTINGS_CUSTOMTAGS_LABEL": {
+          "message": "????? ??????:"
+     },
+     "SETTINGS_CUSTOMTAGS_ACTION": {
+          "message": "?�?:"
+     },
+     "SAVE_TAG_ORDER": {
+          "message": "Save Custom Tag Order"
+     },
+     "ENTER_COLOR_HEX": {
+          "message": "ENTER FONT COLOR IN HEX"
+     },
+     "TAGS_BTNIMPORT_OVRT": {
+          "message": "?????????? ?? ???? � \n?????????"
+     },
+     "TAGS_BTNIMPORT_APPEND": {
+          "message": "?????????? ?? ???? � \n??????"
+     },
+     "TAGS_BTNIMPORT_BBCODEXTRA": {
+          "message": "?????????? ?? ???? � \n?????? bbCodeXtra"
+     },
+}
+
+
+
+
+
+
+
+
+
+
+

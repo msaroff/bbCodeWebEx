@@ -1,1254 +1,1276 @@
 [
   {
-    "menuId": "bbcwbx.bbcode",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode)",
-    "parentId": "",
-    "menuArg": "",
-    "icons": {
-      "16": "icons/bbcwbx-menu.svg"
+    "menuId":  "bbcwbx.bbcode"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.bbcode)
+    "parentId":  
+    "menuArg":  
+    "icons":  {
+                      "16": "icons/bbcwbx-menu.svg"
     }
   },
   {
-    "menuId": "bbcwbx.bbcode.clp",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.clp)",
-    "parentId": "bbcwbx.bbcode",
-    "menuArg": "",
-    "icons": ""
+    "menuId":  "bbcwbx.bbcode.clp"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.bbcode.clp)
+    "parentId":  bbcwbx.bbcode
+    "menuArg":  
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.bbcode.clp.quote",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.clp.quote)",
-    "parentId": "bbcwbx.bbcode.clp",
-    "menuArg": "{{zzpopup,i18n.INS_AUTHOR,##authorQuote##,=\",\"}}[quote##authorQuote##]{{clipboard}}[/quote]",
-    "icons": ""
+    "menuId":  "bbcwbx.bbcode.clp.quote"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.bbcode.clp.quote)
+    "parentId":  bbcwbx.bbcode.clp
+    "menuArg":  {{zzpopup,i18n.INS_AUTHOR,##authorQuote##,=\",\"}}[quote##authorQuote##]{{clipboard}}[/quote]
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.bbcode.clp.code",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.clp.code)",
-    "parentId": "bbcwbx.bbcode.clp",
-    "menuArg": "[code]{{clipboard}}[/code]",
-    "icons": ""
+    "menuId":  "bbcwbx.bbcode.clp.code"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.bbcode.clp.code)
+    "parentId":  bbcwbx.bbcode.clp
+    "menuArg":  [code]{{clipboard}}[/code]
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.bbcode.clp.list",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.clp.list)",
-    "parentId": "bbcwbx.bbcode.clp",
-    "menuArg": "{{makeList,{{clipboard}},\"bbcode\"}}",
-    "icons": ""
+    "menuId":  "bbcwbx.bbcode.clp.list"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.bbcode.clp.list)
+    "parentId":  bbcwbx.bbcode.clp
+    "menuArg":  {{makeList,{{clipboard}},\"bbcode\"}}
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.bbcode.clp.ordlist",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.clp.ordlist)",
-    "parentId": "bbcwbx.bbcode.clp",
-    "menuArg": "{{makeList,{{clipboard}},\"bbcodeord\"}}",
-    "icons": ""
+    "menuId":  "bbcwbx.bbcode.clp.ordlist"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.bbcode.clp.ordlist)
+    "parentId":  bbcwbx.bbcode.clp
+    "menuArg":  {{makeList,{{clipboard}},\"bbcodeord\"}}
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.bbcode.clp.alphalist",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.clp.alphalist)",
-    "parentId": "bbcwbx.bbcode.clp",
-    "menuArg": "{{makeList,{{clipboard}},\"bbcodeordalf\"}}",
-    "icons": ""
+    "menuId":  "bbcwbx.bbcode.clp.alphalist"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.bbcode.clp.alphalist)
+    "parentId":  bbcwbx.bbcode.clp
+    "menuArg":  {{makeList,{{clipboard}},\"bbcodeordalf\"}}
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.bbcode.clp.spoiler",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.clp.spoiler)",
-    "parentId": "bbcwbx.bbcode.clp",
-    "menuArg": "[spoiler]{{clipboard}}[/spoiler]",
-    "icons": ""
+    "menuId":  "bbcwbx.bbcode.clp.spoiler"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.bbcode.clp.spoiler)
+    "parentId":  bbcwbx.bbcode.clp
+    "menuArg":  [spoiler]{{clipboard}}[/spoiler]
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.bbcode.clp.image",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.clp.image)",
-    "parentId": "bbcwbx.bbcode.clp",
-    "menuArg": "[img]{{clipboard}}[/img]",
-    "icons": ""
+    "menuId":  "bbcwbx.bbcode.clp.image"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.bbcode.clp.image)
+    "parentId":  bbcwbx.bbcode.clp
+    "menuArg":  [img]{{clipboard}}[/img]
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.bbcode.clp.mkurlsel",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.clp.mkurlsel)",
-    "parentId": "bbcwbx.bbcode.clp",
-    "menuArg": "[url={{clipboard}}]{{selection}}[/url]",
-    "icons": ""
+    "menuId":  "bbcwbx.bbcode.clp.mkurlsel"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.bbcode.clp.mkurlsel)
+    "parentId":  bbcwbx.bbcode.clp
+    "menuArg":  [url={{clipboard}}]{{selection}}[/url]
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.bbcode.clp.url",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.clp.url)",
-    "parentId": "bbcwbx.bbcode.clp",
-    "menuArg": "[url]{{clipboard}}[/url]",
-    "icons": ""
+    "menuId":  "bbcwbx.bbcode.clp.url"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.bbcode.clp.url)
+    "parentId":  bbcwbx.bbcode.clp
+    "menuArg":  [url]{{clipboard}}[/url]
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.bbcode.clp.urlname",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.clp.urlname)",
-    "parentId": "bbcwbx.bbcode.clp",
-    "menuArg": "{{zzpopup,i18n.INS_LINKNAME,##LINKNAME##,,}}[url={{clipboard}}]##LINKNAME##[/url]",
-    "icons": ""
+    "menuId":  "bbcwbx.bbcode.clp.urlname"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.bbcode.clp.urlname)
+    "parentId":  bbcwbx.bbcode.clp
+    "menuArg":  {{zzpopup,i18n.INS_LINKNAME,##LINKNAME##,,}}[url={{clipboard}}]##LINKNAME##[/url]
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.bbcode.wbx",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.wbx)",
-    "parentId": "bbcwbx.bbcode",
-    "menuArg": "",
-    "icons": ""
+    "menuId":  "bbcwbx.bbcode.wbx"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.bbcode.wbx)
+    "parentId":  bbcwbx.bbcode
+    "menuArg":  
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.bbcode.wbx.quote",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.wbx.quote)",
-    "parentId": "bbcwbx.bbcode.wbx",
-    "menuArg": "{{zzpopup,i18n.INS_AUTHOR,##authorQuote##,=\",\"}}[quote##authorQuote##]{{selection}}[/quote]",
-    "icons": ""
+    "menuId":  "bbcwbx.bbcode.wbx.quote"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.bbcode.wbx.quote)
+    "parentId":  bbcwbx.bbcode.wbx
+    "menuArg":  {{zzpopup,i18n.INS_AUTHOR,##authorQuote##,=\",\"}}[quote##authorQuote##]{{selection}}[/quote]
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.bbcode.wbx.code",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.wbx.code)",
-    "parentId": "bbcwbx.bbcode.wbx",
-    "menuArg": "[code]{{selection}}[/code]",
-    "icons": ""
+    "menuId":  "bbcwbx.bbcode.wbx.code"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.bbcode.wbx.code)
+    "parentId":  bbcwbx.bbcode.wbx
+    "menuArg":  [code]{{selection}}[/code]
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.bbcode.wbx.list",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.wbx.list)",
-    "parentId": "bbcwbx.bbcode.wbx",
-    "menuArg": "{{makeList,{{selection}},\"bbcode\"}}",
-    "icons": ""
+    "menuId":  "bbcwbx.bbcode.wbx.list"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.bbcode.wbx.list)
+    "parentId":  bbcwbx.bbcode.wbx
+    "menuArg":  {{makeList,{{selection}},\"bbcode\"}}
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.bbcode.wbx.ordlist",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.wbx.ordlist)",
-    "parentId": "bbcwbx.bbcode.wbx",
-    "menuArg": "{{makeList,{{selection}},\"bbcodeord\"}}",
-    "icons": ""
+    "menuId":  "bbcwbx.bbcode.wbx.ordlist"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.bbcode.wbx.ordlist)
+    "parentId":  bbcwbx.bbcode.wbx
+    "menuArg":  {{makeList,{{selection}},\"bbcodeord\"}}
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.bbcode.wbx.alphalist",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.wbx.alphalist)",
-    "parentId": "bbcwbx.bbcode.wbx",
-    "menuArg": "{{makeList,{{selection}},\"bbcodeordalf\"}}",
-    "icons": ""
+    "menuId":  "bbcwbx.bbcode.wbx.alphalist"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.bbcode.wbx.alphalist)
+    "parentId":  bbcwbx.bbcode.wbx
+    "menuArg":  {{makeList,{{selection}},\"bbcodeordalf\"}}
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.bbcode.wbx.spoiler",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.wbx.spoiler)",
-    "parentId": "bbcwbx.bbcode.wbx",
-    "menuArg": "[spoiler]{{selection}}[/spoiler]",
-    "icons": ""
+    "menuId":  "bbcwbx.bbcode.wbx.spoiler"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.bbcode.wbx.spoiler)
+    "parentId":  bbcwbx.bbcode.wbx
+    "menuArg":  [spoiler]{{selection}}[/spoiler]
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.bbcode.wbx.fntcol",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.wbx.fntcol)",
-    "parentId": "bbcwbx.bbcode.wbx",
-    "menuArg": "{{zzGetColor,\"[color=\",\"]\",\"[/color]\"}}{{selection}}{{zzColorEnd}}",
-    "icons": {
-      "16": "icons/pickColor.svg"
+    "menuId":  "bbcwbx.bbcode.wbx.fntcol"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.bbcode.wbx.fntcol)
+    "parentId":  bbcwbx.bbcode.wbx
+    "menuArg":  {{zzGetColor,\"[color=\",\"]\",\"[/color]\"}}{{selection}}{{zzColorEnd}}
+    "icons":  {
+                      "16": "icons/pickColor.svg"
     }
   },
   {
-    "menuId": "bbcwbx.bbcode.wbx.fntsz",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.wbx.fntsz)",
-    "parentId": "bbcwbx.bbcode.wbx",
-    "menuArg": "{{zzpopup,i18n.INS_FONTSIZE,##fontSize##,,}}[size=##fontSize##]{{selection}}[/size]",
-    "icons": ""
+    "menuId":  "bbcwbx.bbcode.wbx.fntsz"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.bbcode.wbx.fntsz)
+    "parentId":  bbcwbx.bbcode.wbx
+    "menuArg":  {{zzpopup,i18n.INS_FONTSIZE,##fontSize##,,}}[size=##fontSize##]{{selection}}[/size]
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.bbcode.wbx.urlname",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.wbx.urlname)",
-    "parentId": "bbcwbx.bbcode.wbx",
-    "menuArg": "{{zzpopup,i18n.INS_LINKNAME,##LINKNAME##,,}}[url={{selection}}]##LINKNAME##[/url]",
-    "icons": ""
+    "menuId":  "bbcwbx.bbcode.wbx.urlname"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.bbcode.wbx.urlname)
+    "parentId":  bbcwbx.bbcode.wbx
+    "menuArg":  {{zzpopup,i18n.INS_LINKNAME,##LINKNAME##,,}}[url={{selection}}]##LINKNAME##[/url]
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.bbcode.wbx.urlwiz",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.wbx.urlwiz)",
-    "parentId": "bbcwbx.bbcode.wbx",
-    "menuArg": "{{zzpopup,i18n.URLCOMPOSTO_STEP1,##linkName##,,}}{{zzpopup,i18n.URLCOMPOSTO_STEP2,##URL##,,}}[url=##URL##]##linkName##[/url]",
-    "icons": ""
+    "menuId":  "bbcwbx.bbcode.wbx.urlwiz"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.bbcode.wbx.urlwiz)
+    "parentId":  bbcwbx.bbcode.wbx
+    "menuArg":  {{zzpopup,i18n.URLCOMPOSTO_STEP1,##linkName##,,}}{{zzpopup,i18n.URLCOMPOSTO_STEP2,##URL##,,}}[url=##URL##]##linkName##[/url]
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.bbcode.vbl",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.vbl)",
-    "parentId": "bbcwbx.bbcode",
-    "menuArg": "",
-    "icons": {
-      "16": "icons/bbcwbx-menu.svg"
+    "menuId":  "bbcwbx.bbcode.vbl"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.bbcode.vbl)
+    "parentId":  bbcwbx.bbcode
+    "menuArg":  
+    "icons":  {
+                      "16": "icons/bbcwbx-menu.svg"
     }
   },
   {
-    "menuId": "bbcwbx.bbcode.vbl.thd",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.vbl.thd)",
-    "parentId": "bbcwbx.bbcode.vbl",
-    "menuArg": "{{zzpopup,i18INS_THREADNUM,##threadNum##,,}}[thread=##threadNum##]{{selection}}[/thread]",
-    "icons": ""
+    "menuId":  "bbcwbx.bbcode.vbl.thd"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.bbcode.vbl.thd)
+    "parentId":  bbcwbx.bbcode.vbl
+    "menuArg":  {{zzpopup,i18INS_THREADNUM,##threadNum##,,}}[thread=##threadNum##]{{selection}}[/thread]
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.bbcode.vbl.pst",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.vbl.pst)",
-    "parentId": "bbcwbx.bbcode.vbl",
-    "menuArg": "{{zzpopup,i18n.INS_POSTNUM,##postNum##,,}}[post=##postNum##]{{selection}}[/post]",
-    "icons": ""
+    "menuId":  "bbcwbx.bbcode.vbl.pst"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.bbcode.vbl.pst)
+    "parentId":  bbcwbx.bbcode.vbl
+    "menuArg":  {{zzpopup,i18n.INS_POSTNUM,##postNum##,,}}[post=##postNum##]{{selection}}[/post]
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.bbcode.vbl.alnlf",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.vbl.alnlf)",
-    "parentId": "bbcwbx.bbcode.vbl",
-    "menuArg": "[right]{{selection}}[/right]",
-    "icons": ""
+    "menuId":  "bbcwbx.bbcode.vbl.alnlf"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.bbcode.vbl.alnlf)
+    "parentId":  bbcwbx.bbcode.vbl
+    "menuArg":  [right]{{selection}}[/right]
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.bbcode.vbl.alnrt",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.vbl.alnrt)",
-    "parentId": "bbcwbx.bbcode.vbl",
-    "menuArg": "[left]{{selection}}[/left]",
-    "icons": ""
+    "menuId":  "bbcwbx.bbcode.vbl.alnrt"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.bbcode.vbl.alnrt)
+    "parentId":  bbcwbx.bbcode.vbl
+    "menuArg":  [left]{{selection}}[/left]
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.bbcode.vbl.ctr",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.vbl.ctr)",
-    "parentId": "bbcwbx.bbcode.vbl",
-    "menuArg": "[center]{{selection}}[/center]",
-    "icons": ""
+    "menuId":  "bbcwbx.bbcode.vbl.ctr"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.bbcode.vbl.ctr)
+    "parentId":  bbcwbx.bbcode.vbl
+    "menuArg":  [center]{{selection}}[/center]
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.bbcode.vbl.indnt",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.vbl.indnt)",
-    "parentId": "bbcwbx.bbcode.vbl",
-    "menuArg": "[indent]{{selection}}[/indent]",
-    "icons": ""
+    "menuId":  "bbcwbx.bbcode.vbl.indnt"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.bbcode.vbl.indnt)
+    "parentId":  bbcwbx.bbcode.vbl
+    "menuArg":  [indent]{{selection}}[/indent]
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.bbcode.vbl.hilt",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.vbl.hilt)",
-    "parentId": "bbcwbx.bbcode.vbl",
-    "menuArg": "[highlight]{{selection}}[/highlight]",
-    "icons": ""
+    "menuId":  "bbcwbx.bbcode.vbl.hilt"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.bbcode.vbl.hilt)
+    "parentId":  bbcwbx.bbcode.vbl
+    "menuArg":  [highlight]{{selection}}[/highlight]
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.bbcode.bold",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.bold)",
-    "parentId": "bbcwbx.bbcode",
-    "menuArg": "[b]{{selection}}[/b]",
-    "icons": ""
+    "menuId":  "bbcwbx.bbcode.bold"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.bbcode.bold)
+    "parentId":  bbcwbx.bbcode
+    "menuArg":  [b]{{selection}}[/b]
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.bbcode.ital",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.ital)",
-    "parentId": "bbcwbx.bbcode",
-    "menuArg": "[i]{{selection}}[/i]",
-    "icons": ""
+    "menuId":  "bbcwbx.bbcode.ital"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.bbcode.ital)
+    "parentId":  bbcwbx.bbcode
+    "menuArg":  [i]{{selection}}[/i]
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.bbcode.undrln",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.undrln)",
-    "parentId": "bbcwbx.bbcode",
-    "menuArg": "[u]{{selection}}[/u]",
-    "icons": ""
+    "menuId":  "bbcwbx.bbcode.undrln"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.bbcode.undrln)
+    "parentId":  bbcwbx.bbcode
+    "menuArg":  [u]{{selection}}[/u]
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.bbcode.img",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.img)",
-    "parentId": "bbcwbx.bbcode",
-    "menuArg": "[img]{{selection}}[/img]",
-    "icons": ""
+    "menuId":  "bbcwbx.bbcode.img"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.bbcode.img)
+    "parentId":  bbcwbx.bbcode
+    "menuArg":  [img]{{selection}}[/img]
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.bbcode.url",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.bbcode.url)",
-    "parentId": "bbcwbx.bbcode",
-    "menuArg": "[url]{{selection}}[/url]",
-    "icons": ""
+    "menuId":  "bbcwbx.bbcode.url"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.bbcode.url)
+    "parentId":  bbcwbx.bbcode
+    "menuArg":  [url]{{selection}}[/url]
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.html",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.html)",
-    "parentId": "",
-    "menuArg": "",
-    "icons": {
-      "16": "icons/bbcwbx-menu.svg"
+    "menuId":  "bbcwbx.html"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.html)
+    "parentId":  
+    "menuArg":  
+    "icons":  {
+                      "16": "icons/bbcwbx-menu.svg"
     }
   },
   {
-    "menuId": "bbcwbx.html.clp",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.html.clp)",
-    "parentId": "bbcwbx.html",
-    "menuArg": "",
-    "icons": ""
+    "menuId":  "bbcwbx.html.clp"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.html.clp)
+    "parentId":  bbcwbx.html
+    "menuArg":  
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.html.clp.quote",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.html.clp.quote)",
-    "parentId": "bbcwbx.html.clp",
-    "menuArg": "<blockquote>{{clipboard}}</blockquote>",
-    "icons": ""
+    "menuId":  "bbcwbx.html.clp.quote"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.html.clp.quote)
+    "parentId":  bbcwbx.html.clp
+    "menuArg":  <blockquote>{{clipboard}}</blockquote>
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.html.clp.code",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.html.clp.code)",
-    "parentId": "bbcwbx.html.clp",
-    "menuArg": "<code>{{clipboard}}</code>",
-    "icons": ""
+    "menuId":  "bbcwbx.html.clp.code"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.html.clp.code)
+    "parentId":  bbcwbx.html.clp
+    "menuArg":  <code>{{clipboard}}</code>
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.html.clp.list",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.html.clp.list)",
-    "parentId": "bbcwbx.html.clp",
-    "menuArg": "{{makeList,{{clipboard}},\"html\"}}",
-    "icons": ""
+    "menuId":  "bbcwbx.html.clp.list"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.html.clp.list)
+    "parentId":  bbcwbx.html.clp
+    "menuArg":  {{makeList,{{clipboard}},\"html\"}}
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.html.clp.ordlist",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.html.clp.ordlist)",
-    "parentId": "bbcwbx.html.clp",
-    "menuArg": "{{makeList,{{clipboard}},\"htmlord\"}}",
-    "icons": ""
+    "menuId":  "bbcwbx.html.clp.ordlist"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.html.clp.ordlist)
+    "parentId":  bbcwbx.html.clp
+    "menuArg":  {{makeList,{{clipboard}},\"htmlord\"}}
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.html.clp.alphalist",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.html.clp.alphalist)",
-    "parentId": "bbcwbx.html.clp",
-    "menuArg": "{{makeList,{{clipboard}},\"htmlordalf\"}}",
-    "icons": ""
+    "menuId":  "bbcwbx.html.clp.alphalist"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.html.clp.alphalist)
+    "parentId":  bbcwbx.html.clp
+    "menuArg":  {{makeList,{{clipboard}},\"htmlordalf\"}}
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.html.clp.image",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.html.clp.image)",
-    "parentId": "bbcwbx.html.clp",
-    "menuArg": "<img src=\"{{clipboard}}\">",
-    "icons": ""
+    "menuId":  "bbcwbx.html.clp.image"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.html.clp.image)
+    "parentId":  bbcwbx.html.clp
+    "menuArg":  <img src=\"{{clipboard}}\">
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.html.clp.mkurlsel",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.html.clp.mkurlsel)",
-    "parentId": "bbcwbx.html.clp",
-    "menuArg": "<a href=\"{{clipboard}}\">{{selection}}</a>",
-    "icons": ""
+    "menuId":  "bbcwbx.html.clp.mkurlsel"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.html.clp.mkurlsel)
+    "parentId":  bbcwbx.html.clp
+    "menuArg":  <a href=\"{{clipboard}}\">{{selection}}</a>
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.html.clp.url",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.html.clp.url)",
-    "parentId": "bbcwbx.html.clp",
-    "menuArg": "<a href=\"{{clipboard}}\">{{clipboard}}</a>",
-    "icons": ""
+    "menuId":  "bbcwbx.html.clp.url"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.html.clp.url)
+    "parentId":  bbcwbx.html.clp
+    "menuArg":  <a href=\"{{clipboard}}\">{{clipboard}}</a>
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.html.clp.urlname",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.html.clp.urlname)",
-    "parentId": "bbcwbx.html.clp",
-    "menuArg": "{{zzpopup,i18n.INS_LINKNAME,##LINKNAME##,,}}<a href={{clipboard}}\">{{zzpopup,i18n.INS_LINKNAME,\"\",\"\"}}</a>",
-    "icons": ""
+    "menuId":  "bbcwbx.html.clp.urlname"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.html.clp.urlname)
+    "parentId":  bbcwbx.html.clp
+    "menuArg":  {{zzpopup,i18n.INS_LINKNAME,##LINKNAME##,,}}<a href={{clipboard}}\">{{zzpopup,i18n.INS_LINKNAME,\"\",\"\"}}</a>
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.html.wbx",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.html.wbx)",
-    "parentId": "bbcwbx.html",
-    "menuArg": "",
-    "icons": ""
+    "menuId":  "bbcwbx.html.wbx"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.html.wbx)
+    "parentId":  bbcwbx.html
+    "menuArg":  
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.html.wbx.quote",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.html.wbx.quote)",
-    "parentId": "bbcwbx.html.wbx",
-    "menuArg": "<blockquote>{{selection}}</blockquote>",
-    "icons": ""
+    "menuId":  "bbcwbx.html.wbx.quote"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.html.wbx.quote)
+    "parentId":  bbcwbx.html.wbx
+    "menuArg":  <blockquote>{{selection}}</blockquote>
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.html.wbx.code",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.html.wbx.code)",
-    "parentId": "bbcwbx.html.wbx",
-    "menuArg": "<code>{{selection}}</code>",
-    "icons": ""
+    "menuId":  "bbcwbx.html.wbx.code"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.html.wbx.code)
+    "parentId":  bbcwbx.html.wbx
+    "menuArg":  <code>{{selection}}</code>
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.html.wbx.list",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.html.wbx.list)",
-    "parentId": "bbcwbx.html.wbx",
-    "menuArg": "{{makeList,{{selection}},\"html\"}}",
-    "icons": ""
+    "menuId":  "bbcwbx.html.wbx.list"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.html.wbx.list)
+    "parentId":  bbcwbx.html.wbx
+    "menuArg":  {{makeList,{{selection}},\"html\"}}
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.html.wbx.ordlist",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.html.wbx.ordlist)",
-    "parentId": "bbcwbx.html.wbx",
-    "menuArg": "{{makeList,{{selection}},\"htmlord\"}}",
-    "icons": ""
+    "menuId":  "bbcwbx.html.wbx.ordlist"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.html.wbx.ordlist)
+    "parentId":  bbcwbx.html.wbx
+    "menuArg":  {{makeList,{{selection}},\"htmlord\"}}
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.html.wbx.alphalist",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.html.wbx.alphalist)",
-    "parentId": "bbcwbx.html.wbx",
-    "menuArg": "{{makeList,{{selection}},\"htmlordalf\"}}",
-    "icons": ""
+    "menuId":  "bbcwbx.html.wbx.alphalist"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.html.wbx.alphalist)
+    "parentId":  bbcwbx.html.wbx
+    "menuArg":  {{makeList,{{selection}},\"htmlordalf\"}}
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.html.wbx.urlname",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.html.wbx.urlname)",
-    "parentId": "bbcwbx.html.wbx",
-    "menuArg": "{{zzpopup,i18n.INS_LINKNAME,##LINKNAME##,,}}<a href={{selection}}\">##LINKNAME##</a>",
-    "icons": ""
+    "menuId":  "bbcwbx.html.wbx.urlname"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.html.wbx.urlname)
+    "parentId":  bbcwbx.html.wbx
+    "menuArg":  {{zzpopup,i18n.INS_LINKNAME,##LINKNAME##,,}}<a href={{selection}}\">##LINKNAME##</a>
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.html.wbx.urlwiz",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.html.wbx.urlwiz)",
-    "parentId": "bbcwbx.html.wbx",
-    "menuArg": "{{zzpopup,i18n.URLCOMPOSTO_STEP1,##linkName##,,}}{{zzpopup,i18n.URLCOMPOSTO_STEP2,##URL##,,}}<a href=\"##URL##\">##linkName##</a>",
-    "icons": ""
+    "menuId":  "bbcwbx.html.wbx.urlwiz"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.html.wbx.urlwiz)
+    "parentId":  bbcwbx.html.wbx
+    "menuArg":  {{zzpopup,i18n.URLCOMPOSTO_STEP1,##linkName##,,}}{{zzpopup,i18n.URLCOMPOSTO_STEP2,##URL##,,}}<a href=\"##URL##\">##linkName##</a>
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.html.bold",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.html.bold)",
-    "parentId": "bbcwbx.html",
-    "menuArg": "<b>{{selection}}</b>",
-    "icons": ""
+    "menuId":  "bbcwbx.html.bold"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.html.bold)
+    "parentId":  bbcwbx.html
+    "menuArg":  <b>{{selection}}</b>
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.html.ital",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.html.ital)",
-    "parentId": "bbcwbx.html",
-    "menuArg": "<i>{{selection}}</i>",
-    "icons": ""
+    "menuId":  "bbcwbx.html.ital"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.html.ital)
+    "parentId":  bbcwbx.html
+    "menuArg":  <i>{{selection}}</i>
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.html.undrln",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.html.undrln)",
-    "parentId": "bbcwbx.html",
-    "menuArg": "<u>{{selection}}</u>",
-    "icons": ""
+    "menuId":  "bbcwbx.html.undrln"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.html.undrln)
+    "parentId":  bbcwbx.html
+    "menuArg":  <u>{{selection}}</u>
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.html.strk",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.html.strk)",
-    "parentId": "bbcwbx.html",
-    "menuArg": "<s>{{selection}}</s>",
-    "icons": ""
+    "menuId":  "bbcwbx.html.strk"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.html.strk)
+    "parentId":  bbcwbx.html
+    "menuArg":  <s>{{selection}}</s>
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.html.wbx.fntcol",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.html.wbx.fntcol)",
-    "parentId": "bbcwbx.html.wbx",
-    "menuArg": "{{zzGetColor,\"<span style=~_~qt~_~color: \",\";~_~qt~_~>\",\"</span>\"}}{{selection}}{{zzColorEnd}}",
-    "icons": {
-      "16": "icons/pickColor.svg"
+    "menuId":  "bbcwbx.html.wbx.fntcol"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.html.wbx.fntcol)
+    "parentId":  bbcwbx.html.wbx
+    "menuArg":  {{zzGetColor,\"<span style=~_~qt~_~color: \",\";~_~qt~_~>\",\"</span>\"}}{{selection}}{{zzColorEnd}}
+    "icons":  {
+                      "16": "icons/pickColor.svg"
     }
   },
   {
-    "menuId": "bbcwbx.html.img",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.html.img)",
-    "parentId": "bbcwbx.html",
-    "menuArg": "<img src=\"{{selection}}\">",
-    "icons": ""
+    "menuId":  "bbcwbx.html.img"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.html.img)
+    "parentId":  bbcwbx.html
+    "menuArg":  <img src=\"{{selection}}\">
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.html.url",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.html.url)",
-    "parentId": "bbcwbx.html",
-    "menuArg": "<a href=\"{{selection}}\">{{selection}}</a>",
-    "icons": ""
+    "menuId":  "bbcwbx.html.url"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.html.url)
+    "parentId":  bbcwbx.html
+    "menuArg":  <a href=\"{{selection}}\">{{selection}}</a>
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.xhtml",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.xhtml)",
-    "parentId": "",
-    "menuArg": "",
-    "icons": {
-      "16": "icons/bbcwbx-menu.svg"
+    "menuId":  "bbcwbx.xhtml"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.xhtml)
+    "parentId":  
+    "menuArg":  
+    "icons":  {
+                      "16": "icons/bbcwbx-menu.svg"
     }
   },
   {
-    "menuId": "bbcwbx.xhtml.clp",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.xhtml.clp)",
-    "parentId": "bbcwbx.xhtml",
-    "menuArg": "",
-    "icons": ""
+    "menuId":  "bbcwbx.xhtml.clp"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.xhtml.clp)
+    "parentId":  bbcwbx.xhtml
+    "menuArg":  
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.xhtml.clp.quote",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.xhtml.clp.quote)",
-    "parentId": "bbcwbx.xhtml.clp",
-    "menuArg": "<blockquote>{{clipboard}}</blockquote>",
-    "icons": ""
+    "menuId":  "bbcwbx.xhtml.clp.quote"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.xhtml.clp.quote)
+    "parentId":  bbcwbx.xhtml.clp
+    "menuArg":  <blockquote>{{clipboard}}</blockquote>
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.xhtml.clp.code",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.xhtml.clp.code)",
-    "parentId": "bbcwbx.xhtml.clp",
-    "menuArg": "<code>{{clipboard}}</code>",
-    "icons": ""
+    "menuId":  "bbcwbx.xhtml.clp.code"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.xhtml.clp.code)
+    "parentId":  bbcwbx.xhtml.clp
+    "menuArg":  <code>{{clipboard}}</code>
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.xhtml.clp.list",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.xhtml.clp.list)",
-    "parentId": "bbcwbx.xhtml.clp",
-    "menuArg": "{{makeList,{{clipboard}},\"html\"}}",
-    "icons": ""
+    "menuId":  "bbcwbx.xhtml.clp.list"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.xhtml.clp.list)
+    "parentId":  bbcwbx.xhtml.clp
+    "menuArg":  {{makeList,{{clipboard}},\"html\"}}
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.xhtml.clp.ordlist",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.xhtml.clp.ordlist)",
-    "parentId": "bbcwbx.xhtml.clp",
-    "menuArg": "{{makeList,{{clipboard}},\"htmlord\"}}",
-    "icons": ""
+    "menuId":  "bbcwbx.xhtml.clp.ordlist"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.xhtml.clp.ordlist)
+    "parentId":  bbcwbx.xhtml.clp
+    "menuArg":  {{makeList,{{clipboard}},\"htmlord\"}}
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.xhtml.clp.alphalist",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.xhtml.clp.alphalist)",
-    "parentId": "bbcwbx.xhtml.clp",
-    "menuArg": "{{makeList,{{clipboard}},\"htmlordalf\"}}",
-    "icons": ""
+    "menuId":  "bbcwbx.xhtml.clp.alphalist"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.xhtml.clp.alphalist)
+    "parentId":  bbcwbx.xhtml.clp
+    "menuArg":  {{makeList,{{clipboard}},\"htmlordalf\"}}
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.xhtml.img",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.xhtml.img)",
-    "parentId": "bbcwbx.xhtml",
-    "menuArg": "<img src=\"{{clipboard}}\">",
-    "icons": ""
+    "menuId":  "bbcwbx.xhtml.img"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.xhtml.img)
+    "parentId":  bbcwbx.xhtml
+    "menuArg":  <img src=\"{{clipboard}}\">
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.xhtml.clp.mkurlsel",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.xhtml.clp.mkurlsel)",
-    "parentId": "bbcwbx.xhtml.clp",
-    "menuArg": "<a href=\"{{clipboard}}\">{{selection}}</a>",
-    "icons": ""
+    "menuId":  "bbcwbx.xhtml.clp.mkurlsel"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.xhtml.clp.mkurlsel)
+    "parentId":  bbcwbx.xhtml.clp
+    "menuArg":  <a href=\"{{clipboard}}\">{{selection}}</a>
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.xhtml.clp.url",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.xhtml.clp.url)",
-    "parentId": "bbcwbx.xhtml.clp",
-    "menuArg": "<a href=\"{{clipboard}}\">{{clipboard}}</a>",
-    "icons": ""
+    "menuId":  "bbcwbx.xhtml.clp.url"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.xhtml.clp.url)
+    "parentId":  bbcwbx.xhtml.clp
+    "menuArg":  <a href=\"{{clipboard}}\">{{clipboard}}</a>
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.xhtml.clp.urlname",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.xhtml.clp.urlname)",
-    "parentId": "bbcwbx.xhtml.clp",
-    "menuArg": "{{zzpopup,i18n.INS_LINKNAME,##LINKNAME##,,}}<a href={{clipboard}}\">##LINKNAME##</a>",
-    "icons": ""
+    "menuId":  "bbcwbx.xhtml.clp.urlname"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.xhtml.clp.urlname)
+    "parentId":  bbcwbx.xhtml.clp
+    "menuArg":  {{zzpopup,i18n.INS_LINKNAME,##LINKNAME##,,}}<a href={{clipboard}}\">##LINKNAME##</a>
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.xhtml.wbx",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.xhtml.wbx)",
-    "parentId": "bbcwbx.xhtml",
-    "menuArg": "",
-    "icons": ""
+    "menuId":  "bbcwbx.xhtml.wbx"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.xhtml.wbx)
+    "parentId":  bbcwbx.xhtml
+    "menuArg":  
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.xhtml.wbx.quote",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.xhtml.wbx.quote)",
-    "parentId": "bbcwbx.xhtml.wbx",
-    "menuArg": "<blockquote>{{selection}}</blockquote>",
-    "icons": ""
+    "menuId":  "bbcwbx.xhtml.wbx.quote"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.xhtml.wbx.quote)
+    "parentId":  bbcwbx.xhtml.wbx
+    "menuArg":  <blockquote>{{selection}}</blockquote>
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.xhtml.wbx.code",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.xhtml.wbx.code)",
-    "parentId": "bbcwbx.xhtml.wbx",
-    "menuArg": "<code>{{selection}}</code>",
-    "icons": ""
+    "menuId":  "bbcwbx.xhtml.wbx.code"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.xhtml.wbx.code)
+    "parentId":  bbcwbx.xhtml.wbx
+    "menuArg":  <code>{{selection}}</code>
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.xhtml.wbx.list",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.xhtml.wbx.list)",
-    "parentId": "bbcwbx.xhtml.wbx",
-    "menuArg": "{{makeList,{{selection}},\"html\"}}",
-    "icons": ""
+    "menuId":  "bbcwbx.xhtml.wbx.list"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.xhtml.wbx.list)
+    "parentId":  bbcwbx.xhtml.wbx
+    "menuArg":  {{makeList,{{selection}},\"html\"}}
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.xhtml.wbx.ordlist",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.xhtml.wbx.ordlist)",
-    "parentId": "bbcwbx.xhtml.wbx",
-    "menuArg": "{{makeList,{{selection}},\"htmlord\"}}",
-    "icons": ""
+    "menuId":  "bbcwbx.xhtml.wbx.ordlist"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.xhtml.wbx.ordlist)
+    "parentId":  bbcwbx.xhtml.wbx
+    "menuArg":  {{makeList,{{selection}},\"htmlord\"}}
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.xhtml.wbx.alphalist",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.xhtml.wbx.alphalist)",
-    "parentId": "bbcwbx.xhtml.wbx",
-    "menuArg": "{{makeList,{{selection}},\"htmlordalf\"}}",
-    "icons": ""
+    "menuId":  "bbcwbx.xhtml.wbx.alphalist"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.xhtml.wbx.alphalist)
+    "parentId":  bbcwbx.xhtml.wbx
+    "menuArg":  {{makeList,{{selection}},\"htmlordalf\"}}
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.xhtml.wbx.urlname",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.xhtml.wbx.urlname)",
-    "parentId": "bbcwbx.xhtml.wbx",
-    "menuArg": "{{zzpopup,i18n.INS_LINKNAME,##LINKNAME##,,}}<a href={{selection}}\">##LINKNAME##</a>",
-    "icons": ""
+    "menuId":  "bbcwbx.xhtml.wbx.urlname"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.xhtml.wbx.urlname)
+    "parentId":  bbcwbx.xhtml.wbx
+    "menuArg":  {{zzpopup,i18n.INS_LINKNAME,##LINKNAME##,,}}<a href={{selection}}\">##LINKNAME##</a>
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.xhtml.wbx.urlwiz",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.xhtml.wbx.urlwiz)",
-    "parentId": "bbcwbx.xhtml.wbx",
-    "menuArg": "{{zzpopup,i18n.URLCOMPOSTO_STEP1,##linkName##,,}}{{zzpopup,i18n.URLCOMPOSTO_STEP2,##URL##,,}}<a href=\"##URL##\">##linkName##</a>",
-    "icons": ""
+    "menuId":  "bbcwbx.xhtml.wbx.urlwiz"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.xhtml.wbx.urlwiz)
+    "parentId":  bbcwbx.xhtml.wbx
+    "menuArg":  {{zzpopup,i18n.URLCOMPOSTO_STEP1,##linkName##,,}}{{zzpopup,i18n.URLCOMPOSTO_STEP2,##URL##,,}}<a href=\"##URL##\">##linkName##</a>
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.xhtml.bold",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.xhtml.bold)",
-    "parentId": "bbcwbx.xhtml",
-    "menuArg": "<strong>{{selection}}</strong>",
-    "icons": ""
+    "menuId":  "bbcwbx.xhtml.bold"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.xhtml.bold)
+    "parentId":  bbcwbx.xhtml
+    "menuArg":  <strong>{{selection}}</strong>
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.xhtml.ital",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.xhtml.ital)",
-    "parentId": "bbcwbx.xhtml",
-    "menuArg": "<em>{{selection}}</em>",
-    "icons": ""
+    "menuId":  "bbcwbx.xhtml.ital"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.xhtml.ital)
+    "parentId":  bbcwbx.xhtml
+    "menuArg":  <em>{{selection}}</em>
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.xhtml.undrln",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.xhtml.undrln)",
-    "parentId": "bbcwbx.xhtml",
-    "menuArg": "<ins>{{selection}}</ins>",
-    "icons": ""
+    "menuId":  "bbcwbx.xhtml.undrln"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.xhtml.undrln)
+    "parentId":  bbcwbx.xhtml
+    "menuArg":  <ins>{{selection}}</ins>
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.xhtml.strk",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.xhtml.strk)",
-    "parentId": "bbcwbx.xhtml",
-    "menuArg": "<del>{{selection}}</del>",
-    "icons": ""
+    "menuId":  "bbcwbx.xhtml.strk"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.xhtml.strk)
+    "parentId":  bbcwbx.xhtml
+    "menuArg":  <del>{{selection}}</del>
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.xhtml.wbx.fntcol",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.xhtml.wbx.fntcol)",
-    "parentId": "bbcwbx.xhtml.wbx",
-    "menuArg": "{{zzGetColor,\"[color=\",\"]\",\"[/color]\"}}{{selection}}{{zzColorEnd}}",
-    "icons": {
-      "16": "icons/pickColor.svg"
+    "menuId":  "bbcwbx.xhtml.wbx.fntcol"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.xhtml.wbx.fntcol)
+    "parentId":  bbcwbx.xhtml.wbx
+    "menuArg":  {{zzGetColor,\"<span style=~_~qt~_~color: \",\";~_~qt~_~>\",\"</span>\"}}{{selection}}{{zzColorEnd}}
+    "icons":  {
+                      "16": "icons/pickColor.svg"
     }
   },
   {
-    "menuId": "bbcwbx.xhtml.image",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.xhtml.image)",
-    "parentId": "bbcwbx.xhtml",
-    "menuArg": "<img src=\"{{selection}}\">",
-    "icons": ""
+    "menuId":  "bbcwbx.xhtml.image"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.xhtml.image)
+    "parentId":  bbcwbx.xhtml
+    "menuArg":  <img src=\"{{selection}}\">
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.xhtml.url",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.xhtml.url)",
-    "parentId": "bbcwbx.xhtml",
-    "menuArg": "<a href=\"{{selection}}\">{{selection}}</a>",
-    "icons": ""
+    "menuId":  "bbcwbx.xhtml.url"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.xhtml.url)
+    "parentId":  bbcwbx.xhtml
+    "menuArg":  <a href=\"{{selection}}\">{{selection}}</a>
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.custom",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.custom)",
-    "parentId": "",
-    "menuArg": "",
-    "icons": {
-      "16": "icons/bbcwbx-menu.svg"
+    "menuId":  "bbcwbx.custom"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.custom)
+    "parentId":  
+    "menuArg":  
+    "icons":  {
+                      "16": "icons/bbcwbx-menu.svg"
     }
   },
   {
-    "menuId": "bbcwbx.mkdn",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.mkdn)",
-    "parentId": "",
-    "menuArg": "",
-    "icons": {
-      "16": "icons/bbcwbx-menu.svg"
+    "menuId":  "bbcwbx.mkdn"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.mkdn)
+    "parentId":  
+    "menuArg":  
+    "icons":  {
+                      "16": "icons/bbcwbx-menu.svg"
     }
   },
   {
-    "menuId": "bbcwbx.mkdn.clp",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.mkdn.clp)",
-    "parentId": "bbcwbx.mkdn",
-    "menuArg": "",
-    "icons": ""
+    "menuId":  "bbcwbx.mkdn.clp"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.mkdn.clp)
+    "parentId":  bbcwbx.mkdn
+    "menuArg":  
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.mkdn.clp.quote",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.mkdn.clp.quote)",
-    "parentId": "bbcwbx.mkdn.clp",
-    "menuArg": "> {{clipboard}}",
-    "icons": ""
+    "menuId":  "bbcwbx.mkdn.clp.quote"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.mkdn.clp.quote)
+    "parentId":  bbcwbx.mkdn.clp
+    "menuArg":  > {{clipboard}}
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.mkdn.clp.code",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.mkdn.clp.code)",
-    "parentId": "bbcwbx.mkdn.clp",
-    "menuArg": "```{{clipboard}}```",
-    "icons": ""
+    "menuId":  "bbcwbx.mkdn.clp.code"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.mkdn.clp.code)
+    "parentId":  bbcwbx.mkdn.clp
+    "menuArg":  ```{{clipboard}}```
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.mkdn.clp.list",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.mkdn.clp.list)",
-    "parentId": "bbcwbx.mkdn.clp",
-    "menuArg": "{{makeList,{{clipboard}},\"markdown\"}}",
-    "icons": ""
+    "menuId":  "bbcwbx.mkdn.clp.list"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.mkdn.clp.list)
+    "parentId":  bbcwbx.mkdn.clp
+    "menuArg":  {{makeList,{{clipboard}},\"markdown\"}}
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.mkdn.clp.ordlist",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.mkdn.clp.ordlist)",
-    "parentId": "bbcwbx.mkdn.clp",
-    "menuArg": "{{makeList,{{clipboard}},\"markdownord\"}}",
-    "icons": ""
+    "menuId":  "bbcwbx.mkdn.clp.ordlist"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.mkdn.clp.ordlist)
+    "parentId":  bbcwbx.mkdn.clp
+    "menuArg":  {{makeList,{{clipboard}},\"markdownord\"}}
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.mkdn.clp.mkurlsel",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.mkdn.clp.mkurlsel)",
-    "parentId": "bbcwbx.mkdn.clp",
-    "menuArg": "[{{selection}}]({{clipboard}})",
-    "icons": ""
+    "menuId":  "bbcwbx.mkdn.clp.mkurlsel"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.mkdn.clp.mkurlsel)
+    "parentId":  bbcwbx.mkdn.clp
+    "menuArg":  [{{selection}}]({{clipboard}})
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.mkdn.clp.mkimgsel",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.mkdn.clp.mkimgsel)",
-    "parentId": "bbcwbx.mkdn.clp",
-    "menuArg": "![{{selection}}]({{clipboard}})",
-    "icons": ""
+    "menuId":  "bbcwbx.mkdn.clp.mkimgsel"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.mkdn.clp.mkimgsel)
+    "parentId":  bbcwbx.mkdn.clp
+    "menuArg":  ![{{selection}}]({{clipboard}})
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.mkdn.clp.urlname",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.mkdn.clp.urlname)",
-    "parentId": "bbcwbx.mkdn.clp",
-    "menuArg": "{{zzpopup,i18n.INS_LINKNAME,##LINKNAME##,,}}[##LINKNAME##]({{clipboard}})",
-    "icons": ""
+    "menuId":  "bbcwbx.mkdn.clp.urlname"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.mkdn.clp.urlname)
+    "parentId":  bbcwbx.mkdn.clp
+    "menuArg":  {{zzpopup,i18n.INS_LINKNAME,##LINKNAME##,,}}[##LINKNAME##]({{clipboard}})
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.mkdn.wbx",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.mkdn.wbx)",
-    "parentId": "bbcwbx.mkdn",
-    "menuArg": "",
-    "icons": ""
+    "menuId":  "bbcwbx.mkdn.wbx"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.mkdn.wbx)
+    "parentId":  bbcwbx.mkdn
+    "menuArg":  
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.mkdn.wbx.quote",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.mkdn.wbx.quote)",
-    "parentId": "bbcwbx.mkdn.wbx",
-    "menuArg": "> {{selection}}",
-    "icons": ""
+    "menuId":  "bbcwbx.mkdn.wbx.quote"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.mkdn.wbx.quote)
+    "parentId":  bbcwbx.mkdn.wbx
+    "menuArg":  > {{selection}}
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.mkdn.wbx.code",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.mkdn.wbx.code)",
-    "parentId": "bbcwbx.mkdn.wbx",
-    "menuArg": "```{{selection}}```",
-    "icons": ""
+    "menuId":  "bbcwbx.mkdn.wbx.code"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.mkdn.wbx.code)
+    "parentId":  bbcwbx.mkdn.wbx
+    "menuArg":  ```{{selection}}```
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.mkdn.wbx.list",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.mkdn.wbx.list)",
-    "parentId": "bbcwbx.mkdn.wbx",
-    "menuArg": "{{makeList,{{selection}},\"markdown\"}}",
-    "icons": ""
+    "menuId":  "bbcwbx.mkdn.wbx.list"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.mkdn.wbx.list)
+    "parentId":  bbcwbx.mkdn.wbx
+    "menuArg":  {{makeList,{{selection}},\"markdown\"}}
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.mkdn.wbx.ordlist",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.mkdn.wbx.ordlist)",
-    "parentId": "bbcwbx.mkdn.wbx",
-    "menuArg": "{{makeList,{{selection}},\"markdownord\"}}",
-    "icons": ""
+    "menuId":  "bbcwbx.mkdn.wbx.ordlist"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.mkdn.wbx.ordlist)
+    "parentId":  bbcwbx.mkdn.wbx
+    "menuArg":  {{makeList,{{selection}},\"markdownord\"}}
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.mkdn.wbx.urlname",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.mkdn.wbx.urlname)",
-    "parentId": "bbcwbx.mkdn.wbx",
-    "menuArg": "{{zzpopup,i18n.INS_LINKNAME,##LINKNAME##,,}}[##LINKNAME##]({{selection}})",
-    "icons": ""
+    "menuId":  "bbcwbx.mkdn.wbx.urlname"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.mkdn.wbx.urlname)
+    "parentId":  bbcwbx.mkdn.wbx
+    "menuArg":  {{zzpopup,i18n.INS_LINKNAME,##LINKNAME##,,}}[##LINKNAME##]({{selection}})
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.mkdn.wbx.urlwiz",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.mkdn.wbx.urlwiz)",
-    "parentId": "bbcwbx.mkdn.wbx",
-    "menuArg": "{{zzpopup,i18n.URLCOMPOSTO_STEP1,##linkName##,,}}{{zzpopup,i18n.URLCOMPOSTO_STEP2,##URL##,,}}[##linkName##](##URL##)",
-    "icons": ""
+    "menuId":  "bbcwbx.mkdn.wbx.urlwiz"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.mkdn.wbx.urlwiz)
+    "parentId":  bbcwbx.mkdn.wbx
+    "menuArg":  {{zzpopup,i18n.URLCOMPOSTO_STEP1,##linkName##,,}}{{zzpopup,i18n.URLCOMPOSTO_STEP2,##URL##,,}}[##linkName##](##URL##)
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.mkdn.bold",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.mkdn.bold)",
-    "parentId": "bbcwbx.mkdn",
-    "menuArg": "***{{selection}}***",
-    "icons": ""
+    "menuId":  "bbcwbx.mkdn.bold"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.mkdn.bold)
+    "parentId":  bbcwbx.mkdn
+    "menuArg":  ***{{selection}}***
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.mkdn.ital",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.mkdn.ital)",
-    "parentId": "bbcwbx.mkdn",
-    "menuArg": "*{{selection}}*",
-    "icons": ""
+    "menuId":  "bbcwbx.mkdn.ital"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.mkdn.ital)
+    "parentId":  bbcwbx.mkdn
+    "menuArg":  *{{selection}}*
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.mkdn.strk",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.mkdn.strk)",
-    "parentId": "bbcwbx.mkdn",
-    "menuArg": "~~{{selection}}~~",
-    "icons": ""
+    "menuId":  "bbcwbx.mkdn.strk"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.mkdn.strk)
+    "parentId":  bbcwbx.mkdn
+    "menuArg":  ~~{{selection}}~~
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.sym",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym)",
-    "parentId": "",
-    "menuArg": "",
-    "icons": {
-      "16": "icons/bbcwbx-menu.svg"
+    "menuId":  "bbcwbx.sym"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.sym)
+    "parentId":  
+    "menuArg":  
+    "icons":  {
+                      "16": "icons/bbcwbx-menu.svg"
     }
   },
   {
-    "menuId": "bbcwbx.sym.fraction",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.fraction)",
-    "parentId": "bbcwbx.sym",
-    "menuArg": "",
-    "icons": ""
+    "menuId":  "bbcwbx.sym.fraction"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.sym.fraction)
+    "parentId":  bbcwbx.sym
+    "menuArg":  
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.sym.fraction.12",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.fraction.12)",
-    "parentId": "bbcwbx.sym.fraction",
-    "menuArg": "½",
-    "icons": ""
+    "menuId":  "bbcwbx.sym.fraction.12"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.sym.fraction.12)
+    "parentId":  bbcwbx.sym.fraction
+    "menuArg":  �
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.sym.fraction.13",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.fraction.13)",
-    "parentId": "bbcwbx.sym.fraction",
-    "menuArg": "⅓",
-    "icons": ""
+    "menuId":  "bbcwbx.sym.fraction.13"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.sym.fraction.13)
+    "parentId":  bbcwbx.sym.fraction
+    "menuArg":  ?
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.sym.fraction.23",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.fraction.23)",
-    "parentId": "bbcwbx.sym.fraction",
-    "menuArg": "⅔",
-    "icons": ""
+    "menuId":  "bbcwbx.sym.fraction.23"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.sym.fraction.23)
+    "parentId":  bbcwbx.sym.fraction
+    "menuArg":  ?
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.sym.fraction.14",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.fraction.14)",
-    "parentId": "bbcwbx.sym.fraction",
-    "menuArg": "¼",
-    "icons": ""
+    "menuId":  "bbcwbx.sym.fraction.14"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.sym.fraction.14)
+    "parentId":  bbcwbx.sym.fraction
+    "menuArg":  �
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.sym.fraction.34",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.fraction.34)",
-    "parentId": "bbcwbx.sym.fraction",
-    "menuArg": "¾",
-    "icons": ""
+    "menuId":  "bbcwbx.sym.fraction.34"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.sym.fraction.34)
+    "parentId":  bbcwbx.sym.fraction
+    "menuArg":  �
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.sym.fraction.15",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.fraction.15)",
-    "parentId": "bbcwbx.sym.fraction",
-    "menuArg": "⅕",
-    "icons": ""
+    "menuId":  "bbcwbx.sym.fraction.15"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.sym.fraction.15)
+    "parentId":  bbcwbx.sym.fraction
+    "menuArg":  ?
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.sym.fraction.25",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.fraction.25)",
-    "parentId": "bbcwbx.sym.fraction",
-    "menuArg": "⅖",
-    "icons": ""
+    "menuId":  "bbcwbx.sym.fraction.25"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.sym.fraction.25)
+    "parentId":  bbcwbx.sym.fraction
+    "menuArg":  ?
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.sym.fraction.35",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.fraction.35)",
-    "parentId": "bbcwbx.sym.fraction",
-    "menuArg": "⅗",
-    "icons": ""
+    "menuId":  "bbcwbx.sym.fraction.35"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.sym.fraction.35)
+    "parentId":  bbcwbx.sym.fraction
+    "menuArg":  ?
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.sym.fraction.45",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.fraction.45)",
-    "parentId": "bbcwbx.sym.fraction",
-    "menuArg": "⅘",
-    "icons": ""
+    "menuId":  "bbcwbx.sym.fraction.45"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.sym.fraction.45)
+    "parentId":  bbcwbx.sym.fraction
+    "menuArg":  ?
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.sym.fraction.16",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.fraction.16)",
-    "parentId": "bbcwbx.sym.fraction",
-    "menuArg": "⅙",
-    "icons": ""
+    "menuId":  "bbcwbx.sym.fraction.16"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.sym.fraction.16)
+    "parentId":  bbcwbx.sym.fraction
+    "menuArg":  ?
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.sym.fraction.46",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.fraction.46)",
-    "parentId": "bbcwbx.sym.fraction",
-    "menuArg": "⅚",
-    "icons": ""
+    "menuId":  "bbcwbx.sym.fraction.46"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.sym.fraction.46)
+    "parentId":  bbcwbx.sym.fraction
+    "menuArg":  ?
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.sym.fraction.18",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.fraction.18)",
-    "parentId": "bbcwbx.sym.fraction",
-    "menuArg": "⅛",
-    "icons": ""
+    "menuId":  "bbcwbx.sym.fraction.18"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.sym.fraction.18)
+    "parentId":  bbcwbx.sym.fraction
+    "menuArg":  ?
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.sym.fraction.38",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.fraction.38)",
-    "parentId": "bbcwbx.sym.fraction",
-    "menuArg": "⅜",
-    "icons": ""
+    "menuId":  "bbcwbx.sym.fraction.38"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.sym.fraction.38)
+    "parentId":  bbcwbx.sym.fraction
+    "menuArg":  ?
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.sym.fraction.58",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.fraction.58)",
-    "parentId": "bbcwbx.sym.fraction",
-    "menuArg": "⅝",
-    "icons": ""
+    "menuId":  "bbcwbx.sym.fraction.58"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.sym.fraction.58)
+    "parentId":  bbcwbx.sym.fraction
+    "menuArg":  ?
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.sym.fraction.78",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.fraction.78)",
-    "parentId": "bbcwbx.sym.fraction",
-    "menuArg": "⅞",
-    "icons": ""
+    "menuId":  "bbcwbx.sym.fraction.78"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.sym.fraction.78)
+    "parentId":  bbcwbx.sym.fraction
+    "menuArg":  ?
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.sym.currency",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.currency)",
-    "parentId": "bbcwbx.sym",
-    "menuArg": "",
-    "icons": ""
+    "menuId":  "bbcwbx.sym.currency"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.sym.currency)
+    "parentId":  bbcwbx.sym
+    "menuArg":  
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.sym.currency.dollar",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.currency.dollar)",
-    "parentId": "bbcwbx.sym.currency",
-    "menuArg": "$",
-    "icons": ""
+    "menuId":  "bbcwbx.sym.currency.dollar"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.sym.currency.dollar)
+    "parentId":  bbcwbx.sym.currency
+    "menuArg":  $
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.sym.currency.cent",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.currency.cent)",
-    "parentId": "bbcwbx.sym.currency",
-    "menuArg": "¢",
-    "icons": ""
+    "menuId":  "bbcwbx.sym.currency.cent"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.sym.currency.cent)
+    "parentId":  bbcwbx.sym.currency
+    "menuArg":  �
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.sym.currency.euro",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.currency.euro)",
-    "parentId": "bbcwbx.sym.currency",
-    "menuArg": "€",
-    "icons": ""
+    "menuId":  "bbcwbx.sym.currency.euro"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.sym.currency.euro)
+    "parentId":  bbcwbx.sym.currency
+    "menuArg":  �
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.sym.currency.gbp",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.currency.gbp)",
-    "parentId": "bbcwbx.sym.currency",
-    "menuArg": "£",
-    "icons": ""
+    "menuId":  "bbcwbx.sym.currency.gbp"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.sym.currency.gbp)
+    "parentId":  bbcwbx.sym.currency
+    "menuArg":  �
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.sym.currency.yen",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.currency.yen)",
-    "parentId": "bbcwbx.sym.currency",
-    "menuArg": "¥",
-    "icons": ""
+    "menuId":  "bbcwbx.sym.currency.yen"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.sym.currency.yen)
+    "parentId":  bbcwbx.sym.currency
+    "menuArg":  �
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.sym.currency.franc",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.currency.franc)",
-    "parentId": "bbcwbx.sym.currency",
-    "menuArg": "₣",
-    "icons": ""
+    "menuId":  "bbcwbx.sym.currency.franc"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.sym.currency.franc)
+    "parentId":  bbcwbx.sym.currency
+    "menuArg":  ?
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.sym.currency.lira",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.currency.lira)",
-    "parentId": "bbcwbx.sym.currency",
-    "menuArg": "₤",
-    "icons": ""
+    "menuId":  "bbcwbx.sym.currency.lira"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.sym.currency.lira)
+    "parentId":  bbcwbx.sym.currency
+    "menuArg":  �
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.sym.currency.yuan",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.currency.yuan)",
-    "parentId": "bbcwbx.sym.currency",
-    "menuArg": "¥CNY",
-    "icons": ""
+    "menuId":  "bbcwbx.sym.currency.yuan"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.sym.currency.yuan)
+    "parentId":  bbcwbx.sym.currency
+    "menuArg":  �CNY
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.sym.currency.rupee",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.currency.rupee)",
-    "parentId": "bbcwbx.sym.currency",
-    "menuArg": "₨",
-    "icons": ""
+    "menuId":  "bbcwbx.sym.currency.rupee"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.sym.currency.rupee)
+    "parentId":  bbcwbx.sym.currency
+    "menuArg":  ?
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.sym.currency.rupee2",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.currency.rupee2)",
-    "parentId": "bbcwbx.sym.currency",
-    "menuArg": "₹",
-    "icons": ""
+    "menuId":  "bbcwbx.sym.currency.rupee2"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.sym.currency.rupee2)
+    "parentId":  bbcwbx.sym.currency
+    "menuArg":  ?
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.sym.currency.thaibt",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.currency.thaibt)",
-    "parentId": "bbcwbx.sym.currency",
-    "menuArg": "฿",
-    "icons": ""
+    "menuId":  "bbcwbx.sym.currency.thaibt"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.sym.currency.thaibt)
+    "parentId":  bbcwbx.sym.currency
+    "menuArg":  ?
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.sym.currency.won",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.currency.won)",
-    "parentId": "bbcwbx.sym.currency",
-    "menuArg": "₩",
-    "icons": ""
+    "menuId":  "bbcwbx.sym.currency.won"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.sym.currency.won)
+    "parentId":  bbcwbx.sym.currency
+    "menuArg":  ?
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.sym.sci",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.sci)",
-    "parentId": "bbcwbx.sym",
-    "menuArg": "",
-    "icons": ""
+    "menuId":  "bbcwbx.sym.sci"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.sym.sci)
+    "parentId":  bbcwbx.sym
+    "menuArg":  
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.sym.sci.micro",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.sci.micro)",
-    "parentId": "bbcwbx.sym.sci",
-    "menuArg": "µ",
-    "icons": ""
+    "menuId":  "bbcwbx.sym.sci.micro"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.sym.sci.micro)
+    "parentId":  bbcwbx.sym.sci
+    "menuArg":  �
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.sym.sci.ohm",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.sci.ohm)",
-    "parentId": "bbcwbx.sym.sci",
-    "menuArg": "Ω",
-    "icons": ""
+    "menuId":  "bbcwbx.sym.sci.ohm"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.sym.sci.ohm)
+    "parentId":  bbcwbx.sym.sci
+    "menuArg":  ?
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.sym.sci.sigma",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.sci.sigma)",
-    "parentId": "bbcwbx.sym.sci",
-    "menuArg": "∑",
-    "icons": ""
+    "menuId":  "bbcwbx.sym.sci.sigma"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.sym.sci.sigma)
+    "parentId":  bbcwbx.sym.sci
+    "menuArg":  ?
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.sym.sci.sqrt",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.sci.sqrt)",
-    "parentId": "bbcwbx.sym.sci",
-    "menuArg": "√",
-    "icons": ""
+    "menuId":  "bbcwbx.sym.sci.sqrt"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.sym.sci.sqrt)
+    "parentId":  bbcwbx.sym.sci
+    "menuArg":  v
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.sym.sci.infin",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.sci.infin)",
-    "parentId": "bbcwbx.sym.sci",
-    "menuArg": "∞",
-    "icons": ""
+    "menuId":  "bbcwbx.sym.sci.infin"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.sym.sci.infin)
+    "parentId":  bbcwbx.sym.sci
+    "menuArg":  8
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.sym.sci.apprx",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.sci.apprx)",
-    "parentId": "bbcwbx.sym.sci",
-    "menuArg": "≈",
-    "icons": ""
+    "menuId":  "bbcwbx.sym.sci.apprx"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.sym.sci.apprx)
+    "parentId":  bbcwbx.sym.sci
+    "menuArg":  �
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.sym.sci.neq",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.sci.neq)",
-    "parentId": "bbcwbx.sym.sci",
-    "menuArg": "≠",
-    "icons": ""
+    "menuId":  "bbcwbx.sym.sci.neq"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.sym.sci.neq)
+    "parentId":  bbcwbx.sym.sci
+    "menuArg":  ?
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.sym.sci.lte",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.sci.lte)",
-    "parentId": "bbcwbx.sym.sci",
-    "menuArg": "≤",
-    "icons": ""
+    "menuId":  "bbcwbx.sym.sci.lte"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.sym.sci.lte)
+    "parentId":  bbcwbx.sym.sci
+    "menuArg":  =
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.sym.sci.gte",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.sci.gte)",
-    "parentId": "bbcwbx.sym.sci",
-    "menuArg": "≥",
-    "icons": ""
+    "menuId":  "bbcwbx.sym.sci.gte"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.sym.sci.gte)
+    "parentId":  bbcwbx.sym.sci
+    "menuArg":  =
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.sym.grk",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.grk)",
-    "parentId": "bbcwbx.sym",
-    "menuArg": "",
-    "icons": ""
+    "menuId":  "bbcwbx.sym.grk"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.sym.grk)
+    "parentId":  bbcwbx.sym
+    "menuArg":  
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.sym.grk.pi",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.grk.pi)",
-    "parentId": "bbcwbx.sym.grk",
-    "menuArg": "π",
-    "icons": ""
+    "menuId":  "bbcwbx.sym.grk.pi"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.sym.grk.pi)
+    "parentId":  bbcwbx.sym.grk
+    "menuArg":  p
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.sym.grk.rho",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.grk.rho)",
-    "parentId": "bbcwbx.sym.grk",
-    "menuArg": "ρ",
-    "icons": ""
+    "menuId":  "bbcwbx.sym.grk.rho"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.sym.grk.rho)
+    "parentId":  bbcwbx.sym.grk
+    "menuArg":  ?
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.sym.grk.sgm",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.grk.sgm)",
-    "parentId": "bbcwbx.sym.grk",
-    "menuArg": "σ",
-    "icons": ""
+    "menuId":  "bbcwbx.sym.grk.sgm"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.sym.grk.sgm)
+    "parentId":  bbcwbx.sym.grk
+    "menuArg":  s
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.sym.grk.tau",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.grk.tau)",
-    "parentId": "bbcwbx.sym.grk",
-    "menuArg": "τ",
-    "icons": ""
+    "menuId":  "bbcwbx.sym.grk.tau"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.sym.grk.tau)
+    "parentId":  bbcwbx.sym.grk
+    "menuArg":  t
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.sym.grk.chi",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.grk.chi)",
-    "parentId": "bbcwbx.sym.grk",
-    "menuArg": "χ",
-    "icons": ""
+    "menuId":  "bbcwbx.sym.grk.chi"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.sym.grk.chi)
+    "parentId":  bbcwbx.sym.grk
+    "menuArg":  ?
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.sym.grk.psi",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.grk.psi)",
-    "parentId": "bbcwbx.sym.grk",
-    "menuArg": "ψ",
-    "icons": ""
+    "menuId":  "bbcwbx.sym.grk.psi"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.sym.grk.psi)
+    "parentId":  bbcwbx.sym.grk
+    "menuArg":  ?
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.sym.grk.omega",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.grk.omega)",
-    "parentId": "bbcwbx.sym.grk",
-    "menuArg": "ω",
-    "icons": ""
+    "menuId":  "bbcwbx.sym.grk.omega"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.sym.grk.omega)
+    "parentId":  bbcwbx.sym.grk
+    "menuArg":  ?
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.sym.grk.comega",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.grk.comega)",
-    "parentId": "bbcwbx.sym.grk",
-    "menuArg": "Θ",
-    "icons": ""
+    "menuId":  "bbcwbx.sym.grk.comega"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.sym.grk.comega)
+    "parentId":  bbcwbx.sym.grk
+    "menuArg":  T
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.sym.grk.delta",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.grk.delta)",
-    "parentId": "bbcwbx.sym.grk",
-    "menuArg": "Δ",
-    "icons": ""
+    "menuId":  "bbcwbx.sym.grk.delta"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.sym.grk.delta)
+    "parentId":  bbcwbx.sym.grk
+    "menuArg":  ?
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.sym.grk.ldelta",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.grk.ldelta)",
-    "parentId": "bbcwbx.sym.grk",
-    "menuArg": "δ",
-    "icons": ""
+    "menuId":  "bbcwbx.sym.grk.ldelta"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.sym.grk.ldelta)
+    "parentId":  bbcwbx.sym.grk
+    "menuArg":  d
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.sym.grk.lambda",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.grk.lambda)",
-    "parentId": "bbcwbx.sym.grk",
-    "menuArg": "λ",
-    "icons": ""
+    "menuId":  "bbcwbx.sym.grk.lambda"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.sym.grk.lambda)
+    "parentId":  bbcwbx.sym.grk
+    "menuArg":  ?
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.sym.grk.phi",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.grk.phi)",
-    "parentId": "bbcwbx.sym.grk",
-    "menuArg": "ɸ",
-    "icons": ""
+    "menuId":  "bbcwbx.sym.grk.phi"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.sym.grk.phi)
+    "parentId":  bbcwbx.sym.grk
+    "menuArg":  ?
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.sym.grk.theta",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.grk.theta)",
-    "parentId": "bbcwbx.sym.grk",
-    "menuArg": "ϴ",
-    "icons": ""
+    "menuId":  "bbcwbx.sym.grk.theta"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.sym.grk.theta)
+    "parentId":  bbcwbx.sym.grk
+    "menuArg":  ?
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.sym.dgre",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.dgre)",
-    "parentId": "bbcwbx.sym",
-    "menuArg": "°",
-    "icons": ""
+    "menuId":  "bbcwbx.sym.dgre"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.sym.dgre)
+    "parentId":  bbcwbx.sym
+    "menuArg":  �
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.sym.cprt",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.cprt)",
-    "parentId": "bbcwbx.sym",
-    "menuArg": "©",
-    "icons": ""
+    "menuId":  "bbcwbx.sym.cprt"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.sym.cprt)
+    "parentId":  bbcwbx.sym
+    "menuArg":  �
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.sym.phontm",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.phontm)",
-    "parentId": "bbcwbx.sym",
-    "menuArg": "℗",
-    "icons": ""
+    "menuId":  "bbcwbx.sym.phontm"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.sym.phontm)
+    "parentId":  bbcwbx.sym
+    "menuArg":  ?
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.sym.sm",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.sm)",
-    "parentId": "bbcwbx.sym",
-    "menuArg": "℠",
-    "icons": ""
+    "menuId":  "bbcwbx.sym.sm"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.sym.sm)
+    "parentId":  bbcwbx.sym
+    "menuArg":  ?
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.sym.tm",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.tm)",
-    "parentId": "bbcwbx.sym",
-    "menuArg": "™",
-    "icons": ""
+    "menuId":  "bbcwbx.sym.tm"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.sym.tm)
+    "parentId":  bbcwbx.sym
+    "menuArg":  �
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.sym.regtm",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.regtm)",
-    "parentId": "bbcwbx.sym",
-    "menuArg": "®",
-    "icons": ""
+    "menuId":  "bbcwbx.sym.regtm"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.sym.regtm)
+    "parentId":  bbcwbx.sym
+    "menuArg":  �
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.sym.phonrt",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.phonrt)",
-    "parentId": "bbcwbx.sym",
-    "menuArg": "℗",
-    "icons": ""
+    "menuId":  "bbcwbx.sym.phonrt"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.sym.phonrt)
+    "parentId":  bbcwbx.sym
+    "menuArg":  ?
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.sym.section",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.section)",
-    "parentId": "bbcwbx.sym",
-    "menuArg": "§",
-    "icons": ""
+    "menuId":  "bbcwbx.sym.section"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.sym.section)
+    "parentId":  bbcwbx.sym
+    "menuArg":  �
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.sym.plumin",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.plumin)",
-    "parentId": "bbcwbx.sym",
-    "menuArg": "±",
-    "icons": ""
+    "menuId":  "bbcwbx.sym.plumin"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.sym.plumin)
+    "parentId":  bbcwbx.sym
+    "menuArg":  �
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.sym.elps",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.elps)",
-    "parentId": "bbcwbx.sym",
-    "menuArg": "…",
-    "icons": ""
+    "menuId":  "bbcwbx.sym.elps"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.sym.elps)
+    "parentId":  bbcwbx.sym
+    "menuArg":  �
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.sym.emdash",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.emdash)",
-    "parentId": "bbcwbx.sym",
-    "menuArg": "—",
-    "icons": ""
+    "menuId":  "bbcwbx.sym.emdash"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.sym.emdash)
+    "parentId":  bbcwbx.sym
+    "menuArg":  �
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.sym.dagger",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.dagger)",
-    "parentId": "bbcwbx.sym",
-    "menuArg": "†",
-    "icons": ""
+    "menuId":  "bbcwbx.sym.dagger"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.sym.dagger)
+    "parentId":  bbcwbx.sym
+    "menuArg":  �
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.sym.dubdagger",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.dubdagger)",
-    "parentId": "bbcwbx.sym",
-    "menuArg": "‡",
-    "icons": ""
+    "menuId":  "bbcwbx.sym.dubdagger"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.sym.dubdagger)
+    "parentId":  bbcwbx.sym
+    "menuArg":  �
+    "icons":  
   },
   {
-    "menuId": "bbcwbx.sym.permil",
-    "menuTitle": "browser.i18n.getMessage(bbcwbx.sym.permil)",
-    "parentId": "bbcwbx.sym",
-    "menuArg": "‰",
-    "icons": ""
+    "menuId":  "bbcwbx.sym.permil"
+    "menuTitle":  browser.i18n.getMessage(bbcwbx.sym.permil)
+    "parentId":  bbcwbx.sym
+    "menuArg":  �
+    "icons":  
   }
 ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
