@@ -1,6 +1,7 @@
 rem copy the JSONs from the temp directory to the appropriate bbCodeWebEx directory
 rem get-content .\en-US.json|out-file -encoding utf8 .\meep
 rem powershell "get-content C:\Moo\bbCodeWebex_Temp\ko.csv | out-file -encoding utf8 C:\Moo\bbCodeWebex_Temp\utf8\ko.csv"
+rem generic documents directory  %userprofile%\Documents 
 copy C:\Moo\bbCodeWebex_Temp\en-US.json "C:\Users\Matthew G. Saroff\Documents\GitHub\bbCodeWebEx\_locales\en-US\messages.json"
 copy C:\Moo\bbCodeWebex_Temp\de.json "C:\Users\Matthew G. Saroff\Documents\GitHub\bbCodeWebEx\_locales\de\messages.json"
 copy C:\Moo\bbCodeWebex_Temp\es-ES.json "C:\Users\Matthew G. Saroff\Documents\GitHub\bbCodeWebEx\_locales\es-ES\messages.json"
