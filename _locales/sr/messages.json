@@ -1,8 +1,4 @@
 
-C:\Users\msaroff\Documents\GitHub\bbCodeWebEx>rem this is simply a way to call lynx in a simplified manner 
-
-C:\Users\msaroff\Documents\GitHub\bbCodeWebEx>C:\Users\msaroff\Documents\github\bbcodewebex\Lynx\lynx.exe -dump -width 300 -cfg=C:\Users\msaroff\Documents\github\bbcodewebex\lynx\lynx.cfg C:\Moo\bbCodeWebex_Temp\sr.htm  
-
                                                                                                                                                    {
         "bbcwbx.bbcode":  {
              "message": "bbCode"
