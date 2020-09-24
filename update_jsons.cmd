@@ -5,6 +5,7 @@ rem note that the first and the last line of the localizations are removed so th
 rem open and close brackets are removed
 rem import-csv -Delimiter "`t" ".\DefMenu.csv"|ConvertTo-Json -AsArray | % { [System.Text.RegularExpressions.Regex]::Unescape($_) } 
 rem that last bit prevents the new lines from being excaped
+rem C:\matthews\Lynx\App\Lynx\lynx.exe -cfg=C:\matthews\Lynx\App\DefaultData\LynxSettings\lynx.cfg -dump .\locale_bbcodemoo.htm>moo.txt
 powershell "get-content C:\Moo\bbCodeWebex_Temp\en-US.csv | out-file -encoding utf8 C:\Moo\bbCodeWebex_Temp\utf8\en-US.csv"
 powershell "get-content C:\Moo\bbCodeWebex_Temp\de.csv | out-file -encoding utf8 C:\Moo\bbCodeWebex_Temp\utf8\de.csv"
 powershell "get-content C:\Moo\bbCodeWebex_Temp\es-ES.csv | out-file -encoding utf8 C:\Moo\bbCodeWebex_Temp\utf8\es-ES.csv"
