@@ -167,8 +167,11 @@ async function CommandParse(argString) {
 		if (txtcont !== undefined && locProt != 'https:') {// process as text/input box on an insecure page  
 			console.log("dialogue box case 1");
 			let selstart = clickedElement.selectionStart; // index of selection start
+      console.log("selection start ",selstart) //are we getting the start of the selection?
 			let selend = clickedElement.selectionEnd; //index of selection end
+      console.log("selection end ",selend) //are we getting the end of the selection?
 			let selcont = sanitize(txtcont.substring(selstart, selend)); // selected text content sanitized
+      console.log("selection content ",selcont) //are we getting the content of the selection?
 			        let firsttext = txtcont.substring(0, selstart); //stuff before the selection
 					let lasttext = txtcont.substring(selend); // stuff after the selection
 					if (argString.includes("{{clipboard}}")) { // Replace clipboard tag with clipboard contents
@@ -194,7 +197,8 @@ async function CommandParse(argString) {
 			console.log("dialogue box case 2");
 			let currentClipBoard = await navigator.clipboard.readText();
 			let currentSelection =  window.getSelection().toString().trim(); //store current selection contents
-			// will give empty string if the area is just clicked in, and not selected,
+			console.log("selection content https ",currentSelection) //are we getting the content?
+      // will give empty string if the area is just clicked in, and not selected,
 			let selCont = sanitize(currentSelection); // selected text content sanitized
 			if (argString.includes("{{clipboard}}")) {// Replace clipboard tag with clipboard contents
 				argString = argString.replace(/{{clipboard}}/g, currentClipBoard);
