@@ -1,6 +1,6 @@
 # Change Log 
 <!-- This is a comment  -->
-## Version 0.3.1 Released 2020-11.29
+## Version 0.3.1 Released 2020-11-29
 - Fixed yet **ANOTHER** problem from a Google Blogger (Blogspot) editor.
 - Reduced the scope of the context menu, so that it will only show up where it can do something.
 
