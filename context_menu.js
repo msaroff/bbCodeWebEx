@@ -102,7 +102,7 @@ async function generateMenu () {
             info = {
                 id: defMenu[i].menuId,
                 title: defMenu[i].menuTitle, //eventually this becomes an i18n call
-                contexts: ["all"]
+                contexts: ["editable"] //this prevents the menu from showing up when there is no text box.
             };
             if (defMenu[i].menuTitle.includes("i18n")) {
                 info.title = browser.i18n.getMessage(defMenu[i].menuId); // lookup i18n

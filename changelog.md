@@ -1,6 +1,15 @@
 # Change Log 
 <!-- This is a comment  -->
-## Version 0.2.0 2019-XX-XX
+## Version 0.3.1 Released 2020-11.29
+- Fixed yet **ANOTHER** problem from a Google Blogger (Blogspot) editor.
+- Reduced the scope of the context menu, so that it will only show up where it can do something.
+
+## Version 0.3.0 Released 2020-09-25
+- Fixed an issue with the new Google Blogspot editor.
+- Added color tagging font in HTML.
+- Added a token to allow for the creation of multi-line custom tags.
+
+## Version 0.2.0 2019-06-05
 ### Major update:
 #### New Features
 - Added the ability to work on content-editable elements.  Previously it worked only with text boxes and input fields

@@ -197,8 +197,12 @@ async function CommandParse(argString) {
 			console.log("dialogue box case 2");
 			let currentClipBoard = await navigator.clipboard.readText();
 			let currentSelection =  window.getSelection().toString().trim(); //store current selection contents
-			console.log("selection content https ",currentSelection) //are we getting the content?
-      // will give empty string if the area is just clicked in, and not selected,
+			console.log("selection content https ",currentSelection); //are we getting the content?
+      if(currentSelection === null || currentSelection === undefined || currentSelection === ""){ //fix for Google breaking
+        currentSelection = String(txtcont);  // HTML editor window in blogspot
+        currentSelection = currentSelection.replace(/\u200B/g,''); // yeah, somehow or other those morons at Google 
+      }; //added a zero width space (8203 dec, 200B hex) seriously, they f%$# up everything!!!
+      // Seriously, Google sucks wet f@rts from dead pigeons
 			let selCont = sanitize(currentSelection); // selected text content sanitized
 			if (argString.includes("{{clipboard}}")) {// Replace clipboard tag with clipboard contents
 				argString = argString.replace(/{{clipboard}}/g, currentClipBoard);
