@@ -1,4 +1,4 @@
-@rem copies from UTF8 Directory to app directories
+@rem copies from UTF8 Directory to app directories 
 @rem may also need to correct new line to unix type
 @ rem 
 copy /y C:\Moo\bbCodeWebex_Temp\utf8\en-US.json "%userprofile%\Documents\GitHub\bbCodeWebEx\_locales\en-US\messages.json"

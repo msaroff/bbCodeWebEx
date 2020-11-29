@@ -1,4 +1,4 @@
-@rem Runs a customized configureation of the lynx browser in order to  
+@rem Runs a customized configureation of the lynx browser in order to
 @rem convert html exported from Excel into a UTF-8 Json File.  Calls 
 @rem Runlynx to deal with long directory names to call Browser
 @rem it then takes the files and dumps them to the appropriate add-on
