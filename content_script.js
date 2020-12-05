@@ -164,7 +164,7 @@ async function CommandParse(argString) {
         let txtcont = document.activeElement.value; //contents of edit box, textbox undef if content editable
         let locProt = location.protocol;
         // console.log("text box type: ",txtcont," Location Protocol: ",locProt);
-		if (txtcont !== undefined && locProt != 'https:') {// process as text/input box on an insecure page  
+		if (clickedElement.selectionStart !== undefined) {// if this method works on this page, then  
 			console.log("dialogue box case 1");
 			let selstart = clickedElement.selectionStart; // index of selection start
       console.log("selection start ",selstart) //are we getting the start of the selection?
