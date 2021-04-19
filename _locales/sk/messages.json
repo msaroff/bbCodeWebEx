@@ -552,43 +552,43 @@
         "INS_POSTNUM": {
              "message": "Prosím, zadajte číslo príspevku:"
         },
-        "MENU_NO_CUSTOM_TAGS ": {
+        "MENU_NO_CUSTOM_TAGS": {
              "message": "Značky nie sú nadefinované"
         },
-        "MENU_DISABLE ": {
+        "MENU_DISABLE": {
              "message": "Vypnúť túto ponuku"
         },
-        "MENU_SETTINGS ": {
+        "MENU_SETTINGS": {
              "message": "Nastavenia bbCodeWebex..."
         },
         "DELETE_CUSTOMTAG": {
              "message": "Prajete si odstrániť túto položku?"
         },
-        "WINDOWTITLE_EDITCUSTOMTAG ": {
+        "WINDOWTITLE_EDITCUSTOMTAG": {
              "message": "Upraviť vlastnú značku"
         },
-        "WINDOWTITLE_NEWCUSTOMTAG ": {
+        "WINDOWTITLE_NEWCUSTOMTAG": {
              "message": "Pridať novú vlastnú značku"
         },
-        "ALERT_REORDER_TITLE ": {
+        "ALERT_REORDER_TITLE": {
              "message": "Reorder Custom Tags"
         },
-        "ALERT_REORDER_TEXT ": {
+        "ALERT_REORDER_TEXT": {
              "message": "Custom tags will be arranged in alphabetical order. This action cannot be undone, unless you restore an existing backup. Do you want to continue?"
         },
-        "WINDOWTITLE_EXPORT ": {
+        "WINDOWTITLE_EXPORT": {
              "message": "Choose export file"
         },
-        "WINDOWTITLE_IMPORT ": {
+        "WINDOWTITLE_IMPORT": {
              "message": "Choose import file"
         },
-        "ALERT_IMPORT_TITLE ": {
+        "ALERT_IMPORT_TITLE": {
              "message": "Import Settings"
         },
-        "ALERT_IMPORT_TEXT ": {
+        "ALERT_IMPORT_TEXT": {
              "message": "This will overwrite all existing settings. Are you sure?"
         },
-        "ALERT_IMPORT_COMPLETED ": {
+        "ALERT_IMPORT_COMPLETED": {
              "message": "Operation completed."
         },
         "description": {

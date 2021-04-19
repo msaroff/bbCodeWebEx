@@ -552,43 +552,43 @@
         "INS_POSTNUM": {
              "message": "請輸入回覆鏈結 (post) 編號:"
         },
-        "MENU_NO_CUSTOM_TAGS ": {
+        "MENU_NO_CUSTOM_TAGS": {
              "message": "未定義自訂標籤"
         },
-        "MENU_DISABLE ": {
+        "MENU_DISABLE": {
              "message": "停用此選單"
         },
-        "MENU_SETTINGS ": {
+        "MENU_SETTINGS": {
              "message": "bbCodeWebex 設定…"
         },
         "DELETE_CUSTOMTAG": {
              "message": "您想要移除此項目嗎？"
         },
-        "WINDOWTITLE_EDITCUSTOMTAG ": {
+        "WINDOWTITLE_EDITCUSTOMTAG": {
              "message": "編輯自訂標籤"
         },
-        "WINDOWTITLE_NEWCUSTOMTAG ": {
+        "WINDOWTITLE_NEWCUSTOMTAG": {
              "message": "新增自訂標籤"
         },
-        "ALERT_REORDER_TITLE ": {
+        "ALERT_REORDER_TITLE": {
              "message": "Reorder Custom Tags"
         },
-        "ALERT_REORDER_TEXT ": {
+        "ALERT_REORDER_TEXT": {
              "message": "Custom tags will be arranged in alphabetical order. This action cannot be undone, unless you restore an existing backup. Do you want to continue?"
         },
-        "WINDOWTITLE_EXPORT ": {
+        "WINDOWTITLE_EXPORT": {
              "message": "Choose export file"
         },
-        "WINDOWTITLE_IMPORT ": {
+        "WINDOWTITLE_IMPORT": {
              "message": "Choose import file"
         },
-        "ALERT_IMPORT_TITLE ": {
+        "ALERT_IMPORT_TITLE": {
              "message": "Import Settings"
         },
-        "ALERT_IMPORT_TEXT ": {
+        "ALERT_IMPORT_TEXT": {
              "message": "This will overwrite all existing settings. Are you sure?"
         },
-        "ALERT_IMPORT_COMPLETED ": {
+        "ALERT_IMPORT_COMPLETED": {
              "message": "Operation completed."
         },
         "description": {

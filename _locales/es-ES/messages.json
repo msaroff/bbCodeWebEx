@@ -552,43 +552,43 @@
         "INS_POSTNUM": {
              "message": "Escriba el número del mensaje:"
         },
-        "MENU_NO_CUSTOM_TAGS ": {
+        "MENU_NO_CUSTOM_TAGS": {
              "message": "Etiquetas sin definir"
         },
-        "MENU_DISABLE ": {
+        "MENU_DISABLE": {
              "message": "Desactivar este menú"
         },
-        "MENU_SETTINGS ": {
+        "MENU_SETTINGS": {
              "message": "Configuración de bbCodeWebex"
         },
         "DELETE_CUSTOMTAG": {
              "message": "¿Quiere eliminar esta etiqueta?"
         },
-        "WINDOWTITLE_EDITCUSTOMTAG ": {
+        "WINDOWTITLE_EDITCUSTOMTAG": {
              "message": "Editar etiqueta"
         },
-        "WINDOWTITLE_NEWCUSTOMTAG ": {
+        "WINDOWTITLE_NEWCUSTOMTAG": {
              "message": "Añadir etiqueta nueva"
         },
-        "ALERT_REORDER_TITLE ": {
+        "ALERT_REORDER_TITLE": {
              "message": "Reordenar etiquetas personalizadas"
         },
-        "ALERT_REORDER_TEXT ": {
+        "ALERT_REORDER_TEXT": {
              "message": "Las etiquetas personalizadas se organizarán alfabéticamente. No se podrá deshacer esta acción a menos que restaure desde una copia de seguridad. ¿Quiere continuar?"
         },
-        "WINDOWTITLE_EXPORT ": {
+        "WINDOWTITLE_EXPORT": {
              "message": "Elija el archivo de exportación"
         },
-        "WINDOWTITLE_IMPORT ": {
+        "WINDOWTITLE_IMPORT": {
              "message": "Elija el archivo de importación"
         },
-        "ALERT_IMPORT_TITLE ": {
+        "ALERT_IMPORT_TITLE": {
              "message": "Configuración de importación"
         },
-        "ALERT_IMPORT_TEXT ": {
+        "ALERT_IMPORT_TEXT": {
              "message": "Esto sobrescribirá las preferencias actuales. ¿Quiere continuar?"
         },
-        "ALERT_IMPORT_COMPLETED ": {
+        "ALERT_IMPORT_COMPLETED": {
              "message": "Se ha completado la operación."
         },
         "description": {

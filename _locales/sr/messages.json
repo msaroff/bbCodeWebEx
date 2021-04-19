@@ -552,43 +552,43 @@
         "INS_POSTNUM": {
              "message": "Унесите број одговора:"
         },
-        "MENU_NO_CUSTOM_TAGS ": {
+        "MENU_NO_CUSTOM_TAGS": {
              "message": "Нису одређене прилагођене ознаке"
         },
-        "MENU_DISABLE ": {
+        "MENU_DISABLE": {
              "message": "Искључи овај мени"
         },
-        "MENU_SETTINGS ": {
+        "MENU_SETTINGS": {
              "message": "bbCodeWebex подешавања…"
         },
         "DELETE_CUSTOMTAG": {
              "message": "Да ли желите да уклоните ову ставку?"
         },
-        "WINDOWTITLE_EDITCUSTOMTAG ": {
+        "WINDOWTITLE_EDITCUSTOMTAG": {
              "message": "Уреди прилагођену ознаку"
         },
-        "WINDOWTITLE_NEWCUSTOMTAG ": {
+        "WINDOWTITLE_NEWCUSTOMTAG": {
              "message": "Додај нову прилагођену ознаку"
         },
-        "ALERT_REORDER_TITLE ": {
+        "ALERT_REORDER_TITLE": {
              "message": "Распоређивање прилагођених ознака"
         },
-        "ALERT_REORDER_TEXT ": {
+        "ALERT_REORDER_TEXT": {
              "message": "Прилагођене ознаке ће бити распоређене по абецедном редоследу. Ова акција се не може поништити, осим ако не повратите постојећу резервну копију. Да ли желите наставити?"
         },
-        "WINDOWTITLE_EXPORT ": {
+        "WINDOWTITLE_EXPORT": {
              "message": "Изаберите датотеку за извоз"
         },
-        "WINDOWTITLE_IMPORT ": {
+        "WINDOWTITLE_IMPORT": {
              "message": "Изаберите датотеку за увоз"
         },
-        "ALERT_IMPORT_TITLE ": {
+        "ALERT_IMPORT_TITLE": {
              "message": "Подешавања за увоз"
         },
-        "ALERT_IMPORT_TEXT ": {
+        "ALERT_IMPORT_TEXT": {
              "message": "Ово ће заменити постојећа подешавања. Да ли сте сигурни?"
         },
-        "ALERT_IMPORT_COMPLETED ": {
+        "ALERT_IMPORT_COMPLETED": {
              "message": "Операција је завршена."
         },
         "description": {
