@@ -1,5 +1,9 @@
 # Change Log 
 <!-- This is a comment  -->
+##Version 0.3.2 Released 2021-04-19
+- Fixed localization typographical errors
+##Version 0.3.2 Released 2020-12-04
+- Fixed the problem caused by the blogspot fix.
 ## Version 0.3.1 Released 2020-11-29
 - Fixed yet **ANOTHER** problem from a Google Blogger (Blogspot) editor.
 - Reduced the scope of the context menu, so that it will only show up where it can do something.
