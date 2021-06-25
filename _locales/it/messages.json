@@ -552,43 +552,43 @@
         "INS_POSTNUM": {
              "message": "Inserire il numero del post:"
         },
-        "MENU_NO_CUSTOM_TAGS ": {
+        "MENU_NO_CUSTOM_TAGS": {
              "message": "Nessun tag disponibile"
         },
-        "MENU_DISABLE ": {
+        "MENU_DISABLE": {
              "message": "Disattiva questo menu"
         },
-        "MENU_SETTINGS ": {
+        "MENU_SETTINGS": {
              "message": "Preferenze bbCodeWebex…"
         },
         "DELETE_CUSTOMTAG": {
              "message": "Rimuovere l'elemento selezionato?"
         },
-        "WINDOWTITLE_EDITCUSTOMTAG ": {
+        "WINDOWTITLE_EDITCUSTOMTAG": {
              "message": "Modifica tag personalizzato"
         },
-        "WINDOWTITLE_NEWCUSTOMTAG ": {
+        "WINDOWTITLE_NEWCUSTOMTAG": {
              "message": "Nuovo tag personalizzato"
         },
-        "ALERT_REORDER_TITLE ": {
+        "ALERT_REORDER_TITLE": {
              "message": "Riordina tag personalizzati"
         },
-        "ALERT_REORDER_TEXT ": {
+        "ALERT_REORDER_TEXT": {
              "message": "I tag personalizzati verranno organizzati in ordine alfabetico. Non è possibile annullare questa operazione, se non ripristinando un backup precedente. Proseguire?"
         },
-        "WINDOWTITLE_EXPORT ": {
+        "WINDOWTITLE_EXPORT": {
              "message": "Scelta file esportazione"
         },
-        "WINDOWTITLE_IMPORT ": {
+        "WINDOWTITLE_IMPORT": {
              "message": "Scelta file importazione"
         },
-        "ALERT_IMPORT_TITLE ": {
+        "ALERT_IMPORT_TITLE": {
              "message": "Importazione impostazioni"
         },
-        "ALERT_IMPORT_TEXT ": {
+        "ALERT_IMPORT_TEXT": {
              "message": "Le impostazioni correnti verranno sovrascritte. Continuare?"
         },
-        "ALERT_IMPORT_COMPLETED ": {
+        "ALERT_IMPORT_COMPLETED": {
              "message": "Operazione completata."
         },
         "description": {

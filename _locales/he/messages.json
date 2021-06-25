@@ -552,43 +552,43 @@
         "INS_POSTNUM": {
              "message": "הכנסת מספר הפרסום:"
         },
-        "MENU_NO_CUSTOM_TAGS ": {
+        "MENU_NO_CUSTOM_TAGS": {
              "message": "לא מוגדרות תוויות מותאמות"
         },
-        "MENU_DISABLE ": {
+        "MENU_DISABLE": {
              "message": "נטרול תפריט זה"
         },
-        "MENU_SETTINGS ": {
+        "MENU_SETTINGS": {
              "message": "הגדרות bbCodeWebex..."
         },
         "DELETE_CUSTOMTAG": {
              "message": "האם להסיר פריט זה?"
         },
-        "WINDOWTITLE_EDITCUSTOMTAG ": {
+        "WINDOWTITLE_EDITCUSTOMTAG": {
              "message": "עריכת תווית מותאמת"
         },
-        "WINDOWTITLE_NEWCUSTOMTAG ": {
+        "WINDOWTITLE_NEWCUSTOMTAG": {
              "message": "הוספת תווית מותאמת חדשה"
         },
-        "ALERT_REORDER_TITLE ": {
+        "ALERT_REORDER_TITLE": {
              "message": "Reorder Custom Tags"
         },
-        "ALERT_REORDER_TEXT ": {
+        "ALERT_REORDER_TEXT": {
              "message": "Custom tags will be arranged in alphabetical order. This action cannot be undone, unless you restore an existing backup. Do you want to continue?"
         },
-        "WINDOWTITLE_EXPORT ": {
+        "WINDOWTITLE_EXPORT": {
              "message": "Choose export file"
         },
-        "WINDOWTITLE_IMPORT ": {
+        "WINDOWTITLE_IMPORT": {
              "message": "Choose import file"
         },
-        "ALERT_IMPORT_TITLE ": {
+        "ALERT_IMPORT_TITLE": {
              "message": "Import Settings"
         },
-        "ALERT_IMPORT_TEXT ": {
+        "ALERT_IMPORT_TEXT": {
              "message": "This will overwrite all existing settings. Are you sure?"
         },
-        "ALERT_IMPORT_COMPLETED ": {
+        "ALERT_IMPORT_COMPLETED": {
              "message": "Operation completed."
         },
         "description": {
