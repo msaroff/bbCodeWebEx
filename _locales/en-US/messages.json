@@ -567,7 +567,7 @@
         "WINDOWTITLE_EDITCUSTOMTAG ": {
              "message": "Edit Custom Tag"
         },
-        "WINDOWTITLE_NEWCUSTOMTAG ": {
+        "WINDOWTITLE_NEWCUSTOMTAG": {
              "message": "Add New Custom Tag"
         },
         "ALERT_REORDER_TITLE ": {
