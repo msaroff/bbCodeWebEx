@@ -13,7 +13,7 @@ Users will be able to create their own custom tags and symbols as well as turnin
 
 ## Acknowledgements
 #### Francesco Lodolo \[:flod]
-Wrote the program [bbCodeXtra](https://addons.mozilla.org/en-US/firefox/addon/bbcodextra/), (dead link)
+Wrote the program [bbCodeXtra](https://addons.mozilla.org/en-US/firefox/addon/bbcodewebex/), 
 which (with his permission) this program hews to as closely as possible. (Released under Mozilla Public License 1.1)
 
 Additionally, I am using the internatinal language codes he maintained for bbCodeXtra, as well as an almost direct copy of the code he used to generate lists.
