@@ -16,7 +16,7 @@ Users will be able to create their own custom tags and symbols as well as turnin
 Wrote the program [bbCodeXtra](https://addons.mozilla.org/en-US/firefox/addon/bbcodewebex/), 
 which (with his permission) this program hews to as closely as possible. (Released under Mozilla Public License 1.1)
 
-Additionally, I am using the internatinal language codes he maintained for bbCodeXtra, as well as an almost direct copy of the code he used to generate lists.
+Additionally, I am using the international language codes he maintained for bbCodeXtra, as well as an almost direct copy of the code he used to generate lists.
 
 #### Niklas Gollenstede \[NilkasG]
 Wrote the code used to access the contents of the clipboard, available at https://github.com/NiklasGollenstede/es6lib/, specifically the dom.js file. (Released under MIT License)
